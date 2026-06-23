@@ -1,18 +1,20 @@
-# 禁止提交环境密钥文件
+# ========== Environment ==========
 .env
-# 示例配置可以保留，不影响
-# .env.example
 
-# 忽略Python编译缓存文件（pyc）
+# 示例配置（需要提交）
+!.env.example
+
+# ========== Python ==========
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# 忽略运行日志、生成的报告文件夹
-E:/CodeX_File/reports/
+# ========== Logs ==========
 *.log
+logs/
 
-# 系统临时文件
+# ========== Reports ==========
+reports/
+
+# ========== System ==========
 .DS_Store
 Thumbs.db
