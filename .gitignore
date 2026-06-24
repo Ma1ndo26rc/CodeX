@@ -8,13 +8,19 @@
 __pycache__/
 *.py[cod]
 
+# ========== Frontend ==========
+frontend/node_modules/
+frontend/public/data/
+
 # ========== Logs ==========
 *.log
 logs/
 
 # ========== Reports ==========
-reports/
+reports/*.json
+
 
 # ========== System ==========
 .DS_Store
 Thumbs.db
+.agents

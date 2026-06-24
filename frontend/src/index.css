@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-color: #f6b739 transparent;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    font-family: "Cascadia Code", "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  ::selection {
+    background: rgba(246, 183, 57, 0.35);
+  }
+}
+
+@layer components {
+  .terminal-card {
+    @apply rounded-2xl border border-slate-300/80 shadow-sm backdrop-blur dark:border-terminal-line dark:shadow-terminal;
+    background: rgba(255, 255, 255, 0.78);
+  }
+
+  .dark .terminal-card {
+    background: rgba(10, 15, 20, 0.88);
+  }
+
+  .terminal-label {
+    @apply font-terminal text-[10px] uppercase tracking-[0.26em] text-slate-500 dark:text-slate-400;
+  }
+
+  .terminal-title {
+    @apply font-display text-lg font-black text-slate-950 dark:text-slate-50;
+  }
+
+  .terminal-grid {
+    background-image:
+      linear-gradient(rgba(35, 49, 61, 0.16) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(35, 49, 61, 0.16) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+}

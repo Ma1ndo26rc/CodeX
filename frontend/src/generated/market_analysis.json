@@ -1,0 +1,378 @@
+{
+  "market_summary": "The news flow is cautious to risk-off, based on 392 articles from MarketBeat, MSN, Yahoo Finance, AOL.com, Reuters. The dominant theme is macro, with 227 macro items, 60 company items, 87 industry items, and 18 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "index_performance_summary": "Nasdaq and growth indexes should be the most sensitive part of the tape when AI, semiconductor, mega-cap tech, or guidance stories dominate. S&P 500 direction is likely to remain tied to Treasury yields, Fed expectations, inflation data, and broad risk appetite. Dow and equal-weight exposure may react more to policy, regulation, tariff, and industrial-cycle headlines.",
+  "macro_outlook": "Macro coverage is concentrated around Fed/rates (108), growth/jobs (37), inflation (6), tariffs/policy (5). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_and_sentiment": "Sentiment is cautious to risk-off: 34 positive, 79 negative, and 279 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_data": {
+    "as_of": "2026-06-24T21:50:26.767816",
+    "items": [
+      {
+        "name": "SPY",
+        "symbol": "SPY",
+        "price": 735.93,
+        "change": -8.46,
+        "change_pct": -1.137,
+        "market_time": 1782309005
+      },
+      {
+        "name": "QQQ",
+        "symbol": "QQQ",
+        "price": 714.8,
+        "change": -23.15,
+        "change_pct": -3.137,
+        "market_time": 1782309013
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "price": 18.92,
+        "change": -0.57,
+        "change_pct": -2.925,
+        "market_time": 1782308116
+      },
+      {
+        "name": "10Y Yield",
+        "symbol": "^TNX",
+        "price": 4.428,
+        "change": -0.007,
+        "change_pct": -1.447,
+        "market_time": 1782308124
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "title": "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC",
+      "entities": [
+        "Gold",
+        "Fed",
+        "CNBC"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Gold falls as hawkish Fed bets lift dollar to one-year peak CNBC",
+      "market_impact_score": 74,
+      "sentiment_score": -0.35,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "CNBC",
+        "Reuters",
+        "Reuters"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQk40WHk5cDk1U1c3MkhNSVRVZVVjZHg1VmI3a2M0bE04Z0dmTDdnYURNWFZReHBvZnV3TTBxTGt1aU5BemhPNk0wM2RqMnlWQzhfamhhdzV5aDV5c2d0TGFndEhfclY5d2hkNmFEb25YRGpycWJoTTk4V2htLTl1UTZqRHl4bW84RHVjdlVhRHdTNzA2dDVFVkxabDVTZzDSAaQBQVVfeXFMTWxsUlprQjVCbWhsZkVFQUlCZGxmdGVGOXdZNXMzbnpRTWM5aFRwUk11Uk9qVHdTdnloRUdYaXIxMW9OTDh3UG5HclVxcGRYb3VVRGw5MGh1dm1kdC0xX1I1ZDAxVEttVnNuRjRHbDBuSWdXSi1zUzB2WG1fV25BNzhVb2FLUWxjb1NzQkEtUktBZ1F3STVidFE5Wm1lRVZfUHQzSEk?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles - Bloomberg",
+      "entities": [
+        "Oracle Cut",
+        "Jobs",
+        "Months",
+        "Says",
+        "Replaced Some",
+        "Roles"
+      ],
+      "sector": "macro",
+      "event_type": "sector_trend",
+      "summary": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles Bloomberg",
+      "market_impact_score": 74,
+      "sentiment_score": -0.35,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "source_names": [
+        "Bloomberg",
+        "The Business Times",
+        "News9live"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMm9CblE0Rkl2MFBzUVZKSjV2RnpSdU5wYTBJelpaUjBUbVpEN2p3QlhjRl95UmY2U3FMaEZuWV94cllGcElDT0RBWUVWREdLeUhQUG5UTV9kWElvcjRlVzVjZDdKaDBIWWxtWDRVQzQxbHFfVndHOFBqZW56NzhNRDBnNjRDalJVOC1TRUtHOEJfQnhOQ1hPVkhvbmYtZS10VGFBV0V6MGF1UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbUJoMFJhdTAzSHlQaldzUDBPT2J4Z2hZTXRWeXJEQVg1ZW5YU1dWUVBxMzF2dzlocGZqVC14a3l4Sm9Nbm5YVzVDUm5KQUVBQUp1bnBVWV9tV1JQM0JKME1NdUNLZGlFQkl5Z2xTR2NORUEwb2hVYlltcm9kcHNLVTZuTEJUWEd3MmZKaDZQQ3I5RlZkUkp0bmJUVjMycjBfcnNkZzNuTlV5TlhUNXB6YWRXdWc0amM3eVA0S2dsRjZNOHdEc2c?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLUsxVEFaWVpKbWUxUlpXUGFzaUc0TXNqQ1JieTlOTFBvaVdKVUxtRmxUUkR4eGd3ZG5rS0N6aS0zMlEwbHdRM3A3RnpUdkRQQ082eXdaN3dVcFZIVkRNRDZhSW5yQWJJajRuQ3RsODdPRHZIcW5WaXppWXZHZFZNcjVuaGVrSXgyWGdtTmdEckkzMjBZRVF1OHJIZFNzbmN3V2FELWI1V2lxeXJqeHFnYUoySzZhMFJHb0pCSHdqVVE2V01UVnlRV9IBzgFBVV95cUxNUWVpRmdqbEZXUzhaYVBVNkhfYnRuaHg3Sy1Mekoxdm56Z29HT0FLSmo5bnNPTHdObjR1VzNHbFp2akl2NHh1dHBuNlV2dlQ0WWRXVS01YlYyWWV0ZEVRLTJfdEpQM0h2VVZMX2syQVVNcFBXd2tmb1dsOGlTdjVMLWZUX1ZLeldGaFZtaW5LZmlRbkhvYzFFdmFpSFV2bXNNMU4yOU8wcHIxdWxsMVV4aC1FVzVmTGJVZHpiY1V4QWZjX1pDMFNOeDFUMVJ3Zw?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return - Yahoo Finance",
+      "entities": [
+        "Meet",
+        "Unstoppable Stock",
+        "That Obliterated",
+        "Nvidia",
+        "Broadcom",
+        "Advanced Micro"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return Yahoo Finance",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Yahoo Finance",
+        "The Motley Fool",
+        "AOL.com"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa2xrMDlYQXd0REpQMzgwS0s5WmkyY3BPZWYyYkdmbGdGbWM4aEZTeHFQWEZlNlI5dHliekhJYm1reVRlWGlDTjZBTnEyMzV0VzUzX2oyRmNXQ0xsdW9uX1ZjMVZjMmRFOVJlY2ktODViT2FMcnVhdkRtcjhMVkFCSFktemFzOGhiQk5lV0F3RnBIZkpjWjg2WU1DeHZBQThXZVd1T0NPbDRqdw?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYXptVHRrLVUxVlRaUkJESDA5ZVdpd1pyNVg4ZldtTDZFdjJVcTkzWTAxNTcxN3JFV1pSdmZCQ1g1Rlp0dWlLWGRsMThRSXpRUU1NOEJiQWh2NWpTeUE3UmtoT1l1SzEwelJwa0VLX2JYR0tkVlZjUGIwUjEtNTJLNVBCajVGckozTTh4cnZsTHhLcjhaWkdnNw?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVhWMWZkWmhRZHJMTzQzY2ZtaVB5VUtwMUFnajUzVkZTREtkOEJOeHJKU3lydHJkVE5tUUhEZkpROXYyMHRyckxvd1BMYURMdFJ6OXhrUXFUYmd4aDhLMFVYbXN4WGQwaTBlVzZHN3ZkZWNDNEgwd0lOZWNpdkJFZWtVazI5X1lQV3RUTWx3?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? - Reuters",
+      "entities": [
+        "Explainer",
+        "What",
+        "Fed",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries, Financials. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "S&P 500",
+        "US Treasuries",
+        "Financials"
+      ],
+      "source_names": [
+        "Reuters",
+        "Federal Reserve Bank of Minneapolis",
+        "mezha.net"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWdRZUVVMU1DNDNMOVMwaHFHVzY0andpb0JRYnJRb2VSRTZlQ1NjNmRRWTE4blNyVlpSZS1hMFVhMTNIcW1IMm9wUzJkTjhqUlZ0dUNkZXE0ZmNzMDBTc2hqd2l0M244NU9NdzFyb3pLd3dsUmxmWVZLY3dZR0phekpIVjl4eTRycXJESVZucTlGakhENFdWWU1sMnZ5NzhENm51LTROaw?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXzJYajRGNDVEWGhycDZtTTNXbjFwR0ZLeUhtLTY5QjhXZ18yeE83bVFVVnFHTnNGeUM5dVhzQzhfcnBIcnVmNkhVMTJIZ0tUeVh6dDV0OG1xb2pPN0lsTnJyQnlxcTNwNUlhem53eV80TEJYVVo1Z0pxS1BlM3pReWZiZGlnYmpJZlRibFZLRW03cHRNTHktS3JJdzZvYVhTdEY4WVVJWEJVZi16U3c?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ca1NqN0hmNzZ4LWNuSEpPOUxieXUtZjVPQ2x0alRDaGViUFJEd1JVdWdxQmdWNzhBSDRFaTJxVkVhaXdxMGxXZU9jaGZoVVBjOS0tSkY4ZUN0OFB3TGE4bWlhbG9mMUZSUHc?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Warsh has a chance to enact lasting reform at the Fed - Financial Times",
+      "entities": [
+        "Warsh",
+        "Fed",
+        "Financial Times"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Warsh has a chance to enact lasting reform at the Fed Financial Times",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries, Financials. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries",
+        "Financials"
+      ],
+      "source_names": [
+        "Financial Times",
+        "EIN News",
+        "The New York Times"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtWHVUMVotX1RjTm5pZTJoc1JuWGxtbC1WY0tlNVp6OThJNDAwc0RYY0ZRcjVDeEtsS3ExVWdvT3ktS0ZFUzc2UXVpSUNIWDFXNG1rdVhicE5yd1ZsN3VRVkJ6cTdzeldGY1pSaGlhWG0?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVhrRi1pUVJwMlRxUHF3UERtVmVfTmhnV1NvNVVNWlZXSFFnMWVtVWswdkR4VklwNW9rMWR0YlFZX3ZpdExMMlNRb3g2Z3pLMG95SVAxMHh0UjZxZnVUb2dTd1VwTVc3V0VPNHRPWEdOMnp0QjZPb1B1Sm90Q3hpSGdfYS1tT2hSNzBOUThjcFFwQXIxUEVUR0ctWm1EUFRETHV1dVItTl9NVm40cnlpR1JBMUc3d9IBuwFBVV95cUxOd1VqdExlNXBoc013OFlMUjZKOVNPUmtwN1YwczhmRW1OX0pqZEgyQmVCVDRhbklMcHpINFk0S014SDZWSElhbl9jY1AtdlNneGhfOHBWaWhKWE0zQjFHQUdqNERFTVdZMmRHQkNsTGRNM1RzeVdoWUI3UGsyckZwUGFxZHlZTWNUQWpla2J5S2pRcUpUVzM5ZllnX3JrdlpMdGQyeXdCQ0xHYjlHX0U3MTdpaEJGcFZlUTVV?oc=5",
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0tfUEZfVmd0OElQWlJTUWtCaW4tR2ZGYnh0R1Rpa2FPcjFUUDJ3WVkxMV96akstT3Y0Sy1IRDZtZXViZ1d2bDNyX2tBQU1Ldm5aX1B1MDZOaVJsRHdXc05pbTY0QzJRTEt3ZUc5Mlg3XzQzUk12MF9VNE5VeFgxNkhFVVd4TDQ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Fed hike could push yen to 165 per dollar, ex-BOJ policymaker says - Reuters",
+      "entities": [
+        "Fed",
+        "BOJ",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Fed hike could push yen to 165 per dollar, ex-BOJ policymaker says Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Reuters",
+        "Reuters",
+        "The Motley Fool"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcW9VNFh4NXBLR25vWUt1aE13YU5DRmhzY0V5ZlFlLXFhVTVLZVJieXBOWUxkc1otenkxRS0tQmJBc2kxMWNJVlpXRTFrNHNtS1UwQ3pzcHJFSWVRRFQ1ckdBLVAwdklEckYzU196Y1d1WWZqSV82T3JKSmJMX2k5QVBIUDI1c3JxakRrbkoxbWNDeWVTQWc?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Fed Chair Warsh to testify before lawmakers on July 14 - Reuters",
+      "entities": [
+        "Fed Chair",
+        "Warsh",
+        "July",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Fed Chair Warsh to testify before lawmakers on July 14 Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Reuters",
+        "Reuters",
+        "Foreign Policy"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXlEMVZfODl1V0NPdi0xQ2dJS0NFQ1lfN1FpN0RxYlE3YXRLYUNVeUx5UG9pVlZCbkZRWWJITTZzZFB0cGJ2LXB2WUJsU2lBWWZMRnB3LXJ3dlZmc3E0aFRoelRiRkw1X3MyT3o5dkZIX0pweWZmR0pWUlFjQURrc09uRWRJYjJjbU42c0tmb1Rabk9fSE5wMQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTR1cVZQdlFyS3QwYnlzbUk1VWR6dzlndDF5eEVqb0hTTjlIUzNnQUFSZ0pkSXN4ZC1idzNnMkItQWl5aFdZRExhN21GbzRlZmViX0NMRjd1LWo2TXh3NWRGdGJoWHVKVV9icnYzWUdaTVc5akRGa2pfLTZsRDlMVGdYTTJwVE01azdwNUU1dl9IUHpGOVhz?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
+      "entities": [
+        "Stocks",
+        "Fed",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Stocks drop as Fed rate bets hit tech royalty; dollar gains Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Reuters",
+        "Reuters",
+        "whbl.com"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZHZpSWRaY21iM1dkbjAyTGxnbHZNWTBtSFFjR3lBa0NoNkVaSGVCWVpHNzNzaUU0TGtnTFhKZFhidkoxZEdDNldMUlpKRk5wbWhFTE8tMXJab3hHTzFiei12cXZrMTNNSWxMRW04WDhWNXhZZjlMODVpOFVzUE5MT1FvZDFkcVFoM0xyTExzeUVjdV9mejRyQm42NGp3QV9HTzFzNzZtSQ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Fed's Goolsbee says labor market stable, inflation going the wrong way - Reuters",
+      "entities": [
+        "Fed",
+        "Goolsbee",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Fed's Goolsbee says labor market stable, inflation going the wrong way Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Reuters",
+        "富途牛牛",
+        "Reuters"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWlTMGpUVWVMbVFBNVgyWTFaQ3NVQjljOVB2RWdoNDlnbEhEX09SQkdoem9ocGFGc2lueWtqdDVWU3VvUnM0ZWRfalNESWwzejRTOGJJWTZsWHU2enJ4aExUNDZxU0doc2c5UTVxSGFWZTgtZXlmSHB4OTF1eUZNbU8zczVoMlN5UnFfNVFjeEJvVTY4ODI2c3poaG5FWk1LYWxiRVF1YzNrQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaGcwSk81Y3RfZVYxTmxyZnpGQzc4TkYwRm9lcnRfRG5IVVJMckpnM3pQMFJ0V2hlQnVNbXNyeGxQdmFzNmFRUTlFa2JhSFBUci1TNHRIaC1YRHItQ2dpbXZzTjVNLXppYVBPNy1HVU8xVll0dXFMdWFaLVBTSzlhOVhfUUJld05KbmJIbUtKQ01KaElXZ1VJMFRJVlExLXFJUU53U0h3?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Dollar rises to one-year high on Fed hike bets; yen hovers near 40-year low - Reuters",
+      "entities": [
+        "Dollar",
+        "Fed",
+        "Reuters"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Dollar rises to one-year high on Fed hike bets; yen hovers near 40-year low Reuters",
+      "market_impact_score": 68,
+      "sentiment_score": 0,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "source_names": [
+        "Reuters",
+        "Reuters",
+        "CNBC"
+      ],
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQk40WHk5cDk1U1c3MkhNSVRVZVVjZHg1VmI3a2M0bE04Z0dmTDdnYURNWFZReHBvZnV3TTBxTGt1aU5BemhPNk0wM2RqMnlWQzhfamhhdzV5aDV5c2d0TGFndEhfclY5d2hkNmFEb25YRGpycWJoTTk4V2htLTl1UTZqRHl4bW84RHVjdlVhRHdTNzA2dDVFVkxabDVTZzDSAaQBQVVfeXFMTWxsUlprQjVCbWhsZkVFQUlCZGxmdGVGOXdZNXMzbnpRTWM5aFRwUk11Uk9qVHdTdnloRUdYaXIxMW9OTDh3UG5HclVxcGRYb3VVRGw5MGh1dm1kdC0xX1I1ZDAxVEttVnNuRjRHbDBuSWdXSi1zUzB2WG1fV25BNzhVb2FLUWxjb1NzQkEtUktBZ1F3STVidFE5Wm1lRVZfUHQzSEk?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    }
+  ]
+}

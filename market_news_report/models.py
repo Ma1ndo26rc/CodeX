@@ -13,6 +13,7 @@ class NewsItem:
     published_at: datetime | None
     summary: str = ""
     content: str = ""
+    image_url: str = ""
     category: str = "uncategorized"
     sentiment: str = "neutral"
     dedupe_key: str = ""
@@ -30,6 +31,7 @@ class NewsItem:
             "published_at": self.published_at.isoformat() if self.published_at else None,
             "summary": self.summary,
             "content": self.content,
+            "image_url": self.image_url,
             "category": self.category,
             "sentiment": self.sentiment,
             "dedupe_key": self.dedupe_key,

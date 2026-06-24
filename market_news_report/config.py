@@ -28,6 +28,14 @@ class AppConfig:
     )
     timezone: str = os.getenv("TIMEZONE", "Asia/Shanghai")
     lookback_hours: int = int(os.getenv("LOOKBACK_HOURS", "24"))
+    fetch_timeout_seconds: int = int(os.getenv("FETCH_TIMEOUT_SECONDS", "12"))
+    market_data_timeout_seconds: int = int(os.getenv("MARKET_DATA_TIMEOUT_SECONDS", "12"))
+    google_news_keywords: str = os.getenv(
+        "GOOGLE_NEWS_KEYWORDS",
+        "US stock market,S&P 500,Nasdaq,Dow Jones,Federal Reserve,US earnings,"
+        "AI stocks,semiconductors,Mag 7 stocks,Tesla,Nvidia,Apple,Microsoft,Amazon,Meta,Google stock,"
+        "bank stocks,energy stocks,retail earnings,small cap stocks,US Treasury yields,oil prices",
+    )
 
 
 CONFIG = AppConfig()
