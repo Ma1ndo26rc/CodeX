@@ -15,6 +15,7 @@ const targetAnalysisPath = path.join(publicDataDir, "market_analysis.json");
 const targetTrendsPath = path.join(publicDataDir, "market_trends.json");
 const targetHistoryPath = path.join(publicDataDir, "market_history.json");
 const targetAssetsDir = path.join(publicDataDir, "assets");
+const sourceAssetsDir = path.join(reportsDir, "assets");
 const generatedAnalysisPath = path.join(generatedDataDir, "market_analysis.json");
 const generatedTrendsPath = path.join(generatedDataDir, "market_trends.json");
 const generatedHistoryPath = path.join(generatedDataDir, "market_history.json");
@@ -67,7 +68,8 @@ function readJsonIfExists(filePath, fallback) {
 
 ensureDir(publicDataDir);
 ensureDir(generatedDataDir);
-copyDir(path.join(reportsDir, "assets"), targetAssetsDir);
+copyDir(sourceAssetsDir, targetAssetsDir);
+const hasLocalReportAssets = fs.existsSync(sourceAssetsDir);
 
 let analysis = {
   market_summary: "No report data available yet. Run python main.py to generate market_analysis.json.",
@@ -82,7 +84,7 @@ analysis = readJsonIfExists(sourceAnalysisPath, readJsonIfExists(generatedAnalys
 
 analysis.key_events = (analysis.key_events ?? []).map((event) => ({
   ...event,
-  image_paths: (event.image_paths ?? []).map(normalizeAssetPath),
+  image_paths: hasLocalReportAssets ? (event.image_paths ?? []).map(normalizeAssetPath) : [],
 }));
 
 fs.writeFileSync(targetAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
