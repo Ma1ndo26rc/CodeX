@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T14:38:05.323Z",
+  "generated_at": "2026-06-26T17:17:54.635Z",
   "reports": {
-    "markdown": "../reports/US_STOCK_DAILY_20260624_004744.md",
-    "pdf": "../reports/US_STOCK_DAILY_20260624_004744.pdf",
-    "json": "../reports/US_STOCK_DAILY_20260624_004744.json",
+    "markdown": "../reports/US_STOCK_DAILY_20260627_005036.md",
+    "pdf": "../reports/US_STOCK_DAILY_20260627_005036.pdf",
+    "json": "../reports/US_STOCK_DAILY_20260627_005036.json",
     "standard_json": "../reports/market_analysis.json"
   },
   "assets": {

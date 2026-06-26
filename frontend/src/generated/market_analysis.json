@@ -1,375 +1,324 @@
 {
-  "market_summary": "The news flow is cautious to risk-off, based on 392 articles from MarketBeat, MSN, Yahoo Finance, AOL.com, Reuters. The dominant theme is macro, with 227 macro items, 60 company items, 87 industry items, and 18 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "index_performance_summary": "Nasdaq and growth indexes should be the most sensitive part of the tape when AI, semiconductor, mega-cap tech, or guidance stories dominate. S&P 500 direction is likely to remain tied to Treasury yields, Fed expectations, inflation data, and broad risk appetite. Dow and equal-weight exposure may react more to policy, regulation, tariff, and industrial-cycle headlines.",
-  "macro_outlook": "Macro coverage is concentrated around Fed/rates (108), growth/jobs (37), inflation (6), tariffs/policy (5). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_and_sentiment": "Sentiment is cautious to risk-off: 34 positive, 79 negative, and 279 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "A broad-based tech sell-off dominated U.S. equity markets on Friday, triggered by a report that OpenAI is delaying its IPO until 2027. The Nasdaq Composite fell sharply, while the Dow Jones Industrial Average managed modest gains on a rotation into energy and financial stocks. Rising inflation above 4%, hawkish Fed commentary, and fresh geopolitical tensions in the Strait of Hormuz added to risk-off sentiment. Commodities saw steep declines, with gold and silver falling significantly, while crude oil rose on supply fears.",
+  "index_performance_summary": "The Dow Jones Industrial Average edged up approximately 0.1%, recovering from early losses. The S&P 500 fell about 0.5%, breaking a key technical level, while the Nasdaq Composite dropped roughly 1.2%, pressured by semiconductor and mega-cap tech names. The Russell 2000 underperformed, sliding 0.8%.",
+  "macro_outlook": "Inflation remains elevated above 4%, with Minneapolis Fed President Kashkari signaling a rate hike later this year. The U.S. dollar weakened for a second straight day but remained on track for a weekly gain. Trade data showed a widening goods deficit as imports surged. Gold and silver extended their monthly losses, down over 11% and 9% respectively since June 1, reflecting higher real rates and a hawkish Fed. The Strait of Hormuz remains a flashpoint after Iran allegedly violated the ceasefire, supporting oil prices. Mortgage rates stayed relatively flat. A massive $30 billion in new equity supply is expected to hit the market in the coming days, adding potential headwinds.",
+  "risk_and_sentiment": "Risk sentiment is negative, driven by a confluence of factors: the OpenAI IPO delay undermining AI hype, hawkish Fed rhetoric, persistent inflation, and geopolitical uncertainty in the Middle East. The CBOE Volatility Index (VIX) likely spiked. The tech sector is experiencing a sharp rotation out of semiconductors into software and defense. Insider selling activity has picked up. Investor sentiment is cautious ahead of the end of the quarter and large equity supply flows.",
   "market_data": {
-    "as_of": "2026-06-24T21:50:26.767816",
+    "as_of": "2026-06-27T00:50:23.051820",
     "items": [
       {
         "name": "SPY",
         "symbol": "SPY",
-        "price": 735.93,
-        "change": -8.46,
-        "change_pct": -1.137,
-        "market_time": 1782309005
+        "price": 734.364,
+        "change": 1.124,
+        "change_pct": 0.153,
+        "market_time": 1782492615
       },
       {
         "name": "QQQ",
         "symbol": "QQQ",
-        "price": 714.8,
-        "change": -23.15,
-        "change_pct": -3.137,
-        "market_time": 1782309013
+        "price": 713.2,
+        "change": 2.58,
+        "change_pct": 0.363,
+        "market_time": 1782492617
       },
       {
         "name": "VIX",
         "symbol": "^VIX",
-        "price": 18.92,
-        "change": -0.57,
-        "change_pct": -2.925,
-        "market_time": 1782308116
+        "price": 18.93,
+        "change": 0.04,
+        "change_pct": 0.212,
+        "market_time": 1782491716
       },
       {
         "name": "10Y Yield",
         "symbol": "^TNX",
-        "price": 4.428,
-        "change": -0.007,
-        "change_pct": -1.447,
-        "market_time": 1782308124
+        "price": 4.372,
+        "change": -0.002,
+        "change_pct": -0.455,
+        "market_time": 1782491715
       }
     ]
   },
   "key_events": [
     {
-      "title": "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC",
+      "title": "OpenAI Reportedly Delays IPO Until 2027, Rattling Tech Stocks",
       "entities": [
-        "Gold",
-        "Fed",
-        "CNBC"
+        "OpenAI",
+        "Nvidia",
+        "Micron",
+        "Nasdaq"
       ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Gold falls as hawkish Fed bets lift dollar to one-year peak CNBC",
-      "market_impact_score": 74,
-      "sentiment_score": -0.35,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "sector": "Technology",
+      "event_type": "Corporate",
+      "summary": "A CNBC report indicated that OpenAI has not yet held pre-IPO meetings and sources suggest the offering may be delayed until 2027, contrary to market expectations. The news triggered a sharp sell-off in AI-related stocks, with Nvidia, Micron, and other semiconductor names falling hard. Kalshi prediction markets give only one-in-three odds of a 2026 IPO.",
+      "market_impact_score": 85,
+      "sentiment_score": -0.6,
+      "time_horizon": "short-term",
+      "why_it_matters": "The IPO delay challenges the current valuation narrative around AI companies and raises questions about the monetization timeline for foundational AI models. It directly pressures high-multiple tech stocks and could lead to a broader de-rating of the AI trade.",
       "affected_markets": [
-        "US equities",
-        "S&P 500",
-        "US Treasuries"
+        "US Equities",
+        "Technology",
+        "Semiconductors"
       ],
       "source_names": [
         "CNBC",
-        "Reuters",
-        "Reuters"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQk40WHk5cDk1U1c3MkhNSVRVZVVjZHg1VmI3a2M0bE04Z0dmTDdnYURNWFZReHBvZnV3TTBxTGt1aU5BemhPNk0wM2RqMnlWQzhfamhhdzV5aDV5c2d0TGFndEhfclY5d2hkNmFEb25YRGpycWJoTTk4V2htLTl1UTZqRHl4bW84RHVjdlVhRHdTNzA2dDVFVkxabDVTZzDSAaQBQVVfeXFMTWxsUlprQjVCbWhsZkVFQUlCZGxmdGVGOXdZNXMzbnpRTWM5aFRwUk11Uk9qVHdTdnloRUdYaXIxMW9OTDh3UG5HclVxcGRYb3VVRGw5MGh1dm1kdC0xX1I1ZDAxVEttVnNuRjRHbDBuSWdXSi1zUzB2WG1fV25BNzhVb2FLUWxjb1NzQkEtUktBZ1F3STVidFE5Wm1lRVZfUHQzSEk?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles - Bloomberg",
-      "entities": [
-        "Oracle Cut",
-        "Jobs",
-        "Months",
-        "Says",
-        "Replaced Some",
-        "Roles"
-      ],
-      "sector": "macro",
-      "event_type": "sector_trend",
-      "summary": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles Bloomberg",
-      "market_impact_score": 74,
-      "sentiment_score": -0.35,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "Nasdaq"
-      ],
-      "source_names": [
-        "Bloomberg",
-        "The Business Times",
-        "News9live"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMm9CblE0Rkl2MFBzUVZKSjV2RnpSdU5wYTBJelpaUjBUbVpEN2p3QlhjRl95UmY2U3FMaEZuWV94cllGcElDT0RBWUVWREdLeUhQUG5UTV9kWElvcjRlVzVjZDdKaDBIWWxtWDRVQzQxbHFfVndHOFBqZW56NzhNRDBnNjRDalJVOC1TRUtHOEJfQnhOQ1hPVkhvbmYtZS10VGFBV0V6MGF1UQ?oc=5",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbUJoMFJhdTAzSHlQaldzUDBPT2J4Z2hZTXRWeXJEQVg1ZW5YU1dWUVBxMzF2dzlocGZqVC14a3l4Sm9Nbm5YVzVDUm5KQUVBQUp1bnBVWV9tV1JQM0JKME1NdUNLZGlFQkl5Z2xTR2NORUEwb2hVYlltcm9kcHNLVTZuTEJUWEd3MmZKaDZQQ3I5RlZkUkp0bmJUVjMycjBfcnNkZzNuTlV5TlhUNXB6YWRXdWc0amM3eVA0S2dsRjZNOHdEc2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLUsxVEFaWVpKbWUxUlpXUGFzaUc0TXNqQ1JieTlOTFBvaVdKVUxtRmxUUkR4eGd3ZG5rS0N6aS0zMlEwbHdRM3A3RnpUdkRQQ082eXdaN3dVcFZIVkRNRDZhSW5yQWJJajRuQ3RsODdPRHZIcW5WaXppWXZHZFZNcjVuaGVrSXgyWGdtTmdEckkzMjBZRVF1OHJIZFNzbmN3V2FELWI1V2lxeXJqeHFnYUoySzZhMFJHb0pCSHdqVVE2V01UVnlRV9IBzgFBVV95cUxNUWVpRmdqbEZXUzhaYVBVNkhfYnRuaHg3Sy1Mekoxdm56Z29HT0FLSmo5bnNPTHdObjR1VzNHbFp2akl2NHh1dHBuNlV2dlQ0WWRXVS01YlYyWWV0ZEVRLTJfdEpQM0h2VVZMX2syQVVNcFBXd2tmb1dsOGlTdjVMLWZUX1ZLeldGaFZtaW5LZmlRbkhvYzFFdmFpSFV2bXNNMU4yOU8wcHIxdWxsMVV4aC1FVzVmTGJVZHpiY1V4QWZjX1pDMFNOeDFUMVJ3Zw?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return - Yahoo Finance",
-      "entities": [
-        "Meet",
-        "Unstoppable Stock",
-        "That Obliterated",
-        "Nvidia",
-        "Broadcom",
-        "Advanced Micro"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return Yahoo Finance",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "Nasdaq",
-        "S&P 500",
-        "US Treasuries"
-      ],
-      "source_names": [
         "Yahoo Finance",
-        "The Motley Fool",
-        "AOL.com"
+        "FXEmpire"
       ],
       "source_urls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa2xrMDlYQXd0REpQMzgwS0s5WmkyY3BPZWYyYkdmbGdGbWM4aEZTeHFQWEZlNlI5dHliekhJYm1reVRlWGlDTjZBTnEyMzV0VzUzX2oyRmNXQ0xsdW9uX1ZjMVZjMmRFOVJlY2ktODViT2FMcnVhdkRtcjhMVkFCSFktemFzOGhiQk5lV0F3RnBIZkpjWjg2WU1DeHZBQThXZVd1T0NPbDRqdw?oc=5",
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYXptVHRrLVUxVlRaUkJESDA5ZVdpd1pyNVg4ZldtTDZFdjJVcTkzWTAxNTcxN3JFV1pSdmZCQ1g1Rlp0dWlLWGRsMThRSXpRUU1NOEJiQWh2NWpTeUE3UmtoT1l1SzEwelJwa0VLX2JYR0tkVlZjUGIwUjEtNTJLNVBCajVGckozTTh4cnZsTHhLcjhaWkdnNw?oc=5",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVhWMWZkWmhRZHJMTzQzY2ZtaVB5VUtwMUFnajUzVkZTREtkOEJOeHJKU3lydHJkVE5tUUhEZkpROXYyMHRyckxvd1BMYURMdFJ6OXhrUXFUYmd4aDhLMFVYbXN4WGQwaTBlVzZHN3ZkZWNDNEgwd0lOZWNpdkJFZWtVazI5X1lQV3RUTWx3?oc=5"
+        "https://www.cnbc.com/2026/06/26/open-ai-ipo-timeline-investors.html",
+        "https://finance.yahoo.com/technology/article/ai-trade-hits-a-wall-amid-report-that-openai-will-delay-ipo-until-2027-150642366.html",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXhqbUhIRFNVVDB2ZUZVOXZjS1pQeWZnZHgxZWNIYVdXS1hWc2dNMWY3ZDkwRHJBTEZHcDNXM1Q4eWRWbjAzNEJTenBCR0tMMjhCSjBMdTVQLTF3a3VoTFAtU0dBMERmbWdEQkZJSlZoMi10c1MtUnlzU0J1ZDFhOUxkMXo5ZzVpMWxuYXkzMi1VVGY5Zm1hYkxGTWdmQ3Q2VXo4Y2dsWnlGXzdJMzFUaE9yN2VsVnlCMWlz?oc=5"
       ],
       "image_urls": [],
       "image_paths": []
     },
     {
-      "title": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? - Reuters",
+      "title": "Fed's Kashkari Expects a Rate Hike This Year as Inflation Tops 4%",
       "entities": [
-        "Explainer",
-        "What",
-        "Fed",
-        "Reuters"
+        "Neel Kashkari",
+        "Federal Reserve",
+        "Kevin Warsh",
+        "US Treasury"
       ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries, Financials. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "sector": "Macro",
+      "event_type": "Monetary Policy",
+      "summary": "Minneapolis Fed President Neel Kashkari stated that he expects a rate hike this year, citing inflation persistently above 4%. President Trump continues to call for rate cuts but has eased pressure on Fed Chairman Warsh. Chicago Fed's Goolsbee echoed that inflation is too high. The comments reinforced expectations of tighter policy.",
+      "market_impact_score": 75,
+      "sentiment_score": -0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "A rate hike would be a significant shift from the previous dovish pivot and would likely strengthen the dollar, pressure growth stocks, and increase borrowing costs. Markets have been pricing in cuts, so a hike repricing could trigger volatility across asset classes.",
       "affected_markets": [
-        "US equities",
-        "Nasdaq",
-        "S&P 500",
         "US Treasuries",
-        "Financials"
-      ],
-      "source_names": [
-        "Reuters",
-        "Federal Reserve Bank of Minneapolis",
-        "mezha.net"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRWdRZUVVMU1DNDNMOVMwaHFHVzY0andpb0JRYnJRb2VSRTZlQ1NjNmRRWTE4blNyVlpSZS1hMFVhMTNIcW1IMm9wUzJkTjhqUlZ0dUNkZXE0ZmNzMDBTc2hqd2l0M244NU9NdzFyb3pLd3dsUmxmWVZLY3dZR0phekpIVjl4eTRycXJESVZucTlGakhENFdWWU1sMnZ5NzhENm51LTROaw?oc=5",
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxQXzJYajRGNDVEWGhycDZtTTNXbjFwR0ZLeUhtLTY5QjhXZ18yeE83bVFVVnFHTnNGeUM5dVhzQzhfcnBIcnVmNkhVMTJIZ0tUeVh6dDV0OG1xb2pPN0lsTnJyQnlxcTNwNUlhem53eV80TEJYVVo1Z0pxS1BlM3pReWZiZGlnYmpJZlRibFZLRW03cHRNTHktS3JJdzZvYVhTdEY4WVVJWEJVZi16U3c?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Ca1NqN0hmNzZ4LWNuSEpPOUxieXUtZjVPQ2x0alRDaGViUFJEd1JVdWdxQmdWNzhBSDRFaTJxVkVhaXdxMGxXZU9jaGZoVVBjOS0tSkY4ZUN0OFB3TGE4bWlhbG9mMUZSUHc?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Warsh has a chance to enact lasting reform at the Fed - Financial Times",
-      "entities": [
-        "Warsh",
-        "Fed",
-        "Financial Times"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Warsh has a chance to enact lasting reform at the Fed Financial Times",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries, Financials. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "S&P 500",
-        "US Treasuries",
-        "Financials"
-      ],
-      "source_names": [
-        "Financial Times",
-        "EIN News",
-        "The New York Times"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtWHVUMVotX1RjTm5pZTJoc1JuWGxtbC1WY0tlNVp6OThJNDAwc0RYY0ZRcjVDeEtsS3ExVWdvT3ktS0ZFUzc2UXVpSUNIWDFXNG1rdVhicE5yd1ZsN3VRVkJ6cTdzeldGY1pSaGlhWG0?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObVhrRi1pUVJwMlRxUHF3UERtVmVfTmhnV1NvNVVNWlZXSFFnMWVtVWswdkR4VklwNW9rMWR0YlFZX3ZpdExMMlNRb3g2Z3pLMG95SVAxMHh0UjZxZnVUb2dTd1VwTVc3V0VPNHRPWEdOMnp0QjZPb1B1Sm90Q3hpSGdfYS1tT2hSNzBOUThjcFFwQXIxUEVUR0ctWm1EUFRETHV1dVItTl9NVm40cnlpR1JBMUc3d9IBuwFBVV95cUxOd1VqdExlNXBoc013OFlMUjZKOVNPUmtwN1YwczhmRW1OX0pqZEgyQmVCVDRhbklMcHpINFk0S014SDZWSElhbl9jY1AtdlNneGhfOHBWaWhKWE0zQjFHQUdqNERFTVdZMmRHQkNsTGRNM1RzeVdoWUI3UGsyckZwUGFxZHlZTWNUQWpla2J5S2pRcUpUVzM5ZllnX3JrdlpMdGQyeXdCQ0xHYjlHX0U3MTdpaEJGcFZlUTVV?oc=5",
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0tfUEZfVmd0OElQWlJTUWtCaW4tR2ZGYnh0R1Rpa2FPcjFUUDJ3WVkxMV96akstT3Y0Sy1IRDZtZXViZ1d2bDNyX2tBQU1Ldm5aX1B1MDZOaVJsRHdXc05pbTY0QzJRTEt3ZUc5Mlg3XzQzUk12MF9VNE5VeFgxNkhFVVd4TDQ?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Fed hike could push yen to 165 per dollar, ex-BOJ policymaker says - Reuters",
-      "entities": [
-        "Fed",
-        "BOJ",
-        "Reuters"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Fed hike could push yen to 165 per dollar, ex-BOJ policymaker says Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "S&P 500",
-        "US Treasuries"
-      ],
-      "source_names": [
-        "Reuters",
-        "Reuters",
-        "The Motley Fool"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcW9VNFh4NXBLR25vWUt1aE13YU5DRmhzY0V5ZlFlLXFhVTVLZVJieXBOWUxkc1otenkxRS0tQmJBc2kxMWNJVlpXRTFrNHNtS1UwQ3pzcHJFSWVRRFQ1ckdBLVAwdklEckYzU196Y1d1WWZqSV82T3JKSmJMX2k5QVBIUDI1c3JxakRrbkoxbWNDeWVTQWc?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Fed Chair Warsh to testify before lawmakers on July 14 - Reuters",
-      "entities": [
-        "Fed Chair",
-        "Warsh",
-        "July",
-        "Reuters"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Fed Chair Warsh to testify before lawmakers on July 14 Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "Nasdaq",
-        "S&P 500",
-        "US Treasuries"
-      ],
-      "source_names": [
-        "Reuters",
-        "Reuters",
-        "Foreign Policy"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeXlEMVZfODl1V0NPdi0xQ2dJS0NFQ1lfN1FpN0RxYlE3YXRLYUNVeUx5UG9pVlZCbkZRWWJITTZzZFB0cGJ2LXB2WUJsU2lBWWZMRnB3LXJ3dlZmc3E0aFRoelRiRkw1X3MyT3o5dkZIX0pweWZmR0pWUlFjQURrc09uRWRJYjJjbU42c0tmb1Rabk9fSE5wMQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTR1cVZQdlFyS3QwYnlzbUk1VWR6dzlndDF5eEVqb0hTTjlIUzNnQUFSZ0pkSXN4ZC1idzNnMkItQWl5aFdZRExhN21GbzRlZmViX0NMRjd1LWo2TXh3NWRGdGJoWHVKVV9icnYzWUdaTVc5akRGa2pfLTZsRDlMVGdYTTJwVE01azdwNUU1dl9IUHpGOVhz?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters",
-      "entities": [
-        "Stocks",
-        "Fed",
-        "Reuters"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Stocks drop as Fed rate bets hit tech royalty; dollar gains Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "Nasdaq",
-        "S&P 500",
-        "US Treasuries"
-      ],
-      "source_names": [
-        "Reuters",
-        "Reuters",
-        "whbl.com"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZHZpSWRaY21iM1dkbjAyTGxnbHZNWTBtSFFjR3lBa0NoNkVaSGVCWVpHNzNzaUU0TGtnTFhKZFhidkoxZEdDNldMUlpKRk5wbWhFTE8tMXJab3hHTzFiei12cXZrMTNNSWxMRW04WDhWNXhZZjlMODVpOFVzUE5MT1FvZDFkcVFoM0xyTExzeUVjdV9mejRyQm42NGp3QV9HTzFzNzZtSQ?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Fed's Goolsbee says labor market stable, inflation going the wrong way - Reuters",
-      "entities": [
-        "Fed",
-        "Goolsbee",
-        "Reuters"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Fed's Goolsbee says labor market stable, inflation going the wrong way Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "S&P 500",
-        "US Treasuries"
-      ],
-      "source_names": [
-        "Reuters",
-        "富途牛牛",
-        "Reuters"
-      ],
-      "source_urls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWlTMGpUVWVMbVFBNVgyWTFaQ3NVQjljOVB2RWdoNDlnbEhEX09SQkdoem9ocGFGc2lueWtqdDVWU3VvUnM0ZWRfalNESWwzejRTOGJJWTZsWHU2enJ4aExUNDZxU0doc2c5UTVxSGFWZTgtZXlmSHB4OTF1eUZNbU8zczVoMlN5UnFfNVFjeEJvVTY4ODI2c3poaG5FWk1LYWxiRVF1YzNrQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaGcwSk81Y3RfZVYxTmxyZnpGQzc4TkYwRm9lcnRfRG5IVVJMckpnM3pQMFJ0V2hlQnVNbXNyeGxQdmFzNmFRUTlFa2JhSFBUci1TNHRIaC1YRHItQ2dpbXZzTjVNLXppYVBPNy1HVU8xVll0dXFMdWFaLVBTSzlhOVhfUUJld05KbmJIbUtKQ01KaElXZ1VJMFRJVlExLXFJUU53U0h3?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5"
-      ],
-      "image_urls": [],
-      "image_paths": []
-    },
-    {
-      "title": "Dollar rises to one-year high on Fed hike bets; yen hovers near 40-year low - Reuters",
-      "entities": [
+        "US Equities",
         "Dollar",
-        "Fed",
-        "Reuters"
-      ],
-      "sector": "macro",
-      "event_type": "monetary_policy",
-      "summary": "Dollar rises to one-year high on Fed hike bets; yen hovers near 40-year low Reuters",
-      "market_impact_score": 68,
-      "sentiment_score": 0,
-      "time_horizon": "short-to-medium term",
-      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
-      "affected_markets": [
-        "US equities",
-        "S&P 500",
-        "US Treasuries"
+        "Gold"
       ],
       "source_names": [
-        "Reuters",
-        "Reuters",
+        "CNBC",
+        "CNBC",
         "CNBC"
       ],
       "source_urls": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTZaN2d6TjZIVW5UZmtUUFZ1YW9jUzZTYTYyMUFHR1pZMW5sVWRaMy1FQ3RHelRBc1Z5d2REUE9ONm9telQxalNZNEF3OEZBYkVyay1EN25DSFJYUEFxb0FRN0dmTVprc3dCZ0d5ME9tWGEwMzRRRGJLYXJBemJGMU94LTlXOTkxVURVUUZnZHViejVha25OQ0FjcklUR0ktM2dnZHdtelpnem40dnpSQmVra2R1ZU5Z?oc=5",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNHhFYmNIQXNTd1dYazhFU1YzeG5ySmpBbWJuRmNCbUdySURTd3E0VDhqOGtTNFp1ZGFsdXpMNXUtclZLc2dnaThOQ3RYS2pwZ1YtYzljenRocm5HeUV2dXJ1VnY5R1VUUG5SLU5NZ2g3bnZtWVM3eUpuWlBvS1NMU083R080QVRWbFJVczlCMnpxM19HT3J0VmlrT3d6RzZsMjNDdFB3NS1MVWd5ZnNCX2ZKUk1lcVhy?oc=5",
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQk40WHk5cDk1U1c3MkhNSVRVZVVjZHg1VmI3a2M0bE04Z0dmTDdnYURNWFZReHBvZnV3TTBxTGt1aU5BemhPNk0wM2RqMnlWQzhfamhhdzV5aDV5c2d0TGFndEhfclY5d2hkNmFEb25YRGpycWJoTTk4V2htLTl1UTZqRHl4bW84RHVjdlVhRHdTNzA2dDVFVkxabDVTZzDSAaQBQVVfeXFMTWxsUlprQjVCbWhsZkVFQUlCZGxmdGVGOXdZNXMzbnpRTWM5aFRwUk11Uk9qVHdTdnloRUdYaXIxMW9OTDh3UG5HclVxcGRYb3VVRGw5MGh1dm1kdC0xX1I1ZDAxVEttVnNuRjRHbDBuSWdXSi1zUzB2WG1fV25BNzhVb2FLUWxjb1NzQkEtUktBZ1F3STVidFE5Wm1lRVZfUHQzSEk?oc=5"
+        "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
+        "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVjdCS0dPWlNzTHN4N2hDc0VOQVd0TFdDVnFBNkVrWnotY04wb1dlREwzOFVZNFA3Y0NhcmhVU1BCOXpfdnBrdHFMSTd1MllnZF9hOTdkemdNamI0WW5WSnY4Q2txTkZjWEQxWGMtNTBJRmhtRUpYaTZ0c3RsbkFCY2p0Y282X2tRdnZ1MFkzNGFpRmlBXzl0dXphN3dydWVvaWJOVWtpakd4Z3dUQXc0bXZiQUXSAboBQVVfeXFMTWJtUDk0c0VfbkNMbi1RU2U5dTVFS2hrM0xfWmdIek9CLTBjNGRuTlJLQ2d2X1J4Sm1xN21TNG1FS2YtTmVqN3M3UUg3elpUTzc4VU4zUDNmQ004UmVWdUFJWDlTX0MtaFpvQ0lRLVJuZVFJOWt0YWlRZ2tpY3ViTWgyVXNnSFhpaGlxNERiZzFaRXVEcmNWYXdBb0E3SWZnZDUtVGQ0RGhCNFV5dlF1UlRaOUhUSUpablhR?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Iran Violates Ceasefire, Drone Attacks on Strait of Hormuz Ships Drive Oil Higher",
+      "entities": [
+        "Iran",
+        "US",
+        "Strait of Hormuz",
+        "Crude Oil",
+        "DHT Holdings"
+      ],
+      "sector": "Energy",
+      "event_type": "Geopolitical",
+      "summary": "President Trump stated that Iran violated the ceasefire with drone attacks on ships in the Strait of Hormuz. The International Maritime Organization paused rescue efforts after a cargo vessel was struck. Oil prices rose on supply disruption fears. The energy sector saw selective buying, with tanker stocks like DHT testing support.",
+      "market_impact_score": 80,
+      "sentiment_score": -0.4,
+      "time_horizon": "short-term",
+      "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil shipments. Any sustained disruption could spike crude prices significantly, feeding into inflation and hurting import-dependent economies. It also adds a risk premium to energy equities and shipping stocks.",
+      "affected_markets": [
+        "Crude Oil",
+        "Energy Stocks",
+        "Shipping",
+        "Middle East FX"
+      ],
+      "source_names": [
+        "CNBC",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/trump-iran-ceasefire-strait-of-hormuz.html",
+        "https://www.marketwatch.com/story/iran-tightens-its-grip-on-strait-of-hormuz-sending-oil-higher-f3bc53a1",
+        "https://www.marketwatch.com/story/iran-tightens-its-grip-on-strait-of-hormuz-sending-oil-higher-f3bc53a1?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-42221647"
+      ],
+      "image_paths": [
+        "data/assets/images/event_03_01.jpg"
+      ]
+    },
+    {
+      "title": "SEC Targets Private Equity's $106 Billion Tax Strategy",
+      "entities": [
+        "SEC",
+        "Private Equity",
+        "Blackstone",
+        "Apollo Global Management"
+      ],
+      "sector": "Financials",
+      "event_type": "Regulatory",
+      "summary": "The SEC is scrutinizing a common private equity practice involving a $106 billion tax loophole used to shield carried interest. This regulatory action could force PE firms to restructure their fee arrangements and potentially lower net returns to general partners.",
+      "market_impact_score": 55,
+      "sentiment_score": -0.3,
+      "time_horizon": "long-term",
+      "why_it_matters": "If the SEC successfully closes this loophole, it would reduce profitability for major private equity firms, potentially leading to lower distribution yields for investors and a shift in how PE deals are structured. Publicly traded PE stocks could face headwinds.",
+      "affected_markets": [
+        "Private Equity",
+        "Financials",
+        "Alternative Asset Managers"
+      ],
+      "source_names": [
+        "Yahoo Finance",
+        "Trefis",
+        "Yahoo Finance"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/sec-zeroes-private-equity-favorite-163300468.html",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNREUwZ0pmVk1haEVIckVZN3Q1UlBHcldBSlJqRUJhSERhdGJpS0p3N19RSDloTm5iSHBLaFlReUhoRDd5S0FtWmd3V0E5SlR1MUNISjBHOWhhbFNZRVJhT09WVDEwTWJfUk9fTlJ1Zm9NZWpyZUpfYkZPRjVxTXdQaWpTWjh4aTdIbjQ1cUJLZFRoT0IyaFVLdDY4QnZMdF9oa0taZE5MMVFXVlJqVVc1bXlVeUtibG1aYm0ybW9hbEJOUQ?oc=5",
+        "https://www.investors.com/news/tesla-amazon-waymo-robotaxi-cybercab-self-driving-car-fsd/?src=A00220&yptr=yahoo"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/thestreet_881/88926e8221985e6aa7e68bc144f97663",
+        "https://media.zenfs.com/en/ibd.com/58bf42c749d90f7e3e8df96a672ea38c"
+      ],
+      "image_paths": [
+        "data/assets/images/event_04_01.jpg"
+      ]
+    },
+    {
+      "title": "ON Semiconductor Tanks 20% After $7 Billion Synaptics Deal",
+      "entities": [
+        "ON Semiconductor",
+        "Synaptics",
+        "Hassane El-Khoury"
+      ],
+      "sector": "Technology",
+      "event_type": "Merger and Acquisition",
+      "summary": "ON Semiconductor announced a $7 billion acquisition of Synaptics to push into physical AI, expanding its addressable market by $30 billion. However, investors punished the stock with a 20% decline, concerned about integration risk and the dilutive financing. The CEO defended the move as a strategic pivot.",
+      "market_impact_score": 60,
+      "sentiment_score": -0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "The deal signals a major M&A trend in physical AI but also highlights market skepticism toward large acquisitions in a high-interest-rate environment. It could set the tone for other semiconductor M&A and impact the sector's valuation multiples.",
+      "affected_markets": [
+        "Semiconductors",
+        "Hardware",
+        "M&A"
+      ],
+      "source_names": [
+        "CNBC",
+        "CNBC",
+        "富途牛牛"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury.html",
+        "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2xhZnVZX0t3QkVWQWh2M09hU2dGWnhvek16WkI3elFtX2ZaaEQteWY3NzVEQnpsbmN4WDlITFlvaV9tOGtpdnFOUUtxODNuXzRGd0tLSnJVLS1wWnFVSkpYVDc1TzN4MW84bGZBYWFxMFNHNTEydklRbE5ZZkhYSUxwbUFHVEl3SGVRQ1hURQ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Robotaxi Regulatory Rollback Set to Benefit Tesla, Amazon, Google",
+      "entities": [
+        "Tesla",
+        "Amazon",
+        "Google",
+        "Waymo",
+        "Robotaxi"
+      ],
+      "sector": "Technology",
+      "event_type": "Regulatory",
+      "summary": "A U.S. regulatory rollback for autonomous vehicles is expected to ease deployment of robotaxis, benefiting companies like Tesla (Cybercab), Amazon's Zoox, and Google's Waymo. The move reduces compliance burdens and accelerates timelines for commercial operations.",
+      "market_impact_score": 65,
+      "sentiment_score": 0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "Regulatory clarity is a key catalyst for the autonomous driving sector. This rollback could unlock significant revenue opportunities and justify the massive R&D investments. It also supports the broader 'physical AI' theme that analysts are highlighting.",
+      "affected_markets": [
+        "Electric Vehicles",
+        "Autonomous Driving",
+        "Ride-Hailing"
+      ],
+      "source_names": [
+        "Investor's Business Daily",
+        "Investor's Business Daily",
+        "Zacks Investment Research"
+      ],
+      "source_urls": [
+        "https://www.investors.com/news/tesla-amazon-waymo-robotaxi-cybercab-self-driving-car-fsd/?src=A00220&yptr=yahoo",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbkI5WS1fZ0s1S0FUWFp2OEYxaW9yTDRMNVdPUk5LeVJzX1JjcF84RjFiRG1OaXZVQVc0ZUZUTmljYTNTYUFIMXBHVzcwcXA3WlNPYXNUaDJSWXRoRHIwblVYQmVXSjQ0NjlwWWF5ek5zcGg3eHZtNTFqYlRtZjNEQl9QMGdHVlVlMUkwRGdyWm42MEU?oc=5",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMS1TOFZMVkZwNTdBRGdBQVpIcG5uRHRMQk1VYjVzU3hjWC02LWhrcjhTbm04R0dpemJhU0FZa2trY1BHWjFYNDREeGxkc1BUaG1DbGZaZHhxeEFOTkVuelRFRGtwWVVsc0E2VE1TS1ROeGRNQWlpUmVhME9LVUpVcmxiOTVaTVQwR05uX3Z1RXFrT2ZhalNwUjJlLXBGUFMxaVE?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/ibd.com/58bf42c749d90f7e3e8df96a672ea38c"
+      ],
+      "image_paths": [
+        "data/assets/images/event_06_01.jpg"
+      ]
+    },
+    {
+      "title": "SpaceX Stock Volatility Continues; Down 18% for the Week",
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "T-Mobile",
+        "Russell 1000"
+      ],
+      "sector": "Technology",
+      "event_type": "Equity",
+      "summary": "SpaceX stock experienced another volatile session, on track for an 18% weekly decline. Analysts debated whether the stock is overvalued. Speculation about a potential acquisition of T-Mobile by SpaceX added to the noise. The stock is set to be added to the Russell 1000 after Friday's close, which could drive further volatility.",
+      "market_impact_score": 70,
+      "sentiment_score": -0.6,
+      "time_horizon": "short-term",
+      "why_it_matters": "SpaceX's public listing has been one of the most anticipated events, but its wild swings reflect the challenge of valuing high-growth speculative assets. The inclusion in major indexes will force passive buying, but the underlying business fundamentals remain hard to gauge.",
+      "affected_markets": [
+        "Space",
+        "Private Equity",
+        "Index Funds"
+      ],
+      "source_names": [
+        "CNBC",
+        "MarketWatch",
+        "Yahoo Finance"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/spacex-volatility.html",
+        "https://www.marketwatch.com/story/spacexs-stock-could-get-another-dose-of-volatility-8763bb0a",
+        "https://finance.yahoo.com/markets/stocks/articles/spacex-overvalued-now-163100064.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-78631567"
+      ],
+      "image_paths": [
+        "data/assets/images/event_07_01.jpg"
+      ]
+    },
+    {
+      "title": "Billionaire Jeremy Grantham Warns Market Is Most Expensive in U.S. History",
+      "entities": [
+        "Jeremy Grantham",
+        "S&P 500",
+        "Bitcoin"
+      ],
+      "sector": "Macro",
+      "event_type": "Analyst Commentary",
+      "summary": "Veteran investor Jeremy Grantham stated that U.S. stocks are the most expensive in American history, driven by AI hype. He predicted bitcoin will 'dwindle away with a whimper'. His warning comes amid a tech sell-off and adds to cautious sentiment.",
+      "market_impact_score": 45,
+      "sentiment_score": -0.5,
+      "time_horizon": "long-term",
+      "why_it_matters": "Grantham's track record makes his warnings notable. While such calls often mark near-term tops, they reinforce the narrative that valuations are stretched and vulnerable to shocks. It may influence institutional positioning.",
+      "affected_markets": [
+        "US Equities",
+        "Crypto"
+      ],
+      "source_names": [
+        "CNBC",
+        "CNBC",
+        "24/7 Wall St."
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
+        "https://www.cnbc.com/2026/06/26/billionaire-investor-jeremy-grantham-says-bitcoin-will-dwindle-away-with-a-whimper.html",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0lqMC1NZW5UV1pXZnpVcmlaTHhZaUFfNmp2RnFRV2hfTHRadmo4Z19XZ1lES05UVHdCeUoyRTJweU1IOTExeDY0U29NdnhVcEl2TW1uaUF1akI3SUxiakFtZTVLWjBfMWplVzJEN2VVbk44VE1odkFNV2c1VUlVa3E1aDU1S0w3dGNzWTYwYWIyZzJ0Q2ExSlhSa29YT19HM3FHRmR1TW0zOFJwR0diTmpDUVphQWU1WkRiUUcwYkdJd0VWOWNNeFZwV1g?oc=5"
       ],
       "image_urls": [],
       "image_paths": []

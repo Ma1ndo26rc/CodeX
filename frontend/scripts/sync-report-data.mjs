@@ -15,6 +15,10 @@ const targetAnalysisPath = path.join(publicDataDir, "market_analysis.json");
 const targetTrendsPath = path.join(publicDataDir, "market_trends.json");
 const targetHistoryPath = path.join(publicDataDir, "market_history.json");
 const targetAssetsDir = path.join(publicDataDir, "assets");
+const generatedAnalysisPath = path.join(generatedDataDir, "market_analysis.json");
+const generatedTrendsPath = path.join(generatedDataDir, "market_trends.json");
+const generatedHistoryPath = path.join(generatedDataDir, "market_history.json");
+const generatedManifestPath = path.join(generatedDataDir, "manifest.json");
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -56,6 +60,11 @@ function normalizeAssetPath(value) {
   return normalized;
 }
 
+function readJsonIfExists(filePath, fallback) {
+  if (!fs.existsSync(filePath)) return fallback;
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
 ensureDir(publicDataDir);
 ensureDir(generatedDataDir);
 copyDir(path.join(reportsDir, "assets"), targetAssetsDir);
@@ -69,9 +78,7 @@ let analysis = {
   key_events: [],
 };
 
-if (fs.existsSync(sourceAnalysisPath)) {
-  analysis = JSON.parse(fs.readFileSync(sourceAnalysisPath, "utf8"));
-}
+analysis = readJsonIfExists(sourceAnalysisPath, readJsonIfExists(generatedAnalysisPath, analysis));
 
 analysis.key_events = (analysis.key_events ?? []).map((event) => ({
   ...event,
@@ -79,19 +86,15 @@ analysis.key_events = (analysis.key_events ?? []).map((event) => ({
 }));
 
 fs.writeFileSync(targetAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
-fs.writeFileSync(path.join(generatedDataDir, "market_analysis.json"), JSON.stringify(analysis, null, 2), "utf8");
+fs.writeFileSync(generatedAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
 
-const trends = fs.existsSync(sourceTrendsPath)
-  ? JSON.parse(fs.readFileSync(sourceTrendsPath, "utf8"))
-  : { as_of: null, range: "1mo", interval: "1d", series: [] };
-const history = fs.existsSync(sourceHistoryPath)
-  ? JSON.parse(fs.readFileSync(sourceHistoryPath, "utf8"))
-  : { updated_at: null, series: {} };
+const trends = readJsonIfExists(sourceTrendsPath, readJsonIfExists(generatedTrendsPath, { as_of: null, range: "1mo", interval: "1d", series: [] }));
+const history = readJsonIfExists(sourceHistoryPath, readJsonIfExists(generatedHistoryPath, { updated_at: null, series: {} }));
 
 fs.writeFileSync(targetTrendsPath, JSON.stringify(trends, null, 2), "utf8");
-fs.writeFileSync(path.join(generatedDataDir, "market_trends.json"), JSON.stringify(trends, null, 2), "utf8");
+fs.writeFileSync(generatedTrendsPath, JSON.stringify(trends, null, 2), "utf8");
 fs.writeFileSync(targetHistoryPath, JSON.stringify(history, null, 2), "utf8");
-fs.writeFileSync(path.join(generatedDataDir, "market_history.json"), JSON.stringify(history, null, 2), "utf8");
+fs.writeFileSync(generatedHistoryPath, JSON.stringify(history, null, 2), "utf8");
 
 const latestMarkdown = listLatest(".md");
 const latestPdf = listLatest(".pdf");
@@ -110,8 +113,9 @@ const manifest = {
       : null,
   },
 };
+const deployManifest = fs.existsSync(reportsDir) ? manifest : readJsonIfExists(generatedManifestPath, manifest);
 
-fs.writeFileSync(path.join(publicDataDir, "manifest.json"), JSON.stringify(manifest, null, 2), "utf8");
-fs.writeFileSync(path.join(generatedDataDir, "manifest.json"), JSON.stringify(manifest, null, 2), "utf8");
+fs.writeFileSync(path.join(publicDataDir, "manifest.json"), JSON.stringify(deployManifest, null, 2), "utf8");
+fs.writeFileSync(generatedManifestPath, JSON.stringify(deployManifest, null, 2), "utf8");
 
 console.log(`Synced report data to ${publicDataDir}`);
