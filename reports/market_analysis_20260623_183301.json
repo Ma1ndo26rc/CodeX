@@ -1,0 +1,301 @@
+{
+  "market_summary": "Global equities plunge on June 23, 2026, led by a deepening technology rout as AI monetization fears, high-profile Alphabet departures, and Nvidia chip price concerns rattle investor confidence. S&P 500 and Nasdaq futures point to heavy losses, with contagion spreading to European and Asian markets. The selloff is exacerbated by private credit liquidity fears after Apollo capped redemptions. Offsetting these headwinds, oil prices drop sharply on sweeping U.S. sanctions waivers for Iran, easing geopolitical risk and inflation pressures. Global M&A remains a bright spot, on track for a $4 trillion year, but risk appetite is decisively 'risk-off'.",
+  "index_performance_summary": "S&P 500 futures decline ~1.2%, Nasdaq-100 futures tumble ~1.8% as Big Tech leads losses. European Stoxx 600 falls 1.5% amid extreme heat and tech exposure. Asia-Pacific markets slide: Nikkei 225 -1.0%, Kospi -2.3% (hit by Samsung/SK Hynix), and Shanghai Composite -0.8%. VIX spikes above 25. Energy sub-index outperforms marginally on lower crude, while growth-heavy indices suffer most.",
+  "macro_outlook": "The macro backdrop is shifting rapidly: U.S.-Iran diplomacy has unlocked a major oil supply source, sending crude lower and potentially accelerating disinflation. However, this comes alongside fresh signs of Chinese consumer malaise and a U.S. housing bill aimed at curbing institutional homebuying. The AI capex supercycle is being questioned as Oracle and others cut jobs, while Nvidia chip pricing softens. The passing of former Fed Chair Alan Greenspan adds a symbolic end to an era. Central banks remain data-dependent, but markets increasingly price in a growth scare over recession fears. The balance is fragile—geopolitical tailwinds versus tech-driven downside risks.",
+  "risk_and_sentiment": "Market sentiment has soured rapidly, with the Fear & Greed Index entering 'Fear' territory. Key risks: (1) Accelerating tech correction driven by AI overcapacity fears and falling chip prices, threatening index-level stability. (2) Private credit liquidity crunch as Apollo's redemption restrictions echo past credit events, potentially sparking broader contagion. (3) Regulatory and political noise around AI, housing, and Trump lawsuits creating policy uncertainty. (4) U.S.-China competition intensifying in agriculture and tech. Bullish offsets include lower oil prices, robust M&A, and a potential peace dividend—but for now, deleveraging in crowded tech positions dominates.",
+  "key_events": [
+    {
+      "title": "Tech Rout Intensifies as AI Monetization Concerns Mount",
+      "entities": [
+        "Alphabet",
+        "Nvidia",
+        "Samsung",
+        "SK Hynix",
+        "Nasdaq"
+      ],
+      "sector": "Technology",
+      "event_type": "Market Correction",
+      "summary": "A global technology selloff deepened on Tuesday, triggered by Alphabet's high-profile AI researcher exits and growing doubts about AI chip pricing power. The rout, which began on Wall Street, spread to Asia and Europe, inflicting deep losses on Mag7 and semiconductor stocks and pushing major indices sharply lower.",
+      "market_impact_score": 95,
+      "sentiment_score": -0.9,
+      "time_horizon": "immediate to weeks",
+      "why_it_matters": "This selloff signals a potential regime shift from AI hype to a reassessment of returns on massive capex. Given Big Tech's heavy index weighting, it threatens a broader market correction and could force a re-rating of growth equity multiples.",
+      "affected_markets": [
+        "US equities",
+        "European tech",
+        "Asian semiconductors",
+        "Nasdaq-100 futures"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html",
+        "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-65222205"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_01_01.jpg"
+      ]
+    },
+    {
+      "title": "Oracle Sheds 21,000 Roles as AI Adoption Transforms Workforce",
+      "entities": [
+        "Oracle"
+      ],
+      "sector": "Technology",
+      "event_type": "Layoffs/Restructuring",
+      "summary": "Oracle disclosed the elimination of approximately 21,000 positions over the past year, directly attributing the cuts to AI deployment across its operations. The move highlights how AI is being used not only to build products but to replace human workers internally at major tech firms.",
+      "market_impact_score": 70,
+      "sentiment_score": -0.2,
+      "time_horizon": "long-term",
+      "why_it_matters": "Oracle's layoffs confirm that AI-driven efficiencies are materializing at the cost of jobs. While this may boost margins, it fuels political backlash and consumer unease, potentially accelerating calls for AI regulation and affecting labor-sensitive sectors.",
+      "affected_markets": [
+        "US tech stocks",
+        "Labor market",
+        "AI policy space"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+        "https://www.cnbc.com/2026/06/22/lucid-layoffs-evs.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-65222205"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_02_01.jpg"
+      ]
+    },
+    {
+      "title": "Sweeping Iran Oil Sanctions Relief Unleashes Supply, Pressures Crude",
+      "entities": [
+        "Iran",
+        "U.S. Treasury",
+        "Citi"
+      ],
+      "sector": "Energy",
+      "event_type": "Geopolitical/Regulatory",
+      "summary": "The U.S. issued broad waivers on Iranian oil exports, authorizing sales through August and unlocking billions in revenue for Tehran. Crude oil futures fell as traders priced in returning supply, with Citi noting the geopolitical risk 'overhang' is disappearing amid peace negotiations.",
+      "market_impact_score": 85,
+      "sentiment_score": 0.3,
+      "time_horizon": "weeks to months",
+      "why_it_matters": "Lower oil prices ease consumer inflation and boost discretionary spending power. However, they depress energy sector earnings and may reduce urgency for capex in alternatives. The strategic shift signals a de-escalation of Middle Eastern conflict, reshaping global risk premia.",
+      "affected_markets": [
+        "Oil futures",
+        "Energy equities",
+        "Airlines",
+        "Emerging markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
+        "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
+        "https://www.cnbc.com/2026/06/22/trump-iran-war-oil-profits-rebuild-military.html"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Apollo Caps Redemptions as 17% Exit Requests Rekindle Private Credit Worries",
+      "entities": [
+        "Apollo Global Management"
+      ],
+      "sector": "Financials",
+      "event_type": "Liquidity Event",
+      "summary": "Apollo Global Management limited investor withdrawals from its main retail-focused private credit fund after redemption requests hit 17% of assets. The move is reigniting fears about liquidity mismatches in the fast-growing $2 trillion private credit market.",
+      "market_impact_score": 80,
+      "sentiment_score": -0.6,
+      "time_horizon": "immediate to short-term",
+      "why_it_matters": "This is a significant red flag; forced redemption limits can erode trust in private credit vehicles, potentially triggering a cascade of withdrawal requests and tightening financial conditions. It could spill over into high-yield and leveraged loan markets.",
+      "affected_markets": [
+        "Private credit funds",
+        "Financial stocks",
+        "High yield bonds",
+        "Leveraged loans"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/apollo-private-credit-fund-withdrawals-redemptions.html",
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html",
+        "https://www.cnbc.com/2026/06/23/brexit-10-years-uk-economy-politics-charts.html"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "NHTSA Investigates Fatal Tesla Crash Involving Autopilot in Texas",
+      "entities": [
+        "Tesla",
+        "NHTSA"
+      ],
+      "sector": "Consumer Discretionary",
+      "event_type": "Regulatory/Accident",
+      "summary": "Federal auto safety regulators opened a probe into a fatal Tesla Model 3 crash in Katy, Texas. The driver stated he was using partially automated driving systems at the time of impact, renewing intense scrutiny on Tesla's self-driving technology.",
+      "market_impact_score": 75,
+      "sentiment_score": -0.7,
+      "time_horizon": "short-term to medium",
+      "why_it_matters": "Regulatory investigations increase the risk of recalls, usage restrictions, or legal liabilities that could undermine Tesla's core Autopilot/FSD narrative. Combined with Lucid's layoffs, this casts a pall over the high-stakes EV and autonomous driving sector.",
+      "affected_markets": [
+        "Tesla stock",
+        "EV sector",
+        "Autonomous driving technology"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/tesla-nhtsa-model-3-crash-autopilot-katy-texas.html",
+        "https://www.cnbc.com/2026/06/23/china-618-shopping-festival-sales-growth-consumer-spending-slowdown-syntun.html",
+        "https://www.marketwatch.com/story/a-40-market-crash-is-lurking-in-the-ipo-pipeline-spacex-and-openai-could-trigger-it-64ae4026?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-98973296"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_05_01.jpg"
+      ]
+    },
+    {
+      "title": "Bipartisan Housing Bill Targets Private Equity Purchases of Single-Family Homes",
+      "entities": [
+        "U.S. Senate",
+        "Private equity firms"
+      ],
+      "sector": "Real Estate",
+      "event_type": "Regulatory/Legislative",
+      "summary": "The U.S. Senate advanced a sprawling housing package designed to limit institutional investors from buying single-family homes, aiming to boost supply and affordability. The House is expected to advance similar legislation this week.",
+      "market_impact_score": 65,
+      "sentiment_score": -0.2,
+      "time_horizon": "medium-term",
+      "why_it_matters": "If enacted, the bill could reshape the single-family rental market, cooling institutional demand and pressuring REITs like Invitation Homes. It also signals a populist shift in housing policy that may create headwinds for private equity in real estate.",
+      "affected_markets": [
+        "Single-family rental REITs",
+        "Homebuilders",
+        "Private equity"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/affordable-housing-bill-private-equity-single-family-homes.html",
+        "https://www.marketwatch.com/story/trump-may-say-hes-banning-wall-street-from-buying-homes-does-the-bipartisan-housing-bill-actually-do-that-14c8ee5f?mod=mw_rss_topstories",
+        "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-78018892"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_06_01.jpg"
+      ]
+    },
+    {
+      "title": "SpaceX's Colossus Data Center Secures $6.3B AI Deal with Reflection",
+      "entities": [
+        "SpaceX",
+        "Reflection",
+        "Anthropic",
+        "Google",
+        "Cursor"
+      ],
+      "sector": "Technology/Aerospace",
+      "event_type": "Partnership/Contract",
+      "summary": "SpaceX transformed its Colossus data center into a commercial AI computing platform, inking a deal worth up to $6.3 billion with open-source AI startup Reflection. The move follows prior agreements with Anthropic, Google, and Cursor, positioning SpaceX as a challenger to hyperscalers.",
+      "market_impact_score": 60,
+      "sentiment_score": 0.5,
+      "time_horizon": "long-term",
+      "why_it_matters": "This deal intensifies AI compute competition beyond traditional cloud providers, potentially lowering costs for startups. However, it also adds to fears of a capex glut and could disrupt pricing models for Amazon, Microsoft, and Google cloud services.",
+      "affected_markets": [
+        "Cloud computing stocks",
+        "SpaceX-related investments",
+        "AI chipmakers"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+        "https://www.cnbc.com/2026/06/22/states-data-center-permitting-public-opposition.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-65222205"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_07_01.jpg"
+      ]
+    },
+    {
+      "title": "Global M&A on Track for $4 Trillion Year, Strongest Since 2021",
+      "entities": [
+        "PwC"
+      ],
+      "sector": "Financials",
+      "event_type": "M&A Activity",
+      "summary": "PwC reports that global mergers and acquisitions volume is on pace to hit $4 trillion in 2026, marking the busiest year since the 2021 boom. Corporate confidence and ample capital are driving dealmaking despite the equity market volatility.",
+      "market_impact_score": 70,
+      "sentiment_score": 0.6,
+      "time_horizon": "medium-term",
+      "why_it_matters": "Robust M&A activity provides a crucial support for equity valuations, encourages sector consolidation, and reflects underlying corporate confidence. It can partially offset tech-led risk aversion by generating deal-related premiums in various sectors.",
+      "affected_markets": [
+        "Investment banks",
+        "Equity markets broadly",
+        "Corporate bonds"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/global-ma-deal-value-on-track-to-reach-4-trillion-this-year-pwc-.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories",
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-65222205"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_08_01.jpg"
+      ]
+    },
+    {
+      "title": "Kalshi Traders Bet Nvidia Chip Prices Are Coming Down",
+      "entities": [
+        "Nvidia"
+      ],
+      "sector": "Technology",
+      "event_type": "Pricing Pressure",
+      "summary": "Nvidia shares continued to struggle as prediction market Kalshi showed traders betting on declining GPU chip prices. The pricing outlook compounds concerns that AI hardware demand may be softening and that competition is beginning to erode Nvidia's extraordinary margins.",
+      "market_impact_score": 75,
+      "sentiment_score": -0.7,
+      "time_horizon": "short-term to medium",
+      "why_it_matters": "Nvidia is the AI bellwether; falling chip prices would directly hit its preeminent margins and challenge the sustainability of furious AI infrastructure spending. This threatens the entire AI investment thesis and semiconductor supply chain.",
+      "affected_markets": [
+        "Nvidia stock",
+        "Semiconductor ETFs",
+        "AI-themed funds"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/nvidias-stock-struggles-as-kalshi-traders-bet-chip-prices-are-coming-down.html",
+        "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "https://www.marketwatch.com/story/the-ai-market-has-become-a-rubber-band-the-question-now-is-how-far-it-can-stretch-says-goldman-strategist-70ed46b7?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-90193981"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_09_01.jpg"
+      ]
+    },
+    {
+      "title": "Lucid Cuts 18% of U.S. Workforce as EV Turnaround Falters",
+      "entities": [
+        "Lucid Group"
+      ],
+      "sector": "Consumer Discretionary",
+      "event_type": "Restructuring/Layoffs",
+      "summary": "Lucid Group announced an 18% reduction of its U.S. workforce and the immediate departure of COO Marc Winterhoff as part of a cost-savings plan. The luxury EV maker is struggling with weak demand and persistent cash burn.",
+      "market_impact_score": 55,
+      "sentiment_score": -0.5,
+      "time_horizon": "weeks to months",
+      "why_it_matters": "Lucid's layoffs highlight the intense pressure on loss-making EV startups in a slowing adoption environment. Combined with Tesla's regulatory troubles, this raises the risk of further consolidation, bankruptcies, and negative sentiment across the EV sector.",
+      "affected_markets": [
+        "EV stocks",
+        "Lucid stock",
+        "PEV ETF"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/lucid-layoffs-evs.html",
+        "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+        "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    }
+  ]
+}

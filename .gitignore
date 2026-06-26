@@ -17,7 +17,7 @@ frontend/public/data/
 logs/
 
 # ========== Reports ==========
-reports/*.json
+# reports/*.json
 
 
 # ========== System ==========
