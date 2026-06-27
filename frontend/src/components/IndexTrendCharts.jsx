@@ -1,4 +1,5 @@
 import { formatTimestamp, sentimentTone, toNumber } from "../lib/utils.js";
+import { useLanguage } from "../lib/i18n.jsx";
 
 const COLORS = {
   SPY: "#66D9EF",
@@ -8,12 +9,13 @@ const COLORS = {
 };
 
 export default function IndexTrendCharts({ trends, history }) {
+  const { language, t } = useLanguage();
   const series = trends?.series ?? [];
   if (!series.length) {
     return (
       <section className="terminal-card p-5">
-        <p className="terminal-label">Index Trends</p>
-        <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">No trend data yet. Run python main.py --market-data to fetch market trends.</p>
+        <p className="terminal-label">{t("indexTrends")}</p>
+        <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">{t("noTrendData")}</p>
       </section>
     );
   }
@@ -22,11 +24,11 @@ export default function IndexTrendCharts({ trends, history }) {
     <section className="terminal-card p-5">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="terminal-label">Index Trends</p>
+          <p className="terminal-label">{t("indexTrends")}</p>
           <h2 className="terminal-title mt-1">SPY / QQQ / VIX / 10Y Yield</h2>
         </div>
         <p className="font-terminal text-xs text-slate-500 dark:text-slate-400">
-          Range {trends.range || "1mo"} / interval {trends.interval || "1d"} / updated {formatTimestamp(trends.as_of)}
+          {t("rangeMeta", { range: trends.range || "1mo", interval: trends.interval || "1d", updated: formatTimestamp(trends.as_of, language) })}
         </p>
       </div>
 
@@ -40,6 +42,7 @@ export default function IndexTrendCharts({ trends, history }) {
 }
 
 function TrendCard({ item, historyPoints }) {
+  const { t } = useLanguage();
   const points = (item.points ?? []).filter((point) => point.price !== null && point.price !== undefined);
   const first = points[0]?.price;
   const last = points[points.length - 1]?.price;
@@ -57,21 +60,22 @@ function TrendCard({ item, historyPoints }) {
         </div>
         <div className="text-right font-terminal">
           <p className="text-lg font-black">{toNumber(last).toLocaleString()}</p>
-          <p className={`text-xs ${toneClass}`}>{formatSigned(changePct)} over range</p>
+          <p className={`text-xs ${toneClass}`}>{formatSigned(changePct)} {t("overRange")}</p>
         </div>
       </div>
       <Sparkline points={points} color={color} />
       <div className="mt-3 flex items-center justify-between font-terminal text-[11px] text-slate-500 dark:text-slate-400">
-        <span>{points.length} chart points</span>
-        <span>{historyPoints} scheduled snapshots</span>
+        <span>{t("chartPoints", { count: points.length })}</span>
+        <span>{t("scheduledSnapshots", { count: historyPoints })}</span>
       </div>
     </article>
   );
 }
 
 function Sparkline({ points, color }) {
+  const { t } = useLanguage();
   if (points.length < 2) {
-    return <div className="flex h-44 items-center justify-center rounded-xl border border-slate-300 text-sm text-slate-500 dark:border-terminal-line">Not enough data</div>;
+    return <div className="flex h-44 items-center justify-center rounded-xl border border-slate-300 text-sm text-slate-500 dark:border-terminal-line">{t("notEnoughData")}</div>;
   }
 
   const width = 720;

@@ -72,7 +72,22 @@
         "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXhqbUhIRFNVVDB2ZUZVOXZjS1pQeWZnZHgxZWNIYVdXS1hWc2dNMWY3ZDkwRHJBTEZHcDNXM1Q4eWRWbjAzNEJTenBCR0tMMjhCSjBMdTVQLTF3a3VoTFAtU0dBMERmbWdEQkZJSlZoMi10c1MtUnlzU0J1ZDFhOUxkMXo5ZzVpMWxuYXkzMi1VVGY5Zm1hYkxGTWdmQ3Q2VXo4Y2dsWnlGXzdJMzFUaE9yN2VsVnlCMWlz?oc=5"
       ],
       "image_urls": [],
-      "image_paths": []
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "据报OpenAI将IPO推迟至2027年，科技股受冲击",
+          "sector": "科技",
+          "event_type": "公司事件",
+          "summary": "CNBC报道称，OpenAI尚未举行IPO前会议，消息人士暗示上市可能推迟至2027年，与市场预期相悖。该消息引发人工智能相关股票大幅抛售，英伟达、美光及其他半导体股重挫。Kalshi预测市场认为2026年IPO的概率仅为三分之一。",
+          "time_horizon": "短期",
+          "why_it_matters": "IPO推迟挑战了当前围绕人工智能公司的估值叙事，并引发对基础人工智能模型变现时间表的质疑。这直接打压高倍数科技股，并可能导致人工智能交易板块的广泛估值下调。",
+          "affected_markets": [
+            "美国股票",
+            "科技股",
+            "半导体"
+          ]
+        }
+      }
     },
     {
       "title": "Fed's Kashkari Expects a Rate Hike This Year as Inflation Tops 4%",
@@ -106,7 +121,23 @@
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVjdCS0dPWlNzTHN4N2hDc0VOQVd0TFdDVnFBNkVrWnotY04wb1dlREwzOFVZNFA3Y0NhcmhVU1BCOXpfdnBrdHFMSTd1MllnZF9hOTdkemdNamI0WW5WSnY4Q2txTkZjWEQxWGMtNTBJRmhtRUpYaTZ0c3RsbkFCY2p0Y282X2tRdnZ1MFkzNGFpRmlBXzl0dXphN3dydWVvaWJOVWtpakd4Z3dUQXc0bXZiQUXSAboBQVVfeXFMTWJtUDk0c0VfbkNMbi1RU2U5dTVFS2hrM0xfWmdIek9CLTBjNGRuTlJLQ2d2X1J4Sm1xN21TNG1FS2YtTmVqN3M3UUg3elpUTzc4VU4zUDNmQ004UmVWdUFJWDlTX0MtaFpvQ0lRLVJuZVFJOWt0YWlRZ2tpY3ViTWgyVXNnSFhpaGlxNERiZzFaRXVEcmNWYXdBb0E3SWZnZDUtVGQ0RGhCNFV5dlF1UlRaOUhUSUpablhR?oc=5"
       ],
       "image_urls": [],
-      "image_paths": []
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "美联储卡什卡利预计今年加息，通胀突破4%",
+          "sector": "宏观",
+          "event_type": "货币政策",
+          "summary": "明尼阿波利斯联储主席尼尔·卡什卡利表示，鉴于通胀持续高于4%，他预计今年将加息一次。特朗普总统继续呼吁降息，但已减轻对联储主席沃什的压力。芝加哥联储的古尔斯比也附和称通胀过高。这些言论强化了政策收紧的预期。",
+          "time_horizon": "中期",
+          "why_it_matters": "加息将与此前鸽派转向形成重大逆转，可能推高美元、打压成长股并增加借贷成本。市场此前一直定价降息，因此加息预期的重新定价可能引发跨资产类别的波动。",
+          "affected_markets": [
+            "美国国债",
+            "美国股票",
+            "美元",
+            "黄金"
+          ]
+        }
+      }
     },
     {
       "title": "Iran Violates Ceasefire, Drone Attacks on Strait of Hormuz Ships Drive Oil Higher",
@@ -145,7 +176,23 @@
       ],
       "image_paths": [
         "data/assets/images/event_03_01.jpg"
-      ]
+      ],
+      "translations": {
+        "zh": {
+          "title": "伊朗违反停火协议，无人机袭击霍尔木兹海峡船舶推高油价",
+          "sector": "能源",
+          "event_type": "地缘政治事件",
+          "summary": "特朗普总统称伊朗违反停火协议，用无人机袭击霍尔木兹海峡的船舶。国际海事组织在货船被击中后暂停救援行动。油价因供应中断担忧而上涨。能源板块出现选择性买盘，DHT等油轮股试探支撑位。",
+          "time_horizon": "短期",
+          "why_it_matters": "霍尔木兹海峡是全球石油运输的关键咽喉要道。任何持续的中断都可能大幅推高原油价格，加剧通胀并损害依赖进口的经济体。此外，这也为能源股和航运股增加了风险溢价。",
+          "affected_markets": [
+            "原油",
+            "能源股",
+            "航运",
+            "中东外汇"
+          ]
+        }
+      }
     },
     {
       "title": "SEC Targets Private Equity's $106 Billion Tax Strategy",
@@ -183,7 +230,22 @@
       ],
       "image_paths": [
         "data/assets/images/event_04_01.jpg"
-      ]
+      ],
+      "translations": {
+        "zh": {
+          "title": "美国证交会瞄准私募股权1060亿美元税收策略",
+          "sector": "金融",
+          "event_type": "监管事件",
+          "summary": "美国证交会正在审查私募股权行业利用1060亿美元税收漏洞来规避附带权益的普遍做法。此项监管行动可能迫使私募股权公司重组其收费结构，并可能降低普通合伙人的净回报。",
+          "time_horizon": "长期",
+          "why_it_matters": "若证交会成功堵住该漏洞，将降低大型私募股权公司的盈利能力，可能导致投资人分配收益减少，并改变私募股权交易的结构方式。上市私募股权股可能面临压力。",
+          "affected_markets": [
+            "私募股权",
+            "金融股",
+            "另类资产管理公司"
+          ]
+        }
+      }
     },
     {
       "title": "ON Semiconductor Tanks 20% After $7 Billion Synaptics Deal",
@@ -215,7 +277,22 @@
         "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2xhZnVZX0t3QkVWQWh2M09hU2dGWnhvek16WkI3elFtX2ZaaEQteWY3NzVEQnpsbmN4WDlITFlvaV9tOGtpdnFOUUtxODNuXzRGd0tLSnJVLS1wWnFVSkpYVDc1TzN4MW84bGZBYWFxMFNHNTEydklRbE5ZZkhYSUxwbUFHVEl3SGVRQ1hURQ?oc=5"
       ],
       "image_urls": [],
-      "image_paths": []
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "安森美半导体因70亿美元收购新思科技暴跌20%",
+          "sector": "科技",
+          "event_type": "并购事件",
+          "summary": "安森美半导体宣布以70亿美元收购新思科技，进军物理人工智能领域，将其潜在市场扩大300亿美元。然而，投资者因担忧整合风险和摊薄性融资而惩罚该股，使其暴跌20%。首席执行官称此举为战略转型。",
+          "time_horizon": "中期",
+          "why_it_matters": "该交易标志着物理人工智能领域的一桩重大并购趋势，但也凸显出市场对高利率环境下大型收购的怀疑态度。这可能为其他半导体并购定下基调，并影响该板块的估值倍数。",
+          "affected_markets": [
+            "半导体",
+            "硬件",
+            "并购"
+          ]
+        }
+      }
     },
     {
       "title": "Robotaxi Regulatory Rollback Set to Benefit Tesla, Amazon, Google",
@@ -253,7 +330,22 @@
       ],
       "image_paths": [
         "data/assets/images/event_06_01.jpg"
-      ]
+      ],
+      "translations": {
+        "zh": {
+          "title": "自动驾驶监管松绑预计利好特斯拉、亚马逊、谷歌",
+          "sector": "科技",
+          "event_type": "监管事件",
+          "summary": "美国对自动驾驶汽车的监管松绑预计将降低机器人出租车的部署难度，利好特斯拉（Cybercab）、亚马逊旗下Zoox及谷歌旗下Waymo等公司。此举将降低合规负担并加速商业运营的时间表。",
+          "time_horizon": "中期",
+          "why_it_matters": "监管明朗化是自动驾驶行业的关键催化剂。此次松绑可能释放重大收入机会，并证明巨额研发投入的合理性。同时，它也有助于支撑分析师强调的“物理人工智能”主题。",
+          "affected_markets": [
+            "电动汽车",
+            "自动驾驶",
+            "网约车"
+          ]
+        }
+      }
     },
     {
       "title": "SpaceX Stock Volatility Continues; Down 18% for the Week",
@@ -290,7 +382,22 @@
       ],
       "image_paths": [
         "data/assets/images/event_07_01.jpg"
-      ]
+      ],
+      "translations": {
+        "zh": {
+          "title": "SpaceX股价继续波动，本周累计下跌18%",
+          "sector": "科技",
+          "event_type": "股票事件",
+          "summary": "SpaceX股价经历又一个动荡交易日，本周有望录得18%的跌幅。分析师就该股是否被高估展开辩论。有关SpaceX可能收购T-Mobile的猜测增加了噪音。该股将在周五收盘后纳入罗素1000指数，这可能引发进一步波动。",
+          "time_horizon": "短期",
+          "why_it_matters": "SpaceX公开上市是最受期待的事件之一，但其剧烈波动反映出高增长投机性资产估值的挑战。纳入主要指数将迫使被动资金买入，但基本面仍然难以衡量。",
+          "affected_markets": [
+            "太空",
+            "私募股权",
+            "指数基金"
+          ]
+        }
+      }
     },
     {
       "title": "Billionaire Jeremy Grantham Warns Market Is Most Expensive in U.S. History",
@@ -321,7 +428,29 @@
         "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0lqMC1NZW5UV1pXZnpVcmlaTHhZaUFfNmp2RnFRV2hfTHRadmo4Z19XZ1lES05UVHdCeUoyRTJweU1IOTExeDY0U29NdnhVcEl2TW1uaUF1akI3SUxiakFtZTVLWjBfMWplVzJEN2VVbk44VE1odkFNV2c1VUlVa3E1aDU1S0w3dGNzWTYwYWIyZzJ0Q2ExSlhSa29YT19HM3FHRmR1TW0zOFJwR0diTmpDUVphQWU1WkRiUUcwYkdJd0VWOWNNeFZwV1g?oc=5"
       ],
       "image_urls": [],
-      "image_paths": []
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "亿万富翁杰里米·格兰瑟姆警告市场处于美国史上最贵水平",
+          "sector": "宏观",
+          "event_type": "分析师评论",
+          "summary": "资深投资者杰里米·格兰瑟姆表示，在人工智能热潮推动下，美国股票处于美国历史上最昂贵的水平。他预测比特币将“悄无声息地消失”。此番警告恰逢科技股抛售，加剧了谨慎情绪。",
+          "time_horizon": "长期",
+          "why_it_matters": "格兰瑟姆的过往记录使其警告备受关注。尽管此类言论往往标志着接近顶部，但它们强化了估值过高且易受冲击的叙事。这可能影响机构仓位。",
+          "affected_markets": [
+            "美国股票",
+            "加密货币"
+          ]
+        }
+      }
     }
-  ]
+  ],
+  "translations": {
+    "zh": {
+      "market_summary": "周五，美国股市出现大规模科技股抛售，导火索是一则报道称OpenAI将IPO推迟至2027年。纳斯达克综合指数大幅下跌，而道琼斯工业平均指数因资金轮动至能源和金融板块而小幅上涨。通胀率突破4%、美联储鹰派言论以及霍尔木兹海峡新出现的地缘政治紧张局势加剧了避险情绪。大宗商品大幅下跌，黄金和白银显著走低，但原油因供应担忧而上涨。",
+      "index_performance_summary": "道琼斯工业平均指数微涨约0.1%，从早盘跌幅中回升。标普500指数下跌约0.5%，跌破关键技术位；纳斯达克综合指数因半导体和超大盘科技股承压，下跌约1.2%。罗素2000指数表现落后，下滑0.8%。",
+      "macro_outlook": "通胀仍高于4%，明尼阿波利斯联储主席卡什卡利暗示今年晚些时候可能加息。美元连续第二日走弱，但仍有望周线收涨。贸易数据显示，由于进口激增，商品贸易逆差扩大。黄金和白银延续月度跌势，自6月1日以来分别下跌逾11%和9%，反映出实际利率上升和美联储鹰派立场。霍尔木兹海峡仍为热点地区，据称伊朗违反停火协议，支撑油价。抵押贷款利率基本持平。预计未来几天将有高达300亿美元的新股供应进入市场，构成潜在阻力。",
+      "risk_and_sentiment": "避险情绪为负面，受到多重因素交织影响：OpenAI IPO推迟打击人工智能热度、美联储鹰派言论、持续通胀以及中东地缘政治不确定性。芝加哥期权交易所波动率指数（VIX）可能飙升。科技板块正经历从半导体到软件和国防的剧烈轮动。内部人士卖出活动增加。在季末及大规模股票供应即将到来之际，投资者情绪趋于谨慎。"
+    }
+  }
 }

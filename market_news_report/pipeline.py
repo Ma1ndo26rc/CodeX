@@ -24,6 +24,7 @@ def run_daily_job() -> tuple[str, str]:
     items = enrich_items(items)
     analyzer = LLMAnalyzer()
     analysis = analyzer.summarize_market(items)
+    analysis = analyzer.translate_market_analysis(analysis)
     analysis = enrich_analysis_with_sources(analysis, items)
     analysis = download_event_images(analysis, CONFIG.report_output_dir / "assets")
     market_data_bundle = update_market_data_files(CONFIG.report_output_dir)

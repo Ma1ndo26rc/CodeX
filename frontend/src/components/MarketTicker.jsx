@@ -1,8 +1,10 @@
 import { formatPercent, sentimentTone, toNumber } from "../lib/utils.js";
+import { useLanguage } from "../lib/i18n.jsx";
 
 export default function MarketTicker({ items = [] }) {
+  const { t } = useLanguage();
   if (!items.length) {
-    return <div className="terminal-card p-4 text-sm text-slate-500 dark:text-slate-400">No market data snapshot available.</div>;
+    return <div className="terminal-card p-4 text-sm text-slate-500 dark:text-slate-400">{t("noMarketData")}</div>;
   }
 
   return (

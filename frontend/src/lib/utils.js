@@ -17,11 +17,11 @@ export function formatScore(value, digits = 0) {
   return toNumber(value).toFixed(digits);
 }
 
-export function formatTimestamp(value) {
-  if (!value) return "Not available";
+export function formatTimestamp(value, language = "en") {
+  if (!value) return language === "zh" ? "暂无数据" : "Not available";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return String(value);
-  return date.toLocaleString(undefined, {
+  return date.toLocaleString(language === "zh" ? "zh-CN" : "en-US", {
     year: "numeric",
     month: "short",
     day: "2-digit",

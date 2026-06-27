@@ -5,8 +5,10 @@ import MarketTicker from "../components/MarketTicker.jsx";
 import MetricCard from "../components/MetricCard.jsx";
 import SectionHeader from "../components/SectionHeader.jsx";
 import { getEventLayer, toNumber } from "../lib/utils.js";
+import { useLanguage } from "../lib/i18n.jsx";
 
 export default function Dashboard({ analysis, manifest }) {
+  const { localized, t } = useLanguage();
   const events = analysis?.key_events ?? [];
   const marketData = analysis?.market_data?.items ?? [];
   const topEvents = [...events].sort((a, b) => toNumber(b.market_impact_score) - toNumber(a.market_impact_score)).slice(0, 6);
@@ -25,15 +27,15 @@ export default function Dashboard({ analysis, manifest }) {
       <section className="terminal-card overflow-hidden">
         <div className="grid gap-6 p-5 lg:grid-cols-[1.4fr_0.6fr]">
           <div>
-            <p className="terminal-label">Market Summary</p>
+            <p className="terminal-label">{t("marketSummary")}</p>
             <h1 className="mt-2 font-display text-3xl font-black leading-tight sm:text-5xl">
-              AI market brief with source-linked event intelligence.
+              {t("heroTitle")}
             </h1>
-            <p className="mt-4 max-w-4xl text-sm leading-7 text-slate-600 dark:text-slate-300">{analysis.market_summary}</p>
+            <p className="mt-4 max-w-4xl text-sm leading-7 text-slate-600 dark:text-slate-300">{localized(analysis, "market_summary")}</p>
           </div>
           <div className="rounded-2xl border border-slate-300 bg-slate-50 p-4 dark:border-terminal-line dark:bg-terminal-panel2">
-            <p className="terminal-label">Risk & Sentiment</p>
-            <p className="mt-3 text-sm leading-6 text-slate-700 dark:text-slate-300">{analysis.risk_and_sentiment}</p>
+            <p className="terminal-label">{t("riskSentiment")}</p>
+            <p className="mt-3 text-sm leading-6 text-slate-700 dark:text-slate-300">{localized(analysis, "risk_and_sentiment")}</p>
           </div>
         </div>
       </section>
@@ -42,27 +44,27 @@ export default function Dashboard({ analysis, manifest }) {
       <DownloadBar reports={manifest?.reports} />
 
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-        <MetricCard label="Key Events" value={events.length} subValue="LLM-ranked market drivers" tone="info" />
-        <MetricCard label="Avg Impact" value={avgImpact.toFixed(0)} subValue="0-100 event score" tone={avgImpact >= 65 ? "warn" : "neutral"} />
-        <MetricCard label="Avg Sentiment" value={avgSentiment.toFixed(2)} subValue="-1 risk-off to +1 risk-on" tone={avgSentiment > 0 ? "good" : avgSentiment < 0 ? "bad" : "neutral"} />
-        <MetricCard label="Macro" value={layers.Macro} subValue="Rates, inflation, policy" />
-        <MetricCard label="Company" value={layers.Company} subValue="Single-name catalysts" />
+        <MetricCard label={t("keyEvents")} value={events.length} subValue={t("rankedDrivers")} tone="info" />
+        <MetricCard label={t("avgImpact")} value={avgImpact.toFixed(0)} subValue={t("eventScore")} tone={avgImpact >= 65 ? "warn" : "neutral"} />
+        <MetricCard label={t("avgSentiment")} value={avgSentiment.toFixed(2)} subValue={t("sentimentScale")} tone={avgSentiment > 0 ? "good" : avgSentiment < 0 ? "bad" : "neutral"} />
+        <MetricCard label={t("macro")} value={layers.Macro} subValue={t("macroSub")} />
+        <MetricCard label={t("company")} value={layers.Company} subValue={t("companySub")} />
       </section>
 
       <div className="grid gap-5 xl:grid-cols-[0.95fr_1.05fr]">
         <EventMatrix events={events} />
         <section className="terminal-card p-4">
-          <SectionHeader eyebrow="Index Performance Summary" title="Market Read-Through" />
-          <p className="text-sm leading-7 text-slate-700 dark:text-slate-300">{analysis.index_performance_summary}</p>
+          <SectionHeader eyebrow={t("indexPerformance")} title={t("marketReadThrough")} />
+          <p className="text-sm leading-7 text-slate-700 dark:text-slate-300">{localized(analysis, "index_performance_summary")}</p>
           <div className="mt-5 border-t border-slate-300 pt-5 dark:border-terminal-line">
-            <SectionHeader eyebrow="Macro Outlook" title="Macro Direction" />
-            <p className="text-sm leading-7 text-slate-700 dark:text-slate-300">{analysis.macro_outlook}</p>
+            <SectionHeader eyebrow={t("macroOutlook")} title={t("macroDirection")} />
+            <p className="text-sm leading-7 text-slate-700 dark:text-slate-300">{localized(analysis, "macro_outlook")}</p>
           </div>
         </section>
       </div>
 
       <section>
-        <SectionHeader eyebrow="Top Event Tape" title="Most Market-Sensitive Stories" />
+        <SectionHeader eyebrow={t("topEventTape")} title={t("sensitiveStories")} />
         <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-3">
           {topEvents.map((event, index) => (
             <EventCard key={`${event.title}-${index}`} event={event} />

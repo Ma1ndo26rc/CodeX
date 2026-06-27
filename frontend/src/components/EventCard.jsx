@@ -1,7 +1,9 @@
 import { ExternalLink } from "lucide-react";
 import { formatScore, sentimentTone, unique } from "../lib/utils.js";
+import { useLanguage } from "../lib/i18n.jsx";
 
 export default function EventCard({ event, compact = false }) {
+  const { localized, t, term } = useLanguage();
   const tone = sentimentTone(event.sentiment_score);
   const toneClass = tone === "good" ? "text-terminal-green" : tone === "bad" ? "text-terminal-red" : "text-terminal-amber";
   const image = event.image_paths?.[0];
@@ -16,20 +18,20 @@ export default function EventCard({ event, compact = false }) {
       )}
       <div className="p-4">
         <div className="mb-3 flex flex-wrap gap-2">
-          <Tag>{event.sector || "market"}</Tag>
-          <Tag>{event.event_type || "event"}</Tag>
-          {event.time_horizon && <Tag>{event.time_horizon}</Tag>}
+          <Tag>{term(localized(event, "sector") || t("market"))}</Tag>
+          <Tag>{term(localized(event, "event_type") || "event")}</Tag>
+          {event.time_horizon && <Tag>{term(localized(event, "time_horizon"))}</Tag>}
         </div>
-        <h3 className="font-display text-lg font-black leading-tight">{event.title || "Untitled event"}</h3>
-        {!compact && <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">{event.summary}</p>}
+        <h3 className="font-display text-lg font-black leading-tight">{localized(event, "title") || t("untitledEvent")}</h3>
+        {!compact && <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">{localized(event, "summary")}</p>}
         <div className="mt-4 grid grid-cols-2 gap-3">
-          <Score label="Impact" value={formatScore(event.market_impact_score)} />
-          <Score label="Sentiment" value={formatScore(event.sentiment_score, 2)} className={toneClass} />
+          <Score label={t("impact")} value={formatScore(event.market_impact_score)} />
+          <Score label={t("sentiment")} value={formatScore(event.sentiment_score, 2)} className={toneClass} />
         </div>
         {!compact && event.why_it_matters && (
           <div className="mt-4 border-l-2 border-terminal-amber pl-3 text-sm leading-6 text-slate-700 dark:text-slate-300">
-            <span className="font-bold text-terminal-amber">Why it matters: </span>
-            {event.why_it_matters}
+            <span className="font-bold text-terminal-amber">{t("whyItMatters")}</span>
+            {localized(event, "why_it_matters")}
           </div>
         )}
         <div className="mt-4 flex flex-wrap gap-2">
@@ -39,7 +41,7 @@ export default function EventCard({ event, compact = false }) {
             </span>
           ))}
         </div>
-        <SourceLinks names={sources} urls={event.source_urls} />
+        <SourceLinks names={sources} urls={event.source_urls} fallbackLabel={t("source")} />
       </div>
     </article>
   );
@@ -62,7 +64,7 @@ function Score({ label, value, className = "" }) {
   );
 }
 
-function SourceLinks({ names = [], urls = [] }) {
+function SourceLinks({ names = [], urls = [], fallbackLabel }) {
   if (!names.length && !urls?.length) return null;
   return (
     <div className="mt-4 flex flex-wrap gap-2">
@@ -74,7 +76,7 @@ function SourceLinks({ names = [], urls = [] }) {
           rel="noreferrer"
           className="inline-flex items-center gap-1 rounded-lg border border-slate-300 px-2 py-1 font-terminal text-[11px] text-terminal-blue hover:border-terminal-blue dark:border-terminal-line"
         >
-          {names[index] || `Source ${index + 1}`}
+          {names[index] || fallbackLabel.replace("{count}", index + 1)}
           <ExternalLink size={12} />
         </a>
       ))}

@@ -67,6 +67,96 @@ News:
         )
         return parse_and_validate_market_json(resp.choices[0].message.content or "")
 
+    def translate_market_analysis(self, analysis: dict) -> dict:
+        """Attach faithful Chinese translations without changing the English analysis."""
+        if not self.enabled:
+            return analysis
+
+        payload = {
+            "market_summary": analysis.get("market_summary", ""),
+            "index_performance_summary": analysis.get("index_performance_summary", ""),
+            "macro_outlook": analysis.get("macro_outlook", ""),
+            "risk_and_sentiment": analysis.get("risk_and_sentiment", ""),
+            "key_events": [
+                {
+                    "index": index,
+                    "title": event.get("title", ""),
+                    "sector": event.get("sector", ""),
+                    "event_type": event.get("event_type", ""),
+                    "summary": event.get("summary", ""),
+                    "time_horizon": event.get("time_horizon", ""),
+                    "why_it_matters": event.get("why_it_matters", ""),
+                    "affected_markets": event.get("affected_markets", []),
+                }
+                for index, event in enumerate(analysis.get("key_events", []))
+            ],
+        }
+        prompt = f"""
+Translate the following US equity analysis into professional Simplified Chinese.
+Return ONLY valid JSON with exactly the same keys and event indexes.
+Preserve company names, tickers, numbers, facts and market meaning. Do not add commentary.
+
+JSON:
+{json.dumps(payload, ensure_ascii=False)}
+"""
+        try:
+            response = self.client.chat.completions.create(
+                model=CONFIG.openai_model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+            )
+            translated = self._load_json_object(response.choices[0].message.content or "")
+            self._attach_chinese_translations(analysis, translated)
+        except Exception as exc:  # Translation failure should not block the daily report.
+            print(f"Chinese translation skipped: {exc}")
+        return analysis
+
+    def _attach_chinese_translations(self, analysis: dict, translated: dict) -> None:
+        analysis["translations"] = {
+            "zh": {
+                key: translated.get(key, "")
+                for key in (
+                    "market_summary",
+                    "index_performance_summary",
+                    "macro_outlook",
+                    "risk_and_sentiment",
+                )
+            }
+        }
+        events = analysis.get("key_events", [])
+        for row in translated.get("key_events", []):
+            if not isinstance(row, dict):
+                continue
+            try:
+                index = int(row.get("index"))
+            except (TypeError, ValueError):
+                continue
+            if not 0 <= index < len(events):
+                continue
+            events[index]["translations"] = {
+                "zh": {
+                    key: row.get(key, [] if key == "affected_markets" else "")
+                    for key in (
+                        "title",
+                        "sector",
+                        "event_type",
+                        "summary",
+                        "time_horizon",
+                        "why_it_matters",
+                        "affected_markets",
+                    )
+                }
+            }
+
+    def _load_json_object(self, text: str) -> dict:
+        cleaned = text.strip()
+        cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.IGNORECASE)
+        start, end = cleaned.find("{"), cleaned.rfind("}")
+        if start >= 0 and end > start:
+            cleaned = cleaned[start : end + 1]
+        value = json.loads(cleaned)
+        return value if isinstance(value, dict) else {}
+
     def _fallback_summary(self, items: list[NewsItem]) -> dict:
         positives = sum(1 for i in items if i.sentiment == "positive")
         negatives = sum(1 for i in items if i.sentiment == "negative")

@@ -54,6 +54,7 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
     analysis["macro_outlook"] = _to_str(payload.get("macro_outlook"))
     analysis["risk_and_sentiment"] = _to_str(payload.get("risk_and_sentiment"))
     analysis["market_data"] = payload.get("market_data") if isinstance(payload.get("market_data"), dict) else {}
+    analysis["translations"] = _validate_analysis_translations(payload.get("translations"))
 
     key_events = payload.get("key_events")
     if not isinstance(key_events, list):
@@ -100,7 +101,7 @@ def _extract_json(text: str) -> str:
 
 
 def _validate_event(event: dict[str, Any]) -> dict[str, Any]:
-    return {
+    validated = {
         "title": _to_str(event.get("title")),
         "entities": _to_str_list(event.get("entities")),
         "sector": _to_str(event.get("sector")),
@@ -115,6 +116,39 @@ def _validate_event(event: dict[str, Any]) -> dict[str, Any]:
         "source_urls": _to_str_list(event.get("source_urls")),
         "image_urls": _to_str_list(event.get("image_urls")),
         "image_paths": _to_str_list(event.get("image_paths")),
+    }
+    validated["translations"] = _validate_event_translations(event.get("translations"))
+    return validated
+
+
+def _validate_analysis_translations(value: Any) -> dict[str, Any]:
+    if not isinstance(value, dict) or not isinstance(value.get("zh"), dict):
+        return {}
+    zh = value["zh"]
+    return {
+        "zh": {
+            "market_summary": _to_str(zh.get("market_summary")),
+            "index_performance_summary": _to_str(zh.get("index_performance_summary")),
+            "macro_outlook": _to_str(zh.get("macro_outlook")),
+            "risk_and_sentiment": _to_str(zh.get("risk_and_sentiment")),
+        }
+    }
+
+
+def _validate_event_translations(value: Any) -> dict[str, Any]:
+    if not isinstance(value, dict) or not isinstance(value.get("zh"), dict):
+        return {}
+    zh = value["zh"]
+    return {
+        "zh": {
+            "title": _to_str(zh.get("title")),
+            "sector": _to_str(zh.get("sector")),
+            "event_type": _to_str(zh.get("event_type")),
+            "summary": _to_str(zh.get("summary")),
+            "time_horizon": _to_str(zh.get("time_horizon")),
+            "why_it_matters": _to_str(zh.get("why_it_matters")),
+            "affected_markets": _to_str_list(zh.get("affected_markets")),
+        }
     }
 
 
