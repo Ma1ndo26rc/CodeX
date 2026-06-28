@@ -32,6 +32,8 @@ export default function App() {
   }
 
   const events = analysis?.key_events ?? [];
+  const newsItems = analysis?.news_items ?? [];
+  const newsEvents = analysis?.news_events ?? [];
   const marketData = analysis?.market_data?.items ?? [];
   const generatedAt = manifest?.generated_at || analysis?.market_data?.as_of;
 
@@ -119,7 +121,7 @@ export default function App() {
             {!loading && !error && (
               <>
                 {activePage === "dashboard" && <Dashboard analysis={analysis} manifest={manifest} />}
-                {activePage === "news" && <NewsList events={events} />}
+                {activePage === "news" && <NewsList events={events} newsItems={newsItems} newsEvents={newsEvents} />}
                 {activePage === "macro" && <MacroAnalysis analysis={analysis} events={events} />}
                 {activePage === "market" && <MarketData marketData={marketData} analysis={analysis} marketTrends={marketTrends} marketHistory={marketHistory} />}
               </>

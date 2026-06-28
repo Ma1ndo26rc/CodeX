@@ -17,6 +17,9 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
         "",
         f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
         "",
+        f"## {analysis.get('dynamic_headline') or 'Morning Market Brief'}",
+        analysis.get("market_narrative") or analysis.get("market_summary") or "Data unavailable.",
+        "",
         "## Report Snapshot",
         _report_snapshot(analysis["key_events"]),
         "",
@@ -30,8 +33,11 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
     md.extend(
         [
         "",
-        "## Market Summary",
-        analysis["market_summary"] or "No summary available.",
+        "## Key Drivers",
+        _driver_list(analysis.get("key_drivers", [])),
+        "",
+        "## Sector / Theme Impact",
+        _sector_impact(analysis.get("sector_theme_impact", {})),
         "",
         "## Index Performance Summary",
         analysis["index_performance_summary"] or "No index performance summary available.",
@@ -64,8 +70,9 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
     for line in _cross_market_watch(analysis["key_events"]):
         md.append(f"- {line}")
 
-    md.extend(["", "## What To Watch Next", ""])
-    for line in _what_to_watch_next(analysis["key_events"]):
+    md.extend(["", "## What To Watch Tomorrow", ""])
+    watch_rows = analysis.get("what_to_watch_tomorrow") or []
+    for line in _watch_rows(watch_rows) or _what_to_watch_next(analysis["key_events"]):
         md.append(f"- {line}")
 
     md.extend(["", "## Strategy Notes", ""])
@@ -92,7 +99,7 @@ def _cell(value: Any) -> str:
 
 
 def _rank_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return sorted(events, key=lambda event: event["market_impact_score"], reverse=True)
+    return sorted(events, key=lambda event: event.get("final_score") or event["market_impact_score"], reverse=True)
 
 
 def _event_section(index: int, event: dict[str, Any]) -> list[str]:
@@ -105,6 +112,8 @@ def _event_section(index: int, event: dict[str, Any]) -> list[str]:
         f"- Event Type: {event['event_type'] or 'N/A'}",
         f"- Time Horizon: {event['time_horizon'] or 'N/A'}",
         f"- Impact / Sentiment: {event['market_impact_score']} / {event['sentiment_score']:.2f}",
+        f"- Final Score / Priority: {event.get('final_score', event['market_impact_score'])} / {event.get('priority_level', 'Medium')}",
+        f"- Source Quality / Confirmation: {event.get('source_quality_score', 0)} / {event.get('source_count', len(event.get('source_names', [])))} source(s)",
         f"- Entities: {entities}",
         f"- Affected Markets: {markets}",
         "",
@@ -122,6 +131,32 @@ def _event_section(index: int, event: dict[str, Any]) -> list[str]:
         rows.extend(source_links)
         rows.append("")
     return rows
+
+
+def _driver_list(drivers: list[dict[str, Any]]) -> str:
+    if not drivers:
+        return "No major events."
+    return "\n".join(
+        f"- **{driver.get('name') or 'Driver'} ({driver.get('importance_score', 0)}/100):** {driver.get('explanation') or 'Data unavailable.'}"
+        for driver in drivers[:5]
+    )
+
+
+def _sector_impact(impact: dict[str, Any]) -> str:
+    return "\n".join(
+        [
+            f"- **Winners:** {', '.join(impact.get('winners', [])) or 'Data unavailable'}",
+            f"- **Losers:** {', '.join(impact.get('losers', [])) or 'Data unavailable'}",
+            f"- **Themes to watch:** {', '.join(impact.get('themes_to_watch', [])) or 'Upcoming'}",
+        ]
+    )
+
+
+def _watch_rows(items: list[dict[str, Any]]) -> list[str]:
+    return [
+        f"{item.get('item') or 'Upcoming'} ({item.get('type') or 'watch'}): {item.get('why_it_matters') or 'Data unavailable.'}"
+        for item in items[:6]
+    ]
 
 
 def _cross_market_watch(events: list[dict[str, Any]]) -> list[str]:

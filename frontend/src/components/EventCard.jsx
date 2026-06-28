@@ -18,13 +18,15 @@ export default function EventCard({ event, compact = false }) {
       )}
       <div className="p-4">
         <div className="mb-3 flex flex-wrap gap-2">
+          {event.priority_level && <Tag>{t(`priority${event.priority_level}`)}</Tag>}
           <Tag>{term(localized(event, "sector") || t("market"))}</Tag>
           <Tag>{term(localized(event, "event_type") || "event")}</Tag>
           {event.time_horizon && <Tag>{term(localized(event, "time_horizon"))}</Tag>}
         </div>
         <h3 className="font-display text-lg font-black leading-tight">{localized(event, "title") || t("untitledEvent")}</h3>
         {!compact && <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">{localized(event, "summary")}</p>}
-        <div className="mt-4 grid grid-cols-2 gap-3">
+        <div className="mt-4 grid grid-cols-3 gap-3">
+          <Score label={t("final")} value={formatScore(event.final_score || event.market_impact_score, 1)} />
           <Score label={t("impact")} value={formatScore(event.market_impact_score)} />
           <Score label={t("sentiment")} value={formatScore(event.sentiment_score, 2)} className={toneClass} />
         </div>
