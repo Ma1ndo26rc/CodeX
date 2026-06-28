@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T00:50:29.213326",
+  "updated_at": "2026-06-28T23:54:58.647011",
   "series": {
     "SPY": [
       {
@@ -25,6 +25,24 @@
         "symbol": "SPY",
         "price": 734.364,
         "change_pct": 0.153
+      },
+      {
+        "time": "2026-06-27T20:48:37.534399",
+        "symbol": "SPY",
+        "price": 728.99,
+        "change_pct": -0.58
+      },
+      {
+        "time": "2026-06-28T01:21:19.390204",
+        "symbol": "SPY",
+        "price": 728.99,
+        "change_pct": -0.58
+      },
+      {
+        "time": "2026-06-28T23:54:55.421401",
+        "symbol": "SPY",
+        "price": 728.99,
+        "change_pct": -0.58
       }
     ],
     "QQQ": [
@@ -51,6 +69,24 @@
         "symbol": "QQQ",
         "price": 713.2,
         "change_pct": 0.363
+      },
+      {
+        "time": "2026-06-27T20:48:37.534399",
+        "symbol": "QQQ",
+        "price": 706.52,
+        "change_pct": -0.577
+      },
+      {
+        "time": "2026-06-28T01:21:19.390204",
+        "symbol": "QQQ",
+        "price": 706.52,
+        "change_pct": -0.577
+      },
+      {
+        "time": "2026-06-28T23:54:55.421401",
+        "symbol": "QQQ",
+        "price": 706.52,
+        "change_pct": -0.577
       }
     ],
     "VIX": [
@@ -77,6 +113,24 @@
         "symbol": "^VIX",
         "price": 18.93,
         "change_pct": 0.212
+      },
+      {
+        "time": "2026-06-27T20:48:37.534399",
+        "symbol": "^VIX",
+        "price": 18.41,
+        "change_pct": -2.541
+      },
+      {
+        "time": "2026-06-28T01:21:19.390204",
+        "symbol": "^VIX",
+        "price": 18.41,
+        "change_pct": -2.541
+      },
+      {
+        "time": "2026-06-28T23:54:55.421401",
+        "symbol": "^VIX",
+        "price": 18.41,
+        "change_pct": -2.541
       }
     ],
     "10Y Yield": [
@@ -100,6 +154,24 @@
       },
       {
         "time": "2026-06-27T00:50:23.051820",
+        "symbol": "^TNX",
+        "price": 4.372,
+        "change_pct": -0.455
+      },
+      {
+        "time": "2026-06-27T20:48:37.534399",
+        "symbol": "^TNX",
+        "price": 4.372,
+        "change_pct": -0.455
+      },
+      {
+        "time": "2026-06-28T01:21:19.390204",
+        "symbol": "^TNX",
+        "price": 4.372,
+        "change_pct": -0.455
+      },
+      {
+        "time": "2026-06-28T23:54:55.421401",
         "symbol": "^TNX",
         "price": 4.372,
         "change_pct": -0.455

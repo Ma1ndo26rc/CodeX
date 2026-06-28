@@ -48,11 +48,19 @@ Schema:
 
 Rules:
 - key_events: 5-10 most important events
+- dynamic_headline: one sentence stating the dominant market narrative
+- market_narrative: 1-2 concise paragraphs explaining why markets moved, the main drivers and affected assets
+- key_drivers: 3-5 ranked drivers, not a list of article summaries
+- sector_theme_impact: identify winners, losers and themes to watch
+- what_to_watch_tomorrow: macro data, earnings, Fed speakers, key tickers or geopolitical risks
 - market_impact_score: integer 0-100
 - sentiment_score: float -1 to 1
+- use 80-100 for market-wide events, 65-85 for sector events, 55-75 for major company events, and 10-40 for soft news
+- clearly directional news should not receive 0 sentiment
 - include all fields
 - estimate missing values using market judgment
 - summary and why_it_matters should be substantive, not headline repeats
+- risk_and_sentiment should discuss positioning, volatility, breadth and risk direction without repeating market_narrative
 - source_urls and image_urls should use URLs from the input news where relevant
 
 News:
@@ -67,16 +75,95 @@ News:
         )
         return parse_and_validate_market_json(resp.choices[0].message.content or "")
 
+    def enrich_market_events(self, analysis: dict, batch_size: int = 12) -> dict:
+        if not self.enabled:
+            return analysis
+        events = analysis.get("news_events", [])
+        for start in range(0, len(events), batch_size):
+            batch = events[start : start + batch_size]
+            payload = [
+                {
+                    "index": start + offset,
+                    "title": event.get("title", ""),
+                    "summary": event.get("summary", ""),
+                    "topics": event.get("topics", []),
+                    "keywords": event.get("keywords", []),
+                    "related_tickers": event.get("related_tickers", []),
+                    "sources": event.get("related_sources", []),
+                    "heuristic_impact": event.get("market_impact_score", 0),
+                    "heuristic_sentiment": event.get("sentiment_score", 0.0),
+                }
+                for offset, event in enumerate(batch)
+            ]
+            prompt = f"""
+You are a US equity market intelligence editor.
+Return ONLY a valid JSON array with: index, title, summary, why_it_matters,
+market_impact_score, sentiment_score, time_horizon, topics, related_tickers,
+title_zh, summary_zh, why_it_matters_zh, topics_zh.
+
+Calibrate impact using: market-wide 80-100, sector 65-85, major company 55-75,
+ordinary company 30-55, soft/product news 10-40. Give directional sentiment when evidence exists.
+Write why_it_matters as investment analysis, not a headline restatement. Do not invent facts.
+
+Events:
+{json.dumps(payload, ensure_ascii=False)}
+"""
+            try:
+                response = self.client.chat.completions.create(
+                    model=CONFIG.openai_model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.1,
+                )
+                rows = self._load_json_array(response.choices[0].message.content or "")
+            except Exception as exc:
+                print(f"Market event enrichment batch skipped: {exc}")
+                continue
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                try:
+                    index = int(row.get("index"))
+                except (TypeError, ValueError):
+                    continue
+                if not 0 <= index < len(events):
+                    continue
+                event = events[index]
+                for key in ("title", "summary", "why_it_matters", "time_horizon"):
+                    if row.get(key):
+                        event[key] = str(row[key])
+                if isinstance(row.get("topics"), list) and row["topics"]:
+                    event["topics"] = [str(value) for value in row["topics"]]
+                if isinstance(row.get("related_tickers"), list):
+                    event["related_tickers"] = [str(value) for value in row["related_tickers"]]
+                event["market_impact_score"] = self._bounded_number(row.get("market_impact_score"), 0, 100, event.get("market_impact_score", 0))
+                event["sentiment_score"] = self._bounded_number(row.get("sentiment_score"), -1, 1, event.get("sentiment_score", 0.0))
+                event["translations"] = {
+                    "zh": {
+                        "title": str(row.get("title_zh", "")),
+                        "summary": str(row.get("summary_zh", "")),
+                        "why_it_matters": str(row.get("why_it_matters_zh", "")),
+                        "topics": [str(value) for value in row.get("topics_zh", [])] if isinstance(row.get("topics_zh"), list) else [],
+                        "keywords": event.get("translations", {}).get("zh", {}).get("keywords", []),
+                    }
+                }
+        return analysis
+
     def translate_market_analysis(self, analysis: dict) -> dict:
         """Attach faithful Chinese translations without changing the English analysis."""
         if not self.enabled:
             return analysis
 
         payload = {
+            "dynamic_headline": analysis.get("dynamic_headline", ""),
             "market_summary": analysis.get("market_summary", ""),
+            "market_narrative": analysis.get("market_narrative", ""),
             "index_performance_summary": analysis.get("index_performance_summary", ""),
             "macro_outlook": analysis.get("macro_outlook", ""),
             "risk_and_sentiment": analysis.get("risk_and_sentiment", ""),
+            "key_drivers": analysis.get("key_drivers", []),
+            "sector_theme_impact": analysis.get("sector_theme_impact", {}),
+            "what_to_watch_tomorrow": analysis.get("what_to_watch_tomorrow", []),
+            "todays_themes": analysis.get("todays_themes", []),
             "key_events": [
                 {
                     "index": index,
@@ -109,6 +196,76 @@ JSON:
             self._attach_chinese_translations(analysis, translated)
         except Exception as exc:  # Translation failure should not block the daily report.
             print(f"Chinese translation skipped: {exc}")
+        self.translate_news_items(analysis)
+        return analysis
+
+    def translate_news_items(self, analysis: dict, batch_size: int = 15) -> dict:
+        if not self.enabled:
+            return analysis
+        news_items = analysis.get("news_items", [])
+        for start in range(0, len(news_items), batch_size):
+            batch = news_items[start : start + batch_size]
+            payload = [
+                {
+                    "index": start + offset,
+                    "title": item.get("title", ""),
+                    "summary": item.get("summary", ""),
+                    "category": item.get("category", ""),
+                    "source": item.get("source_name", ""),
+                }
+                for offset, item in enumerate(batch)
+            ]
+            prompt = f"""
+Create concise bilingual briefs for these financial news items.
+Return ONLY a valid JSON array. Each item must contain:
+index, title, summary, summary_en, category, keywords_en, keywords_zh.
+- title: professional Simplified Chinese translation of the title
+- summary_en: a distinct 1-2 sentence English brief based only on the supplied title and summary
+- summary: faithful Simplified Chinese translation of summary_en
+- category: Simplified Chinese translation of the category
+- keywords_en: 2-5 concise English market-relevant named entities, tickers, people, products or markets
+- keywords_zh: Chinese equivalents of keywords_en, while keeping company names, tickers and product names in canonical form
+- keep canonical forms such as NVIDIA, NVDA, Federal Reserve, Apple TV or US Treasury where appropriate
+- do not use generic category words such as company, macro, industry, policy or market as keywords
+- when the supplied summary repeats the title, explain the event and its cautious market relevance without inventing facts
+- preserve company names, tickers, numbers and all factual meaning
+
+JSON:
+{json.dumps(payload, ensure_ascii=False)}
+"""
+            try:
+                response = self.client.chat.completions.create(
+                    model=CONFIG.openai_model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.1,
+                )
+                translated = self._load_json_array(response.choices[0].message.content or "")
+            except Exception as exc:
+                print(f"News translation batch skipped: {exc}")
+                continue
+            for row in translated:
+                if not isinstance(row, dict):
+                    continue
+                try:
+                    index = int(row.get("index"))
+                except (TypeError, ValueError):
+                    continue
+                if not 0 <= index < len(news_items):
+                    continue
+                if row.get("summary_en"):
+                    news_items[index]["summary"] = str(row["summary_en"])
+                keywords_en = row.get("keywords_en")
+                keywords_zh = row.get("keywords_zh")
+                if isinstance(keywords_en, list):
+                    news_items[index]["keywords"] = [str(value) for value in keywords_en if value][:5]
+                news_items[index]["translations"] = {
+                    "zh": {
+                        "title": row.get("title", ""),
+                        "summary": row.get("summary", ""),
+                        "category": row.get("category", ""),
+                        "keywords": [str(value) for value in keywords_zh if value][:5] if isinstance(keywords_zh, list) else [],
+                    }
+                }
         return analysis
 
     def _attach_chinese_translations(self, analysis: dict, translated: dict) -> None:
@@ -116,13 +273,19 @@ JSON:
             "zh": {
                 key: translated.get(key, "")
                 for key in (
+                    "dynamic_headline",
                     "market_summary",
+                    "market_narrative",
                     "index_performance_summary",
                     "macro_outlook",
                     "risk_and_sentiment",
                 )
             }
         }
+        analysis["translations"]["zh"]["sector_theme_impact"] = translated.get("sector_theme_impact", {})
+        self._attach_named_translations(analysis.get("key_drivers", []), translated.get("key_drivers", []))
+        self._attach_named_translations(analysis.get("what_to_watch_tomorrow", []), translated.get("what_to_watch_tomorrow", []))
+        self._attach_named_translations(analysis.get("todays_themes", []), translated.get("todays_themes", []))
         events = analysis.get("key_events", [])
         for row in translated.get("key_events", []):
             if not isinstance(row, dict):
@@ -148,6 +311,26 @@ JSON:
                 }
             }
 
+    def _attach_named_translations(self, target: list[dict], translated: object) -> None:
+        if not isinstance(translated, list):
+            return
+        for index, row in enumerate(translated):
+            if index >= len(target) or not isinstance(row, dict):
+                continue
+            target[index]["translations"] = {
+                "zh": {
+                    key: row.get(key, "")
+                    for key in ("name", "item", "type", "explanation", "why_it_matters")
+                }
+            }
+
+    def _bounded_number(self, value, minimum: float, maximum: float, fallback: float) -> float:
+        try:
+            number = float(value)
+        except (TypeError, ValueError):
+            number = float(fallback)
+        return round(max(minimum, min(maximum, number)), 2)
+
     def _load_json_object(self, text: str) -> dict:
         cleaned = text.strip()
         cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.IGNORECASE)
@@ -156,6 +339,15 @@ JSON:
             cleaned = cleaned[start : end + 1]
         value = json.loads(cleaned)
         return value if isinstance(value, dict) else {}
+
+    def _load_json_array(self, text: str) -> list:
+        cleaned = text.strip()
+        cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", cleaned, flags=re.IGNORECASE)
+        start, end = cleaned.find("["), cleaned.rfind("]")
+        if start >= 0 and end > start:
+            cleaned = cleaned[start : end + 1]
+        value = json.loads(cleaned)
+        return value if isinstance(value, list) else []
 
     def _fallback_summary(self, items: list[NewsItem]) -> dict:
         positives = sum(1 for i in items if i.sentiment == "positive")
@@ -166,6 +358,8 @@ JSON:
         dominant_category = category_counts.most_common(1)[0][0] if category_counts else "market"
         tone = self._market_tone(positives, negatives, neutrals)
         top_sources = ", ".join(source for source, _ in source_counts.most_common(5)) or "major financial news sources"
+        fallback_themes = self._theme_counts(items)[:5]
+        driver_names = [name for name, _ in fallback_themes] or [dominant_category.title()]
 
         key_events = []
         for item in self._rank_fallback_items(items)[:10]:
@@ -189,12 +383,17 @@ JSON:
             )
         return parse_and_validate_market_json(
             {
+                "dynamic_headline": f"{driver_names[0]} leads a {tone} US equity session.",
                 "market_summary": (
                     f"The news flow is {tone}, based on {len(items)} articles from {top_sources}. "
                     f"The dominant theme is {dominant_category}, with {category_counts.get('macro', 0)} macro items, "
                     f"{category_counts.get('company', 0)} company items, {category_counts.get('industry', 0)} industry items, "
                     f"and {category_counts.get('policy', 0)} policy items. The tape looks more useful for identifying "
                     f"near-term rotation and risk appetite than for making a single directional index call."
+                ),
+                "market_narrative": (
+                    f"US equities are trading with a {tone} bias as {', '.join(driver_names[:3])} dominate the information flow. "
+                    "The most useful confirmation will come from index breadth, Treasury yields and whether leadership broadens beyond the largest stocks."
                 ),
                 "index_performance_summary": self._fallback_index_summary(category_counts),
                 "macro_outlook": self._fallback_macro_outlook(items),
@@ -203,6 +402,27 @@ JSON:
                     f"My read is to avoid treating headline volume as conviction by itself; the more important signal is "
                     f"whether macro-sensitive and technology-sensitive stories are pointing in the same direction."
                 ),
+                "key_drivers": [
+                    {
+                        "name": name,
+                        "importance_score": max(40, 90 - index * 10),
+                        "explanation": f"{name} is prominent in the latest market coverage and may influence positioning.",
+                        "affected_assets": ["US equities"],
+                    }
+                    for index, name in enumerate(driver_names[:5])
+                ],
+                "sector_theme_impact": {
+                    "winners": ["Defensive and cash-generative sectors if risk appetite weakens"],
+                    "losers": ["High-duration growth exposure if yields rise"],
+                    "themes_to_watch": driver_names[:5],
+                },
+                "what_to_watch_tomorrow": [
+                    {
+                        "item": "Treasury yields and index breadth",
+                        "type": "market confirmation",
+                        "why_it_matters": "They will show whether the dominant news themes are producing broad follow-through.",
+                    }
+                ],
                 "key_events": key_events,
             }
         )
