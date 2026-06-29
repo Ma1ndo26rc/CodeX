@@ -7,11 +7,17 @@ export function useReportData() {
     const controller = new AbortController();
     const load = async () => {
       try {
-        const names = ["market_analysis", "manifest", "market_history", "market_trends"];
-        const responses = await Promise.all(names.map((name) => fetch(`./data/${name}.json`, { signal: controller.signal })));
-        const failed = responses.find((response) => !response.ok);
-        if (failed) throw new Error(`HTTP ${failed.status}`);
-        const [analysis, manifest, marketHistory, marketTrends] = await Promise.all(responses.map((response) => response.json()));
+        const fetchJson = async (name) => {
+          const response = await fetch(`./data/${name}.json`, { signal: controller.signal });
+          if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
+          return response.json();
+        };
+        const analysis = await fetchJson("latest").catch(() => fetchJson("market_analysis"));
+        const [manifest, marketHistory, marketTrends] = await Promise.all([
+          fetchJson("manifest"),
+          fetchJson("market_history"),
+          fetchJson("market_trends"),
+        ]);
         setData({ analysis, manifest, marketHistory, marketTrends, loading: false, error: "" });
       } catch (error) {
         if (error.name !== "AbortError") setData((current) => ({ ...current, loading: false, error: error.message }));

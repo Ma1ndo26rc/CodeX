@@ -66,14 +66,18 @@ Rules:
 News:
 {payload}
 """
-        resp = self.client.chat.completions.create(
-            model=CONFIG.openai_model,
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            temperature=0.2
-        )
-        return parse_and_validate_market_json(resp.choices[0].message.content or "")
+        try:
+            resp = self.client.chat.completions.create(
+                model=CONFIG.openai_model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2
+            )
+            return parse_and_validate_market_json(resp.choices[0].message.content or "")
+        except Exception as exc:
+            print(f"Market summary LLM call failed: {type(exc).__name__}: {exc}")
+            return self._fallback_summary(items)
 
     def enrich_market_events(self, analysis: dict, batch_size: int = 12) -> dict:
         if not self.enabled:

@@ -1,25 +1,20 @@
 # US Stock Daily AI News Report
 
-一个用于生成“每日美股市场 AI 新闻分析报告”的工程化项目。后端负责抓取新闻、调用 DeepSeek/OpenAI 兼容模型、生成 Markdown/JSON/PDF；前端提供一个类似 Bloomberg Terminal 风格的 React Dashboard。
+一个用于生成每日美股市场 AI 新闻分析报告的工程化项目。后端负责抓取新闻、调用 DeepSeek/OpenAI 兼容接口、生成结构化 JSON/Markdown/PDF；前端提供 Bloomberg Terminal / Daily Terminal 风格的 React Dashboard。
 
-默认工作目录：`E:/CodeX_File`
+默认本地工作目录：`E:/CodeX_File`
 
-## 核心能力
+## Core Features
 
 - 抓取最近 24 小时美股相关新闻。
 - 支持 Yahoo Finance、CNBC、MarketWatch、Nasdaq、Google News 等来源。
-- 使用 DeepSeek/OpenAI 兼容接口生成结构化 JSON 分析。
-- 标准分析文件固定输出到 `reports/market_analysis.json`。
-- 自动保存历史 Markdown、JSON、PDF，不覆盖旧日报。
-- 抓取实时市场快照：`SPY`、`QQQ`、`VIX`、`10Y Yield`。
-- 报告展示真实新闻来源名称，例如 Reuters、CNBC、Yahoo Finance。
-- 图片只绑定匹配到的原新闻缩略图，匹配不到就不展示。
-- 报告按 `Macro / Market / Company` 三层组织关键事件。
-- 支持 SMTP 邮件发送。
-- 支持定时任务。
-- 支持 React + Vite + Tailwind CSS 小网站。
+- 使用 DeepSeek/OpenAI 兼容接口生成结构化市场分析。
+- 通过事件聚类、来源质量、影响分、情绪分和新鲜度排序新闻。
+- 输出 Markdown、JSON、PDF。
+- 静态网站由 React + Vite + Tailwind CSS 构建，输出到 `site/`。
+- 支持 GitHub Actions 定时自动更新，GitHub Pages 自动发布。
 
-## 项目结构
+## Project Structure
 
 ```text
 E:/CodeX_File
@@ -41,128 +36,152 @@ E:/CodeX_File
 │  ├─ scripts/sync-report-data.mjs
 │  └─ src/
 ├─ reports/
-└─ site/
+├─ site/
+└─ .github/workflows/
 ```
 
-## Python 依赖
+## Local Setup
 
 ```bash
 cd /d E:\CodeX_File
 pip install -r requirements.txt
 ```
 
-## 模型配置
+```bash
+cd /d E:\CodeX_File\frontend
+npm install
+```
 
-DeepSeek 示例：
+## Model Configuration
+
+本地运行可在 `.env` 中配置：
 
 ```env
-OPENAI_API_KEY=你的 DeepSeek API Key
+OPENAI_API_KEY=your_deepseek_api_key
 OPENAI_BASE_URL=https://api.deepseek.com/v1
 OPENAI_MODEL=deepseek-chat
 ```
 
-可选超时配置：
+说明：
 
-```env
-FETCH_TIMEOUT_SECONDS=12
-MARKET_DATA_TIMEOUT_SECONDS=12
-```
+- `.env` 不应提交到 Git。
+- GitHub Actions 中优先读取 GitHub Secrets / workflow 环境变量。
+- 如果未配置 API Key，系统会使用 fallback 逻辑生成基础报告。
 
-如果不配置 API Key，系统会使用本地规则生成基础分析报告。
-
-## 生成日报
+## Generate Daily Report
 
 ```bash
 cd /d E:\CodeX_File
 python main.py
 ```
 
-每次运行会生成：
+每次运行会生成或更新：
 
-- `reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.md`
-- `reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.json`
-- `reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.pdf`
-- `reports/market_analysis.json`
-- `reports/market_analysis_YYYYMMDD_HHMMSS.json`
-- `reports/source_diagnostics.json`
-
-## 转换 PDF
-
-```bash
-python main.py --pdf reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.md
+```text
+reports/latest.json
+reports/market_analysis.json
+reports/source_diagnostics.json
+reports/history/YYYY-MM-DD.json
+reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.md
+reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.json
+reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.pdf
+site/
 ```
 
-## React 网站
+`latest.json` 和 `market_analysis.json` 保存最新标准 JSON；`history/YYYY-MM-DD.json` 保存每日历史快照。
 
-前端技术栈：
-
-- React
-- Vite
-- Tailwind CSS
-- 深色/浅色模式
-- 响应式布局
-- Bloomberg Terminal 风格信息面板
-
-安装前端依赖：
-
-```bash
-cd /d E:\CodeX_File\frontend
-npm install
-```
+## Frontend Website
 
 开发预览：
 
 ```bash
+cd /d E:\CodeX_File\frontend
 npm run dev
 ```
 
 构建静态网站：
 
 ```bash
+cd /d E:\CodeX_File\frontend
 npm run build
 ```
 
-构建结果会输出到：
+构建产物输出到：
 
 ```text
-E:/CodeX_File/site/index.html
+E:/CodeX_File/site/
 ```
 
-也可以从 Python 入口生成网站：
+前端数据读取顺序：
 
-```bash
-cd /d E:\CodeX_File
-python main.py --site
+1. `site/data/latest.json`
+2. 如果不存在，回退到 `site/data/market_analysis.json`
+
+## Automated Deployment / 自动更新
+
+本项目通过 GitHub Actions 实现云端自动更新，本地电脑不需要开机。
+
+工作流文件：
+
+```text
+.github/workflows/daily-news.yml
 ```
 
-说明：`npm run build` 会先执行 `scripts/sync-report-data.mjs`，把最新 `reports/market_analysis.json` 写入前端生成数据，并复制图表/图片到静态资源目录，再构建页面。由于 Chrome 会限制本地 `file://` 页面加载 ES Module，推荐通过本地服务打开：
+自动流程：
 
-```bash
-run_site.cmd
+1. 按计划或手动触发 workflow。
+2. 在 GitHub Actions 的 `ubuntu-latest` 环境中安装 Python 3.11 和 Node.js 20。
+3. 安装 Python 和前端依赖。
+4. 运行 `python main.py` 抓取新闻、调用 DeepSeek API、生成报告 JSON/Markdown/PDF。
+5. 运行 `npm run build` 构建 React 静态网站到 `site/`。
+6. 自动提交并推送 `reports/` 和 `site/` 到 `main` 分支。
+7. 现有 Pages workflow 会读取 `site/` 并发布网站。
+
+默认定时：
+
+```text
+30 21 * * 1-5
 ```
 
-或者手动运行：
+这是 UTC 时间，约等于美股常规交易日收盘后运行。
 
-```bash
-cd /d E:\CodeX_File\frontend
-npm run preview -- --host 127.0.0.1 --port 4173
+### Required GitHub Secret
+
+在 GitHub 仓库中配置：
+
+```text
+OPENAI_API_KEY
 ```
 
-## 网站页面
+Actions 中使用的模型配置：
 
-- `Dashboard`：市场摘要、实时行情、关键事件矩阵、下载入口。
-- `News List`：新闻事件列表，支持搜索和 Macro/Market/Company 过滤。
-- `Macro Analysis`：宏观、市场、公司三层拆分。
-- `Market Data`：SPY、QQQ、VIX、10Y Yield 快照和事件影响矩阵。
-
-## 定时任务
-
-```bash
-python main.py --schedule --hour 8 --minute 0
+```text
+OPENAI_BASE_URL=https://api.deepseek.com/v1
+OPENAI_MODEL=deepseek-chat
 ```
 
-## 输出逻辑
+### GitHub Pages Settings
 
-- 历史日报不会被覆盖。
-- `reports/market_analysis.json` 始终保存最新标准 JSON，方便 Markdown、PDF、React 网站读取。
-- React 构建产物输出到 `site/`，可直接双击打开 `site/index.html`。
+推荐设置：
+
+- Source: GitHub Actions
+- 发布目录由 `.github/workflows/deploy.yml` 上传，路径为 `site/`
+
+如果不用 Actions 发布，也可以选择从 `main` 分支的 `/site` 目录发布。
+
+### Manual Workflow Test
+
+手动触发方式：
+
+1. 打开 GitHub 仓库。
+2. 进入 `Actions`。
+3. 选择 `Daily Market News Update`。
+4. 点击 `Run workflow`。
+5. 运行结束后检查 `reports/latest.json`、`reports/history/YYYY-MM-DD.json` 和 `site/data/latest.json` 是否更新。
+
+## Stability Notes
+
+- 单个新闻源失败不会中断整个报告生成。
+- 抓取失败会记录到 `reports/source_diagnostics.json`。
+- DeepSeek 主摘要调用失败时，会输出明确错误日志，并使用 fallback 逻辑生成可用报告。
+- 如果没有生成内容变化，GitHub Actions 不会提交空 commit，也不会因此失败。

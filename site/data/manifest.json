@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-28T16:13:30.143Z",
+  "generated_at": "2026-06-29T17:18:59.587Z",
   "reports": {
     "markdown": "../reports/US_STOCK_DAILY_20260629_001326.md",
     "pdf": "../reports/US_STOCK_DAILY_20260629_001326.pdf",
     "json": "../reports/US_STOCK_DAILY_20260629_001326.json",
+    "latest_json": "../reports/latest.json",
     "standard_json": "../reports/market_analysis.json"
   },
   "assets": {

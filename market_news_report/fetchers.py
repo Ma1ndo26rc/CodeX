@@ -23,6 +23,7 @@ GOOGLE_NEWS_BASE = "https://news.google.com/rss/search?q={query}+when:1d&hl=en-U
 REQUEST_HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; USStockDailyReport/1.0; +https://example.com/bot)"
 }
+FETCH_DIAGNOSTICS: list[dict[str, str | int]] = []
 
 
 def _parse_dt(value) -> datetime | None:
@@ -84,7 +85,7 @@ def _entry_to_item(entry, source: str) -> NewsItem:
 
 
 def fetch_rss(url: str, source: str, lookback_hours: int) -> list[NewsItem]:
-    feed = _parse_feed_url(url)
+    feed = _parse_feed_url(url, source)
     items: list[NewsItem] = []
     for entry in feed.entries:
         item = _entry_to_item(entry, source)
@@ -93,12 +94,16 @@ def fetch_rss(url: str, source: str, lookback_hours: int) -> list[NewsItem]:
     return items
 
 
-def _parse_feed_url(url: str):
+def _parse_feed_url(url: str, label: str):
     try:
         response = requests.get(url, headers=REQUEST_HEADERS, timeout=CONFIG.fetch_timeout_seconds)
         response.raise_for_status()
+        FETCH_DIAGNOSTICS.append({"source": label, "status": "ok", "url": url, "http_status": response.status_code})
         return feedparser.parse(response.content)
-    except Exception:
+    except Exception as exc:
+        message = f"{type(exc).__name__}: {exc}"
+        FETCH_DIAGNOSTICS.append({"source": label, "status": "failed", "url": url, "error": message})
+        print(f"News source fetch failed [{label}]: {message}")
         return feedparser.parse("")
 
 
@@ -107,7 +112,7 @@ def fetch_google_news(keywords: list[str], lookback_hours: int) -> list[NewsItem
     queries = keywords or ["US stocks", "S&P 500", "Nasdaq"]
     for query in queries:
         url = GOOGLE_NEWS_BASE.format(query=quote_plus(query))
-        feed = _parse_feed_url(url)
+        feed = _parse_feed_url(url, f"Google News: {query}")
         for entry in feed.entries:
             item = _entry_to_item(entry, _google_news_source(entry, query))
             if _within_lookback(item.published_at, lookback_hours):
@@ -125,6 +130,7 @@ def _google_news_source(entry, query: str) -> str:
 
 
 def fetch_all_news(lookback_hours: int = 24, keywords: list[str] | None = None) -> list[NewsItem]:
+    FETCH_DIAGNOSTICS.clear()
     items = []
     for source, url in RSS_SOURCES:
         items.extend(fetch_rss(url, source, lookback_hours))

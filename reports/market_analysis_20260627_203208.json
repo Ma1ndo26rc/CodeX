@@ -1,0 +1,1214 @@
+{
+  "market_summary": "A broad-based tech sell-off dominated U.S. equity markets on Friday, triggered by a report that OpenAI is delaying its IPO until 2027. The Nasdaq Composite fell sharply, while the Dow Jones Industrial Average managed modest gains on a rotation into energy and financial stocks. Rising inflation above 4%, hawkish Fed commentary, and fresh geopolitical tensions in the Strait of Hormuz added to risk-off sentiment. Commodities saw steep declines, with gold and silver falling significantly, while crude oil rose on supply fears.",
+  "index_performance_summary": "The Dow Jones Industrial Average edged up approximately 0.1%, recovering from early losses. The S&P 500 fell about 0.5%, breaking a key technical level, while the Nasdaq Composite dropped roughly 1.2%, pressured by semiconductor and mega-cap tech names. The Russell 2000 underperformed, sliding 0.8%.",
+  "macro_outlook": "Inflation remains elevated above 4%, with Minneapolis Fed President Kashkari signaling a rate hike later this year. The U.S. dollar weakened for a second straight day but remained on track for a weekly gain. Trade data showed a widening goods deficit as imports surged. Gold and silver extended their monthly losses, down over 11% and 9% respectively since June 1, reflecting higher real rates and a hawkish Fed. The Strait of Hormuz remains a flashpoint after Iran allegedly violated the ceasefire, supporting oil prices. Mortgage rates stayed relatively flat. A massive $30 billion in new equity supply is expected to hit the market in the coming days, adding potential headwinds.",
+  "risk_and_sentiment": "Risk sentiment is negative, driven by a confluence of factors: the OpenAI IPO delay undermining AI hype, hawkish Fed rhetoric, persistent inflation, and geopolitical uncertainty in the Middle East. The CBOE Volatility Index (VIX) likely spiked. The tech sector is experiencing a sharp rotation out of semiconductors into software and defense. Insider selling activity has picked up. Investor sentiment is cautious ahead of the end of the quarter and large equity supply flows.",
+  "market_data": {
+    "as_of": "2026-06-27T00:50:23.051820",
+    "items": [
+      {
+        "name": "SPY",
+        "symbol": "SPY",
+        "price": 734.364,
+        "change": 1.124,
+        "change_pct": 0.153,
+        "market_time": 1782492615
+      },
+      {
+        "name": "QQQ",
+        "symbol": "QQQ",
+        "price": 713.2,
+        "change": 2.58,
+        "change_pct": 0.363,
+        "market_time": 1782492617
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "price": 18.93,
+        "change": 0.04,
+        "change_pct": 0.212,
+        "market_time": 1782491716
+      },
+      {
+        "name": "10Y Yield",
+        "symbol": "^TNX",
+        "price": 4.372,
+        "change": -0.002,
+        "change_pct": -0.455,
+        "market_time": 1782491715
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "title": "OpenAI Reportedly Delays IPO Until 2027, Rattling Tech Stocks",
+      "entities": [
+        "OpenAI",
+        "Nvidia",
+        "Micron",
+        "Nasdaq"
+      ],
+      "sector": "Technology",
+      "event_type": "Corporate",
+      "summary": "A CNBC report indicated that OpenAI has not yet held pre-IPO meetings and sources suggest the offering may be delayed until 2027, contrary to market expectations. The news triggered a sharp sell-off in AI-related stocks, with Nvidia, Micron, and other semiconductor names falling hard. Kalshi prediction markets give only one-in-three odds of a 2026 IPO.",
+      "market_impact_score": 85,
+      "sentiment_score": -0.6,
+      "time_horizon": "short-term",
+      "why_it_matters": "The IPO delay challenges the current valuation narrative around AI companies and raises questions about the monetization timeline for foundational AI models. It directly pressures high-multiple tech stocks and could lead to a broader de-rating of the AI trade.",
+      "affected_markets": [
+        "US Equities",
+        "Technology",
+        "Semiconductors"
+      ],
+      "source_names": [
+        "CNBC",
+        "Yahoo Finance",
+        "FXEmpire"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/open-ai-ipo-timeline-investors.html",
+        "https://finance.yahoo.com/technology/article/ai-trade-hits-a-wall-amid-report-that-openai-will-delay-ipo-until-2027-150642366.html",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQXhqbUhIRFNVVDB2ZUZVOXZjS1pQeWZnZHgxZWNIYVdXS1hWc2dNMWY3ZDkwRHJBTEZHcDNXM1Q4eWRWbjAzNEJTenBCR0tMMjhCSjBMdTVQLTF3a3VoTFAtU0dBMERmbWdEQkZJSlZoMi10c1MtUnlzU0J1ZDFhOUxkMXo5ZzVpMWxuYXkzMi1VVGY5Zm1hYkxGTWdmQ3Q2VXo4Y2dsWnlGXzdJMzFUaE9yN2VsVnlCMWlz?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "报道称OpenAI将IPO推迟至2027年，科技股受挫",
+          "sector": "科技",
+          "event_type": "公司事件",
+          "summary": "CNBC报道指出，OpenAI尚未举行IPO前的会议，消息人士称此次发行可能推迟至2027年，与市场预期相左。该消息引发AI相关股票大幅抛售，英伟达、美光及其他半导体个股重挫。Kalshi预测市场认为2026年IPO的概率仅为三分之一。",
+          "time_horizon": "短期",
+          "why_it_matters": "IPO推迟挑战了当前围绕AI公司的估值叙事，并对基础AI模型的变现时间表提出疑问。这直接打压高倍数科技股，并可能引发AI交易的更广泛估值下修。",
+          "affected_markets": [
+            "美股",
+            "科技板块",
+            "半导体"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Fed's Kashkari Expects a Rate Hike This Year as Inflation Tops 4%",
+      "entities": [
+        "Neel Kashkari",
+        "Federal Reserve",
+        "Kevin Warsh",
+        "US Treasury"
+      ],
+      "sector": "Macro",
+      "event_type": "Monetary Policy",
+      "summary": "Minneapolis Fed President Neel Kashkari stated that he expects a rate hike this year, citing inflation persistently above 4%. President Trump continues to call for rate cuts but has eased pressure on Fed Chairman Warsh. Chicago Fed's Goolsbee echoed that inflation is too high. The comments reinforced expectations of tighter policy.",
+      "market_impact_score": 75,
+      "sentiment_score": -0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "A rate hike would be a significant shift from the previous dovish pivot and would likely strengthen the dollar, pressure growth stocks, and increase borrowing costs. Markets have been pricing in cuts, so a hike repricing could trigger volatility across asset classes.",
+      "affected_markets": [
+        "US Treasuries",
+        "US Equities",
+        "Dollar",
+        "Gold"
+      ],
+      "source_names": [
+        "CNBC",
+        "CNBC",
+        "CNBC"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/minneapolis-fed-president-neel-kashkari-says-he-expects-a-rate-hike-this-year.html",
+        "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVjdCS0dPWlNzTHN4N2hDc0VOQVd0TFdDVnFBNkVrWnotY04wb1dlREwzOFVZNFA3Y0NhcmhVU1BCOXpfdnBrdHFMSTd1MllnZF9hOTdkemdNamI0WW5WSnY4Q2txTkZjWEQxWGMtNTBJRmhtRUpYaTZ0c3RsbkFCY2p0Y282X2tRdnZ1MFkzNGFpRmlBXzl0dXphN3dydWVvaWJOVWtpakd4Z3dUQXc0bXZiQUXSAboBQVVfeXFMTWJtUDk0c0VfbkNMbi1RU2U5dTVFS2hrM0xfWmdIek9CLTBjNGRuTlJLQ2d2X1J4Sm1xN21TNG1FS2YtTmVqN3M3UUg3elpUTzc4VU4zUDNmQ004UmVWdUFJWDlTX0MtaFpvQ0lRLVJuZVFJOWt0YWlRZ2tpY3ViTWgyVXNnSFhpaGlxNERiZzFaRXVEcmNWYXdBb0E3SWZnZDUtVGQ0RGhCNFV5dlF1UlRaOUhUSUpablhR?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "通胀超过4%，美联储卡什卡利预计今年加息",
+          "sector": "宏观",
+          "event_type": "货币政策",
+          "summary": "明尼阿波利斯联储主席卡什卡利表示，鉴于通胀持续高于4%，他预计今年将加息一次。特朗普总统继续呼吁降息，但对美联储主席沃什施压有所缓和。芝加哥联储的古尔斯比也附和称通胀过高。这些言论强化了政策收紧预期。",
+          "time_horizon": "中期",
+          "why_it_matters": "若落实加息，将与此前鸽派转向形成显著区别，可能推高美元、压制成长股并增加借贷成本。市场此前一直定价降息，因此加息预期的重新定价可能引发各类资产波动。",
+          "affected_markets": [
+            "美国国债",
+            "美股",
+            "美元",
+            "黄金"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Iran Violates Ceasefire, Drone Attacks on Strait of Hormuz Ships Drive Oil Higher",
+      "entities": [
+        "Iran",
+        "US",
+        "Strait of Hormuz",
+        "Crude Oil",
+        "DHT Holdings"
+      ],
+      "sector": "Energy",
+      "event_type": "Geopolitical",
+      "summary": "President Trump stated that Iran violated the ceasefire with drone attacks on ships in the Strait of Hormuz. The International Maritime Organization paused rescue efforts after a cargo vessel was struck. Oil prices rose on supply disruption fears. The energy sector saw selective buying, with tanker stocks like DHT testing support.",
+      "market_impact_score": 80,
+      "sentiment_score": -0.4,
+      "time_horizon": "short-term",
+      "why_it_matters": "The Strait of Hormuz is a critical chokepoint for global oil shipments. Any sustained disruption could spike crude prices significantly, feeding into inflation and hurting import-dependent economies. It also adds a risk premium to energy equities and shipping stocks.",
+      "affected_markets": [
+        "Crude Oil",
+        "Energy Stocks",
+        "Shipping",
+        "Middle East FX"
+      ],
+      "source_names": [
+        "CNBC",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/trump-iran-ceasefire-strait-of-hormuz.html",
+        "https://www.marketwatch.com/story/iran-tightens-its-grip-on-strait-of-hormuz-sending-oil-higher-f3bc53a1",
+        "https://www.marketwatch.com/story/iran-tightens-its-grip-on-strait-of-hormuz-sending-oil-higher-f3bc53a1?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-42221647"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_03_01.jpg"
+      ],
+      "translations": {
+        "zh": {
+          "title": "伊朗违反停火协议，无人机袭击霍尔木兹海峡船只推高油价",
+          "sector": "能源",
+          "event_type": "地缘政治",
+          "summary": "特朗普总统称伊朗违反停火协议，用无人机袭击了霍尔木兹海峡船只。国际海事组织在货轮遇袭后暂停了救援行动。受供应中断担忧影响，油价上涨。能源板块出现选择性买入，DHT等油轮股测试支撑位。",
+          "time_horizon": "短期",
+          "why_it_matters": "霍尔木兹海峡是全球石油运输的关键咽喉。任何持续性中断都可能大幅推高原油价格，加剧通胀并伤害进口依赖型经济体。同时这也给能源股和航运股增加了风险溢价。",
+          "affected_markets": [
+            "原油",
+            "能源股",
+            "航运",
+            "中东外汇"
+          ]
+        }
+      }
+    },
+    {
+      "title": "SEC Targets Private Equity's $106 Billion Tax Strategy",
+      "entities": [
+        "SEC",
+        "Private Equity",
+        "Blackstone",
+        "Apollo Global Management"
+      ],
+      "sector": "Financials",
+      "event_type": "Regulatory",
+      "summary": "The SEC is scrutinizing a common private equity practice involving a $106 billion tax loophole used to shield carried interest. This regulatory action could force PE firms to restructure their fee arrangements and potentially lower net returns to general partners.",
+      "market_impact_score": 55,
+      "sentiment_score": -0.3,
+      "time_horizon": "long-term",
+      "why_it_matters": "If the SEC successfully closes this loophole, it would reduce profitability for major private equity firms, potentially leading to lower distribution yields for investors and a shift in how PE deals are structured. Publicly traded PE stocks could face headwinds.",
+      "affected_markets": [
+        "Private Equity",
+        "Financials",
+        "Alternative Asset Managers"
+      ],
+      "source_names": [
+        "Yahoo Finance",
+        "Trefis",
+        "Yahoo Finance"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/sec-zeroes-private-equity-favorite-163300468.html",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNREUwZ0pmVk1haEVIckVZN3Q1UlBHcldBSlJqRUJhSERhdGJpS0p3N19RSDloTm5iSHBLaFlReUhoRDd5S0FtWmd3V0E5SlR1MUNISjBHOWhhbFNZRVJhT09WVDEwTWJfUk9fTlJ1Zm9NZWpyZUpfYkZPRjVxTXdQaWpTWjh4aTdIbjQ1cUJLZFRoT0IyaFVLdDY4QnZMdF9oa0taZE5MMVFXVlJqVVc1bXlVeUtibG1aYm0ybW9hbEJOUQ?oc=5",
+        "https://www.investors.com/news/tesla-amazon-waymo-robotaxi-cybercab-self-driving-car-fsd/?src=A00220&yptr=yahoo"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/thestreet_881/88926e8221985e6aa7e68bc144f97663",
+        "https://media.zenfs.com/en/ibd.com/58bf42c749d90f7e3e8df96a672ea38c"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_04_01.jpg"
+      ],
+      "translations": {
+        "zh": {
+          "title": "美国证监会瞄准私募股权1060亿美元税务策略",
+          "sector": "金融",
+          "event_type": "监管",
+          "summary": "美国证监会正在审查一项常见的私募股权操作，该操作涉及利用1060亿美元税收漏洞来规避附带权益税。这一监管行动可能迫使私募股权公司重组费用安排，并可能降低普通合伙人的净回报。",
+          "time_horizon": "长期",
+          "why_it_matters": "若美国证监会成功堵住此漏洞，将降低主要私募股权公司的盈利能力，可能导致投资者分配收益下降，并改变私募股权交易的架构方式。上市私募股权股可能面临逆风。",
+          "affected_markets": [
+            "私募股权",
+            "金融板块",
+            "另类资产管理公司"
+          ]
+        }
+      }
+    },
+    {
+      "title": "ON Semiconductor Tanks 20% After $7 Billion Synaptics Deal",
+      "entities": [
+        "ON Semiconductor",
+        "Synaptics",
+        "Hassane El-Khoury"
+      ],
+      "sector": "Technology",
+      "event_type": "Merger and Acquisition",
+      "summary": "ON Semiconductor announced a $7 billion acquisition of Synaptics to push into physical AI, expanding its addressable market by $30 billion. However, investors punished the stock with a 20% decline, concerned about integration risk and the dilutive financing. The CEO defended the move as a strategic pivot.",
+      "market_impact_score": 60,
+      "sentiment_score": -0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "The deal signals a major M&A trend in physical AI but also highlights market skepticism toward large acquisitions in a high-interest-rate environment. It could set the tone for other semiconductor M&A and impact the sector's valuation multiples.",
+      "affected_markets": [
+        "Semiconductors",
+        "Hardware",
+        "M&A"
+      ],
+      "source_names": [
+        "CNBC",
+        "CNBC",
+        "富途牛牛"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/on-semi-stock-synaptics-ceo-hassane-el-khoury.html",
+        "https://www.cnbc.com/2026/06/25/on-semi-synaptics-deal-physical-ai.html",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX2xhZnVZX0t3QkVWQWh2M09hU2dGWnhvek16WkI3elFtX2ZaaEQteWY3NzVEQnpsbmN4WDlITFlvaV9tOGtpdnFOUUtxODNuXzRGd0tLSnJVLS1wWnFVSkpYVDc1TzN4MW84bGZBYWFxMFNHNTEydklRbE5ZZkhYSUxwbUFHVEl3SGVRQ1hURQ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "安森美半导体收购新思科技70亿美元，股价暴跌20%",
+          "sector": "科技",
+          "event_type": "并购",
+          "summary": "安森美半导体宣布以70亿美元收购新思科技，以进军物理AI领域，将其可寻址市场扩大300亿美元。然而投资者惩罚该股，使其下跌20%，担忧整合风险及稀释性融资。CEO为这一战略转型进行辩护。",
+          "time_horizon": "中期",
+          "why_it_matters": "该交易标志着物理AI领域的一笔重大并购趋势，但也凸显了市场在高利率环境下对大规模收购持怀疑态度。这可能为其他半导体并购定下基调，并影响该板块的估值倍数。",
+          "affected_markets": [
+            "半导体",
+            "硬件",
+            "并购"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Robotaxi Regulatory Rollback Set to Benefit Tesla, Amazon, Google",
+      "entities": [
+        "Tesla",
+        "Amazon",
+        "Google",
+        "Waymo",
+        "Robotaxi"
+      ],
+      "sector": "Technology",
+      "event_type": "Regulatory",
+      "summary": "A U.S. regulatory rollback for autonomous vehicles is expected to ease deployment of robotaxis, benefiting companies like Tesla (Cybercab), Amazon's Zoox, and Google's Waymo. The move reduces compliance burdens and accelerates timelines for commercial operations.",
+      "market_impact_score": 65,
+      "sentiment_score": 0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "Regulatory clarity is a key catalyst for the autonomous driving sector. This rollback could unlock significant revenue opportunities and justify the massive R&D investments. It also supports the broader 'physical AI' theme that analysts are highlighting.",
+      "affected_markets": [
+        "Electric Vehicles",
+        "Autonomous Driving",
+        "Ride-Hailing"
+      ],
+      "source_names": [
+        "Investor's Business Daily",
+        "Investor's Business Daily",
+        "Zacks Investment Research"
+      ],
+      "source_urls": [
+        "https://www.investors.com/news/tesla-amazon-waymo-robotaxi-cybercab-self-driving-car-fsd/?src=A00220&yptr=yahoo",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbkI5WS1fZ0s1S0FUWFp2OEYxaW9yTDRMNVdPUk5LeVJzX1JjcF84RjFiRG1OaXZVQVc0ZUZUTmljYTNTYUFIMXBHVzcwcXA3WlNPYXNUaDJSWXRoRHIwblVYQmVXSjQ0NjlwWWF5ek5zcGg3eHZtNTFqYlRtZjNEQl9QMGdHVlVlMUkwRGdyWm42MEU?oc=5",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMS1TOFZMVkZwNTdBRGdBQVpIcG5uRHRMQk1VYjVzU3hjWC02LWhrcjhTbm04R0dpemJhU0FZa2trY1BHWjFYNDREeGxkc1BUaG1DbGZaZHhxeEFOTkVuelRFRGtwWVVsc0E2VE1TS1ROeGRNQWlpUmVhME9LVUpVcmxiOTVaTVQwR05uX3Z1RXFrT2ZhalNwUjJlLXBGUFMxaVE?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/ibd.com/58bf42c749d90f7e3e8df96a672ea38c"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_06_01.jpg"
+      ],
+      "translations": {
+        "zh": {
+          "title": "自动驾驶监管松绑将利好特斯拉、亚马逊、谷歌",
+          "sector": "科技",
+          "event_type": "监管",
+          "summary": "美国对自动驾驶汽车的监管松绑预计将降低Robotaxi部署难度，利好特斯拉（Cybercab）、亚马逊的Zoox以及谷歌的Waymo。此举减少了合规负担，并加速了商业运营时间表。",
+          "time_horizon": "中期",
+          "why_it_matters": "监管明晰是自动驾驶行业的关键催化剂。这次松绑可能释放巨大的收入机会，并验证巨额的研发投入。同时它也支持了分析师强调的‘物理AI’主题。",
+          "affected_markets": [
+            "电动汽车",
+            "自动驾驶",
+            "网约车"
+          ]
+        }
+      }
+    },
+    {
+      "title": "SpaceX Stock Volatility Continues; Down 18% for the Week",
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "T-Mobile",
+        "Russell 1000"
+      ],
+      "sector": "Technology",
+      "event_type": "Equity",
+      "summary": "SpaceX stock experienced another volatile session, on track for an 18% weekly decline. Analysts debated whether the stock is overvalued. Speculation about a potential acquisition of T-Mobile by SpaceX added to the noise. The stock is set to be added to the Russell 1000 after Friday's close, which could drive further volatility.",
+      "market_impact_score": 70,
+      "sentiment_score": -0.6,
+      "time_horizon": "short-term",
+      "why_it_matters": "SpaceX's public listing has been one of the most anticipated events, but its wild swings reflect the challenge of valuing high-growth speculative assets. The inclusion in major indexes will force passive buying, but the underlying business fundamentals remain hard to gauge.",
+      "affected_markets": [
+        "Space",
+        "Private Equity",
+        "Index Funds"
+      ],
+      "source_names": [
+        "CNBC",
+        "MarketWatch",
+        "Yahoo Finance"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/spacex-volatility.html",
+        "https://www.marketwatch.com/story/spacexs-stock-could-get-another-dose-of-volatility-8763bb0a",
+        "https://finance.yahoo.com/markets/stocks/articles/spacex-overvalued-now-163100064.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-78631567"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_07_01.jpg"
+      ],
+      "translations": {
+        "zh": {
+          "title": "SpaceX股价持续波动，本周累计下跌18%",
+          "sector": "科技",
+          "event_type": "股权",
+          "summary": "SpaceX股价经历了又一个波动交易日，本周有望累计下跌18%。分析师就该股是否估值过高展开辩论。关于SpaceX可能收购T-Mobile的猜测增添了噪音。该股将于周五收盘后纳入罗素1000指数，这可能进一步加剧波动。",
+          "time_horizon": "短期",
+          "why_it_matters": "SpaceX上市一直是最受期待的事件之一，但其剧烈波动反映出对高增长投机型资产估值的挑战。纳入主要指数将迫使被动资金买入，但基本面仍难以评估。",
+          "affected_markets": [
+            "太空板块",
+            "私募股权",
+            "指数基金"
+          ]
+        }
+      }
+    },
+    {
+      "title": "Billionaire Jeremy Grantham Warns Market Is Most Expensive in U.S. History",
+      "entities": [
+        "Jeremy Grantham",
+        "S&P 500",
+        "Bitcoin"
+      ],
+      "sector": "Macro",
+      "event_type": "Analyst Commentary",
+      "summary": "Veteran investor Jeremy Grantham stated that U.S. stocks are the most expensive in American history, driven by AI hype. He predicted bitcoin will 'dwindle away with a whimper'. His warning comes amid a tech sell-off and adds to cautious sentiment.",
+      "market_impact_score": 45,
+      "sentiment_score": -0.5,
+      "time_horizon": "long-term",
+      "why_it_matters": "Grantham's track record makes his warnings notable. While such calls often mark near-term tops, they reinforce the narrative that valuations are stretched and vulnerable to shocks. It may influence institutional positioning.",
+      "affected_markets": [
+        "US Equities",
+        "Crypto"
+      ],
+      "source_names": [
+        "CNBC",
+        "CNBC",
+        "24/7 Wall St."
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
+        "https://www.cnbc.com/2026/06/26/billionaire-investor-jeremy-grantham-says-bitcoin-will-dwindle-away-with-a-whimper.html",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0lqMC1NZW5UV1pXZnpVcmlaTHhZaUFfNmp2RnFRV2hfTHRadmo4Z19XZ1lES05UVHdCeUoyRTJweU1IOTExeDY0U29NdnhVcEl2TW1uaUF1akI3SUxiakFtZTVLWjBfMWplVzJEN2VVbk44VE1odkFNV2c1VUlVa3E1aDU1S0w3dGNzWTYwYWIyZzJ0Q2ExSlhSa29YT19HM3FHRmR1TW0zOFJwR0diTmpDUVphQWU1WkRiUUcwYkdJd0VWOWNNeFZwV1g?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": [],
+      "translations": {
+        "zh": {
+          "title": "亿万富翁格兰瑟姆警告：美股估值创美国历史最高",
+          "sector": "宏观",
+          "event_type": "分析师评论",
+          "summary": "资深投资者杰里米·格兰瑟姆表示，受AI炒作推动，美股估值已创下美国历史最高。他预测比特币将‘悄然消亡’。他的警告正值科技股抛售之际，进一步加剧了谨慎情绪。",
+          "time_horizon": "长期",
+          "why_it_matters": "格兰瑟姆的过往记录使其警告备受关注。尽管此类呼声往往标志着阶段性顶部，但它们强化了估值过高且易受冲击的叙事，可能影响机构仓位调整。",
+          "affected_markets": [
+            "美股",
+            "加密货币"
+          ]
+        }
+      }
+    }
+  ],
+  "translations": {
+    "zh": {
+      "market_summary": "周五，美股市场出现广泛的科技股抛售行情，导火索是一则报道称OpenAI将IPO推迟至2027年。纳斯达克综合指数大幅下跌，而道琼斯工业平均指数因资金轮动至能源和金融板块而小幅上涨。通胀率超过4%、美联储鹰派表态以及霍尔木兹海峡新的地缘政治紧张局势加剧了避险情绪。大宗商品大幅下挫，黄金和白银显著下跌，但原油因供应担忧走高。",
+      "index_performance_summary": "道琼斯工业平均指数小幅上涨约0.1%，从早盘跌幅中恢复。标普500指数下跌约0.5%，跌破关键技术位；纳斯达克综合指数受半导体和超大盘科技股拖累下跌约1.2%。罗素2000指数表现不佳，下滑0.8%。",
+      "macro_outlook": "通胀仍高于4%且居高不下，明尼阿波利斯联储主席卡什卡利暗示今年晚些时候加息。美元连续第二日走弱，但仍有望录得周度涨幅。贸易数据显示，由于进口激增，商品贸易逆差扩大。金银延续月度跌势，自6月1日以来分别下跌逾11%和9%，反映出实际利率上升和美联储鹰派立场。霍尔木兹海峡仍是热点地区，伊朗被指违反停火协议，支撑油价。抵押贷款利率基本持平。预计未来几天将有300亿美元的新股供应冲击市场，带来潜在逆风。",
+      "risk_and_sentiment": "风险情绪偏负面，受到多重因素共同影响：OpenAI IPO推迟打击AI炒作预期、美联储鹰派言论、通胀持续以及中东地缘政治不确定性。CBOE波动率指数（VIX）可能飙升。科技板块正经历从半导体向软件和国防股的剧烈轮动。内部人交易活动增加。投资者情绪在季末及大规模股票供应到来前趋于谨慎。"
+    }
+  },
+  "news_items": [
+    {
+      "title": "NVIDIA (NVDA) Weekend Outlook: Why the AI Leader Is Down 17% Despite Record Earnings - TradingKey",
+      "summary": "Despite record earnings, NVIDIA's stock fell 17%, reflecting cautious market sentiment over its valuation or AI growth prospects.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "TradingKey",
+      "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObmpOaHNnQmpZQmxtbVBxUzJ3Z3M4T0czTXdTcXhqQUxUbEdNRFlTbHF3OEtoLVdKdGNGRjB0TWVEQ0M4bm1wSFBIV2ZVYTlnYzhDcm5QOXJFbHM3eGhtOE5DZTlSeU5obTJYNHFNU2FrSlpZak0tTjNrS3gza3E1ekREWmpWRTJTQWVGZlk1T3RrenplZ1VaSnZXb0JHcDlDT0hUcFkyQzV0YlROTmF4ZW51ci1zeS1nbUxWcnphWVFaYTRsT3Y0c0VLXzc2Y0ZFM2xHb0lsMm1uVWc?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:03:16+00:00",
+      "tickers": [],
+      "keywords": [
+        "NVIDIA",
+        "NVDA",
+        "AI"
+      ],
+      "translations": {
+        "zh": {
+          "title": "NVIDIA (NVDA) 周末展望：尽管财报创纪录，AI领导者仍下跌17% - TradingKey",
+          "summary": "尽管财报创纪录，NVIDIA股票仍下跌17%，反映出市场对其估值或AI增长前景的谨慎情绪。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "Apple to hit record market share in smartphones, laptops, tablets in 2026: Counterpoint - Seeking Alpha",
+      "summary": "Counterpoint Research predicts Apple will achieve record market share in smartphones, laptops, and tablets by 2026.",
+      "category": "macro",
+      "sentiment": "positive",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Seeking Alpha",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS2hWQVkwMnhrVkc3NWxhVUFZWUw4ZVlGV0R0Tmc1T3JHZnhLcmQzY3pFdXMzcWFhcVhyRVhZWlR2WFo4WHR1TTB0WkZuQmFDWjkyam5NWEdVM0VGWUhqM3VuSDhfUTE2eHNsYVlhRVFOTHdNRXRRUkotLXJFSWI2alhoTV9ob2JTcTA1WGY5WGxNZW51a2NHVlpsV0dEeXVlTTU5NGhSMmQyUnNjcW1qcHN2NUdXdFNLNzB6ZUZNVQ?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:33+00:00",
+      "tickers": [],
+      "keywords": [
+        "Apple",
+        "Counterpoint Research",
+        "智能手机",
+        "笔记本电脑",
+        "平板电脑"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Counterpoint：苹果将在2026年创下智能手机、笔记本电脑和平板电脑市场份额纪录 - Seeking Alpha",
+          "summary": "Counterpoint Research预测苹果将在2026年实现智能手机、笔记本电脑和平板电脑的市场份额纪录。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "What ‘Widow’s Bay’ Can — and Can’t — Do for Apple TV - Bloomberg.com",
+      "summary": "An analysis of the potential impact and limitations of the series 'Widow's Bay' for Apple TV+.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Bloomberg.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPXzF3ZTJrZXRPemFUTWNZLWx4LXZuejdBcVlKVFVidE9Eam5fYUxtc2tWemFjS1VsY3I3Q1RBQm1nT18xNktTa1RqOFNCa29EX1JyX21wX0VkSVpOV2V5U0d5d2pTV0xHOEI5NU85d1dJTWtCYmVFSmtmMk1vVUJ5U0VhNnpRR2doV3d4OHQ4T0JTNWxXcmFGRGdZbmJCUjROMVE?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:17+00:00",
+      "tickers": [],
+      "keywords": [
+        "Apple TV+",
+        "Widow's Bay"
+      ],
+      "translations": {
+        "zh": {
+          "title": "《寡妇湾》能为Apple TV带来什么——又不能做什么 - Bloomberg.com",
+          "summary": "分析剧集《寡妇湾》对Apple TV+的潜在影响及局限性。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Apple's Big MacBook Price Hikes Just Made It Clear: The RAM Tax Is Here to Stay - PCMag",
+      "summary": "Apple's significant price increases on MacBooks confirm that extra charges for RAM upgrades are here to stay.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "PCMag",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVkk1SjFxRnFqSDhabnc2ZXN2WEVXS1VIcEtQLUlBMHFIMXhlbjk3b2NqdlN4T0Q4UFExbUkxcUlSMW5oR1ZYMkVuZDNIb0FtckRRQjE0cDlZbUFMeDBVRGxaS0ZySlpCZFdiZGVlSDZCbU9DdjcwRHVHU2pzbWYwWmNQYw?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:13+00:00",
+      "tickers": [],
+      "keywords": [
+        "Apple",
+        "MacBook",
+        "RAM"
+      ],
+      "translations": {
+        "zh": {
+          "title": "苹果MacBook大幅涨价明确表明：内存溢价已成常态 - PCMag",
+          "summary": "苹果对MacBook的大幅涨价确认了额外RAM升级收费将长期存在。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "How Kohl's lost its way — and is trying to become relevant again",
+      "summary": "Kohl's lost relevance and its core customer base, causing its stock to plunge; the company is now attempting a turnaround.",
+      "category": "company",
+      "sentiment": "positive",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "CNBC Business",
+      "source_url": "https://www.cnbc.com/2026/06/27/how-kohls-lost-its-way-and-is-trying-to-become-relevant-again.html",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:01+00:00",
+      "tickers": [],
+      "keywords": [
+        "Kohl's",
+        "零售",
+        "股价"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Kohl's如何迷失方向——并试图重新赢得市场 - CNBC Business",
+          "summary": "Kohl's失去了核心客户群和相关性，导致股价暴跌，目前正在尝试转型。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "A surprisingly strong summer box office could mean Hollywood's first $10 billion year since the pandemic",
+      "summary": "Hollywood's strong summer box office puts the annual total on track to exceed $10 billion for the first time in seven years.",
+      "category": "macro",
+      "sentiment": "positive",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "CNBC Business",
+      "source_url": "https://www.cnbc.com/2026/06/27/strong-summer-box-office.html",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:01+00:00",
+      "tickers": [],
+      "keywords": [
+        "好莱坞",
+        "暑期票房",
+        "百亿美元"
+      ],
+      "translations": {
+        "zh": {
+          "title": "强劲的暑期票房可能让好莱坞迎来疫情后首个百亿美元年 - CNBC Business",
+          "summary": "好莱坞强劲的暑期票房使全年总票房有望七年来首次突破百亿美元。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "‘I’ll happily wait’: Does delaying Social Security make sense for high earners like me?",
+      "summary": "Delaying Social Security benefits can be advantageous for high earners, as many states exempt these benefits from state income tax.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/ill-happily-wait-does-delaying-social-security-make-sense-for-high-earners-like-me-17dca69b?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-22498959",
+      "published_at": "2026-06-27T12:00:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "Social Security",
+        "高收入者",
+        "州所得税"
+      ],
+      "translations": {
+        "zh": {
+          "title": "“我乐意等待”：像我这样的高收入者延迟领取社保有意义吗？ - MarketWatch",
+          "summary": "延迟领取社保福利对高收入者可能有利，因为许多州免征社保收入的州所得税。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "SpaceX’s new $11 billion ‘saving grace’ comes with a big catch",
+      "summary": "SpaceX's plan to offer hardware access to rivals could hamper its own AI ambitions, despite providing an estimated $11 billion in savings.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/spacexs-new-11-billion-saving-grace-comes-with-a-big-catch-9270c6ae?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-86284577",
+      "published_at": "2026-06-27T12:00:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "SpaceX",
+        "AI",
+        "硬件开放",
+        "110亿美元"
+      ],
+      "translations": {
+        "zh": {
+          "title": "SpaceX110亿美元的新“救命稻草”附带重大条件 - MarketWatch",
+          "summary": "SpaceX向竞争对手开放硬件的计划可能阻碍其自身的AI雄心，尽管预计能节省约110亿美元。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Prime Day is over, but Best Buy still has deals on Apple Watches, AirPods, Samsung Frame TVs and more - Yahoo Tech",
+      "summary": "Best Buy continues to offer deals on Apple Watches, AirPods, Samsung Frame TVs, and more after Prime Day.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Yahoo Tech",
+      "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUjZOS0w0dFd5TmtCWTNtZzZUMUVlTjU4VnpCdVBGVW5xZ3VHX05KX2k5ZHU4Z0tCa2xsVDlGWEktclpBdmw1R3ZFRmVqYUF3bWxRVmdGVjZkaHdCdkxfVV84dXdZVjNVTWhPVUNib0VfNkM5M21kbVV6VmN5M0Jlc25iM3ZlWGl2ZVlEczhIYVVoX1ZrUFlPT1BiOTlmTVg5YktqUE1kV1JhZlgzS3pPVkY1Uy1oS3hBalNBRGpkdld6Q1BqUk5MemE3OFVaV3JVVVlCOGxJLWdfVHB5cmRzM012aTlBTURmYk90bUpYZDBhbHhTSzdj?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "Best Buy",
+        "Apple Watch",
+        "AirPods",
+        "Samsung Frame TV",
+        "Prime Day"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Prime Day已过，但Best Buy仍有Apple Watch、AirPods、Samsung Frame电视等优惠 - Yahoo Tech",
+          "summary": "Prime Day之后，Best Buy继续提供Apple Watch、AirPods、Samsung Frame电视等产品优惠。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Virtuix launches Onni One VR treadmill for Meta Quest users - ICYMI - Proactive financial news",
+      "summary": "Virtuix launches the Onni One VR treadmill designed for Meta Quest users.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Proactive financial news",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRDlHM1h3aENyeE4zekFSbDg2M2ppQUI5X3JmRDllbEQ0eGNibmt3eUFfQmdIQmlCa0NOZzBHUktOdVgyLTZSMkd5N1RwV3BlbERPeUVBVHVvU3pVQXQ3WlBzaHBCLVIya0hFQ2VPcGZrNEZuS1JmVzZrbHlMYVpVamFZQ0l3eDFURUVGaTBEY2g3RDhlVEpwMzJSVzdHVm1PRXg2NUtZVktMZDZmdFRzMjROcXV1UTJXVjhIY1dTbGFZOTNvVkVfZm1UYVN5THNL?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T12:00:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "Virtuix",
+        "Onni One",
+        "Meta Quest",
+        "VR跑步机"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Virtuix为Meta Quest用户推出Onni One VR跑步机 - ICYMI - Proactive financial news",
+          "summary": "Virtuix推出专为Meta Quest用户设计的Onni One VR跑步机。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Best Prime Day laptop deals still live: Save up to $850 on MacBooks - Mashable",
+      "summary": "Prime Day laptop deals persist, with savings up to $850 on MacBooks.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Mashable",
+      "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qQXh6emtld1RqTDdWWWtOTHZBQUVQLVcxcW1uZ2h4WVVnUlRJSUUtREtDczk1cWdqQVVWbW5idEpycVRWcGZNM3BLNFZMZmZIZWF4blBvVzMzOF9TX0lwMVA5SlFmTTdJNGNmQkdJVzBtX2c5a3FDWkVR?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:56:46+00:00",
+      "tickers": [],
+      "keywords": [
+        "Prime Day",
+        "MacBook",
+        "笔记本电脑"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Prime Day笔记本电脑优惠仍在继续：MacBook最高可省850美元 - Mashable",
+          "summary": "Prime Day笔记本电脑优惠仍在继续，MacBook最高可省850美元。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Weekend Morning Brew: Micron and Apple Lead Key Stock Movements - GuruFocus",
+      "summary": "Micron and Apple are among the stocks with notable movements this weekend.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "GuruFocus",
+      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUi00Qk9nOFprWjZPTTlXUHBia1lJc2x5eFJqSm1rZ0JSTnEtTXU3Y1IyQ1ZOSllTMHQ1aldSLXNsRnJhdmhkU0tpWHdRazFzNm9tNzFjWGtwY1hLV2U4MW1YMEhTMU9FQUxuU201U0tpbXU0Rm1qcFhHRy12aE4tNGVCV2EySjZWX3BHSnFJLURBQ2NpOEFxbDFUZzN2WWxGd044?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:56:21+00:00",
+      "tickers": [],
+      "keywords": [
+        "Micron",
+        "Apple",
+        "股票走势"
+      ],
+      "translations": {
+        "zh": {
+          "title": "周末早报：美光科技和苹果领衔关键股票走势 - GuruFocus",
+          "summary": "本周末美光科技和苹果等股票出现显著波动。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "It’s a tale of two S&P 500s as rotation out of top tech stocks shifts into overdrive - MSN",
+      "summary": "The S&P 500 shows a split as investors rotate away from top tech stocks, accelerating a market shift.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "MSN",
+      "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcEVpcE9TZ25TOGstM2RaMlJleEZTM2JuTUtXa1BWNkdpaWFXNVEwazZlT3dZR1dSU1hZTXRvVGJOMjZFaTFFbmNJNWFiUWV6QnZWQU5XdTdXZ2UwWEk5d2RBS29EUHlBOVZla1IzcVlxWVNwZXhTbGJJSk9wSFRzaFlXZ2UwUjNMbG9BQ3RlR3VTeDhOR2R2aWpXRnZQdWNsbk9DZmp4ald6b2NPRHJjc3NHMHpSSmVnOGcwOWZuUGIyWFVra05teXM1cEtTcnVFR3ZsT3VrMXJWeGdobTlIbjNubFpaZEhYQlFzRnpabS1LRWw2?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:55:19+00:00",
+      "tickers": [],
+      "keywords": [
+        "S&P 500",
+        "科技股",
+        "资金轮动"
+      ],
+      "translations": {
+        "zh": {
+          "title": "标普500分化加剧：资金从顶级科技股轮动加速 - MSN",
+          "summary": "标普500出现分化，投资者从顶级科技股撤资加速了市场轮动。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "Microsoft Announces Up to $150 Price Increases for Xbox Consoles Starting on August 1 - Thurrott.com",
+      "summary": "Microsoft will increase Xbox console prices by up to $150 starting August 1.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Thurrott.com",
+      "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLUFNSkVsWncyZzdPTk9CbEZuZTAxMlNIQXNmLW9jMDNGQm1Ob21UV3hKaldNWElubVh6UnFpejdhbGszNGVVSGhxa1V0MTluTXg5ekRfSTZPTWVEWWx5bkxUdUl0Q29zVThLRlYxeTJReWtXV2h5cHBwemliZFpqNUl2VXllOWxSQ1MtSEQ2aE1TLXpYdFBmS0pubE1ENllyY1I5V1AtLUVYT1NFZlJwaEgyZmE5Uk9uTTRMTGlrdw?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:52:21+00:00",
+      "tickers": [],
+      "keywords": [
+        "Microsoft",
+        "Xbox",
+        "涨价"
+      ],
+      "translations": {
+        "zh": {
+          "title": "微软宣布8月1日起Xbox主机最高涨价150美元 - Thurrott.com",
+          "summary": "微软将从8月1日起将Xbox主机价格最多提高150美元。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Nvidia Owns This Under-the-Radar $20 Stock Poised to Disrupt a $1.8 Trillion Market - The Motley Fool",
+      "summary": "Nvidia holds a little-known $20 stock that could disrupt a $1.8 trillion market.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "The Motley Fool",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWdSREhvRmNSSXVFVVUxenBWYTFxMmxEZy13UVZER3JVNVhaVUs2S0o2QUhJdWFIbGprMkpnbDhYMk5ob3BkdkdRbF9Fa0dzN3otX2o2VnQ1d0ZocHZRMEtlMzZyZFRwZnY1djBuZUxkVGRMZXhpbjVrOXQ3aFJ6YWF0alFFYVFOUmIyRHNwMTRpX1ZERmdwMA?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:50:57+00:00",
+      "tickers": [],
+      "keywords": [
+        "Nvidia",
+        "20美元股票",
+        "1.8万亿美元市场"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Nvidia持有这只低调的20美元股票，有望颠覆1.8万亿美元市场 - The Motley Fool",
+          "summary": "Nvidia持有一只鲜为人知的20美元股票，该股可能颠覆1.8万亿美元的市场。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "Opinion | Defense Contractors and Big Oil Were the Iran War's Biggest Winners - Common Dreams",
+      "summary": "An opinion piece claims defense contractors and big oil companies were the biggest beneficiaries of the Iran War, warning of potential regulatory and reputational risks for these sectors.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Common Dreams",
+      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Vc2EwdFNtdEFUMUYzWFJPSDNBZS1tblZpRV9zSkJ4TnRLWkpqTzFFQ2YtWWVPMUtUd25QQnZzQ3BSeUFnbUFqQTdSTVkxc2VHV2VuSTVQOXdCdURGWVI0NjRORFVONTh4SFFoby1LMUVRckZiTTl6Sg?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:49:53+00:00",
+      "tickers": [],
+      "keywords": [
+        "Defense Contractors",
+        "Big Oil",
+        "Iran War"
+      ],
+      "translations": {
+        "zh": {
+          "title": "观点 | 国防承包商和大型石油公司是伊朗战争的最大赢家 - Common Dreams",
+          "summary": "一篇观点文章称，国防承包商和大型石油公司是伊朗战争的最大受益者，并警告这些行业可能面临监管和声誉风险。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Apple Seeks White House Approval for Banned Chinese Memory Chips - The Mac Observer",
+      "summary": "Apple is asking the White House to allow the use of Chinese memory chips that are currently banned under US trade restrictions, underscoring supply chain tensions and regulatory challenges.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "The Mac Observer",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQ21UUmhSaVJvWGpPeGJXQ01EbF9FYjN1VXdhendDME9BYS1tMExoVFNoblQ1SHR0VmxweHlCNjBSUGhTZlUwZkRTNGI4Y0c5akR1OF9xeGVJa3c1OFlwSE13UjB4YXdIbWNaaVN3YTZWU3YwUXc4YmJ2aGlGZk9mNi1FZlM4NmFCNGw1SjZfeGRCX0lSeXl1Qk1zRDVJQjA?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:47:47+00:00",
+      "tickers": [],
+      "keywords": [
+        "Apple",
+        "White House",
+        "Chinese memory chips",
+        "US trade restrictions"
+      ],
+      "translations": {
+        "zh": {
+          "title": "苹果寻求白宫批准使用被禁的中国内存芯片 - The Mac Observer",
+          "summary": "苹果正在请求白宫允许使用目前根据美国贸易限制被禁的中国内存芯片，凸显了供应链紧张和监管挑战。",
+          "category": "政策"
+        }
+      }
+    },
+    {
+      "title": "Meta loses bid to exclude internal evidence before August trial - Daily Journal",
+      "summary": "Meta failed to block internal evidence from being used in its upcoming August trial, raising the risk of adverse outcomes and potential regulatory or financial penalties.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Daily Journal",
+      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObENYYXlxYVN1VDVwNHhNRk10d1lfRWxjdnJSaEdKTnI5Y3dOUHFpeWZpMFFLbWUyWlhvQ2lrSldtT0V5Rk9PMTJIQ2dhRjRQVjZYYmdsWXpLMmtsUFRIZEVrbV9rck5LSkJoOUhINEpDbDZub0ZkOEhaZmVxNEloM0JtMElmZVdjOWdlU1NGUkJpVDVOTFZaTjdrTnZvM1hBaEpSTUhubUpiSUE?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:46:13+00:00",
+      "tickers": [],
+      "keywords": [
+        "Meta",
+        "internal evidence"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Meta在8月庭审前未能排除内部证据 - Daily Journal",
+          "summary": "Meta未能阻止其在即将到来的8月庭审中使用内部证据，增加了不利结果及潜在监管或财务处罚的风险。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "COMMENCAL META SX SIGNATURE, FOX KASHIMA, XT - Bike Hub",
+      "summary": "Commencal has launched the META SX SIGNATURE bicycle equipped with Fox Kashima and XT components, a product release that is unlikely to have broad market impact.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Bike Hub",
+      "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdS1qUGVWVnppUU45RU5oTlNBa2p2TGl5Y0lRY3RlWnJMenFVWFlRMWJnTk00LUJPOS1yaFRuejh6cm9XMVZQQVFIT2tSTTFramFUdktwamJFYUw4RWJWaklWdV9OQldhWnBBMzVjX3VlQXdvWmdUWndrekhkVDFfNURLbzZnVm5FWnREUUxub0RzSG0xNEJCNjFWbXZiSXJwQ05Kd1Z1ejQzSkhnQW13?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:43:56+00:00",
+      "tickers": [],
+      "keywords": [
+        "Commencal",
+        "META SX SIGNATURE",
+        "Fox Kashima",
+        "XT"
+      ],
+      "translations": {
+        "zh": {
+          "title": "COMMENCAL META SX SIGNATURE, FOX KASHIMA, XT - Bike Hub",
+          "summary": "Commencal发布了配备Fox Kashima和XT组件的META SX SIGNATURE自行车，这款产品发布不太可能产生广泛的市场影响。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Is AI-Driven Memory Tightness Recasting Western Digital's (WDC) Role From Commodity Supplier To Strategic Bottleneck? - simplywall.st",
+      "summary": "This article examines whether rising AI demand for memory is shifting Western Digital from a commodity supplier to a strategic bottleneck, which could enhance its pricing power and market sway.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "simplywall.st",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaWlrcU9mMk5nR1BKLTdKc3B4THBBaUIxUTY2WnJYYk5xcnBrSDlyLUFfNmN0LXl1eHpxVFZoUkVpdUR0T3FiVE0xTy1PZFJDUy1ITDJjRG1QRldEVEJNSTFCYTlqWTJqSGZNTGlvVUNhdkVfeUlKcFZQVjJKVU50ZkxvbW5sREJVUkRVZ3NjMWxieEFMSHBDbmpjaFM2elFDWks3MmtwNEc4NlYzM21IWVZpNmhlYTFYTUhhX1gwcmlibEloYWhBSQ?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:42:38+00:00",
+      "tickers": [],
+      "keywords": [
+        "Western Digital",
+        "WDC",
+        "AI-driven memory"
+      ],
+      "translations": {
+        "zh": {
+          "title": "AI驱动的存储器紧缩是否将西部数据(WDC)从商品供应商重塑为战略瓶颈？- simplywall.st",
+          "summary": "本文探讨了不断增长的AI对存储器的需求是否正在将西部数据从商品供应商转变为战略瓶颈，这可能会增强其定价能力和市场影响力。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Apple reportedly confirms the iPhone Ultra 2 before the first model even launches - Sportskeeda Tech",
+      "summary": "Apple has reportedly acknowledged the iPhone Ultra 2 prior to the launch of the original Ultra, causing speculation about its product strategy and possible market confusion.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Sportskeeda Tech",
+      "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRDJtVWlVUU5jSjgzNUJmTGk5dHVXSjB2RmRrbUp3WjRQdUlJa3R2dlhRN0NyV0F4RmFTUVB1M2NicDZ2bTh0eUxNUTFkOHVVT18tMGtoazZyUTJaRHFUYWZXdmc2MVFtQUtuY0pJRjdpQTJ3UjZOcG40SXNoZnAxR1RLdmdFODJZU0VzRzlhaFJ1VVRXekNtd2xabnphY1Q1Wi1BWVFn?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:41:57+00:00",
+      "tickers": [],
+      "keywords": [
+        "Apple",
+        "iPhone Ultra 2",
+        "iPhone Ultra"
+      ],
+      "translations": {
+        "zh": {
+          "title": "据报道，苹果在第一款机型尚未发布前就确认了iPhone Ultra 2 - Sportskeeda Tech",
+          "summary": "据报道，苹果在原始Ultra机型发布前就确认了iPhone Ultra 2，引发了对其产品策略和潜在市场混乱的猜测。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Reed Semiconductor Raises $100 Million To Scale AI Infrastructure Power Solutions - Pulse 2.0",
+      "summary": "Reed Semiconductor raised $100 million to scale up its power solutions for AI infrastructure, indicating robust investor appetite for the AI hardware supply chain.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Pulse 2.0",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc2NROEg0R3N3ZExINHBNVnlSUDlDMVlhQjRyaXJWSjlkeDZGaHI4NmxFQzM0MFExU0MzZ3EtZlRuQ01JUW14SDNqUmxhMjNyWk4zSm1IUHBWY0tRZk1ZU3cwVjFPQVYtZGZmUU42MWdzNW1DNWRjNUdkeWlmelN1ZmdEb1dhLV9tZkZvUkVrTzAzYkdSM3E5b2hJWWlrT2RuaUHSAacBQVVfeXFMTmQxcjJFNlNLdHF0QldqLWEwVEY2TnNOLWFZNTdJX1FPamhqTlhaMlpPQnA5WEhSeGZXSmNGN2VKc3hraDUyQVpBem1CZ05Jd0lKblRVYmZmdE1LdEtuWk5jVmJQTlRFdXBKQ1NPVVpwV01EOTc4TFpvdnlORDFBbXpienJRbXJQYnVJRlFzcklyanNjZHVyVGFqbV9pT2UtcGNYZDJiLTA?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:40:17+00:00",
+      "tickers": [],
+      "keywords": [
+        "Reed Semiconductor",
+        "AI infrastructure",
+        "power solutions"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Reed Semiconductor融资1亿美元以扩大AI基础设施电源解决方案 - Pulse 2.0",
+          "summary": "Reed Semiconductor筹集了1亿美元以扩大其AI基础设施的电源解决方案，表明投资者对AI硬件供应链的热情强劲。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Nvidia invests in Generate Biomedicines, targeting $1.8T market with AI-driven drug discovery - Crypto Briefing",
+      "summary": "Nvidia has invested in Generate Biomedicines to apply AI to drug discovery, targeting a $1.8 trillion market, underscoring AI's expansion beyond traditional sectors.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Crypto Briefing",
+      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZWltNW1lYVpuNzFJYmN5R1RYdkFpRnI5U0JVLUY1S0lHanhRa3FyWHEtektzTVpSTUZsZEhPWnNKNGhJY1BhaV9KZGhZQ1ZYQXVHbzZVVkxWRWs2azFBYkg1M0JFWHRTVU9qSDBlZVMzdE9HMUc4NFF0NS1MeFJUMzFoSjZoalBJd0E?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:39:02+00:00",
+      "tickers": [],
+      "keywords": [
+        "Nvidia",
+        "Generate Biomedicines",
+        "AI drug discovery"
+      ],
+      "translations": {
+        "zh": {
+          "title": "英伟达投资Generate Biomedicines，瞄准1.8万亿美元AI驱动药物发现市场 - Crypto Briefing",
+          "summary": "英伟达投资Generate Biomedicines，将AI应用于药物发现，瞄准1.8万亿美元市场，突显AI向传统领域以外的扩张。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Meta Stock Just Got Dangerous Lamine Yamal (JqspKDDVFN) - Fathom Journal",
+      "summary": "A questionable article warns that Meta stock has become dangerous, citing an unknown ticker symbol (JqspKDDVFN), suggesting potentially misleading or fraudulent market analysis.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Fathom Journal",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vR28wenpSTGJ1aWNxaGcwWmEtb3NjRnc1MkJTNi1pdnlJT1dfT3NFb2plcFNEcWFtR1hZYTlJNUh4V19HR095WGdEX0UtMDgwdF9WTlpXb3hvOTE4OTZFU0RsZUg?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:38:13+00:00",
+      "tickers": [],
+      "keywords": [
+        "Meta",
+        "Lamine Yamal",
+        "JqspKDDVFN"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Meta股票变得危险？Lamine Yamal (JqspKDDVFN) - Fathom Journal",
+          "summary": "一篇可疑文章警告Meta股票变得危险，引用了一个未知的股票代码(JqspKDDVFN)，暗示可能存在误导或欺诈性的市场分析。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "SpaceX vs. Tesla: Here's Which Elon Musk Stock I'd Buy Right Now - The Motley Fool",
+      "summary": "The Motley Fool compares SpaceX and Tesla as investment choices and provides a recommendation on which Elon Musk-led company to purchase at this time.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "The Motley Fool",
+      "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUFXU0luWTgxb2htNWhFdlNiTkV4UHNtV3ZqVmVNQTRNNmdkSWtReVd1UDNIRVdlVHVXYm1fWWQxMTJ3X1VBN1JZUlRvX1N3cjNKMUFZZjhPQXZCNTIxZkhYaW8xNVlJWnFEM2R2dF9rRFhUVm9PMzlhNmFnbldIZDRTV09ZYUVPZkZ2RWk4bzhQbkYyOGkwNw?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:36:54+00:00",
+      "tickers": [],
+      "keywords": [
+        "SpaceX",
+        "Tesla",
+        "Elon Musk",
+        "Motley Fool"
+      ],
+      "translations": {
+        "zh": {
+          "title": "SpaceX vs. 特斯拉：我现在会买入哪只埃隆·马斯克的股票 - The Motley Fool",
+          "summary": "The Motley Fool比较了SpaceX和特斯拉作为投资选择，并就此时应买入哪家由埃隆·马斯克领导的公司给出建议。",
+          "category": "公司"
+        }
+      }
+    },
+    {
+      "title": "US Lawmakers Introduce Bill to Eliminate Social Security Earnings Limit - sekbernews.id",
+      "summary": "U.S. lawmakers have introduced a bill to eliminate the earnings cap for Social Security recipients, potentially boosting senior labor participation and impacting fiscal policy.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "sekbernews.id",
+      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVRXZTRtb0N0QW5XYmtxTFNESlhnSEQxTDdyRFpWUVE5UGNIelZYR2hMNEw3ankxY1Y2R0liWWRZbFg5QXRvY0d2TGREZTVfRm04bnUyeGpwcFVaVk5xTS1zX3ljUFA1akVrUGsyMklJR2xnSlBuZ002VW9QRGNlUkJLUFVBLXZiV0poLVZWdkZLMmhlajdmX0l3?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:36:16+00:00",
+      "tickers": [],
+      "keywords": [
+        "US Congress",
+        "Social Security",
+        "earnings limit"
+      ],
+      "translations": {
+        "zh": {
+          "title": "美国议员提出法案取消社会保障收入限额 - sekbernews.id",
+          "summary": "美国议员提出一项法案，取消社会保障受益人的收入上限，可能提高老年人劳动参与率并影响财政政策。",
+          "category": "政策"
+        }
+      }
+    },
+    {
+      "title": "The Invisible Engines: How Semiconductors Power Every Gadget You Use Daily - Bisinfotech",
+      "summary": "This article describes the pervasive role of semiconductors in everyday devices, emphasizing their critical importance to the technology industry and the broader economy.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "Bisinfotech",
+      "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZCMjRVUWZSc1VfdzFoNXlYZUNtS1NjM0VETzhLOXVIVVFHS1hwSjRVdjRFZkFXQnNTZmxBeERmdnZsNU4zeUZZUk90SXpQZG1HWDF1cTNTMjAzdkJPdDJLd0c3TWo0a3BMUTN2azF4ZWZ6TEtxUU1kaHJqUkVHSGkxYmp4RFhBVWF3YzVSS2NLbEVPQ1dZaVNUeGJkUWRYS3Eydg?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:36:02+00:00",
+      "tickers": [],
+      "keywords": [
+        "Semiconductors"
+      ],
+      "translations": {
+        "zh": {
+          "title": "隐形引擎：半导体如何为你每天使用的每一台设备提供动力 - Bisinfotech",
+          "summary": "本文描述了半导体在日常设备中的普遍作用，强调了它们对科技行业和整体经济的关键重要性。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Ron Johnson Shares the Secrets of Building Apple Stores With Steve Jobs - The Mac Observer",
+      "summary": "Ron Johnson shares stories of developing Apple Stores alongside Steve Jobs, providing insights into Apple's retail triumph and design ethos.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "The Mac Observer",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzhLYmhielJhV2M1RDUzbjBlZHdQYkJ6VnVwZnVaeHhTWVpCRFhrME9saTBpMGw3U1hKWXg1ZjVkTUJFS2pxN3dpa1V2VjRod2RRbVA1Y09rSDVCa2x2NGYzcnh1bkhJUnRNeXJPSnQxeWRZUDRHd2loM2MzRTRicjRiVVgySnd1RkdfNGdYMV92U0NJZW9lREo1UFF2OHNQaGNtM3BYOTc?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:35:46+00:00",
+      "tickers": [],
+      "keywords": [
+        "Ron Johnson",
+        "Steve Jobs",
+        "Apple Stores"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Ron Johnson分享与史蒂夫·乔布斯共同打造苹果商店的秘诀 - The Mac Observer",
+          "summary": "Ron Johnson分享了与史蒂夫·乔布斯共同开发苹果商店的故事，提供了对苹果零售成功和设计理念的见解。",
+          "category": "宏观"
+        }
+      }
+    },
+    {
+      "title": "Consumer Reports: Social Security, Apple and Uber - WBIR",
+      "summary": "A Consumer Reports segment discusses Social Security, Apple products, and Uber services, offering consumer-focused updates.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "WBIR",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY29hM2ZPOEUtdFRpa1NNVmQyMVpWUGpRTFZzLU9MY1RHTk56UHQ0RkUyN3J4ck4xRkZmNXcxRXFNWVljaVhRSkpRZU51SU8tWE53WEoxUTNiV0hfTkI0SnhGbmVkTFctX2VwSjBZbVFmVEI5VVBNbVU3bXBqeThBNXkzbGZDaXNpQTl4OTJCVFdqQk1VcVA1LVhjWnotWDU0WmVRbnF5dzBnbmpKeTl3WTZVRms4eXBmdXdSSjRqaGRpSm5OT0s0ZQ?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:34:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "Consumer Reports",
+        "Social Security",
+        "Apple",
+        "Uber"
+      ],
+      "translations": {
+        "zh": {
+          "title": "消费者报告：社会保障、苹果和优步 - WBIR",
+          "summary": "消费者报告的一个板块讨论了社会保障、苹果产品和优步服务，提供以消费者为中心的更新。",
+          "category": "行业"
+        }
+      }
+    },
+    {
+      "title": "Dogecoin Price Rises As SpaceX Inches To Join Nasdaq 100 - MarketForces Africa",
+      "summary": "Dogecoin's price rose on speculation that SpaceX might soon be added to the Nasdaq 100 index, although a direct causal connection has not been established.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 0,
+      "sentiment_score": 0.0,
+      "source_name": "MarketForces Africa",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPelNDcm9iRG5YeG40YThNMGlDVGJOX2ZsWWxiT25IbjJXTkxNUHVLZkI3ZE1PYk5YYWtMYldybUFpOXlya0tDaHdXaW96QUdNaEMxVzJsclF0Sy1SN2VGMGluSE94TEh6MlRNZ0YtWGRtcjFTN0Z1WHZsc0g2N3p1UFVUeWNGVWpUcmxj?oc=5",
+      "image_url": "",
+      "published_at": "2026-06-27T11:31:44+00:00",
+      "tickers": [],
+      "keywords": [
+        "Dogecoin",
+        "SpaceX",
+        "Nasdaq 100"
+      ],
+      "translations": {
+        "zh": {
+          "title": "Dogecoin价格上涨，SpaceX有望加入纳斯达克100 - MarketForces Africa",
+          "summary": "Dogecoin价格因猜测SpaceX可能很快被纳入纳斯达克100指数而上涨，但直接的因果关系尚未确认。",
+          "category": "宏观"
+        }
+      }
+    }
+  ]
+}
