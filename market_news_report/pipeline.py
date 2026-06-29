@@ -6,7 +6,7 @@ from .analysis_schema import load_market_analysis, save_market_analysis
 from .charts import generate_key_event_charts
 from .config import CONFIG
 from .emailer import send_report_email
-from .fetchers import fetch_all_news, source_counts
+from .fetchers import FETCH_DIAGNOSTICS, fetch_all_news, source_counts
 from .intelligence import (
     build_market_events,
     build_today_themes,
@@ -90,7 +90,11 @@ def _write_source_diagnostics(raw_counts: dict[str, int], deduped_counts: dict[s
     diagnostics_path.parent.mkdir(parents=True, exist_ok=True)
     diagnostics_path.write_text(
         json.dumps(
-            {"raw_source_counts": raw_counts, "deduped_source_counts": deduped_counts},
+            {
+                "raw_source_counts": raw_counts,
+                "deduped_source_counts": deduped_counts,
+                "fetch_diagnostics": FETCH_DIAGNOSTICS,
+            },
             ensure_ascii=False,
             indent=2,
         ),

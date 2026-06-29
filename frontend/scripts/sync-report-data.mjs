@@ -9,14 +9,17 @@ const reportsDir = path.join(projectRoot, "reports");
 const publicDataDir = path.join(frontendRoot, "public", "data");
 const generatedDataDir = path.join(frontendRoot, "src", "generated");
 const sourceAnalysisPath = path.join(reportsDir, "market_analysis.json");
+const sourceLatestPath = path.join(reportsDir, "latest.json");
 const sourceTrendsPath = path.join(reportsDir, "market_trends.json");
 const sourceHistoryPath = path.join(reportsDir, "market_history.json");
 const targetAnalysisPath = path.join(publicDataDir, "market_analysis.json");
+const targetLatestPath = path.join(publicDataDir, "latest.json");
 const targetTrendsPath = path.join(publicDataDir, "market_trends.json");
 const targetHistoryPath = path.join(publicDataDir, "market_history.json");
 const targetAssetsDir = path.join(publicDataDir, "assets");
 const sourceAssetsDir = path.join(reportsDir, "assets");
 const generatedAnalysisPath = path.join(generatedDataDir, "market_analysis.json");
+const generatedLatestPath = path.join(generatedDataDir, "latest.json");
 const generatedTrendsPath = path.join(generatedDataDir, "market_trends.json");
 const generatedHistoryPath = path.join(generatedDataDir, "market_history.json");
 const generatedManifestPath = path.join(generatedDataDir, "manifest.json");
@@ -80,7 +83,10 @@ let analysis = {
   key_events: [],
 };
 
-analysis = readJsonIfExists(sourceAnalysisPath, readJsonIfExists(generatedAnalysisPath, analysis));
+analysis = readJsonIfExists(
+  sourceLatestPath,
+  readJsonIfExists(sourceAnalysisPath, readJsonIfExists(generatedLatestPath, readJsonIfExists(generatedAnalysisPath, analysis))),
+);
 
 analysis.key_events = (analysis.key_events ?? []).map((event) => ({
   ...event,
@@ -88,7 +94,9 @@ analysis.key_events = (analysis.key_events ?? []).map((event) => ({
 }));
 
 fs.writeFileSync(targetAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
+fs.writeFileSync(targetLatestPath, JSON.stringify(analysis, null, 2), "utf8");
 fs.writeFileSync(generatedAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
+fs.writeFileSync(generatedLatestPath, JSON.stringify(analysis, null, 2), "utf8");
 
 const trends = readJsonIfExists(sourceTrendsPath, readJsonIfExists(generatedTrendsPath, { as_of: null, range: "1mo", interval: "1d", series: [] }));
 const history = readJsonIfExists(sourceHistoryPath, readJsonIfExists(generatedHistoryPath, { updated_at: null, series: {} }));
@@ -107,6 +115,7 @@ const manifest = {
     markdown: latestMarkdown ? `../reports/${latestMarkdown.name}` : null,
     pdf: latestPdf ? `../reports/${latestPdf.name}` : null,
     json: latestJson ? `../reports/${latestJson.name}` : null,
+    latest_json: "../reports/latest.json",
     standard_json: "../reports/market_analysis.json",
   },
   assets: {

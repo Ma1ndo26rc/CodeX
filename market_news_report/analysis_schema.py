@@ -109,10 +109,16 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
 def save_market_analysis(analysis: dict[str, Any], output_dir: Path) -> tuple[Path, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     path = output_dir / "market_analysis.json"
+    latest_path = output_dir / "latest.json"
+    history_dir = output_dir / "history"
+    history_dir.mkdir(parents=True, exist_ok=True)
+    history_path = history_dir / f"{datetime.now().strftime('%Y-%m-%d')}.json"
     archive_path = output_dir / f"market_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     validated = parse_and_validate_market_json(analysis)
     text = json.dumps(validated, ensure_ascii=False, indent=2)
     path.write_text(text, encoding="utf-8")
+    latest_path.write_text(text, encoding="utf-8")
+    history_path.write_text(text, encoding="utf-8")
     archive_path.write_text(text, encoding="utf-8")
     return path, archive_path
 

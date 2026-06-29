@@ -1,0 +1,71 @@
+name: Daily Market News Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 21:30 UTC, Monday-Friday. This is after the regular US cash session close.
+    - cron: "30 21 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-market-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_BASE_URL: https://api.deepseek.com/v1
+      OPENAI_MODEL: deepseek-chat
+      WORKSPACE_ROOT: ${{ github.workspace }}
+      REPORT_OUTPUT_DIR: ${{ github.workspace }}/reports
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Generate report data
+        run: python main.py
+
+      - name: Build static website
+        working-directory: frontend
+        run: npm run build
+
+      - name: Commit generated report and site
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add reports/ site/
+          if git diff --cached --quiet; then
+            echo "No report or site changes to commit."
+          else
+            git commit -m "auto: update market news report"
+            git push origin main
+          fi
