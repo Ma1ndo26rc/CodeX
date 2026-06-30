@@ -1,0 +1,629 @@
+{
+  "generated_at": "2026-06-30T08:04:53.466Z",
+  "reports": [
+    {
+      "date": "2026-06-30 12:10:39",
+      "file": "history/US_STOCK_DAILY_20260630_121039.json",
+      "dynamic_headline": "U.S. equities rebound as tech halts slide, Fed independence bolstered by Supreme Court ruling, and U.S.-Iran de-escalation lifts oil prices.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The S&P 500, Nasdaq, and Dow all rose on Monday, recovering from last week's losses. The Dow benefited from Alphabet's strong debut (up ~4%), while the Nasdaq found support from resilient AI spending narratives and a rebound in megacap tech. The Supreme Court's decision allowing Fed Governor Lisa Cook to remain on the board reinforced central bank independence, a positive for rate-sensitive assets. Meanwhile, a U.S.-Iran agreement to halt attacks drove oil prices back above $70, boosting energy stocks. Semiconductor names lagged, led by Micron on price-fixing lawsuit concerns. Money flowed into real estate and housing-related stocks amid multiple upgrades.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 83.4,
+      "top_events": [
+        {
+          "title": "Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
+          "title_zh": "",
+          "sector": "Macro (Policy)",
+          "market_impact_score": 88,
+          "sentiment_score": 0.25,
+          "final_score": 85.5
+        },
+        {
+          "title": "U.S. and Iran reach deal to halt attacks; oil prices rebound above $70",
+          "title_zh": "",
+          "sector": "Macro (Energy)",
+          "market_impact_score": 82,
+          "sentiment_score": 0.35,
+          "final_score": 83.6
+        },
+        {
+          "title": "Is Wall Street misreading the Fed? The hidden upside catalyst for tech and real-estate stocks.",
+          "title_zh": "",
+          "sector": "Macro",
+          "market_impact_score": 86,
+          "sentiment_score": -0.8,
+          "final_score": 83.6
+        },
+        {
+          "title": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again",
+          "title_zh": "",
+          "sector": "Macro",
+          "market_impact_score": 80,
+          "sentiment_score": 0.16,
+          "final_score": 80.2
+        },
+        {
+          "title": "The Supreme Court Preserves Fed Independence — for Now",
+          "title_zh": "",
+          "sector": "Macro",
+          "market_impact_score": 81,
+          "sentiment_score": -0.08,
+          "final_score": 78.2
+        }
+      ]
+    },
+    {
+      "date": "2026-06-29 00:13:26",
+      "file": "history/US_STOCK_DAILY_20260629_001326.json",
+      "dynamic_headline": "Escalating US-Iran tensions and AI sector rotation dominate markets as investors brace for jobs data and Nike earnings.",
+      "dynamic_headline_zh": "美伊紧张局势升级与AI板块轮动主导市场，投资者静待就业数据与耐克财报",
+      "market_summary": "Global markets experienced mixed trading amid escalating US-Iran military conflict, with defense and energy stocks rallying while AI and tech names continued to slide. The Dow Jones Industrial Average logged its worst day since March, and the S&P 500 and Nasdaq snapped multi-week winning streaks. However, futures pointed higher Monday morning, driven by a rebound in AI-related stocks and hopes for de-escalation. Crude oil prices dropped near pre-war levels, suggesting markets are pricing in a contained conflict. The focus this week is squarely on the June jobs report and Nike's pivotal earnings.",
+      "market_summary_zh": "全球市场在美伊军事冲突升级中涨跌互现，国防和能源股上涨，而AI和科技股继续回调。道琼斯工业平均指数录得3月以来最差单日表现，标普500和纳斯达克指数终结了数周连涨。然而，周一早盘期货走高，受AI相关股票反弹和局势缓和预期的推动。原油价格跌至接近战前水平，表明市场正在定价一场有限的冲突。本周焦点集中于6月就业报告和耐克的关键财报。",
+      "event_count": 10,
+      "avg_impact": 84,
+      "top_events": [
+        {
+          "title": "US and Israel strike Iran; Iran retaliates against US facilities in Kuwait and Bahrain",
+          "title_zh": "美国和以色列打击伊朗；伊朗报复科威特和巴林的美军设施",
+          "sector": "Geopolitical/Macro",
+          "market_impact_score": 92,
+          "sentiment_score": -0.6,
+          "final_score": 88.3
+        },
+        {
+          "title": "Jobs week begins: Nike earnings and June payrolls in focus",
+          "title_zh": "就业周开启：耐克财报和6月非农数据成焦点",
+          "sector": "Macro/Consumer",
+          "market_impact_score": 82,
+          "sentiment_score": 0.35,
+          "final_score": 84.8
+        },
+        {
+          "title": "AI bubble fears mount; leverage driving rally becomes growing concern",
+          "title_zh": "AI泡沫担忧加剧；杠杆推动上涨成为日益担忧的问题",
+          "sector": "Technology",
+          "market_impact_score": 80,
+          "sentiment_score": -0.5,
+          "final_score": 81
+        },
+        {
+          "title": "Federal Reserve rate hike - good news for the market?",
+          "title_zh": "美联储加息——对市场是个好消息？",
+          "sector": "Macro",
+          "market_impact_score": 91,
+          "sentiment_score": -0.55,
+          "final_score": 79.2
+        },
+        {
+          "title": "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?",
+          "title_zh": "人工智能超级周期中的终极赢家：NextEra Energy 还是 Vistra 股票？",
+          "sector": "Energy",
+          "market_impact_score": 75,
+          "sentiment_score": 0.03,
+          "final_score": 79
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28 01:28:47",
+      "file": "history/US_STOCK_DAILY_20260628_012847.json",
+      "dynamic_headline": "Markets rotate away from AI as geopolitical risks, oil weakness, and a historic memory shortage reshape sector leadership.",
+      "dynamic_headline_zh": "市场从AI板块轮动转出，地缘政治风险、油价疲软及历史性的内存短缺重塑板块领导格局。",
+      "market_summary": "U.S. equities ended a volatile week mixed, with the Nasdaq under pressure from a cooling AI trade while the Dow and small-caps found support from rotation into value and energy-exposed stocks. Crude oil fell below $70/bbl despite a tanker strike in the Strait of Hormuz, as demand fears overwhelmed supply concerns. The AI trade cooled sharply after Oracle posted its worst weekly loss since the dot-com bust, and Micron's strong earnings failed to lift the sector. A historic memory shortage is hitting smaller consumer electronics companies, while Apple and Microsoft raise prices. Geopolitical headlines included a U.S.-Iran ceasefire under strain and a framework for Israel-Lebanon peace, but tariffs on digital services from Trump and a new billionaires tax proposal from Newsom added policy uncertainty. Solar energy surpassed coal for the first time, and SpaceX's fast-track inclusion into the Nasdaq-100 drove thematic ETF demand. Bond yields fell on falling oil and fading inflation fears, with trading in TIPS and nominal Treasuries signaling overblown inflation concerns.",
+      "market_summary_zh": "美国股市本周收盘涨跌互现，波动性较大。纳斯达克因AI交易降温承压，而道琼斯工业指数和小盘股则因资金轮动至价值股和能源相关股票获得支撑。尽管霍尔木兹海峡发生油轮遇袭事件，但原油价格仍跌破70美元/桶，原因是需求担忧压倒了供应担忧。甲骨文遭遇自互联网泡沫以来最大单周跌幅，而美光强劲的财报也未能提振整个板块，导致AI交易急剧冷却。历史性的内存短缺对小规模消费电子公司造成冲击，而苹果和微软则纷纷提价。地缘政治头条包括脆弱的美国-伊朗停火协议和以色列-黎巴嫩和平框架，但特朗普对数字服务税征收关税的威胁以及纽森提出的新亿万富翁税提案增加了政策不确定性。太阳能发电量首次超越煤炭，SpaceX快速纳入纳斯达克100指数推动了主题ETF需求。债券收益率因油价下跌和通胀担忧减弱而下降，TIPS和名义国债的交易信号表明通胀担忧过度。",
+      "event_count": 10,
+      "avg_impact": 82.8,
+      "top_events": [
+        {
+          "title": "Oracle Stock Has Worst Week Since 2001 Dot-Com Bust as AI Financing Concerns Escalate",
+          "title_zh": "甲骨文股价遭遇2001年互联网泡沫以来最糟糕一周，AI融资担忧升级",
+          "sector": "Technology",
+          "market_impact_score": 90,
+          "sentiment_score": -0.8,
+          "final_score": 83.6
+        },
+        {
+          "title": "Tanker struck in Strait of Hormuz as U.S.-Iran tensions escalate",
+          "title_zh": "油轮在霍尔木兹海峡遭袭，美伊紧张局势升级",
+          "sector": "Macro",
+          "market_impact_score": 88,
+          "sentiment_score": -0.45,
+          "final_score": 83.5
+        },
+        {
+          "title": "The AI trade cooled and oil sank. A closer look at Wall Street's volatile week",
+          "title_zh": "人工智能交易降温，油价下跌——华尔街波动一周回顾",
+          "sector": "Macro",
+          "market_impact_score": 81,
+          "sentiment_score": -0.11,
+          "final_score": 83.4
+        },
+        {
+          "title": "Tanker Struck in Strait of Hormuz as U.S.-Iran Tensions Escalate Despite Ceasefire",
+          "title_zh": "霍尔木兹海峡油轮遇袭，美伊紧张局势升级，尽管存在停火协议",
+          "sector": "Energy / Geopolitics",
+          "market_impact_score": 80,
+          "sentiment_score": -0.6,
+          "final_score": 82.9
+        },
+        {
+          "title": "Memory Shortage 'Existential Crisis' for Small Players as Apple, Microsoft Raise Prices",
+          "title_zh": "内存短缺'生存危机'：小厂商承压，苹果和微软提价",
+          "sector": "Technology / Semiconductors",
+          "market_impact_score": 75,
+          "sentiment_score": -0.2,
+          "final_score": 75.2
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27 20:50:07",
+      "file": "history/US_STOCK_DAILY_20260627_205007.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "US equity markets ended the week lower, driven by a sharp sell-off in technology stocks as investors questioned the return on massive AI investments. The S&P 500 and Nasdaq snapped two-week winning streaks, while the Dow Jones Industrial Average eked out a modest gain. A rotation out of mega-cap tech into value and healthcare sectors was evident. Geopolitical tensions escalated after the US launched retaliatory strikes on Iran, though crude oil prices fell below $70/bbl on demand concerns. Inflation fears remained elevated with CPI above 4%, and Minneapolis Fed President Kashkari signaled a likely rate hike this year. The market is pricing in a cautious outlook amid conflicting signals from macro data, earnings, and policy developments.",
+      "market_summary_zh": "美国股市本周收低，因科技股大幅抛售，投资者质疑大规模AI投资的回报。标普500指数和纳斯达克指数结束了连续两周的上涨势头，而道琼斯工业平均指数小幅上涨。资金从超大市值科技股轮动至价值和医疗保健板块的迹象明显。在美国对伊朗发动报复性打击后，地缘政治紧张局势升级，但由于需求担忧，原油价格跌破每桶70美元。通胀担忧仍居高不下，CPI高于4%，明尼阿波利斯联储主席卡什卡利暗示今年可能加息。市场在宏观数据、盈利和政策发展发出的相互矛盾的信号中，对前景持谨慎态度。",
+      "event_count": 8,
+      "avg_impact": 75.6,
+      "top_events": [
+        {
+          "title": "U.S. launches retaliatory military strikes on Iran after ceasefire violation in Strait of Hormuz",
+          "title_zh": "美国在霍尔木兹海峡停火协议被违反后对伊朗发动报复性军事打击",
+          "sector": "Energy & Geopolitics",
+          "market_impact_score": 85,
+          "sentiment_score": -0.6,
+          "final_score": 85
+        },
+        {
+          "title": "Minneapolis Fed's Kashkari expects a rate hike this year as inflation tops 4%",
+          "title_zh": "明尼阿波利斯联储的卡什卡利预计今年将加息，因通胀超过4%",
+          "sector": "Macroeconomics",
+          "market_impact_score": 78,
+          "sentiment_score": -0.5,
+          "final_score": 78
+        },
+        {
+          "title": "Oracle stock plunges to worst week since 2001 dot-com bust on AI financing and spending concerns",
+          "title_zh": "甲骨文股价暴跌，创2001年互联网泡沫破灭以来最差单周表现，因AI融资和支出担忧",
+          "sector": "Technology / Cloud Infrastructure",
+          "market_impact_score": 75,
+          "sentiment_score": -0.8,
+          "final_score": 75
+        },
+        {
+          "title": "Memory chip shortage becomes existential for smaller electronics makers as Apple and Microsoft raise prices",
+          "title_zh": "内存芯片短缺对小型电子制造商构成生存威胁，苹果和微软提价",
+          "sector": "Technology Hardware & Semiconductors",
+          "market_impact_score": 72,
+          "sentiment_score": -0.4,
+          "final_score": 72
+        },
+        {
+          "title": "OpenAI delays IPO timeline, stoking concerns about AI monetization and valuation",
+          "title_zh": "OpenAI推迟IPO时间表，引发对AI变现和估值的担忧",
+          "sector": "Technology / AI",
+          "market_impact_score": 68,
+          "sentiment_score": -0.3,
+          "final_score": 68
+        }
+      ]
+    },
+    {
+      "date": "2026-06-27 00:50:36",
+      "file": "history/US_STOCK_DAILY_20260627_005036.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "A broad-based tech sell-off dominated U.S. equity markets on Friday, triggered by a report that OpenAI is delaying its IPO until 2027. The Nasdaq Composite fell sharply, while the Dow Jones Industrial Average managed modest gains on a rotation into energy and financial stocks. Rising inflation above 4%, hawkish Fed commentary, and fresh geopolitical tensions in the Strait of Hormuz added to risk-off sentiment. Commodities saw steep declines, with gold and silver falling significantly, while crude oil rose on supply fears.",
+      "market_summary_zh": "",
+      "event_count": 8,
+      "avg_impact": 75,
+      "top_events": [
+        {
+          "title": "OpenAI Reportedly Delays IPO Until 2027, Rattling Tech Stocks",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 85,
+          "sentiment_score": -0.6,
+          "final_score": 85
+        },
+        {
+          "title": "Iran Violates Ceasefire, Drone Attacks on Strait of Hormuz Ships Drive Oil Higher",
+          "title_zh": "",
+          "sector": "Energy",
+          "market_impact_score": 80,
+          "sentiment_score": -0.4,
+          "final_score": 80
+        },
+        {
+          "title": "Fed's Kashkari Expects a Rate Hike This Year as Inflation Tops 4%",
+          "title_zh": "",
+          "sector": "Macro",
+          "market_impact_score": 75,
+          "sentiment_score": -0.5,
+          "final_score": 75
+        },
+        {
+          "title": "SpaceX Stock Volatility Continues; Down 18% for the Week",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 70,
+          "sentiment_score": -0.6,
+          "final_score": 70
+        },
+        {
+          "title": "Robotaxi Regulatory Rollback Set to Benefit Tesla, Amazon, Google",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 65,
+          "sentiment_score": 0.5,
+          "final_score": 65
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24 00:47:44",
+      "file": "history/US_STOCK_DAILY_20260624_004744.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "The news flow is cautious to risk-off, based on 392 articles from MarketBeat, MSN, Yahoo Finance, AOL.com, Reuters. The dominant theme is macro, with 227 macro items, 60 company items, 87 industry items, and 18 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 70.4,
+      "top_events": [
+        {
+          "title": "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 74,
+          "sentiment_score": -0.35,
+          "final_score": 74
+        },
+        {
+          "title": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles - Bloomberg",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 74,
+          "sentiment_score": -0.35,
+          "final_score": 74
+        },
+        {
+          "title": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return - Yahoo Finance",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        },
+        {
+          "title": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? - Reuters",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        },
+        {
+          "title": "Warsh has a chance to enact lasting reform at the Fed - Financial Times",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24 00:29:50",
+      "file": "history/US_STOCK_DAILY_20260624_002950.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "The news flow is cautious to risk-off, based on 391 articles from MarketBeat, MSN, Yahoo Finance, Reuters, The Motley Fool. The dominant theme is macro, with 228 macro items, 62 company items, 83 industry items, and 18 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 70.4,
+      "top_events": [
+        {
+          "title": "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 74,
+          "sentiment_score": -0.35,
+          "final_score": 74
+        },
+        {
+          "title": "Oracle Cut 21,000 Jobs in 12 Months, Says AI Replaced Some Roles - Bloomberg",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 74,
+          "sentiment_score": -0.35,
+          "final_score": 74
+        },
+        {
+          "title": "Meet the Unstoppable Stock That Obliterated Nvidia, Broadcom, and Advanced Micro Devices (AMD) Over the Last 12 Months With a 670% Return - Yahoo Finance",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        },
+        {
+          "title": "Markets hear Greenspan echo as Warsh Fed goes quiet - Reuters",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        },
+        {
+          "title": "Explainer: What are the Fed's bank 'stress tests' and what's new this year? - Reuters",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 68,
+          "sentiment_score": 0,
+          "final_score": 68
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23 18:33:02",
+      "file": "history/US_STOCK_DAILY_20260623_183302.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "Global equities plunge on June 23, 2026, led by a deepening technology rout as AI monetization fears, high-profile Alphabet departures, and Nvidia chip price concerns rattle investor confidence. S&P 500 and Nasdaq futures point to heavy losses, with contagion spreading to European and Asian markets. The selloff is exacerbated by private credit liquidity fears after Apollo capped redemptions. Offsetting these headwinds, oil prices drop sharply on sweeping U.S. sanctions waivers for Iran, easing geopolitical risk and inflation pressures. Global M&A remains a bright spot, on track for a $4 trillion year, but risk appetite is decisively 'risk-off'.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 82,
+      "top_events": [
+        {
+          "title": "Tech Rout Intensifies as AI Monetization Concerns Mount",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 95,
+          "sentiment_score": -0.9,
+          "final_score": 95
+        },
+        {
+          "title": "Sweeping Iran Oil Sanctions Relief Unleashes Supply, Pressures Crude",
+          "title_zh": "",
+          "sector": "Energy",
+          "market_impact_score": 85,
+          "sentiment_score": 0.3,
+          "final_score": 85
+        },
+        {
+          "title": "Apollo Caps Redemptions as 17% Exit Requests Rekindle Private Credit Worries",
+          "title_zh": "",
+          "sector": "Financials",
+          "market_impact_score": 80,
+          "sentiment_score": -0.6,
+          "final_score": 80
+        },
+        {
+          "title": "NHTSA Investigates Fatal Tesla Crash Involving Autopilot in Texas",
+          "title_zh": "",
+          "sector": "Consumer Discretionary",
+          "market_impact_score": 75,
+          "sentiment_score": -0.7,
+          "final_score": 75
+        },
+        {
+          "title": "Kalshi Traders Bet Nvidia Chip Prices Are Coming Down",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 75,
+          "sentiment_score": -0.7,
+          "final_score": 75
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23 18:12:47",
+      "file": "history/US_STOCK_DAILY_20260623_181247.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "US equity markets are under heavy pressure on Tuesday, June 23, 2026, with futures pointing to a sharp sell-off led by technology stocks. The Nasdaq is set to extend losses as concerns mount over AI spending sustainability, rising chip costs being questioned, and a strengthening dollar. Oil prices are sliding on news of sweeping US sanctions waivers on Iranian crude, while investors also await key PCE inflation data. Broader risk appetite is fading as global tech routs spread from Wall Street to Asian and European markets.",
+      "market_summary_zh": "",
+      "event_count": 8,
+      "avg_impact": 87,
+      "top_events": [
+        {
+          "title": "Global Tech Rout Intensifies as AI Stocks Lead Sell-Off",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 95,
+          "sentiment_score": -0.9,
+          "final_score": 95
+        },
+        {
+          "title": "US Issues Sweeping Iran Oil Sanctions Waivers, Treasury Authorizes Imports",
+          "title_zh": "",
+          "sector": "Energy",
+          "market_impact_score": 90,
+          "sentiment_score": 0.5,
+          "final_score": 90
+        },
+        {
+          "title": "SpaceX Stock Tumbles 16.4%, Erasing Most Post-IPO Gains",
+          "title_zh": "",
+          "sector": "Industrials / Space Tech",
+          "market_impact_score": 85,
+          "sentiment_score": -0.8,
+          "final_score": 85
+        },
+        {
+          "title": "Nvidia Stock Struggles as Kalshi Traders Bet Chip Prices Are Coming Down",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 85,
+          "sentiment_score": -0.6,
+          "final_score": 85
+        },
+        {
+          "title": "Alphabet Has Worst Day in a Year on High-Profile AI Researcher Exits",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 80,
+          "sentiment_score": -0.7,
+          "final_score": 80
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23 18:11:19",
+      "file": "history/US_STOCK_DAILY_20260623_181119.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "Global markets tumbled into a sharp risk-off session on Tuesday as a deepening technology sell-off—sparked by Alphabet’s AI departures and Nvidia chip pricing fears—cascaded across regions. U.S. index futures pointed to heavy losses, with the Nasdaq-100 and S&P 500 down sharply. The rout overshadowed geopolitical progress: the U.S. issued sweeping waivers on Iranian oil sanctions, pushing crude prices lower. A hawkish Fed repricing ahead of the PCE inflation data and a private-credit redemption scare at Apollo added to the gloom. Luxury EV maker Lucid and legacy chip giant Intel further soured sentiment with grim operational updates, while SpaceX’s post-IPO plunge illustrated the exhaustion of retail momentum.",
+      "market_summary_zh": "",
+      "event_count": 8,
+      "avg_impact": 81,
+      "top_events": [
+        {
+          "title": "Global Tech Sell-Off Intensifies, S&P 500 and Nasdaq Futures Tumble",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 95,
+          "sentiment_score": -0.8,
+          "final_score": 95
+        },
+        {
+          "title": "Fed Rate Reality Check Clobbers Stocks as PCE Inflation Gauge Nears",
+          "title_zh": "",
+          "sector": "Macro",
+          "market_impact_score": 85,
+          "sentiment_score": -0.6,
+          "final_score": 85
+        },
+        {
+          "title": "U.S. Sweeps Iran Oil Sanctions Waivers, Opening Floodgates for Tehran",
+          "title_zh": "",
+          "sector": "Energy",
+          "market_impact_score": 80,
+          "sentiment_score": 0.2,
+          "final_score": 80
+        },
+        {
+          "title": "Alphabet’s AI Brain Drain Fuels Worst Stock Slump in Over a Year",
+          "title_zh": "",
+          "sector": "Technology",
+          "market_impact_score": 75,
+          "sentiment_score": -0.75,
+          "final_score": 75
+        },
+        {
+          "title": "Apollo Slams Brakes on Redemptions as 17% of Investors Flee, Reigniting Credit Fears",
+          "title_zh": "",
+          "sector": "Financials",
+          "market_impact_score": 70,
+          "sentiment_score": -0.5,
+          "final_score": 70
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23 17:27:30",
+      "file": "history/US_STOCK_DAILY_20260623_172730.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "Collected 182 articles. Positive tone: 26, negative tone: 29.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 50,
+      "top_events": [
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq futures dive as tech sell-off outweighs Iran deal progress",
+          "title_zh": "",
+          "sector": "company",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "NatPower, Tesla reach deal on first phase of $5 billion battery storage plan",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "Exclusive-Nissan shelves development of electric Qashqai in cost-cutting drive",
+          "title_zh": "",
+          "sector": "industry",
+          "market_impact_score": 50,
+          "sentiment_score": -0.2,
+          "final_score": 50
+        },
+        {
+          "title": "Banco Santander (SAN) Takes a New Step Toward AI-Powered Commerce",
+          "title_zh": "",
+          "sector": "industry",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "Intel CEO gives investors a reality check",
+          "title_zh": "",
+          "sector": "company",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        }
+      ]
+    },
+    {
+      "date": "2026-06-23 17:01:08",
+      "file": "history/US_STOCK_DAILY_20260623_170108.json",
+      "dynamic_headline": "",
+      "dynamic_headline_zh": "",
+      "market_summary": "Collected 342 articles. Positive tone: 46, negative tone: 47.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 50,
+      "top_events": [
+        {
+          "title": "Intel CEO gives investors a reality check",
+          "title_zh": "",
+          "sector": "company",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "52-year-old Outback Steakhouse rival chain closes 24 locations",
+          "title_zh": "",
+          "sector": "industry",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "SpaceX drops more than 3% following $400 billion selloff",
+          "title_zh": "",
+          "sector": "company",
+          "market_impact_score": 50,
+          "sentiment_score": 0.2,
+          "final_score": 50
+        },
+        {
+          "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
+          "title_zh": "",
+          "sector": "macro",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        },
+        {
+          "title": "Apollo curbs withdrawals after exit requests hit 17%, reigniting fears over private credit liquidity",
+          "title_zh": "",
+          "sector": "industry",
+          "market_impact_score": 50,
+          "sentiment_score": 0,
+          "final_score": 50
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "market_summary": "Global markets tumbled into a sharp risk-off session on Tuesday as a deepening technology sell-off—sparked by Alphabet’s AI departures and Nvidia chip pricing fears—cascaded across regions. U.S. index futures pointed to heavy losses, with the Nasdaq-100 and S&P 500 down sharply. The rout overshadowed geopolitical progress: the U.S. issued sweeping waivers on Iranian oil sanctions, pushing crude prices lower. A hawkish Fed repricing ahead of the PCE inflation data and a private-credit redemption scare at Apollo added to the gloom. Luxury EV maker Lucid and legacy chip giant Intel further soured sentiment with grim operational updates, while SpaceX’s post-IPO plunge illustrated the exhaustion of retail momentum.",
+  "index_performance_summary": "On Monday, the S&P 500 and Nasdaq Composite closed firmly lower, dragged down by Alphabet and megacap tech, while the Dow Jones Industrial Average managed a mixed finish. Pre-market on Tuesday, S&P 500 futures were down ~0.8%, Nasdaq-100 futures slumped 1.5%, and Dow futures fell 300 points. The tech-centric NASDAQ Composite appeared on course for its worst multi-day retreat in months, while European and Asian benchmarks (Nikkei, Hang Seng, STOXX 600) fell in sympathy, extending the global equity sell-off.",
+  "macro_outlook": "The macro environment is increasingly hostile to risk assets. The Federal Reserve’s signal of sustained elevated rates, reinforced by impending PCE data, is dampening growth-stock valuations. On the geopolitical side, the U.S.-Iran détente offers a disinflationary impulse via lower oil prices, but it also injects policy uncertainty. China’s consumer malaise, highlighted by a tepid 618 shopping festival, points to persistent deflationary pressures and limited global demand impetus. In credit markets, Apollo’s redemption restrictions hint at latent fragility in private lending. Collectively, the macro picture argues for caution, with downside risks concentrated in high-multiple technology and cyclical names.",
+  "risk_and_sentiment": "Market sentiment has soured rapidly, with fear gauges (like the VIX) spiking as investors aggressively deleverage crowded AI and tech positions. The risk-off mood is multi-dimensional: rate anxiety is clashing with earnings-compression fears, and the Apollo liquidity event is reigniting systemic credit worries. Geopolitical relief from the Iran deal is being overwhelmed by valuation jitters. Retail sentiment is also faltering, evidenced by SpaceX’s sharp reversal. The near-term outlook is biased toward defensive rotation, with a high probability of continued volatility as corporate earnings and macro data force a reassessment of the growth premium.",
+  "key_events": [
+    {
+      "title": "Global Tech Sell-Off Intensifies, S&P 500 and Nasdaq Futures Tumble",
+      "entities": [
+        "Alphabet Inc. (GOOGL)",
+        "NVIDIA Corp. (NVDA)",
+        "S&P 500",
+        "Nasdaq"
+      ],
+      "sector": "Technology",
+      "event_type": "Market Sell-off",
+      "summary": "A violent sell-off gripped global technology stocks as Alphabet suffered its worst single-day loss in more than a year on AI brain drain, and Nvidia faced pricing pressure, triggering a wave of dumping in crowded megacap names and dragging U.S. index futures sharply lower.",
+      "market_impact_score": 95,
+      "sentiment_score": -0.8,
+      "time_horizon": "short-term",
+      "why_it_matters": "The rout threatens to unravel the AI-fueled market rally; if megacap tech momentum cracks, it could spark a broader equity correction and erode retail confidence just as the IPO market rebounds.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq-100",
+        "semiconductors",
+        "global tech"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html",
+        "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-dive-as-tech-sell-off-outweighs-iran-deal-progress-230258084.html",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDQxcFBhNUJhWlNpLXhmbHBEcUMxSG00alpWU2t3bGpwWU82RUFLZmVFWklDZWpJSjg0a2dYdm14bkoxN3BYanhxUTMyZGprZ25rVlpCXzNQV3NaQmlUcVMydlp5eEdUQ1FMWU92ckNXWjhzTWt5R3NvNTV0UmFtbkhjTExKRm1hWlNPWThBemtwMExrWm9jcFFac2VHZVpmMmFYRGx1dWc?oc=5"
+      ],
+      "image_urls": [
+        "https://s.yimg.com/uu/api/res/1.2/5eqR2X9hiUW1PXZ_iRObZA--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/df7e7aa4-134e-4c26-8abb-9d35c46ab084"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_01_01.jpg"
+      ]
+    },
+    {
+      "title": "U.S. Sweeps Iran Oil Sanctions Waivers, Opening Floodgates for Tehran",
+      "entities": [
+        "Iran",
+        "U.S. Treasury",
+        "Oil Market"
+      ],
+      "sector": "Energy",
+      "event_type": "Geopolitical / Sanctions Relief",
+      "summary": "The U.S. Treasury authorized the import of Iranian crude and refined products through August, with supertankers reactivating transponders as part of peace negotiations, marking a major de-escalation that could add significant supply to global oil markets.",
+      "market_impact_score": 80,
+      "sentiment_score": 0.2,
+      "time_horizon": "medium-term",
+      "why_it_matters": "The move slashes the geopolitical risk premium embedded in crude, potentially lowering fuel costs globally, but threatens to destabilize OPEC+ cohesion and inflict losses on energy equities.",
+      "affected_markets": [
+        "crude oil futures",
+        "energy equities",
+        "petrochemicals",
+        "Middle East assets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
+        "https://www.cnbc.com/2026/06/22/treasury-iran-oil-sales.html",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS21VYnVjY3dGSmpOSVNsaFZtdFpIYWhsNlR0V0d4U0c2d2tXVjdnU0dhTE9HY1dkN1dSWkdkdmhRZDh6ak9Cc3ZIemh1bDM2T2JYUmptSnBoQjhjTk5ISlBSZEJVVEMxY1Q2MXR4UzQxdEo3MTl2eDhheXhKYlFvaXZqNGx3VjAtQWl0Z19OYmZBRTJzZ09IRNIBngFBVV95cUxOU0dRTm9Kak5JR3pDS1FyTXE4c1YzdWdQZjJpVXZYQndRUXdNTV9ZUjFVbi1pcmlreTJfU2wwNmxpNnFSSzdkMFdQRHdidG4yQ25Id1o4dmpod1hOZ1B5ZGFuanRTVnh5dFEycTF5Q2d4bGc2UnJFN0Utakc3VjMxRTZ1ZEc2d0tuWm1MUi1RaDlYdWNLR0xPemZOYm9WQQ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Fed Rate Reality Check Clobbers Stocks as PCE Inflation Gauge Nears",
+      "entities": [
+        "Federal Reserve",
+        "S&P 500"
+      ],
+      "sector": "Macro",
+      "event_type": "Monetary Policy",
+      "summary": "Renewed conviction that the Federal Reserve will keep rates elevated for longer, ahead of a crucial PCE inflation reading, sparked a sharp repricing in interest-rate-sensitive assets and hammered equity valuations, particularly in growth and tech.",
+      "market_impact_score": 85,
+      "sentiment_score": -0.6,
+      "time_horizon": "medium-term",
+      "why_it_matters": "A higher-for-longer rate regime undermines the discount rate for future profits, directly and immediately pressuring the price-to-earnings multiples of the market’s biggest drivers—megacap tech and AI.",
+      "affected_markets": [
+        "US equities",
+        "Treasuries",
+        "growth stocks",
+        "rate-sensitive sectors"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/markets/articles/asia-shares-slip-markets-reprice-011538149.html",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdnRZT25nNG95SEhjbjk4c292RENxak0talliUmdYMFhfYXlHamhJcVNSTlpjR2NXSjJkS2JSUUxVUjlPRUdqSzJJTy1ldGVTakN0YWlpLW0zOEtHSGJNRk1ZNlZJYjRHUi1ibzlFTzlHa3lnckExdGtXZzlUeEFIZTR4aFc?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWUVxNFRvdUUzalVfTm1EbXgxNExVSUI0SGJxT09oSEJLT1oxNjBFbVlGQWlXdjJiNzRPb0Q1aEJwOVFvbG84T1dDUHdoRXF4Qnh6djhhUVo2RDdiaEtqQ0NKejJ3QVVKeVpBRkFaWnVSUmhja3pGRmZVWFJaYkdCN0RqeVVwRU1DbENlSG1QSjJtUQ?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/reuters.com/2dc1910de615b442de8a5c2e6455eedf"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_03_01.jpg"
+      ]
+    },
+    {
+      "title": "Alphabet’s AI Brain Drain Fuels Worst Stock Slump in Over a Year",
+      "entities": [
+        "Alphabet Inc. (GOOGL)"
+      ],
+      "sector": "Technology",
+      "event_type": "Corporate / Industry",
+      "summary": "The departure of high-profile artificial intelligence researchers and intensifying investor fears over AI monetization sent Alphabet shares plunging for their worst single-day loss in more than 12 months, dragging the broader megacap tech complex lower.",
+      "market_impact_score": 75,
+      "sentiment_score": -0.75,
+      "time_horizon": "medium-term",
+      "why_it_matters": "As a leader in AI development, Alphabet’s internal instability undermines confidence in its ability to compete with Microsoft/OpenAI and could signal a deeper talent and strategy crisis, casting a shadow over the entire AI investment thesis.",
+      "affected_markets": [
+        "Alphabet (GOOGL)",
+        "AI-related stocks",
+        "Nasdaq",
+        "cloud providers"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/alphabet-goog-stock-ai-departures.html",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTFB0bUh0Uk95MWYxNVZRc2VQdFpaWWRYZEJ0MEdQOWhFWkNNa19pdDcyazBqTGE2MHdMTzhfTHh5STk2NVB0d2dsMlFFb0JteGR4MWxsY3VPUWM4NjdHUk1PY2pJdVA4S1E1allZS0JMWjAyX0lMdUlRRHZR0gF_QVVfeXFMTzFzeWhOZXAwdk9JNDJvekdBajl4X1lBSU0yUmkxVGpoS09rZmFoMDdMRUZkckM2TEs0M3JsZ3hxcThhS0xLRDhIeVVZU3otdWMteGVzMHdNMXBYdVRfZk0xZzg1NU1RbUlrVzNnTXNuX3Y4dEN2aGlzVllRNFA1Yw?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOEEweld1b1JKMEl0cFdUZFhDa2stcFJOOGFpWlNyM1NsODZLWFVubnVkbVpUdmZQZjNCLW12SHFINUZDZEg2azFIOFJVaUlpSVNuMXh5MThoSFd1OHcwRmtrQnBiNk5lSy1QZTNCZFpNNFlqOUdvNkxRYkJZVjVQWGZDLUtmU1pLX0dpN3E1eGpzMVBURVV6alpCMVcza3pTTGxiUFY1U0hsT2JROV9R?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    },
+    {
+      "title": "Apollo Slams Brakes on Redemptions as 17% of Investors Flee, Reigniting Credit Fears",
+      "entities": [
+        "Apollo Global Management"
+      ],
+      "sector": "Financials",
+      "event_type": "Liquidity Event",
+      "summary": "Apollo Global Management restricted withdrawals from its main retail private credit fund after exit requests surged to 17%, rekindling market worries that the opaque $2 trillion private credit market could face a liquidity crunch during a risk-off episode.",
+      "market_impact_score": 70,
+      "sentiment_score": -0.5,
+      "time_horizon": "medium-term",
+      "why_it_matters": "A redemption freeze at a major alternative asset manager can freeze confidence, raise funding costs for leveraged borrowers, and act as an early warning of stress in the shadow banking system, potentially tightening financial conditions beyond public markets.",
+      "affected_markets": [
+        "private credit",
+        "alternative asset managers",
+        "high-yield bonds",
+        "financial sector"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/23/apollo-private-credit-fund-withdrawals-redemptions.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxONVNiMHY5cEkzTk53XzA0bE9HWnByWFh6VU52VGhoUW5BQWh5OElueUVYNXpQTll1UUZmOTUybnVEbWZ4NGp3M2NpMWlwamUybGt5a1oyczllbUUtODAyRUQzNW5LUnRwQTF2M0NvcXhEWm1uOVNOUjAzY0xkWlNTWjJXUUQ5N0xua3FicnNkZGRaZk1jZTBybTdkT0FkV3luZ2NUYjBNMUJQWjdtV01kQS16c1dNeVRRRkVLUVJfTGtvNWlyS2tXNWl2RkZYQQ?oc=5"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-65222205"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_05_01.jpg"
+      ]
+    },
+    {
+      "title": "SpaceX Stock Craters 16.4%, Erasing IPO Gains as Retail Fervor Fades",
+      "entities": [
+        "SpaceX"
+      ],
+      "sector": "Aerospace & Defense / Technology",
+      "event_type": "Stock Price / IPO",
+      "summary": "SpaceX shares collapsed 16.4% from their post-IPO highs as the initial retail-investor frenzy hit a valuation wall, with the decline shaving off the majority of gains since its debut and casting doubt on the sustainability of the IPO boom.",
+      "market_impact_score": 60,
+      "sentiment_score": -0.7,
+      "time_horizon": "short-term",
+      "why_it_matters": "The SpaceX blow-up is a high-profile warning for the new issuance market; it may chill demand for upcoming unicorn listings and dent the narrative that retail enthusiasm can defy gravity in the space economy.",
+      "affected_markets": [
+        "SpaceX stock",
+        "IPO market",
+        "space sector",
+        "retail trading"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/article/spacex-stock-tumbles-164-shaving-off-most-ipo-gains-since-debut-141725657.html",
+        "https://finance.yahoo.com/markets/article/spacexs-retail-boom-runs-into-its-first-price-wall-185036364.html",
+        "https://www.marketwatch.com/story/these-six-fast-growing-stocks-sit-at-the-cutting-edge-of-space-and-military-technology-0a349e1b?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://s.yimg.com/uu/api/res/1.2/pz4z9tC23XOtQngHwusQ6g--~B/aD00MTczO3c9NjI2MDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-06/95dfe139-a50d-4327-9691-d54fb9806071",
+        "https://images.mktw.net/im-65222205",
+        "https://s.yimg.com/uu/api/res/1.2/9hSNblAByTbCcdV3z.W.aA--~B/aD0yMDAwO3c9MzAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-06/dcb36dbe-a222-4d2d-9c20-d67c8c54d220"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_06_01.jpg"
+      ]
+    },
+    {
+      "title": "Intel CEO Delivers Bleak Reality Check, Dimming Chip Recovery Hopes",
+      "entities": [
+        "Intel Corp. (INTC)"
+      ],
+      "sector": "Technology / Semiconductors",
+      "event_type": "Corporate Guidance",
+      "summary": "Intel's chief executive warned that a turnaround in its manufacturing business faces greater hurdles than anticipated, signaling prolonged pain for the legacy chipmaker and chilling sentiment across the semiconductor sector already rattled by AI rotation.",
+      "market_impact_score": 65,
+      "sentiment_score": -0.6,
+      "time_horizon": "medium-term",
+      "why_it_matters": "As a bellwether for domestic chip manufacturing, Intel's subdued outlook dampens optimism about the CHIPS Act-driven revival and reinforces concerns that the semiconductor cycle may be faltering at a critical juncture.",
+      "affected_markets": [
+        "Intel (INTC)",
+        "semiconductor ETFs",
+        "tech hardware"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/intel-ceo-gives-investors-reality-184700678.html",
+        "https://finance.yahoo.com/markets/articles/asia-shares-slip-markets-reprice-011538149.html",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxORk1hWDh4X1gyNEQ0VGw3SFdsZzNVd2FIdnFJc2xFcGhPYi1RMzlTV2lkNHlYYVN3YmJrdEcyb2VjODlZYnB4LVF2dzFBb2xCZEgtSTFubHdEV2tjdE0wRW9Hbm1rd3dqWTBLZURRY05JeHRjbk9YNjdWMm90NTBTYW9vc2FvcWxheU4wNTZSUVhCczU1Sk5zc041UGlNQ042?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/thestreet_881/18ab894950620aa948a14a55e08a700e",
+        "https://media.zenfs.com/en/reuters.com/2dc1910de615b442de8a5c2e6455eedf"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_07_01.jpg"
+      ]
+    },
+    {
+      "title": "Lucid Slashes 18% of US Workforce, COO Exits in Brutal EV Restructuring",
+      "entities": [
+        "Lucid Group (LCID)"
+      ],
+      "sector": "Consumer Discretionary / Electric Vehicles",
+      "event_type": "Restructuring / Layoffs",
+      "summary": "Lucid Group announced an 18% reduction of its U.S. workforce and the immediate departure of its chief operating officer, as the luxury EV maker scrambles to conserve cash amid weakening demand for its pricey sedans.",
+      "market_impact_score": 55,
+      "sentiment_score": -0.65,
+      "time_horizon": "short-term",
+      "why_it_matters": "The drastic cuts highlight the deepening travails of the EV startup space, where capital-intensive operations collide with slowing consumer uptake, potentially foreshadowing further consolidation and bankruptcies among unprofitable newcomers.",
+      "affected_markets": [
+        "Lucid (LCID)",
+        "EV startups",
+        "auto suppliers"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/06/22/lucid-layoffs-evs.html",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUDItT3dLcl9MMkNzekxMd0liTHFVZjRaYzU2Q2pPMFhURkVTemJYbmdxWXlqaWFrclFuMzF2SmFhR1FmZEF2eVhmcnd4Ynp6dm1nSUhvZDRiM1J1UTdCeXBid3dpdFhMclhqelBIUWJpRzd3NThUa05LOTdRYS1KZHVWdVZEZ25jWHp0SUl3SFB6UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOGE3NnBSeXRJc1BRY1JIWGhlSTQwMGk3alprOW5nWTl0MktJYTZFZHZJb2RuUGdrZ0tnckRTSEhmWG9kbUlzXzVvNEROSlE0ODdDTGxCcVdJQnpXdWZyVFJndDRlWjBpSDBMV1JqQnV0TWpaU3JHYnltUjdRZEx4aVlGTVppSkk4c213NW9oSWN6bkNJWnNZ?oc=5"
+      ],
+      "image_urls": [],
+      "image_paths": []
+    }
+  ]
+}
