@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-03T10:42:16.241741+00:00",
+  "generated_at": "2026-07-03T14:48:24.764944+00:00",
   "reports": [
+    {
+      "date": "2026-07-03",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-03T14:46:41.978602+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-03-premarket.json",
+      "dynamic_headline": "Cooling jobs data fuels rate-cut hopes and lifts the Dow to a record, but a deepening selloff in semiconductor stocks and a looming AI disappointment test the bull case ahead of a holiday-shortened session.",
+      "dynamic_headline_zh": "就业数据降温重燃降息预期，道指创纪录新高；但半导体板块抛售加剧，人工智能失望情绪隐现，在假期缩短的交易日前考验牛市逻辑",
+      "market_summary": "US equity futures are mixed as a holiday-shortened session begins. The Dow is poised for a modest gain after closing at a record high on Wednesday, supported by a weaker-than-expected June jobs report that has revived hopes for a Fed rate cut. However, the Nasdaq is under pressure from a continued selloff in semiconductor stocks, driven by Michael Burry's new bearish bets on Micron and a broader rotation out of AI winners. The market is grappling with conflicting signals: a 'Goldilocks' macro backdrop of slowing growth but not recession, versus rising yields and a potential AI earnings disappointment. The VIX remains elevated, and breadth is poor, suggesting the rally is narrow. The Texas Stock Exchange is set to launch on Monday, a potential long-term structural shift. The session is expected to be low-volume and potentially volatile as traders square positions before the July 4th weekend.",
+      "market_summary_zh": "美国股指期货涨跌互现，开启假期缩短的交易时段。道指在周三收于纪录高位后，今日有望小幅上涨，得益于弱于预期的6月就业报告重燃了美联储降息的希望。然而，纳斯达克指数因半导体板块持续抛售而承压，抛售由迈克尔·伯里对美光的新看空押注以及更广泛的从人工智能赢家股中轮换所驱动。市场正面临相互矛盾的信号：一方面是增长放缓但非衰退的“金发姑娘”宏观背景，另一方面是收益率上升和潜在的人工智能盈利失望。VIX指数仍处高位，市场广度不佳，表明涨势狭窄。德克萨斯证券交易所将于周一启动，这可能是一个长期的结构性转变。预计本交易时段成交量低且可能波动，因交易员在7月4日周末前调整头寸。",
+      "event_count": 10,
+      "avg_impact": 71
+    },
     {
       "date": "2026-07-03",
       "report_type": "close",
