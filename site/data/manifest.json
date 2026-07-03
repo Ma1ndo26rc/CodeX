@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T14:48:29.779Z",
+  "generated_at": "2026-07-03T23:18:45.354Z",
   "reports": {
-    "markdown": "../reports/US_STOCK_PREMARKET_20260703_144825.md",
-    "pdf": "../reports/US_STOCK_PREMARKET_20260703_144825.pdf",
-    "json": "../reports/US_STOCK_PREMARKET_20260703_144825.json",
+    "markdown": "../reports/US_STOCK_CLOSE_20260703_231841.md",
+    "pdf": "../reports/US_STOCK_CLOSE_20260703_231841.pdf",
+    "json": "../reports/US_STOCK_CLOSE_20260703_231841.json",
     "latest_json": "../reports/latest.json",
     "premarket_json": "../reports/premarket.json",
     "close_json": "../reports/close.json",

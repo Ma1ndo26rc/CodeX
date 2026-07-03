@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-03T14:48:24.764944+00:00",
+  "generated_at": "2026-07-03T23:18:40.281798+00:00",
   "reports": [
+    {
+      "date": "2026-07-03",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-03T23:17:08.366340+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-03-close.json",
+      "dynamic_headline": "Cooling jobs data and fading rate-hike fears fuel a broad market rally, but a sharp rotation out of mega-cap tech caps the Nasdaq's gains and signals a shift in leadership.",
+      "dynamic_headline_zh": "就业数据降温与加息担忧消退推动市场广泛上涨，但资金大幅撤离大型科技股限制了纳斯达克涨幅，并暗示市场领导地位正在转变。",
+      "market_summary": "US equities closed higher in a holiday-shortened session, with the S&P 500 and Dow Jones Industrial Average posting solid gains, while the Nasdaq Composite lagged due to continued selling in mega-cap technology and AI-related names. The market was buoyed by a weaker-than-expected jobs report, which reinforced expectations that the Federal Reserve will hold off on further rate hikes. However, the narrowness of the rally was a key theme, as the majority of stocks rose while a handful of large-cap tech names dragged on the Nasdaq. The Dow was the standout, hitting a new record high, driven by a rotation into value and cyclical sectors. Bond yields fell, and the dollar weakened, providing a tailwind for gold and other commodities. The VIX remained subdued, indicating a lack of broad-based fear despite the tech sell-off.",
+      "market_summary_zh": "在假期缩短的交易时段中，美国股市收高，标普500指数和道琼斯工业平均指数录得稳健上涨，而纳斯达克综合指数因大型科技和人工智能相关个股持续遭遇抛售而表现落后。弱于预期的就业报告提振了市场，该报告强化了美联储将暂停进一步加息的预期。然而，上涨的狭窄性是关键主题，即多数股票上涨，而少数大型科技股拖累了纳斯达克。道指表现突出，创下历史新高，得益于资金轮动至价值和周期性板块。债券收益率下降，美元走弱，为黄金和其他大宗商品提供了支撑。尽管科技股遭抛售，但VIX指数仍保持低位，表明市场并未出现广泛的恐慌情绪。",
+      "event_count": 10,
+      "avg_impact": 60.0
+    },
     {
       "date": "2026-07-03",
       "report_type": "premarket",
@@ -16,22 +32,6 @@
       "market_summary_zh": "美国股指期货涨跌互现，开启假期缩短的交易时段。道指在周三收于纪录高位后，今日有望小幅上涨，得益于弱于预期的6月就业报告重燃了美联储降息的希望。然而，纳斯达克指数因半导体板块持续抛售而承压，抛售由迈克尔·伯里对美光的新看空押注以及更广泛的从人工智能赢家股中轮换所驱动。市场正面临相互矛盾的信号：一方面是增长放缓但非衰退的“金发姑娘”宏观背景，另一方面是收益率上升和潜在的人工智能盈利失望。VIX指数仍处高位，市场广度不佳，表明涨势狭窄。德克萨斯证券交易所将于周一启动，这可能是一个长期的结构性转变。预计本交易时段成交量低且可能波动，因交易员在7月4日周末前调整头寸。",
       "event_count": 10,
       "avg_impact": 71.0
-    },
-    {
-      "date": "2026-07-03",
-      "report_type": "close",
-      "report_label": "Market Close Brief",
-      "generated_at": "2026-07-03T10:40:37.337690+00:00",
-      "market_session": "US Market Close",
-      "source_window": "Previous 24 hours through the market close cutoff",
-      "data_freshness_warning": false,
-      "file": "history/2026-07-03-close.json",
-      "dynamic_headline": "Wall Street ends mixed as a sharply weaker-than-expected June jobs report fuels a rotation out of mega-cap tech into cyclicals, sending the Dow to a fresh record while the Nasdaq slides.",
-      "dynamic_headline_zh": "华尔街收盘涨跌互现，6月就业报告远逊预期引发资金从大型科技股轮动至周期股，道指创历史新高，纳指下滑。",
-      "market_summary": "US equity markets closed mixed on Thursday, July 2, 2026, in a holiday-shortened session ahead of the July 4th weekend. The Dow Jones Industrial Average surged to a new all-time closing high, while the S&P 500 and Nasdaq Composite ended lower, dragged down by a sharp selloff in mega-cap technology and semiconductor stocks. The catalyst was the June nonfarm payrolls report, which showed a gain of only 57,000 jobs versus the 115,000 expected, alongside a drop in the unemployment rate to 4.2%—driven by a plunge in the labor force participation rate to a 50-year low outside of the pandemic. This 'bad news is good news' dynamic initially boosted rate-sensitive sectors on hopes the Fed will hold off on rate hikes, but the underlying weakness in the labor market and falling participation raised recession fears, triggering profit-taking in high-multiple tech names. The Dow was lifted by strength in financials, industrials, and energy, while the Nasdaq was hammered by a 7% plunge in Tesla (TSLA) despite strong deliveries, and continued weakness in semiconductor names like Nvidia (NVDA). The dollar weakened, gold rose for its first weekly gain in a month, and Treasury yields fell sharply as the market priced in a more dovish Fed.",
-      "market_summary_zh": "美国股市在2026年7月2日（周四）涨跌互现，因独立日长周末前交易时段缩短。道琼斯工业平均指数飙升至历史收盘新高，而标普500指数和纳斯达克综合指数收低，受大型科技和半导体股大幅抛售拖累。催化剂是6月非农就业报告，显示仅增加5.7万个就业岗位，远低于预期的11.5万个，同时失业率降至4.2%——原因是劳动力参与率跌至疫情外50年低点。这种“坏消息就是好消息”的动态最初提振了利率敏感型板块，因市场预期美联储将暂缓加息，但劳动力市场的潜在疲软和参与率下降引发了衰退担忧，导致高估值科技股获利了结。道指受金融、工业和能源股走强提振，而纳指则因特斯拉(TSLA)尽管交付强劲但仍暴跌7%，以及英伟达(NVDA)等半导体股持续疲软而承压。美元走弱，黄金录得一个月来首次周线上涨，国债收益率因市场定价美联储更趋鸽派而大幅下跌。",
-      "event_count": 10,
-      "avg_impact": 66.0
     },
     {
       "date": "2026-07-02",
