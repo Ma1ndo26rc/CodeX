@@ -1,0 +1,260 @@
+{
+  "market_summary": "Collected 182 articles. Positive tone: 26, negative tone: 29.",
+  "index_performance_summary": "Index snapshots can be wired from market data API if needed.",
+  "macro_outlook": "Macro outlook is based on the latest collected news and requires live market data for precision.",
+  "risk_and_sentiment": "Overall sentiment is risk-off based on article tone.",
+  "key_events": [
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures dive as tech sell-off outweighs Iran deal progress",
+      "entities": [],
+      "sector": "company",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-dive-as-tech-sell-off-outweighs-iran-deal-progress-230258084.html",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRVN2Mjhyck5tdC02VXZaQ2pFOE9pYTdfdWJOOVFYQ3pDZ2VSZ2dqVWFuX2pPamsySkk1SnVGd0ZyTFBUczBDalp3ZHdsNmpDSXBzcGtCaTJ4Zm1mZHFoMkNjZ0tEdk9QM0NwTlFFdjJpQTZ6U3p4VGRkeFJmYjhtel9TNTkybkEzaHpRWlg0UXZPUG8wNjNLaWJyTE5xUnhKT0NVRktDYnMyV1c0a0Rxag?oc=5",
+        "https://www.cnbc.com/2026/06/22/nvidias-stock-struggles-as-kalshi-traders-bet-chip-prices-are-coming-down.html"
+      ],
+      "image_urls": [
+        "https://s.yimg.com/uu/api/res/1.2/5eqR2X9hiUW1PXZ_iRObZA--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-05/df7e7aa4-134e-4c26-8abb-9d35c46ab084"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_01_01.jpg"
+      ]
+    },
+    {
+      "title": "NatPower, Tesla reach deal on first phase of $5 billion battery storage plan",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/news/natpower-tesla-reach-deal-first-065052438.html",
+        "https://www.cnbc.com/2026/06/23/us-iran-oil-sanction-relief-strait-of-hormuz-peace-deal-.html",
+        "https://www.cnbc.com/2026/06/22/states-data-center-permitting-public-opposition.html"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/reuters.com/b81f02c50c87f5814714c2003f05657f"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_02_01.jpg"
+      ]
+    },
+    {
+      "title": "Exclusive-Nissan shelves development of electric Qashqai in cost-cutting drive",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": -0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/energy/articles/exclusive-nissan-shelves-development-electric-061327207.html",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN0ppeU9PM1R0eVp4VXZvc055SjdQT2NhQ0E2MTBqWE5sNGZ0T1V3NTU1Rl9YZ2RxS1lURHVYakhlYnplamdkN29nRncyMjV0R3Q4MmhSXzZQRTRFT2FDUWNYalJUMDF2RTZHTFNLVWhWdW1YamU2SmtNSW1LYmJwTklnV3c?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGhkdXQ1VEZvbV9WV2JNSmFRVllHWG9PYnByUnRIWnpOeTRXbW5yTk5nWGVIQXpwdkd2MVlvdkUxRllZREktcTJISnI3R0NEQkNKTmRIZFB3cVhsLXhKV0U0dWVpMWw2OHk2ZDc2MUJ5Ty1SeVRPaHl3WEMwWWZmRDM0RzRFX0o0SmRMUGN2aWZ4bGstU1EzdFZpMlFNeUMxRk4wajRveElYaGpscHNyTWpGVQ?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/reuters.com/93d506991c87f882188d69ce1620444b"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_03_01.jpg"
+      ]
+    },
+    {
+      "title": "Banco Santander (SAN) Takes a New Step Toward AI-Powered Commerce",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/banco-santander-san-takes-step-083600135.html",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGhkdXQ1VEZvbV9WV2JNSmFRVllHWG9PYnByUnRIWnpOeTRXbW5yTk5nWGVIQXpwdkd2MVlvdkUxRllZREktcTJISnI3R0NEQkNKTmRIZFB3cVhsLXhKV0U0dWVpMWw2OHk2ZDc2MUJ5Ty1SeVRPaHl3WEMwWWZmRDM0RzRFX0o0SmRMUGN2aWZ4bGstU1EzdFZpMlFNeUMxRk4wajRveElYaGpscHNyTWpGVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVlIenlQcC1lOU8xeGFXQTdLNDlwMjEyV0dncFUtMWhUM0R4cUg5Y3FjbUtLTDd3Q05tNDNJeE1adUdaN0dvXzB1WkY1LXhMLVFpMDl4eUxsRHFMTXZod0VQVG9LcTF0YXZoMnZPb1c2UFFYY2EwZlpfcjJYVnFBRHI1OTJQdlhJTXB6cFBHN05UVGZkM3lFLXFTQmtwZVZXV3dkQy1qMHpjTUxxWDlFSWpxd1RndDBIVXFhRDlQYS1TeWRzVVRR?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/insidermonkey.com/63845b170c1b45a8e27da7362ec11a4c"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_04_01.jpg"
+      ]
+    },
+    {
+      "title": "Intel CEO gives investors a reality check",
+      "entities": [],
+      "sector": "company",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/intel-ceo-gives-investors-reality-184700678.html",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0elFlMzVoZ2ZRVmZPdkhwM0VDcGpOYTJRV3p1YzF2V1hhSnhfdVh5QWhNaEFoalByT0RhS1JWMnIwZHBUV2RQaDd4dlVRNTRjcHUwSk9Gd1J5RXh2WFdsMlRtX21wMjl4TmJSWmZjUXlLZmxPOFJPZnFCTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/thestreet_881/18ab894950620aa948a14a55e08a700e"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_05_01.jpg"
+      ]
+    },
+    {
+      "title": "Energy Transfer (ET) Enter Multiple New Agreements Through Affiliates",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/energy/articles/energy-transfer-et-enter-multiple-083558870.html",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNXpNQjhDaU1TRHdKZEZlRzNlVEVtTVJtMExPSnFxNnpPZUhFZjllbDBiOFk4QXRweHFRZEdydExQbF8tejNtUnR6TFkxZXk1MXJvVGtZS2lLTWtEbi1tbnQ4ZXg4eEk5TFpWSG01ZHpVcy1UdGxoYnY2SnBueWczWGl5TDBld3I3cnc?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTHAwWmF6SDEyb2RISDJqZE52SzdkV2R6emNTRVBSVDd2a1VMVTZUVFFPYUE5YTJWS1h1RXJCWlotZU5CaHVvSjl2V0EyU28wLXU4bXpTWEcyaVpldFFLWlJ1NGd2bVRrOEEwY3JIeTg3S051QzVPd0pXSFdqSW51YmtjTE5aUllOdDlxM1BwdE1PMWlPWWdRdlBGRVZIdFlTd2U5RTlB?oc=5"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/insidermonkey.com/a97f111c62451e82df1b503f29d424ac"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_06_01.jpg"
+      ]
+    },
+    {
+      "title": "Becton Dickinson (BDX) Issues Voluntary Recall for Select Skin Preparation Products",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/healthcare/articles/becton-dickinson-bdx-issues-voluntary-083555170.html",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0elFlMzVoZ2ZRVmZPdkhwM0VDcGpOYTJRV3p1YzF2V1hhSnhfdVh5QWhNaEFoalByT0RhS1JWMnIwZHBUV2RQaDd4dlVRNTRjcHUwSk9Gd1J5RXh2WFdsMlRtX21wMjl4TmJSWmZjUXlLZmxPOFJPZnFCTQ?oc=5",
+        "https://finance.yahoo.com/economy/policy/articles/cpa-australia-issues-warning-ai-091540517.html"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/insidermonkey.com/c5231be68f8a8ee09937b7b67ae3b30f",
+        "https://media.zenfs.com/en/the_accountant_923/47b9bf258076acee59137a82f8a3f618"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_07_01.jpg"
+      ]
+    },
+    {
+      "title": "Activist Investor Takes Major Stake in Devon Energy (DVN)",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/energy/articles/activist-investor-takes-major-stake-083553886.html",
+        "https://news.google.com/rss/articles/CBMiigJBVV95cUxQMV93c0llcWZhOWxvQzZkaFEwZjE0OGNEclZnaWJIUmFCVkh3WFdTZU10cnJ2SEdxbWI4VjhEb1FEY3pEaVY4eUFzZWNOYUE0VEI0WGJUUUhlYnlKY3pYbUJHbnhxdlpHM2p0clV6UXZpTmtCZUdrOXJDZElFTko1dG0wTVFMc01fU0lQdk1nTWJFd0NGUmdqRnRnZVlWY0loTEwxUGJpZWlpSGtpMkpiR2hSck02dG5ISE8yLW1EN2ZhZFp5Y3NIR21nMXZGdzV2dVNyQV9sWGcySXBKdVVCUjB1amQ3bUV2NUswRlhHMkExdUh1TkxXZUotcUhNeGZ0YlZSM2dLRC1VQQ?oc=5",
+        "https://www.cnbc.com/2026/06/23/singtel-sells-gulf-development-stake-asset-recycling-ai-investment.html"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/insidermonkey.com/ce74cb4e24f6aeeae8f41ae50a33944c"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_08_01.jpg"
+      ]
+    },
+    {
+      "title": "Kimberly-Clark (KMB) Highlights Progress at the dbAccess Global Consumer Conference",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/kimberly-clark-kmb-highlights-progress-083552563.html",
+        "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-khc-reveals-next-083550149.html",
+        "https://www.cnbc.com/2026/06/23/tech-stocks-sell-off-mag7-samsung-sk-hynix.html"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/insidermonkey.com/f15347b2814b43cbbdf31f1e61fca9d8",
+        "https://media.zenfs.com/en/insidermonkey.com/d021e708586594abbcd42c597d3ac0f8"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_09_01.jpg"
+      ]
+    },
+    {
+      "title": "52-year-old Outback Steakhouse rival chain closes 24 locations",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ],
+      "source_urls": [
+        "https://finance.yahoo.com/economy/articles/52-old-outback-steakhouse-rival-194700477.html",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMGhkdXQ1VEZvbV9WV2JNSmFRVllHWG9PYnByUnRIWnpOeTRXbW5yTk5nWGVIQXpwdkd2MVlvdkUxRllZREktcTJISnI3R0NEQkNKTmRIZFB3cVhsLXhKV0U0dWVpMWw2OHk2ZDc2MUJ5Ty1SeVRPaHl3WEMwWWZmRDM0RzRFX0o0SmRMUGN2aWZ4bGstU1EzdFZpMlFNeUMxRk4wajRveElYaGpscHNyTWpGVQ?oc=5",
+        "https://www.cnbc.com/2026/06/23/china-tech-crackdown-antitrust-tripcom-meituan-food-delivery-anti-involution-deflation-.html"
+      ],
+      "image_urls": [
+        "https://media.zenfs.com/en/thestreet_881/edf52986b5fcd631d7d143e70c34b331"
+      ],
+      "image_paths": [
+        "E:/CodeX_File/reports/assets/images/event_10_01.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "market_summary": "Collected 342 articles. Positive tone: 46, negative tone: 47.",
+  "index_performance_summary": "Index snapshots can be wired from market data API if needed.",
+  "macro_outlook": "Macro outlook is based on the latest collected news and requires live market data for precision.",
+  "risk_and_sentiment": "Overall sentiment is risk-off based on article tone.",
+  "key_events": [
+    {
+      "title": "Intel CEO gives investors a reality check",
+      "entities": [],
+      "sector": "company",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "52-year-old Outback Steakhouse rival chain closes 24 locations",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "SpaceX drops more than 3% following $400 billion selloff",
+      "entities": [],
+      "sector": "company",
+      "event_type": "news",
+      "summary": "Gains have been pared back at the space and AI company following an initial surge after its record-breaking IPO.",
+      "market_impact_score": 50,
+      "sentiment_score": 0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in revenue for Tehran",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "news",
+      "summary": "The U.S. issued a sweeping rollback of sanctions on Iranian oil, offering Tehran an economic lifeline as negotiations toward a peace deal proceed.",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "Apollo curbs withdrawals after exit requests hit 17%, reigniting fears over private credit liquidity",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "Apollo is capping investor redemptions in its main retail-focused private credit fund after exit requests hit 17%.",
+      "market_impact_score": 50,
+      "sentiment_score": 0.0,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "SpaceX signs computing power deal with open-source AI startup Reflection worth up to $6.3 billion",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "SpaceX has turned its Colossus data center into a commercial computing power platform, landing recent deals with Anthropic, Google and Cursor.",
+      "market_impact_score": 50,
+      "sentiment_score": -0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "Alphabet has its worst day in over a year on AI concerns after high-profile exits",
+      "entities": [],
+      "sector": "industry",
+      "event_type": "news",
+      "summary": "Google parent Alphabet has seen consecutive high-profile artificial intelligence researchers leave.",
+      "market_impact_score": 50,
+      "sentiment_score": -0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "'I like their money': Trump threatens lawsuits against ABC for reporting on Reflecting Pool",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "news",
+      "summary": "The latest action against ABC comes as the broadcaster faces two investigations from the Federal Communications Commission.",
+      "market_impact_score": 50,
+      "sentiment_score": -0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "Companies are demanding states cut red tape. Data center-wary voters may think differently",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "news",
+      "summary": "Pennsylvania Gov. Josh Shapiro touted a $20 billion economic development deal last June, the state's largest ever. It's caused Shapiro no shortage of grief.",
+      "market_impact_score": 50,
+      "sentiment_score": -0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    },
+    {
+      "title": "SpaceX stock tanks 16%, extending slump following post-IPO rally",
+      "entities": [],
+      "sector": "company",
+      "event_type": "news",
+      "summary": "A rally following the company's record breaking IPO on June 12 has cooled, with stock dropping the past three days of trading.",
+      "market_impact_score": 50,
+      "sentiment_score": 0.2,
+      "time_horizon": "short-term",
+      "why_it_matters": "Selected as one of the latest relevant market news items.",
+      "affected_markets": [
+        "US equities"
+      ]
+    }
+  ]
+}
