@@ -2,12 +2,18 @@ from __future__ import annotations
 
 import json
 from copy import deepcopy
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 
 SCHEMA = {
+    "report_type": "close",
+    "report_label": "Market Close Brief",
+    "generated_at": "",
+    "market_session": "US Market Close",
+    "source_window": "Previous 24 hours through the market close cutoff",
+    "data_freshness_warning": False,
     "dynamic_headline": "",
     "market_summary": "",
     "market_narrative": "",
@@ -79,6 +85,14 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
         payload = _loads_market_json(raw_text or "")
 
     analysis = empty_market_analysis()
+    report_type = normalize_report_type(payload.get("report_type"))
+    defaults = report_metadata(report_type)
+    analysis["report_type"] = report_type
+    analysis["report_label"] = _to_str(payload.get("report_label")) or defaults["report_label"]
+    analysis["generated_at"] = _to_str(payload.get("generated_at")) or defaults["generated_at"]
+    analysis["market_session"] = _to_str(payload.get("market_session")) or defaults["market_session"]
+    analysis["source_window"] = _to_str(payload.get("source_window")) or defaults["source_window"]
+    analysis["data_freshness_warning"] = _to_bool(payload.get("data_freshness_warning"))
     analysis["dynamic_headline"] = _to_str(payload.get("dynamic_headline"))
     analysis["market_summary"] = _to_str(payload.get("market_summary"))
     analysis["market_narrative"] = _to_str(payload.get("market_narrative"))
@@ -106,25 +120,119 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
     return analysis
 
 
+def normalize_report_type(value: Any) -> str:
+    return "premarket" if str(value or "").strip().lower() == "premarket" else "close"
+
+
+def report_metadata(report_type: str, generated_at: str | None = None) -> dict[str, Any]:
+    normalized = normalize_report_type(report_type)
+    is_premarket = normalized == "premarket"
+    return {
+        "report_type": normalized,
+        "report_label": "Pre-Market Brief" if is_premarket else "Market Close Brief",
+        "generated_at": generated_at or datetime.now(timezone.utc).isoformat(),
+        "market_session": "US Pre-Market" if is_premarket else "US Market Close",
+        "source_window": (
+            "Previous 24 hours through the pre-market cutoff"
+            if is_premarket
+            else "Previous 24 hours through the market close cutoff"
+        ),
+        "data_freshness_warning": False,
+    }
+
+
+def apply_report_metadata(
+    analysis: dict[str, Any],
+    report_type: str,
+    *,
+    source_window: str | None = None,
+    data_freshness_warning: bool = False,
+) -> dict[str, Any]:
+    enriched = dict(analysis)
+    enriched.update(report_metadata(report_type))
+    if source_window:
+        enriched["source_window"] = source_window
+    enriched["data_freshness_warning"] = bool(data_freshness_warning)
+    return enriched
+
+
 def save_market_analysis(analysis: dict[str, Any], output_dir: Path) -> tuple[Path, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     path = output_dir / "market_analysis.json"
     latest_path = output_dir / "latest.json"
     history_dir = output_dir / "history"
     history_dir.mkdir(parents=True, exist_ok=True)
-    history_path = history_dir / f"{datetime.now().strftime('%Y-%m-%d')}.json"
-    archive_path = output_dir / f"market_analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     validated = parse_and_validate_market_json(analysis)
+    report_type = normalize_report_type(validated.get("report_type"))
+    report_date = _report_date(validated.get("generated_at"))
+    typed_path = output_dir / f"{report_type}.json"
+    history_path = history_dir / f"{report_date}-{report_type}.json"
+    archive_path = output_dir / f"market_analysis_{report_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     text = json.dumps(validated, ensure_ascii=False, indent=2)
     path.write_text(text, encoding="utf-8")
     latest_path.write_text(text, encoding="utf-8")
+    typed_path.write_text(text, encoding="utf-8")
     history_path.write_text(text, encoding="utf-8")
     archive_path.write_text(text, encoding="utf-8")
+    _write_history_index(output_dir)
     return path, archive_path
 
 
 def load_market_analysis(path: Path) -> dict[str, Any]:
     return parse_and_validate_market_json(path.read_text(encoding="utf-8"))
+
+
+def _write_history_index(output_dir: Path) -> Path:
+    history_dir = output_dir / "history"
+    reports = []
+    for history_path in history_dir.glob("*.json"):
+        try:
+            raw_report = json.loads(history_path.read_text(encoding="utf-8"))
+            if not isinstance(raw_report, dict):
+                continue
+            report = parse_and_validate_market_json(raw_report)
+        except (OSError, json.JSONDecodeError):
+            continue
+        events = report.get("key_events") or report.get("news_events") or []
+        impact_values = [float(event.get("market_impact_score", 0)) for event in events if isinstance(event, dict)]
+        report_type = normalize_report_type(raw_report.get("report_type") or _type_from_filename(history_path.name))
+        generated_at = _to_str(raw_report.get("generated_at"))
+        reports.append(
+            {
+                "date": _report_date(generated_at, fallback=history_path.name[:10]),
+                "report_type": report_type,
+                "report_label": report.get("report_label") or report_metadata(report_type)["report_label"],
+                "generated_at": generated_at,
+                "market_session": report.get("market_session", ""),
+                "source_window": report.get("source_window", ""),
+                "data_freshness_warning": bool(report.get("data_freshness_warning", False)),
+                "file": f"history/{history_path.name}",
+                "dynamic_headline": report.get("dynamic_headline", ""),
+                "dynamic_headline_zh": report.get("translations", {}).get("zh", {}).get("dynamic_headline", ""),
+                "market_summary": report.get("market_summary", ""),
+                "market_summary_zh": report.get("translations", {}).get("zh", {}).get("market_summary", ""),
+                "event_count": len(events),
+                "avg_impact": round(sum(impact_values) / len(impact_values), 2) if impact_values else 0,
+            }
+        )
+    reports.sort(key=lambda item: (item.get("generated_at") or item["date"], item["report_type"]), reverse=True)
+    index_path = output_dir / "history_index.json"
+    index_path.write_text(
+        json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "reports": reports}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    return index_path
+
+
+def _report_date(value: Any, fallback: str | None = None) -> str:
+    text = str(value or "")
+    if len(text) >= 10 and text[4:5] == "-" and text[7:8] == "-":
+        return text[:10]
+    return fallback or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def _type_from_filename(name: str) -> str:
+    return "premarket" if "premarket" in name.lower() else "close"
 
 
 def _loads_market_json(text: str) -> dict[str, Any]:
@@ -390,3 +498,9 @@ def _to_float(value: Any, minimum: float, maximum: float) -> float:
     except (TypeError, ValueError):
         number = 0.0
     return max(minimum, min(maximum, number))
+
+
+def _to_bool(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    return str(value or "").strip().lower() in {"1", "true", "yes", "on"}

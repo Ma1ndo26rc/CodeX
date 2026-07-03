@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import json
+import os
 
-from .analysis_schema import load_market_analysis, save_market_analysis
+from .analysis_schema import apply_report_metadata, load_market_analysis, normalize_report_type, save_market_analysis
 from .charts import generate_key_event_charts
 from .config import CONFIG
 from .emailer import send_report_email
@@ -23,14 +24,15 @@ from .report import build_report, save_report
 from .site_generator import generate_site
 
 
-def run_daily_job() -> tuple[str, str]:
+def run_daily_job(report_type: str | None = None) -> tuple[str, str]:
+    report_type = normalize_report_type(report_type or os.getenv("REPORT_TYPE", "close"))
     keywords = [kw.strip() for kw in CONFIG.google_news_keywords.split(",") if kw.strip()]
     raw_items = fetch_all_news(CONFIG.lookback_hours, keywords=keywords)
     raw_source_counts = source_counts(raw_items)
     items = dedupe_news(raw_items)
     items = enrich_items(items)
     analyzer = LLMAnalyzer()
-    analysis = analyzer.summarize_market(items)
+    analysis = analyzer.summarize_market(items, report_type=report_type)
     analysis = enrich_analysis_with_sources(analysis, items)
     analysis = download_event_images(analysis, CONFIG.report_output_dir / "assets")
     market_data_bundle = update_market_data_files(CONFIG.report_output_dir)
@@ -44,6 +46,19 @@ def run_daily_job() -> tuple[str, str]:
         [*analysis["key_events"], *analysis["news_events"][:20]]
     )
     analysis = _ensure_market_brief_defaults(analysis)
+    analysis = apply_report_metadata(
+        analysis,
+        report_type,
+        source_window=(
+            f"Previous {CONFIG.lookback_hours} hours through the pre-market cutoff"
+            if report_type == "premarket"
+            else f"Previous {CONFIG.lookback_hours} hours through the market close cutoff"
+        ),
+        data_freshness_warning=(
+            not bool(items)
+            or not bool(market_data_bundle.get("snapshot", {}).get("items"))
+        ),
+    )
     analysis = analyzer.translate_market_analysis(analysis)
     market_analysis_path, _ = save_market_analysis(analysis, CONFIG.report_output_dir)
     market_analysis = load_market_analysis(market_analysis_path)
@@ -52,7 +67,7 @@ def run_daily_job() -> tuple[str, str]:
     md_path, _ = save_report(md, market_analysis, CONFIG.report_output_dir)
     pdf_path = convert_markdown_to_pdf(md_path)
     generate_site()
-    send_report_email(f"US Stock Daily Report - {md_path.stem}", md)
+    send_report_email(f"US Stock {market_analysis['report_label']} - {md_path.stem}", md)
     _write_source_diagnostics(raw_source_counts, source_counts(items))
     return str(md_path), str(pdf_path)
 

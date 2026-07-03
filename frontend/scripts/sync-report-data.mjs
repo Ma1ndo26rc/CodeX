@@ -10,11 +10,16 @@ const publicDataDir = path.join(frontendRoot, "public", "data");
 const generatedDataDir = path.join(frontendRoot, "src", "generated");
 const sourceAnalysisPath = path.join(reportsDir, "market_analysis.json");
 const sourceLatestPath = path.join(reportsDir, "latest.json");
+const sourcePremarketPath = path.join(reportsDir, "premarket.json");
+const sourceClosePath = path.join(reportsDir, "close.json");
+const sourceReportHistoryIndexPath = path.join(reportsDir, "history_index.json");
 const sourceTrendsPath = path.join(reportsDir, "market_trends.json");
 const sourceHistoryPath = path.join(reportsDir, "market_history.json");
 const sourceReportHistoryDir = path.join(reportsDir, "history");
 const targetAnalysisPath = path.join(publicDataDir, "market_analysis.json");
 const targetLatestPath = path.join(publicDataDir, "latest.json");
+const targetPremarketPath = path.join(publicDataDir, "premarket.json");
+const targetClosePath = path.join(publicDataDir, "close.json");
 const targetTrendsPath = path.join(publicDataDir, "market_trends.json");
 const targetHistoryPath = path.join(publicDataDir, "market_history.json");
 const targetReportHistoryDir = path.join(publicDataDir, "history");
@@ -23,6 +28,8 @@ const targetAssetsDir = path.join(publicDataDir, "assets");
 const sourceAssetsDir = path.join(reportsDir, "assets");
 const generatedAnalysisPath = path.join(generatedDataDir, "market_analysis.json");
 const generatedLatestPath = path.join(generatedDataDir, "latest.json");
+const generatedPremarketPath = path.join(generatedDataDir, "premarket.json");
+const generatedClosePath = path.join(generatedDataDir, "close.json");
 const generatedTrendsPath = path.join(generatedDataDir, "market_trends.json");
 const generatedHistoryPath = path.join(generatedDataDir, "market_history.json");
 const generatedReportHistoryIndexPath = path.join(generatedDataDir, "history_index.json");
@@ -36,7 +43,7 @@ function listLatest(ext) {
   if (!fs.existsSync(reportsDir)) return null;
   return fs
     .readdirSync(reportsDir)
-    .filter((name) => name.startsWith("US_STOCK_DAILY_") && name.endsWith(ext))
+    .filter((name) => name.startsWith("US_STOCK_") && name.endsWith(ext))
     .map((name) => {
       const fullPath = path.join(reportsDir, name);
       return { name, fullPath, mtime: fs.statSync(fullPath).mtimeMs };
@@ -74,6 +81,8 @@ function readJsonIfExists(filePath, fallback) {
 }
 
 function archiveDateFromName(name) {
+  const typedHistoryDate = name.match(/^(\d{4}-\d{2}-\d{2})-(premarket|close)\.json$/);
+  if (typedHistoryDate) return typedHistoryDate[1];
   const historyDate = name.match(/^(\d{4}-\d{2}-\d{2})\.json$/);
   if (historyDate) return historyDate[1];
   const dailyDate = name.match(/^US_STOCK_DAILY_(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})\.json$/);
@@ -103,6 +112,12 @@ function summarizeReport(filePath, name, targetName = name) {
   return {
     date,
     file: `history/${targetName}`,
+    report_type: report.report_type ?? (name.includes("premarket") ? "premarket" : "close"),
+    report_label: report.report_label ?? (name.includes("premarket") ? "Pre-Market Brief" : "Market Close Brief"),
+    generated_at: report.generated_at ?? "",
+    market_session: report.market_session ?? "",
+    source_window: report.source_window ?? "",
+    data_freshness_warning: Boolean(report.data_freshness_warning),
     dynamic_headline: report.dynamic_headline ?? "",
     dynamic_headline_zh: report.translations?.zh?.dynamic_headline ?? "",
     market_summary: report.market_summary ?? "",
@@ -133,6 +148,19 @@ function syncReportHistory() {
     .filter((entry, index, rows) => rows.findIndex((row) => row.targetName === entry.targetName) === index)
     .sort((a, b) => b.sourceName.localeCompare(a.sourceName));
 
+  fs.rmSync(targetReportHistoryDir, { recursive: true, force: true });
+  ensureDir(targetReportHistoryDir);
+  for (const { sourcePath, targetName } of archiveSources) {
+    fs.copyFileSync(sourcePath, path.join(targetReportHistoryDir, targetName));
+  }
+
+  const sourceIndex = readJsonIfExists(sourceReportHistoryIndexPath, null);
+  if (sourceIndex && Array.isArray(sourceIndex.reports)) {
+    fs.writeFileSync(targetReportHistoryIndexPath, JSON.stringify(sourceIndex, null, 2), "utf8");
+    fs.writeFileSync(generatedReportHistoryIndexPath, JSON.stringify(sourceIndex, null, 2), "utf8");
+    return sourceIndex;
+  }
+
   if (!archiveSources.length) {
     fs.writeFileSync(targetReportHistoryIndexPath, JSON.stringify(fallbackIndex, null, 2), "utf8");
     return fallbackIndex;
@@ -141,8 +169,6 @@ function syncReportHistory() {
   ensureDir(targetReportHistoryDir);
   const summaries = archiveSources
     .map(({ sourcePath, sourceName, targetName }) => {
-      const targetPath = path.join(targetReportHistoryDir, targetName);
-      fs.copyFileSync(sourcePath, targetPath);
       return summarizeReport(sourcePath, sourceName, targetName);
     });
   const timestampDays = new Set(
@@ -191,6 +217,25 @@ fs.writeFileSync(targetLatestPath, JSON.stringify(analysis, null, 2), "utf8");
 fs.writeFileSync(generatedAnalysisPath, JSON.stringify(analysis, null, 2), "utf8");
 fs.writeFileSync(generatedLatestPath, JSON.stringify(analysis, null, 2), "utf8");
 
+function syncTypedReport(sourcePath, targetPath, generatedPath) {
+  if (!fs.existsSync(sourcePath)) {
+    fs.rmSync(targetPath, { force: true });
+    return;
+  }
+  const report = readJsonIfExists(sourcePath, null);
+  if (!report) return;
+  report.key_events = (report.key_events ?? []).map((event) => ({
+    ...event,
+    image_paths: hasLocalReportAssets ? (event.image_paths ?? []).map(normalizeAssetPath) : [],
+  }));
+  const text = JSON.stringify(report, null, 2);
+  fs.writeFileSync(targetPath, text, "utf8");
+  fs.writeFileSync(generatedPath, text, "utf8");
+}
+
+syncTypedReport(sourcePremarketPath, targetPremarketPath, generatedPremarketPath);
+syncTypedReport(sourceClosePath, targetClosePath, generatedClosePath);
+
 const trends = readJsonIfExists(sourceTrendsPath, readJsonIfExists(generatedTrendsPath, { as_of: null, range: "1mo", interval: "1d", series: [] }));
 const history = readJsonIfExists(sourceHistoryPath, readJsonIfExists(generatedHistoryPath, { updated_at: null, series: {} }));
 
@@ -210,6 +255,8 @@ const manifest = {
     pdf: latestPdf ? `../reports/${latestPdf.name}` : null,
     json: latestJson ? `../reports/${latestJson.name}` : null,
     latest_json: "../reports/latest.json",
+    premarket_json: "../reports/premarket.json",
+    close_json: "../reports/close.json",
     standard_json: "../reports/market_analysis.json",
     history_count: reportHistoryIndex.reports?.length ?? 0,
   },

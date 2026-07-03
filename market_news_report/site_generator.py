@@ -58,9 +58,9 @@ def _build_react_site(site_dir: Path) -> Path | None:
 
 def _latest_report_files(reports_dir: Path) -> dict[str, Path | None]:
     return {
-        "markdown": _latest(reports_dir.glob("US_STOCK_DAILY_*.md")),
-        "pdf": _latest(reports_dir.glob("US_STOCK_DAILY_*.pdf")),
-        "json": _latest(reports_dir.glob("US_STOCK_DAILY_*.json")),
+        "markdown": _latest(reports_dir.glob("US_STOCK_*.md")),
+        "pdf": _latest(reports_dir.glob("US_STOCK_*.pdf")),
+        "json": _latest(reports_dir.glob("US_STOCK_*.json")),
         "chart": reports_dir / "assets" / "market_event_overview.png",
     }
 

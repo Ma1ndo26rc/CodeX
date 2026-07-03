@@ -25,6 +25,12 @@ def main() -> None:
     parser.add_argument("--pdf", help="Convert an existing markdown report to PDF")
     parser.add_argument("--site", action="store_true", help="Generate static website from the latest report data")
     parser.add_argument("--market-data", action="store_true", help="Update market data/trend files and rebuild the website")
+    parser.add_argument(
+        "--report-type",
+        choices=("premarket", "close"),
+        default=None,
+        help="Generate a pre-market or market-close brief (defaults to REPORT_TYPE or close)",
+    )
     args = parser.parse_args()
 
     if args.pdf:
@@ -39,7 +45,7 @@ def main() -> None:
     elif args.schedule:
         run_scheduler(args.hour, args.minute)
     else:
-        print(run_daily_job())
+        print(run_daily_job(args.report_type))
 
 
 if __name__ == "__main__":

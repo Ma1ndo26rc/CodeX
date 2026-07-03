@@ -19,8 +19,11 @@ logs/
 # ========== Reports ==========
 reports/*.json
 !reports/latest.json
+!reports/premarket.json
+!reports/close.json
 !reports/market_analysis.json
 !reports/source_diagnostics.json
+!reports/history_index.json
 !reports/market_history.json
 !reports/market_snapshot.json
 !reports/market_trends.json
