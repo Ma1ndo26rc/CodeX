@@ -2,9 +2,18 @@ name: Daily Market News Update
 
 on:
   workflow_dispatch:
+    inputs:
+      report_type:
+        description: "Brief to generate"
+        required: true
+        default: close
+        type: choice
+        options:
+          - close
+          - premarket
   schedule:
-    # 21:30 UTC, Monday-Friday. This is after the regular US cash session close.
-    - cron: "30 21 * * 1-5"
+    - cron: "30 12 * * 1-5"
+    - cron: "0 22 * * 1-5"
 
 permissions:
   contents: write
@@ -55,6 +64,23 @@ jobs:
         working-directory: frontend
         run: npm ci
 
+      - name: Select report type
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
+          MANUAL_REPORT_TYPE: ${{ inputs.report_type }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            report_type="${MANUAL_REPORT_TYPE:-close}"
+          elif [[ "$SCHEDULE_EXPRESSION" == "30 12 * * 1-5" ]]; then
+            report_type="premarket"
+          else
+            report_type="close"
+          fi
+          echo "REPORT_TYPE=$report_type" >> "$GITHUB_ENV"
+          echo "Generating $report_type market brief"
+
       - name: Generate report data
         run: python main.py
 
@@ -76,11 +102,19 @@ jobs:
             reports/market_history.json \
             reports/market_snapshot.json \
             reports/market_trends.json \
+            reports/history_index.json \
+            index.html \
+            .nojekyll \
             site/
+          for typed_report in reports/premarket.json reports/close.json; do
+            if [[ -f "$typed_report" ]]; then
+              git add "$typed_report"
+            fi
+          done
           git add -f reports/history/
           if git diff --cached --quiet; then
             echo "No report or site changes to commit."
           else
-            git commit -m "auto: update market news report"
+            git commit -m "auto: update ${REPORT_TYPE} market brief"
             git push origin HEAD:main
           fi

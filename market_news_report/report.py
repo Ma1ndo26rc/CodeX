@@ -13,9 +13,11 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
     charts = charts or {}
 
     md = [
-        "# US Stock Daily Report",
+        f"# US Stock {analysis.get('report_label') or 'Market Brief'}",
         "",
-        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        f"Generated: {analysis.get('generated_at') or datetime.now().isoformat()}",
+        f"Session: {analysis.get('market_session') or 'US Market'}",
+        f"Source window: {analysis.get('source_window') or 'Data unavailable'}",
         "",
         f"## {analysis.get('dynamic_headline') or 'Morning Market Brief'}",
         analysis.get("market_narrative") or analysis.get("market_summary") or "Data unavailable.",
@@ -85,9 +87,10 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
 def save_report(md: str, analysis: dict[str, Any], output_dir: Path) -> tuple[Path, Path]:
     output_dir.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    md_path = output_dir / f"US_STOCK_DAILY_{timestamp}.md"
-    json_path = output_dir / f"US_STOCK_DAILY_{timestamp}.json"
     validated = parse_and_validate_market_json(analysis)
+    report_type = validated.get("report_type", "close").upper()
+    md_path = output_dir / f"US_STOCK_{report_type}_{timestamp}.md"
+    json_path = output_dir / f"US_STOCK_{report_type}_{timestamp}.json"
     md_path.write_text(md, encoding="utf-8")
     json_path.write_text(json.dumps(validated, ensure_ascii=False, indent=2), encoding="utf-8")
     return md_path, json_path

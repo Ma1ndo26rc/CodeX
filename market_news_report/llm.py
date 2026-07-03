@@ -21,9 +21,10 @@ class LLMAnalyzer:
             else None
         )
 
-    def summarize_market(self, items: list[NewsItem]) -> dict:
+    def summarize_market(self, items: list[NewsItem], report_type: str = "close") -> dict:
+        report_type = "premarket" if report_type == "premarket" else "close"
         if not self.enabled or not items:
-            return self._fallback_summary(items)
+            return self._fallback_summary(items, report_type)
         payload = "\n".join(
             (
                 f"- title: {i.title}\n"
@@ -38,15 +39,20 @@ class LLMAnalyzer:
             for i in items[:80]
         )
 
+        report_focus = self._report_focus(report_type)
         prompt = f"""
 You are a professional US equity research analyst.
 
-Analyze the following news and return ONLY valid JSON.
+Create a {report_focus['label']} and return ONLY valid JSON.
 
 Schema:
 {json.dumps(SCHEMA, ensure_ascii=False, indent=2)}
 
 Rules:
+- report mode: {report_type}
+- analysis focus: {report_focus['focus']}
+- required narrative: {report_focus['narrative']}
+- required watch section: {report_focus['watch']}
 - key_events: 5-10 most important events
 - dynamic_headline: one sentence stating the dominant market narrative
 - market_narrative: 1-2 concise paragraphs explaining why markets moved, the main drivers and affected assets
@@ -77,7 +83,41 @@ News:
             return parse_and_validate_market_json(resp.choices[0].message.content or "")
         except Exception as exc:
             print(f"Market summary LLM call failed: {type(exc).__name__}: {exc}")
-            return self._fallback_summary(items)
+            return self._fallback_summary(items, report_type)
+
+    @staticmethod
+    def _report_focus(report_type: str) -> dict[str, str]:
+        if report_type == "premarket":
+            return {
+                "label": "Pre-Market Brief",
+                "focus": (
+                    "overnight news, pre-market movers, US equity futures, macro events scheduled today, "
+                    "earnings due today, analyst rating changes, key risks before the opening bell, and a trade watchlist"
+                ),
+                "narrative": (
+                    "Explain the setup before the cash open. Separate confirmed overnight facts from scenarios that still "
+                    "need confirmation in futures, yields, breadth, volume, and the opening rotation."
+                ),
+                "watch": (
+                    "Use what_to_watch_tomorrow as today's pre-market watchlist: scheduled data, earnings, Fed speakers, "
+                    "key tickers, opening levels, and geopolitical risks."
+                ),
+            }
+        return {
+            "label": "Market Close Brief",
+            "focus": (
+                "index performance at the close, the closing market narrative, top movers, sector performance, macro "
+                "interpretation, earnings after the bell, high-impact events, and what investors should watch tomorrow"
+            ),
+            "narrative": (
+                "Explain what actually drove the completed cash session, which moves were broad or narrow, how rates and "
+                "volatility confirmed the tape, and whether leadership is likely to persist."
+            ),
+            "watch": (
+                "Use what_to_watch_tomorrow for next-session macro data, earnings, Fed speakers, key tickers, technical "
+                "confirmation, and geopolitical risks."
+            ),
+        }
 
     def enrich_market_events(self, analysis: dict, batch_size: int = 12) -> dict:
         if not self.enabled:
@@ -353,7 +393,7 @@ JSON:
         value = json.loads(cleaned)
         return value if isinstance(value, list) else []
 
-    def _fallback_summary(self, items: list[NewsItem]) -> dict:
+    def _fallback_summary(self, items: list[NewsItem], report_type: str = "close") -> dict:
         positives = sum(1 for i in items if i.sentiment == "positive")
         negatives = sum(1 for i in items if i.sentiment == "negative")
         neutrals = sum(1 for i in items if i.sentiment == "neutral")
@@ -385,19 +425,28 @@ JSON:
                     "image_paths": [],
                 }
             )
+        is_premarket = report_type == "premarket"
+        session_phrase = "pre-market setup" if is_premarket else "completed US equity session"
+        watch_item = "Futures, Treasury yields and opening breadth" if is_premarket else "Treasury yields and next-session breadth"
+        watch_type = "today's watchlist" if is_premarket else "next-session confirmation"
         return parse_and_validate_market_json(
             {
-                "dynamic_headline": f"{driver_names[0]} leads a {tone} US equity session.",
+                "report_type": report_type,
+                "dynamic_headline": f"{driver_names[0]} leads a {tone} {session_phrase}.",
                 "market_summary": (
-                    f"The news flow is {tone}, based on {len(items)} articles from {top_sources}. "
+                    f"The {session_phrase} is {tone}, based on {len(items)} articles from {top_sources}. "
                     f"The dominant theme is {dominant_category}, with {category_counts.get('macro', 0)} macro items, "
                     f"{category_counts.get('company', 0)} company items, {category_counts.get('industry', 0)} industry items, "
                     f"and {category_counts.get('policy', 0)} policy items. The tape looks more useful for identifying "
                     f"near-term rotation and risk appetite than for making a single directional index call."
                 ),
                 "market_narrative": (
-                    f"US equities are trading with a {tone} bias as {', '.join(driver_names[:3])} dominate the information flow. "
-                    "The most useful confirmation will come from index breadth, Treasury yields and whether leadership broadens beyond the largest stocks."
+                    f"US equities have a {tone} bias as {', '.join(driver_names[:3])} dominate the information flow. "
+                    + (
+                        "Before the open, the setup still needs confirmation from futures, Treasury yields, opening breadth and pre-market volume."
+                        if is_premarket
+                        else "The close should be judged by index breadth, Treasury yields and whether leadership broadened beyond the largest stocks."
+                    )
                 ),
                 "index_performance_summary": self._fallback_index_summary(category_counts),
                 "macro_outlook": self._fallback_macro_outlook(items),
@@ -422,9 +471,13 @@ JSON:
                 },
                 "what_to_watch_tomorrow": [
                     {
-                        "item": "Treasury yields and index breadth",
-                        "type": "market confirmation",
-                        "why_it_matters": "They will show whether the dominant news themes are producing broad follow-through.",
+                        "item": watch_item,
+                        "type": watch_type,
+                        "why_it_matters": (
+                            "They will show whether overnight headlines are translating into a confirmed cash-session move."
+                            if is_premarket
+                            else "They will show whether the closing narrative is producing durable follow-through."
+                        ),
                     }
                 ],
                 "key_events": key_events,

@@ -12,6 +12,7 @@
 - 使用 DeepSeek/OpenAI 兼容接口生成结构化市场分析。
 - 输出 JSON、Markdown 和 PDF 报告。
 - 提供中英文切换、市场数据、新闻列表和往期报告页面。
+- 每个交易日分别生成盘前简报和收盘简报。
 - 通过 GitHub Actions 定时生成报告并更新静态网站。
 
 ## Project Structure
@@ -57,27 +58,33 @@ OPENAI_MODEL=deepseek-chat
 
 `.env` 不应提交到 Git。GitHub Actions 从 GitHub Secrets 和 workflow 环境变量读取配置。
 
-## Generate Daily Report
+## Generate Market Briefs
 
 ```powershell
 cd E:\CodeX_File
-python main.py
+python main.py --report-type premarket
+python main.py --report-type close
 ```
 
 主要输出：
 
 ```text
 reports/latest.json
+reports/premarket.json
+reports/close.json
 reports/market_analysis.json
 reports/source_diagnostics.json
+reports/history_index.json
 reports/market_history.json
 reports/market_snapshot.json
 reports/market_trends.json
-reports/history/YYYY-MM-DD.json
-reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.md
-reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.json
-reports/US_STOCK_DAILY_YYYYMMDD_HHMMSS.pdf
+reports/history/YYYY-MM-DD-premarket.json
+reports/history/YYYY-MM-DD-close.json
+reports/US_STOCK_PREMARKET_YYYYMMDD_HHMMSS.md
+reports/US_STOCK_CLOSE_YYYYMMDD_HHMMSS.md
 ```
+
+`latest.json` 和 `market_analysis.json` 始终指向最近一次生成的报告；`premarket.json` 与 `close.json` 分别保留最近一份对应时段报告。`history_index.json` 是前端历史页面的静态索引。
 
 ## Frontend Website
 
@@ -107,12 +114,21 @@ Vite 的构建产物固定输出到仓库根目录的 `site/`，其中包含 `si
 
 该工作流负责：
 
-1. 每周一至周五在 `21:30 UTC` 定时运行，也支持手动触发。
+1. 每周一至周五运行两次，也支持手动选择报告类型触发。
 2. 安装 Python 3.11、Node.js 20 以及项目依赖。
 3. 运行 `python main.py`，更新 `reports/`。
 4. 运行 `npm run build`，将前端构建到 `site/`。
 5. 验证 `site/index.html` 存在。
 6. 提交指定报告、`reports/history/` 和整个 `site/` 到 `main`。
+
+定时时间使用 UTC：
+
+```text
+30 12 * * 1-5  # Pre-Market Brief
+0 22 * * 1-5   # Market Close Brief
+```
+
+盘前简报重点覆盖隔夜新闻、期指、盘前异动、当日宏观事件、当日财报和开盘前风险。收盘简报重点覆盖指数收盘、板块表现、主要涨跌、宏观解释、盘后财报和次日观察。
 
 旧的 `.github/workflows/deploy.yml` 已删除。项目不再使用 `actions/upload-pages-artifact` 或 `actions/deploy-pages`。
 
@@ -148,9 +164,10 @@ Folder: / (root)
 1. 打开 GitHub 仓库的 `Actions` 页面。
 2. 选择 `Daily Market News Update`。
 3. 点击 `Run workflow`，分支选择 `main`。
-4. 等待任务完成，确认产生 `auto: update market news report` 提交。
-5. 检查 `reports/latest.json`、`reports/history/YYYY-MM-DD.json` 和 `site/index.html` 是否更新。
-6. 等待 GitHub Pages 的分支发布任务完成后刷新网站。
+4. 在 `report_type` 中选择 `premarket` 或 `close`。
+5. 等待任务完成，确认产生 `auto: update premarket market brief` 或 `auto: update close market brief` 提交。
+6. 检查 `reports/latest.json`、对应的类型文件、`reports/history/YYYY-MM-DD-{type}.json`、`reports/history_index.json` 和 `site/index.html` 是否更新。
+7. 等待 GitHub Pages 的分支发布任务完成后刷新网站。
 
 ## Stability Notes
 

@@ -4,11 +4,11 @@ import EventMatrix from "../components/EventMatrix.jsx";
 import MarketTicker from "../components/MarketTicker.jsx";
 import MetricCard from "../components/MetricCard.jsx";
 import SectionHeader from "../components/SectionHeader.jsx";
-import { getEventLayer, toNumber } from "../lib/utils.js";
+import { formatTimestamp, getEventLayer, toNumber } from "../lib/utils.js";
 import { useLanguage } from "../lib/i18n.jsx";
 
-export default function Dashboard({ analysis, manifest }) {
-  const { localized, t } = useLanguage();
+export default function Dashboard({ analysis, manifest, reportSelection, onReportSelection, reportLoading, reportError }) {
+  const { language, localized, t } = useLanguage();
   const events = analysis?.key_events ?? [];
   const themes = analysis?.todays_themes ?? [];
   const drivers = analysis?.key_drivers ?? [];
@@ -25,8 +25,36 @@ export default function Dashboard({ analysis, manifest }) {
     { Macro: 0, Market: 0, Company: 0 },
   );
 
+  const reportSelector = (
+    <ReportSelector
+      analysis={analysis}
+      language={language}
+      selected={reportSelection}
+      onSelect={onReportSelection}
+      loading={reportLoading}
+    />
+  );
+
+  if (!analysis) {
+    return (
+      <div className="space-y-5">
+        {reportSelector}
+        <div className="terminal-card border-terminal-amber/40 p-6">
+          <p className="terminal-label">{language === "zh" ? "报告暂不可用" : "Report unavailable"}</p>
+          <h2 className="mt-2 font-display text-2xl font-black">
+            {language === "zh" ? "该时段的简报尚未生成" : "This brief has not been generated yet"}
+          </h2>
+          <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+            {reportError || (language === "zh" ? "请在对应的 GitHub Actions 任务运行后再查看。" : "Run the corresponding GitHub Actions job and try again.")}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-5">
+      {reportSelector}
       <section className="terminal-card overflow-hidden">
         <div className="grid gap-6 p-5 lg:grid-cols-[1.4fr_0.6fr]">
           <div>
@@ -96,6 +124,47 @@ export default function Dashboard({ analysis, manifest }) {
       </section>
     </div>
   );
+}
+
+function ReportSelector({ analysis, language, selected, onSelect, loading }) {
+  const labels = language === "zh"
+    ? { latest: "最新", premarket: "盘前简报", close: "收盘简报" }
+    : { latest: "Latest", premarket: "Pre-Market", close: "Market Close" };
+  const freshnessWarning = Boolean(analysis?.data_freshness_warning);
+  return (
+    <section className="terminal-card p-4">
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div className="flex flex-wrap gap-2">
+          {Object.entries(labels).map(([value, label]) => (
+            <button
+              key={value}
+              className={`rounded-xl border px-3 py-2 font-terminal text-xs transition ${selected === value ? "border-terminal-amber bg-terminal-amber text-black" : "border-slate-300 bg-white dark:border-terminal-line dark:bg-terminal-panel"}`}
+              onClick={() => onSelect(value)}
+              disabled={loading}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <span className={`font-terminal text-xs ${freshnessWarning ? "text-terminal-red" : "text-terminal-green"}`}>
+          {freshnessWarning
+            ? (language === "zh" ? "数据时效性警告" : "Data freshness warning")
+            : (language === "zh" ? "数据时效正常" : "Data freshness OK")}
+        </span>
+      </div>
+      <div className="mt-4 grid gap-3 border-t border-slate-200 pt-4 text-xs dark:border-terminal-line sm:grid-cols-2 xl:grid-cols-5">
+        <ReportMeta label={language === "zh" ? "报告" : "Report"} value={analysis?.report_label || "Data unavailable"} />
+        <ReportMeta label={language === "zh" ? "生成时间" : "Generated"} value={formatTimestamp(analysis?.generated_at, language)} />
+        <ReportMeta label={language === "zh" ? "市场时段" : "Session"} value={analysis?.market_session || "Data unavailable"} />
+        <ReportMeta label={language === "zh" ? "报告类型" : "Type"} value={analysis?.report_type || selected} />
+        <ReportMeta label={language === "zh" ? "数据窗口" : "Source window"} value={analysis?.source_window || "Data unavailable"} />
+      </div>
+    </section>
+  );
+}
+
+function ReportMeta({ label, value }) {
+  return <div><p className="terminal-label">{label}</p><p className="mt-1 text-slate-700 dark:text-slate-200">{value || "Data unavailable"}</p></div>;
 }
 
 function ThemeCard({ theme, localized, t }) {

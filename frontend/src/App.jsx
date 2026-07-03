@@ -19,7 +19,19 @@ const navItems = [
 
 export default function App() {
   const { language, setLanguage, t } = useLanguage();
-  const { analysis, manifest, marketHistory, marketTrends, reportHistory, loading, error } = useReportData();
+  const {
+    analysis,
+    manifest,
+    marketHistory,
+    marketTrends,
+    reportHistory,
+    reportSelection,
+    setReportSelection,
+    reportLoading,
+    reportError,
+    loading,
+    error,
+  } = useReportData();
   const [activePage, setActivePage] = useState(() => pageFromHash());
   const [isDark, setIsDark] = useState(() => localStorage.getItem("theme") !== "light");
 
@@ -37,7 +49,7 @@ export default function App() {
   const newsItems = analysis?.news_items ?? [];
   const newsEvents = analysis?.news_events ?? [];
   const marketData = analysis?.market_data?.items ?? [];
-  const generatedAt = manifest?.generated_at || analysis?.market_data?.as_of;
+  const generatedAt = analysis?.generated_at || manifest?.generated_at || analysis?.market_data?.as_of;
 
   return (
     <div className="min-h-screen bg-stone-100 text-slate-950 dark:bg-terminal-ink dark:text-slate-100">
@@ -122,7 +134,16 @@ export default function App() {
             {error && <TerminalPanel tone="bad">{t("loadError", { error })}</TerminalPanel>}
             {!loading && !error && (
               <>
-                {activePage === "dashboard" && <Dashboard analysis={analysis} manifest={manifest} />}
+                {activePage === "dashboard" && (
+                  <Dashboard
+                    analysis={analysis}
+                    manifest={manifest}
+                    reportSelection={reportSelection}
+                    onReportSelection={setReportSelection}
+                    reportLoading={reportLoading}
+                    reportError={reportError}
+                  />
+                )}
                 {activePage === "news" && <NewsList events={events} newsItems={newsItems} newsEvents={newsEvents} />}
                 {activePage === "macro" && <MacroAnalysis analysis={analysis} events={events} />}
                 {activePage === "market" && <MarketData marketData={marketData} analysis={analysis} marketTrends={marketTrends} marketHistory={marketHistory} />}

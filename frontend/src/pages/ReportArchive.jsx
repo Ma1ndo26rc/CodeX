@@ -9,7 +9,7 @@ const copy = {
     eyebrow: "Historical Reports",
     title: "Report Archive",
     subtitle: "Review prior daily market briefs, compare top drivers and reopen saved JSON snapshots.",
-    noReports: "No historical reports available yet. Run the daily job at least once to create reports/history/YYYY-MM-DD.json.",
+    noReports: "No historical reports available yet. Run a brief to create reports/history/YYYY-MM-DD-{type}.json.",
     reports: "Reports",
     events: "events",
     avgImpact: "avg impact",
@@ -25,12 +25,14 @@ const copy = {
     impact: "Impact",
     sentiment: "Sentiment",
     sourceData: "Source data",
+    allDates: "All dates",
+    reportDate: "Report date",
   },
   zh: {
     eyebrow: "往期报告",
     title: "历史日报",
     subtitle: "查看过去生成的每日市场简报，对比当日主线、核心事件和保存的 JSON 快照。",
-    noReports: "暂无历史报告。至少运行一次每日任务后，会生成 reports/history/YYYY-MM-DD.json。",
+    noReports: "暂无历史报告。运行盘前或收盘任务后会生成 reports/history/YYYY-MM-DD-{type}.json。",
     reports: "报告",
     events: "事件",
     avgImpact: "平均影响",
@@ -46,6 +48,8 @@ const copy = {
     impact: "影响",
     sentiment: "情绪",
     sourceData: "原始数据",
+    allDates: "全部日期",
+    reportDate: "报告日期",
   },
 };
 
@@ -54,12 +58,14 @@ export default function ReportArchive({ historyIndex }) {
   const text = copy[language] ?? copy.en;
   const reports = historyIndex?.reports ?? [];
   const [selected, setSelected] = useState(reports[0] ?? null);
+  const [selectedDate, setSelectedDate] = useState("all");
   const [detail, setDetail] = useState(null);
   const [status, setStatus] = useState("idle");
+  const filteredReports = selectedDate === "all" ? reports : reports.filter((report) => report.date === selectedDate);
 
   useEffect(() => {
-    setSelected((current) => current ?? reports[0] ?? null);
-  }, [reports]);
+    setSelected((current) => filteredReports.some((report) => report.file === current?.file) ? current : filteredReports[0] ?? null);
+  }, [selectedDate, reports]);
 
   useEffect(() => {
     if (!selected?.file) {
@@ -109,17 +115,30 @@ export default function ReportArchive({ historyIndex }) {
   return (
     <div className="space-y-5">
       <SectionHeader eyebrow={text.eyebrow} title={text.title}>
-        <p className="max-w-2xl text-right text-sm leading-6 text-slate-500 dark:text-slate-400">{text.subtitle}</p>
+        <div className="flex flex-wrap items-center justify-end gap-3">
+          <p className="max-w-xl text-right text-sm leading-6 text-slate-500 dark:text-slate-400">{text.subtitle}</p>
+          <label className="font-terminal text-xs text-slate-500">
+            {text.reportDate}
+            <input
+              type="date"
+              className="ml-2 rounded-lg border border-slate-300 bg-white px-2 py-1 text-slate-800 dark:border-terminal-line dark:bg-terminal-panel dark:text-slate-100"
+              value={selectedDate === "all" ? "" : selectedDate}
+              onChange={(event) => setSelectedDate(event.target.value || "all")}
+              aria-label={text.reportDate}
+            />
+          </label>
+          {selectedDate !== "all" && <button className="font-terminal text-xs text-terminal-blue" onClick={() => setSelectedDate("all")}>{text.allDates}</button>}
+        </div>
       </SectionHeader>
 
       <div className="grid gap-5 xl:grid-cols-[390px_minmax(0,1fr)]">
         <aside className="terminal-card overflow-hidden">
           <div className="border-b border-slate-300 p-4 dark:border-terminal-line">
             <p className="terminal-label">{text.reports}</p>
-            <p className="mt-1 font-terminal text-2xl font-black text-terminal-amber">{reports.length}</p>
+            <p className="mt-1 font-terminal text-2xl font-black text-terminal-amber">{filteredReports.length}</p>
           </div>
           <div className="max-h-[680px] overflow-auto">
-            {reports.map((report) => (
+            {filteredReports.map((report) => (
               <button
                 key={report.file}
                 className={`block w-full border-b border-slate-200 p-4 text-left transition dark:border-terminal-line ${
@@ -135,6 +154,7 @@ export default function ReportArchive({ historyIndex }) {
                       <CalendarDays size={16} className="text-terminal-amber" />
                       {report.date}
                     </p>
+                    <p className="mt-1 font-terminal text-[10px] uppercase tracking-[0.15em] text-terminal-blue">{report.report_label || report.report_type || "Market Brief"}</p>
                     <p className="mt-2 line-clamp-2 text-sm leading-6 text-slate-600 dark:text-slate-300">
                       {language === "zh" ? report.dynamic_headline_zh || report.dynamic_headline : report.dynamic_headline}
                     </p>
@@ -146,6 +166,7 @@ export default function ReportArchive({ historyIndex }) {
                 </div>
               </button>
             ))}
+            {!filteredReports.length && <p className="p-4 text-sm text-slate-500">{text.noReports}</p>}
           </div>
         </aside>
 
@@ -154,6 +175,7 @@ export default function ReportArchive({ historyIndex }) {
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div>
                 <p className="terminal-label">{text.selectedReport}</p>
+                <p className="mt-2 font-terminal text-xs uppercase tracking-[0.15em] text-terminal-blue">{selected.report_label || selected.report_type}</p>
                 <h3 className="mt-2 font-display text-3xl font-black leading-tight">{headline || selected.date}</h3>
               </div>
               <div className="flex flex-wrap gap-2">
