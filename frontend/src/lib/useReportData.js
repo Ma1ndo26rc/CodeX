@@ -1,7 +1,15 @@
 import { useEffect, useState } from "react";
 
 export function useReportData() {
-  const [data, setData] = useState({ analysis: null, manifest: null, marketHistory: null, marketTrends: null, loading: true, error: "" });
+  const [data, setData] = useState({
+    analysis: null,
+    manifest: null,
+    marketHistory: null,
+    marketTrends: null,
+    reportHistory: null,
+    loading: true,
+    error: "",
+  });
 
   useEffect(() => {
     const controller = new AbortController();
@@ -13,12 +21,13 @@ export function useReportData() {
           return response.json();
         };
         const analysis = await fetchJson("latest").catch(() => fetchJson("market_analysis"));
-        const [manifest, marketHistory, marketTrends] = await Promise.all([
+        const [manifest, marketHistory, marketTrends, reportHistory] = await Promise.all([
           fetchJson("manifest"),
           fetchJson("market_history"),
           fetchJson("market_trends"),
+          fetchJson("history_index").catch(() => ({ reports: [] })),
         ]);
-        setData({ analysis, manifest, marketHistory, marketTrends, loading: false, error: "" });
+        setData({ analysis, manifest, marketHistory, marketTrends, reportHistory, loading: false, error: "" });
       } catch (error) {
         if (error.name !== "AbortError") setData((current) => ({ ...current, loading: false, error: error.message }));
       }

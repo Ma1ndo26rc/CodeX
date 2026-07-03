@@ -1,9 +1,10 @@
-import { Activity, BarChart3, Building2, Languages, Moon, Newspaper, Sun } from "lucide-react";
+import { Activity, Archive, BarChart3, Building2, Languages, Moon, Newspaper, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 import Dashboard from "./pages/Dashboard.jsx";
 import NewsList from "./pages/NewsList.jsx";
 import MacroAnalysis from "./pages/MacroAnalysis.jsx";
 import MarketData from "./pages/MarketData.jsx";
+import ReportArchive from "./pages/ReportArchive.jsx";
 import { useReportData } from "./lib/useReportData.js";
 import { clsx, formatTimestamp } from "./lib/utils.js";
 import { useLanguage } from "./lib/i18n.jsx";
@@ -13,11 +14,12 @@ const navItems = [
   { id: "news", labelKey: "newsList", icon: Newspaper },
   { id: "macro", labelKey: "macroAnalysis", icon: Building2 },
   { id: "market", labelKey: "marketData", icon: BarChart3 },
+  { id: "archive", labelKey: "reportArchive", label: "Archive", icon: Archive },
 ];
 
 export default function App() {
   const { language, setLanguage, t } = useLanguage();
-  const { analysis, manifest, marketHistory, marketTrends, loading, error } = useReportData();
+  const { analysis, manifest, marketHistory, marketTrends, reportHistory, loading, error } = useReportData();
   const [activePage, setActivePage] = useState(() => pageFromHash());
   const [isDark, setIsDark] = useState(() => localStorage.getItem("theme") !== "light");
 
@@ -65,7 +67,7 @@ export default function App() {
                   onClick={() => navigate(item.id)}
                 >
                   <Icon size={18} />
-                  {t(item.labelKey)}
+                  {navLabel(item, language, t)}
                 </button>
               );
             })}
@@ -82,7 +84,7 @@ export default function App() {
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <p className="font-terminal text-[10px] uppercase tracking-[0.3em] text-terminal-amber">{t("workspace")}</p>
-                <h2 className="font-display text-xl font-black sm:text-2xl">{t(navItems.find((item) => item.id === activePage)?.labelKey)}</h2>
+                <h2 className="font-display text-xl font-black sm:text-2xl">{activeNavLabel(activePage, language, t)}</h2>
               </div>
               <div className="flex flex-wrap items-center gap-2">
                 <div className="flex rounded-xl border border-slate-300 bg-white p-1 dark:border-terminal-line dark:bg-terminal-panel lg:hidden">
@@ -92,7 +94,7 @@ export default function App() {
                       className={clsx("rounded-lg px-2 py-2 font-terminal text-xs", activePage === item.id && "bg-terminal-amber text-black")}
                       onClick={() => navigate(item.id)}
                     >
-                      {t(item.labelKey).split(" ")[0]}
+                      {navLabel(item, language, t).split(" ")[0]}
                     </button>
                   ))}
                 </div>
@@ -124,6 +126,7 @@ export default function App() {
                 {activePage === "news" && <NewsList events={events} newsItems={newsItems} newsEvents={newsEvents} />}
                 {activePage === "macro" && <MacroAnalysis analysis={analysis} events={events} />}
                 {activePage === "market" && <MarketData marketData={marketData} analysis={analysis} marketTrends={marketTrends} marketHistory={marketHistory} />}
+                {activePage === "archive" && <ReportArchive historyIndex={reportHistory} />}
               </>
             )}
           </main>
@@ -131,6 +134,17 @@ export default function App() {
       </div>
     </div>
   );
+}
+
+function navLabel(item, language, t) {
+  if (item.id === "archive") return language === "zh" ? "往期报告" : "Archive";
+  return item.label ?? t(item.labelKey);
+}
+
+function activeNavLabel(page, language, t) {
+  const item = navItems.find((entry) => entry.id === page);
+  if (!item) return t("dashboard");
+  return navLabel(item, language, t);
 }
 
 function pageFromHash() {

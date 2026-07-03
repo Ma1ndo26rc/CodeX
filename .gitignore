@@ -17,7 +17,21 @@ frontend/public/data/
 logs/
 
 # ========== Reports ==========
-# reports/*.json
+reports/*.json
+!reports/latest.json
+!reports/market_analysis.json
+!reports/source_diagnostics.json
+!reports/market_history.json
+!reports/market_snapshot.json
+!reports/market_trends.json
+!reports/sample_report.json
+reports/history/
+reports/assets/images/
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/US_STOCK_DAILY_*.md
+reports/US_STOCK_DAILY_*.pdf
 
 
 # ========== System ==========
