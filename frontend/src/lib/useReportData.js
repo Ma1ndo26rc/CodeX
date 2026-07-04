@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { buildDashboardSchema } from "./dashboardSchema.js";
 
 const EMPTY_HISTORY = { reports: [] };
 
@@ -65,5 +66,5 @@ export function useReportData() {
     return () => controller.abort();
   }, [reportSelection]);
 
-  return { ...data, reportSelection, setReportSelection };
+  return { ...data, dashboard: buildDashboardSchema(data.analysis), reportSelection, setReportSelection };
 }
