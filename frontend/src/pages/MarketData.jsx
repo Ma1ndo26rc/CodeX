@@ -1,69 +1,48 @@
-import EventMatrix from "../components/EventMatrix.jsx";
 import IndexTrendCharts from "../components/IndexTrendCharts.jsx";
-import MetricCard from "../components/MetricCard.jsx";
-import SectionHeader from "../components/SectionHeader.jsx";
-import { formatPercent, formatTimestamp, sentimentTone, toNumber } from "../lib/utils.js";
-import { useLanguage } from "../lib/i18n.jsx";
+import { PageHeading, EmptyState } from "./DecisionDashboard.jsx";
 
-export default function MarketData({ marketData = [], analysis, marketTrends, marketHistory }) {
-  const { language, t } = useLanguage();
+export default function MarketData({ model }) {
+  const instruments = model?.instruments ?? [];
   return (
-    <div className="space-y-5">
-      <SectionHeader eyebrow={t("marketData")} title={t("realtimeSnapshot")} />
-      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {marketData.map((item) => {
-          const tone = sentimentTone(item.change_pct);
-          return (
-            <MetricCard
-              key={item.symbol}
-              label={`${item.name} / ${item.symbol}`}
-              value={toNumber(item.price).toLocaleString()}
-              subValue={`${formatPercent(item.change_pct)} ${t("changeSuffix")}`}
-              tone={tone === "good" ? "good" : tone === "bad" ? "bad" : "neutral"}
-            />
-          );
-        })}
+    <>
+      <PageHeading eyebrow="QUANT LAYER" title="Market Data" subtitle="Prices, changes and time series only. Interpretation is intentionally excluded." />
+      <section className="pa-quant-grid">
+        {instruments.map((item) => <InstrumentCard key={item.id} item={item} />)}
+        {!instruments.length && <EmptyState text="Market data unavailable." />}
       </section>
-
-      <IndexTrendCharts trends={marketTrends} history={marketHistory} />
-
-      <div className="grid gap-5 xl:grid-cols-[0.85fr_1.15fr]">
-        <section className="terminal-card overflow-hidden">
-          <div className="border-b border-slate-300 p-4 dark:border-terminal-line">
-            <p className="terminal-label">{t("snapshotTime")}</p>
-            <p className="mt-2 font-terminal text-sm">{formatTimestamp(analysis?.market_data?.as_of, language)}</p>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[640px] text-left font-terminal text-sm">
-              <thead className="bg-slate-100 text-[10px] uppercase tracking-[0.2em] text-slate-500 dark:bg-terminal-panel2 dark:text-slate-400">
-                <tr>
-                  <th className="px-4 py-3">{t("asset")}</th>
-                  <th className="px-4 py-3">{t("symbol")}</th>
-                  <th className="px-4 py-3">{t("price")}</th>
-                  <th className="px-4 py-3">{t("change")}</th>
-                  <th className="px-4 py-3">{t("changePercent")}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {marketData.map((item) => {
-                  const tone = sentimentTone(item.change_pct);
-                  const toneClass = tone === "good" ? "text-terminal-green" : tone === "bad" ? "text-terminal-red" : "text-terminal-amber";
-                  return (
-                    <tr key={item.symbol} className="border-t border-slate-200 dark:border-terminal-line">
-                      <td className="px-4 py-3">{item.name}</td>
-                      <td className="px-4 py-3 text-terminal-amber">{item.symbol}</td>
-                      <td className="px-4 py-3">{toNumber(item.price).toLocaleString()}</td>
-                      <td className={`px-4 py-3 ${toneClass}`}>{toNumber(item.change).toFixed(3)}</td>
-                      <td className={`px-4 py-3 ${toneClass}`}>{formatPercent(item.change_pct)}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        </section>
-        <EventMatrix events={analysis?.key_events ?? []} />
-      </div>
-    </div>
+      <section className="pa-chart-panel">
+        <IndexTrendCharts trends={model?.trends} history={model?.history} />
+      </section>
+      <section className="pa-data-table-wrap">
+        <table className="pa-data-table">
+          <thead><tr><th>INSTRUMENT</th><th>SYMBOL</th><th>LAST</th><th>CHANGE</th><th>CHANGE %</th></tr></thead>
+          <tbody>{instruments.map((item) => <InstrumentRow key={item.id} item={item} />)}</tbody>
+        </table>
+      </section>
+    </>
   );
+}
+
+function InstrumentCard({ item }) {
+  const tone = toneClass(item.change_pct);
+  return <article className="pa-quant-card"><span>{item.name}</span><small>{item.symbol}</small><strong>{formatNumber(item.price)}</strong><b className={tone}>{formatSigned(item.change_pct, "%")}</b></article>;
+}
+
+function InstrumentRow({ item }) {
+  const tone = toneClass(item.change_pct);
+  return <tr><td>{item.name}</td><td>{item.symbol}</td><td>{formatNumber(item.price)}</td><td className={tone}>{formatSigned(item.change)}</td><td className={tone}>{formatSigned(item.change_pct, "%")}</td></tr>;
+}
+
+function toneClass(value) {
+  return Number(value) > 0 ? "is-positive" : Number(value) < 0 ? "is-negative" : "is-neutral";
+}
+
+function formatNumber(value) {
+  return value == null ? "N/A" : Number(value).toLocaleString(undefined, { maximumFractionDigits: 3 });
+}
+
+function formatSigned(value, suffix = "") {
+  if (value == null) return "N/A";
+  const number = Number(value);
+  return `${number > 0 ? "+" : ""}${number.toFixed(2)}${suffix}`;
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { buildDashboardSchema } from "./dashboardSchema.js";
+import { buildPageArchitecture } from "./pageArchitecture.js";
 
 const EMPTY_HISTORY = { reports: [] };
 
@@ -66,5 +66,10 @@ export function useReportData() {
     return () => controller.abort();
   }, [reportSelection]);
 
-  return { ...data, dashboard: buildDashboardSchema(data.analysis), reportSelection, setReportSelection };
+  return {
+    ...data,
+    architecture: buildPageArchitecture(data.analysis, data.marketHistory, data.marketTrends, data.reportHistory),
+    reportSelection,
+    setReportSelection,
+  };
 }
