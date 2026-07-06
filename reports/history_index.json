@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-03T23:18:40.281798+00:00",
+  "generated_at": "2026-07-06T16:06:48.038242+00:00",
   "reports": [
+    {
+      "date": "2026-07-06",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-06T16:05:21.878669+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-06-premarket.json",
+      "dynamic_headline": "Tech and AI optimism drive futures higher as chip stocks rebound and mega-cap deals dominate overnight headlines.",
+      "dynamic_headline_zh": "科技与AI乐观情绪推动期货走高，芯片股反弹及大型并购交易成为隔夜头条",
+      "market_summary": "US equity futures are pointing to a higher open, led by the Nasdaq, as a rebound in semiconductor stocks and a wave of AI-related dealmaking offset concerns over geopolitical tensions and a mixed macro backdrop. The S&P 500 and Dow are also set to open in positive territory, though the Dow's gains may be more modest.",
+      "market_summary_zh": "美国股指期货指向高开，纳斯达克领涨，半导体股反弹及一波AI相关交易抵消了地缘政治紧张局势和喜忧参半的宏观背景带来的担忧。标普500指数和道琼斯指数也预计将高开，但道指的涨幅可能较为温和。",
+      "event_count": 10,
+      "avg_impact": 69.5
+    },
     {
       "date": "2026-07-03",
       "report_type": "close",
