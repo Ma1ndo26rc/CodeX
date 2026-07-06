@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-06T16:06:48.038242+00:00",
+  "generated_at": "2026-07-06T23:21:03.271141+00:00",
   "reports": [
+    {
+      "date": "2026-07-06",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-06T23:19:26.864261+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-06-close.json",
+      "dynamic_headline": "AI and semiconductor stocks lead a broad market rebound, pushing the S&P 500 within 1% of its record close as the Dow posts a new all-time high.",
+      "dynamic_headline_zh": "人工智能与半导体股引领市场广泛反弹，标普500指数距历史收盘高点不足1%，道指创下历史新高。",
+      "market_summary": "US equities closed sharply higher on Monday, July 6, 2026, driven by a powerful rebound in AI and semiconductor stocks. The Dow Jones Industrial Average posted a record close, while the S&P 500 and Nasdaq Composite surged, recovering most of the losses from their worst session of the year. The rally was broad-based but led by mega-cap tech, with Broadcom and Micron among the top gainers. The positive session was fueled by renewed AI optimism, a key data center deal, and a supportive macro backdrop with easing inflation jitters.",
+      "market_summary_zh": "美国股市于2026年7月6日周一大幅收高，受人工智能和半导体股强劲反弹推动。道琼斯工业平均指数创下历史收盘新高，标普500指数和纳斯达克综合指数大幅上涨，收复了年内最差交易日的大部分失地。涨势范围广泛，但主要由大型科技股引领，博通和美光科技涨幅居前。新的人工智能乐观情绪、一项关键的数据中心交易以及通胀担忧缓解带来的有利宏观背景共同推动了这一积极交易日。",
+      "event_count": 10,
+      "avg_impact": 64.5
+    },
     {
       "date": "2026-07-06",
       "report_type": "premarket",
