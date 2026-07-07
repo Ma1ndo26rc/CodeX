@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-07T15:31:36.060749+00:00",
+  "generated_at": "2026-07-07T23:14:20.883304+00:00",
   "reports": [
+    {
+      "date": "2026-07-07",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-07T23:12:36.777827+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-07-close.json",
+      "dynamic_headline": "Chip sector rout and escalating US-Iran tensions drive a risk-off close, with the Nasdaq falling over 1% while the Dow eked out a marginal gain.",
+      "dynamic_headline_zh": "芯片板块溃败与美伊紧张局势升级引发避险情绪收盘，纳斯达克指数下跌逾1%，道琼斯指数勉强微幅收涨。",
+      "market_summary": "US equity markets closed lower on Tuesday, July 7, 2026, as a sharp sell-off in semiconductor stocks and a spike in crude oil prices following renewed US military strikes on Iran weighed on investor sentiment. The Dow Jones Industrial Average managed a slight gain, but the S&P 500 and Nasdaq Composite declined, with the latter falling over 1%. The Philadelphia Semiconductor Index (SOX) dropped more than 4%, dragged down by Samsung's disappointing earnings and concerns over the AI trade's sustainability. Meanwhile, oil prices surged after the US revoked Iran's oil sales authorization and launched strikes, adding to inflationary fears and geopolitical uncertainty.",
+      "market_summary_zh": "美国股市于2026年7月7日（周二）收低，半导体股票大幅抛售以及美国对伊朗发动新一轮军事打击后原油价格飙升，共同打压了投资者情绪。道琼斯工业平均指数勉强录得小幅上涨，但标普500指数和纳斯达克综合指数均下跌，后者跌幅超过1%。费城半导体指数（SOX）下跌逾4%，受三星电子令人失望的财报以及对人工智能交易可持续性的担忧拖累。与此同时，在美国撤销伊朗石油销售授权并发动打击后，油价飙升，加剧了通胀担忧和地缘政治不确定性。",
+      "event_count": 8,
+      "avg_impact": 65.62
+    },
     {
       "date": "2026-07-07",
       "report_type": "premarket",
