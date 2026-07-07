@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-06T23:21:03.271141+00:00",
+  "generated_at": "2026-07-07T15:31:36.060749+00:00",
   "reports": [
+    {
+      "date": "2026-07-07",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-07T15:30:13.965534+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-07-premarket.json",
+      "dynamic_headline": "Tech-led sell-off deepens as Samsung's profit surge fails to reassure AI investors, while geopolitical tensions and a hawkish dollar add to the cautious tone ahead of the open.",
+      "dynamic_headline_zh": "科技股领跌抛售加剧，三星利润飙升未能安抚AI投资者，地缘政治紧张局势与鹰派美元为开盘前增添谨慎基调。",
+      "market_summary": "US equity futures are pointing to a lower open, led by the Nasdaq, as a broad semiconductor sell-off triggered by Samsung's results overshadows its profit beat. The dollar is firming near multi-decade highs against the yen, and oil prices are rising on fresh geopolitical concerns. Key themes include AI capex fatigue, consumer health worries, and a busy day for defense and energy headlines.",
+      "market_summary_zh": "美国股指期货指向低开，纳斯达克领跌，三星业绩引发的广泛半导体抛售掩盖了其利润超预期的表现。美元兑日元逼近数十年高位，油价因地缘政治新担忧而上涨。关键主题包括AI资本支出疲劳、消费者健康担忧，以及国防和能源领域消息密集的一天。",
+      "event_count": 10,
+      "avg_impact": 73
+    },
     {
       "date": "2026-07-06",
       "report_type": "close",
