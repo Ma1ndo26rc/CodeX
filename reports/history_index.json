@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-08T15:02:33.427062+00:00",
+  "generated_at": "2026-07-08T23:23:12.234967+00:00",
   "reports": [
+    {
+      "date": "2026-07-08",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-08T23:21:36.682113+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-08-close.json",
+      "dynamic_headline": "Escalating US-Iran conflict and surging oil prices drove a broad risk-off session, with the Dow falling over 500 points while the Nasdaq eked out a gain on tech resilience.",
+      "dynamic_headline_zh": "美伊冲突升级与油价飙升引发广泛避险情绪，道指暴跌逾500点，纳斯达克指数因科技股韧性勉强收涨。",
+      "market_summary": "US equity markets closed mixed on Wednesday, July 8, 2026, as a sharp escalation in military conflict between the US and Iran dominated the tape. The Dow Jones Industrial Average fell approximately 1.09% (over 500 points), the S&P 500 declined roughly 0.7%, while the Nasdaq Composite managed a slight gain of about 0.2%, supported by strength in mega-cap tech and AI-related names. The primary catalyst was President Trump's declaration that the ceasefire with Iran was 'over' and the launch of dozens of new US airstrikes on Iranian military infrastructure. This geopolitical shock sent crude oil prices surging more than 5% to multi-week highs, stoking fears of sustained inflation and a potential supply disruption through the Strait of Hormuz. The session was characterized by high volatility, a flight to safe havens, and a sharp rotation out of cyclicals and into energy and select defensive sectors.",
+      "market_summary_zh": "美国股市于2026年7月8日（周三）收盘涨跌互现，美伊军事冲突急剧升级主导了市场走势。道琼斯工业平均指数下跌约1.09%（超500点），标普500指数下跌约0.7%，而纳斯达克综合指数凭借大型科技股和人工智能相关个股的强势表现，微幅上涨约0.2%。主要催化剂是特朗普总统宣布与伊朗的停火协议“已结束”，并发动了数十次针对伊朗军事基础设施的新一轮空袭。这一地缘政治冲击波导致原油价格飙升逾5%，触及数周高位，引发市场对通胀持续以及霍尔木兹海峡潜在供应中断的担忧。当日交易特点是波动性高、资金涌入避险资产，以及从周期性板块大幅轮动至能源和部分防御性板块。",
+      "event_count": 8,
+      "avg_impact": 67.5
+    },
     {
       "date": "2026-07-08",
       "report_type": "premarket",
