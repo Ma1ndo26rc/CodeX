@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-07T23:14:20.883304+00:00",
+  "generated_at": "2026-07-08T15:02:33.427062+00:00",
   "reports": [
+    {
+      "date": "2026-07-08",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-08T15:00:47.120591+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-08-premarket.json",
+      "dynamic_headline": "Geopolitical shock from Trump's Iran ceasefire collapse and surging oil prices dominate pre-market sentiment, overshadowing strong tech earnings and AI capex news.",
+      "dynamic_headline_zh": "特朗普撕毁伊朗停火协议引发地缘政治冲击，油价飙升主导盘前情绪，科技股强劲财报与AI资本支出消息黯然失色。",
+      "market_summary": "US equity futures are pointing to a sharply lower open as President Trump declared the Iran ceasefire 'over,' triggering a spike in oil prices and a flight to safe havens. The Dow, S&P 500, and Nasdaq futures are all in the red, with energy stocks the only bright spot. The macro backdrop is further complicated by a hawkish Fed minutes preview and a mixed bag of corporate news, including a capital raise from Rivian and a massive Apple-Broadcom chip deal.",
+      "market_summary_zh": "美国股指期货大幅低开，因特朗普总统宣布伊朗停火协议‘已结束’，引发油价飙升及资金涌入避险资产。道指、标普500指数和纳斯达克100指数期货均下跌，能源板块成为唯一亮点。宏观背景因美联储会议纪要鹰派预期及喜忧参半的企业消息（包括Rivian融资及苹果与博通巨额芯片交易）而进一步复杂化。",
+      "event_count": 10,
+      "avg_impact": 60
+    },
     {
       "date": "2026-07-07",
       "report_type": "close",
