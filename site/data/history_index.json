@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-08T23:23:12.234967+00:00",
+  "generated_at": "2026-07-09T15:46:56.328530+00:00",
   "reports": [
+    {
+      "date": "2026-07-09",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-09T15:45:20.055289+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-09-premarket.json",
+      "dynamic_headline": "Geopolitical tensions and mixed earnings set a cautious tone, but AI optimism and falling oil prices provide a floor for futures ahead of the open.",
+      "dynamic_headline_zh": "地缘政治紧张局势与喜忧参半的财报令市场情绪趋于谨慎，但人工智能乐观情绪和油价下跌为开盘前的期货市场提供了支撑。",
+      "market_summary": "US equity futures are pointing to a flat-to-slightly-higher open as investors weigh a complex mix of overnight developments. The dominant narrative is a tug-of-war between escalating US-Iran military conflict and a resilient tech/AI sector. Overnight, the S&P 500 and Nasdaq edged higher, driven by AI-related names like Micron (MU) and Arm (ARM), while the Dow lagged. Key data points include a weaker-than-expected June existing home sales report and a miss from PepsiCo (PEP), signaling consumer strain. However, a dip in oil prices on hopes the conflict won't escalate into a wider war, coupled with dovish Fed commentary, is providing some relief. The pre-market setup is characterized by low conviction, with futures oscillating as traders await the opening rotation for confirmation of direction.",
+      "market_summary_zh": "美国股指期货开盘持平至小幅走高，投资者正在权衡一系列复杂的隔夜动态。主导叙事是美国与伊朗军事冲突升级与韧性十足的科技/人工智能板块之间的拉锯战。隔夜，标普500指数和纳斯达克指数在美光科技(MU)和安谋控股(ARM)等人工智能相关个股的推动下小幅走高，而道琼斯指数则表现落后。关键数据点包括弱于预期的6月成屋销售报告以及百事可乐(PEP)的业绩不及预期，这预示着消费者面临压力。然而，由于市场寄望冲突不会升级为更大规模的战争，油价出现下跌，加之美联储的鸽派言论，为市场带来了一些缓解。盘前市场布局的特点是信心不足，期货价格震荡，交易员等待开盘轮动以确认方向。",
+      "event_count": 10,
+      "avg_impact": 67.5
+    },
     {
       "date": "2026-07-08",
       "report_type": "close",
