@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-09T15:46:56.328530+00:00",
+  "generated_at": "2026-07-09T23:25:36.300286+00:00",
   "reports": [
+    {
+      "date": "2026-07-09",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-09T23:23:56.763209+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-09-close.json",
+      "dynamic_headline": "AI and semiconductor optimism powered a broad market rally, shrugging off geopolitical jitters and a disappointing PepsiCo earnings report.",
+      "dynamic_headline_zh": "人工智能与半导体乐观情绪推动市场广泛上涨，地缘政治紧张局势与百事可乐令人失望的财报被市场忽略。",
+      "market_summary": "US equities closed higher on Thursday, led by a sharp rebound in technology and semiconductor stocks. The Dow Jones Industrial Average gained 0.27%, the S&P 500 rose 0.5%, and the Nasdaq Composite surged 1.2%. The rally was fueled by renewed enthusiasm for artificial intelligence, a massive bullish options trade on the Nasdaq 100, and a pullback in oil prices that eased inflation concerns. This positive momentum overcame lingering worries about US-Iran tensions and a weaker-than-expected earnings report from PepsiCo.",
+      "market_summary_zh": "美国股市周四收高，科技和半导体股票的强劲反弹领涨。道琼斯工业平均指数上涨0.27%，标普500指数上涨0.5%，纳斯达克综合指数飙升1.2%。此轮上涨受到对人工智能重燃的热情、一笔大规模的纳斯达克100指数看涨期权交易以及油价回落缓解通胀担忧的推动。这股积极势头克服了对美伊紧张局势以及百事可乐财报不及预期的持续担忧。",
+      "event_count": 10,
+      "avg_impact": 61.5
+    },
     {
       "date": "2026-07-09",
       "report_type": "premarket",
