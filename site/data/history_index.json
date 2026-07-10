@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-09T23:25:36.300286+00:00",
+  "generated_at": "2026-07-10T15:18:46.181768+00:00",
   "reports": [
+    {
+      "date": "2026-07-10",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-10T15:17:13.456703+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-10-premarket.json",
+      "dynamic_headline": "Markets eye a mixed open as the historic SK Hynix IPO and a wave of AI-related catalysts vie for attention against geopolitical crosscurrents and a strengthening yen.",
+      "dynamic_headline_zh": "市场关注混合开盘，历史性的SK海力士IPO及一波AI相关催化剂与地缘政治逆风及日元走强相互角力。",
+      "market_summary": "US equity futures are pointing to a mixed open on the final day of the trading week. The dominant narrative is the blockbuster Nasdaq debut of South Korean chip giant SK Hynix (ticker: SKHY), which is set to be the largest IPO on the exchange in years. This event is casting a spotlight on the AI and semiconductor trade. Overnight, the Japanese yen strengthened on reports that Japan is considering nudging pension funds into domestic assets, adding a layer of complexity for USD/JPY and export-oriented names. On the macro front, the market is digesting a flurry of news including a preliminary EU ruling against Meta over 'addictive' designs, a new Fed AI task force, and ongoing geopolitical tensions involving the US/Iran ceasefire and Ukraine's attacks on Russian fuel infrastructure. Pre-market movers include Circle (USDC) surging on a federal banking charter, Apple (AAPL) rising on a Broadcom deal, and Delta Air Lines (DAL) edging higher after a positive earnings report.",
+      "market_summary_zh": "美国股指期货在本交易周最后一天指向混合开盘。主导叙事是韩国芯片巨头SK海力士（股票代码：SKHY）在纳斯达克的轰动性首秀，这将是该交易所多年来规模最大的IPO。这一事件将焦点投向AI和半导体交易。隔夜，日元因日本正考虑推动养老基金投资国内资产的报道而走强，为美元/日元及出口导向型股票增添了复杂性。宏观方面，市场正在消化一系列消息，包括欧盟对Meta“成瘾性”设计的初步裁决、美联储新成立的AI工作组，以及涉及美国/伊朗停火和乌克兰袭击俄罗斯燃料基础设施的持续地缘政治紧张局势。盘前异动股包括Circle（USDC）因获得联邦银行牌照而飙升，苹果（AAPL）因与博通达成交易而上涨，以及达美航空（DAL）在发布积极财报后小幅走高。",
+      "event_count": 10,
+      "avg_impact": 68
+    },
     {
       "date": "2026-07-09",
       "report_type": "close",
