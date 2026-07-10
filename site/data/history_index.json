@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-10T15:18:46.181768+00:00",
+  "generated_at": "2026-07-10T23:11:05.227174+00:00",
   "reports": [
+    {
+      "date": "2026-07-10",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-10T23:09:37.340465+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-10-close.json",
+      "dynamic_headline": "Wall Street closes higher as SK Hynix's blockbuster Nasdaq debut reignites AI enthusiasm, offsetting geopolitical jitters and a brewing tech legal battle.",
+      "dynamic_headline_zh": "华尔街收盘走高，SK海力士在纳斯达克的首秀大获成功，重燃人工智能热情，抵消了地缘政治紧张局势和一场酝酿中的科技法律战。",
+      "market_summary": "US equity markets finished modestly higher on Friday, with the S&P 500 and Nasdaq Composite extending their weekly gains. The session was dominated by the successful US IPO of South Korean chipmaker SK Hynix, which surged nearly 13% on its first day, validating the market's insatiable appetite for AI-related hardware plays. This positive catalyst helped the market look past a volatile geopolitical backdrop, including renewed US-Iran hostilities, and a major lawsuit from Apple against OpenAI. The Dow Jones Industrial Average also edged up, supported by strength in financials and industrials, while the small-cap Russell 2000 lagged, indicating a narrow, tech-led advance.",
+      "market_summary_zh": "美国股市周五小幅收高，标普500指数和纳斯达克综合指数延续了周线涨势。当日交易的主导因素是韩国芯片制造商SK海力士在美国的成功IPO，其首日股价飙升近13%，验证了市场对人工智能相关硬件标的热切追捧。这一积极催化剂帮助市场摆脱了动荡的地缘政治背景（包括美国与伊朗重启敌对行动）以及苹果对OpenAI提起的重大诉讼的影响。道琼斯工业平均指数也小幅上涨，金融和工业板块表现强劲提供支撑，而小盘股罗素2000指数则表现落后，表明这是一次由科技股主导的、范围狭窄的上涨。",
+      "event_count": 10,
+      "avg_impact": 66.5
+    },
     {
       "date": "2026-07-10",
       "report_type": "premarket",
