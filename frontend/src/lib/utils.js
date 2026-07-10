@@ -17,7 +17,7 @@ export function formatScore(value, digits = 0) {
   return toNumber(value).toFixed(digits);
 }
 
-export function formatTimestamp(value, language = "en") {
+export function formatTimestamp(value, language = "en", options = {}) {
   if (!value) return language === "zh" ? "暂无数据" : "Not available";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return String(value);
@@ -27,7 +27,32 @@ export function formatTimestamp(value, language = "en") {
     day: "2-digit",
     hour: "2-digit",
     minute: "2-digit",
+    timeZoneName: "short",
+    ...options,
   });
+}
+
+export function formatMarketClock(value) {
+  if (!value) return "Timestamp unavailable";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return String(value);
+  return `${formatClockPart(date, "Asia/Hong_Kong")} HKG / ${formatClockPart(date, "America/New_York")} ET`;
+}
+
+function formatClockPart(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date).reduce((values, part) => {
+    values[part.type] = part.value;
+    return values;
+  }, {});
+  return `${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute}`;
 }
 
 export function getEventLayer(event) {

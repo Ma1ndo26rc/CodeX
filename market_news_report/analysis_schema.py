@@ -33,6 +33,58 @@ SCHEMA = {
         "losers": [],
         "themes_to_watch": [],
     },
+    "macro_analysis": {
+        "market_regime": {
+            "title": "",
+            "summary": "",
+            "key_takeaway": "",
+            "stance": "",
+            "confidence": "",
+        },
+        "themes": [
+            {
+                "title": "",
+                "current_view": "",
+                "what_changed": "",
+                "why_it_matters": "",
+                "market_impact": {
+                    "equities": "",
+                    "rates": "",
+                    "sectors": [],
+                },
+                "watch_next": [],
+            }
+        ],
+        "asset_view": {
+            "equities": {
+                "view": "",
+                "reason": "",
+            },
+            "rates": {
+                "view": "",
+                "reason": "",
+            },
+            "growth_stocks": {
+                "view": "",
+                "reason": "",
+            },
+            "financials": {
+                "view": "",
+                "reason": "",
+            },
+            "sectors": [
+                {
+                    "positive": [],
+                    "negative": [],
+                }
+            ],
+        },
+        "watch_next": {
+            "macro_data": [],
+            "policy": [],
+            "company_events": [],
+        },
+    },
     "what_to_watch_tomorrow": [
         {
             "item": "",
@@ -102,6 +154,7 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
     key_drivers = payload.get("key_drivers")
     analysis["key_drivers"] = [_validate_driver(item) for item in key_drivers if isinstance(item, dict)] if isinstance(key_drivers, list) else []
     analysis["sector_theme_impact"] = _validate_sector_impact(payload.get("sector_theme_impact"))
+    analysis["macro_analysis"] = _validate_macro_analysis(payload.get("macro_analysis"))
     watch_items = payload.get("what_to_watch_tomorrow")
     analysis["what_to_watch_tomorrow"] = [_validate_watch_item(item) for item in watch_items if isinstance(item, dict)] if isinstance(watch_items, list) else []
     analysis["market_data"] = payload.get("market_data") if isinstance(payload.get("market_data"), dict) else {}
@@ -424,6 +477,110 @@ def _validate_theme(item: dict[str, Any]) -> dict[str, Any]:
         "explanation": _to_str(item.get("explanation")),
         "related_events": _to_str_list(item.get("related_events")),
         "translations": _validate_named_translation(item.get("translations")),
+    }
+
+
+def _validate_macro_analysis(value: Any) -> dict[str, Any]:
+    source = value if isinstance(value, dict) else {}
+    themes = source.get("themes")
+    return {
+        "market_regime": _validate_macro_regime(source.get("market_regime")),
+        "themes": [_validate_macro_theme(item) for item in themes if isinstance(item, dict)] if isinstance(themes, list) else [],
+        "asset_view": _validate_asset_view(source.get("asset_view") or source.get("market_impact")),
+        "watch_next": _validate_macro_watch_next(source.get("watch_next")),
+    }
+
+
+def _validate_macro_regime(value: Any) -> dict[str, Any]:
+    source = value if isinstance(value, dict) else {}
+    return {
+        "title": _to_str(source.get("title") or source.get("regime")),
+        "title_zh": _to_str(source.get("title_zh")),
+        "summary": _to_str(source.get("summary") or source.get("brief")),
+        "summary_zh": _to_str(source.get("summary_zh")),
+        "key_takeaway": _to_str(source.get("key_takeaway")),
+        "key_takeaway_zh": _to_str(source.get("key_takeaway_zh")),
+        "stance": _to_str(source.get("stance") or source.get("market_stance")),
+        "stance_zh": _to_str(source.get("stance_zh")),
+        "confidence": _to_str(source.get("confidence")),
+    }
+
+
+def _validate_macro_theme(value: Any) -> dict[str, Any]:
+    source = value if isinstance(value, dict) else {}
+    impact = source.get("market_impact")
+    if not isinstance(impact, dict):
+        impact = {}
+    return {
+        "title": _to_str(source.get("title") or source.get("name")),
+        "title_zh": _to_str(source.get("title_zh")),
+        "current_view": _to_str(source.get("current_view") or source.get("summary")),
+        "current_view_zh": _to_str(source.get("current_view_zh") or source.get("summary_zh")),
+        "what_changed": _to_str(source.get("what_changed")),
+        "what_changed_zh": _to_str(source.get("what_changed_zh")),
+        "why_it_matters": _to_str(source.get("why_it_matters") or source.get("explanation")),
+        "why_it_matters_zh": _to_str(source.get("why_it_matters_zh") or source.get("explanation_zh")),
+        "market_impact": {
+            "equities": _to_str(impact.get("equities")),
+            "rates": _to_str(impact.get("rates")),
+            "sectors": _to_str_list(impact.get("sectors")),
+        },
+        "market_impact_zh": _validate_theme_impact(source.get("market_impact_zh")),
+        "watch_next": _to_str_list(source.get("watch_next")),
+        "watch_next_zh": _to_str_list(source.get("watch_next_zh")),
+    }
+
+
+def _validate_asset_view(value: Any) -> dict[str, Any]:
+    source = value if isinstance(value, dict) else {}
+    return {
+        "equities": _validate_asset_item(source.get("equities")),
+        "equities_zh": _validate_asset_item(source.get("equities_zh")),
+        "rates": _validate_asset_item(source.get("rates")),
+        "rates_zh": _validate_asset_item(source.get("rates_zh")),
+        "growth_stocks": _validate_asset_item(source.get("growth_stocks")),
+        "growth_stocks_zh": _validate_asset_item(source.get("growth_stocks_zh")),
+        "financials": _validate_asset_item(source.get("financials")),
+        "financials_zh": _validate_asset_item(source.get("financials_zh")),
+        "sectors": [_validate_sector_item(item) for item in source.get("sectors", []) if isinstance(item, dict)] if isinstance(source.get("sectors"), list) else [],
+        "sectors_zh": [_validate_sector_item(item) for item in source.get("sectors_zh", []) if isinstance(item, dict)] if isinstance(source.get("sectors_zh"), list) else [],
+    }
+
+
+def _validate_asset_item(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {
+            "view": _to_str(value.get("view") or value.get("stance") or value.get("current")),
+            "reason": _to_str(value.get("reason") or value.get("note") or value.get("summary") or value.get("impact")),
+        }
+    return _to_str(value)
+
+
+def _validate_sector_item(value: Any) -> dict[str, Any]:
+    return {
+        "positive": _to_str_list(value.get("positive")),
+        "negative": _to_str_list(value.get("negative")),
+    }
+
+
+def _validate_macro_watch_next(value: Any) -> dict[str, list[str]]:
+    source = value if isinstance(value, dict) else {}
+    return {
+        "macro_data": _to_str_list(source.get("macro_data")),
+        "macro_data_zh": _to_str_list(source.get("macro_data_zh")),
+        "policy": _to_str_list(source.get("policy")),
+        "policy_zh": _to_str_list(source.get("policy_zh")),
+        "company_events": _to_str_list(source.get("company_events")),
+        "company_events_zh": _to_str_list(source.get("company_events_zh")),
+    }
+
+
+def _validate_theme_impact(value: Any) -> dict[str, Any]:
+    source = value if isinstance(value, dict) else {}
+    return {
+        "equities": _to_str(source.get("equities")),
+        "rates": _to_str(source.get("rates")),
+        "sectors": _to_str_list(source.get("sectors")),
     }
 
 

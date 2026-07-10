@@ -13,8 +13,8 @@ load_dotenv()
 @dataclass(frozen=True)
 class AppConfig:
     openai_api_key: str | None = os.getenv("OPENAI_API_KEY") or None
-    openai_base_url: str | None = os.getenv("OPENAI_BASE_URL") or None
-    openai_model: str = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+    openai_base_url: str | None = os.getenv("OPENAI_BASE_URL", "https://api.deepseek.com/v1") or None
+    openai_model: str = os.getenv("OPENAI_MODEL", "deepseek-chat")
     smtp_host: str | None = os.getenv("SMTP_HOST") or None
     smtp_port: int = int(os.getenv("SMTP_PORT", "587"))
     smtp_user: str | None = os.getenv("SMTP_USER") or None
@@ -30,6 +30,8 @@ class AppConfig:
     lookback_hours: int = int(os.getenv("LOOKBACK_HOURS", "24"))
     fetch_timeout_seconds: int = int(os.getenv("FETCH_TIMEOUT_SECONDS", "12"))
     market_data_timeout_seconds: int = int(os.getenv("MARKET_DATA_TIMEOUT_SECONDS", "12"))
+    image_download_event_limit: int = int(os.getenv("IMAGE_DOWNLOAD_EVENT_LIMIT", "24"))
+    image_download_per_event: int = int(os.getenv("IMAGE_DOWNLOAD_PER_EVENT", "1"))
     google_news_keywords: str = os.getenv(
         "GOOGLE_NEWS_KEYWORDS",
         "US stock market,S&P 500,Nasdaq,Dow Jones,Federal Reserve,US earnings,"

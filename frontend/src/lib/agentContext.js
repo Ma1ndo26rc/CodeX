@@ -49,7 +49,13 @@ function normalizeContextEvent(event) {
     : articles.map((article) => text(article.source_name ?? article.source)).filter(Boolean);
   return {
     title: text(event.title),
+    title_zh: text(event.title_zh ?? event.translations?.zh?.title),
+    zh_title: text(event.zh_title),
+    translated_title: text(event.translated_title),
     summary: text(event.one_line_summary ?? event.summary),
+    summary_zh: text(event.summary_zh ?? event.translations?.zh?.summary),
+    zh_summary: text(event.zh_summary),
+    translated_summary: text(event.translated_summary),
     sector: text(event.sector) || "Cross-market",
     impact_score: number(event.impact_score ?? event.market_impact_score),
     sentiment_score: bounded(event.sentiment_score, -1, 1),

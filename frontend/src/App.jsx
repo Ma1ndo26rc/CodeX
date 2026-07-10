@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import AppShell from "./components/AppShell.jsx";
 import DecisionDashboard from "./pages/DecisionDashboard.jsx";
 import MacroAnalysis from "./pages/MacroAnalysis.jsx";
@@ -13,6 +13,8 @@ export default function App() {
   const { analysis, architecture, reportSelection, setReportSelection, reportLoading, loading, error } = useReportData();
   const [route, setRoute] = useState(readRoute);
   const [isDark, setIsDark] = useState(() => localStorage.getItem("theme") === "dark");
+  const scrollPositions = useRef({});
+  const previousRoute = useRef(route);
 
   useEffect(() => {
     const syncRoute = () => setRoute(readRoute());
@@ -24,6 +26,14 @@ export default function App() {
     document.documentElement.classList.toggle("dark", isDark);
     localStorage.setItem("theme", isDark ? "dark" : "light");
   }, [isDark]);
+
+  useLayoutEffect(() => {
+    const lastRoute = previousRoute.current;
+    if (lastRoute === route) return;
+    scrollPositions.current[lastRoute] = window.scrollY;
+    previousRoute.current = route;
+    window.scrollTo({ top: scrollPositions.current[route] ?? 0, left: 0, behavior: "auto" });
+  }, [route]);
 
   if (loading) return <StatusPanel>Loading market intelligence layers...</StatusPanel>;
   if (error) return <StatusPanel tone="error">Data load error: {error}</StatusPanel>;
@@ -48,9 +58,17 @@ export default function App() {
       isDark={isDark}
       onToggleTheme={() => setIsDark((value) => !value)}
     >
-      {route === "dashboard" && <DecisionDashboard model={architecture.dashboard} agentStatus={architecture.market_agent.data_status} onOpenAgent={openAgent} />}
-      {route === "events" && <NewsList model={architecture.event_feed} />}
-      {route === "macro" && <MacroAnalysis model={architecture.macro_analysis} />}
+      {route === "dashboard" && (
+        <DecisionDashboard
+          model={architecture.dashboard}
+          agentStatus={architecture.market_agent.data_status}
+          onOpenAgent={openAgent}
+          onOpenEvents={() => navigate("events")}
+          onOpenMacro={() => navigate("macro")}
+        />
+      )}
+      {route === "events" && <NewsList model={architecture.event_feed} onAskAgent={openAgent} />}
+      {route === "macro" && <MacroAnalysis model={architecture.macro_analysis} onAskAgent={openAgent} />}
       {route === "agent" && <MarketAgent reportData={analysis} initialQuestion={readAgentQuestion()} />}
       {route === "reports" && <ReportArchive model={architecture.reports} />}
     </AppShell>

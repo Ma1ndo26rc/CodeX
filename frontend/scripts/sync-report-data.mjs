@@ -15,6 +15,7 @@ const sourceClosePath = path.join(reportsDir, "close.json");
 const sourceReportHistoryIndexPath = path.join(reportsDir, "history_index.json");
 const sourceTrendsPath = path.join(reportsDir, "market_trends.json");
 const sourceHistoryPath = path.join(reportsDir, "market_history.json");
+const sourceMarketContextPath = path.join(reportsDir, "market_context.json");
 const sourceReportHistoryDir = path.join(reportsDir, "history");
 const targetAnalysisPath = path.join(publicDataDir, "market_analysis.json");
 const targetLatestPath = path.join(publicDataDir, "latest.json");
@@ -22,6 +23,7 @@ const targetPremarketPath = path.join(publicDataDir, "premarket.json");
 const targetClosePath = path.join(publicDataDir, "close.json");
 const targetTrendsPath = path.join(publicDataDir, "market_trends.json");
 const targetHistoryPath = path.join(publicDataDir, "market_history.json");
+const targetMarketContextPath = path.join(publicDataDir, "market_context.json");
 const targetReportHistoryDir = path.join(publicDataDir, "history");
 const targetReportHistoryIndexPath = path.join(publicDataDir, "history_index.json");
 const targetAssetsDir = path.join(publicDataDir, "assets");
@@ -32,6 +34,7 @@ const generatedPremarketPath = path.join(generatedDataDir, "premarket.json");
 const generatedClosePath = path.join(generatedDataDir, "close.json");
 const generatedTrendsPath = path.join(generatedDataDir, "market_trends.json");
 const generatedHistoryPath = path.join(generatedDataDir, "market_history.json");
+const generatedMarketContextPath = path.join(generatedDataDir, "market_context.json");
 const generatedReportHistoryIndexPath = path.join(generatedDataDir, "history_index.json");
 const generatedManifestPath = path.join(generatedDataDir, "manifest.json");
 
@@ -238,11 +241,20 @@ syncTypedReport(sourceClosePath, targetClosePath, generatedClosePath);
 
 const trends = readJsonIfExists(sourceTrendsPath, readJsonIfExists(generatedTrendsPath, { as_of: null, range: "1mo", interval: "1d", series: [] }));
 const history = readJsonIfExists(sourceHistoryPath, readJsonIfExists(generatedHistoryPath, { updated_at: null, series: {} }));
+const marketContext = readJsonIfExists(sourceMarketContextPath, readJsonIfExists(generatedMarketContextPath, {
+  market_summary: "",
+  macro_summary: "",
+  risk_summary: "",
+  top_events: [],
+  sector_summary: "",
+}));
 
 fs.writeFileSync(targetTrendsPath, JSON.stringify(trends, null, 2), "utf8");
 fs.writeFileSync(generatedTrendsPath, JSON.stringify(trends, null, 2), "utf8");
 fs.writeFileSync(targetHistoryPath, JSON.stringify(history, null, 2), "utf8");
 fs.writeFileSync(generatedHistoryPath, JSON.stringify(history, null, 2), "utf8");
+fs.writeFileSync(targetMarketContextPath, JSON.stringify(marketContext, null, 2), "utf8");
+fs.writeFileSync(generatedMarketContextPath, JSON.stringify(marketContext, null, 2), "utf8");
 const reportHistoryIndex = syncReportHistory();
 
 const latestMarkdown = listLatest(".md");

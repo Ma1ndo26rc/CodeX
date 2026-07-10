@@ -16,6 +16,7 @@ from .intelligence import (
     score_key_events,
 )
 from .llm import LLMAnalyzer
+from .market_agent import build_market_context
 from .market_data import update_market_data_files
 from .media import download_event_images, enrich_analysis_with_sources
 from .pdf_exporter import convert_markdown_to_pdf
@@ -34,7 +35,6 @@ def run_daily_job(report_type: str | None = None) -> tuple[str, str]:
     analyzer = LLMAnalyzer()
     analysis = analyzer.summarize_market(items, report_type=report_type)
     analysis = enrich_analysis_with_sources(analysis, items)
-    analysis = download_event_images(analysis, CONFIG.report_output_dir / "assets")
     market_data_bundle = update_market_data_files(CONFIG.report_output_dir)
     analysis["market_data"] = market_data_bundle["snapshot"]
     analysis["news_items"] = enrich_news_items(build_news_feed(items, limit=60))
@@ -42,6 +42,12 @@ def run_daily_job(report_type: str | None = None) -> tuple[str, str]:
     analysis = analyzer.enrich_market_events(analysis)
     analysis["news_events"] = rescore_market_events(analysis["news_events"])
     analysis["key_events"] = score_key_events(analysis.get("key_events", []))
+    analysis = download_event_images(
+        analysis,
+        CONFIG.report_output_dir / "assets",
+        max_images_per_event=CONFIG.image_download_per_event,
+        max_events=CONFIG.image_download_event_limit,
+    )
     analysis["todays_themes"] = build_today_themes(
         [*analysis["key_events"], *analysis["news_events"][:20]]
     )
@@ -56,12 +62,14 @@ def run_daily_job(report_type: str | None = None) -> tuple[str, str]:
         ),
         data_freshness_warning=(
             not bool(items)
+            or market_data_bundle.get("snapshot", {}).get("status") == "stale"
             or not bool(market_data_bundle.get("snapshot", {}).get("items"))
         ),
     )
     analysis = analyzer.translate_market_analysis(analysis)
     market_analysis_path, _ = save_market_analysis(analysis, CONFIG.report_output_dir)
     market_analysis = load_market_analysis(market_analysis_path)
+    build_market_context(market_analysis)
     charts = generate_key_event_charts(market_analysis, CONFIG.report_output_dir / "assets")
     md = build_report(market_analysis, charts)
     md_path, _ = save_report(md, market_analysis, CONFIG.report_output_dir)

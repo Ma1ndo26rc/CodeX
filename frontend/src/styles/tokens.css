@@ -1,0 +1,79 @@
+:root {
+  --color-canvas: #eef0ec;
+  --color-surface: rgba(250, 251, 248, 0.96);
+  --color-surface-strong: #ffffff;
+  --color-text: #12181b;
+  --color-text-muted: #647076;
+  --color-border: #cbd1cd;
+  --color-border-strong: #9aa5a2;
+  --color-accent: #d98516;
+  --color-accent-soft: rgba(217, 133, 22, 0.12);
+  --color-info: #176b87;
+  --color-positive: #0b8f5a;
+  --color-negative: #d13d3d;
+  --color-neutral: #7a858a;
+  --color-grid: rgba(34, 54, 60, 0.06);
+
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-body: "IBM Plex Mono", monospace;
+  --font-editorial: Georgia, serif;
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 14px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-page-title: 44px;
+  --text-dashboard-title: 54px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --border-default: 1px solid var(--color-border);
+  --border-strong: 1px solid var(--color-border-strong);
+  --shadow-subtle: 0 6px 18px rgba(18, 24, 27, 0.05);
+
+  --mi-bg: var(--color-canvas);
+  --mi-panel: var(--color-surface);
+  --mi-panel-strong: var(--color-surface-strong);
+  --mi-ink: var(--color-text);
+  --mi-muted: var(--color-text-muted);
+  --mi-line: var(--color-border);
+  --mi-line-strong: var(--color-border-strong);
+  --mi-accent: var(--color-accent);
+  --mi-accent-soft: var(--color-accent-soft);
+  --mi-blue: var(--color-info);
+  --mi-positive: var(--color-positive);
+  --mi-negative: var(--color-negative);
+  --mi-neutral: var(--color-neutral);
+  --mi-grid: var(--color-grid);
+  color-scheme: light;
+}
+
+.dark {
+  --color-canvas: #05090c;
+  --color-surface: rgba(10, 16, 20, 0.96);
+  --color-surface-strong: #0d151a;
+  --color-text: #eef2ef;
+  --color-text-muted: #8e9ba0;
+  --color-border: #223039;
+  --color-border-strong: #344750;
+  --color-accent: #f0a52f;
+  --color-accent-soft: rgba(240, 165, 47, 0.12);
+  --color-info: #55b7d4;
+  --color-positive: #41cc8a;
+  --color-negative: #ff6262;
+  --color-neutral: #879399;
+  --color-grid: rgba(134, 164, 174, 0.06);
+  --shadow-subtle: 0 6px 18px rgba(0, 0, 0, 0.16);
+  color-scheme: dark;
+}

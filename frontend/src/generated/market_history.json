@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T22:38:41.396393",
+  "updated_at": "2026-07-10T00:41:27.421561",
   "series": {
     "SPY": [
       {
@@ -79,6 +79,24 @@
         "symbol": "SPY",
         "price": 744.78,
         "change_pct": -0.266
+      },
+      {
+        "time": "2026-07-09T20:32:20.404288",
+        "symbol": "SPY",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "time": "2026-07-09T22:20:17.335522",
+        "symbol": "SPY",
+        "price": 746.09,
+        "change_pct": -0.217
+      },
+      {
+        "time": "2026-07-10T00:41:22.037424",
+        "symbol": "SPY",
+        "price": 750.715,
+        "change_pct": 0.402
       }
     ],
     "QQQ": [
@@ -159,6 +177,24 @@
         "symbol": "QQQ",
         "price": 712.6,
         "change_pct": -3.232
+      },
+      {
+        "time": "2026-07-09T20:32:20.404288",
+        "symbol": "QQQ",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "time": "2026-07-09T22:20:17.335522",
+        "symbol": "QQQ",
+        "price": 716.79,
+        "change_pct": 1.037
+      },
+      {
+        "time": "2026-07-10T00:41:22.037424",
+        "symbol": "QQQ",
+        "price": 722.2,
+        "change_pct": 1.8
       }
     ],
     "VIX": [
@@ -239,6 +275,24 @@
         "symbol": "^VIX",
         "price": 16.15,
         "change_pct": -2.652
+      },
+      {
+        "time": "2026-07-09T20:32:20.404288",
+        "symbol": "^VIX",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "time": "2026-07-09T22:20:17.335522",
+        "symbol": "^VIX",
+        "price": 16.48,
+        "change_pct": -2.485
+      },
+      {
+        "time": "2026-07-10T00:41:22.037424",
+        "symbol": "^VIX",
+        "price": 16.05,
+        "change_pct": -5.03
       }
     ],
     "10Y Yield": [
@@ -319,6 +373,26 @@
         "symbol": "^TNX",
         "price": 4.485,
         "change_pct": 0.223
+      },
+      {
+        "time": "2026-07-09T20:32:20.404288",
+        "symbol": "^TNX",
+        "price": null,
+        "change_pct": null
+      }
+    ],
+    "DOW": [
+      {
+        "time": "2026-07-09T22:20:17.335522",
+        "symbol": "DIA",
+        "price": 522.98,
+        "change_pct": -1.035
+      },
+      {
+        "time": "2026-07-10T00:41:22.037424",
+        "symbol": "DIA",
+        "price": 524.7,
+        "change_pct": -0.71
       }
     ]
   }

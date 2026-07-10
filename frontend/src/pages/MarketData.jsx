@@ -1,14 +1,15 @@
 import IndexTrendCharts from "../components/IndexTrendCharts.jsx";
-import { PageHeading, EmptyState } from "./DecisionDashboard.jsx";
+import EmptyState from "../components/EmptyState.jsx";
+import PageHeader from "../components/PageHeader.jsx";
 
 export default function MarketData({ model }) {
   const instruments = model?.instruments ?? [];
   return (
     <>
-      <PageHeading eyebrow="QUANT LAYER" title="Market Data" subtitle="Prices, changes and time series only. Interpretation is intentionally excluded." />
+      <PageHeader eyebrow="QUANT LAYER" title="MARKET DATA" subtitle="Prices, changes and time series only. Interpretation is intentionally excluded." />
       <section className="pa-quant-grid">
         {instruments.map((item) => <InstrumentCard key={item.id} item={item} />)}
-        {!instruments.length && <EmptyState text="Market data unavailable." />}
+        {!instruments.length && <EmptyState title="Market data unavailable" description="No current quantitative data was found." compact />}
       </section>
       <section className="pa-chart-panel">
         <IndexTrendCharts trends={model?.trends} history={model?.history} />

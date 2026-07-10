@@ -29,18 +29,73 @@ def enrich_analysis_with_sources(analysis: dict, items: list[NewsItem], max_sour
     return analysis
 
 
-def download_event_images(analysis: dict, output_dir: Path, max_images_per_event: int = 1) -> dict:
+def download_event_images(
+    analysis: dict,
+    output_dir: Path,
+    max_images_per_event: int = 1,
+    max_events: int = 24,
+    event_fields: tuple[str, ...] = ("key_events", "news_events"),
+) -> dict:
     image_dir = output_dir / "images"
     image_dir.mkdir(parents=True, exist_ok=True)
+    used_images = set()
+    processed_events = 0
 
-    for event_index, event in enumerate(analysis.get("key_events", []), 1):
+    for event in _iter_image_events(analysis, event_fields):
+        image_urls = _event_image_urls(event)
+        if not image_urls:
+            event["image_paths"] = []
+            continue
+        if processed_events >= max_events:
+            break
+        processed_events += 1
         local_paths = []
-        for image_index, image_url in enumerate(event.get("image_urls", [])[:max_images_per_event], 1):
-            path = _download_image(image_url, image_dir, event_index, image_index)
+        for image_index, image_url in enumerate(image_urls[:max_images_per_event], 1):
+            image_key = _image_key(image_url)
+            if image_key and image_key in used_images:
+                continue
+            if image_key:
+                used_images.add(image_key)
+            path = _download_image(image_url, image_dir, processed_events, image_index)
             if path:
                 local_paths.append(path.as_posix())
         event["image_paths"] = local_paths
     return analysis
+
+
+def _iter_image_events(analysis: dict, fields: tuple[str, ...]):
+    seen = set()
+    for field in fields:
+        for event in analysis.get(field, []) or []:
+            if not isinstance(event, dict):
+                continue
+            key = event.get("event_id") or event.get("title") or id(event)
+            if key in seen:
+                continue
+            seen.add(key)
+            yield event
+
+
+def _event_image_urls(event: dict) -> list[str]:
+    urls = []
+    for field in ("image_urls", "images"):
+        value = event.get(field)
+        if isinstance(value, list):
+            urls.extend(str(item) for item in value if item)
+        elif value:
+            urls.append(str(value))
+    for field in ("image_url", "thumbnail_url", "thumbnail", "media_url", "og_image"):
+        value = event.get(field)
+        if value:
+            urls.append(str(value))
+    for article in event.get("articles", []) or []:
+        if not isinstance(article, dict):
+            continue
+        for field in ("image_url", "thumbnail_url", "thumbnail", "media_url", "og_image"):
+            value = article.get(field)
+            if value:
+                urls.append(str(value))
+    return _unique(urls)
 
 
 def _rank_matching_items(event: dict, items: list[NewsItem]) -> list[NewsItem]:
@@ -99,6 +154,11 @@ def _image_suffix(url: str, content_type: str) -> str:
     if "gif" in content_type:
         return ".gif"
     return ".jpg"
+
+
+def _image_key(url: str) -> str:
+    parsed = urlparse(url)
+    return f"{parsed.netloc.lower()}{parsed.path}".lower()
 
 
 def _unique(values: list[str]) -> list[str]:

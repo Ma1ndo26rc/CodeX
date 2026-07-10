@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
+import { getLocalizedField } from "./localizedText.js";
 
 const messages = {
   en: {
@@ -127,15 +128,7 @@ export function LanguageProvider({ children }) {
     return Object.entries(values).reduce((text, [name, value]) => text.replaceAll(`{${name}}`, value), template);
   };
   const term = (value) => intelligenceTerms[language]?.[value] ?? termMap[language]?.[value] ?? value;
-  const localized = (object, field) => {
-    if (!object) return "";
-    if (language === "zh") {
-      const translated = object[`${field}_zh`] ?? object.translations?.zh?.[field];
-      if (Array.isArray(translated)) return translated.length ? translated : object[field] ?? [];
-      return translated || object[field] || "";
-    }
-    return object[field] ?? "";
-  };
+  const localized = (object, field) => getLocalizedField(object, field, language);
 
   return <LanguageContext.Provider value={{ language, setLanguage, t, term, localized }}>{children}</LanguageContext.Provider>;
 }

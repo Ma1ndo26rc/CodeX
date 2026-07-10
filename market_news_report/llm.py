@@ -59,6 +59,16 @@ Rules:
 - key_drivers: 3-5 ranked drivers, not a list of article summaries
 - sector_theme_impact: identify winners, losers and themes to watch
 - what_to_watch_tomorrow: macro data, earnings, Fed speakers, key tickers or geopolitical risks
+- macro_analysis must be a sell-side style macro research brief, not a news summary
+- macro_analysis.market_regime.key_takeaway: no more than 2 sentences, stating the current environment and the market's main focus
+- macro_analysis.market_regime.summary should answer why today's market looks like this; do not recap headlines
+- macro_analysis.themes: exactly these 4 investment-oriented themes unless evidence is insufficient: Fed Policy & Rate Path, Growth & Labor Market, AI & Technology Leadership, Earnings & Valuation
+- each macro_analysis theme must include current_view, what_changed, why_it_matters, market_impact and watch_next
+- theme market_impact must explain equities, rates and sector impact; sectors should name positive and negative sector implications when possible
+- macro_analysis.asset_view must include US equities, rates, growth stocks and financials as view/reason objects, plus sector positive/negative impact
+- macro_analysis.watch_next must group items into macro_data, policy and company_events
+- macro_analysis must answer: What changed? Why does it matter? How does it affect assets? What should investors watch next?
+- avoid news recap, generic economics lessons, vague phrases and repeated wording across themes
 - market_impact_score: integer 0-100
 - sentiment_score: float -1 to 1
 - use 80-100 for market-wide events, 65-85 for sector events, 55-75 for major company events, and 10-40 for soft news
@@ -208,6 +218,7 @@ Events:
             "sector_theme_impact": analysis.get("sector_theme_impact", {}),
             "what_to_watch_tomorrow": analysis.get("what_to_watch_tomorrow", []),
             "todays_themes": analysis.get("todays_themes", []),
+            "macro_analysis": analysis.get("macro_analysis", {}),
             "key_events": [
                 {
                     "index": index,
@@ -327,6 +338,7 @@ JSON:
             }
         }
         analysis["translations"]["zh"]["sector_theme_impact"] = translated.get("sector_theme_impact", {})
+        self._attach_macro_analysis_translations(analysis, translated.get("macro_analysis", {}))
         self._attach_named_translations(analysis.get("key_drivers", []), translated.get("key_drivers", []))
         self._attach_named_translations(analysis.get("what_to_watch_tomorrow", []), translated.get("what_to_watch_tomorrow", []))
         self._attach_named_translations(analysis.get("todays_themes", []), translated.get("todays_themes", []))
@@ -354,6 +366,54 @@ JSON:
                     )
                 }
             }
+
+    def _attach_macro_analysis_translations(self, analysis: dict, translated: object) -> None:
+        if not isinstance(translated, dict):
+            return
+        macro = analysis.get("macro_analysis")
+        if not isinstance(macro, dict):
+            return
+        regime = macro.get("market_regime")
+        translated_regime = translated.get("market_regime")
+        if isinstance(regime, dict) and isinstance(translated_regime, dict):
+            for key in ("title", "summary", "key_takeaway", "stance"):
+                if translated_regime.get(key):
+                    regime[f"{key}_zh"] = str(translated_regime[key])
+
+        translated_themes = translated.get("themes")
+        if isinstance(macro.get("themes"), list) and isinstance(translated_themes, list):
+            for index, theme in enumerate(macro["themes"]):
+                if index >= len(translated_themes) or not isinstance(theme, dict) or not isinstance(translated_themes[index], dict):
+                    continue
+                row = translated_themes[index]
+                for key in ("title", "current_view", "what_changed", "why_it_matters"):
+                    if row.get(key):
+                        theme[f"{key}_zh"] = str(row[key])
+                if isinstance(row.get("watch_next"), list):
+                    theme["watch_next_zh"] = [str(value) for value in row["watch_next"] if value]
+                if isinstance(row.get("market_impact"), dict):
+                    impact = row["market_impact"]
+                    theme["market_impact_zh"] = {
+                        "equities": str(impact.get("equities", "")),
+                        "rates": str(impact.get("rates", "")),
+                        "sectors": [str(value) for value in impact.get("sectors", [])] if isinstance(impact.get("sectors"), list) else [],
+                    }
+
+        asset_view = macro.get("asset_view")
+        translated_asset_view = translated.get("asset_view")
+        if isinstance(asset_view, dict) and isinstance(translated_asset_view, dict):
+            for key in ("equities", "rates", "growth_stocks", "financials"):
+                if key in translated_asset_view:
+                    asset_view[f"{key}_zh"] = translated_asset_view[key]
+            if isinstance(translated_asset_view.get("sectors"), list):
+                asset_view["sectors_zh"] = translated_asset_view["sectors"]
+
+        watch_next = macro.get("watch_next")
+        translated_watch = translated.get("watch_next")
+        if isinstance(watch_next, dict) and isinstance(translated_watch, dict):
+            for key in ("macro_data", "policy", "company_events"):
+                if isinstance(translated_watch.get(key), list):
+                    watch_next[f"{key}_zh"] = [str(value) for value in translated_watch[key] if value]
 
     def _attach_named_translations(self, target: list[dict], translated: object) -> None:
         if not isinstance(translated, list):
@@ -429,6 +489,7 @@ JSON:
         session_phrase = "pre-market setup" if is_premarket else "completed US equity session"
         watch_item = "Futures, Treasury yields and opening breadth" if is_premarket else "Treasury yields and next-session breadth"
         watch_type = "today's watchlist" if is_premarket else "next-session confirmation"
+        macro_analysis = self._fallback_macro_analysis(driver_names, tone)
         return parse_and_validate_market_json(
             {
                 "report_type": report_type,
@@ -469,6 +530,7 @@ JSON:
                     "losers": ["High-duration growth exposure if yields rise"],
                     "themes_to_watch": driver_names[:5],
                 },
+                "macro_analysis": macro_analysis,
                 "what_to_watch_tomorrow": [
                     {
                         "item": watch_item,
@@ -483,6 +545,88 @@ JSON:
                 "key_events": key_events,
             }
         )
+
+    def _fallback_macro_analysis(self, driver_names: list[str], tone: str) -> dict:
+        focus = driver_names[0] if driver_names else "macro data"
+        return {
+            "market_regime": {
+                "title": "Late Cycle Slowdown" if "cautious" in tone else "Late Cycle",
+                "summary": (
+                    f"The market is taking its direction from {focus}, with investors testing whether policy support "
+                    "can offset slower growth and earnings risk."
+                ),
+                "key_takeaway": (
+                    "Markets are balancing easier policy expectations against growth and earnings risk, keeping "
+                    "leadership narrow and confirmation dependent."
+                ),
+                "stance": "Cautious / Mixed",
+                "confidence": "55",
+            },
+            "themes": [
+                self._fallback_macro_theme(
+                    "Fed Policy & Rate Path",
+                    "Fed policy is still restrictive, but investors are watching whether softer data pulls rate-cut expectations forward.",
+                    "The rate path is becoming the main valuation channel for long-duration equity exposure.",
+                    "Rate cuts support multiples, but cuts driven by weaker growth can also pressure earnings expectations.",
+                    {"equities": "Neutral for indexes, supportive for duration if growth holds.", "rates": "Bullish if data softens.", "sectors": ["Positive: Technology and rate-sensitive growth", "Negative: Banks if yield curves flatten"]},
+                    ["CPI", "FOMC", "Fed speakers"],
+                ),
+                self._fallback_macro_theme(
+                    "Growth & Labor Market",
+                    "Growth risk is the key constraint on equity upside.",
+                    "Investors need to separate healthy cooling from recession risk.",
+                    "Labor and demand data affect both forward earnings and the policy reaction function.",
+                    {"equities": "Cautious until breadth confirms resilience.", "rates": "Lower yields if growth slows.", "sectors": ["Positive: Defensives", "Negative: Cyclicals and small caps"]},
+                    ["Payrolls", "Jobless claims", "ISM"],
+                ),
+                self._fallback_macro_theme(
+                    "AI & Technology Leadership",
+                    "AI leadership remains the strongest equity-specific macro channel.",
+                    "Mega-cap technology and semiconductor narratives continue to carry index leadership.",
+                    "Concentrated leadership can support indexes while also raising valuation and crowding risk.",
+                    {"equities": "Supportive for Nasdaq if yields remain contained.", "rates": "Sensitive to discount-rate repricing.", "sectors": ["Positive: Semiconductors and cloud infrastructure", "Negative: Unprofitable long-duration growth"]},
+                    ["AI capex updates", "Semiconductor guidance", "Mega-cap earnings"],
+                ),
+                self._fallback_macro_theme(
+                    "Earnings & Valuation",
+                    "The equity market needs earnings delivery to justify elevated multiples.",
+                    "Macro sensitivity is shifting from inflation-only toward margins, guidance and demand durability.",
+                    "Valuation leaves less room for disappointment when growth signals weaken.",
+                    {"equities": "Neutral / cautious until guidance broadens.", "rates": "Lower yields can help multiples but not earnings.", "sectors": ["Positive: Quality compounders", "Negative: Margin-sensitive cyclicals"]},
+                    ["Earnings season", "Margin guidance", "Buyback commentary"],
+                ),
+            ],
+            "asset_view": {
+                "equities": {"view": "Neutral / Cautious", "reason": "Policy support is partly offset by growth and earnings uncertainty."},
+                "rates": {"view": "Bullish / data-dependent", "reason": "Softer data would support lower yields, but inflation surprises remain a risk."},
+                "growth_stocks": {"view": "Supported but crowded", "reason": "Duration exposure benefits from lower yields, while valuation leaves limited margin for error."},
+                "financials": {"view": "Mixed", "reason": "Lower yields can pressure net interest margins while a softer economy raises credit sensitivity."},
+                "sectors": [{"positive": ["Technology", "Defensives"], "negative": ["Cyclicals", "Small caps"]}],
+            },
+            "watch_next": {
+                "macro_data": ["CPI", "Payrolls", "ISM"],
+                "policy": ["FOMC", "Fed speakers", "Treasury auctions"],
+                "company_events": ["Earnings season", "AI capex updates", "Semiconductor guidance"],
+            },
+        }
+
+    @staticmethod
+    def _fallback_macro_theme(
+        title: str,
+        current_view: str,
+        what_changed: str,
+        why_it_matters: str,
+        market_impact: dict,
+        watch_next: list[str],
+    ) -> dict:
+        return {
+            "title": title,
+            "current_view": current_view,
+            "what_changed": what_changed,
+            "why_it_matters": why_it_matters,
+            "market_impact": market_impact,
+            "watch_next": watch_next,
+        }
 
     def _rank_fallback_items(self, items: list[NewsItem]) -> list[NewsItem]:
         return sorted(items, key=self._fallback_item_score, reverse=True)

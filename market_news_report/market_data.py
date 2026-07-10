@@ -13,8 +13,8 @@ from .fetchers import REQUEST_HEADERS
 MARKET_SYMBOLS = {
     "SPY": "SPY",
     "QQQ": "QQQ",
+    "DOW": "DIA",
     "VIX": "^VIX",
-    "10Y Yield": "^TNX",
 }
 
 
@@ -30,10 +30,12 @@ def update_market_data_files(output_dir: Path | None = None) -> dict:
     output_dir = output_dir or CONFIG.report_output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    snapshot = fetch_market_data()
+    snapshot_path = output_dir / "market_snapshot.json"
+    previous_snapshot = _read_json(snapshot_path, None)
+    market_history = _read_json(output_dir / "market_history.json", None)
+    snapshot = _merge_with_previous_snapshot(fetch_market_data(), previous_snapshot, market_history)
     previous_trends = _read_json(output_dir / "market_trends.json", None)
     trends = _merge_with_previous_trends(fetch_market_trends(), previous_trends)
-    snapshot_path = output_dir / "market_snapshot.json"
     trends_path = output_dir / "market_trends.json"
     history_path = append_market_history(snapshot, output_dir)
 
@@ -71,6 +73,8 @@ def append_market_history(snapshot: dict, output_dir: Path | None = None, max_po
     timestamp = snapshot.get("as_of") or datetime.now().isoformat()
 
     for item in snapshot.get("items", []):
+        if item.get("is_stale") or item.get("price") is None:
+            continue
         name = item.get("name") or item.get("symbol")
         if not name:
             continue
@@ -165,6 +169,74 @@ def _merge_with_previous_trends(current: dict, previous: dict | None) -> dict:
             merged.append(fallback or item)
     current["series"] = merged
     return current
+
+
+def _merge_with_previous_snapshot(current: dict, previous: dict | None, history: dict | None) -> dict:
+    if not isinstance(current, dict):
+        return current
+    previous_items = previous.get("items", []) if isinstance(previous, dict) else []
+    previous_as_of = previous.get("as_of") if isinstance(previous, dict) else None
+    history_series = history.get("series", {}) if isinstance(history, dict) else {}
+    has_stale_items = False
+    merged_items = []
+
+    for item in current.get("items", []):
+        if item.get("price") is not None:
+            merged_items.append(item)
+            continue
+
+        fallback = _previous_snapshot_item(item, previous_items, previous_as_of) or _history_snapshot_item(item, history_series)
+        if fallback:
+            has_stale_items = True
+            merged_items.append(
+                {
+                    **item,
+                    "price": fallback.get("price"),
+                    "change": fallback.get("change"),
+                    "change_pct": fallback.get("change_pct"),
+                    "is_stale": True,
+                    "stale_as_of": fallback.get("as_of") or fallback.get("time"),
+                }
+            )
+        else:
+            merged_items.append(item)
+
+    current["items"] = merged_items
+    if has_stale_items:
+        current["status"] = "stale"
+    return current
+
+
+def _previous_snapshot_item(item: dict, previous_items: list[dict], previous_as_of: str | None) -> dict | None:
+    name = item.get("name")
+    symbol = item.get("symbol")
+    for previous in previous_items:
+        if previous.get("price") is None:
+            continue
+        if previous.get("name") == name or previous.get("symbol") == symbol:
+            return {
+                "price": previous.get("price"),
+                "change": previous.get("change"),
+                "change_pct": previous.get("change_pct"),
+                "as_of": previous.get("stale_as_of") or previous_as_of,
+            }
+    return None
+
+
+def _history_snapshot_item(item: dict, history_series: dict) -> dict | None:
+    name = item.get("name")
+    symbol = item.get("symbol")
+    candidates = [name, symbol]
+    if name == "DOW":
+        candidates.extend(["DIA", "^DJI"])
+    for key in candidates:
+        points = history_series.get(key) if key else None
+        if not isinstance(points, list):
+            continue
+        for point in reversed(points):
+            if point.get("price") is not None:
+                return point
+    return None
 
 
 def _format_price(label: str, value) -> float | None:
