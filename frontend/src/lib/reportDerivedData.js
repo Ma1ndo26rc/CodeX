@@ -58,35 +58,52 @@ function buildDashboardNarrative(source, events, dominantTheme) {
   const topEvents = [...events].sort((a, b) => b.decision_score - a.decision_score || b.impact_score - a.impact_score).slice(0, 5);
   const positive = topEvents.find((event) => Number(event.sentiment_score) > 0.1) ?? topEvents.find((event) => /ai|technology|earnings|growth|rally|record|gain/i.test(`${event.title} ${event.summary}`));
   const negative = topEvents.find((event) => Number(event.sentiment_score) < -0.1) ?? topEvents.find((event) => /risk|uncertain|inflation|oil|yield|fed|geopolit|miss|fall|pressure/i.test(`${event.title} ${event.summary}`));
-  const summary = text(source.market_summary);
-  const narrative = text(source.market_narrative);
+  const dedicated = objectValue(source.market_narrative);
+  const dedicatedZh = objectValue(source.translations?.zh?.market_narrative);
+  const legacyNarrative = typeof source.market_narrative === "string" ? text(source.market_narrative) : "";
+  const summary = text(dedicated.summary) || legacyNarrative || text(source.market_summary);
+  const narrative = text(dedicated.summary) || legacyNarrative;
   const macro = text(source.macro_outlook);
   const risk = text(source.risk_and_sentiment);
   const summaryZh = text(source.translations?.zh?.market_summary);
+  const dedicatedSummaryZh = text(dedicatedZh.summary);
   const macroZh = text(source.translations?.zh?.macro_outlook);
   const riskZh = text(source.translations?.zh?.risk_and_sentiment);
   const watchItems = normalizeWatchItems(source.what_to_watch_tomorrow).map((item) => item.item);
   const watchItemsZh = normalizeWatchItems(source.what_to_watch_tomorrow).map((item) => item.item_zh || translateMacroPhrase(item.item));
+  const forces = arrayValue(dedicated.key_forces).map((item) => ({
+    label: text(item?.label),
+    value: text(item?.text ?? item?.value),
+  })).filter((item) => item.value).slice(0, 3);
+  const forcesZh = arrayValue(dedicatedZh.key_forces).map((item) => ({
+    label: text(item?.label),
+    value: text(item?.text ?? item?.value),
+  })).filter((item) => item.value).slice(0, 3);
+  const dedicatedWatch = stringList(dedicated.watch_next).slice(0, 4);
+  const dedicatedWatchZh = stringList(dedicatedZh.watch_next).slice(0, 4);
+  const hasDedicatedNarrative = Boolean(text(dedicated.headline) || text(dedicated.summary) || forces.length || dedicatedWatch.length);
 
   return {
-    headline: text(source.dynamic_headline) || headlineFromEvents(topEvents),
-    headline_zh: text(source.translations?.zh?.dynamic_headline) || headlineFromEvents(topEvents, "zh"),
+    headline: text(dedicated.headline) || text(source.dynamic_headline) || headlineFromEvents(topEvents),
+    headline_zh: text(dedicatedZh.headline) || text(source.translations?.zh?.dynamic_headline) || headlineFromEvents(topEvents, "zh"),
+    summary,
+    summary_zh: dedicatedSummaryZh || summaryZh,
     thesis: firstSentence(summary) || firstSentence(narrative) || headlineFromEvents(topEvents),
-    thesis_zh: firstSentence(summaryZh) || headlineFromEvents(topEvents, "zh"),
-    explanation: conciseDashboardExplanation([summary, narrative, macro, risk]),
-    explanation_zh: conciseDashboardExplanation([summaryZh, macroZh, riskZh]),
-    key_forces: [
+    thesis_zh: firstSentence(dedicatedSummaryZh) || firstSentence(summaryZh) || headlineFromEvents(topEvents, "zh"),
+    explanation: conciseDashboardExplanation(hasDedicatedNarrative ? [summary] : [summary, narrative, macro, risk]),
+    explanation_zh: conciseDashboardExplanation(dedicatedSummaryZh ? [dedicatedSummaryZh] : [summaryZh, macroZh, riskZh]),
+    key_forces: forces.length ? forces : [
       { label: "Positive driver", value: eventTitle(positive) || "Selective strength in higher-conviction sectors" },
       { label: "Negative driver", value: eventTitle(negative) || firstSentence(risk) || "Macro uncertainty remains a constraint" },
       { label: "Main market theme", value: dominantTheme || "Mixed" },
     ],
-    key_forces_zh: [
+    key_forces_zh: forcesZh.length ? forcesZh : [
       { label: "正面驱动", value: eventTitle(positive, "zh") || "高确定性板块仍有选择性支撑" },
       { label: "负面压力", value: eventTitle(negative, "zh") || firstSentence(riskZh) || "宏观不确定性仍是约束" },
       { label: "主要主题", value: translateMacroPhrase(dominantTheme) || dominantTheme || "混合" },
     ],
-    watch_next: conciseList(watchItems, topEvents.map((event) => event.title)).slice(0, 3),
-    watch_next_zh: conciseList(watchItemsZh, topEvents.map((event) => event.title_zh || translateMacroPhrase(event.title))).slice(0, 3),
+    watch_next: dedicatedWatch.length ? dedicatedWatch : conciseList(watchItems, topEvents.map((event) => event.title)).slice(0, 3),
+    watch_next_zh: dedicatedWatchZh.length ? dedicatedWatchZh : conciseList(watchItemsZh, topEvents.map((event) => event.title_zh || translateMacroPhrase(event.title))).slice(0, 3),
   };
 }
 

@@ -7,19 +7,42 @@ import { askMarketAgent } from "../lib/marketAgentClient.js";
 import { useLanguage } from "../lib/i18n.jsx";
 import { getDisplayTitle } from "../lib/localizedText.js";
 import { formatTimestamp } from "../lib/utils.js";
+import "./MarketAgent.css";
+
+const RESEARCH_QUESTION_GROUPS = {
+  en: [
+    { label: "MARKET OVERVIEW", questions: ["Give me today's market briefing", "What moved markets today?", "Explain the current market regime"] },
+    { label: "RISK", questions: ["What are today's biggest risks?", "Which sectors are under pressure?"] },
+    { label: "SECTOR", questions: ["Analyze semiconductor stocks", "Which sectors benefit from today's events?"] },
+    { label: "RESEARCH", questions: ["Summarize today's market in 5 bullets", "What should investors watch next?"] },
+  ],
+  zh: [
+    { label: "市场概览", questions: ["请给我今天的市场简报", "今天是什么推动了市场？", "当前市场处于什么宏观状态？"] },
+    { label: "风险", questions: ["今天最大的风险是什么？", "哪些行业承受压力？"] },
+    { label: "行业", questions: ["分析半导体行业", "哪些行业受益于今天的事件？"] },
+    { label: "研究", questions: ["用五个要点总结今天的市场", "投资者接下来应该关注什么？"] },
+  ],
+};
 
 const COPY = {
   en: {
     header: { eyebrow: "AI ANALYSIS WORKSPACE / BETA", title: "MARKET AGENT", subtitle: "Ask questions based on today's market intelligence." },
-    welcome: "Hi, I'm your Market Agent. I can help explain today's market, summarize key events, compare themes, and identify risks based on the latest report.",
+    welcome: "I analyze today's market using the latest report, key signals, macro context and sector impacts.\n\nAsk me why markets moved, what risks matter, or which sectors are affected.",
     synchronized: "DATA SYNCHRONIZED", noData: "NO REPORT DATA", latest: "Latest report", events: "Total events", sentiment: "Market sentiment", theme: "Dominant theme", sector: "Top sector",
-    activeContext: "ACTIVE CONTEXT", scope: "Latest report scope", empty: "No report context", emptyDescription: "Load a report to enable grounded market answers.",
+    activeContext: "ACTIVE CONTEXT", scope: "Agent knowledge", empty: "No report context", emptyDescription: "Load a report to enable grounded market answers.",
+    report: "REPORT", reportName: "Latest market report", knowledge: "KNOWLEDGE AVAILABLE", knowledgeItems: ["Market events", "Top signals", "Macro context", "Sector impact"], currentView: "CURRENT MARKET VIEW", regime: "Regime", mainTheme: "Main theme",
     summary: "Market summary", risk: "Risk & sentiment", macro: "Macro outlook", topSignals: "TOP 3 SIGNALS", newsItems: "news items", sources: "sources",
-    assistant: "MARKET INTELLIGENCE ASSISTANT", notebook: "Analysis notebook", agent: "MARKET AGENT", you: "YOU", loading: "Analyzing market intelligence...", send: "Send",
+    assistant: "MARKET INTELLIGENCE ASSISTANT", notebook: "Research workspace", positioning: "Grounded in the latest report, key signals, macro context and sector impact.", agent: "MARKET INTELLIGENCE ASSISTANT", you: "YOU", loading: "Analyzing market intelligence...", send: "Send",
+    basedOn: "BASED ON", basedOnItems: ["Latest report", "Market signals", "Macro analysis"], liveUnavailable: "Live analysis unavailable. Showing report-based analysis.", requestUnavailable: "Live analysis is temporarily unavailable. Please try again shortly.",
     placeholder: "Ask about risks, sectors, themes or the next market catalyst...",
     questions: ["What are today's biggest risks?", "Why did AI stocks fall today?", "Summarize today's market.", "What should investors watch next?", "Which sectors are under the most pressure?", "Give me a 5-bullet market briefing."],
   },
   zh: {
+    welcomeV21: "我使用最新市场报告、关键信号、宏观背景和行业影响分析今日市场。\n\n你可以询问市场为何波动、哪些风险值得关注，或哪些行业受到影响。",
+    report: "报告", reportName: "最新市场报告", knowledge: "可用知识", knowledgeItems: ["市场事件", "重点信号", "宏观背景", "行业影响"], currentView: "当前市场观点", regime: "市场状态", mainTheme: "主要主题",
+    liveUnavailable: "实时分析暂时不可用，当前显示基于报告的分析。", requestUnavailable: "实时分析暂时不可用，请稍后重试。",
+    welcomeV2: "市场情报助手。基于最新市场报告、关键信号、宏观背景和行业影响提供研究支持。",
+    positioning: "基于最新报告、关键信号、宏观背景和行业影响。", analyzing: "正在分析", reportContext: ["最新市场报告", "关键市场信号", "宏观状态", "行业影响"], basedOn: "基于", basedOnItems: ["最新报告", "市场信号", "宏观分析"],
     header: { eyebrow: "AI 分析工作台 / 测试版", title: "MARKET AGENT", subtitle: "基于今日市场情报进行提问。" },
     welcome: "你好，我是 Market Agent。我可以基于最新报告解释今日市场、总结关键事件、比较主题并识别风险。",
     synchronized: "数据已同步", noData: "暂无报告数据", latest: "最新报告", events: "事件总数", sentiment: "市场情绪", theme: "主导主题", sector: "重点行业",
@@ -34,11 +57,12 @@ const COPY = {
 export default function MarketAgent({ reportData, initialQuestion = "" }) {
   const { language } = useLanguage();
   const copy = COPY[language] ?? COPY.en;
+  const welcome = copy.welcomeV21 || copy.welcomeV2 || copy.welcome;
   const context = buildAgentContext(reportData);
   const storageKey = `market-agent:${context.report_time || "latest"}`;
   const inputStorageKey = `${storageKey}:input`;
   const [input, setInput] = useState(() => initialQuestion || readStoredInput(inputStorageKey));
-  const [messages, setMessages] = useState(() => readStoredMessages(storageKey, copy.welcome));
+  const [messages, setMessages] = useState(() => readStoredMessages(storageKey, welcome));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -47,10 +71,10 @@ export default function MarketAgent({ reportData, initialQuestion = "" }) {
   }, [initialQuestion]);
 
   useEffect(() => {
-    setMessages(readStoredMessages(storageKey, copy.welcome));
+    setMessages(readStoredMessages(storageKey, welcome));
     setInput(initialQuestion || readStoredInput(inputStorageKey));
     setError("");
-  }, [storageKey, inputStorageKey, copy.welcome, initialQuestion]);
+  }, [storageKey, inputStorageKey, welcome, initialQuestion]);
 
   useEffect(() => {
     writeStoredMessages(storageKey, messages);
@@ -70,9 +94,10 @@ export default function MarketAgent({ reportData, initialQuestion = "" }) {
     setLoading(true);
     try {
       const answer = await askMarketAgent({ question, context });
-      setMessages((current) => [...current, { id: `agent-${Date.now()}`, role: "agent", content: answer }]);
-    } catch (requestError) {
-      setError(requestError.message || "Market Agent could not complete the request.");
+      const result = normalizeAgentAnswer(answer, copy.liveUnavailable);
+      setMessages((current) => [...current, { id: `agent-${Date.now()}`, role: "agent", content: result.content, notice: result.notice }]);
+    } catch {
+      setError(copy.requestUnavailable || "Live analysis is temporarily unavailable. Please try again shortly.");
     } finally {
       setLoading(false);
     }
@@ -102,22 +127,31 @@ export default function MarketAgent({ reportData, initialQuestion = "" }) {
           {!context.has_data && <EmptyState title={copy.empty} description={copy.emptyDescription} icon={FileText} compact />}
           {context.has_data && (
             <div className="agent-context-sections">
-              <ContextBlock label={copy.summary} value={context.market_summary} />
-              <ContextBlock label={copy.risk} value={context.risk_and_sentiment} />
-              <ContextBlock label={copy.macro} value={context.macro_outlook} />
-              <div className="agent-top-signals"><span>{copy.topSignals}</span>{context.top_signals.map((signal, index) => <div key={`${signal.title}-${index}`}><b>{index + 1}</b><p>{getDisplayTitle(signal, language) || signal.title}</p><strong>{Math.round(signal.impact_score)}</strong></div>)}</div>
-              <div className="agent-context-counts"><span>{context.news_count} {copy.newsItems}</span><span>{context.source_count} {copy.sources}</span></div>
+              <section className="agent-context-report">
+                <span>{copy.report || "REPORT"}</span>
+                <strong>{copy.reportName || "Latest market report"}</strong>
+                <time>{context.report_time ? formatTimestamp(context.report_time, language) : "Unavailable"}</time>
+              </section>
+              <section className="agent-active-context">
+                <span>{copy.knowledge || "KNOWLEDGE AVAILABLE"}</span>
+                <ul>{(copy.knowledgeItems || []).map((item) => <li key={item}><CheckCircle2 size={14} />{item}</li>)}</ul>
+              </section>
+              <ContextBlock label={copy.summary || "MARKET SUMMARY"} value={context.market_summary} />
+              <ContextBlock label={copy.risk || "RISK & SENTIMENT"} value={context.risk_and_sentiment} />
+              <div className="agent-top-signals"><span>{copy.topSignals || "TOP 3 SIGNALS"}</span>{context.top_signals.slice(0, 3).map((signal, index) => <div key={`${signal.title}-${index}`}><b>{index + 1}</b><p>{getDisplayTitle(signal, language) || signal.title}</p><strong>{Math.round(signal.impact_score)}</strong></div>)}</div>
             </div>
           )}
         </aside>
 
         <section className="agent-console">
-          <div className="agent-console-head"><Bot size={18} /><div><span>{copy.assistant}</span><h2>{copy.notebook}</h2></div></div>
+          <div className="agent-console-head"><Bot size={18} /><div><span>{copy.assistant}</span><h2>{copy.notebook}</h2><p>{copy.positioning}</p></div></div>
           <div className="agent-suggestions">
-            {copy.questions.map((question) => <button key={question} onClick={() => setInput(question)}>{question}</button>)}
+            {(RESEARCH_QUESTION_GROUPS[language] ?? RESEARCH_QUESTION_GROUPS.en).map((group) => (
+              <section key={group.label} className="agent-question-group"><span>{group.label}</span><div>{group.questions.map((question) => <button key={question} onClick={() => setInput(question)}>{question}</button>)}</div></section>
+            ))}
           </div>
           <div className="agent-transcript" aria-live="polite">
-            {messages.map((message) => <article key={message.id} className={`agent-message is-${message.role}`}><span>{message.role === "agent" ? copy.agent : copy.you}</span><p>{message.content}</p></article>)}
+            {messages.map((message) => <AgentMessage key={message.id} message={message} copy={copy} />)}
             {loading && <div className="agent-loading"><LoaderCircle size={16} />{copy.loading}</div>}
           </div>
           {error && <div className="agent-error"><AlertCircle size={15} />{error}</div>}
@@ -136,8 +170,75 @@ function Status({ label, value, tone = "" }) {
   return <div className="agent-status-item"><span>{label}</span><strong className={tone}>{value ?? "Unavailable"}</strong></div>;
 }
 
+function AgentMessage({ message, copy }) {
+  const isAgent = message.role === "agent";
+  const normalized = isAgent ? normalizeAgentAnswer(message.content, copy.liveUnavailable) : { content: message.content, notice: "" };
+  const sections = isAgent ? answerSections(normalized.content) : [];
+  const notice = message.notice || normalized.notice;
+  return (
+    <article className={`agent-message is-${message.role}`}>
+      <span>{isAgent ? copy.agent : copy.you}</span>
+      <div className="agent-message-body">
+        {isAgent && <div className="agent-answer-context"><b>{copy.basedOn || "BASED ON"}</b>{(copy.basedOnItems || []).map((item) => <span key={item}>{item}</span>)}</div>}
+        {notice && <p className="agent-response-notice">{notice}</p>}
+        {sections.length ? <div className="agent-answer-note"><span>MARKET BRIEF</span><div className="agent-answer-sections">{sections.map((section, index) => <section key={`${section.title}-${index}`}><h3>{section.title}</h3><p>{section.content}</p></section>)}</div></div> : <p>{normalized.content}</p>}
+      </div>
+    </article>
+  );
+}
+
+function answerSections(content) {
+  const headingNames = {
+    "DIRECT ANSWER": "SUMMARY",
+    SUMMARY: "SUMMARY",
+    "KEY DRIVERS": "KEY DRIVERS",
+    "MARKET IMPACT": "MARKET IMPACT",
+    "MARKET IMPLICATION": "MARKET IMPACT",
+    "WATCH NEXT": "WATCH NEXT",
+    "WHAT TO WATCH NEXT": "WATCH NEXT",
+  };
+  const sections = [];
+  let current;
+  const preamble = [];
+  String(content || "").split("\n").forEach((line) => {
+    const match = line.match(/^\s*(?:#{1,3}\s*)?(DIRECT ANSWER|SUMMARY|KEY DRIVERS|MARKET IMPACT|MARKET IMPLICATION|WATCH NEXT|WHAT TO WATCH NEXT)\s*:?[ \t]*(.*)$/i);
+    const normalizedHeading = match ? headingNames[match[1].toUpperCase()] : "";
+    if (match && normalizedHeading) {
+      current = { title: normalizedHeading, content: match[2].trim() };
+      sections.push(current);
+    } else if (current) {
+      current.content = `${current.content}${current.content ? "\n" : ""}${line}`.trim();
+    } else if (line.trim()) {
+      preamble.push(line.trim());
+    }
+  });
+  if (!sections.length) return [];
+  if (preamble.length) sections.unshift({ title: "SUMMARY", content: preamble.join(" ") });
+  return mergeAnswerSections(sections.filter((section) => section.content));
+}
+
+function mergeAnswerSections(sections) {
+  return sections.reduce((result, section) => {
+    const existing = result.find((item) => item.title === section.title);
+    if (existing) existing.content = `${existing.content}\n${section.content}`;
+    else result.push({ ...section });
+    return result;
+  }, []);
+}
+
 function ContextBlock({ label, value }) {
-  return <section><span>{label}</span><p>{value || "Data unavailable."}</p></section>;
+  return <section className="agent-context-brief"><span>{label}</span><p>{value || "Data unavailable."}</p></section>;
+}
+
+function normalizeAgentAnswer(answer, fallbackMessage) {
+  const raw = String(answer || "").trim();
+  const fallbackPattern = /^\s*Local report fallback:[^\n]*(?:\n+|$)/i;
+  const usedFallback = fallbackPattern.test(raw);
+  const content = raw.replace(fallbackPattern, "").trim();
+  return {
+    content: content || fallbackMessage,
+    notice: usedFallback ? fallbackMessage : "",
+  };
 }
 
 function sentimentTone(value) {
@@ -148,7 +249,8 @@ function readStoredMessages(key, welcome) {
   if (typeof sessionStorage === "undefined") return defaultMessages(welcome);
   try {
     const parsed = JSON.parse(sessionStorage.getItem(`${key}:messages`) || "[]");
-    return Array.isArray(parsed) && parsed.length ? parsed : defaultMessages(welcome);
+    if (!Array.isArray(parsed) || !parsed.length) return defaultMessages(welcome);
+    return parsed.map((message) => message?.id === "welcome" ? { ...message, content: welcome } : message);
   } catch {
     return defaultMessages(welcome);
   }

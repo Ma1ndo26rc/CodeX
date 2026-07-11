@@ -59,6 +59,9 @@
 }
 
 .landing-dashboard .landing-signal-card {
+  grid-template-columns: 48px minmax(0, 1fr) 180px 100px;
+  gap: 20px;
+  align-items: center;
   min-height: 78px;
   padding: 14px 16px;
 }
@@ -71,6 +74,55 @@
   font-size: 12.5px;
   line-height: 1.45;
   -webkit-line-clamp: 1;
+}
+
+.landing-dashboard .landing-signal-impact > div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.landing-dashboard .landing-signal-impact span,
+.landing-dashboard .landing-signal-sentiment span {
+  color: var(--mi-muted);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+
+.landing-dashboard .landing-signal-impact strong {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.landing-dashboard .landing-signal-impact i {
+  display: block;
+  height: 5px;
+  margin-top: 6px;
+  background: var(--mi-line);
+}
+
+.landing-dashboard .landing-signal-impact b {
+  display: block;
+  height: 100%;
+  background: var(--mi-accent);
+}
+
+.landing-dashboard .landing-signal-sentiment {
+  display: grid;
+  gap: 6px;
+  text-align: right;
+}
+
+.landing-dashboard .landing-signal-sentiment strong {
+  font-size: 15px;
+}
+
+.landing-dashboard .landing-signal-sentiment strong.is-positive {
+  color: var(--mi-positive);
+}
+
+.landing-dashboard .landing-signal-sentiment strong.is-negative {
+  color: var(--mi-negative);
 }
 
 @media (max-width: 1120px) {
@@ -96,6 +148,8 @@
   }
 
   .landing-dashboard .landing-signal-card {
+    grid-template-columns: 32px minmax(0, 1fr) 120px 82px;
+    gap: 12px;
     padding: 13px 8px;
   }
 }

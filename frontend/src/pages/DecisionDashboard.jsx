@@ -90,9 +90,10 @@ function MarketNarrative({ narrative, copy, language }) {
   const forces = (isZh ? narrative.key_forces_zh ?? narrative.key_forces : narrative.key_forces)?.slice(0, 3);
   const watch = (isZh ? narrative.watch_next_zh ?? narrative.watch_next : narrative.watch_next)?.slice(0, 4);
   const headline = compactText(isZh ? narrative.headline_zh || narrative.headline : narrative.headline, 96);
+  const summary = isZh ? narrative.summary_zh || narrative.summary : narrative.summary;
   const thesis = isZh ? narrative.thesis_zh || narrative.thesis : narrative.thesis;
   const explanation = isZh ? narrative.explanation_zh || narrative.explanation : narrative.explanation;
-  const body = compactSentences([thesis, explanation], 3, 360);
+  const body = compactSentences([summary || thesis, explanation], 3, 360);
   return (
     <section className="landing-market-brief" aria-label={copy.narrative || "Market Narrative"}>
       <div className="landing-market-narrative">

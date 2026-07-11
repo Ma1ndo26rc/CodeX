@@ -20,7 +20,7 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
         f"Source window: {analysis.get('source_window') or 'Data unavailable'}",
         "",
         f"## {analysis.get('dynamic_headline') or 'Morning Market Brief'}",
-        analysis.get("market_narrative") or analysis.get("market_summary") or "Data unavailable.",
+        _market_narrative_text(analysis.get("market_narrative")) or analysis.get("market_summary") or "Data unavailable.",
         "",
         "## Report Snapshot",
         _report_snapshot(analysis["key_events"]),
@@ -82,6 +82,14 @@ def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None
         md.append(f"- {line}")
 
     return "\n".join(md)
+
+
+def _market_narrative_text(value: Any) -> str:
+    if isinstance(value, dict):
+        headline = str(value.get("headline") or "").strip()
+        summary = str(value.get("summary") or "").strip()
+        return "\n\n".join(part for part in (headline, summary) if part)
+    return str(value or "").strip()
 
 
 def save_report(md: str, analysis: dict[str, Any], output_dir: Path) -> tuple[Path, Path]:

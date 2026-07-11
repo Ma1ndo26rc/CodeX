@@ -55,7 +55,13 @@ Rules:
 - required watch section: {report_focus['watch']}
 - key_events: 5-10 most important events
 - dynamic_headline: one sentence stating the dominant market narrative
-- market_narrative: 1-2 concise paragraphs explaining why markets moved, the main drivers and affected assets
+- market_narrative: a dedicated sell-side market morning brief object with headline, summary, key_forces and watch_next
+- market_narrative.headline: one investment-style sentence, maximum 15 words
+- market_narrative.summary: 2-3 sentences explaining market direction and investor positioning; do not repeat individual headlines
+- market_narrative.key_forces: maximum 3 labeled forces explaining the dominant market tension and risk appetite
+- market_narrative.watch_next: maximum 4 concrete catalysts investors should monitor
+- do not use market_narrative as a news summary, article rewrite or list of events
+- write the market narrative by answering: What is the dominant market tension today? Which forces drive risk appetite? What are investors watching next?
 - key_drivers: 3-5 ranked drivers, not a list of article summaries
 - sector_theme_impact: identify winners, losers and themes to watch
 - what_to_watch_tomorrow: macro data, earnings, Fed speakers, key tickers or geopolitical risks
@@ -210,7 +216,7 @@ Events:
         payload = {
             "dynamic_headline": analysis.get("dynamic_headline", ""),
             "market_summary": analysis.get("market_summary", ""),
-            "market_narrative": analysis.get("market_narrative", ""),
+            "market_narrative": analysis.get("market_narrative", {}),
             "index_performance_summary": analysis.get("index_performance_summary", ""),
             "macro_outlook": analysis.get("macro_outlook", ""),
             "risk_and_sentiment": analysis.get("risk_and_sentiment", ""),
@@ -501,13 +507,10 @@ JSON:
                     f"and {category_counts.get('policy', 0)} policy items. The tape looks more useful for identifying "
                     f"near-term rotation and risk appetite than for making a single directional index call."
                 ),
-                "market_narrative": (
-                    f"US equities have a {tone} bias as {', '.join(driver_names[:3])} dominate the information flow. "
-                    + (
-                        "Before the open, the setup still needs confirmation from futures, Treasury yields, opening breadth and pre-market volume."
-                        if is_premarket
-                        else "The close should be judged by index breadth, Treasury yields and whether leadership broadened beyond the largest stocks."
-                    )
+                "market_narrative": self._fallback_market_narrative(
+                    driver_names,
+                    tone,
+                    is_premarket=is_premarket,
                 ),
                 "index_performance_summary": self._fallback_index_summary(category_counts),
                 "macro_outlook": self._fallback_macro_outlook(items),
@@ -608,6 +611,42 @@ JSON:
                 "policy": ["FOMC", "Fed speakers", "Treasury auctions"],
                 "company_events": ["Earnings season", "AI capex updates", "Semiconductor guidance"],
             },
+        }
+
+    def _fallback_market_narrative(
+        self,
+        driver_names: list[str],
+        tone: str,
+        *,
+        is_premarket: bool,
+    ) -> dict:
+        dominant = driver_names[0] if driver_names else "macro signals"
+        headline = (
+            f"{dominant} keeps risk appetite {tone} as investors await confirmation"
+        )
+        summary = (
+            f"US equities are carrying a {tone} bias as {', '.join(driver_names[:3]) or 'mixed market forces'} shape positioning. "
+            "Investors are balancing selective leadership against the risk that policy, rates or growth data broadens the pressure."
+        )
+        confirmation = (
+            "futures, Treasury yields and opening breadth"
+            if is_premarket
+            else "Treasury yields, breadth and whether leadership broadens"
+        )
+        return {
+            "headline": headline,
+            "summary": summary,
+            "key_forces": [
+                {"label": "Positive driver", "text": f"Selective support from {dominant}"},
+                {"label": "Negative driver", "text": "Headline and policy uncertainty keep the risk premium elevated"},
+                {"label": "Main theme", "text": f"Positioning is waiting for confirmation from {confirmation}"},
+            ],
+            "watch_next": [
+                confirmation,
+                "Upcoming macro data",
+                "Fed communication and policy headlines",
+                "Earnings and sector guidance",
+            ],
         }
 
     @staticmethod

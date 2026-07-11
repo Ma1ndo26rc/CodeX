@@ -16,7 +16,12 @@ SCHEMA = {
     "data_freshness_warning": False,
     "dynamic_headline": "",
     "market_summary": "",
-    "market_narrative": "",
+    "market_narrative": {
+        "headline": "",
+        "summary": "",
+        "key_forces": [],
+        "watch_next": [],
+    },
     "index_performance_summary": "",
     "macro_outlook": "",
     "risk_and_sentiment": "",
@@ -147,7 +152,7 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
     analysis["data_freshness_warning"] = _to_bool(payload.get("data_freshness_warning"))
     analysis["dynamic_headline"] = _to_str(payload.get("dynamic_headline"))
     analysis["market_summary"] = _to_str(payload.get("market_summary"))
-    analysis["market_narrative"] = _to_str(payload.get("market_narrative"))
+    analysis["market_narrative"] = _validate_market_narrative(payload.get("market_narrative"))
     analysis["index_performance_summary"] = _to_str(payload.get("index_performance_summary"))
     analysis["macro_outlook"] = _to_str(payload.get("macro_outlook"))
     analysis["risk_and_sentiment"] = _to_str(payload.get("risk_and_sentiment"))
@@ -349,7 +354,7 @@ def _validate_analysis_translations(value: Any) -> dict[str, Any]:
         "zh": {
             "dynamic_headline": _to_str(zh.get("dynamic_headline")),
             "market_summary": _to_str(zh.get("market_summary")),
-            "market_narrative": _to_str(zh.get("market_narrative")),
+            "market_narrative": _validate_market_narrative(zh.get("market_narrative")),
             "index_performance_summary": _to_str(zh.get("index_performance_summary")),
             "macro_outlook": _to_str(zh.get("macro_outlook")),
             "risk_and_sentiment": _to_str(zh.get("risk_and_sentiment")),
@@ -477,6 +482,33 @@ def _validate_theme(item: dict[str, Any]) -> dict[str, Any]:
         "explanation": _to_str(item.get("explanation")),
         "related_events": _to_str_list(item.get("related_events")),
         "translations": _validate_named_translation(item.get("translations")),
+    }
+
+
+def _validate_market_narrative(value: Any) -> dict[str, Any]:
+    if isinstance(value, str):
+        return {
+            "headline": "",
+            "summary": _to_str(value),
+            "key_forces": [],
+            "watch_next": [],
+        }
+    source = value if isinstance(value, dict) else {}
+    forces = source.get("key_forces")
+    normalized_forces = []
+    if isinstance(forces, list):
+        for item in forces[:3]:
+            if not isinstance(item, dict):
+                continue
+            label = _to_str(item.get("label"))
+            text = _to_str(item.get("text") or item.get("value"))
+            if label or text:
+                normalized_forces.append({"label": label, "text": text})
+    return {
+        "headline": _to_str(source.get("headline")),
+        "summary": _to_str(source.get("summary")),
+        "key_forces": normalized_forces,
+        "watch_next": _to_str_list(source.get("watch_next"))[:4],
     }
 
 

@@ -41,3 +41,4 @@ reports/US_STOCK_DAILY_*.pdf
 .DS_Store
 Thumbs.db
 .agents
+.codex
