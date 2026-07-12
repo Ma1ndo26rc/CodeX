@@ -1,37 +1,21 @@
 {
-  "generated_at": "2026-07-09T16:49:06.003311+00:00",
+  "generated_at": "2026-07-12T14:02:31.411824+00:00",
   "reports": [
     {
-      "date": "2026-07-09",
+      "date": "2026-07-12",
       "report_type": "close",
       "report_label": "Market Close Brief",
-      "generated_at": "2026-07-09T16:46:04.608262+00:00",
+      "generated_at": "2026-07-12T14:00:41.608665+00:00",
       "market_session": "US Market Close",
       "source_window": "Previous 24 hours through the market close cutoff",
       "data_freshness_warning": false,
-      "file": "history/2026-07-09-close.json",
-      "dynamic_headline": "Wall Street edges higher as AI optimism and strong chipmaker news offset persistent Middle East geopolitical jitters and a disappointing consumer earnings miss.",
-      "dynamic_headline_zh": "华尔街小幅走高，AI乐观情绪与强劲的芯片制造商消息抵消了持续的中东地缘政治紧张局势以及令人失望的消费者盈利不及预期。",
-      "market_summary": "Major US equity indices closed modestly higher on Thursday, with the S&P 500 and Nasdaq posting gains driven by semiconductor and AI-related stocks, while the Dow lagged. The session saw a tug-of-war between escalating US-Iran military tensions and positive catalysts from the tech sector, including Micron's massive US manufacturing investment, Meta's AI model upgrade, and data center infrastructure momentum. Consumer staples weighed on the market after PepsiCo's earnings miss signaled softening demand, while home prices hit a new all-time high, adding to affordability concerns. The dollar weakened slightly and Treasury yields edged lower as investors priced in a possible flight to safety but also dialed back hawkish Fed expectations.",
-      "market_summary_zh": "美国主要股指周四温和收高，标普500指数和纳斯达克指数在半导体和人工智能相关股票的推动下上涨，而道琼斯指数则表现落后。当日市场在美国与伊朗军事紧张局势升级与来自科技板块的积极催化剂之间展开拉锯战，其中包括美光（Micron）的巨额美国制造投资、Meta的AI模型升级以及数据中心基础设施的动能。百事可乐（PepsiCo）的盈利不及预期暗示需求疲软，拖累必需消费板块，同时房价创下历史新高，加剧了可负担性担忧。美元小幅走软，国债收益率小幅走低，因投资者在计入可能的避险情绪的同时，也降低了对美联储鹰派立场的预期。",
+      "file": "history/2026-07-12-close.json",
+      "dynamic_headline": "Geopolitical shock and AI optimism create a split tape as earnings season looms.",
+      "dynamic_headline_zh": "地缘政治冲击与AI乐观情绪交织，财报季前市场分化加剧。",
+      "market_summary": "US equities closed mixed on Monday, with the Dow eking out a gain while the Nasdaq slipped, as escalating US-Iran military conflict vied with renewed AI enthusiasm for investor attention. The S&P 500 was nearly flat, with energy and defense stocks rallying on geopolitical risk, while mega-cap tech showed signs of fatigue ahead of a critical earnings week. The VIX spiked above 20, reflecting heightened uncertainty, and oil prices surged on fears of a Hormuz disruption, adding to the stagflationary anxiety that has kept bond yields range-bound.",
+      "market_summary_zh": "美国股市周一收盘涨跌互现，道指微幅上涨，纳指则有所下滑，因美伊军事冲突升级与人工智能（AI）重燃的热情争夺投资者注意力。标普500指数基本持平，能源和国防股因地缘政治风险而上涨，而大型科技股在关键的财报周前显现疲态。VIX恐慌指数飙升至20以上，反映出不确定性加剧；油价因担心霍尔木兹海峡中断而飙升，加剧了滞胀忧虑，这使得债券收益率维持区间波动。",
       "event_count": 10,
-      "avg_impact": 72.8
-    },
-    {
-      "date": "2026-07-04",
-      "report_type": "premarket",
-      "report_label": "Pre-Market Brief",
-      "generated_at": "2026-07-04T17:46:56.189259+00:00",
-      "market_session": "US Pre-Market",
-      "source_window": "Previous 24 hours through the pre-market cutoff",
-      "data_freshness_warning": false,
-      "file": "history/2026-07-04-premarket.json",
-      "dynamic_headline": "U.S. equity futures point to a higher open after a historic Dow rally on the Trump-Iran ceasefire, a supportive jobs report, and continued AI investment optimism, but a heat wave and geopolitical undercurrents loom.",
-      "dynamic_headline_zh": "美国股指期货指向高开，此前道指因特朗普-伊朗停火协议、利好就业报告以及AI投资乐观情绪持续而创下历史性大涨，但热浪和地缘政治暗流仍构成隐忧。",
-      "market_summary": "Markets were closed Friday for Independence Day. The prior session (Thursday) saw the Dow’s best day in a year after the U.S. and Iran agreed to a two-week ceasefire, relieving immediate geopolitical pressure. The June jobs report further eased rate hike fears by showing a cooling labor market. Tech futures jumped into the holiday weekend, led by semiconductors. Over the weekend, headlines included the launch of ‘Trump Accounts,’ extreme heat threatening power grids, AI infrastructure spending surges, and multiple analyst upgrades on key tech names. The setup suggests a risk-on open Monday, but breadth and volume will need to confirm the rally’s sustainability.",
-      "market_summary_zh": "上周五因独立日假期休市。前一交易日（周四）因美国与伊朗达成两周停火协议，地缘政治压力暂时缓解，道指创下一年来最大单日涨幅。6月就业报告显示劳动力市场降温，进一步缓解了加息担忧。科技股期货在假期周末前上涨，半导体领涨。周末头条新闻包括“特朗普账户”推出、极端高温威胁电网、AI基础设施支出激增以及多家分析师上调关键科技股评级。市场格局暗示周一开盘风险偏好回升，但涨势的可持续性需得到市场广度和成交量的确认。",
-      "event_count": 10,
-      "avg_impact": 62.5
+      "avg_impact": 61.5
     },
     {
       "date": "2026-07-02",
