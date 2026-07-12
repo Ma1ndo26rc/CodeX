@@ -28,7 +28,7 @@ export default function ReportArchive({ model }) {
     }
     const controller = new AbortController();
     setStatus("loading");
-    fetch(`./data/${selected.file}`, { signal: controller.signal })
+    fetch(`/data/${selected.file}`, { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
@@ -56,7 +56,7 @@ export default function ReportArchive({ model }) {
           <article className="pa-report-document">
             <header>
               <div><span>{selected?.report_label || copy.historical}</span><h2>{selected?.dynamic_headline || selected?.date}</h2><p>{selected?.date}</p></div>
-              <a href={`./data/${selected?.file}`} target="_blank" rel="noreferrer"><ExternalLink size={14} />{copy.open}</a>
+              <a href={`/data/${selected?.file}`} target="_blank" rel="noreferrer"><ExternalLink size={14} />{copy.open}</a>
             </header>
             <div className="pa-report-metrics">
               <Metric label={copy.events} value={selected?.event_count ?? 0} />

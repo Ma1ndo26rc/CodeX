@@ -73,8 +73,8 @@ function normalizeAssetPath(value) {
   const normalized = value.replaceAll("\\", "/");
   const marker = "reports/assets/";
   const index = normalized.indexOf(marker);
-  if (index >= 0) return `data/assets/${normalized.slice(index + marker.length)}`;
-  if (normalized.startsWith("assets/")) return `data/${normalized}`;
+  if (index >= 0) return `/data/assets/${normalized.slice(index + marker.length)}`;
+  if (normalized.startsWith("assets/")) return `/data/${normalized}`;
   return normalized;
 }
 
@@ -274,7 +274,7 @@ const manifest = {
   },
   assets: {
     market_event_overview: fs.existsSync(path.join(targetAssetsDir, "market_event_overview.png"))
-      ? "data/assets/market_event_overview.png"
+      ? "/data/assets/market_event_overview.png"
       : null,
   },
 };

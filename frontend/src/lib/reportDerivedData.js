@@ -1380,8 +1380,8 @@ function normalizeImageUrl(value) {
   const url = text(value).replace(/\\/g, "/");
   if (!url) return "";
   if (/^(https?:|data:|blob:)/i.test(url)) return url;
-  if (url.startsWith("reports/")) return `./data/${url.slice("reports/".length)}`;
-  if (url.startsWith("assets/")) return `./data/${url}`;
+  if (url.startsWith("reports/")) return `/data/${url.slice("reports/".length)}`;
+  if (url.startsWith("assets/")) return `/data/${url}`;
   return url;
 }
 

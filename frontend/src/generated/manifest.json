@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T11:01:06.403Z",
+  "generated_at": "2026-07-12T15:50:03.819Z",
   "reports": {
     "markdown": "../reports/US_STOCK_CLOSE_20260710_004908.md",
     "pdf": "../reports/US_STOCK_CLOSE_20260710_004908.pdf",
-    "json": "../reports/US_STOCK_CLOSE_20260710_004908.json",
+    "json": "../reports/US_STOCK_DAILY_20260702_224340.json",
     "latest_json": "../reports/latest.json",
     "premarket_json": "../reports/premarket.json",
     "close_json": "../reports/close.json",

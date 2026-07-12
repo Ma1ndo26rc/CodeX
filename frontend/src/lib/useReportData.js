@@ -20,7 +20,7 @@ export function useReportData() {
   useEffect(() => {
     const controller = new AbortController();
     const fetchJson = async (name) => {
-      const response = await fetch(`./data/${name}.json`, { signal: controller.signal, cache: "no-store" });
+      const response = await fetch(`/data/${name}.json`, { signal: controller.signal, cache: "no-store" });
       if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
       return response.json();
     };
