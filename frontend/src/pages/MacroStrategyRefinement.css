@@ -1,0 +1,28 @@
+.ms-executive,
+.ms-takeaway,
+.ms-strategist { display: grid; grid-template-columns: 125px 1fr; gap: 20px; padding: 15px 0; border-top: 1px solid #40505a; }
+.ms-strategist { margin-top: 3px; }
+.ms-strategist p { margin: 0; color: #fff; font-family: var(--font-editorial); font-size: 15px; font-weight: 600; line-height: 1.65; }
+.ms-table-head.is-assets,
+.ms-asset-table article.is-transmission { grid-template-columns: 180px 1.35fr 1fr; }
+.ms-risk-head,
+.ms-risk-table article { grid-template-columns: 210px minmax(0, 1fr) 190px 80px; gap: 18px; }
+.ms-risk-table .ms-trigger { color: var(--mi-ink); font-weight: 600; }
+.ms-watch-head { display: grid; grid-template-columns: 82px 1fr; gap: 8px; margin-top: 12px; padding: 7px 0; border-top: 1px solid var(--mi-line); color: var(--mi-muted); font-size: 8px; letter-spacing: .08em; text-transform: uppercase; }
+.ms-watch-grid ol { margin: 0; }
+.ms-watch-grid li { grid-template-columns: 82px 1fr; padding: 10px 0; }
+.ms-watch-grid li time { color: var(--mi-accent); font-size: 9px; font-weight: 700; }
+.ms-watch-grid li p { margin: 0; }
+@media (max-width: 900px) {
+  .ms-risk-head { display: none; }
+  .ms-risk-table article { grid-template-columns: 1fr 1fr; }
+  .ms-table-head.is-assets { display: none; }
+  .ms-asset-table article.is-transmission { grid-template-columns: 1fr 1fr; }
+  .ms-asset-table article.is-transmission h3 { grid-column: 1 / -1; }
+}
+@media (max-width: 620px) {
+  .ms-executive, .ms-takeaway, .ms-strategist { grid-template-columns: 1fr; gap: 7px; }
+  .ms-risk-table article,
+  .ms-asset-table article.is-transmission { grid-template-columns: 1fr; }
+  .ms-asset-table article.is-transmission h3 { grid-column: auto; }
+}

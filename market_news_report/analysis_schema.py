@@ -124,6 +124,10 @@ SCHEMA = {
 EVENT_SCHEMA = SCHEMA["key_events"][0]
 
 
+class MarketJSONValidationError(ValueError):
+    """Raised when market analysis JSON cannot be parsed or safely serialized."""
+
+
 def empty_market_analysis() -> dict[str, Any]:
     data = deepcopy(SCHEMA)
     data["key_events"] = []
@@ -175,7 +179,62 @@ def parse_and_validate_market_json(raw_text: str | dict[str, Any] | None) -> dic
     if not isinstance(key_events, list):
         key_events = []
     analysis["key_events"] = [_validate_event(event) for event in key_events if isinstance(event, dict)]
+    _validate_unicode_tree(analysis)
     return analysis
+
+
+def serialize_market_json(analysis: dict[str, Any]) -> tuple[dict[str, Any], str]:
+    """Validate, serialize as UTF-8 JSON, and verify an exact JSON round trip."""
+    validated = parse_and_validate_market_json(analysis)
+    try:
+        text = json.dumps(validated, ensure_ascii=False, indent=2, allow_nan=False)
+        encoded = text.encode("utf-8", errors="strict")
+        decoded = encoded.decode("utf-8", errors="strict")
+        reparsed = json.loads(decoded)
+    except (TypeError, ValueError, UnicodeError, json.JSONDecodeError) as exc:
+        raise MarketJSONValidationError(f"Market report JSON serialization failed: {exc}") from exc
+    if not isinstance(reparsed, dict):
+        raise MarketJSONValidationError("Market report JSON root must be an object after serialization.")
+    if reparsed != validated:
+        raise MarketJSONValidationError("Market report JSON changed during UTF-8 serialization round trip.")
+    return validated, text
+
+
+def write_validated_json(path: Path, payload: dict[str, Any]) -> None:
+    """Write JSON as UTF-8 and immediately verify the bytes and parsed document."""
+    validated, _ = serialize_market_json(payload)
+    write_utf8_json(path, validated)
+
+
+def write_utf8_json(path: Path, payload: dict[str, Any]) -> None:
+    """Write any JSON object as strict UTF-8 and verify the saved document."""
+    _validate_unicode_tree(payload)
+    try:
+        text = json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False)
+        encoded = text.encode("utf-8", errors="strict")
+    except (TypeError, ValueError, UnicodeError) as exc:
+        raise MarketJSONValidationError(f"JSON serialization failed for {path}: {exc}") from exc
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(encoded)
+    validate_json_file(path)
+
+
+def validate_json_file(path: Path) -> dict[str, Any]:
+    try:
+        raw = path.read_bytes()
+        text = raw.decode("utf-8", errors="strict")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise MarketJSONValidationError(f"{path}: file is not valid UTF-8: {exc}") from exc
+    try:
+        payload = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise MarketJSONValidationError(
+            f"{path}: invalid JSON at line {exc.lineno}, column {exc.colno}: {exc.msg}"
+        ) from exc
+    if not isinstance(payload, dict):
+        raise MarketJSONValidationError(f"{path}: JSON root must be an object.")
+    _validate_unicode_tree(payload, location=str(path))
+    return payload
 
 
 def normalize_report_type(value: Any) -> str:
@@ -220,24 +279,20 @@ def save_market_analysis(analysis: dict[str, Any], output_dir: Path) -> tuple[Pa
     latest_path = output_dir / "latest.json"
     history_dir = output_dir / "history"
     history_dir.mkdir(parents=True, exist_ok=True)
-    validated = parse_and_validate_market_json(analysis)
+    validated, _ = serialize_market_json(analysis)
     report_type = normalize_report_type(validated.get("report_type"))
     report_date = _report_date(validated.get("generated_at"))
     typed_path = output_dir / f"{report_type}.json"
     history_path = history_dir / f"{report_date}-{report_type}.json"
     archive_path = output_dir / f"market_analysis_{report_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    text = json.dumps(validated, ensure_ascii=False, indent=2)
-    path.write_text(text, encoding="utf-8")
-    latest_path.write_text(text, encoding="utf-8")
-    typed_path.write_text(text, encoding="utf-8")
-    history_path.write_text(text, encoding="utf-8")
-    archive_path.write_text(text, encoding="utf-8")
+    for target in (path, latest_path, typed_path, history_path, archive_path):
+        write_validated_json(target, validated)
     _write_history_index(output_dir)
     return path, archive_path
 
 
 def load_market_analysis(path: Path) -> dict[str, Any]:
-    return parse_and_validate_market_json(path.read_text(encoding="utf-8"))
+    return parse_and_validate_market_json(validate_json_file(path))
 
 
 def _write_history_index(output_dir: Path) -> Path:
@@ -249,7 +304,8 @@ def _write_history_index(output_dir: Path) -> Path:
             if not isinstance(raw_report, dict):
                 continue
             report = parse_and_validate_market_json(raw_report)
-        except (OSError, json.JSONDecodeError):
+        except (OSError, json.JSONDecodeError, MarketJSONValidationError) as exc:
+            print(f"Skipping invalid history report {history_path}: {exc}")
             continue
         events = report.get("key_events") or report.get("news_events") or []
         impact_values = [float(event.get("market_impact_score", 0)) for event in events if isinstance(event, dict)]
@@ -275,10 +331,7 @@ def _write_history_index(output_dir: Path) -> Path:
         )
     reports.sort(key=lambda item: (item.get("generated_at") or item["date"], item["report_type"]), reverse=True)
     index_path = output_dir / "history_index.json"
-    index_path.write_text(
-        json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "reports": reports}, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    write_utf8_json(index_path, {"generated_at": datetime.now(timezone.utc).isoformat(), "reports": reports})
     return index_path
 
 
@@ -295,11 +348,38 @@ def _type_from_filename(name: str) -> str:
 
 def _loads_market_json(text: str) -> dict[str, Any]:
     cleaned = _extract_json(text)
+    if not cleaned:
+        raise MarketJSONValidationError("Market report JSON is empty.")
     try:
         loaded = json.loads(cleaned)
-    except json.JSONDecodeError:
-        return {}
-    return loaded if isinstance(loaded, dict) else {}
+    except json.JSONDecodeError as exc:
+        excerpt = cleaned[max(0, exc.pos - 80) : exc.pos + 80].replace("\n", " ")
+        raise MarketJSONValidationError(
+            f"Invalid market report JSON at line {exc.lineno}, column {exc.colno}: {exc.msg}. "
+            f"Near: {excerpt!r}"
+        ) from exc
+    if not isinstance(loaded, dict):
+        raise MarketJSONValidationError(
+            f"Market report JSON root must be an object, got {type(loaded).__name__}."
+        )
+    return loaded
+
+
+def _validate_unicode_tree(value: Any, *, location: str = "market report", path: str = "$") -> None:
+    if isinstance(value, str):
+        try:
+            value.encode("utf-8", errors="strict")
+        except UnicodeEncodeError as exc:
+            raise MarketJSONValidationError(f"{location}: invalid Unicode at {path}: {exc}") from exc
+        if "\ufffd" in value:
+            raise MarketJSONValidationError(f"{location}: replacement character U+FFFD found at {path}; source text is corrupted.")
+        return
+    if isinstance(value, dict):
+        for key, item in value.items():
+            _validate_unicode_tree(item, location=location, path=f"{path}.{key}")
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            _validate_unicode_tree(item, location=location, path=f"{path}[{index}]")
 
 
 def _extract_json(text: str) -> str:

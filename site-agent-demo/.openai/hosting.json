@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "project_id": "appgprj_6a5272c55db481919ec9897184992fa5",
+  "build": { "command": "npm run build", "output": "dist" }
+}

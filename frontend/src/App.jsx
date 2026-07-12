@@ -1,8 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import AppShell from "./components/AppShell.jsx";
 import DecisionDashboard from "./pages/DecisionDashboard.jsx";
-import MacroAnalysis from "./pages/MacroAnalysis.jsx";
-import MarketAgent from "./pages/MarketAgent.jsx";
+import MacroAnalysis from "./pages/MacroStrategyAnalysis.jsx";
+import MarketAgent from "./pages/MarketAgentWorkspace.jsx";
 import NewsList from "./pages/NewsList.jsx";
 import ReportArchive from "./pages/ReportArchive.jsx";
 import { useReportData } from "./lib/useReportData.js";

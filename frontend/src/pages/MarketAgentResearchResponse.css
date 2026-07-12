@@ -1,0 +1,9 @@
+.er-numbered strong,
+.er-bullets strong { display: block; margin-bottom: 4px; color: var(--mi-ink); font-size: 12px; }
+.er-numbered small { display: block; margin-top: 5px; color: var(--mi-accent); font-size: 8px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.er-impact { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 22px; margin: 0; }
+.er-impact div { display: grid; gap: 5px; }
+.er-impact dt { color: var(--mi-accent); font-size: 8px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.er-impact dd { margin: 0; color: var(--mi-muted); font-size: 12px; line-height: 1.55; }
+.er-bullets p { margin: 4px 0 0 !important; font-family: var(--font-body) !important; font-size: 11px !important; line-height: 1.5 !important; }
+@media (max-width: 760px) { .er-impact { grid-template-columns: 1fr; } }

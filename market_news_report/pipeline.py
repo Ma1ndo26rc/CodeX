@@ -3,7 +3,14 @@ from __future__ import annotations
 import json
 import os
 
-from .analysis_schema import apply_report_metadata, load_market_analysis, normalize_report_type, save_market_analysis
+from .analysis_schema import (
+    apply_report_metadata,
+    load_market_analysis,
+    normalize_report_type,
+    parse_and_validate_market_json,
+    save_market_analysis,
+    serialize_market_json,
+)
 from .charts import generate_key_event_charts
 from .config import CONFIG
 from .emailer import send_report_email
@@ -67,6 +74,8 @@ def run_daily_job(report_type: str | None = None) -> tuple[str, str]:
         ),
     )
     analysis = analyzer.translate_market_analysis(analysis)
+    analysis = parse_and_validate_market_json(analysis)
+    serialize_market_json(analysis)
     market_analysis_path, _ = save_market_analysis(analysis, CONFIG.report_output_dir)
     market_analysis = load_market_analysis(market_analysis_path)
     build_market_context(market_analysis)

@@ -12,6 +12,7 @@ load_dotenv()
 
 @dataclass(frozen=True)
 class AppConfig:
+    market_agent_provider: str = os.getenv("MARKET_AGENT_PROVIDER", "mock")
     openai_api_key: str | None = os.getenv("OPENAI_API_KEY") or None
     openai_base_url: str | None = os.getenv("OPENAI_BASE_URL", "https://api.deepseek.com/v1") or None
     openai_model: str = os.getenv("OPENAI_MODEL", "deepseek-chat")

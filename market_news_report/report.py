@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-import json
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from .analysis_schema import parse_and_validate_market_json
+from .analysis_schema import parse_and_validate_market_json, write_validated_json
 
 
 def build_report(analysis: dict[str, Any], charts: dict[str, Path] | None = None) -> str:
@@ -100,7 +99,7 @@ def save_report(md: str, analysis: dict[str, Any], output_dir: Path) -> tuple[Pa
     md_path = output_dir / f"US_STOCK_{report_type}_{timestamp}.md"
     json_path = output_dir / f"US_STOCK_{report_type}_{timestamp}.json"
     md_path.write_text(md, encoding="utf-8")
-    json_path.write_text(json.dumps(validated, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_validated_json(json_path, validated)
     return md_path, json_path
 
 
