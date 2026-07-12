@@ -7,6 +7,16 @@
 # ========== Python ==========
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ========== Editor / Tool State ==========
+.cph/
+.vscode/
+.idea/
 
 # ========== Frontend ==========
 frontend/node_modules/
@@ -15,6 +25,15 @@ frontend/public/data/
 # ========== Logs ==========
 *.log
 logs/
+
+# ========== Temporary Files ==========
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+codex-clipboard-*.png
+site_preview*.png
 
 # ========== Reports ==========
 reports/*.json
