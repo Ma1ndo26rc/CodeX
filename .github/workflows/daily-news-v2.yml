@@ -1,0 +1,143 @@
+name: Daily Market News Update v2
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_type:
+        description: "v2 brief to generate"
+        required: true
+        default: close
+        type: choice
+        options:
+          - close
+          - premarket
+  schedule:
+    - cron: "45 12 * * 1-5"
+    - cron: "15 22 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-market-news-v2
+  cancel-in-progress: false
+
+jobs:
+  update-v2:
+    runs-on: ubuntu-latest
+
+    env:
+      V2_BRANCH: codex/v2-main
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_BASE_URL: https://api.deepseek.com/v1
+      OPENAI_MODEL: deepseek-chat
+      WORKSPACE_ROOT: ${{ github.workspace }}
+      REPORT_OUTPUT_DIR: ${{ github.workspace }}/reports
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout v2 branch
+        uses: actions/checkout@v4
+        with:
+          ref: codex/v2-main
+          fetch-depth: 0
+          token: ${{ github.token }}
+
+      - name: Verify isolated v2 checkout
+        shell: bash
+        run: |
+          current_branch="$(git branch --show-current)"
+          if [[ "$current_branch" != "$V2_BRANCH" ]]; then
+            echo "Expected $V2_BRANCH, got $current_branch" >&2
+            exit 1
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Select v2 report type
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
+          MANUAL_REPORT_TYPE: ${{ inputs.report_type }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            report_type="${MANUAL_REPORT_TYPE:-close}"
+          elif [[ "$SCHEDULE_EXPRESSION" == "45 12 * * 1-5" ]]; then
+            report_type="premarket"
+          else
+            report_type="close"
+          fi
+          echo "REPORT_TYPE=$report_type" >> "$GITHUB_ENV"
+          echo "Generating v2 $report_type market brief"
+
+      - name: Generate v2 report data
+        run: python main.py
+
+      - name: Build v2 static site
+        working-directory: frontend
+        run: npm run build
+
+      - name: Verify v2 static site
+        shell: bash
+        run: |
+          test -f site/index.html
+          test -d site/assets
+          test -f site/data/latest.json
+
+      - name: Upload v2 site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-v2-site-${{ github.run_id }}
+          path: site/
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Commit generated v2 reports and site
+        shell: bash
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add \
+            reports/latest.json \
+            reports/market_analysis.json \
+            reports/market_context.json \
+            reports/source_diagnostics.json \
+            reports/market_history.json \
+            reports/market_snapshot.json \
+            reports/market_trends.json \
+            reports/history_index.json \
+            index.html \
+            .nojekyll \
+            site/
+          for typed_report in reports/premarket.json reports/close.json; do
+            if [[ -f "$typed_report" ]]; then
+              git add "$typed_report"
+            fi
+          done
+          git add -f reports/history/
+
+          if git diff --cached --quiet; then
+            echo "No v2 report or site changes to commit."
+          else
+            git commit -m "auto(v2): update ${REPORT_TYPE} market brief"
+            git push origin HEAD:codex/v2-main
+          fi
