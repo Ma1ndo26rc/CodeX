@@ -1,56 +1,56 @@
 {
-  "market_summary": "Major US equity indices closed modestly higher on Thursday, with the S&P 500 and Nasdaq posting gains driven by semiconductor and AI-related stocks, while the Dow lagged. The session saw a tug-of-war between escalating US-Iran military tensions and positive catalysts from the tech sector, including Micron's massive US manufacturing investment, Meta's AI model upgrade, and data center infrastructure momentum. Consumer staples weighed on the market after PepsiCo's earnings miss signaled softening demand, while home prices hit a new all-time high, adding to affordability concerns. The dollar weakened slightly and Treasury yields edged lower as investors priced in a possible flight to safety but also dialed back hawkish Fed expectations.",
-  "macro_summary": "Geopolitical Cloud with a Tech Silver Lining The market is currently pricing in a contained geopolitical scenario and maintaining faith in the AI capex cycle, but any escalation in the Middle East or deterioration in consumer data could quickly shift the narrative. Positioning is tilted toward tech and away from rate-sensitive and commodity-sensitive sectors. Today's market was shaped by two opposing forces: an escalating US-Iran military confrontation that injected volatility and a simultaneous wave of positive AI-related corporate news that pulled the tape higher. The result was a narrow advance led by tech, while cyclicals and consumer stocks lagged. The regime is one of 'defensive risk-on' – investors are leaning into secular growth themes but hedging against macro and geopolitical tail risks. The macro backdrop remains bifurcated. On one hand, the labor market is still resilient (stable claims, steady payrolls), supporting the consumer base. On the other hand, home prices hitting a new peak despite falling sales signals deep affordability stress, with mortgage rates jumping on bond market jitters from Iran. The dollar dipped as safe-haven flows rotated into gold and Treasuries but were tempered by the tech rally. Oil prices slipped after initial gains as traders bet the US-Iran conflict would not escalate into a full-blown war that disrupts Hormuz flows. The Fed's next move remains data-dependent, with markets pricing in a higher probability of a cut by year-end given the geopolitical uncertainty, but still anchoring around a hold in July.",
-  "risk_summary": "Risk appetite was cautious but not panicked. The VIX stayed in the 18-19 range, down from early week highs but above its long-term median. Positioning likely saw some hedge rebalancing as the tech bounce covered short exposures. Breadth was polarizing: tech-heavy indices saw advancing issues outpace decliners, while the Dow breadth was slightly negative. Safe havens like gold and the yen were mixed; gold edged lower despite tension, suggesting some markets are pricing in a 'muddle through' scenario. Credit spreads widened modestly in high-yield but investment-grade held firm. Sentiment surveys (AAII) likely remain bearish, creating a contrarian tailwind. Overall, the tape is in a 'risk-on but hedged' regime, with AI narrative providing a powerful anchor against macro headwinds.",
+  "market_summary": "US equities closed mixed on Monday, with the Dow eking out a gain while the Nasdaq slipped, as escalating US-Iran military conflict vied with renewed AI enthusiasm for investor attention. The S&P 500 was nearly flat, with energy and defense stocks rallying on geopolitical risk, while mega-cap tech showed signs of fatigue ahead of a critical earnings week. The VIX spiked above 20, reflecting heightened uncertainty, and oil prices surged on fears of a Hormuz disruption, adding to the stagflationary anxiety that has kept bond yields range-bound.",
+  "macro_summary": "Geopolitical Shock in a Soft-Landing Narrative The market is caught between a geopolitical risk-off move and a secular AI growth story, creating a highly bifurcated tape. The next few days of data and earnings will determine which force prevails. Today's market reflects a sudden shift from a 'soft landing' / AI-driven growth regime to one where geopolitical risk is the dominant factor. The market is now pricing in a higher probability of a supply-side shock that could reignite inflation and force the Fed to maintain a hawkish stance, even as growth slows. This has created a 'risk-off' tone in most sectors, except for those directly benefiting from the conflict (energy, defense) and the AI theme, which remains a powerful secular growth story. The macro outlook is increasingly clouded by geopolitical risk, which threatens to reignite inflation through higher energy costs and disrupt global trade. The market is pricing in a higher probability of a 'stagflationary' scenario, where the Fed remains on hold or even tightens further, even as growth slows. The upcoming CPI and PPI data will be critical in determining whether the recent disinflation trend is intact or if energy prices are feeding through to core measures. The earnings season will provide a crucial test of corporate pricing power and demand resilience in this uncertain environment.",
+  "risk_summary": "Risk sentiment deteriorated notably, with the VIX surging above 20 for the first time in weeks, indicating a significant increase in hedging activity. Market breadth was negative, with declining issues outpacing advancers on both the NYSE and Nasdaq. Safe-haven assets like gold and the US dollar strengthened, while high-yield credit spreads widened. Retail stock buying slumped to its lowest level since early 2020, suggesting a cautious retail investor base. The overall tone is one of defensive positioning and heightened uncertainty, with investors waiting for clarity on both the geopolitical front and the earnings outlook.",
   "top_events": [
     {
-      "title": "US-Iran Military Conflict Intensifies with Fresh Airstrikes",
-      "summary": "The US launched new airstrikes on Iranian positions, and fighting near the Strait of Hormuz slowed tanker traffic. Oil initially rallied but later fell as markets bet the conflict remains contained. President Trump said Iran called to make a deal.",
-      "impact_score": 87.4,
-      "sentiment_score": -0.3
+      "title": "US Launches Airstrikes Against Iran After Hormuz Attack",
+      "summary": "The US military launched airstrikes against Iranian targets after Tehran attacked a container ship in the Strait of Hormuz, dramatically escalating tensions in the region and threatening global oil supplies.",
+      "impact_score": 89.7,
+      "sentiment_score": -0.8
     },
     {
-      "title": "Oil Prices Reverse as Market Bets US-Iran Conflict Will Not Escalate into Wider War",
-      "summary": "Oil prices initially jumped on news of fresh US airstrikes and Strait of Hormuz disruptions, but reversed later in the session as traders concluded that the conflict would remain limited. WTI closed the day lower by ~1%.",
+      "title": "After Iran Says Strait of Hormuz Is Closed Again, Oil’s Risk to Economy Rises Once More",
+      "summary": "Iran has reportedly closed the Strait of Hormuz again, escalating geopolitical tensions and reintroducing a significant risk to the global economy through potential oil supply disruptions.",
+      "impact_score": 86.1,
+      "sentiment_score": -0.7
+    },
+    {
+      "title": "The stock-market rally now hinges more on AI than oil",
+      "summary": "As earnings season begins, the market's direction is increasingly tied to AI investment trends rather than oil price movements, suggesting a shift in investor focus.",
+      "impact_score": 83.3,
+      "sentiment_score": 0.4
+    },
+    {
+      "title": "Gulf bourses subdued as US and Iran exchange strikes",
+      "summary": "Stock markets in the Gulf region are trading lower following direct military strikes between the US and Iran, reflecting heightened regional instability.",
+      "impact_score": 82.2,
+      "sentiment_score": -0.6
+    },
+    {
+      "title": "Meta Surges Nearly 6% on AI Optimism",
+      "summary": "Meta Platforms shares surged nearly 6% as investor optimism around its AI investments and advertising business remained strong, bucking the broader market's geopolitical-driven weakness.",
       "impact_score": 80.7,
-      "sentiment_score": 0.03
+      "sentiment_score": 0.8
     },
     {
-      "title": "Micron Announces Billions in Additional US Chipmaking Investments",
-      "summary": "Micron revealed a new round of investments to boost the US semiconductor supply chain, sending its stock up 7% and lifting the entire semiconductor sector. The move reinforces the onshoring and AI infrastructure themes.",
-      "impact_score": 80.4,
-      "sentiment_score": 0.7
+      "title": "U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says",
+      "summary": "The US has conducted airstrikes on Iranian targets following an attack on a container ship in the Strait of Hormuz, marking a significant military escalation.",
+      "impact_score": 80.0,
+      "sentiment_score": -0.7
     },
     {
-      "title": "Oil prices fall as market bets U.S.-Iran fighting won't escalate into wider war",
-      "summary": "Oil prices turned lower on Thursday after the U.S. carried out fresh strikes on Iran, renewing concerns about supply disruptions in the Middle East.",
-      "impact_score": 80.1,
-      "sentiment_score": -0.45
-    },
-    {
-      "title": "Mortgage rates jump as tensions with Iran spook bond investors",
-      "summary": "The conflict between the U.S. and Iran is driving mortgage rates up, adding hundreds of dollars a month in extra costs for prospective home buyers.",
-      "impact_score": 79.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "SK Hynix Launches $28B Nasdaq Debut, Signaling Strong Memory Demand",
-      "summary": "South Korean memory chipmaker SK Hynix launched its US listing on the Nasdaq with a $28 billion share offering, one of the largest foreign IPOs in history. The move underscores the global appetite for AI-related chip stocks.",
-      "impact_score": 78.6,
-      "sentiment_score": 0.6
-    },
-    {
-      "title": "Meta Launches New AI Coding Model to Compete with Anthropic and OpenAI",
-      "summary": "Meta upgraded its Muse Spark AI model for coding, aiming to compete with Anthropic's Claude and OpenAI. The news reversed early losses in Meta stock and contributed to the tech rally.",
-      "impact_score": 76.9,
-      "sentiment_score": 0.5
-    },
-    {
-      "title": "US Home Prices Hit Record High as Sales Fall, Deepening Affordability Crisis",
-      "summary": "June home prices reached an all-time high while sales declined month-over-month, confirming that high mortgage rates are crushing demand. Mortgage rates jumped further on Iran tensions.",
-      "impact_score": 76.4,
+      "title": "How Will Futures React To New U.S.-Iran Attacks?",
+      "summary": "Market analysts are speculating on how US equity futures will open following the latest US-Iran military strikes.",
+      "impact_score": 78.0,
       "sentiment_score": -0.5
+    },
+    {
+      "title": "Broadcom vs. Marvell: A Valuation Showdown for the Custom AI Chip Trade",
+      "summary": "A comparative analysis of Broadcom and Marvell's valuations in the custom AI chip market, highlighting potential overvaluation concerns.",
+      "impact_score": 75.7,
+      "sentiment_score": -0.3
     }
   ],
-  "sector_summary": "Positive sectors/themes: Semiconductors, AI & Data Center Infrastructure, Technology (broad), Defense (select); Negative sectors/themes: Consumer Staples, Pharmaceuticals, Homebuilders, Oil & Gas (mid-day reversal); Themes to watch: AI capex resilience vs. geopolitical premium, Consumer health divergence (luxury vs. value), Housing affordability & mortgage rate squeeze, Pharma pipeline risk after AZN failure"
+  "sector_summary": "Positive sectors/themes: Energy, Defense, Materials, Utilities; Negative sectors/themes: Consumer Discretionary, Technology (ex-AI), Real Estate, Financials; Themes to watch: Geopolitical risk premium, AI infrastructure buildout, Stagflation hedging, Earnings season divergence"
 }
