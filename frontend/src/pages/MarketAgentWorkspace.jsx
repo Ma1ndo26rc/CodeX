@@ -86,7 +86,7 @@ export default function MarketAgentWorkspace({ reportData, initialQuestion = "" 
           <div className="er-prompts">{(QUESTIONS[language] ?? QUESTIONS.en).map(([label, ...items]) => <section key={label}><span>{label}</span><div>{items.map(item => <button key={item} onClick={(e) => run(e,item)}>{item}</button>)}</div></section>)}</div>
         </section>
         {error && <div className="er-error"><AlertCircle size={15}/>{error}</div>}
-        <Output research={research} question={question} loading={loading} copy={copy} context={context} language={language}/>
+        <Output research={research} question={question} loading={loading} copy={copy} language={language}/>
       </main>
     </div>
   </div>;
@@ -101,12 +101,10 @@ function Evidence({ context, copy, language }) {
   </>}</aside>;
 }
 
-function Output({ research, question, loading, copy, context, language }) {
+function Output({ research, question, loading, copy, language }) {
   if (!research) return <section className={`er-output ${loading?"is-loading":"is-empty"}`}>{loading?<LoaderCircle className="spin" size={23}/>:<Target size={23}/>}<strong>{loading?copy.running:copy.empty}</strong><p>{copy.emptyHelp}</p></section>;
   const evidenceMap = new Map((research.evidence ?? []).map((item) => [item.id, item]));
-  const reportId = context.market_state?.report_id || [context.market_state?.report_type || "latest", context.market_state?.generated_at].filter(Boolean).join(":");
   return <article className="er-output" aria-live="polite">
-    <div className="er-metadata"><Meta label={copy.analysisType} value={formatLabel(research.analysis_type)}/><Meta label={copy.reportId} value={reportId||"latest"}/><Meta label={copy.generated} value={context.report_time?formatTimestamp(context.report_time,language):"Unavailable"}/></div>
     <header className="er-output-head"><div><span>{copy.output} / {formatLabel(research.analysis_type)}</span><h2>{research.query || question}</h2><p>QUERY · {research.query || question}</p></div><div className="er-analyst"><Metric label={copy.stance} value={formatLabel(research.stance)} tone={stanceTone(research.stance)}/><Metric label={copy.confidence} value={`${research.confidence}%`}/><Metric label={copy.analysisType} value={formatLabel(research.analysis_type)}/><Metric label={copy.horizon} value={research.market_impact?.time_horizon||"N/A"}/></div></header>
     <div className="er-document">
       <Section n="01" icon={FileText} title={copy.sections[0]}><p className="lead">{research.executive_summary}</p></Section>
@@ -128,7 +126,6 @@ function RelatedEvidence({ids=[],evidenceMap,copy}){const rows=ids.map(id=>evide
 function EvidenceTable({items=[],copy,language}){return <div className="er-evidence-table"><div className="head"><span>{copy.source}</span><span>Title</span><span>{copy.published}</span><span>{copy.impactScore}</span></div>{items.map(item=><article key={item.id}><b>{item.source||item.sources?.[0]||"Current report"}</b><p>{item.title}</p><time>{item.published_at?formatTimestamp(item.published_at,language):"—"}</time><strong>{Math.round(Number(item.impact_score)||0)}</strong></article>)}</div>}
 function Status({label,value,tone=""}){return <div className="agent-status-item"><span>{label}</span><strong className={tone}>{value??"Unavailable"}</strong></div>}
 function Metric({label,value,tone=""}){return <div><span>{label}</span><strong className={tone}>{value||"N/A"}</strong></div>}
-function Meta({label,value}){return <div><span>{label}</span><strong>{value}</strong></div>}
 
 function sentimentTone(v){return Number(v)>.1?"is-positive":Number(v)<-.1?"is-negative":"is-neutral"}
 function stanceTone(v){return /constructive|bullish|positive/i.test(v)?"is-positive":/cautious|bearish|negative/i.test(v)?"is-negative":"is-neutral"}

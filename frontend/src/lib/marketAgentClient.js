@@ -1,5 +1,6 @@
 import { createAgentRequest, normalizeResearchResponse } from "./marketAgentSchema.js";
 import { buildMockResearchResponse } from "./mockResearchResponse.js";
+import { buildRetrievedResearchContext, retrieveAgentContext } from "./agentRetrieval.js";
 
 export async function askMarketAgent({ question, context }) {
   const prompt = String(question || "").trim();
@@ -7,6 +8,8 @@ export async function askMarketAgent({ question, context }) {
 
   const endpoint = import.meta.env.VITE_MARKET_AGENT_API_URL || "/api/market-agent";
   const request = createAgentRequest({ question: prompt, context });
+  const retrieval = retrieveAgentContext(prompt, request.analysis_type, context);
+  const retrievedContext = buildRetrievedResearchContext(context, retrieval);
 
   try {
     const response = await fetch(endpoint, {
@@ -18,9 +21,9 @@ export async function askMarketAgent({ question, context }) {
     const payload = await response.json();
     return normalizeResearchResponse(payload, {
       question: prompt,
-      fallback: buildMockResearchResponse(prompt, context),
+      fallback: buildMockResearchResponse(prompt, retrievedContext),
     });
   } catch (error) {
-    return buildMockResearchResponse(prompt, context);
+    return buildMockResearchResponse(prompt, retrievedContext);
   }
 }
