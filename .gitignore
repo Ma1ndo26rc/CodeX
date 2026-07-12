@@ -41,6 +41,7 @@ reports/*.json
 !reports/premarket.json
 !reports/close.json
 !reports/market_analysis.json
+!reports/market_context.json
 !reports/source_diagnostics.json
 !reports/history_index.json
 !reports/market_history.json
@@ -61,3 +62,4 @@ reports/US_STOCK_DAILY_*.pdf
 Thumbs.db
 .agents
 .codex
+.vite/
