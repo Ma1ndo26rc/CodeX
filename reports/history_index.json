@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-10T23:11:05.227174+00:00",
+  "generated_at": "2026-07-13T15:28:45.248316+00:00",
   "reports": [
+    {
+      "date": "2026-07-13",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-13T15:27:12.491155+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-13-premarket.json",
+      "dynamic_headline": "Geopolitical shock from U.S.-Iran airstrikes and Strait of Hormuz blockade drives oil above $80, pressures tech and semiconductors, while big bank earnings loom.",
+      "dynamic_headline_zh": "美伊空袭与霍尔木兹海峡封锁引发地缘政治冲击，油价突破80美元，施压科技与半导体板块，大型银行财报即将出炉。",
+      "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq under pressure from renewed AI trade angst and a sharp sell-off in semiconductor stocks, while the Dow is supported by energy and defensive sectors. Overnight, the U.S. and Iran exchanged airstrikes, and President Trump reimposed a naval blockade on the Strait of Hormuz, charging a 20% toll on cargo, sending crude oil prices surging above $80/barrel. Tech weakness is led by SK Hynix (down 15% in Seoul) and broader chip declines, though TSMC's record June revenue provides a counterpoint. Meanwhile, big banks (JPM, GS, BAC) are set to report Q2 earnings later this week, expected to show booming revenue from IPO and volatility-related trading. The key narrative is a rotation out of growth/tech into energy, defense, and value, with the VIX elevated and breadth negative in pre-market action.",
+      "market_summary_zh": "美国股指期货开盘涨跌互现，纳斯达克因人工智能交易再度承压及半导体股大幅抛售而走低，道琼斯指数则受能源和防御性板块支撑。隔夜，美国与伊朗相互发动空袭，特朗普总统重新对霍尔木兹海峡实施海上封锁，并对过往货物征收20%的通行费，推动原油价格飙升至每桶80美元以上。科技板块疲软主要由SK海力士（首尔市场下跌15%）及更广泛的芯片股下跌引领，但台积电创纪录的6月营收提供了部分抵消。与此同时，大型银行（摩根大通、高盛、美国银行）将于本周晚些时候公布第二季度财报，预计将显示因首次公开募股和波动性相关交易而带来的强劲收入。市场核心叙事是从成长型/科技股轮动至能源、国防和价值股，恐慌指数VIX攀升，盘前交易中市场宽度为负。",
+      "event_count": 10,
+      "avg_impact": 71.5
+    },
     {
       "date": "2026-07-10",
       "report_type": "close",
