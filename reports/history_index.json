@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-13T15:40:16.114067+00:00",
+  "generated_at": "2026-07-13T23:17:16.352940+00:00",
   "reports": [
+    {
+      "date": "2026-07-13",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-13T23:15:34.971756+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-13-close.json",
+      "dynamic_headline": "Geopolitical shock and AI rotation drive a risk-off close, energy surges.",
+      "dynamic_headline_zh": "地缘政治冲击与AI板块轮动导致市场避险情绪升温，能源板块飙升。",
+      "market_summary": "US equities closed lower on Monday as escalating US-Iran military action and a proposed 20% toll on Strait of Hormuz shipping sent oil prices surging and crushed risk appetite. The tech-heavy Nasdaq led declines, dragged by a broad semiconductor selloff after SK Hynix's worst day in 18 years, while the Dow was cushioned by energy and financials. The session was defined by a sharp rotation out of growth and into value, with the VIX spiking and Treasury yields falling as investors priced in both a geopolitical risk premium and a higher probability of a Fed rate hike in July.",
+      "market_summary_zh": "美国股市周一收低，因美伊军事行动升级以及提议对霍尔木兹海峡航运征收20%通行费，导致油价飙升并打击了风险偏好。以科技股为主的纳斯达克指数领跌，受SK海力士创18年来最大单日跌幅引发的半导体板块广泛抛售拖累，而道琼斯指数则因能源和金融板块的支撑而跌幅较小。当日市场特征为明显的从成长股轮动至价值股，VIX恐慌指数飙升，美国国债收益率下跌，因投资者同时计入地缘政治风险溢价和美联储7月加息概率上升。",
+      "event_count": 10,
+      "avg_impact": 65.8
+    },
     {
       "date": "2026-07-13",
       "report_type": "premarket",

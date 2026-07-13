@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a lower open, with the Nasdaq underperforming as a sharp selloff in SK Hynix (down 15% in Seoul) spills over into the broader semiconductor complex. The S&P 500 and Dow are also under pressure as oil prices surge above $80/bbl following renewed US-Iran airstrikes and President Trump's proposed 20% toll on Strait of Hormuz cargo. Defensive sectors like healthcare and energy are attracting bids, while tech and telecom face headwinds from AI trade angst and a Starlink threat to telcos. The market is bracing for a pivotal week of earnings, with JPMorgan, Goldman Sachs, and other big banks reporting Tuesday.",
-  "macro_summary": "Geopolitical Shock and Rotation The market is repricing geopolitical risk, but the underlying earnings and growth story remains intact. The key is whether this is a buying opportunity or the start of a deeper correction. The market is in a 'risk-off but not panic' regime. The US-Iran escalation and SK Hynix rout are forcing a rotation out of high-beta tech and into energy, healthcare, and value. The move is orderly, but the VIX spike and negative breadth suggest that dip-buyers are hesitant. The market is waiting for the next catalyst, which will likely come from bank earnings or a de-escalation in the Middle East. The macro backdrop is dominated by a sudden escalation in geopolitical risk, which is complicating the inflation and rate outlook. Oil's surge above $80/bbl adds upside risk to inflation prints, potentially delaying Fed rate cuts. However, the market is still pricing in a high probability of a cut in September. The key tension is between a 'bad news is good news' regime (where weaker data supports cuts) and a 'stagflation' scenario (where higher oil and slower growth coexist).",
-  "risk_summary": "Risk appetite is clearly deteriorating. The VIX is spiking above 18, and put/call ratios are rising. Breadth is negative in pre-market, with decliners outpacing advancers 3:1 on the NYSE. The market is pricing in a higher probability of a 'hard landing' or 'stagflation' scenario, but the move is still orderly, suggesting no panic. The key risk is that the SK Hynix rout and geopolitical headlines trigger a cascade of stop-losses and forced selling in the first hour of trading.",
+  "market_summary": "US equities closed lower on Monday as escalating US-Iran military action and a proposed 20% toll on Strait of Hormuz shipping sent oil prices surging and crushed risk appetite. The tech-heavy Nasdaq led declines, dragged by a broad semiconductor selloff after SK Hynix's worst day in 18 years, while the Dow was cushioned by energy and financials. The session was defined by a sharp rotation out of growth and into value, with the VIX spiking and Treasury yields falling as investors priced in both a geopolitical risk premium and a higher probability of a Fed rate hike in July.",
+  "macro_summary": "Stagflationary Shock Regime The market is now pricing in a higher probability of a Fed policy error and a sharper economic slowdown, forcing a defensive rotation out of cyclical growth and into energy and value. Today's market action reflects a sudden shift from a 'soft landing' narrative to a 'stagflationary shock' regime. The oil price spike from the Hormuz blockade acts as a negative supply shock, simultaneously raising inflation expectations and lowering growth expectations, which is the worst possible combination for risk assets. The macro outlook has shifted decisively toward stagflation risk. The combination of a supply-driven oil price spike and a still-resilient labor market puts the Fed in a difficult position, likely keeping rates higher for longer. Growth expectations are being revised down as the geopolitical drag on confidence and spending emerges.",
+  "risk_summary": "Risk sentiment deteriorated sharply. The VIX surged above 22, reflecting heightened anxiety. Market breadth was negative, with declining issues outpacing advancers by a 3:1 ratio on the NYSE. Margin debt levels, already at elevated levels, are a growing concern as a potential source of forced selling. Safe-haven flows into Treasuries and gold were evident, though gold itself fell on the day due to a dollar rally.",
   "top_events": [
     {
-      "title": "US and Iran exchange airstrikes; Trump proposes 20% toll on Strait of Hormuz cargo",
-      "summary": "The US and Iran traded missile and drone airstrikes over the weekend. President Trump then proposed a 20% toll on cargo ships passing through the Strait of Hormuz and reimposed a naval blockade. Oil prices surged above $80/bbl.",
-      "impact_score": 87.7,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "SK Hynix shares plunge 15% in Seoul, worst day in 18 years",
-      "summary": "SK Hynix's stock had its worst single-day decline in 18 years on the Korean exchange, falling 15%. The selloff was driven by a combination of geopolitical risk, profit-taking, and concerns about AI demand. The move is spilling over into US chip stocks.",
-      "impact_score": 87.4,
+      "title": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
+      "summary": "President Trump announced a proposal to impose a 20% toll on all cargo passing through the Strait of Hormuz and reinstated the blockade on Iranian shipping, dramatically escalating tensions in the region.",
+      "impact_score": 89.7,
       "sentiment_score": -0.9
     },
     {
-      "title": "Big banks poised to report booming Q2 revenue; JPMorgan, Goldman, BofA report Tuesday",
-      "summary": "Major US banks are set to report strong Q2 results, driven by the SpaceX IPO, Iran war volatility, and a rebound in commercial lending. This is the most anticipated earnings week for the financial sector.",
-      "impact_score": 83.2,
-      "sentiment_score": 0.3
+      "title": "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
+      "summary": "Fed Governor Christopher Waller stated that the Fed should not 'fight the last war' on inflation and warned that rate hikes are still possible if inflation does not continue to moderate.",
+      "impact_score": 83.9,
+      "sentiment_score": -0.5
     },
     {
-      "title": "S&P 500 performs best when Fed keeps rates steady: HB Wealth (SPY:NYSEARCA)",
-      "summary": "HB Wealth reports that the S&P 500 performs best when the Federal Reserve keeps interest rates steady.",
-      "impact_score": 81.2,
+      "title": "Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal",
+      "summary": "Oil prices experienced their largest single-day surge since 2020 as markets price in a prolonged disruption to shipping through the Strait of Hormuz.",
+      "impact_score": 83.7,
+      "sentiment_score": 0.4
+    },
+    {
+      "title": "Stock Market, Treasuries Sink As Oil Soars On New U.S. Blockade; This Asset Also Dives",
+      "summary": "U.S. stocks and Treasuries fell sharply as oil prices surged following the announcement of a new U.S. blockade, with another asset class also declining.",
+      "impact_score": 80.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
-      "summary": "President Trump proposes a 20% toll on cargo passing through the Strait of Hormuz and restarts the naval blockade on Iran.",
-      "impact_score": 80.1,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Global oil prices top $80 a barrel after Trump reimposes Strait of Hormuz blockade and charges 20% fee for cargo shipped through",
-      "summary": "Oil prices surge above $80 per barrel following President Trump's reimposition of the Strait of Hormuz blockade and a 20% cargo fee.",
+      "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
+      "summary": "The U.S. Strategic Petroleum Reserve is being filled to capacity despite low stockpiles and equipment failures, as the administration pledges to secure the Strait of Hormuz.",
       "impact_score": 79.8,
       "sentiment_score": 0.03
     },
     {
-      "title": "Oil prices rise following the latest fighting in the Middle East, as AI stocks sink",
-      "summary": "Oil prices increase due to renewed Middle East conflict, while AI stocks decline.",
-      "impact_score": 79.1,
-      "sentiment_score": 0.03
+      "title": "SK Hynix stock falls, leads broader chip sector declines as AI trade angst returns",
+      "summary": "SK Hynix experienced its worst single-day drop in 18 years, triggering a global selloff in semiconductor stocks on fears of a peak in the AI memory cycle and overcapacity.",
+      "impact_score": 79.3,
+      "sentiment_score": -0.8
     },
     {
-      "title": "Apollo’s Slok Warns of Dollar’s Vulnerability to an AI Pullback",
-      "summary": "Apollo's chief economist Torsten Slok warns that the US dollar is vulnerable to a pullback in AI-related investments.",
-      "impact_score": 76.6,
+      "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
+      "summary": "Ahead of Q2 earnings, reports indicated that big banks are set to report booming revenue, driven by the SpaceX IPO, volatility from the Iran war, and a rebound in commercial lending.",
+      "impact_score": 76.2,
+      "sentiment_score": 0.7
+    },
+    {
+      "title": "Will Kevin Warsh Raise Interest Rates?",
+      "summary": "Speculation arises about whether Federal Reserve Chair Kevin Warsh will raise interest rates in response to current economic conditions.",
+      "impact_score": 75.6,
       "sentiment_score": 0.03
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE), Healthcare (XLV), Defense (ITA), Gold Miners (GDX); Negative sectors/themes: Semiconductors (SMH), Telecom (IYZ), Airlines (JETS), Consumer Discretionary (XLY); Themes to watch: Geopolitical risk premium, AI trade rotation, Value vs. Growth, Earnings season kickoff"
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Oil & Gas Equipment & Services; Negative sectors/themes: Semiconductors (SMH), Technology (XLK), Consumer Discretionary (XLY), Airlines (JETS); Themes to watch: Geopolitical risk premium, AI trade rotation, Value vs. Growth divergence, Commodity price inflation"
 }
