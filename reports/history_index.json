@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-13T15:28:45.248316+00:00",
+  "generated_at": "2026-07-13T23:08:55.005739+00:00",
   "reports": [
+    {
+      "date": "2026-07-13",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-13T23:07:19.175325+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-13-close.json",
+      "dynamic_headline": "Wall Street ends lower as a surge in oil prices from renewed US-Iran tensions and a sharp selloff in semiconductor stocks overwhelm positive earnings expectations.",
+      "dynamic_headline_zh": "华尔街收跌，因美伊紧张局势再度升级导致油价飙升，以及半导体板块大幅抛售，盖过了积极的盈利预期。",
+      "market_summary": "Major US equity indices closed lower on Monday, July 13, as a potent mix of escalating geopolitical risk in the Middle East and a broad-based rout in technology and semiconductor stocks soured risk appetite. The Dow Jones Industrial Average managed to limit its losses thanks to strength in energy stocks, but the tech-heavy Nasdaq Composite suffered a more significant decline. The session was defined by a classic risk-off rotation: capital flowed out of high-growth AI and chip names into energy and defensive sectors, while bond yields fell and the CBOE Volatility Index (VIX) spiked.",
+      "market_summary_zh": "美国主要股指周一（7月13日）收低，中东地缘政治风险升级与科技及半导体板块的广泛抛售共同打击了风险偏好。道琼斯工业平均指数因能源股走强而限制了跌幅，但以科技股为主的纳斯达克综合指数跌幅更大。当日市场呈现典型的避险轮动特征：资金从高增长的AI和芯片股流出，转向能源和防御性板块，同时债券收益率下降，芝加哥期权交易所波动率指数（VIX）飙升。",
+      "event_count": 10,
+      "avg_impact": 74.5
+    },
     {
       "date": "2026-07-13",
       "report_type": "premarket",
