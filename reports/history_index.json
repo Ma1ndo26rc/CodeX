@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-12T14:02:31.411824+00:00",
+  "generated_at": "2026-07-13T15:40:16.114067+00:00",
   "reports": [
+    {
+      "date": "2026-07-13",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-13T15:38:35.998540+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-13-premarket.json",
+      "dynamic_headline": "Geopolitical shock from US-Iran strikes and SK Hynix rout set a defensive tone ahead of big bank earnings.",
+      "dynamic_headline_zh": "美伊空袭与SK海力士暴跌引发地缘政治冲击，为大银行财报季奠定防御基调。",
+      "market_summary": "US equity futures are pointing to a lower open, with the Nasdaq underperforming as a sharp selloff in SK Hynix (down 15% in Seoul) spills over into the broader semiconductor complex. The S&P 500 and Dow are also under pressure as oil prices surge above $80/bbl following renewed US-Iran airstrikes and President Trump's proposed 20% toll on Strait of Hormuz cargo. Defensive sectors like healthcare and energy are attracting bids, while tech and telecom face headwinds from AI trade angst and a Starlink threat to telcos. The market is bracing for a pivotal week of earnings, with JPMorgan, Goldman Sachs, and other big banks reporting Tuesday.",
+      "market_summary_zh": "美国股指期货指向低开，纳斯达克表现落后，因SK海力士（首尔跌15%）的急剧抛售蔓延至整个半导体板块。标普500指数和道琼斯指数也承压，油价在美伊新一轮空袭及特朗普总统提议对霍尔木兹海峡货物征收20%通行费后飙升至每桶80美元以上。医疗保健和能源等防御性板块吸引买盘，而科技和电信板块则面临人工智能交易焦虑及星链对电信公司威胁的不利因素。市场正为关键财报周做准备，摩根大通、高盛及其他大型银行将于周二公布业绩。",
+      "event_count": 10,
+      "avg_impact": 68.5
+    },
     {
       "date": "2026-07-12",
       "report_type": "close",
