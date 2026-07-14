@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-14T14:33:37.829137+00:00",
+  "generated_at": "2026-07-14T23:15:55.003360+00:00",
   "reports": [
+    {
+      "date": "2026-07-14",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-14T23:14:13.500540+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-14-close.json",
+      "dynamic_headline": "Cooler CPI and record bank profits lift stocks, but IBM's crash and Iran tensions cap gains.",
+      "dynamic_headline_zh": "CPI数据降温与银行利润创纪录提振股市，但IBM暴跌及伊朗紧张局势限制涨幅。",
+      "market_summary": "U.S. equities ended higher on Tuesday, with the S&P 500 and Nasdaq posting solid gains, as a softer-than-expected June CPI report eased fears of further Fed rate hikes. The Dow lagged, dragged down by IBM's historic 25% plunge after a surprise earnings warning, but broad market breadth was positive, led by financials and semiconductors. The session was characterized by a rotation into rate-sensitive sectors and a relief rally in growth stocks, though geopolitical risks from renewed U.S.-Iran hostilities and a spike in oil prices kept a lid on the advance.",
+      "market_summary_zh": "美国股市周二收高，标普500指数和纳斯达克指数录得稳健涨幅，因6月CPI数据弱于预期，缓解了对美联储进一步加息的担忧。道琼斯指数表现落后，受IBM因意外盈利预警暴跌25%拖累，但市场广度积极，金融和半导体板块领涨。本交易日的特点是资金轮动至利率敏感型板块，成长股出现 relief rally，但美伊冲突再度升级带来的地缘政治风险以及油价飙升限制了涨势。",
+      "event_count": 10,
+      "avg_impact": 64.5
+    },
     {
       "date": "2026-07-14",
       "report_type": "premarket",
