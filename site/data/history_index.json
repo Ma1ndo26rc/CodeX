@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-13T23:08:55.005739+00:00",
+  "generated_at": "2026-07-14T14:30:33.505296+00:00",
   "reports": [
+    {
+      "date": "2026-07-14",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-14T14:29:08.076659+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-14-premarket.json",
+      "dynamic_headline": "Futures rally on cooler-than-expected June CPI, but IBM's 23% crash and escalating Iran conflict create a two-way risk for the open.",
+      "dynamic_headline_zh": "期货因6月CPI低于预期而上涨，但IBM暴跌23%及伊朗冲突升级为开盘带来双向风险。",
+      "market_summary": "S&P 500 futures are pointing to a positive open after the June CPI report came in below expectations (3.5% YoY vs 3.8% est.), reducing the odds of a Fed rate hike. However, a massive 23% plunge in IBM shares following a surprise Q2 earnings warning is weighing on the tech sector, dragging down software and IT services names. The macro backdrop is complicated by a third consecutive night of U.S. strikes on Iran and Tehran's retaliation against tankers in the Strait of Hormuz, pushing oil above $80. Bank earnings from JPMorgan, Goldman Sachs, and Bank of America were strong, providing a floor for the financial sector. The pre-market setup is a tug-of-war between disinflation optimism and geopolitical/earnings-driven dispersion.",
+      "market_summary_zh": "在6月CPI报告低于预期（同比3.5%，预期3.8%）后，标普500期货指向开盘上涨，降低了美联储加息的可能性。然而，IBM因意外发布第二季度盈利预警而暴跌23%，拖累科技板块，并波及软件和IT服务类股。宏观背景因美国连续第三晚对伊朗发动打击以及德黑兰对霍尔木兹海峡油轮的报复行动而变得复杂，推动油价突破80美元。摩根大通、高盛和美国银行的银行业绩强劲，为金融板块提供了支撑。盘前市场呈现通缩乐观情绪与地缘政治/盈利驱动的分化之间的拉锯战。",
+      "event_count": 9,
+      "avg_impact": 70.56
+    },
     {
       "date": "2026-07-13",
       "report_type": "close",
