@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities closed lower on Monday as escalating US-Iran military action and a proposed 20% toll on Strait of Hormuz shipping sent oil prices surging and crushed risk appetite. The tech-heavy Nasdaq led declines, dragged by a broad semiconductor selloff after SK Hynix's worst day in 18 years, while the Dow was cushioned by energy and financials. The session was defined by a sharp rotation out of growth and into value, with the VIX spiking and Treasury yields falling as investors priced in both a geopolitical risk premium and a higher probability of a Fed rate hike in July.",
-  "macro_summary": "Stagflationary Shock Regime The market is now pricing in a higher probability of a Fed policy error and a sharper economic slowdown, forcing a defensive rotation out of cyclical growth and into energy and value. Today's market action reflects a sudden shift from a 'soft landing' narrative to a 'stagflationary shock' regime. The oil price spike from the Hormuz blockade acts as a negative supply shock, simultaneously raising inflation expectations and lowering growth expectations, which is the worst possible combination for risk assets. The macro outlook has shifted decisively toward stagflation risk. The combination of a supply-driven oil price spike and a still-resilient labor market puts the Fed in a difficult position, likely keeping rates higher for longer. Growth expectations are being revised down as the geopolitical drag on confidence and spending emerges.",
-  "risk_summary": "Risk sentiment deteriorated sharply. The VIX surged above 22, reflecting heightened anxiety. Market breadth was negative, with declining issues outpacing advancers by a 3:1 ratio on the NYSE. Margin debt levels, already at elevated levels, are a growing concern as a potential source of forced selling. Safe-haven flows into Treasuries and gold were evident, though gold itself fell on the day due to a dollar rally.",
+  "market_summary": "US equity futures are pointing to a mixed open as a cooler-than-expected June CPI report and blockbuster bank earnings from JPMorgan and Bank of America are offset by a catastrophic 23% plunge in IBM shares and escalating military conflict with Iran. The data supports a pause in rate-hike fears, but the tech sector faces a major headwind from IBM's warning, while energy and defense stocks are bid on geopolitical tensions.",
+  "macro_summary": "Disinflation with Geopolitical Overlay The market is in a 'good news/bad news' regime where disinflation is good for rates and cyclicals, but the tech sector is vulnerable to idiosyncratic shocks and the geopolitical backdrop adds a stagflationary tail risk. Today's market is characterized by a positive macro surprise (cooler CPI) that is being partially offset by a severe company-specific shock (IBM) and an escalating geopolitical crisis (Iran). The market is pricing in a lower probability of Fed tightening, but the risk of a supply-driven inflation spike from higher oil prices is keeping the outlook uncertain. The macro outlook is cautiously constructive as the June CPI report provides the first meaningful evidence that inflation is decelerating, reducing the probability of a hawkish surprise from the Fed. However, the geopolitical backdrop remains highly volatile with the Iran conflict disrupting energy markets and trade routes. The economy is showing resilience, as highlighted by Bank of America CEO Moynihan's 'more durable than expected' comment, but the labor market and consumer spending data will be key to sustaining the soft-landing narrative.",
+  "risk_summary": "Risk sentiment is mixed. The VIX is likely to open elevated around 18-19 due to the IBM shock and geopolitical headlines. Breadth is expected to be negative in tech and positive in energy, financials, and defense. The 'risk-on' move from the CPI data is being partially offset by a 'risk-off' bid into gold and Treasuries. The market is pricing in a higher probability of a Fed pause, but the Iran situation introduces a stagflationary risk that could cap equity upside.",
   "top_events": [
     {
-      "title": "Trump proposes 20% toll on cargo through Strait of Hormuz; restarts Iran blockade",
-      "summary": "President Trump announced a proposal to impose a 20% toll on all cargo passing through the Strait of Hormuz and reinstated the blockade on Iranian shipping, dramatically escalating tensions in the region.",
-      "impact_score": 89.7,
-      "sentiment_score": -0.9
+      "title": "June CPI Misses Expectations, Cooling to 3.5% YoY",
+      "summary": "The consumer price index rose 3.5% year-over-year in June, below the 3.8% consensus estimate, driven by a decline in energy prices. This is the first meaningful downside surprise in inflation data in months.",
+      "impact_score": 90.7,
+      "sentiment_score": 0.6
     },
     {
-      "title": "Waller says Fed shouldn't 'fight the last war' on inflation but warns hikes still possible",
-      "summary": "Fed Governor Christopher Waller stated that the Fed should not 'fight the last war' on inflation and warned that rate hikes are still possible if inflation does not continue to moderate.",
-      "impact_score": 83.9,
+      "title": "US Strikes Iran for Third Day; Tehran Attacks Tankers in Hormuz",
+      "summary": "The US conducted a third consecutive night of strikes against Iranian military assets. In retaliation, Tehran attacked tankers in the Strait of Hormuz, pushing oil prices above $80.",
+      "impact_score": 86.5,
       "sentiment_score": -0.5
     },
     {
-      "title": "Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal",
-      "summary": "Oil prices experienced their largest single-day surge since 2020 as markets price in a prolonged disruption to shipping through the Strait of Hormuz.",
-      "impact_score": 83.7,
-      "sentiment_score": 0.4
+      "title": "Fed Chair Warsh Testifies: 'No Tolerance for Persistently Elevated Inflation'",
+      "summary": "In prepared remarks for his testimony, Fed Chair Kevin Warsh stated the Fed has 'no tolerance for persistently elevated inflation' and pledged to 'get monetary policy right.' He also cited the benefits of the AI investment boom.",
+      "impact_score": 84.2,
+      "sentiment_score": -0.25
     },
     {
-      "title": "Stock Market, Treasuries Sink As Oil Soars On New U.S. Blockade; This Asset Also Dives",
-      "summary": "U.S. stocks and Treasuries fell sharply as oil prices surged following the announcement of a new U.S. blockade, with another asset class also declining.",
-      "impact_score": 80.2,
-      "sentiment_score": 0.03
+      "title": "JPMorgan Reports Record Q2 Profit; CEO Dimon Says Market 'Booming'",
+      "summary": "JPMorgan reported a record quarterly profit, driven by a surge in equity markets revenue from the SpaceX IPO and volatility from the Iran conflict. CEO Jamie Dimon described the banking environment as 'close to as good as it gets.'",
+      "impact_score": 83.8,
+      "sentiment_score": 0.8
     },
     {
-      "title": "The U.S. is maxing out its strategic oil reserves as Trump vows to control the Strait of Hormuz",
-      "summary": "The U.S. Strategic Petroleum Reserve is being filled to capacity despite low stockpiles and equipment failures, as the administration pledges to secure the Strait of Hormuz.",
-      "impact_score": 79.8,
-      "sentiment_score": 0.03
+      "title": "IBM Stock Crashes 23% on Q2 Earnings Warning",
+      "summary": "IBM pre-announced a significant Q2 earnings miss, citing weakness in software and infrastructure as clients shifted spending toward hardware. The stock is experiencing its worst single-day decline in history.",
+      "impact_score": 80.0,
+      "sentiment_score": -0.9
     },
     {
-      "title": "SK Hynix stock falls, leads broader chip sector declines as AI trade angst returns",
-      "summary": "SK Hynix experienced its worst single-day drop in 18 years, triggering a global selloff in semiconductor stocks on fears of a peak in the AI memory cycle and overcapacity.",
-      "impact_score": 79.3,
-      "sentiment_score": -0.8
+      "title": "Oil prices are back above $80 on renewed US-Iran tensions",
+      "summary": "Oil prices have risen above $80 per barrel, driven by escalating geopolitical tensions between the United States and Iran.",
+      "impact_score": 77.9,
+      "sentiment_score": -0.16
     },
     {
-      "title": "Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility",
-      "summary": "Ahead of Q2 earnings, reports indicated that big banks are set to report booming revenue, driven by the SpaceX IPO, volatility from the Iran war, and a rebound in commercial lending.",
-      "impact_score": 76.2,
-      "sentiment_score": 0.7
+      "title": "Wall Street rises after light inflation print, higher oil prices (SP500:)",
+      "summary": "U.S. stock markets advanced following a benign inflation report, despite the concurrent rise in oil prices.",
+      "impact_score": 76.0,
+      "sentiment_score": -0.25
     },
     {
-      "title": "Will Kevin Warsh Raise Interest Rates?",
-      "summary": "Speculation arises about whether Federal Reserve Chair Kevin Warsh will raise interest rates in response to current economic conditions.",
-      "impact_score": 75.6,
-      "sentiment_score": 0.03
+      "title": "Global shipping industry sounds the alarm over Trump’s Hormuz toll plan",
+      "summary": "Major shipping companies, including Hapag-Lloyd, are criticizing a proposed plan to charge tolls for passage through the Strait of Hormuz, calling it fundamentally wrong.",
+      "impact_score": 75.7,
+      "sentiment_score": -0.3
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Oil & Gas Equipment & Services; Negative sectors/themes: Semiconductors (SMH), Technology (XLK), Consumer Discretionary (XLY), Airlines (JETS); Themes to watch: Geopolitical risk premium, AI trade rotation, Value vs. Growth divergence, Commodity price inflation"
+  "sector_summary": "Positive sectors/themes: Energy (XLE): Benefiting from oil above $80 on Iran conflict., Financials (XLF): Boosted by strong bank earnings and a steepening yield curve., Defense (ITA): Elevated geopolitical risk drives demand for defense contractors., Homebuilders (XHB): Lower rates from CPI miss support housing demand.; Negative sectors/themes: Software & IT Services: IBM's warning is causing a sector-wide sell-off., Consumer Discretionary: Rising oil prices and geopolitical uncertainty could dampen spending., Semiconductors: Mixed signals; AI demand is strong but IBM's hardware weakness is a concern.; Themes to watch: Disinflation Trade: The CPI data supports a rotation into rate-sensitive and cyclical sectors., Geopolitical Risk Premium: The Iran conflict is driving a bid in energy, defense, and safe havens., Tech Sector Divergence: AI-related names (GOOGL, NVDA) may hold up better than legacy tech (IBM, AAPL)."
 }

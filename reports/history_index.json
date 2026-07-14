@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-13T23:17:16.352940+00:00",
+  "generated_at": "2026-07-14T14:33:37.829137+00:00",
   "reports": [
+    {
+      "date": "2026-07-14",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-14T14:32:00.983610+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-14-premarket.json",
+      "dynamic_headline": "Cooler CPI and booming bank earnings set a bullish tone, but IBM's crash and geopolitical risks cap risk appetite.",
+      "dynamic_headline_zh": "CPI数据降温与银行业绩强劲奠定看涨基调，但IBM暴跌及地缘政治风险抑制风险偏好",
+      "market_summary": "US equity futures are pointing to a mixed open as a cooler-than-expected June CPI report and blockbuster bank earnings from JPMorgan and Bank of America are offset by a catastrophic 23% plunge in IBM shares and escalating military conflict with Iran. The data supports a pause in rate-hike fears, but the tech sector faces a major headwind from IBM's warning, while energy and defense stocks are bid on geopolitical tensions.",
+      "market_summary_zh": "美国股指期货开盘涨跌互现，6月CPI数据低于预期以及摩根大通和美国银行公布的强劲业绩，被IBM股价暴跌23%以及伊朗军事冲突升级所抵消。数据支持加息担忧暂停，但科技板块面临IBM预警的重大逆风，而能源和国防股因地缘政治紧张局势而获得买盘。",
+      "event_count": 10,
+      "avg_impact": 76.5
+    },
     {
       "date": "2026-07-13",
       "report_type": "close",
