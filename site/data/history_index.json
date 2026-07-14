@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-14T14:30:33.505296+00:00",
+  "generated_at": "2026-07-14T23:08:39.030804+00:00",
   "reports": [
+    {
+      "date": "2026-07-14",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-14T23:07:02.446852+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-14-close.json",
+      "dynamic_headline": "Wall Street rallies as cooler-than-expected June CPI data eases rate-hike fears and record bank earnings offset a historic IBM profit warning and escalating US-Iran tensions.",
+      "dynamic_headline_zh": "华尔街因6月CPI数据低于预期而反弹，缓解加息担忧，创纪录的银行盈利抵消了IBM历史性盈利预警及美伊紧张局势升级的影响。",
+      "market_summary": "US equities closed higher on Tuesday, with the S&P 500 and Nasdaq posting solid gains, driven by a softer-than-expected June CPI print that reduced the probability of further Federal Reserve rate hikes. The Dow Jones Industrial Average eked out a marginal gain, held back by a record 25% plunge in IBM shares following a surprise earnings warning. The broader market advance was broad-based, led by financials, semiconductors, and cybersecurity stocks, while energy shares also rose on a spike in oil prices after the US launched new airstrikes on Iran. The session saw a clear rotation into rate-sensitive and cyclical sectors, with the Russell 2000 outperforming.",
+      "market_summary_zh": "美国股市周二收高，标普500指数和纳斯达克指数录得稳健涨幅，受6月CPI数据低于预期推动，该数据降低了美联储进一步加息的可能性。道琼斯工业平均指数微幅上涨，但因IBM发布意外盈利预警后股价暴跌25%而承压。市场上涨范围广泛，金融、半导体和网络安全股领涨，能源股也因美国对伊朗发动新一轮空袭后油价飙升而上涨。当日市场明显轮动至利率敏感型和周期性板块，罗素2000指数表现优于大盘。",
+      "event_count": 10,
+      "avg_impact": 69
+    },
     {
       "date": "2026-07-14",
       "report_type": "premarket",
