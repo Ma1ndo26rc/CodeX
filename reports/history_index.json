@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-15T14:27:33.424461+00:00",
+  "generated_at": "2026-07-15T23:09:34.939096+00:00",
   "reports": [
+    {
+      "date": "2026-07-15",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-15T23:08:12.101425+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-15-close.json",
+      "dynamic_headline": "Wall Street closes higher as cooling wholesale inflation and blockbuster bank earnings offset a historic IBM crash and escalating Middle East tensions.",
+      "dynamic_headline_zh": "华尔街收盘走高，批发通胀降温与银行巨头靓丽财报抵消了IBM历史性暴跌及中东紧张局势升级的影响。",
+      "market_summary": "US equity markets closed higher on Wednesday, with the S&P 500 and Nasdaq Composite gaining ground, driven by a surprise decline in June wholesale prices and record quarterly results from Morgan Stanley. The Dow Jones Industrial Average also rose, supported by strength in financials and select tech names, even as IBM suffered its worst single-day drop in history. The session was characterized by a rotation out of high-momentum names into value and financials, with the small-cap Russell 2000 outperforming. Treasury yields fell on the inflation data, while the VIX remained elevated above 18, reflecting lingering geopolitical risk from the Middle East.",
+      "market_summary_zh": "美国股市周三收高，受6月批发价格意外下跌和摩根士丹利创纪录的季度业绩推动，标普500指数和纳斯达克综合指数均录得上涨。道琼斯工业平均指数亦走高，金融股及部分科技股的强势表现提供了支撑，尽管IBM遭遇了其历史上最大单日跌幅。当日市场特征表现为从高动能股轮动至价值股和金融股，小型股罗素2000指数表现优于大盘。通胀数据公布后，国债收益率下跌，而VIX指数仍维持在18以上的高位，反映出中东地缘政治风险的持续存在。",
+      "event_count": 10,
+      "avg_impact": 69.0
+    },
     {
       "date": "2026-07-15",
       "report_type": "premarket",
