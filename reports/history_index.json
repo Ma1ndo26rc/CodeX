@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-14T23:15:55.003360+00:00",
+  "generated_at": "2026-07-15T14:32:18.153827+00:00",
   "reports": [
+    {
+      "date": "2026-07-15",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-15T14:30:25.178275+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-15-premarket.json",
+      "dynamic_headline": "Futures point higher as soft PPI and ASML's AI-driven outlook reinforce a disinflationary, pro-growth narrative ahead of the open.",
+      "dynamic_headline_zh": "期货走高，因PPI疲软及ASML的AI驱动前景在开盘前强化了反通胀、促增长的叙事。",
+      "market_summary": "US equity futures are indicating a positive open, extending yesterday's gains, as a surprise decline in June wholesale prices and a second guidance raise from ASML bolster confidence in a soft landing and sustained AI investment. The overnight session saw a constructive risk tone, with the tech-heavy Nasdaq 100 leading, while geopolitical tensions in the Middle East and rising mortgage rates present underappreciated headwinds. The key setup for today's cash session is whether the positive macro data and earnings momentum can overcome lingering valuation concerns and a cautious tone from Fed officials.",
+      "market_summary_zh": "美国股指期货预示开盘上涨，延续昨日涨势，因7月批发价格意外下跌以及ASML第二次上调指引增强了市场对软着陆和AI投资持续性的信心。隔夜时段风险情绪积极，科技股为主的纳斯达克100指数领涨，而中东地缘政治紧张局势和抵押贷款利率上升则构成了未被充分认识的不利因素。今日现货交易时段的关键在于，积极的宏观数据和盈利势头能否克服持续的估值担忧和美联储官员的谨慎论调。",
+      "event_count": 10,
+      "avg_impact": 63.5
+    },
     {
       "date": "2026-07-14",
       "report_type": "close",

@@ -1,56 +1,56 @@
 {
-  "market_summary": "U.S. equities ended higher on Tuesday, with the S&P 500 and Nasdaq posting solid gains, as a softer-than-expected June CPI report eased fears of further Fed rate hikes. The Dow lagged, dragged down by IBM's historic 25% plunge after a surprise earnings warning, but broad market breadth was positive, led by financials and semiconductors. The session was characterized by a rotation into rate-sensitive sectors and a relief rally in growth stocks, though geopolitical risks from renewed U.S.-Iran hostilities and a spike in oil prices kept a lid on the advance.",
-  "macro_summary": "Disinflation Reasserts, But Geopolitical Risk Looms The market is in a 'good news is good news' phase, but the good news (CPI) is being partially offset by bad news (geopolitics). The focus is now on whether the Fed will validate the market's dovish interpretation of the data. Today's market was driven by a clear shift in the macro narrative. The June CPI report provided the first definitive evidence that the disinflation trend is back on track, allowing the market to look past the recent hawkish Fed rhetoric. However, the rally was tempered by a sharp escalation in U.S.-Iran tensions, which injected a new source of uncertainty and pushed oil prices higher. The market is now pricing a 'Goldilocks' scenario where inflation cools without a recession, but this is being challenged by a geopolitical risk premium. The macro outlook is cautiously improving. The June CPI data, which showed a deceleration to 3.5% YoY, provides the first tangible evidence that the disinflation trend is reasserting itself after a sticky start to the year. This reduces the urgency for the Fed to hike further and supports the 'soft landing' narrative. However, the geopolitical backdrop remains a key risk, with the U.S.-Iran conflict threatening energy supply and adding to cost pressures. The market is now pricing in a higher probability of a rate cut in early 2027.",
-  "risk_summary": "Risk appetite improved today, but with a cautious undertone. The VIX, while declining from recent highs, remained above 16, suggesting that investors are not fully complacent. Breadth was positive, but the market's inability to hold intraday highs into the close points to some profit-taking. The rally was led by sectors that benefit from lower rates (Financials, Real Estate) and AI-related tech, while defensive sectors lagged. The key risk is that the 'good news' on inflation is already priced in, leaving the market vulnerable to any hawkish commentary from Fed Chair Warsh or a further escalation in the Middle East.",
+  "market_summary": "US equity futures are indicating a positive open, extending yesterday's gains, as a surprise decline in June wholesale prices and a second guidance raise from ASML bolster confidence in a soft landing and sustained AI investment. The overnight session saw a constructive risk tone, with the tech-heavy Nasdaq 100 leading, while geopolitical tensions in the Middle East and rising mortgage rates present underappreciated headwinds. The key setup for today's cash session is whether the positive macro data and earnings momentum can overcome lingering valuation concerns and a cautious tone from Fed officials.",
+  "macro_summary": "Disinflationary Growth with AI Tailwind The market is currently in a 'bad news is good news' regime for inflation data, but this is conditional on growth not deteriorating. The main focus is on whether the AI capex cycle can sustain earnings momentum across the broader market. Today's market is driven by a powerful confluence of a disinflationary macro data point (PPI) and a company-specific catalyst (ASML) that reinforces the dominant AI growth narrative. This combination is allowing the market to look past geopolitical risks and focus on the potential for a soft landing with continued earnings growth from the tech sector. The macro outlook is characterized by a 'Goldilocks' narrative, where growth is slowing enough to cool inflation but not enough to tip into recession. The surprise decline in PPI supports this view, but the labor market remains tight, and geopolitical risks to energy supply complicate the inflation trajectory. The market is pricing in a soft landing, but the margin for error is thin.",
+  "risk_summary": "Risk appetite is constructive but not euphoric. The VIX is hovering around 15, indicating low fear, but breadth remains narrow. The put/call ratio is neutral, suggesting a lack of extreme positioning. The primary risk is that the market is too complacent about the Fed's ability to cut rates given sticky services inflation and the potential for a renewed energy shock. The rally is being driven by a handful of mega-cap tech names, leaving the market vulnerable to a rotation or a sharp reversal on any negative catalyst.",
   "top_events": [
     {
-      "title": "June CPI Misses Expectations, Easing Rate Hike Fears",
-      "summary": "The consumer price index rose 3.5% year-over-year in June, below the 3.8% consensus estimate, driven by a decline in energy prices. This was the first downside surprise in months.",
-      "impact_score": 90.7,
-      "sentiment_score": 0.7
-    },
-    {
-      "title": "JPMorgan Posts Highest Quarterly Profit Ever",
-      "summary": "JPMorgan Chase reported record quarterly profit, driven by a surge in trading and investment banking revenue. Goldman Sachs also reported strong results, highlighting the benefits of the SpaceX IPO and Iran war volatility.",
-      "impact_score": 87.0,
+      "title": "June Wholesale Prices Unexpectedly Decline 0.3%",
+      "summary": "The Producer Price Index (PPI) fell 0.3% month-over-month in June, driven by a sharp drop in gasoline prices. This was a significant downside surprise compared to expectations for a modest increase.",
+      "impact_score": 88.7,
       "sentiment_score": 0.8
     },
     {
-      "title": "Asian Stocks Poised to Track US Gains on Soft CPI: Markets Wrap",
-      "summary": "Asian Stocks Poised to Track US Gains on Soft CPI: Markets Wrap Bloomberg.com",
-      "impact_score": 82.7,
+      "title": "ASML Raises Outlook for Second Time on AI Chip Demand",
+      "summary": "ASML raised its full-year sales forecast for the second time this year, citing 'strong orders for advanced chipmaking equipment' driven by insatiable demand for AI chips from its customers.",
+      "impact_score": 84.0,
+      "sentiment_score": 0.9
+    },
+    {
+      "title": "New York Fed President Williams says inflation has peaked, rates 'well positioned'",
+      "summary": "Williams cited five reasons why he expects the latest price surge has run its course.",
+      "impact_score": 83.9,
+      "sentiment_score": 0.25
+    },
+    {
+      "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
+      "summary": "As with consumer prices, the index benefited from easing energy costs, particularly as oil fell due to the brief pause in tensions between the U.S. and Iran.",
+      "impact_score": 80.2,
+      "sentiment_score": 0.2
+    },
+    {
+      "title": "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pandemic",
+      "summary": "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pandemic 24/7 Wall St.",
+      "impact_score": 79.2,
+      "sentiment_score": 0.55
+    },
+    {
+      "title": "July Fed Rate Hike Odds Drop Below 17% After Lower CPI Report",
+      "summary": "July Fed Rate Hike Odds Drop Below 17% After Lower CPI Report KuCoin",
+      "impact_score": 79.2,
+      "sentiment_score": 0.55
+    },
+    {
+      "title": "US Launches Fresh Wave of Strikes on Iran",
+      "summary": "The United States launched a fresh wave of airstrikes on Iranian targets, escalating the conflict. Analysts warn that the situation risks becoming a 'forever war' with no clear off-ramp.",
+      "impact_score": 76.2,
+      "sentiment_score": -0.5
+    },
+    {
+      "title": "US Stock Market Prediction Today (July 15): S&P 500 Futures Ease, Nasdaq Futures Rise as CPI Data, Treasury Yields & Strait of Hormuz Oil Risks Stay in Focus",
+      "summary": "US Stock Market Prediction Today (July 15): S&P 500 Futures Ease, Nasdaq Futures Rise as CPI Data, Treasury Yields & Strait of Hormuz Oil Risks Stay in Focus The Sunday Guardian",
+      "impact_score": 75.6,
       "sentiment_score": 0.16
-    },
-    {
-      "title": "The Federal Reserve's 2021 transitory inflation judgment was 'completely wrong,' economist says",
-      "summary": "The Federal Reserve's 2021 transitory inflation judgment was 'completely wrong,' economist says Fox Business",
-      "impact_score": 75.7,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "New York Becomes First State to Ban Hyperscale AI Data Centers",
-      "summary": "New York Governor Hochul signed an executive order imposing a one-year ban on the construction of new 'hyperscale' AI data centers, citing energy and environmental concerns.",
-      "impact_score": 75.6,
-      "sentiment_score": -0.4
-    },
-    {
-      "title": "Jim Cramer says concerns about AI market froth are overblown. Here's why",
-      "summary": "CNBC's Jim Cramer said today's stock market is far less concerning than it was during the dot-com bubble.",
-      "impact_score": 75.6,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "IBM Stock Craters 25% on Earnings Warning",
-      "summary": "IBM issued a surprise preliminary Q2 earnings warning, citing a shift in client spending from software to hardware (memory). The stock suffered its worst single-day decline ever.",
-      "impact_score": 75.5,
-      "sentiment_score": -0.9
-    },
-    {
-      "title": "Press Release: Young Kim Discusses Federal Reserve Monetary Policy in House Hearing",
-      "summary": "Press Release: Young Kim Discusses Federal Reserve Monetary Policy in House Hearing Quiver Quantitative",
-      "impact_score": 75.5,
-      "sentiment_score": 0.03
     }
   ],
-  "sector_summary": "Positive sectors/themes: Financials (XLF): Record bank earnings and a steeper yield curve., Energy (XLE): Surge in oil prices due to Iran conflict., Semiconductors (SMH): Rebound on AI demand and SK Hynix surge., Cybersecurity: Rally on IBM's comments about AI spending shifts.; Negative sectors/themes: Software (IGV): IBM's warning casts a shadow on enterprise software spending., Consumer Discretionary (XLY): Rising oil prices and inflation concerns., Utilities (XLU): New York data center ban creates regulatory headwind.; Themes to watch: AI Infrastructure vs. AI Software: The IBM warning suggests a rotation in AI spending from software to hardware., Geopolitical Risk Premium: The Iran conflict is adding a new layer of uncertainty and driving energy prices., The 'Soft Landing' Trade: The CPI data is reviving the narrative that the Fed can avoid a hard landing, benefiting cyclicals and small caps."
+  "sector_summary": "Positive sectors/themes: Semiconductors (ASML, NVDA, AMD), Large-cap Tech (MSFT, AAPL, GOOGL), Investment Banks (MS, GS, JPM), Digital Payments (PYPL, SQ); Negative sectors/themes: Homebuilders & REITs (rising mortgage rates), Small Caps (Russell 2000 lagging), Consumer Staples (defensive rotation out), Energy (despite geopolitical risk, PPI drop suggests demand weakness); Themes to watch: AI Infrastructure Buildout, Financial Sector Earnings Momentum, M&A / Private Equity Activity, Geopolitical Risk & Energy Security"
 }
