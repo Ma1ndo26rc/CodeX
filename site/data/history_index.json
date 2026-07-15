@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-14T23:08:39.030804+00:00",
+  "generated_at": "2026-07-15T14:27:33.424461+00:00",
   "reports": [
+    {
+      "date": "2026-07-15",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-15T14:25:47.827917+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-15-premarket.json",
+      "dynamic_headline": "Futures point to a higher open as softer PPI data, a blockbuster ASML earnings report, and a mega-cap PayPal buyout offer fuel risk-on sentiment, but escalating US-Iran hostilities and rising mortgage rates temper the rally.",
+      "dynamic_headline_zh": "期货盘前走高：PPI数据疲软、ASML财报亮眼及PayPal巨额收购要约提振风险偏好，但美伊冲突升级与房贷利率攀升抑制涨势",
+      "market_summary": "US equity futures are trading firmly in the green ahead of the cash open, building on yesterday's gains. The catalyst is a confluence of positive overnight developments: a surprise decline in June wholesale inflation (PPI -0.3% m/m), a second guidance raise from chip-equipment giant ASML on AI demand, and a $53 billion buyout offer for PayPal from Stripe and Advent. This is offset by renewed US airstrikes on Iran, which are keeping energy prices elevated and adding a geopolitical risk premium. The setup suggests a risk-on open led by Tech and Semiconductors, but with a watchful eye on energy and defense names.",
+      "market_summary_zh": "美国股指期货在现金开盘前强势上涨，延续昨日涨势。催化因素来自隔夜多重利好：6月批发通胀意外下降（PPI环比-0.3%）、芯片设备巨头ASML因AI需求第二次上调指引、以及Stripe与Advent向PayPal提出530亿美元收购要约。但美国对伊朗发动新一轮空袭，令能源价格维持高位并增添地缘政治风险溢价。市场开盘料将呈现风险偏好，科技与半导体板块领涨，但能源和国防板块需保持警惕。",
+      "event_count": 8,
+      "avg_impact": 76.88
+    },
     {
       "date": "2026-07-14",
       "report_type": "close",
