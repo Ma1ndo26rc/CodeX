@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are indicating a positive open, extending yesterday's gains, as a surprise decline in June wholesale prices and a second guidance raise from ASML bolster confidence in a soft landing and sustained AI investment. The overnight session saw a constructive risk tone, with the tech-heavy Nasdaq 100 leading, while geopolitical tensions in the Middle East and rising mortgage rates present underappreciated headwinds. The key setup for today's cash session is whether the positive macro data and earnings momentum can overcome lingering valuation concerns and a cautious tone from Fed officials.",
-  "macro_summary": "Disinflationary Growth with AI Tailwind The market is currently in a 'bad news is good news' regime for inflation data, but this is conditional on growth not deteriorating. The main focus is on whether the AI capex cycle can sustain earnings momentum across the broader market. Today's market is driven by a powerful confluence of a disinflationary macro data point (PPI) and a company-specific catalyst (ASML) that reinforces the dominant AI growth narrative. This combination is allowing the market to look past geopolitical risks and focus on the potential for a soft landing with continued earnings growth from the tech sector. The macro outlook is characterized by a 'Goldilocks' narrative, where growth is slowing enough to cool inflation but not enough to tip into recession. The surprise decline in PPI supports this view, but the labor market remains tight, and geopolitical risks to energy supply complicate the inflation trajectory. The market is pricing in a soft landing, but the margin for error is thin.",
-  "risk_summary": "Risk appetite is constructive but not euphoric. The VIX is hovering around 15, indicating low fear, but breadth remains narrow. The put/call ratio is neutral, suggesting a lack of extreme positioning. The primary risk is that the market is too complacent about the Fed's ability to cut rates given sticky services inflation and the potential for a renewed energy shock. The rally is being driven by a handful of mega-cap tech names, leaving the market vulnerable to a rotation or a sharp reversal on any negative catalyst.",
+  "market_summary": "US equities closed higher on Wednesday, driven by a surprise decline in June producer prices and a blockbuster earnings report from Morgan Stanley. The S&P 500 and Nasdaq Composite both rose, with the latter hitting a new record high, as megacap tech stocks like Apple led the charge. However, the rally was not without its blemishes: IBM suffered a historic 25% single-day plunge on a profit warning, and rising oil prices amid renewed Middle East tensions kept a lid on broader gains.",
+  "macro_summary": "Disinflationary Growth with Geopolitical Tail Risk The market is in a 'good news is good news' phase, where cooling inflation is the primary driver of risk appetite. However, the rally's sustainability hinges on whether the disinflation trend can withstand the upward pressure on energy prices from geopolitical events. Today's market action was a direct response to a powerful disinflation signal from the PPI data, which overshadowed the negative impact of IBM's crash and rising geopolitical tensions. The market is currently pricing in a 'soft landing' scenario where the Fed can cut rates without triggering a recession, but this narrative is being tested by an external supply shock from higher oil prices. The macro outlook is increasingly defined by a 'Goldilocks' narrative of cooling inflation and resilient growth, which is supportive for risk assets. However, this is being challenged by rising geopolitical risks that threaten to reignite inflation through higher energy costs. The market is pricing in a higher probability of a Fed rate cut in the coming months, but the path remains data-dependent and subject to external shocks.",
+  "risk_summary": "Risk appetite improved significantly following the PPI release, with the VIX index declining. Market breadth was positive, though the IBM crash highlighted the risk of idiosyncratic shocks in the tech sector. The momentum trade saw its biggest unwind since 2001, suggesting a rotation away from the most crowded trades. Sentiment is cautiously optimistic, with investors leaning into the disinflation trade but hedging against geopolitical tail risks.",
   "top_events": [
     {
-      "title": "June Wholesale Prices Unexpectedly Decline 0.3%",
-      "summary": "The Producer Price Index (PPI) fell 0.3% month-over-month in June, driven by a sharp drop in gasoline prices. This was a significant downside surprise compared to expectations for a modest increase.",
+      "title": "June PPI Unexpectedly Declines 0.3%",
+      "summary": "The Producer Price Index fell 0.3% month-over-month in June, well below the expected 0.1% gain, driven by a sharp drop in gasoline prices. This was the first negative reading in months.",
       "impact_score": 88.7,
       "sentiment_score": 0.8
     },
     {
-      "title": "ASML Raises Outlook for Second Time on AI Chip Demand",
-      "summary": "ASML raised its full-year sales forecast for the second time this year, citing 'strong orders for advanced chipmaking equipment' driven by insatiable demand for AI chips from its customers.",
-      "impact_score": 84.0,
+      "title": "Japanese Firms Use NVIDIA Nemotron in Energy, Telecom and Robotics",
+      "summary": "Japanese companies are adopting NVIDIA's Nemotron AI models for applications in energy, telecommunications, and robotics.",
+      "impact_score": 83.0,
+      "sentiment_score": 0.07
+    },
+    {
+      "title": "US Restarts Strikes on Iran; Oil Prices Surge",
+      "summary": "The US military restarted strikes on Iranian targets, and President Trump warned of a potential 'forever war' if Iran does not cooperate. This led to a sharp rise in oil prices.",
+      "impact_score": 80.7,
+      "sentiment_score": -0.6
+    },
+    {
+      "title": "IBM Shares Crash 25% on Profit Warning",
+      "summary": "IBM shares suffered a historic 25% single-day decline after the company issued a profit warning, citing challenges in its AI transition and legacy business.",
+      "impact_score": 79.1,
+      "sentiment_score": -0.9
+    },
+    {
+      "title": "Morgan Stanley Posts Record Quarterly Revenue and Profit",
+      "summary": "Morgan Stanley reported record quarterly revenue and profit, driven by a 69% surge in equities trading. The results beat analyst estimates on both the top and bottom lines.",
+      "impact_score": 77.8,
       "sentiment_score": 0.9
     },
     {
-      "title": "New York Fed President Williams says inflation has peaked, rates 'well positioned'",
-      "summary": "Williams cited five reasons why he expects the latest price surge has run its course.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.25
-    },
-    {
-      "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
-      "summary": "As with consumer prices, the index benefited from easing energy costs, particularly as oil fell due to the brief pause in tensions between the U.S. and Iran.",
-      "impact_score": 80.2,
+      "title": "Fed Chair Warsh Defends Independence, Meets 'Often' with Trump Admin",
+      "summary": "Fed Chair Kevin Warsh testified before the Senate Banking Committee, stating he meets 'often' with the Treasury Secretary and defending the central bank's independence.",
+      "impact_score": 75.4,
       "sentiment_score": 0.2
     },
     {
-      "title": "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pandemic",
-      "summary": "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pandemic 24/7 Wall St.",
-      "impact_score": 79.2,
-      "sentiment_score": 0.55
+      "title": "As Ukraine Cripples Russian Refining, Global Diesel Markets Pay the Price",
+      "summary": "Ukrainian attacks on Russian refineries are disrupting global diesel supply, leading to higher prices.",
+      "impact_score": 71.8,
+      "sentiment_score": 0.03
     },
     {
-      "title": "July Fed Rate Hike Odds Drop Below 17% After Lower CPI Report",
-      "summary": "July Fed Rate Hike Odds Drop Below 17% After Lower CPI Report KuCoin",
-      "impact_score": 79.2,
-      "sentiment_score": 0.55
-    },
-    {
-      "title": "US Launches Fresh Wave of Strikes on Iran",
-      "summary": "The United States launched a fresh wave of airstrikes on Iranian targets, escalating the conflict. Analysts warn that the situation risks becoming a 'forever war' with no clear off-ramp.",
-      "impact_score": 76.2,
-      "sentiment_score": -0.5
-    },
-    {
-      "title": "US Stock Market Prediction Today (July 15): S&P 500 Futures Ease, Nasdaq Futures Rise as CPI Data, Treasury Yields & Strait of Hormuz Oil Risks Stay in Focus",
-      "summary": "US Stock Market Prediction Today (July 15): S&P 500 Futures Ease, Nasdaq Futures Rise as CPI Data, Treasury Yields & Strait of Hormuz Oil Risks Stay in Focus The Sunday Guardian",
-      "impact_score": 75.6,
-      "sentiment_score": 0.16
+      "title": "Nasdaq, S&P 500 Rise As Micron Plunges Below A Key Level, Leaving A Full-Tech Rebound In Doubt",
+      "summary": "While the broader market indices rose, Micron's stock fell below a key technical level, casting doubt on a sustained tech sector recovery.",
+      "impact_score": 71.0,
+      "sentiment_score": -0.55
     }
   ],
-  "sector_summary": "Positive sectors/themes: Semiconductors (ASML, NVDA, AMD), Large-cap Tech (MSFT, AAPL, GOOGL), Investment Banks (MS, GS, JPM), Digital Payments (PYPL, SQ); Negative sectors/themes: Homebuilders & REITs (rising mortgage rates), Small Caps (Russell 2000 lagging), Consumer Staples (defensive rotation out), Energy (despite geopolitical risk, PPI drop suggests demand weakness); Themes to watch: AI Infrastructure Buildout, Financial Sector Earnings Momentum, M&A / Private Equity Activity, Geopolitical Risk & Energy Security"
+  "sector_summary": "Positive sectors/themes: Financials (XLF): Surged on Morgan Stanley's record earnings and strong investment banking activity., Energy (XLE): Rose sharply as oil prices climbed on escalating Middle East tensions., Consumer Discretionary: Benefited from the World Cup boost and resilient consumer spending data from the Fed's Beige Book.; Negative sectors/themes: Technology (XLK): Mixed day; megacap names like Apple rose, but the sector was dragged down by IBM's historic crash., Packaged Foods: Conagra's results signaled more pain ahead, with a dividend cut and a $2 billion charge., Airlines: United Airlines' earnings beat was overshadowed by a $6 billion fuel cost warning, highlighting the impact of rising oil prices.; Themes to watch: AI Investment Cycle Divergence: The stark contrast between IBM's crash and the continued strength of AI leaders like Apple and Nvidia suggests a 'haves and have-nots' dynamic is emerging., Small-Cap Outperformance: The Russell 2000's continued rise, as highlighted by MarketWatch, signals a broadening of the market rally beyond megacap tech., Tokenization of Real-World Assets: The DTCC's test with JPMorgan, BlackRock, and Goldman signals a major push toward tokenized markets, which could reshape financial infrastructure."
 }

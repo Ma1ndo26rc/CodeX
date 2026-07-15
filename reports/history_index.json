@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-15T14:32:18.153827+00:00",
+  "generated_at": "2026-07-15T23:16:09.034755+00:00",
   "reports": [
+    {
+      "date": "2026-07-15",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-15T23:14:42.085816+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-15-close.json",
+      "dynamic_headline": "Cooling inflation and record bank earnings lift indexes, but IBM's historic crash and rising oil prices temper the rally.",
+      "dynamic_headline_zh": "通胀降温与银行创纪录盈利提振指数，但IBM历史性暴跌及油价上涨抑制涨势。",
+      "market_summary": "US equities closed higher on Wednesday, driven by a surprise decline in June producer prices and a blockbuster earnings report from Morgan Stanley. The S&P 500 and Nasdaq Composite both rose, with the latter hitting a new record high, as megacap tech stocks like Apple led the charge. However, the rally was not without its blemishes: IBM suffered a historic 25% single-day plunge on a profit warning, and rising oil prices amid renewed Middle East tensions kept a lid on broader gains.",
+      "market_summary_zh": "美国股市周三收高，受6月生产者价格意外下降及摩根士丹利强劲财报推动。标普500指数和纳斯达克综合指数均上涨，后者创下历史新高，苹果等大型科技股领涨。然而，涨势并非毫无瑕疵：IBM因盈利预警遭遇25%的历史性单日暴跌，而中东紧张局势再度升温导致油价上涨，限制了整体涨幅。",
+      "event_count": 9,
+      "avg_impact": 69.44
+    },
     {
       "date": "2026-07-15",
       "report_type": "premarket",
