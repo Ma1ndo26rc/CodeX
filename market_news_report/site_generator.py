@@ -52,7 +52,7 @@ def _build_react_site(site_dir: Path) -> Path | None:
         print(f"React site build failed, falling back to legacy static site: {exc}")
         return None
 
-    index_path = site_dir / "index.html"
+    index_path = frontend_dir / "dist" / "index.html"
     return index_path if index_path.exists() else None
 
 

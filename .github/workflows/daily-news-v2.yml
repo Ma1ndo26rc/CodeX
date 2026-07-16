@@ -92,26 +92,26 @@ jobs:
       - name: Generate v2 report data
         run: python main.py
 
-      - name: Build v2 static site
+      - name: Build v2 Vercel output
         working-directory: frontend
         run: npm run build
 
-      - name: Verify v2 static site
+      - name: Verify v2 Vercel output
         shell: bash
         run: |
-          test -f site/index.html
-          test -d site/assets
-          test -f site/data/latest.json
+          test -f frontend/dist/index.html
+          test -d frontend/dist/assets
+          test -f frontend/dist/data/latest.json
 
-      - name: Upload v2 site artifact
+      - name: Upload v2 Vercel artifact
         uses: actions/upload-artifact@v4
         with:
-          name: codex-v2-site-${{ github.run_id }}
-          path: site/
+          name: codex-v2-dist-${{ github.run_id }}
+          path: frontend/dist/
           if-no-files-found: error
           retention-days: 14
 
-      - name: Commit generated v2 reports and site
+      - name: Commit generated v2 reports
         shell: bash
         run: |
           git config user.name "github-actions"
@@ -124,10 +124,7 @@ jobs:
             reports/market_history.json \
             reports/market_snapshot.json \
             reports/market_trends.json \
-            reports/history_index.json \
-            index.html \
-            .nojekyll \
-            site/
+            reports/history_index.json
           for typed_report in reports/premarket.json reports/close.json; do
             if [[ -f "$typed_report" ]]; then
               git add "$typed_report"
@@ -136,7 +133,7 @@ jobs:
           git add -f reports/history/
 
           if git diff --cached --quiet; then
-            echo "No v2 report or site changes to commit."
+            echo "No v2 report changes to commit."
           else
             git commit -m "auto(v2): update ${REPORT_TYPE} market brief"
             git push origin HEAD:codex/v2-main
