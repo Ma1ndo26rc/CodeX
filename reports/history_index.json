@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-16T14:41:54.169444+00:00",
+  "generated_at": "2026-07-16T23:14:58.346929+00:00",
   "reports": [
+    {
+      "date": "2026-07-16",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-16T23:13:27.936857+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-16-close.json",
+      "dynamic_headline": "Tech and AI jitters trigger a broad selloff, but value and small-caps hold firm.",
+      "dynamic_headline_zh": "科技与AI焦虑引发广泛抛售，但价值股和小盘股保持坚挺。",
+      "market_summary": "US equities closed mixed on Thursday, with the Nasdaq Composite falling sharply as a selloff in semiconductor and mega-cap tech stocks deepened. The Dow Jones Industrial Average managed a modest gain, supported by strength in healthcare and financials, while the S&P 500 ended lower. The market is grappling with a rotation out of AI winners into lagging sectors, as rising geopolitical risks and hawkish Fed commentary add to uncertainty.",
+      "market_summary_zh": "美国股市周四收盘涨跌互现，纳斯达克综合指数因半导体和大型科技股的抛售加深而大幅下跌。道琼斯工业平均指数在医疗保健和金融板块的支撑下小幅上涨，而标普500指数则收低。市场正在经历从AI赢家板块轮动至落后板块的过程，同时不断加剧的地缘政治风险和美联储鹰派言论增加了不确定性。",
+      "event_count": 10,
+      "avg_impact": 72.5
+    },
     {
       "date": "2026-07-16",
       "report_type": "premarket",

@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a mixed open as a powerful AI-driven earnings beat from TSMC and strong results from Micron are offset by escalating geopolitical tensions in the Middle East and a rotation out of mega-cap tech into value and small caps. The S&P 500 and Nasdaq closed lower yesterday, weighed down by semiconductor weakness following TSMC's report, while the Dow managed a slight gain. The dominant pre-market tension is between the fundamental strength of the AI buildout and the macro headwinds of rising oil prices, a hawkish Fed, and a broadening market rotation.",
-  "macro_summary": "Bifurcated Regime: AI Boom vs. Macro Headwinds The market is in a 'show me' phase for AI, while simultaneously pricing in a higher risk premium for geopolitical and consumer headwinds. The path of least resistance is sideways until one of these forces dominates. Today's market is characterized by a powerful, earnings-driven AI boom clashing with a macro environment of rising geopolitical risk, a hawkish Fed, and a softening consumer. This is creating a rotational, range-bound market where gains in one sector are offset by losses in another. The macro outlook is increasingly complex. The AI-driven earnings cycle is a powerful positive, but it is being challenged by a hawkish Fed, rising geopolitical risks, and signs of a consumer slowdown. The market is pricing in a higher-for-longer rate environment, which is compressing valuations for long-duration growth stocks. The key question is whether the AI capex cycle can sustain economic growth and corporate profits in the face of these headwinds.",
-  "risk_summary": "Risk appetite is bifurcated. There is strong appetite for AI-related plays and energy, but a defensive tone is emerging in consumer-facing sectors. The VIX is likely to remain elevated around 15-16, reflecting the uncertainty. Breadth is improving as the rally broadens into small caps, but the inability of the Nasdaq to hold gains on strong AI news is a cautionary signal. Positioning is shifting from a pure long mega-cap tech stance to a more barbell approach of AI + energy + value.",
+  "market_summary": "US equities closed mixed on Thursday, with the Nasdaq Composite falling sharply as a selloff in semiconductor and mega-cap tech stocks deepened. The Dow Jones Industrial Average managed a modest gain, supported by strength in healthcare and financials, while the S&P 500 ended lower. The market is grappling with a rotation out of AI winners into lagging sectors, as rising geopolitical risks and hawkish Fed commentary add to uncertainty.",
+  "macro_summary": "Rotation and Reassessment The market is in a rotational phase, moving from AI leadership to a broader, more value-oriented rally, but the sustainability depends on earnings and the Fed's next move. Today's market action reflects a regime shift where investors are rotating out of crowded AI trades into underperforming value and small-cap segments. This is being driven by a reassessment of AI spending, a hawkish Fed, and rising geopolitical risks, creating a 'risk-on, but not in tech' environment. The macro outlook is increasingly clouded by a hawkish Fed and geopolitical risks. Dallas Fed President Logan's call for higher rates suggests the disinflation trend is not yet convincing enough for policymakers. Meanwhile, the threat of a disruption to oil flows through the Strait of Hormuz is a stagflationary risk that could complicate the Fed's path. The market is pricing in a higher probability of a 'no landing' scenario where growth remains resilient but inflation stays sticky.",
+  "risk_summary": "Risk appetite is clearly bifurcated. The VIX index rose 5% to 18.5, reflecting increased anxiety in the tech-heavy Nasdaq. However, the put/call ratio remained relatively low, suggesting the selloff is more of a sector rotation than a broad-based panic. Market breadth was negative on the NYSE, but the number of new 52-week highs in small-cap stocks continues to expand, indicating healthy risk-on positioning in value-oriented names. The overall sentiment is cautious but not fearful, with investors rotating rather than fleeing.",
   "top_events": [
     {
-      "title": "Iran Warns of Hormuz 'Red Line', Oil Prices Surge",
-      "summary": "Iran warned the US of a 'red line' in the Strait of Hormuz and threatened retaliation if Trump carries out strike threats. This has pushed oil prices up over 1% and added a significant risk premium to global markets.",
-      "impact_score": 85.4,
-      "sentiment_score": -0.7
+      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
+      "summary": "Dallas Fed President Lorie Logan stated that recent good inflation news is not sufficient and that interest rates may need to rise 'modestly' to ensure price stability.",
+      "impact_score": 86.2,
+      "sentiment_score": -0.5
     },
     {
-      "title": "TSMC Reports 77% Profit Surge, Raises Capex and Revenue Forecast",
-      "summary": "TSMC reported a 77% jump in second-quarter profit, driven by insatiable demand for AI chips. The company raised its full-year revenue forecast and announced an additional $100 billion investment in its Arizona fab.",
-      "impact_score": 84.2,
-      "sentiment_score": 0.8
-    },
-    {
-      "title": "Fed Chair Warsh Testifies, Reinforces Hawkish Stance",
-      "summary": "Fed Chair Kevin Warsh concluded two days of testimony, reinforcing a 'higher for longer' rate narrative. He stated he meets 'often' with the Trump administration but defended the Fed's independence.",
-      "impact_score": 84.2,
-      "sentiment_score": -0.3
-    },
-    {
-      "title": "AI stocks slump again, while oil prices keep rising",
-      "summary": "AI-related equities continued their recent decline, while crude oil prices extended gains amid escalating geopolitical tensions and supply concerns.",
-      "impact_score": 83.5,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "S&P 500, Nasdaq fall as chip stocks weaken; earnings and data in focus",
-      "summary": "Major U.S. indices declined, led by weakness in semiconductor stocks, as investors awaited corporate earnings and economic data.",
-      "impact_score": 80.2,
-      "sentiment_score": -0.16
+      "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed",
+      "summary": "A report indicated that Alphabet's next-generation AI model, Gemini 3.5 Pro, is delayed, raising concerns that Google is falling behind in the AI race.",
+      "impact_score": 79.1,
+      "sentiment_score": -0.8
     },
     {
       "title": "Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats",
-      "summary": "Iran warned that any U.S. strike on its infrastructure would cross a 'red line,' threatening retaliation and potential disruption to the Strait of Hormuz.",
-      "impact_score": 80.1,
-      "sentiment_score": 0.03
+      "summary": "Iran warned the U.S. that any attack on its infrastructure would cross a 'red line' and trigger retaliation, escalating tensions over the Strait of Hormuz.",
+      "impact_score": 78.7,
+      "sentiment_score": -0.6
     },
     {
-      "title": "Oil is facing a supply crunch — and the war in Iran isn’t the only problem",
-      "summary": "J.P. Morgan strategists highlighted that constraints on Russia's refining system are compounding the global oil supply crisis, beyond just the Iran conflict.",
-      "impact_score": 79.8,
-      "sentiment_score": 0.03
+      "title": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
+      "summary": "Netflix reported mixed Q2 results, with a disappointing Q3 forecast and a plan to reduce the frequency of its 'What We Watched' engagement reports, which Wall Street views as a loss of transparency.",
+      "impact_score": 77.8,
+      "sentiment_score": -0.7
     },
     {
-      "title": "Why Baidu and Alibaba Stocks Are Jumping on Apple’s China AI Approval",
-      "summary": "Shares of Baidu and Alibaba rose after Apple received regulatory approval to launch its AI services in China, likely partnering with these local firms.",
-      "impact_score": 76.1,
-      "sentiment_score": 0.13
+      "title": "TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%",
+      "summary": "TSMC reported a 77% surge in Q2 profit and announced a massive $100 billion investment in its Arizona facilities, underscoring its dominant position in the semiconductor industry.",
+      "impact_score": 77.2,
+      "sentiment_score": 0.7
+    },
+    {
+      "title": "Federal Reserve’s Logan warns inflation not on track for 2% target",
+      "summary": "Federal Reserve’s Logan warns inflation not on track for 2% target Crypto Briefing",
+      "impact_score": 76.3,
+      "sentiment_score": -0.3
+    },
+    {
+      "title": "President of KC Federal Reserve Bank, appearing in Grand Island, has his eye on inflation",
+      "summary": "President of KC Federal Reserve Bank, appearing in Grand Island, has his eye on inflation The Grand Island Independent",
+      "impact_score": 75.5,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "Semiconductor stocks are on the verge of a bear market. Is the thrill in the chips trade gone?",
+      "summary": "The PHLX Semiconductor Index (SOX) has tumbled nearly 20% from its record high in late June, approaching bear market territory, as AI-related enthusiasm wanes.",
+      "impact_score": 73.7,
+      "sentiment_score": -0.8
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE): Direct beneficiary of rising oil prices due to geopolitical tensions., Semiconductors (SMH): Long-term AI demand story remains intact despite short-term profit-taking., Small Caps (IWM): Benefiting from rotation and expectations of a soft landing., Healthcare (XLV): Defensive bid and strong earnings from UNH provide support.; Negative sectors/themes: Consumer Discretionary (XLY): Facing headwinds from a slowing consumer and higher fuel costs., Airlines (JETS): Directly impacted by rising jet fuel costs and geopolitical uncertainty., Long-duration Growth (QQQ): Under pressure from higher yields and rotation out of mega-caps.; Themes to watch: AI Monetization: The market is demanding 'cold hard proof' that AI spending is translating into revenue and profits, as highlighted by Jim Cramer., Geopolitical Risk & Energy Security: The Iran situation is the dominant macro risk, with potential for a supply shock., Consumer Health: The divergence between a strong labor market and weakening consumer spending is a key debate."
+  "sector_summary": "Positive sectors/themes: Healthcare (XLV): UnitedHealth's strong earnings lifted the entire sector., Energy (XLE): Elevated oil prices due to geopolitical tensions continue to support energy stocks., Financials (XLF): Benefiting from a steeper yield curve and positive analyst reports on Goldman Sachs., Small-Caps (IWM): The rotation out of mega-cap tech is fueling a rally in small-cap stocks.; Negative sectors/themes: Technology (XLK): Broad selloff led by semiconductors and mega-cap names like Alphabet., Communication Services (XLC): Netflix and Alphabet are the primary drags on the sector., Semiconductors (SMH): The sector is on the verge of a bear market, down nearly 20% from its high.; Themes to watch: AI Monetization & Spending: The market is increasingly scrutinizing the ROI of massive AI capex, with Netflix and Alphabet's news raising questions., Value vs. Growth Rotation: The persistent outperformance of value and small-caps suggests a durable shift in market leadership., Geopolitical Risk & Commodities: The Iran situation is a key wildcard that could drive further rotation into energy and defense."
 }
