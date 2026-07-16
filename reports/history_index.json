@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-16T11:56:41.351953+00:00",
+  "generated_at": "2026-07-16T14:41:54.169444+00:00",
   "reports": [
     {
       "date": "2026-07-16",
       "report_type": "premarket",
       "report_label": "Pre-Market Brief",
-      "generated_at": "2026-07-16T11:55:05.572040+00:00",
+      "generated_at": "2026-07-16T14:40:15.484687+00:00",
       "market_session": "US Pre-Market",
       "source_window": "Previous 24 hours through the pre-market cutoff",
       "data_freshness_warning": false,
       "file": "history/2026-07-16-premarket.json",
-      "dynamic_headline": "AI fatigue and geopolitical jitters cap risk appetite ahead of the cash open.",
-      "dynamic_headline_zh": "人工智能疲劳与地缘政治紧张情绪在现货开盘前抑制风险偏好。",
-      "market_summary": "US equity futures are mixed to slightly lower as a fresh wave of AI skepticism and geopolitical tensions offset strong earnings from UnitedHealth and Morgan Stanley. The S&P 500 closed near record highs yesterday, but momentum stalled overnight as semiconductor stocks came under pressure and the market digests a historic unwind in momentum trades. Investors are now focused on the opening rotation, with breadth and volume expected to be key indicators of whether the bull case holds.",
-      "market_summary_zh": "美国股指期货涨跌互现，小幅走低，新一轮对人工智能的怀疑情绪和地缘政治紧张局势抵消了联合健康集团和摩根士丹利的强劲财报。标普500指数昨日接近历史高点收盘，但隔夜动能停滞，半导体股承压，市场消化历史性的动量交易平仓。投资者目前关注开盘轮动，市场广度和成交量将成为判断牛市是否成立的关键指标。",
+      "dynamic_headline": "AI infrastructure demand surges on TSMC and Micron results, but geopolitical risks and sector rotation cap upside.",
+      "dynamic_headline_zh": "台积电与美光业绩推动AI基础设施需求激增，但地缘政治风险与板块轮动限制上行空间。",
+      "market_summary": "US equity futures are pointing to a mixed open as a powerful AI-driven earnings beat from TSMC and strong results from Micron are offset by escalating geopolitical tensions in the Middle East and a rotation out of mega-cap tech into value and small caps. The S&P 500 and Nasdaq closed lower yesterday, weighed down by semiconductor weakness following TSMC's report, while the Dow managed a slight gain. The dominant pre-market tension is between the fundamental strength of the AI buildout and the macro headwinds of rising oil prices, a hawkish Fed, and a broadening market rotation.",
+      "market_summary_zh": "美国股指期货指向涨跌互现的开盘，因台积电强劲的AI驱动盈利超预期和美光的出色业绩，被中东地缘政治紧张局势升级以及从大型科技股向价值股和小盘股的轮动所抵消。标普500指数和纳斯达克指数昨日收跌，受台积电财报后半导体板块疲软拖累，而道琼斯指数微幅上涨。盘前的主要矛盾在于AI基础设施建设的基本面强势与油价上涨、美联储鹰派立场以及市场轮动扩大化等宏观逆风之间的博弈。",
       "event_count": 10,
-      "avg_impact": 68.0
+      "avg_impact": 72.0
     },
     {
       "date": "2026-07-15",
