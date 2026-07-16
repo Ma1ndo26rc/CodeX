@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities closed higher on Wednesday, driven by a surprise decline in June producer prices and a blockbuster earnings report from Morgan Stanley. The S&P 500 and Nasdaq Composite both rose, with the latter hitting a new record high, as megacap tech stocks like Apple led the charge. However, the rally was not without its blemishes: IBM suffered a historic 25% single-day plunge on a profit warning, and rising oil prices amid renewed Middle East tensions kept a lid on broader gains.",
-  "macro_summary": "Disinflationary Growth with Geopolitical Tail Risk The market is in a 'good news is good news' phase, where cooling inflation is the primary driver of risk appetite. However, the rally's sustainability hinges on whether the disinflation trend can withstand the upward pressure on energy prices from geopolitical events. Today's market action was a direct response to a powerful disinflation signal from the PPI data, which overshadowed the negative impact of IBM's crash and rising geopolitical tensions. The market is currently pricing in a 'soft landing' scenario where the Fed can cut rates without triggering a recession, but this narrative is being tested by an external supply shock from higher oil prices. The macro outlook is increasingly defined by a 'Goldilocks' narrative of cooling inflation and resilient growth, which is supportive for risk assets. However, this is being challenged by rising geopolitical risks that threaten to reignite inflation through higher energy costs. The market is pricing in a higher probability of a Fed rate cut in the coming months, but the path remains data-dependent and subject to external shocks.",
-  "risk_summary": "Risk appetite improved significantly following the PPI release, with the VIX index declining. Market breadth was positive, though the IBM crash highlighted the risk of idiosyncratic shocks in the tech sector. The momentum trade saw its biggest unwind since 2001, suggesting a rotation away from the most crowded trades. Sentiment is cautiously optimistic, with investors leaning into the disinflation trade but hedging against geopolitical tail risks.",
+  "market_summary": "US equity futures are mixed to slightly lower as a fresh wave of AI skepticism and geopolitical tensions offset strong earnings from UnitedHealth and Morgan Stanley. The S&P 500 closed near record highs yesterday, but momentum stalled overnight as semiconductor stocks came under pressure and the market digests a historic unwind in momentum trades. Investors are now focused on the opening rotation, with breadth and volume expected to be key indicators of whether the bull case holds.",
+  "macro_summary": "Cautious Optimism with Rising Tail Risks The market is pricing in a soft landing, but rising geopolitical risks and AI skepticism are creating a tug-of-war. The main focus is on whether earnings from non-tech sectors can sustain the rally. The market is in a 'good news is bad news' phase for tech, where strong earnings are being overshadowed by AI fatigue and geopolitical jitters. The S&P 500 is near all-time highs, but breadth is narrowing and momentum is unwinding, suggesting a fragile equilibrium. The macro backdrop is a tug-of-war between easing inflation fears and rising geopolitical risks. The Fed's Beige Book showed an improving economy with easing price pressures, but new tariffs on Brazil and Iran's threats are complicating the inflation outlook. The market is pricing in a higher probability of a rate cut by year-end, but Fed Chairman Warsh's testimony underscored the central bank's commitment to price stability, leaving the path uncertain.",
+  "risk_summary": "Risk appetite is fragile. The CBOE Volatility Index (VIX) is hovering around 15, indicating moderate anxiety but not panic. Breadth has been narrowing, with the S&P 500's advance driven by a handful of mega-cap stocks. The historic unwind in the momentum trade suggests a rotation out of high-beta names into value and defensives. Investor sentiment is cautious, with money market funds shortening maturities, reflecting uncertainty about the Fed's next move.",
   "top_events": [
     {
-      "title": "June PPI Unexpectedly Declines 0.3%",
-      "summary": "The Producer Price Index fell 0.3% month-over-month in June, well below the expected 0.1% gain, driven by a sharp drop in gasoline prices. This was the first negative reading in months.",
-      "impact_score": 88.7,
-      "sentiment_score": 0.8
+      "title": "Nvidia unveils new AI model and expands Japan’s physical AI ecosystem",
+      "summary": "Nvidia announces a new AI model, Cosmos 3 Edge, and expands its physical AI ecosystems in Japan.",
+      "impact_score": 85.6,
+      "sentiment_score": 0.09
     },
     {
-      "title": "Japanese Firms Use NVIDIA Nemotron in Energy, Telecom and Robotics",
-      "summary": "Japanese companies are adopting NVIDIA's Nemotron AI models for applications in energy, telecommunications, and robotics.",
-      "impact_score": 83.0,
-      "sentiment_score": 0.07
-    },
-    {
-      "title": "US Restarts Strikes on Iran; Oil Prices Surge",
-      "summary": "The US military restarted strikes on Iranian targets, and President Trump warned of a potential 'forever war' if Iran does not cooperate. This led to a sharp rise in oil prices.",
-      "impact_score": 80.7,
+      "title": "Iran warns US of Hormuz 'red line'",
+      "summary": "Iran warned the US that it will retaliate if Trump follows through on strike threats, setting a 'red line' at the Strait of Hormuz. This has raised the risk premium on oil.",
+      "impact_score": 85.2,
       "sentiment_score": -0.6
     },
     {
-      "title": "IBM Shares Crash 25% on Profit Warning",
-      "summary": "IBM shares suffered a historic 25% single-day decline after the company issued a profit warning, citing challenges in its AI transition and legacy business.",
-      "impact_score": 79.1,
-      "sentiment_score": -0.9
+      "title": "US slaps 25% tariff on most Brazilian goods",
+      "summary": "The US imposed a 25% tariff on most Brazilian goods over 'unfair trade practices,' with a potential additional 12.5% duty next week. This escalates trade tensions.",
+      "impact_score": 79.7,
+      "sentiment_score": -0.5
     },
     {
-      "title": "Morgan Stanley Posts Record Quarterly Revenue and Profit",
-      "summary": "Morgan Stanley reported record quarterly revenue and profit, driven by a 69% surge in equities trading. The results beat analyst estimates on both the top and bottom lines.",
-      "impact_score": 77.8,
-      "sentiment_score": 0.9
-    },
-    {
-      "title": "Fed Chair Warsh Defends Independence, Meets 'Often' with Trump Admin",
-      "summary": "Fed Chair Kevin Warsh testified before the Senate Banking Committee, stating he meets 'often' with the Treasury Secretary and defending the central bank's independence.",
-      "impact_score": 75.4,
-      "sentiment_score": 0.2
-    },
-    {
-      "title": "As Ukraine Cripples Russian Refining, Global Diesel Markets Pay the Price",
-      "summary": "Ukrainian attacks on Russian refineries are disrupting global diesel supply, leading to higher prices.",
-      "impact_score": 71.8,
+      "title": "The best energy stocks right now as two major conflicts keep oil prices elevated",
+      "summary": "The best energy stocks right now as two major conflicts keep oil prices elevated CNBC",
+      "impact_score": 78.6,
       "sentiment_score": 0.03
     },
     {
-      "title": "Nasdaq, S&P 500 Rise As Micron Plunges Below A Key Level, Leaving A Full-Tech Rebound In Doubt",
-      "summary": "While the broader market indices rose, Micron's stock fell below a key technical level, casting doubt on a sustained tech sector recovery.",
+      "title": "United Airlines earnings top estimates, but sees $6B in added fuel costs",
+      "summary": "United Airlines reported better-than-expected Q2 earnings, but warned that it expects $6 billion in additional fuel costs this year, highlighting the impact of rising oil prices.",
+      "impact_score": 75.6,
+      "sentiment_score": 0.1
+    },
+    {
+      "title": "TSMC posts record quarter, but stock falls",
+      "summary": "TSMC reported a record Q2 profit, but the stock declined in New York as investors sold the news. A fund manager noted that expectations are now 'exceptionally high.'",
+      "impact_score": 75.2,
+      "sentiment_score": 0.2
+    },
+    {
+      "title": "AI is so big, it’s now impossible for investors to avoid",
+      "summary": "Exposure to the artificial-intelligence boom has become virtually impossible for investors to avoid. The theme hasn’t just cornered the stock market. It has systematically swallowed up corporate credit and venture capital, too.",
+      "impact_score": 71.6,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Morgan Stanley posts record quarterly revenue and profit",
+      "summary": "Morgan Stanley reported record quarterly revenue and profit, driven by a 69% surge in equities trading. This follows strong results from Goldman Sachs and JPMorgan.",
       "impact_score": 71.0,
-      "sentiment_score": -0.55
+      "sentiment_score": 0.9
     }
   ],
-  "sector_summary": "Positive sectors/themes: Financials (XLF): Surged on Morgan Stanley's record earnings and strong investment banking activity., Energy (XLE): Rose sharply as oil prices climbed on escalating Middle East tensions., Consumer Discretionary: Benefited from the World Cup boost and resilient consumer spending data from the Fed's Beige Book.; Negative sectors/themes: Technology (XLK): Mixed day; megacap names like Apple rose, but the sector was dragged down by IBM's historic crash., Packaged Foods: Conagra's results signaled more pain ahead, with a dividend cut and a $2 billion charge., Airlines: United Airlines' earnings beat was overshadowed by a $6 billion fuel cost warning, highlighting the impact of rising oil prices.; Themes to watch: AI Investment Cycle Divergence: The stark contrast between IBM's crash and the continued strength of AI leaders like Apple and Nvidia suggests a 'haves and have-nots' dynamic is emerging., Small-Cap Outperformance: The Russell 2000's continued rise, as highlighted by MarketWatch, signals a broadening of the market rally beyond megacap tech., Tokenization of Real-World Assets: The DTCC's test with JPMorgan, BlackRock, and Goldman signals a major push toward tokenized markets, which could reshape financial infrastructure."
+  "sector_summary": "Positive sectors/themes: Healthcare (UNH, LLY), Financials (MS, JPM, GS), Defense (LMT, NOC); Negative sectors/themes: Semiconductors (NVDA, AMD, TSM), Consumer Discretionary (AMZN, TSLA), Airlines (UAL); Themes to watch: AI Monetization Skepticism, Geopolitical Risk Premium, Earnings Season Divergence"
 }
