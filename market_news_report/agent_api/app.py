@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from ..agent import AgentRequestValidationError, AgentServiceError, ResearchResponseValidationError, run_market_agent
 from ..agent.clients import create_llm_client, get_market_agent_provider
+from ..config import CONFIG
 from .context_loader import ReportContextLoadError, ReportContextNotFoundError, load_research_context
 from .schemas import AgentRequest, ResearchResponse
 
@@ -12,7 +13,7 @@ from .schemas import AgentRequest, ResearchResponse
 app = FastAPI(title="CodeX MarketAgent API", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5173", "http://localhost:5173"],
+    allow_origins=list(CONFIG.cors_origins),
     allow_credentials=False,
     allow_methods=["POST", "OPTIONS"],
     allow_headers=["Content-Type"],
