@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-16T14:38:49.123437+00:00",
+  "generated_at": "2026-07-16T23:09:54.954551+00:00",
   "reports": [
+    {
+      "date": "2026-07-16",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-16T23:08:19.905281+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-16-close.json",
+      "dynamic_headline": "Tech and AI stocks tumbled on Thursday, dragging the Nasdaq lower, as a disappointing Netflix outlook and a delayed Gemini model from Alphabet fueled fears that the AI trade is losing momentum, while the Dow managed a modest gain on strength in healthcare and energy.",
+      "dynamic_headline_zh": "周四，科技股与人工智能股大幅下挫，拖累纳斯达克指数走低。奈飞令人失望的业绩展望以及Alphabet旗下Gemini模型延迟发布，加剧了市场对人工智能交易动能减弱的担忧；而道琼斯指数则在医疗保健和能源板块的支撑下小幅收涨。",
+      "market_summary": "US equity markets closed mixed on Thursday, with the tech-heavy Nasdaq Composite falling sharply as a wave of negative news hit the AI and semiconductor sectors. The S&P 500 also ended lower, while the Dow Jones Industrial Average eked out a small gain, supported by strength in healthcare and energy stocks. The sell-off was broad within technology, but the rest of the market showed relative resilience, suggesting a rotation rather than a broad risk-off move.",
+      "market_summary_zh": "美国股市周四收盘涨跌互现，以科技股为主的纳斯达克综合指数因人工智能和半导体板块遭遇一系列负面消息冲击而大幅下跌。标普500指数亦收低，而道琼斯工业平均指数则在医疗保健和能源股走强的支撑下勉强录得小幅上涨。科技板块内部抛售范围广泛，但市场其他板块表现出相对韧性，暗示市场正在进行板块轮动，而非广泛的避险行为。",
+      "event_count": 10,
+      "avg_impact": 72
+    },
     {
       "date": "2026-07-16",
       "report_type": "premarket",
