@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-15T23:16:09.034755+00:00",
+  "generated_at": "2026-07-16T11:56:41.351953+00:00",
   "reports": [
+    {
+      "date": "2026-07-16",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-16T11:55:05.572040+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-16-premarket.json",
+      "dynamic_headline": "AI fatigue and geopolitical jitters cap risk appetite ahead of the cash open.",
+      "dynamic_headline_zh": "人工智能疲劳与地缘政治紧张情绪在现货开盘前抑制风险偏好。",
+      "market_summary": "US equity futures are mixed to slightly lower as a fresh wave of AI skepticism and geopolitical tensions offset strong earnings from UnitedHealth and Morgan Stanley. The S&P 500 closed near record highs yesterday, but momentum stalled overnight as semiconductor stocks came under pressure and the market digests a historic unwind in momentum trades. Investors are now focused on the opening rotation, with breadth and volume expected to be key indicators of whether the bull case holds.",
+      "market_summary_zh": "美国股指期货涨跌互现，小幅走低，新一轮对人工智能的怀疑情绪和地缘政治紧张局势抵消了联合健康集团和摩根士丹利的强劲财报。标普500指数昨日接近历史高点收盘，但隔夜动能停滞，半导体股承压，市场消化历史性的动量交易平仓。投资者目前关注开盘轮动，市场广度和成交量将成为判断牛市是否成立的关键指标。",
+      "event_count": 10,
+      "avg_impact": 68.0
+    },
     {
       "date": "2026-07-15",
       "report_type": "close",
