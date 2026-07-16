@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-15T23:09:34.939096+00:00",
+  "generated_at": "2026-07-16T14:38:49.123437+00:00",
   "reports": [
+    {
+      "date": "2026-07-16",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-16T14:37:21.370442+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-16-premarket.json",
+      "dynamic_headline": "AI infrastructure demand remains robust after TSMC's blockbuster earnings, but a rotation out of mega-cap tech and geopolitical risks are setting up a cautious open.",
+      "dynamic_headline_zh": "台积电财报亮眼，AI基础设施需求依然强劲，但大型科技股轮动及地缘政治风险令市场开盘趋于谨慎。",
+      "market_summary": "US equity futures are pointing to a mixed open as investors digest a flood of earnings and macro data. The tech-heavy Nasdaq is under pressure from a rotation out of semiconductor stocks following TSMC's earnings, while the Dow is supported by strong results from UnitedHealth and United Airlines. Overnight, TSMC raised its capex and revenue forecast, reinforcing the AI infrastructure buildout, but this was offset by a sell-off in memory chip stocks like Sandisk and SK Hynix. Geopolitical risks are elevated with Iran warning of a 'red line' at the Strait of Hormuz and the US slapping 25% tariffs on Brazilian goods. Oil prices are rising on supply concerns. Fed Chair Warsh's testimony this week has been well-received, but the market is now focused on upcoming inflation data and earnings from Tesla and Netflix.",
+      "market_summary_zh": "美国股指期货涨跌互现，投资者正在消化大量财报和宏观数据。以科技股为主的纳斯达克指数因台积电财报后半导体板块轮出而承压，而道琼斯指数则受到联合健康和联合航空强劲业绩的支撑。隔夜，台积电上调了资本支出和营收预期，强化了AI基础设施建设的主题，但这被Sandisk和SK海力士等存储芯片股的抛售所抵消。地缘政治风险升温，伊朗警告霍尔木兹海峡存在“红线”，美国对巴西商品加征25%关税。油价因供应担忧而上涨。美联储主席沃什本周的证词受到好评，但市场目前关注即将公布的通胀数据以及特斯拉和奈飞的财报。",
+      "event_count": 10,
+      "avg_impact": 67.5
+    },
     {
       "date": "2026-07-15",
       "report_type": "close",
