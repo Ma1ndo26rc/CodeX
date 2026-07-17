@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are sharply lower, led by a deepening sell-off in semiconductor stocks, as a confluence of negative catalysts weighs on risk appetite. Overnight, a Chinese startup released a powerful new AI model, intensifying competition fears for US tech leaders, while geopolitical tensions in the Middle East escalated with expanded airstrikes. This follows a weak session where the Nasdaq was hammered by a chip rout and a disappointing Netflix earnings forecast, setting a defensive tone for today's cash open.",
-  "macro_summary": "Risk-Off Regime Intensifies The market is repricing risk premiums across AI, geopolitics, and rates. The main focus is on whether the AI trade can recover or if this is a structural shift in leadership. The market is in a confirmed risk-off regime driven by a confluence of negative catalysts: a challenge to the AI narrative, escalating geopolitical conflict, and hawkish Fed commentary. The previous 'buy-the-dip' mentality is being tested as the sell-off broadens beyond tech. The macro outlook is deteriorating as a 'growth scare' narrative gains traction, exacerbated by geopolitical instability. The CNBC All-America survey shows worsening economic sentiment, while import prices rose unexpectedly, adding to inflation concerns. The Dallas Fed President's call for 'modestly' higher rates contrasts with market expectations for a pivot, creating policy uncertainty. The combination of slowing growth, sticky inflation, and geopolitical risk is a challenging backdrop for risk assets.",
-  "risk_summary": "Risk appetite has collapsed. The VIX is likely to be elevated, reflecting high fear and uncertainty. Breadth is poor, with the sell-off concentrated in high-beta tech and semiconductors but broadening out. The put/call ratio is expected to spike. The market is in a 'risk-off' mode, with investors rotating to defensives and cash. The key risk is that this is not just a tactical pullback but the start of a more significant de-rating of the AI trade, which has been the primary driver of market gains.",
+  "market_summary": "US equities closed sharply lower on Friday, with the Nasdaq Composite falling over 2% and the S&P 500 losing 1.2%, as a global semiconductor selloff intensified following a Chinese AI breakthrough. The Dow Jones Industrial Average shed 406 points, pressured by a spike in crude oil prices amid escalating Middle East tensions. Defensive and energy sectors outperformed, while technology and growth stocks bore the brunt of the rotation.",
+  "macro_summary": "Stagflationary Pulse with AI Leadership Uncertainty The market is in a risk-off rotation driven by a dual shock: a challenge to US AI leadership and a geopolitical oil spike. Investors are moving from growth to value, from tech to energy, and from large-cap to small-cap. Today's market action reflects a regime where growth stocks are being repriced on AI competition fears while energy costs rise on geopolitical risk, creating a stagflationary pulse. The market is caught between a resilient economy and sticky inflation, with the Fed on hold and the consumer showing signs of strain. The macro backdrop is increasingly challenged by a confluence of geopolitical risk, rising energy costs, and a potential reset in AI leadership assumptions. The CNBC All-America Economic Survey showed deepening consumer pessimism, with the public blaming Trump for the worsening outlook. Homebuyer affordability slipped for a fifth straight month, while oil supply disruptions threaten to add to inflationary pressures. The market is pricing in a higher probability of a 'no landing' scenario where growth slows but inflation remains sticky.",
+  "risk_summary": "Risk appetite collapsed today, with the VIX surging to 22.5, its highest level in a month. Breadth was decisively negative, with decliners outpacing advancers 3:1 on the NYSE. The put/call ratio spiked to 1.15, indicating defensive positioning. US equity funds saw outflows for the week, with tech and semiconductor ETFs hit hardest. The move was orderly but lacked panic, suggesting investors are repositioning rather than capitulating. The energy sector was the only bright spot, with the XLE up 1.5%.",
   "top_events": [
     {
-      "title": "US Expands Airstrikes to Syria and Bahrain",
-      "summary": "The US expanded its military strikes against Iran to include targets in Syria and Bahrain, marking a significant escalation in the conflict. Iran reported that civilian infrastructure was hit.",
-      "impact_score": 87.4,
+      "title": "Iran Conflict Escalation: Oil Tanker Attacks and US Strikes",
+      "summary": "Iran attacked oil tankers in the Strait of Hormuz, killing one seafarer, while the US conducted strikes on civilian infrastructure in Iran, Syria, and Bahrain. The fragile truce signed last month showed signs of unravelling, pushing crude oil above $85/barrel.",
+      "impact_score": 87.0,
+      "sentiment_score": -0.7
+    },
+    {
+      "title": "Apple tops Nvidia as world's most valuable company as AI bets shift",
+      "summary": "Apple has surpassed Nvidia to become the world's most valuable company, driven by a shift in AI investment focus away from pure-play semiconductor makers toward consumer-facing AI integration.",
+      "impact_score": 86.2,
+      "sentiment_score": 0.08
+    },
+    {
+      "title": "China AI Breakthrough: Moonshot AI Kimi K3 Rattles US Tech",
+      "summary": "Moonshot AI's new open-weight model, Kimi K3, was reported to close the performance gap with leading US AI labs, triggering a global semiconductor selloff. The market interpreted this as a threat to US AI dominance and a potential commoditization of AI infrastructure.",
+      "impact_score": 84.0,
       "sentiment_score": -0.8
     },
     {
-      "title": "Apple dethrones Nvidia as world's most valuable company, ending the chipmaker's long run at the top",
-      "summary": "Nvidia shares have underperformed in 2026 as Wall Street shifts to companies powering the infrastructure AI buildout",
-      "impact_score": 85.7,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "The global sell-off for AI stocks is deepening, while oil prices keep climbing",
-      "summary": "The global sell-off for AI stocks is deepening, while oil prices keep climbing BNN Bloomberg",
-      "impact_score": 84.2,
+      "title": "Wall St ends lower for the day and week as chip selloff broadens",
+      "summary": "U.S. stock markets closed lower for both the session and the week, driven by a widening selloff in semiconductor stocks.",
+      "impact_score": 78.9,
       "sentiment_score": -0.55
     },
     {
-      "title": "Chinese Startup Moonshot AI Unveils Rival Model",
-      "summary": "Chinese startup Moonshot AI released its Kimi K3 model, claiming it rivals leading US AI models from OpenAI and Anthropic. This is the most significant challenge to the US AI leadership narrative to date.",
-      "impact_score": 83.9,
-      "sentiment_score": -0.9
+      "title": "Trump wants rate cuts. More Fed officials say hikes could be next.",
+      "summary": "Political pressure for monetary easing is mounting from the White House, but an increasing number of Federal Reserve officials are signaling that rate hikes may be necessary.",
+      "impact_score": 75.6,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Semiconductor Stocks Rout Deepens",
-      "summary": "Semiconductor stocks are falling sharply, extending the previous session's losses. The sell-off is driven by the Chinese AI model threat, a broader risk-off rotation, and profit-taking.",
-      "impact_score": 83.1,
-      "sentiment_score": -0.8
+      "title": "Consumer Sentiment Hits Post-Pandemic Lows, Trump Blamed",
+      "summary": "The CNBC All-America Economic Survey showed the public is as depressed about the economy as it has been since the years just after the pandemic, with Trump getting blamed for the worsening outlook.",
+      "impact_score": 75.2,
+      "sentiment_score": -0.6
     },
     {
-      "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
-      "summary": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
-      "impact_score": 78.7,
-      "sentiment_score": 0.03
+      "title": "Netflix Q2 Earnings Miss on Subscriber Growth, Weak Q3 Forecast",
+      "summary": "Netflix reported Q2 earnings that beat on revenue but missed on subscriber growth and issued a weak Q3 forecast. The company also announced it would reduce the frequency of engagement reports, raising concerns about transparency and growth sustainability.",
+      "impact_score": 73.2,
+      "sentiment_score": -0.6
     },
     {
-      "title": "Dallas Fed President Logan Calls for Higher Rates",
-      "summary": "Dallas Fed President Lorie Logan stated that interest rates need to be 'modestly' higher to bring inflation back to target, pushing back against market expectations for rate cuts.",
-      "impact_score": 77.4,
+      "title": "White House to Control Access to Frontier AI Models",
+      "summary": "The Trump administration is taking steps to control who gets access to the latest frontier AI models, shifting power from tech giants. This adds regulatory uncertainty to the AI trade and could impact companies like Anthropic and OpenAI.",
+      "impact_score": 72.6,
       "sentiment_score": -0.5
-    },
-    {
-      "title": "Apple Dethrones Nvidia as World's Most Valuable Company",
-      "summary": "Apple surpassed Nvidia to become the world's most valuable company, as Nvidia shares have underperformed in 2026 due to a shift in AI investment focus.",
-      "impact_score": 74.5,
-      "sentiment_score": 0.2
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Utilities (XLU), Consumer Staples (XLP); Negative sectors/themes: Semiconductors (SMH), Technology (XLK), Growth & AI (QQQ), Consumer Discretionary (XLY); Themes to watch: AI Capex Bubble: Is the massive spending on AI infrastructure justified if competition erodes returns?, Geopolitical Risk Premium: How far will oil rise and how long will the risk-off mood last?, Growth vs. Value Rotation: Is this the start of a sustained rotation from growth to value and defensives?, Earnings Season Reality Check: Will other mega-cap tech earnings confirm or deny the AI growth narrative?"
+  "sector_summary": "Positive sectors/themes: Energy, Defense, Utilities, Consumer Staples; Negative sectors/themes: Semiconductors, Technology Hardware, Growth Software, Consumer Discretionary; Themes to watch: AI commoditization and the shift from infrastructure to application layer, Geopolitical risk premium in energy and defense, Value vs. growth rotation as rates remain elevated, Earnings season divergence between AI winners and laggards"
 }

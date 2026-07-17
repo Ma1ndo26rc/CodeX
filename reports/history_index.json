@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-17T14:21:30.563639+00:00",
+  "generated_at": "2026-07-17T23:12:21.265949+00:00",
   "reports": [
+    {
+      "date": "2026-07-17",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-17T23:10:42.602093+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-17-close.json",
+      "dynamic_headline": "Chip rout deepens on China AI fears, energy surge caps broader losses",
+      "dynamic_headline_zh": "中国AI担忧加剧芯片板块暴跌，能源股飙升限制大盘跌幅",
+      "market_summary": "US equities closed sharply lower on Friday, with the Nasdaq Composite falling over 2% and the S&P 500 losing 1.2%, as a global semiconductor selloff intensified following a Chinese AI breakthrough. The Dow Jones Industrial Average shed 406 points, pressured by a spike in crude oil prices amid escalating Middle East tensions. Defensive and energy sectors outperformed, while technology and growth stocks bore the brunt of the rotation.",
+      "market_summary_zh": "美国股市周五大幅收低，纳斯达克综合指数下跌逾2%，标普500指数下跌1.2%，因中国人工智能突破引发全球半导体抛售加剧。道琼斯工业平均指数下跌406点，受中东紧张局势升级导致原油价格飙升的压力。防御性和能源板块表现优于大盘，而科技和成长股则首当其冲遭受资金轮动冲击。",
+      "event_count": 10,
+      "avg_impact": 65.5
+    },
     {
       "date": "2026-07-17",
       "report_type": "premarket",
