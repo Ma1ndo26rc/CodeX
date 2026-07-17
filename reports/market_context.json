@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities closed mixed on Thursday, with the Nasdaq Composite falling sharply as a selloff in semiconductor and mega-cap tech stocks deepened. The Dow Jones Industrial Average managed a modest gain, supported by strength in healthcare and financials, while the S&P 500 ended lower. The market is grappling with a rotation out of AI winners into lagging sectors, as rising geopolitical risks and hawkish Fed commentary add to uncertainty.",
-  "macro_summary": "Rotation and Reassessment The market is in a rotational phase, moving from AI leadership to a broader, more value-oriented rally, but the sustainability depends on earnings and the Fed's next move. Today's market action reflects a regime shift where investors are rotating out of crowded AI trades into underperforming value and small-cap segments. This is being driven by a reassessment of AI spending, a hawkish Fed, and rising geopolitical risks, creating a 'risk-on, but not in tech' environment. The macro outlook is increasingly clouded by a hawkish Fed and geopolitical risks. Dallas Fed President Logan's call for higher rates suggests the disinflation trend is not yet convincing enough for policymakers. Meanwhile, the threat of a disruption to oil flows through the Strait of Hormuz is a stagflationary risk that could complicate the Fed's path. The market is pricing in a higher probability of a 'no landing' scenario where growth remains resilient but inflation stays sticky.",
-  "risk_summary": "Risk appetite is clearly bifurcated. The VIX index rose 5% to 18.5, reflecting increased anxiety in the tech-heavy Nasdaq. However, the put/call ratio remained relatively low, suggesting the selloff is more of a sector rotation than a broad-based panic. Market breadth was negative on the NYSE, but the number of new 52-week highs in small-cap stocks continues to expand, indicating healthy risk-on positioning in value-oriented names. The overall sentiment is cautious but not fearful, with investors rotating rather than fleeing.",
+  "market_summary": "US equity futures are sharply lower, led by a deepening sell-off in semiconductor stocks, as a confluence of negative catalysts weighs on risk appetite. Overnight, a Chinese startup released a powerful new AI model, intensifying competition fears for US tech leaders, while geopolitical tensions in the Middle East escalated with expanded airstrikes. This follows a weak session where the Nasdaq was hammered by a chip rout and a disappointing Netflix earnings forecast, setting a defensive tone for today's cash open.",
+  "macro_summary": "Risk-Off Regime Intensifies The market is repricing risk premiums across AI, geopolitics, and rates. The main focus is on whether the AI trade can recover or if this is a structural shift in leadership. The market is in a confirmed risk-off regime driven by a confluence of negative catalysts: a challenge to the AI narrative, escalating geopolitical conflict, and hawkish Fed commentary. The previous 'buy-the-dip' mentality is being tested as the sell-off broadens beyond tech. The macro outlook is deteriorating as a 'growth scare' narrative gains traction, exacerbated by geopolitical instability. The CNBC All-America survey shows worsening economic sentiment, while import prices rose unexpectedly, adding to inflation concerns. The Dallas Fed President's call for 'modestly' higher rates contrasts with market expectations for a pivot, creating policy uncertainty. The combination of slowing growth, sticky inflation, and geopolitical risk is a challenging backdrop for risk assets.",
+  "risk_summary": "Risk appetite has collapsed. The VIX is likely to be elevated, reflecting high fear and uncertainty. Breadth is poor, with the sell-off concentrated in high-beta tech and semiconductors but broadening out. The put/call ratio is expected to spike. The market is in a 'risk-off' mode, with investors rotating to defensives and cash. The key risk is that this is not just a tactical pullback but the start of a more significant de-rating of the AI trade, which has been the primary driver of market gains.",
   "top_events": [
     {
-      "title": "Dallas Fed President Logan calls for 'modestly' higher interest rates",
-      "summary": "Dallas Fed President Lorie Logan stated that recent good inflation news is not sufficient and that interest rates may need to rise 'modestly' to ensure price stability.",
-      "impact_score": 86.2,
+      "title": "US Expands Airstrikes to Syria and Bahrain",
+      "summary": "The US expanded its military strikes against Iran to include targets in Syria and Bahrain, marking a significant escalation in the conflict. Iran reported that civilian infrastructure was hit.",
+      "impact_score": 87.4,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Apple dethrones Nvidia as world's most valuable company, ending the chipmaker's long run at the top",
+      "summary": "Nvidia shares have underperformed in 2026 as Wall Street shifts to companies powering the infrastructure AI buildout",
+      "impact_score": 85.7,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "The global sell-off for AI stocks is deepening, while oil prices keep climbing",
+      "summary": "The global sell-off for AI stocks is deepening, while oil prices keep climbing BNN Bloomberg",
+      "impact_score": 84.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Chinese Startup Moonshot AI Unveils Rival Model",
+      "summary": "Chinese startup Moonshot AI released its Kimi K3 model, claiming it rivals leading US AI models from OpenAI and Anthropic. This is the most significant challenge to the US AI leadership narrative to date.",
+      "impact_score": 83.9,
+      "sentiment_score": -0.9
+    },
+    {
+      "title": "Semiconductor Stocks Rout Deepens",
+      "summary": "Semiconductor stocks are falling sharply, extending the previous session's losses. The sell-off is driven by the Chinese AI model threat, a broader risk-off rotation, and profit-taking.",
+      "impact_score": 83.1,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
+      "summary": "Import prices were up 0.3% for the month, as a drop in energy was more than offset by increases elsewhere.",
+      "impact_score": 78.7,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Dallas Fed President Logan Calls for Higher Rates",
+      "summary": "Dallas Fed President Lorie Logan stated that interest rates need to be 'modestly' higher to bring inflation back to target, pushing back against market expectations for rate cuts.",
+      "impact_score": 77.4,
       "sentiment_score": -0.5
     },
     {
-      "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed",
-      "summary": "A report indicated that Alphabet's next-generation AI model, Gemini 3.5 Pro, is delayed, raising concerns that Google is falling behind in the AI race.",
-      "impact_score": 79.1,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats",
-      "summary": "Iran warned the U.S. that any attack on its infrastructure would cross a 'red line' and trigger retaliation, escalating tensions over the Strait of Hormuz.",
-      "impact_score": 78.7,
-      "sentiment_score": -0.6
-    },
-    {
-      "title": "Netflix stock falls as earnings forecast disappoints, company says it will give fewer engagement updates",
-      "summary": "Netflix reported mixed Q2 results, with a disappointing Q3 forecast and a plan to reduce the frequency of its 'What We Watched' engagement reports, which Wall Street views as a loss of transparency.",
-      "impact_score": 77.8,
-      "sentiment_score": -0.7
-    },
-    {
-      "title": "TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%",
-      "summary": "TSMC reported a 77% surge in Q2 profit and announced a massive $100 billion investment in its Arizona facilities, underscoring its dominant position in the semiconductor industry.",
-      "impact_score": 77.2,
-      "sentiment_score": 0.7
-    },
-    {
-      "title": "Federal Reserve’s Logan warns inflation not on track for 2% target",
-      "summary": "Federal Reserve’s Logan warns inflation not on track for 2% target Crypto Briefing",
-      "impact_score": 76.3,
-      "sentiment_score": -0.3
-    },
-    {
-      "title": "President of KC Federal Reserve Bank, appearing in Grand Island, has his eye on inflation",
-      "summary": "President of KC Federal Reserve Bank, appearing in Grand Island, has his eye on inflation The Grand Island Independent",
-      "impact_score": 75.5,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Semiconductor stocks are on the verge of a bear market. Is the thrill in the chips trade gone?",
-      "summary": "The PHLX Semiconductor Index (SOX) has tumbled nearly 20% from its record high in late June, approaching bear market territory, as AI-related enthusiasm wanes.",
-      "impact_score": 73.7,
-      "sentiment_score": -0.8
+      "title": "Apple Dethrones Nvidia as World's Most Valuable Company",
+      "summary": "Apple surpassed Nvidia to become the world's most valuable company, as Nvidia shares have underperformed in 2026 due to a shift in AI investment focus.",
+      "impact_score": 74.5,
+      "sentiment_score": 0.2
     }
   ],
-  "sector_summary": "Positive sectors/themes: Healthcare (XLV): UnitedHealth's strong earnings lifted the entire sector., Energy (XLE): Elevated oil prices due to geopolitical tensions continue to support energy stocks., Financials (XLF): Benefiting from a steeper yield curve and positive analyst reports on Goldman Sachs., Small-Caps (IWM): The rotation out of mega-cap tech is fueling a rally in small-cap stocks.; Negative sectors/themes: Technology (XLK): Broad selloff led by semiconductors and mega-cap names like Alphabet., Communication Services (XLC): Netflix and Alphabet are the primary drags on the sector., Semiconductors (SMH): The sector is on the verge of a bear market, down nearly 20% from its high.; Themes to watch: AI Monetization & Spending: The market is increasingly scrutinizing the ROI of massive AI capex, with Netflix and Alphabet's news raising questions., Value vs. Growth Rotation: The persistent outperformance of value and small-caps suggests a durable shift in market leadership., Geopolitical Risk & Commodities: The Iran situation is a key wildcard that could drive further rotation into energy and defense."
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Utilities (XLU), Consumer Staples (XLP); Negative sectors/themes: Semiconductors (SMH), Technology (XLK), Growth & AI (QQQ), Consumer Discretionary (XLY); Themes to watch: AI Capex Bubble: Is the massive spending on AI infrastructure justified if competition erodes returns?, Geopolitical Risk Premium: How far will oil rise and how long will the risk-off mood last?, Growth vs. Value Rotation: Is this the start of a sustained rotation from growth to value and defensives?, Earnings Season Reality Check: Will other mega-cap tech earnings confirm or deny the AI growth narrative?"
 }

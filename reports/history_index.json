@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-16T23:14:58.346929+00:00",
+  "generated_at": "2026-07-17T14:21:30.563639+00:00",
   "reports": [
+    {
+      "date": "2026-07-17",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-17T14:19:48.224969+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-17-premarket.json",
+      "dynamic_headline": "Risk-off sentiment dominates as AI trade wobbles, geopolitical tensions escalate, and futures point to a lower open.",
+      "dynamic_headline_zh": "避险情绪主导市场，人工智能交易波动加剧，地缘政治紧张局势升级，期货市场指向低开。",
+      "market_summary": "US equity futures are sharply lower, led by a deepening sell-off in semiconductor stocks, as a confluence of negative catalysts weighs on risk appetite. Overnight, a Chinese startup released a powerful new AI model, intensifying competition fears for US tech leaders, while geopolitical tensions in the Middle East escalated with expanded airstrikes. This follows a weak session where the Nasdaq was hammered by a chip rout and a disappointing Netflix earnings forecast, setting a defensive tone for today's cash open.",
+      "market_summary_zh": "美国股票期货大幅下跌，半导体股抛售加剧领跌，多重负面因素打压风险偏好。隔夜，一家中国初创公司发布了一款强大的新AI模型，加剧了市场对美国科技领导者竞争加剧的担忧，同时中东地缘政治紧张局势因空袭扩大而升级。此前一个疲软交易日，纳斯达克指数因芯片股暴跌和Netflix令人失望的盈利预测而遭受重创，为今日现货市场开盘奠定了防御基调。",
+      "event_count": 10,
+      "avg_impact": 69.0
+    },
     {
       "date": "2026-07-16",
       "report_type": "close",
