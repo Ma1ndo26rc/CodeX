@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-17T14:18:31.778323+00:00",
+  "generated_at": "2026-07-17T23:02:11.825792+00:00",
   "reports": [
+    {
+      "date": "2026-07-17",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-17T23:00:21.611050+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-17-close.json",
+      "dynamic_headline": "Wall Street ends sharply lower as a Chinese AI breakthrough triggers a broad semiconductor rout, while rising geopolitical tensions and a disappointing Netflix outlook compound risk-off sentiment.",
+      "dynamic_headline_zh": "华尔街大幅收跌，中国AI突破引发半导体板块全面抛售，地缘政治紧张局势加剧及奈飞前景不及预期进一步打压避险情绪。",
+      "market_summary": "US equities closed firmly in the red on Friday, July 17, 2026, with the Nasdaq Composite leading the decline as a fresh wave of selling swept through the semiconductor and AI-related complex. The catalyst was the unveiling of Moonshot AI's Kimi K3 model, a Chinese open-weight AI system that has rapidly closed the performance gap with leading US labs, reigniting fears of a 'DeepSeek moment' and challenging the premium valuations of US AI infrastructure plays. The selloff was broad but concentrated in tech, with the Philadelphia Semiconductor Index (SOX) entering bear market territory. The Dow Jones Industrial Average also fell sharply, pressured by a spike in crude oil prices following an escalation in the Iran-Israel conflict and new US tariffs on Canada linked to wildfire smoke. Netflix (NFLX) shares dropped after-hours on a disappointing Q3 forecast and a plan to reduce engagement reporting, adding to the negative tone. In contrast, the energy sector was a rare bright spot, and the equal-weight S&P 500 outperformed, suggesting a rotation away from mega-cap growth into value and cyclical names.",
+      "market_summary_zh": "美国股市周五（2026年7月17日）收盘深陷跌势，纳斯达克综合指数领跌，半导体及人工智能相关板块遭遇新一轮抛售潮。导火索是月之暗面（Moonshot AI）发布的Kimi K3模型，这款中国开源权重AI系统迅速缩小了与美国领先实验室的性能差距，重新点燃了市场对“DeepSeek时刻”的担忧，并对美国AI基础设施相关股票的高估值构成挑战。抛售范围广泛但集中于科技板块，费城半导体指数（SOX）已进入熊市区域。道琼斯工业平均指数亦大幅下跌，因伊朗-以色列冲突升级及美国以野火烟雾为由对加拿大加征新关税，导致原油价格飙升，进一步施压。奈飞（NFLX）因第三季度展望不及预期并计划减少参与度报告，盘后股价下跌，加剧了市场负面情绪。相比之下，能源板块成为罕见的亮点，等权重标普500指数表现优于市值加权指数，表明资金正从超大盘成长股轮动至价值股和周期股。",
+      "event_count": 10,
+      "avg_impact": 73.5
+    },
     {
       "date": "2026-07-17",
       "report_type": "premarket",
