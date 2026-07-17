@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-16T23:09:54.954551+00:00",
+  "generated_at": "2026-07-17T14:18:31.778323+00:00",
   "reports": [
+    {
+      "date": "2026-07-17",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-17T14:16:53.905092+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-17-premarket.json",
+      "dynamic_headline": "Risk-off sentiment dominates pre-market as a deepening semiconductor rout, a disappointing Netflix outlook, and escalating geopolitical tensions in the Middle East set the stage for a lower cash open.",
+      "dynamic_headline_zh": "盘前避险情绪主导市场，半导体板块跌势加剧、奈飞前景令人失望以及中东地缘政治紧张局势升级，为美股低开奠定基础。",
+      "market_summary": "US equity futures are pointing to a sharply lower open, extending the prior session's sell-off. The Nasdaq is under the most pressure, driven by a continued rout in semiconductor stocks following a powerful new AI model release from a Chinese startup and a disappointing earnings forecast from Netflix. The broader market is also being weighed down by escalating US-Iran military conflict, which is driving safe-haven flows into oil and Treasuries while pressuring risk assets. Key events today include the final reading of the University of Michigan consumer sentiment, a speech from Fed Governor Waller, and the ongoing earnings season.",
+      "market_summary_zh": "美国股指期货预示大幅低开，延续前一交易日的抛售。纳斯达克指数承压最重，因一家中国初创公司发布功能强大的新型AI模型以及奈飞发布令人失望的盈利预测，导致半导体股持续暴跌。大盘也受到美伊军事冲突升级的拖累，这推动避险资金流入石油和美国国债，同时施压风险资产。今日关键事件包括密歇根大学消费者信心指数终值、美联储理事沃勒的讲话以及正在进行的财报季。",
+      "event_count": 10,
+      "avg_impact": 68.7
+    },
     {
       "date": "2026-07-16",
       "report_type": "close",
