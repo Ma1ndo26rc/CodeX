@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-20T14:44:24.137379+00:00",
+  "generated_at": "2026-07-20T23:12:51.251729+00:00",
   "reports": [
+    {
+      "date": "2026-07-20",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-20T23:11:23.071481+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-20-close.json",
+      "dynamic_headline": "Wall Street ends mixed as a rebound in AI and chip stocks offsets geopolitical jitters from escalating Middle East conflict and new US-Canada trade tariffs.",
+      "dynamic_headline_zh": "华尔街收盘涨跌互现，人工智能和芯片股反弹抵消了中东冲突升级及美加新贸易关税带来的地缘政治紧张情绪。",
+      "market_summary": "US equity markets closed mixed on Monday, July 20, 2026, with the Dow Jones Industrial Average falling 0.59% while the Nasdaq Composite managed a modest gain, buoyed by a recovery in semiconductor and AI-related stocks. The S&P 500 was roughly flat. The session was characterized by a tug-of-war between a tech-led bounce from last week's selloff and persistent macro headwinds from a sharp escalation in Middle East tensions, new US tariffs on Canadian goods, and cautious commentary from JPMorgan CEO Jamie Dimon. Energy stocks were the standout winners as crude oil prices surged to one-month highs, while consumer discretionary and financials lagged.",
+      "market_summary_zh": "美国股市周一（2026年7月20日）收盘涨跌互现，道琼斯工业平均指数下跌0.59%，而纳斯达克综合指数在半导体和人工智能相关股票复苏的推动下小幅上涨。标普500指数基本持平。本交易日呈现拉锯态势，一方面科技股从上周的抛售中反弹，另一方面宏观逆风持续，包括中东紧张局势急剧升级、美国对加拿大商品征收新关税以及摩根大通首席执行官杰米·戴蒙的谨慎评论。能源股因原油价格飙升至一个月高点而成为最大赢家，而非必需消费品和金融板块则表现滞后。",
+      "event_count": 8,
+      "avg_impact": 71.25
+    },
     {
       "date": "2026-07-20",
       "report_type": "premarket",
