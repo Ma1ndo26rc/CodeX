@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-17T23:12:21.265949+00:00",
+  "generated_at": "2026-07-20T15:00:19.303749+00:00",
   "reports": [
+    {
+      "date": "2026-07-20",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-20T14:58:42.831466+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-20-premarket.json",
+      "dynamic_headline": "Geopolitical ceasefire hopes and a semiconductor recovery drive a risk-on pre-market setup ahead of Big Tech earnings.",
+      "dynamic_headline_zh": "地缘政治停火预期与半导体复苏推动风险偏好回升，大型科技股财报前夕市场情绪积极。",
+      "market_summary": "US equity futures are pointing to a higher open, led by a rebound in semiconductor stocks and a sharp reversal in oil prices on renewed US-Iran ceasefire hopes. The Nasdaq is set to outperform as chip names like AMD, Micron, and TSMC recover from recent losses, while the broader market awaits a heavy week of Big Tech earnings. Treasury yields are edging higher, and the dollar is steady as investors weigh geopolitical risks against a potential de-escalation catalyst.",
+      "market_summary_zh": "美国股指期货开盘走高，半导体股反弹及美伊停火预期导致油价急跌是主要推动力。纳斯达克指数有望领涨，AMD、美光、台积电等芯片股从近期跌势中回升，市场正等待本周密集的大型科技股财报。国债收益率小幅上行，美元持稳，投资者在地缘政治风险与潜在缓和催化剂之间权衡。",
+      "event_count": 10,
+      "avg_impact": 68.0
+    },
     {
       "date": "2026-07-17",
       "report_type": "close",
