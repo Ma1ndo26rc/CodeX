@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-20T15:00:19.303749+00:00",
+  "generated_at": "2026-07-20T23:18:41.604684+00:00",
   "reports": [
+    {
+      "date": "2026-07-20",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-20T23:17:09.699813+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-20-close.json",
+      "dynamic_headline": "Chip stocks rebound but geopolitical risk and tariff escalation cap gains, leaving major indices mixed.",
+      "dynamic_headline_zh": "芯片股反弹，但地缘政治风险与关税升级限制涨幅，主要指数涨跌互现。",
+      "market_summary": "US equity markets closed mixed on Monday as a rebound in semiconductor stocks, led by AMD and Nvidia, lifted the Nasdaq, while the Dow and S&P 500 edged lower. The session was dominated by a tug-of-war between a recovery in AI-related names and heightened geopolitical tensions in the Middle East, coupled with new US tariffs on Canada. Crude oil surged to a one-month high, and the VIX remained elevated, reflecting persistent uncertainty ahead of a heavy week of Big Tech earnings.",
+      "market_summary_zh": "美国股市周一收盘涨跌互现，以AMD和英伟达为首的半导体股反弹提振纳斯达克指数，而道琼斯指数和标普500指数小幅走低。当日市场主导因素是AI相关个股的复苏与中东地缘政治紧张局势加剧，以及美国对加拿大加征新关税之间的拉锯。原油价格飙升至一个月高位，VIX指数仍处高位，反映出在大型科技股财报密集发布周前夕，市场持续存在不确定性。",
+      "event_count": 8,
+      "avg_impact": 74.38
+    },
     {
       "date": "2026-07-20",
       "report_type": "premarket",

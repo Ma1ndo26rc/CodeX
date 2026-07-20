@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a higher open, led by a rebound in semiconductor stocks and a sharp reversal in oil prices on renewed US-Iran ceasefire hopes. The Nasdaq is set to outperform as chip names like AMD, Micron, and TSMC recover from recent losses, while the broader market awaits a heavy week of Big Tech earnings. Treasury yields are edging higher, and the dollar is steady as investors weigh geopolitical risks against a potential de-escalation catalyst.",
-  "macro_summary": "Geopolitical-Driven Risk-On with Earnings Inflection The market is in a fragile risk-on mode, driven by a single geopolitical catalyst. The sustainability of the rally depends on confirmation of the ceasefire and strong earnings from mega-cap tech. Today's market is characterized by a sudden shift in the primary risk factor: from a persistent geopolitical risk premium to a potential de-escalation catalyst. This has triggered a sharp reversal in oil and a broad risk-on move in equities, particularly in the previously beaten-down semiconductor sector. The market is also positioning for a critical week of Big Tech earnings, which will test the sustainability of the AI capex narrative. The macro outlook is bifurcated: a potential geopolitical de-escalation is the primary positive catalyst, but the underlying economic data remains mixed. The labor market is cooling gradually, and consumer spending is resilient but showing signs of strain. The Fed is on hold, and the market is pricing a cut in late 2026. The key risk is that a sustained drop in oil prices, if confirmed, would ease inflation pressures and potentially bring forward rate cut expectations, which is a tailwind for equities.",
-  "risk_summary": "Risk appetite is improving sharply in the pre-market, driven by the oil price reversal and the semiconductor bounce. The VIX is likely to open lower, but volatility remains elevated relative to the summer average. Breadth in futures is positive, with 8 of 11 S&P sectors indicated higher. The key risk is that the ceasefire narrative is premature or rejected, which would trigger a violent reversal. Positioning is still defensive overall, with cash levels elevated, suggesting there is room for further upside if the catalysts hold.",
+  "market_summary": "US equity markets closed mixed on Monday as a rebound in semiconductor stocks, led by AMD and Nvidia, lifted the Nasdaq, while the Dow and S&P 500 edged lower. The session was dominated by a tug-of-war between a recovery in AI-related names and heightened geopolitical tensions in the Middle East, coupled with new US tariffs on Canada. Crude oil surged to a one-month high, and the VIX remained elevated, reflecting persistent uncertainty ahead of a heavy week of Big Tech earnings.",
+  "macro_summary": "Cautious Risk-On with a Defensive Lean The market is in a 'prove it' mode, with the AI trade attempting to reassert leadership while macro risks from oil and tariffs force a defensive posture. The next two weeks of earnings will likely determine the market's near-term direction. Today's market reflects a tug-of-war between a resilient AI narrative and escalating macro risks. The rebound in tech is being offset by a flight to energy and safe havens, creating a narrow, two-tiered market. The main focus is on whether upcoming Big Tech earnings can justify the AI premium in the face of rising geopolitical and trade headwinds. The macro outlook remains clouded by a combination of geopolitical risk and trade policy uncertainty. Oil's surge to a one-month high is acting as a tax on consumers and a headwind for discretionary spending, while also stoking inflation fears. The bond market is pricing in a slightly higher probability of a Fed cut in September, but the path is uncertain. The VIX, while off its highs, remains above 20, indicating elevated anxiety. The market is in a 'show me' phase, waiting for earnings from the mega-cap tech leaders to validate the AI growth narrative.",
+  "risk_summary": "Risk appetite is bifurcated. There is clear demand for AI and semiconductor exposure, as evidenced by the Nasdaq's resilience. However, defensive sectors like Utilities and Consumer Staples are also attracting flows, suggesting a lack of conviction in a broad-based rally. The VIX is hovering around 22, reflecting elevated uncertainty. Breadth was poor, with decliners outpacing advancers on the NYSE. Insider selling activity, as noted in the Vickers report, suggests corporate executives are taking profits. The CNBC poll showing voter wariness of government ownership in companies adds a layer of political risk.",
   "top_events": [
     {
-      "title": "Oil prices reverse after Iran ceasefire proposal",
-      "summary": "Oil prices reversed an earlier sharp rally, falling below $87 a barrel, after a report of a 10-day ceasefire proposal between the US and Iran. This comes despite a fresh barrage of US strikes over the weekend.",
+      "title": "Houthi Red Sea blockade would lift oil prices, but workarounds could limit impact",
+      "summary": "Analysis of the potential impact of a Houthi blockade in the Red Sea on global oil prices, noting that while a blockade would likely push prices higher, existing alternative routes and strategic reserves could mitigate the overall effect.",
+      "impact_score": 89.1,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Oil Prices Settle at One-Month High on Iran/Houthi Escalation",
+      "summary": "Oil prices surged to a one-month high as the Houthis declared a maritime embargo against Saudi Arabia and US-Iran fighting escalated. A new ceasefire proposal was reported, but the market remains on edge.",
       "impact_score": 87.7,
       "sentiment_score": 0.6
     },
     {
-      "title": "Wall Street steadies as AI stocks recover some of last week’s sharp losses",
-      "summary": "Wall Street steadies as AI stocks recover some of last week’s sharp losses AP News",
-      "impact_score": 83.9,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "U.S. Treasury yields edge higher as Wall Street monitors Middle East tensions",
-      "summary": "The yield on the 10-year U.S. Treasury note — the key benchmark for U.S. government borrowing — rose over 1 basis point to 4.558%.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "New Ceasefire Hopes Add $550 Billion to US Stocks as Oil Retreats",
-      "summary": "",
-      "impact_score": 81.5,
-      "sentiment_score": -0.45
-    },
-    {
-      "title": "Oil prices erase gains after Iran says U.S. talks could be pursued based on national interests",
-      "summary": "American forces have started the ninth consecutive night of strikes against Iranian targets.",
-      "impact_score": 80.1,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "AMD launches Helios AI system with Microsoft as customer",
-      "summary": "AMD launched its first rack AI system, Helios, to rival Nvidia, and announced Microsoft as a new customer, joining Meta, OpenAI, and Oracle. This is a major competitive development in the AI chip market.",
+      "title": "AMD Launches Helios AI System, Lands Microsoft as Customer",
+      "summary": "AMD announced Helios, its first rack-scale AI system, directly competing with Nvidia. The company also secured Microsoft as a new customer, joining Meta, OpenAI, and Oracle.",
       "impact_score": 79.8,
       "sentiment_score": 0.8
     },
     {
-      "title": "TSMC accelerating Arizona fab build-out on AI demand",
-      "summary": "TSMC's CFO said the company is accelerating its Arizona factory build-out to capitalize on the AI 'megatrend,' driven by robust customer demand.",
-      "impact_score": 78.7,
+      "title": "Oil Surge on U.S.-Iran Conflict, Fed Rate Hike Fears Push Gold Below $4,000 Psychological Level",
+      "summary": "Oil prices surged due to escalating U.S.-Iran tensions, while gold fell below the $4,000 mark amid fears of further Federal Reserve rate hikes.",
+      "impact_score": 79.0,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Why are gasoline prices rising faster than oil prices? Blame it on the ‘crack.’",
+      "summary": "The spread between the cost of barrels of gasoline and crude oil — known as the “crack spread” — has widened sharply.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "US stocks edge down with Iran and earnings season in focus",
+      "summary": "US stocks edged lower as investors weighed escalating geopolitical tensions with Iran and ongoing corporate earnings reports.",
+      "impact_score": 77.9,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Alphabet Stock Pops on Report of New AI Chip 'Frozen v2'",
+      "summary": "Shares of Alphabet rose on a report that the company is developing a new, more efficient AI chip called 'Frozen v2' that embeds parts of Gemini's architecture directly into silicon.",
+      "impact_score": 77.2,
       "sentiment_score": 0.7
     },
     {
-      "title": "AMD Rallies On Expanded AI Partnership With Microsoft",
-      "summary": "AMD Rallies On Expanded AI Partnership With Microsoft Investor's Business Daily",
-      "impact_score": 76.0,
-      "sentiment_score": 0.03
+      "title": "Bitcoin News: Bitcoin Touches a One-Month High of $65,700 Then Pulls Back — The Iran Ceasefire Report Had No Legs, Oil Rebounds, Yields Rise",
+      "summary": "Bitcoin briefly hit a one-month high of $65,700 before retreating, as an unsubstantiated Iran ceasefire report was dismissed, oil rebounded, and bond yields rose.",
+      "impact_score": 75.3,
+      "sentiment_score": -0.45
     }
   ],
-  "sector_summary": "Positive sectors/themes: Semiconductors (AMD, NVDA, TSM, MU): Leading the recovery on AI product launches and capex acceleration., AI Infrastructure (IREN, HUT, ORCL): Benefiting from increased cloud and data center demand., Airlines (DAL, UAL, JBLU): Benefiting from lower oil prices and ceasefire hopes., Consumer Discretionary (AMZN, CMG): Supported by lower rates and resilient spending.; Negative sectors/themes: Energy (XOM, CVX, OXY): Directly impacted by the sharp reversal in oil prices., Defense (LMT, RTX, NOC): Ceasefire hopes reduce the likelihood of sustained military spending., Auto (GM, F): Negative read-through from China's 20% sales plunge., Regional Banks (CFG, MTB): Under pressure from higher Treasury yields and a flat yield curve.; Themes to watch: AI Capex Sustainability: The market is rewarding companies that are investing in AI infrastructure, but the bar is high for earnings to justify the spending., Geopolitical Risk Premium: The ceasefire proposal is a binary catalyst; any failure will see a sharp re-pricing of risk assets., Semiconductor Mean Reversion: The sector has been oversold, and the recovery is being driven by company-specific catalysts. Breadth and volume will determine if this is a sustainable bounce or a dead cat bounce."
+  "sector_summary": "Positive sectors/themes: Energy (XLE): Surged on the oil price spike due to Middle East tensions., Semiconductors (SMH): Rebounded strongly on AI-related product launches and positive analyst notes., Defense (ITA): Benefited from increased geopolitical risk and the Archer-Anduril military contract news.; Negative sectors/themes: Consumer Discretionary (XLY): Hit by rising oil prices (consumer tax) and cautious outlook from Domino's on consumer behavior., Industrials (XLI): Weighed down by new US-Canada tariffs and trade uncertainty., Media & Entertainment: The temporary block of the Paramount-WBD merger created sector-specific uncertainty.; Themes to watch: AI Infrastructure Buildout: AMD's Helios and TSMC's Arizona expansion underscore the massive capex cycle, benefiting chip and industrial equipment makers., Geopolitical Risk & Commodities: The Iran/Houthi situation is creating a new risk premium in oil and safe-haven assets like gold., Consumer Health: Rising gas prices and value-conscious behavior (Domino's, salad chains) suggest consumer spending is shifting, which is a key watch point for earnings season."
 }
