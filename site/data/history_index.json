@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-17T23:02:11.825792+00:00",
+  "generated_at": "2026-07-20T14:44:24.137379+00:00",
   "reports": [
+    {
+      "date": "2026-07-20",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-20T14:42:59.687070+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-20-premarket.json",
+      "dynamic_headline": "Futures point to a higher open as AI-driven tech optimism and tentative Iran ceasefire hopes offset lingering macro and geopolitical risks.",
+      "dynamic_headline_zh": "期货市场开盘走高，人工智能驱动的科技乐观情绪与伊朗停火初步希望共同抵消了持续的宏观与地缘政治风险。",
+      "market_summary": "US equity futures are trading higher this morning, led by a rebound in semiconductor and AI-related stocks. The positive tone is supported by reports of a potential 10-day ceasefire between the US and Iran, which has caused oil prices to reverse earlier gains and fall back below $87/barrel. However, this optimism is tempered by ongoing geopolitical tensions, a major warning from a car dealer, and a cautious outlook from Boeing. The market is bracing for a heavy week of Big Tech earnings, with Tesla and Alphabet in focus.",
+      "market_summary_zh": "美国股指期货今日早盘上涨，半导体和人工智能相关股票领涨反弹。积极情绪受到美国与伊朗可能达成10天停火协议报道的支撑，该消息导致油价回吐早前涨幅，跌破87美元/桶。然而，持续的紧张局势、一家大型汽车经销商的严重警告以及波音的谨慎展望，令此乐观情绪有所保留。市场正为大型科技股财报密集周做准备，特斯拉和Alphabet成为焦点。",
+      "event_count": 10,
+      "avg_impact": 77
+    },
     {
       "date": "2026-07-17",
       "report_type": "close",
