@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-21T14:41:07.406722+00:00",
+  "generated_at": "2026-07-21T23:10:39.107306+00:00",
   "reports": [
+    {
+      "date": "2026-07-21",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-21T23:08:56.443501+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-21-close.json",
+      "dynamic_headline": "Wall Street rallied as a powerful rebound in AI and semiconductor stocks, led by Super Micro's margin surprise and Nvidia's Vera CPU unveiling, overshadowed escalating Middle East tensions and a hawkish warning from JPMorgan's Jamie Dimon.",
+      "dynamic_headline_zh": "华尔街周二强势反弹，人工智能和半导体股强劲回升，超微电脑的利润率惊喜和英伟达Vera CPU的发布盖过了中东紧张局势升级和摩根大通杰米·戴蒙的鹰派警告。",
+      "market_summary": "US equities closed firmly higher on Tuesday, with the Nasdaq Composite leading the advance as a broad-based recovery in technology and semiconductor stocks regained momentum. The S&P 500 and Dow Jones Industrial Average also posted solid gains, supported by strong earnings from General Motors and a wave of positive analyst notes. The rally was notable for its breadth within tech, though energy and defense names lagged as oil prices eased from session highs on ceasefire hopes. The session was characterized by a rotation back into growth and AI-related names, with investors looking past geopolitical noise and focusing on corporate fundamentals and the upcoming slate of mega-cap tech earnings.",
+      "market_summary_zh": "美国股市周二收盘走高，纳斯达克综合指数领涨，科技和半导体股的广泛复苏重获动力。标普500指数和道琼斯工业平均指数也录得稳健涨幅，得益于通用汽车的强劲盈利和一波积极的分析师报告。此次反弹在科技板块内广度显著，但由于停火希望导致油价从盘中高点回落，能源和国防股表现滞后。当日交易特点为资金轮动回成长股和人工智能相关股票，投资者忽略地缘政治噪音，聚焦企业基本面及即将到来的大型科技股财报。",
+      "event_count": 10,
+      "avg_impact": 75.5
+    },
     {
       "date": "2026-07-21",
       "report_type": "premarket",
