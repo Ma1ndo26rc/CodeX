@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-21T14:43:43.775622+00:00",
+  "generated_at": "2026-07-21T23:16:19.543807+00:00",
   "reports": [
+    {
+      "date": "2026-07-21",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-21T23:14:41.287473+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-21-close.json",
+      "dynamic_headline": "Chip stocks and strong earnings lift Wall Street, overshadowing geopolitical risks and record short bets.",
+      "dynamic_headline_zh": "芯片股与强劲财报提振华尔街，地缘政治风险与创纪录空头押注暂被忽略。",
+      "market_summary": "US equities closed higher on Tuesday, led by a sharp rebound in semiconductor and AI-related stocks that lifted the Nasdaq. The Dow Jones Industrial Average rose 0.74%, the S&P 500 gained 0.6%, and the Nasdaq Composite jumped approximately 1.0%. The rally was broad but tech-driven, as investors looked past ongoing US-Iran military strikes and a warning from JPMorgan CEO Jamie Dimon about market risks. Strong earnings from General Motors and a massive surge in Super Micro Computer on margin improvements provided a positive catalyst, while record short bets against the broader market suggested lingering skepticism.",
+      "market_summary_zh": "美国股市周二收高，半导体和人工智能相关股票的强劲反弹领涨，推动纳斯达克指数上扬。道琼斯工业平均指数上涨0.74%，标普500指数上涨0.6%，纳斯达克综合指数上涨约1.0%。涨势广泛但由科技股驱动，投资者暂时忽略了持续的美伊军事打击以及摩根大通首席执行官杰米·戴蒙关于市场风险的警告。通用汽车的强劲财报和超微电脑因利润率改善而大幅飙升提供了积极催化剂，而针对整体市场的创纪录空头押注则暗示了持续的怀疑情绪。",
+      "event_count": 9,
+      "avg_impact": 74.44
+    },
     {
       "date": "2026-07-21",
       "report_type": "premarket",

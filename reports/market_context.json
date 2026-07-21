@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a mixed open as investors weigh escalating US-Iran tensions and new tariff threats against a strong earnings beat from GM and a broad-based rally in memory chip stocks. The dominant tension is between a resilient consumer and corporate profit backdrop versus rising geopolitical risk premiums and renewed inflation fears, which are keeping Treasury yields elevated. The pre-market setup is fragile, with the opening rotation likely to be heavily influenced by the direction of oil prices and the 10-year yield.",
-  "macro_summary": "Cautious Risk-On with a Geopolitical Overhang The market is pricing in a 'no landing' scenario where growth holds but inflation stays sticky due to geopolitical shocks, making it a difficult environment for both growth and value investors. The main focus is on the direction of oil and the 10-year yield. The market is in a 'show-me' state, where strong earnings are being rewarded, but any whiff of macro weakness or geopolitical escalation is met with swift de-risking. The dominant tension is between a still-resilient corporate profit cycle and a rapidly deteriorating geopolitical landscape that threatens to reignite inflation. This creates a narrow, two-sided market where conviction is low and tactical positioning is key. The macro outlook is increasingly clouded by geopolitical risks. The US-Iran conflict is keeping oil prices elevated, which threatens to re-ignite inflation and complicate the Fed's policy path. While the labor market remains resilient and corporate earnings are beating expectations, the risk of a 'stagflationary' shock is rising. The market is pricing in a higher probability of a 'no landing' scenario where growth remains solid but inflation stays sticky, which is negative for duration-sensitive assets.",
-  "risk_summary": "Risk appetite is fragile. The VIX is creeping higher, and safe-haven assets like gold and the dollar are in demand. Breadth is mixed, with strength in energy and semiconductors offset by weakness in consumer discretionary and real estate. The put/call ratio is elevated, suggesting investors are hedging against downside risks. The market is not in panic mode, but the tone is cautious, with a clear preference for quality and value over speculative growth.",
+  "market_summary": "US equities closed higher on Tuesday, led by a sharp rebound in semiconductor and AI-related stocks that lifted the Nasdaq. The Dow Jones Industrial Average rose 0.74%, the S&P 500 gained 0.6%, and the Nasdaq Composite jumped approximately 1.0%. The rally was broad but tech-driven, as investors looked past ongoing US-Iran military strikes and a warning from JPMorgan CEO Jamie Dimon about market risks. Strong earnings from General Motors and a massive surge in Super Micro Computer on margin improvements provided a positive catalyst, while record short bets against the broader market suggested lingering skepticism.",
+  "macro_summary": "Risk-On with a Geopolitical Overlay The market is in a 'good news is good news' phase for earnings, but the record short interest and elevated VIX suggest this is a tactical rally within a broader cautious environment. Today's market action reflects a regime where strong corporate earnings and the AI narrative are powerful enough to temporarily override macro and geopolitical headwinds. The market is choosing to focus on micro fundamentals (earnings, AI orders) rather than macro risks (inflation, war, tariffs), creating a fragile but positive tape. The macro outlook remains clouded by a mix of persistent inflation, elevated geopolitical risk, and a hawkish Fed. While earnings are holding up, the market is grappling with the dual headwinds of rising oil prices and the potential for further tariffs. The yield curve remains inverted, signaling recession fears, but the equity market is pricing in a soft landing supported by AI investment.",
+  "risk_summary": "Risk sentiment improved today as the tech rally overshadowed geopolitical fears, but the improvement was fragile. The CBOE Volatility Index (VIX) likely eased from recent highs but remains elevated above 20, reflecting persistent anxiety. Record short bets against the US stock market, as reported by Business Insider, indicate that institutional investors are hedging aggressively. Breadth was positive but not overwhelmingly so, with advancers outpacing decliners by a 2:1 ratio on the NYSE. The market is pricing in a high degree of uncertainty, with a clear divide between the AI-driven tech optimism and the defensive positioning in other sectors.",
   "top_events": [
     {
-      "title": "US-Iran Conflict Escalates with New Strikes and Shipping Threats",
-      "summary": "The US has launched new strikes against Iran, and Houthi forces are threatening shipping in the Red Sea. Mediators are pushing for a 10-day ceasefire, but the situation remains highly volatile.",
-      "impact_score": 89.7,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Treasury Yields Hit Two-Month High as Oil Sparks Inflation Risk",
-      "summary": "Treasury yields surged to a two-month high as rising oil prices, driven by geopolitical tensions, reignited inflation concerns in the bond market.",
-      "impact_score": 85.8,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "USTR Greer Hints at New Trump Tariffs on Dozens of Countries",
-      "summary": "US Trade Representative Jamieson Greer stated that the administration could impose new tariffs on dozens of countries, just as other duties are set to expire.",
-      "impact_score": 81.9,
-      "sentiment_score": -0.5
-    },
-    {
-      "title": "Treasury yields rise across the curve amid Middle East oil supply fears",
-      "summary": "Treasury yields rose across the curve as escalating Middle East conflict stoked fears of oil supply disruptions.",
-      "impact_score": 81.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
-      "summary": "Investors and economists are assessing the economic and market implications of renewed U.S.-Iran hostilities.",
-      "impact_score": 80.2,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Memory Chip Stocks Rally on Rebound Hopes and TSMC Price Hike",
-      "summary": "SanDisk rose 8%, Western Digital jumped 9%, and Micron added 7% as the memory chip rebound accelerates. TSMC also announced plans to raise prices, further boosting sentiment.",
-      "impact_score": 80.0,
+      "title": "Super Micro Computer Surges 15% on Margin Improvement and SpaceX Order",
+      "summary": "Super Micro Computer (SMCI) shares soared 15% after the company disclosed that its gross margins are expected to double to 15-17% due to an improving customer and product mix, and announced a new order from SpaceX. This was the primary catalyst for the broader semiconductor and AI rally.",
+      "impact_score": 84.2,
       "sentiment_score": 0.9
     },
     {
-      "title": "Nvidia CEO Pledges $75 Million for Vanderbilt in San Francisco",
-      "summary": "Nvidia CEO Jensen Huang pledged a $75 million donation to Vanderbilt University for a new campus in San Francisco.",
-      "impact_score": 80.0,
-      "sentiment_score": -0.03
+      "title": "US-Iran Conflict Escalates as Mediators Push for Ceasefire",
+      "summary": "The US continued military strikes on Iran, while Houthi forces threatened shipping in the Red Sea. Regional mediators presented a proposal for a 10-day ceasefire, but the situation remains highly volatile, pushing Brent crude above $90/barrel.",
+      "impact_score": 83.2,
+      "sentiment_score": -0.4
     },
     {
-      "title": "Jamie Dimon Says Markets Underestimate Risks, Wouldn't Buy Stocks or Treasuries",
-      "summary": "JPMorgan CEO Jamie Dimon stated that markets are underestimating geopolitical and inflationary risks, and that he would not buy stocks or Treasuries at current prices.",
-      "impact_score": 76.4,
+      "title": "Jamie Dimon Warns Markets Underestimate Risks, Won't Buy Stocks or Treasuries",
+      "summary": "JPMorgan Chase CEO Jamie Dimon stated that markets are underestimating risks from wars, tariffs, and inflation, and that he would not buy stocks or Treasuries at current prices. This high-profile warning contrasted with the day's risk-on rally.",
+      "impact_score": 81.9,
       "sentiment_score": -0.6
+    },
+    {
+      "title": "Record Short Bets Placed Against US Stock Market",
+      "summary": "Business Insider reported that investors have placed record short bets against the US stock market, reflecting deep skepticism about the sustainability of the rally amid geopolitical and economic risks.",
+      "impact_score": 78.4,
+      "sentiment_score": -0.5
+    },
+    {
+      "title": "General Motors Beats Earnings, Raises Guidance",
+      "summary": "GM reported Q2 earnings that beat Wall Street expectations and raised its full-year guidance, citing a 'resilient' consumer and strong pricing power in its North American operations. The company also announced new gas-powered Cadillac models amid an EV pullback.",
+      "impact_score": 77.8,
+      "sentiment_score": 0.8
+    },
+    {
+      "title": "Nvidia Details Next-Generation Vera CPU for AI Data Centers",
+      "summary": "Nvidia released new details about its Vera data center CPU, setting up a direct challenge to AMD and Intel in the server CPU market. The chip is designed to work alongside Nvidia's GPUs in AI data centers.",
+      "impact_score": 77.2,
+      "sentiment_score": 0.7
+    },
+    {
+      "title": "AI stocks lead Wall Street higher as oil tops $US91",
+      "summary": "AI stocks lead Wall Street higher as oil tops $US91 CommBank",
+      "impact_score": 75.3,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "U.S. Stock Market Close | Storage stocks surged sharply, driving major indices higher; the Philadelphia Semiconductor Index (SOX) jumped 5%. Cloud service providers continued to rally, with NEBIUS soaring 19%. Coinbase rose 10% as the CLARITY Act ne",
+      "summary": "US markets closed sharply higher, led by a 5% surge in the Philadelphia Semiconductor Index (SOX). Storage and cloud stocks were strong, with Nebius up 19%. Coinbase gained 10% on progress of the CLARITY Act.",
+      "impact_score": 72.0,
+      "sentiment_score": 0.8
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE), Semiconductors (SMH), Memory & Storage (WDC, MU, SanDisk), Defense (ITA); Negative sectors/themes: Consumer Discretionary (XLY), Real Estate (XLRE), Airlines (JETS), Retail (XRT); Themes to watch: Geopolitical Risk & Commodity Inflation, AI Infrastructure vs. AI Monetization, Resilient Consumer & Industrial Earnings, Defensive Rotation into Energy & Value"
+  "sector_summary": "Positive sectors/themes: Technology (Semiconductors & AI), Consumer Discretionary (Autos), Energy (Oil & Gas); Negative sectors/themes: Utilities, Real Estate, Consumer Staples; Themes to watch: AI Infrastructure Buildout: Nvidia's Vera CPU and Super Micro's margin expansion signal the next phase of AI investment., Geopolitical Risk Premium: The US-Iran conflict is keeping oil elevated, benefiting energy but pressuring margins elsewhere., Earnings Season Divergence: Strong beats from GM contrast with broader economic uncertainty, creating a stock-picker's market."
 }
