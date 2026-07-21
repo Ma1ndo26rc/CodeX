@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-20T23:12:51.251729+00:00",
+  "generated_at": "2026-07-21T14:41:07.406722+00:00",
   "reports": [
+    {
+      "date": "2026-07-21",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-21T14:39:32.754280+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-21-premarket.json",
+      "dynamic_headline": "Chip stocks surge on memory rebound and TSMC price hike, but geopolitical tensions and AI revenue concerns cap risk appetite ahead of the open.",
+      "dynamic_headline_zh": "芯片股因存储复苏及台积电涨价而飙升，但地缘政治紧张局势与AI收入担忧在开盘前抑制了风险偏好。",
+      "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq poised for a strong start driven by a broad semiconductor rally, while the Dow is under pressure from lingering geopolitical risks and cautious commentary from JPMorgan's Jamie Dimon. The memory chip sector is leading the charge, with SanDisk, Western Digital, and Micron all surging on a confirmed rebound in demand. However, this positive catalyst is being weighed down by escalating US-Iran hostilities, new tariff threats on Canada and dozens of other countries, and a disappointing AI ad revenue forecast from OpenAI that is raising questions about the monetization path for the sector. Key earnings from Tesla and Meta are on the horizon, adding to the cautious tone.",
+      "market_summary_zh": "美国股指期货指向涨跌互现的开盘，纳斯达克因半导体板块全面上涨而有望强劲开局，而道琼斯指数则因地缘政治风险持续及摩根大通杰米·戴蒙的谨慎评论而承压。存储芯片板块领涨，闪迪、西部数据和美光均因需求确认反弹而飙升。然而，这一积极催化剂正被美伊冲突升级、对加拿大及数十个国家的新关税威胁，以及OpenAI令人失望的AI广告收入预测所抵消，后者引发了市场对该行业变现路径的质疑。特斯拉和Meta的关键财报即将出炉，进一步加剧了谨慎情绪。",
+      "event_count": 10,
+      "avg_impact": 70.5
+    },
     {
       "date": "2026-07-20",
       "report_type": "close",
