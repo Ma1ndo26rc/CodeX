@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity markets closed mixed on Monday as a rebound in semiconductor stocks, led by AMD and Nvidia, lifted the Nasdaq, while the Dow and S&P 500 edged lower. The session was dominated by a tug-of-war between a recovery in AI-related names and heightened geopolitical tensions in the Middle East, coupled with new US tariffs on Canada. Crude oil surged to a one-month high, and the VIX remained elevated, reflecting persistent uncertainty ahead of a heavy week of Big Tech earnings.",
-  "macro_summary": "Cautious Risk-On with a Defensive Lean The market is in a 'prove it' mode, with the AI trade attempting to reassert leadership while macro risks from oil and tariffs force a defensive posture. The next two weeks of earnings will likely determine the market's near-term direction. Today's market reflects a tug-of-war between a resilient AI narrative and escalating macro risks. The rebound in tech is being offset by a flight to energy and safe havens, creating a narrow, two-tiered market. The main focus is on whether upcoming Big Tech earnings can justify the AI premium in the face of rising geopolitical and trade headwinds. The macro outlook remains clouded by a combination of geopolitical risk and trade policy uncertainty. Oil's surge to a one-month high is acting as a tax on consumers and a headwind for discretionary spending, while also stoking inflation fears. The bond market is pricing in a slightly higher probability of a Fed cut in September, but the path is uncertain. The VIX, while off its highs, remains above 20, indicating elevated anxiety. The market is in a 'show me' phase, waiting for earnings from the mega-cap tech leaders to validate the AI growth narrative.",
-  "risk_summary": "Risk appetite is bifurcated. There is clear demand for AI and semiconductor exposure, as evidenced by the Nasdaq's resilience. However, defensive sectors like Utilities and Consumer Staples are also attracting flows, suggesting a lack of conviction in a broad-based rally. The VIX is hovering around 22, reflecting elevated uncertainty. Breadth was poor, with decliners outpacing advancers on the NYSE. Insider selling activity, as noted in the Vickers report, suggests corporate executives are taking profits. The CNBC poll showing voter wariness of government ownership in companies adds a layer of political risk.",
+  "market_summary": "US equity futures are pointing to a mixed open as investors weigh escalating US-Iran tensions and new tariff threats against a strong earnings beat from GM and a broad-based rally in memory chip stocks. The dominant tension is between a resilient consumer and corporate profit backdrop versus rising geopolitical risk premiums and renewed inflation fears, which are keeping Treasury yields elevated. The pre-market setup is fragile, with the opening rotation likely to be heavily influenced by the direction of oil prices and the 10-year yield.",
+  "macro_summary": "Cautious Risk-On with a Geopolitical Overhang The market is pricing in a 'no landing' scenario where growth holds but inflation stays sticky due to geopolitical shocks, making it a difficult environment for both growth and value investors. The main focus is on the direction of oil and the 10-year yield. The market is in a 'show-me' state, where strong earnings are being rewarded, but any whiff of macro weakness or geopolitical escalation is met with swift de-risking. The dominant tension is between a still-resilient corporate profit cycle and a rapidly deteriorating geopolitical landscape that threatens to reignite inflation. This creates a narrow, two-sided market where conviction is low and tactical positioning is key. The macro outlook is increasingly clouded by geopolitical risks. The US-Iran conflict is keeping oil prices elevated, which threatens to re-ignite inflation and complicate the Fed's policy path. While the labor market remains resilient and corporate earnings are beating expectations, the risk of a 'stagflationary' shock is rising. The market is pricing in a higher probability of a 'no landing' scenario where growth remains solid but inflation stays sticky, which is negative for duration-sensitive assets.",
+  "risk_summary": "Risk appetite is fragile. The VIX is creeping higher, and safe-haven assets like gold and the dollar are in demand. Breadth is mixed, with strength in energy and semiconductors offset by weakness in consumer discretionary and real estate. The put/call ratio is elevated, suggesting investors are hedging against downside risks. The market is not in panic mode, but the tone is cautious, with a clear preference for quality and value over speculative growth.",
   "top_events": [
     {
-      "title": "Houthi Red Sea blockade would lift oil prices, but workarounds could limit impact",
-      "summary": "Analysis of the potential impact of a Houthi blockade in the Red Sea on global oil prices, noting that while a blockade would likely push prices higher, existing alternative routes and strategic reserves could mitigate the overall effect.",
-      "impact_score": 89.1,
+      "title": "US-Iran Conflict Escalates with New Strikes and Shipping Threats",
+      "summary": "The US has launched new strikes against Iran, and Houthi forces are threatening shipping in the Red Sea. Mediators are pushing for a 10-day ceasefire, but the situation remains highly volatile.",
+      "impact_score": 89.7,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Treasury Yields Hit Two-Month High as Oil Sparks Inflation Risk",
+      "summary": "Treasury yields surged to a two-month high as rising oil prices, driven by geopolitical tensions, reignited inflation concerns in the bond market.",
+      "impact_score": 85.8,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "USTR Greer Hints at New Trump Tariffs on Dozens of Countries",
+      "summary": "US Trade Representative Jamieson Greer stated that the administration could impose new tariffs on dozens of countries, just as other duties are set to expire.",
+      "impact_score": 81.9,
+      "sentiment_score": -0.5
+    },
+    {
+      "title": "Treasury yields rise across the curve amid Middle East oil supply fears",
+      "summary": "Treasury yields rose across the curve as escalating Middle East conflict stoked fears of oil supply disruptions.",
+      "impact_score": 81.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "Oil Prices Settle at One-Month High on Iran/Houthi Escalation",
-      "summary": "Oil prices surged to a one-month high as the Houthis declared a maritime embargo against Saudi Arabia and US-Iran fighting escalated. A new ceasefire proposal was reported, but the market remains on edge.",
-      "impact_score": 87.7,
-      "sentiment_score": 0.6
+      "title": "As the U.S.-Iran war heats up again, these parts of the stock market and economy could be affected",
+      "summary": "Investors and economists are assessing the economic and market implications of renewed U.S.-Iran hostilities.",
+      "impact_score": 80.2,
+      "sentiment_score": 0.16
     },
     {
-      "title": "AMD Launches Helios AI System, Lands Microsoft as Customer",
-      "summary": "AMD announced Helios, its first rack-scale AI system, directly competing with Nvidia. The company also secured Microsoft as a new customer, joining Meta, OpenAI, and Oracle.",
-      "impact_score": 79.8,
-      "sentiment_score": 0.8
+      "title": "Memory Chip Stocks Rally on Rebound Hopes and TSMC Price Hike",
+      "summary": "SanDisk rose 8%, Western Digital jumped 9%, and Micron added 7% as the memory chip rebound accelerates. TSMC also announced plans to raise prices, further boosting sentiment.",
+      "impact_score": 80.0,
+      "sentiment_score": 0.9
     },
     {
-      "title": "Oil Surge on U.S.-Iran Conflict, Fed Rate Hike Fears Push Gold Below $4,000 Psychological Level",
-      "summary": "Oil prices surged due to escalating U.S.-Iran tensions, while gold fell below the $4,000 mark amid fears of further Federal Reserve rate hikes.",
-      "impact_score": 79.0,
-      "sentiment_score": -0.55
+      "title": "Nvidia CEO Pledges $75 Million for Vanderbilt in San Francisco",
+      "summary": "Nvidia CEO Jensen Huang pledged a $75 million donation to Vanderbilt University for a new campus in San Francisco.",
+      "impact_score": 80.0,
+      "sentiment_score": -0.03
     },
     {
-      "title": "Why are gasoline prices rising faster than oil prices? Blame it on the ‘crack.’",
-      "summary": "The spread between the cost of barrels of gasoline and crude oil — known as the “crack spread” — has widened sharply.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "US stocks edge down with Iran and earnings season in focus",
-      "summary": "US stocks edged lower as investors weighed escalating geopolitical tensions with Iran and ongoing corporate earnings reports.",
-      "impact_score": 77.9,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Alphabet Stock Pops on Report of New AI Chip 'Frozen v2'",
-      "summary": "Shares of Alphabet rose on a report that the company is developing a new, more efficient AI chip called 'Frozen v2' that embeds parts of Gemini's architecture directly into silicon.",
-      "impact_score": 77.2,
-      "sentiment_score": 0.7
-    },
-    {
-      "title": "Bitcoin News: Bitcoin Touches a One-Month High of $65,700 Then Pulls Back — The Iran Ceasefire Report Had No Legs, Oil Rebounds, Yields Rise",
-      "summary": "Bitcoin briefly hit a one-month high of $65,700 before retreating, as an unsubstantiated Iran ceasefire report was dismissed, oil rebounded, and bond yields rose.",
-      "impact_score": 75.3,
-      "sentiment_score": -0.45
+      "title": "Jamie Dimon Says Markets Underestimate Risks, Wouldn't Buy Stocks or Treasuries",
+      "summary": "JPMorgan CEO Jamie Dimon stated that markets are underestimating geopolitical and inflationary risks, and that he would not buy stocks or Treasuries at current prices.",
+      "impact_score": 76.4,
+      "sentiment_score": -0.6
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE): Surged on the oil price spike due to Middle East tensions., Semiconductors (SMH): Rebounded strongly on AI-related product launches and positive analyst notes., Defense (ITA): Benefited from increased geopolitical risk and the Archer-Anduril military contract news.; Negative sectors/themes: Consumer Discretionary (XLY): Hit by rising oil prices (consumer tax) and cautious outlook from Domino's on consumer behavior., Industrials (XLI): Weighed down by new US-Canada tariffs and trade uncertainty., Media & Entertainment: The temporary block of the Paramount-WBD merger created sector-specific uncertainty.; Themes to watch: AI Infrastructure Buildout: AMD's Helios and TSMC's Arizona expansion underscore the massive capex cycle, benefiting chip and industrial equipment makers., Geopolitical Risk & Commodities: The Iran/Houthi situation is creating a new risk premium in oil and safe-haven assets like gold., Consumer Health: Rising gas prices and value-conscious behavior (Domino's, salad chains) suggest consumer spending is shifting, which is a key watch point for earnings season."
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Semiconductors (SMH), Memory & Storage (WDC, MU, SanDisk), Defense (ITA); Negative sectors/themes: Consumer Discretionary (XLY), Real Estate (XLRE), Airlines (JETS), Retail (XRT); Themes to watch: Geopolitical Risk & Commodity Inflation, AI Infrastructure vs. AI Monetization, Resilient Consumer & Industrial Earnings, Defensive Rotation into Energy & Value"
 }

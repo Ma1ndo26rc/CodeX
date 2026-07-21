@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-20T23:18:41.604684+00:00",
+  "generated_at": "2026-07-21T14:43:43.775622+00:00",
   "reports": [
+    {
+      "date": "2026-07-21",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-21T14:42:05.779341+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-21-premarket.json",
+      "dynamic_headline": "Geopolitical risk and AI monetization doubts create a cautious pre-market tone, but a semiconductor rebound and strong earnings from GM and 3M offer support.",
+      "dynamic_headline_zh": "地缘政治风险与AI变现疑虑令盘前情绪趋于谨慎，但半导体反弹及通用汽车与3M的强劲财报提供支撑。",
+      "market_summary": "US equity futures are pointing to a mixed open as investors weigh escalating US-Iran tensions and new tariff threats against a strong earnings beat from GM and a broad-based rally in memory chip stocks. The dominant tension is between a resilient consumer and corporate profit backdrop versus rising geopolitical risk premiums and renewed inflation fears, which are keeping Treasury yields elevated. The pre-market setup is fragile, with the opening rotation likely to be heavily influenced by the direction of oil prices and the 10-year yield.",
+      "market_summary_zh": "美国股指期货指向涨跌互现的开盘，投资者正在权衡不断升级的美伊紧张局势和新的关税威胁，与通用汽车强劲的财报表现以及存储芯片股的广泛反弹。当前主导市场的矛盾在于，一方面是韧性的消费者和企业盈利背景，另一方面是不断上升的地缘政治风险溢价和重燃的通胀担忧，后者令美国国债收益率保持高位。盘前市场格局脆弱，开盘轮动很可能将深受油价和10年期美债收益率走势的影响。",
+      "event_count": 10,
+      "avg_impact": 73.0
+    },
     {
       "date": "2026-07-20",
       "report_type": "close",
