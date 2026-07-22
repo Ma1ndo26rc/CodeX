@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-22T14:43:23.017834+00:00",
+  "generated_at": "2026-07-22T23:20:41.416992+00:00",
   "reports": [
+    {
+      "date": "2026-07-22",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-22T23:19:06.004186+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-22-close.json",
+      "dynamic_headline": "Stocks drift lower as oil surge and tech earnings uncertainty cap risk appetite",
+      "dynamic_headline_zh": "油价飙升与科技股财报不确定性抑制风险偏好，美股震荡走低",
+      "market_summary": "US equities ended mixed to lower on Wednesday, with the S&P 500 and Nasdaq slipping as a continued rally in crude oil (WTI above $88, Brent above $95) weighed on sentiment and investors positioned cautiously ahead of after-hours results from Tesla and Alphabet. The Dow eked out a marginal gain, supported by energy and select industrials, while the tech-heavy Nasdaq underperformed amid a rotation out of mega-cap growth. Treasury yields edged higher, with the 30-year yield closing above 5% for an extended stretch not seen since 2007, reflecting persistent inflation and fiscal concerns. The VIX remained elevated near 18, signaling lingering unease despite the relatively modest index declines.",
+      "market_summary_zh": "美国股市周三收盘涨跌互现，标普500指数和纳斯达克指数下跌，因原油持续上涨（WTI突破88美元，布伦特原油突破95美元）令市场情绪承压，且投资者在特斯拉和Alphabet盘后财报公布前保持谨慎。道琼斯指数微幅收高，受能源股和部分工业股支撑，而以科技股为主的纳斯达克指数因资金从大型成长股轮出而表现落后。美国国债收益率小幅走高，30年期国债收益率收盘突破5%，且持续时间之长创2007年以来之最，反映出持续的通胀和财政担忧。尽管指数跌幅相对温和，但恐慌指数VIX仍维持在18附近的高位，显示市场不安情绪犹存。",
+      "event_count": 10,
+      "avg_impact": 60.7
+    },
     {
       "date": "2026-07-22",
       "report_type": "premarket",
