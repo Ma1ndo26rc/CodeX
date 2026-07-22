@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-21T23:16:19.543807+00:00",
+  "generated_at": "2026-07-22T14:43:23.017834+00:00",
   "reports": [
+    {
+      "date": "2026-07-22",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-22T14:41:50.881158+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-22-premarket.json",
+      "dynamic_headline": "Geopolitical risk and oil spike test market resilience ahead of Big Tech earnings.",
+      "dynamic_headline_zh": "地缘政治风险与油价飙升考验市场韧性，科技巨头财报在即。",
+      "market_summary": "US equity futures are pointing to a lower open as a sharp rise in oil prices above $95/bbl and escalating US-Iran tensions weigh on risk appetite. The market is in a holding pattern ahead of after-close earnings from Alphabet and Tesla, which will set the tone for the AI and mega-cap growth narrative. Overnight, Super Micro Computer surged on strong margins and orders, providing a positive counterweight in the tech hardware space, while energy stocks are set to rally on the oil move.",
+      "market_summary_zh": "美国股指期货开盘走低，因油价突破95美元/桶大幅上涨以及美伊紧张局势升级令风险偏好承压。市场在Alphabet和特斯拉收盘后财报公布前处于观望状态，这两份财报将为人工智能和超大盘成长股叙事定下基调。隔夜，超微电脑因强劲的利润率和订单而飙升，为科技硬件领域提供了积极的抵消力量，而能源股则有望因油价上涨而走高。",
+      "event_count": 8,
+      "avg_impact": 68.12
+    },
     {
       "date": "2026-07-21",
       "report_type": "close",

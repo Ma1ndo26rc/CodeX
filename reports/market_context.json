@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities closed higher on Tuesday, led by a sharp rebound in semiconductor and AI-related stocks that lifted the Nasdaq. The Dow Jones Industrial Average rose 0.74%, the S&P 500 gained 0.6%, and the Nasdaq Composite jumped approximately 1.0%. The rally was broad but tech-driven, as investors looked past ongoing US-Iran military strikes and a warning from JPMorgan CEO Jamie Dimon about market risks. Strong earnings from General Motors and a massive surge in Super Micro Computer on margin improvements provided a positive catalyst, while record short bets against the broader market suggested lingering skepticism.",
-  "macro_summary": "Risk-On with a Geopolitical Overlay The market is in a 'good news is good news' phase for earnings, but the record short interest and elevated VIX suggest this is a tactical rally within a broader cautious environment. Today's market action reflects a regime where strong corporate earnings and the AI narrative are powerful enough to temporarily override macro and geopolitical headwinds. The market is choosing to focus on micro fundamentals (earnings, AI orders) rather than macro risks (inflation, war, tariffs), creating a fragile but positive tape. The macro outlook remains clouded by a mix of persistent inflation, elevated geopolitical risk, and a hawkish Fed. While earnings are holding up, the market is grappling with the dual headwinds of rising oil prices and the potential for further tariffs. The yield curve remains inverted, signaling recession fears, but the equity market is pricing in a soft landing supported by AI investment.",
-  "risk_summary": "Risk sentiment improved today as the tech rally overshadowed geopolitical fears, but the improvement was fragile. The CBOE Volatility Index (VIX) likely eased from recent highs but remains elevated above 20, reflecting persistent anxiety. Record short bets against the US stock market, as reported by Business Insider, indicate that institutional investors are hedging aggressively. Breadth was positive but not overwhelmingly so, with advancers outpacing decliners by a 2:1 ratio on the NYSE. The market is pricing in a high degree of uncertainty, with a clear divide between the AI-driven tech optimism and the defensive positioning in other sectors.",
+  "market_summary": "US equity futures are pointing to a lower open as a sharp rise in oil prices above $95/bbl and escalating US-Iran tensions weigh on risk appetite. The market is in a holding pattern ahead of after-close earnings from Alphabet and Tesla, which will set the tone for the AI and mega-cap growth narrative. Overnight, Super Micro Computer surged on strong margins and orders, providing a positive counterweight in the tech hardware space, while energy stocks are set to rally on the oil move.",
+  "macro_summary": "Geopolitical Shock in a Resilient Earnings Environment The market is in a 'wait and see' mode, caught between a positive earnings backdrop and a negative macro shock from rising oil prices. The next move will be dictated by the outcome of Big Tech earnings and any de-escalation in the US-Iran conflict. Today's market is characterized by a sudden and sharp increase in geopolitical risk that is testing the resilience of a fundamentally sound earnings season. The oil spike is the primary driver, forcing a reassessment of inflation and growth expectations, while the market waits for Big Tech results to provide direction. The macro outlook is dominated by a sudden geopolitical shock that is complicating the inflation outlook. While the Fed remains data-dependent, a sustained move above $95 oil could rekindle inflation fears and delay rate cuts. The market is now pricing in a higher probability of a 'stagflationary' scenario, where growth slows but inflation remains sticky.",
+  "risk_summary": "Risk appetite is clearly waning as the VIX is expected to open higher. Breadth is likely to be negative, with defensive sectors like utilities and consumer staples seeing relative strength. The oil spike is a clear negative for consumer discretionary and transport stocks, while energy is the only clear winner. The market is not in panic mode, but the 'risk-on' trade is on hold until the geopolitical situation clarifies and Big Tech earnings provide a new catalyst.",
   "top_events": [
     {
-      "title": "Super Micro Computer Surges 15% on Margin Improvement and SpaceX Order",
-      "summary": "Super Micro Computer (SMCI) shares soared 15% after the company disclosed that its gross margins are expected to double to 15-17% due to an improving customer and product mix, and announced a new order from SpaceX. This was the primary catalyst for the broader semiconductor and AI rally.",
-      "impact_score": 84.2,
-      "sentiment_score": 0.9
+      "title": "Oil Surges Above $95 on US-Iran Escalation",
+      "summary": "Oil prices climbed to a six-week high above $95/bbl after President Trump threatened to bomb Iran's bridges and power plants if it attacks ships in the Strait of Hormuz. The US has struck Iranian targets for an 11th straight night.",
+      "impact_score": 87.7,
+      "sentiment_score": -0.8
     },
     {
-      "title": "US-Iran Conflict Escalates as Mediators Push for Ceasefire",
-      "summary": "The US continued military strikes on Iran, while Houthi forces threatened shipping in the Red Sea. Regional mediators presented a proposal for a 10-day ceasefire, but the situation remains highly volatile, pushing Brent crude above $90/barrel.",
-      "impact_score": 83.2,
-      "sentiment_score": -0.4
-    },
-    {
-      "title": "Jamie Dimon Warns Markets Underestimate Risks, Won't Buy Stocks or Treasuries",
-      "summary": "JPMorgan Chase CEO Jamie Dimon stated that markets are underestimating risks from wars, tariffs, and inflation, and that he would not buy stocks or Treasuries at current prices. This high-profile warning contrasted with the day's risk-on rally.",
-      "impact_score": 81.9,
-      "sentiment_score": -0.6
-    },
-    {
-      "title": "Record Short Bets Placed Against US Stock Market",
-      "summary": "Business Insider reported that investors have placed record short bets against the US stock market, reflecting deep skepticism about the sustainability of the rally amid geopolitical and economic risks.",
-      "impact_score": 78.4,
-      "sentiment_score": -0.5
-    },
-    {
-      "title": "General Motors Beats Earnings, Raises Guidance",
-      "summary": "GM reported Q2 earnings that beat Wall Street expectations and raised its full-year guidance, citing a 'resilient' consumer and strong pricing power in its North American operations. The company also announced new gas-powered Cadillac models amid an EV pullback.",
-      "impact_score": 77.8,
-      "sentiment_score": 0.8
-    },
-    {
-      "title": "Nvidia Details Next-Generation Vera CPU for AI Data Centers",
-      "summary": "Nvidia released new details about its Vera data center CPU, setting up a direct challenge to AMD and Intel in the server CPU market. The chip is designed to work alongside Nvidia's GPUs in AI data centers.",
-      "impact_score": 77.2,
-      "sentiment_score": 0.7
-    },
-    {
-      "title": "AI stocks lead Wall Street higher as oil tops $US91",
-      "summary": "AI stocks lead Wall Street higher as oil tops $US91 CommBank",
-      "impact_score": 75.3,
+      "title": "Trump vows to bomb Iran's bridges, power plants if it shoots at ships in Hormuz Strait",
+      "summary": "He issued his threat after U.S. Central Command hit Iranian targets for an 11th straight night.",
+      "impact_score": 82.4,
       "sentiment_score": 0.03
     },
     {
-      "title": "U.S. Stock Market Close | Storage stocks surged sharply, driving major indices higher; the Philadelphia Semiconductor Index (SOX) jumped 5%. Cloud service providers continued to rally, with NEBIUS soaring 19%. Coinbase rose 10% as the CLARITY Act ne",
-      "summary": "US markets closed sharply higher, led by a 5% surge in the Philadelphia Semiconductor Index (SOX). Storage and cloud stocks were strong, with Nebius up 19%. Coinbase gained 10% on progress of the CLARITY Act.",
-      "impact_score": 72.0,
-      "sentiment_score": 0.8
+      "title": "Oil prices rise another 3%, while Wall Street drifts in mixed trading",
+      "summary": "Oil prices rise another 3%, while Wall Street drifts in mixed trading AP News",
+      "impact_score": 79.2,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Super Micro Computer (SMCI) Surges 15% on Strong Margins and SpaceX Order",
+      "summary": "SMCI shares surged 15% in pre-market after the company disclosed booming margins and a new order from SpaceX. The news also lifted Dell and HP Enterprise, signaling strong demand for AI servers.",
+      "impact_score": 79.1,
+      "sentiment_score": 0.9
+    },
+    {
+      "title": "Treasury yields hit two-month high on oil surge, inflation fears",
+      "summary": "Treasury yields hit two-month high on oil surge, inflation fears Investing.com Canada",
+      "impact_score": 75.7,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "AMD to Invest Up to $5 Billion in Anthropic",
+      "summary": "AMD announced a deal to invest up to $5 billion in AI startup Anthropic as part of a computing power agreement. This is the latest in a string of infrastructure deals for Anthropic.",
+      "impact_score": 75.0,
+      "sentiment_score": 0.5
+    },
+    {
+      "title": "Trump's push for American-made AI chips hits TSMC's margins",
+      "summary": "The Taiwan-based chipmaker has announced $200 billion in investment into U.S. manufacturing since Trump returned to power in 2025.",
+      "impact_score": 73.2,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Apple Plans Overhaul of MacBooks, iMac in Push to Meet AI Demand",
+      "summary": "Apple Plans Overhaul of MacBooks, iMac in Push to Meet AI Demand Bloomberg.com",
+      "impact_score": 73.0,
+      "sentiment_score": 0.45
     }
   ],
-  "sector_summary": "Positive sectors/themes: Technology (Semiconductors & AI), Consumer Discretionary (Autos), Energy (Oil & Gas); Negative sectors/themes: Utilities, Real Estate, Consumer Staples; Themes to watch: AI Infrastructure Buildout: Nvidia's Vera CPU and Super Micro's margin expansion signal the next phase of AI investment., Geopolitical Risk Premium: The US-Iran conflict is keeping oil elevated, benefiting energy but pressuring margins elsewhere., Earnings Season Divergence: Strong beats from GM contrast with broader economic uncertainty, creating a stock-picker's market."
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Oil & Gas Equipment & Services (OIH), Defense (ITA); Negative sectors/themes: Airlines (JETS), Consumer Discretionary (XLY), Transportation (IYT), Homebuilders (XHB); Themes to watch: Geopolitical Risk Premium, AI Infrastructure Buildout, Consumer Resilience vs. Energy Shock"
 }
