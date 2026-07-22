@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-21T23:10:39.107306+00:00",
+  "generated_at": "2026-07-22T14:41:03.783979+00:00",
   "reports": [
+    {
+      "date": "2026-07-22",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-22T14:39:23.539821+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-22-premarket.json",
+      "dynamic_headline": "Futures point to a cautious open as surging oil prices and escalating Middle East tensions overshadow a blockbuster earnings from Super Micro and anticipation of Alphabet and Tesla results.",
+      "dynamic_headline_zh": "期货市场开盘谨慎，油价飙升与中东紧张局势盖过超微电脑的强劲财报及市场对Alphabet和特斯拉业绩的期待。",
+      "market_summary": "US equity futures are pointing to a lower open, with the S&P 500 and Nasdaq futures under pressure as a surge in oil prices above $95/barrel and escalating geopolitical risks in the Middle East weigh on sentiment. The market is in a holding pattern ahead of mega-cap earnings from Alphabet and Tesla after the close. Overnight, Super Micro Computer (SMCI) surged on strong margins and orders, providing a bright spot in the tech hardware space, while GE Vernova (GEV) plunged on a wind segment drag despite AI-driven order growth. The 10-year Treasury yield is edging higher, and the VIX is ticking up, signaling increased caution.",
+      "market_summary_zh": "美国股指期货指向低开，标普500和纳斯达克期货承压，因油价飙升至每桶95美元以上以及中东地缘政治风险升级打压市场情绪。市场在等待收盘后Alphabet和特斯拉的 mega-cap 财报。盘前，超微电脑（SMCI）因强劲的利润率和订单而大涨，为科技硬件领域带来亮点，而GE Vernova（GEV）则因风电业务拖累而暴跌，尽管AI驱动的订单增长强劲。10年期美债收益率小幅走高，VIX指数攀升，表明市场谨慎情绪升温。",
+      "event_count": 10,
+      "avg_impact": 66
+    },
     {
       "date": "2026-07-21",
       "report_type": "close",
