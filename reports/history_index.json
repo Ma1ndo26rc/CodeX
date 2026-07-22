@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-22T14:41:03.783979+00:00",
+  "generated_at": "2026-07-22T23:17:01.509607+00:00",
   "reports": [
+    {
+      "date": "2026-07-22",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-22T23:15:26.755029+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-22-close.json",
+      "dynamic_headline": "Wall Street ended flat to lower as surging oil prices on escalating US-Iran conflict and a cautious wait for Big Tech earnings capped risk appetite.",
+      "dynamic_headline_zh": "华尔街收盘涨跌互现，美伊冲突升级导致油价飙升，加之市场谨慎等待大型科技股财报，风险偏好受到抑制。",
+      "market_summary": "US equity markets closed mixed on Wednesday, with the S&P 500 and Nasdaq edging lower while the Dow managed a slight gain. The primary headwind was a continued surge in crude oil prices, which settled at a six-week high above $88 per barrel, as the US-Iran military conflict showed no signs of de-escalation. This energy shock, combined with rising Treasury yields (the 30-year yield hitting a milestone not seen since 2007), pressured growth and tech stocks. Trading volumes were subdued as investors adopted a wait-and-see posture ahead of after-the-bell earnings from mega-caps Tesla and Alphabet. The energy sector was the clear outperformer, while consumer discretionary and tech lagged.",
+      "market_summary_zh": "美国股市周三收盘涨跌互现，标普500指数和纳斯达克指数小幅走低，而道琼斯指数微幅上涨。主要阻力来自原油价格持续飙升，结算价升至每桶88美元上方，创六周新高，原因是美伊军事冲突未见缓和迹象。这一能源冲击，加上美国国债收益率上升（30年期国债收益率触及2007年以来未见的重要里程碑），对成长股和科技股构成压力。由于投资者在特斯拉和Alphabet盘后财报公布前采取观望态度，交易量低迷。能源板块表现明显优于大盘，而非必需消费品和科技板块则表现落后。",
+      "event_count": 10,
+      "avg_impact": 72.0
+    },
     {
       "date": "2026-07-22",
       "report_type": "premarket",
