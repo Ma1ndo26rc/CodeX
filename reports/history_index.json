@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-22T23:17:01.509607+00:00",
+  "generated_at": "2026-07-23T14:47:51.226280+00:00",
   "reports": [
+    {
+      "date": "2026-07-23",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-23T14:46:21.004337+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-23-premarket.json",
+      "dynamic_headline": "Oil at $100, surging bond yields, and AI capex fears trigger a broad sell-off ahead of the open, with defense and energy as the lone bright spots.",
+      "dynamic_headline_zh": "油价触及100美元、债券收益率飙升及AI资本支出担忧引发盘前广泛抛售，国防与能源板块成为仅有的亮点。",
+      "market_summary": "US equity futures are pointing to a sharply lower open, extending yesterday's sell-off. The dominant narrative is a 'triple threat' of surging oil prices (Brent at $100/bbl), a spike in the 10-year Treasury yield to its highest since January 2025, and escalating investor anxiety over AI capital expenditure returns following disappointing reports from Tesla and Alphabet. The Dow is indicated down over 400 points, with the S&P 500 and Nasdaq facing similar pressure. Safe-haven flows are mixed as the energy shock complicates the inflation outlook.",
+      "market_summary_zh": "美国股指期货指向大幅低开，延续昨日跌势。主导市场叙事是“三重威胁”：油价飙升（布伦特原油报100美元/桶）、10年期美债收益率升至2025年1月以来最高，以及特斯拉和Alphabet财报令人失望后，投资者对AI资本支出回报的焦虑加剧。道琼斯指数期货下跌逾400点，标普500指数和纳斯达克指数面临类似压力。避险资金流向分化，能源冲击使通胀前景复杂化。",
+      "event_count": 10,
+      "avg_impact": 77.0
+    },
     {
       "date": "2026-07-22",
       "report_type": "close",
