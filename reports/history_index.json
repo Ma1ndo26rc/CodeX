@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-23T14:47:51.226280+00:00",
+  "generated_at": "2026-07-23T23:10:19.595504+00:00",
   "reports": [
+    {
+      "date": "2026-07-23",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-23T23:08:54.761731+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-23-close.json",
+      "dynamic_headline": "Wall Street suffered a broad selloff as Brent crude surged past $100 a barrel, mega-cap tech earnings disappointed with surging AI capex, and the 10-year Treasury yield hit its highest since January 2025.",
+      "dynamic_headline_zh": "华尔街遭遇广泛抛售，布伦特原油突破每桶100美元，大型科技股财报令人失望且AI资本支出激增，10年期美债收益率升至2025年1月以来最高。",
+      "market_summary": "Major US indices closed sharply lower on Thursday, July 23, 2026. The S&P 500 fell approximately 1.5%, the Dow Jones Industrial Average dropped about 1.0%, and the tech-heavy Nasdaq Composite tumbled roughly 2.2%. The selloff was broad-based, driven by a confluence of macro and company-specific shocks: oil prices crossing the psychologically critical $100/barrel mark, a spike in long-term bond yields, and post-earnings plunges in mega-cap leaders Tesla and Alphabet that erased hundreds of billions in market value.",
+      "market_summary_zh": "美国主要股指于2026年7月23日（周四）大幅收低。标普500指数下跌约1.5%，道琼斯工业平均指数下跌约1.0%，以科技股为主的纳斯达克综合指数重挫约2.2%。抛售范围广泛，由宏观和公司层面的多重冲击共同驱动：油价突破每桶100美元的心理关口、长期国债收益率飙升，以及特斯拉和Alphabet在财报后暴跌，导致数千亿美元市值蒸发。",
+      "event_count": 10,
+      "avg_impact": 74.0
+    },
     {
       "date": "2026-07-23",
       "report_type": "premarket",
