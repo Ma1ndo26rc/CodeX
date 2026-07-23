@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-22T23:20:41.416992+00:00",
+  "generated_at": "2026-07-23T14:58:39.525642+00:00",
   "reports": [
+    {
+      "date": "2026-07-23",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-23T14:57:02.746753+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-23-premarket.json",
+      "dynamic_headline": "Risk-off tone persists as oil above $100 and surging bond yields pressure equities ahead of key data.",
+      "dynamic_headline_zh": "避险情绪持续，油价突破100美元且债券收益率飙升，在关键数据公布前施压股市。",
+      "market_summary": "US equity futures are pointing to a lower open, extending yesterday's sell-off, as a potent mix of rising oil prices, surging bond yields, and Big Tech capex concerns dominate the pre-market narrative. The 10-year Treasury yield hit its highest level since January 2025, while Brent crude closed above $100 for the first time since May, reigniting inflation fears and challenging the 'higher-for-longer' rate narrative. Overnight, earnings from Tesla and Alphabet disappointed on margins and capex, respectively, adding to the tech sector's woes. The market is bracing for a volatile open with key economic data and more earnings on the docket.",
+      "market_summary_zh": "美国股指期货指向低开，延续昨日跌势，因油价上涨、债券收益率飙升以及大型科技股资本支出担忧共同主导盘前叙事。10年期美债收益率触及2025年1月以来最高水平，布伦特原油自5月以来首次收于100美元上方，重新点燃通胀担忧，并对“更长时间维持高利率”的叙事构成挑战。隔夜，特斯拉和Alphabet的财报分别在利润率和资本支出方面令人失望，加剧了科技板块的困境。市场正为波动性开盘做准备，关键经济数据和更多财报即将公布。",
+      "event_count": 9,
+      "avg_impact": 77.78
+    },
     {
       "date": "2026-07-22",
       "report_type": "close",

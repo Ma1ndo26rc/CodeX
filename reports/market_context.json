@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities ended mixed to lower on Wednesday, with the S&P 500 and Nasdaq slipping as a continued rally in crude oil (WTI above $88, Brent above $95) weighed on sentiment and investors positioned cautiously ahead of after-hours results from Tesla and Alphabet. The Dow eked out a marginal gain, supported by energy and select industrials, while the tech-heavy Nasdaq underperformed amid a rotation out of mega-cap growth. Treasury yields edged higher, with the 30-year yield closing above 5% for an extended stretch not seen since 2007, reflecting persistent inflation and fiscal concerns. The VIX remained elevated near 18, signaling lingering unease despite the relatively modest index declines.",
-  "macro_summary": "Stagflationary undertow with a tech earnings hinge The market is caught between a geopolitical inflation spike and a tech earnings catalyst, with the 30-year yield above 5% signaling a structural shift in the rate regime. The next move hinges on whether AI capex can justify valuations in a higher-for-longer world. Today's market reflects a regime where a geopolitical energy shock is reigniting inflation fears, pushing bond yields higher and compressing equity valuations, while investors cling to the AI narrative for growth. The tape is narrow, with energy and defensives leading, and the broader market waiting for mega-cap earnings to confirm whether the tech-led rally can withstand higher rates and input costs. The macro backdrop remains dominated by a geopolitical energy shock that is reigniting inflation fears and complicating the Fed's policy path. The 30-year yield's sustained break above 5% signals that the bond market is pricing in a structurally higher inflation premium, while the VIX's elevation suggests investors are bracing for more volatility. Growth concerns are mounting as higher fuel costs threaten consumer spending, but the labor market remains resilient, creating a stagflationary undertow.",
-  "risk_summary": "Risk appetite was subdued, with the VIX hovering near 18 and the put/call ratio edging higher. Breadth was negative on the NYSE and Nasdaq, with decliners outpacing advancers by roughly 2:1. Defensive sectors (utilities, healthcare, consumer staples) outperformed, while cyclical growth (tech, consumer discretionary) lagged. The market is pricing in a higher probability of a Fed hold or even a rate hike, as reflected in the 2-year yield rising 4 bps to 4.35%. Sentiment is cautious but not panicked, with investors waiting for earnings to validate the AI narrative.",
+  "market_summary": "US equity futures are pointing to a lower open, extending yesterday's sell-off, as a potent mix of rising oil prices, surging bond yields, and Big Tech capex concerns dominate the pre-market narrative. The 10-year Treasury yield hit its highest level since January 2025, while Brent crude closed above $100 for the first time since May, reigniting inflation fears and challenging the 'higher-for-longer' rate narrative. Overnight, earnings from Tesla and Alphabet disappointed on margins and capex, respectively, adding to the tech sector's woes. The market is bracing for a volatile open with key economic data and more earnings on the docket.",
+  "macro_summary": "Stagflation Scare & Regime Change The market is pricing in a higher-for-longer rate environment due to an oil-driven inflation shock, challenging equity valuations and favoring energy and defense over growth and tech. The market is reacting to a sudden and sharp repricing of inflation and rate expectations, triggered by oil's surge past $100. This has broken the recent calm and is forcing a reassessment of the 'soft landing' narrative, pushing the market into a risk-off, stagflationary scare regime. The macro outlook has darkened considerably overnight. The combination of oil above $100 and a surging 10-year yield presents a stagflationary scare for markets. This challenges the 'soft landing' narrative and forces a repricing of Fed rate expectations. The market is now pricing in a higher probability of a rate hike, a stark contrast to the cuts expected earlier this year. The focus is on whether this is a temporary spike or the start of a sustained inflationary trend.",
+  "risk_summary": "Risk appetite is extremely low. The VIX is likely to open elevated, reflecting high anxiety. Market breadth is expected to be negative, with decliners outpacing advancers. The primary risk is a further unwind of the AI trade, which has been a key market leader. A secondary risk is a disorderly move in the bond market, which could trigger a broader sell-off. Sentiment is cautious, with investors seeking clarity on the oil price trajectory and its impact on corporate earnings.",
   "top_events": [
     {
-      "title": "Oil prices settle at six-week high above $95/bbl on US-Iran escalation",
-      "summary": "Crude oil surged 3%+ as the US struck Iran for the 11th consecutive night and President Trump threatened to bomb Iranian infrastructure if shipping is disrupted. Brent crude topped $95/bbl, WTI above $88.",
-      "impact_score": 86.3,
+      "title": "Brent Crude Oil Closes Above $100 for First Time Since May",
+      "summary": "Brent crude oil futures settled above $100 a barrel, driven by escalating geopolitical tensions in the Middle East and concerns over supply disruptions. This marks a significant milestone and reignites global inflation fears.",
+      "impact_score": 89.7,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "10-Year Treasury Yield Hits Highest Since January 2025",
+      "summary": "The yield on the benchmark 10-year U.S. Treasury note surged to its highest level in over 18 months, driven by the oil price spike and its implications for inflation. This move tightens financial conditions significantly.",
+      "impact_score": 86.4,
+      "sentiment_score": -0.7
+    },
+    {
+      "title": "Trump Says US Will Hold Iran Responsible for Houthi Attacks",
+      "summary": "President Trump stated that the U.S. will hold Iran responsible for Houthi attacks on oil tankers in the Red Sea, following a reported attack on two Saudi tankers. This significantly escalates the risk of a broader regional conflict.",
+      "impact_score": 82.9,
       "sentiment_score": -0.6
     },
     {
-      "title": "30-year Treasury yield closes above 5% for longest stretch since 2007",
-      "summary": "The 30-year bond yield extended its stay above 5%, marking the longest such stretch in 19 years, driven by inflation fears from the oil spike and fiscal concerns.",
-      "impact_score": 81.6,
-      "sentiment_score": -0.5
+      "title": "Global oil prices cross $100 a barrel as Iran war sends fuel prices surging",
+      "summary": "Global oil prices have surged past $100 per barrel for the first time since May, driven by escalating conflict involving Iran.",
+      "impact_score": 80.0,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Tesla misses Q2 earnings, free cash flow turns negative",
-      "summary": "Tesla reported earnings after the bell that missed expectations, with negative free cash flow and declining margins. The stock slid in after-hours trading.",
+      "title": "Tesla Misses Earnings, Free Cash Flow Turns Negative",
+      "summary": "Tesla reported Q2 earnings that missed analyst expectations, with automotive margins declining and free cash flow turning negative. CEO Elon Musk preached patience on robotaxi and Optimus rollouts, disappointing investors.",
+      "impact_score": 79.0,
+      "sentiment_score": -0.6
+    },
+    {
+      "title": "Alphabet Shares Fall on Massive Capex, Negative Free Cash Flow",
+      "summary": "Alphabet's stock fell sharply after the company reported a massive increase in capital spending, leading to negative free cash flow. A JPMorgan note suggested Google's 2027 capex could approach $400 billion, stoking fears of over-investment in AI.",
       "impact_score": 79.0,
       "sentiment_score": -0.7
     },
     {
-      "title": "Tracking oil prices and US gas prices amid Iran conflict",
-      "summary": "A news report tracks the movement of oil prices and U.S. gasoline prices in the context of the ongoing conflict involving Iran.",
-      "impact_score": 73.2,
+      "title": "Global Oil Price Hits $100 a Barrel for First Time Since May",
+      "summary": "The global benchmark oil price has reached $100 per barrel for the first time since May, driven by supply concerns.",
+      "impact_score": 77.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "IBM lowers full-year forecast, stock bounces",
-      "summary": "IBM cut its full-year outlook after a profit warning last week, but the stock rose as the cut was less severe than feared. The company is focusing on AI productivity tools.",
-      "impact_score": 72.4,
-      "sentiment_score": -0.2
-    },
-    {
-      "title": "Musk Says Micron Gave Tesla ‘Significant’ Supply of Memory Chips",
-      "summary": "Elon Musk stated that Micron provided Tesla with a 'significant' supply of memory chips, as reported by Bloomberg.",
-      "impact_score": 71.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Google increases capex forecast again after cloud-driven quarterly beat",
-      "summary": "Alphabet (GOOGL) reported a quarterly earnings beat driven by its cloud segment and subsequently raised its capital expenditure forecast.",
-      "impact_score": 71.2,
-      "sentiment_score": 0.7
-    },
-    {
-      "title": "Oil prices rise another 3%, while Wall Street drifts in mixed trading",
-      "summary": "Oil prices increased by 3%, while broader U.S. stock markets showed mixed results, according to the Pittsburgh Post-Gazette.",
-      "impact_score": 70.5,
-      "sentiment_score": 0.03
+      "title": "Lockheed Martin and RTX Jump on Earnings Beat",
+      "summary": "Lockheed Martin and RTX both reported earnings that beat analyst expectations, driven by strong demand amid elevated geopolitical tensions. Lockheed Martin's stock is breaking out to new highs.",
+      "impact_score": 76.1,
+      "sentiment_score": 0.8
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE) +2.1%, Utilities (XLU) +0.8%, Healthcare (XLV) +0.5%; Negative sectors/themes: Technology (XLK) -0.9%, Consumer Discretionary (XLY) -0.7%, Real Estate (XLRE) -0.6%; Themes to watch: Energy sector momentum as geopolitical risk persists, Rotation from growth to value amid rising rates, AI infrastructure spending vs. margin pressure in tech"
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Select Healthcare (XLV); Negative sectors/themes: Technology (XLK), Consumer Discretionary (XLY), Airlines (JETS), Real Estate (XLRE); Themes to watch: AI Capex vs. Returns: The market is now scrutinizing the ROI of massive AI spending, which could lead to a prolonged period of underperformance for mega-cap tech., Stagflation Scare: The combination of rising inflation (oil) and slowing growth (housing, consumer) is the most feared macro environment for equities., Defensive Rotation: Capital is rotating from growth to value and from cyclical to defensive sectors like energy, healthcare, and staples."
 }
