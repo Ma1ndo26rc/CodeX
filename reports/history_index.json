@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-23T14:58:39.525642+00:00",
+  "generated_at": "2026-07-23T23:15:45.906583+00:00",
   "reports": [
+    {
+      "date": "2026-07-23",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-23T23:14:14.029004+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-23-close.json",
+      "dynamic_headline": "Oil at $100 and AI capex fears trigger a broad risk-off selloff, led by mega-cap tech.",
+      "dynamic_headline_zh": "油价触及100美元及AI资本支出担忧引发广泛避险抛售，以大型科技股为首。",
+      "market_summary": "US equities suffered a broad and deep selloff on Thursday, July 23, as a confluence of macro and micro shocks shattered the market's recent calm. Brent crude oil surged past $100 per barrel for the first time since 2022 following attacks on tankers in the Red Sea, reigniting inflation fears and sending the 10-year Treasury yield to its highest level since January 2025. Simultaneously, investors punished mega-cap tech leaders Alphabet and Tesla for signaling massive increases in AI-related capital expenditures, raising doubts about the near-term return on that spending. The result was a high-volume, low-breadth rout that saw the Nasdaq Composite fall over 2%, the S&P 500 drop nearly 1%, and the Dow Jones Industrial Average decline by a similar magnitude, with only the Energy sector managing a gain.",
+      "market_summary_zh": "美国股市在7月23日（周四）遭遇广泛而深度的抛售，宏观与微观冲击交织，打破了市场近期的平静。布伦特原油在红海油轮遭袭后自2022年以来首次突破每桶100美元，重燃通胀担忧，并将10年期美债收益率推至2025年1月以来的最高水平。与此同时，投资者惩罚了大型科技领头羊Alphabet和特斯拉，因其暗示将大幅增加人工智能相关资本支出，引发市场对相关支出短期回报的疑虑。结果是出现了一轮高成交量、低广度的暴跌，纳斯达克综合指数下跌超过2%，标普500指数下跌近1%，道琼斯工业平均指数跌幅相近，仅能源板块录得上涨。",
+      "event_count": 10,
+      "avg_impact": 74.0
+    },
     {
       "date": "2026-07-23",
       "report_type": "premarket",
