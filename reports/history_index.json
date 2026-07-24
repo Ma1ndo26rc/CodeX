@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-23T23:15:45.906583+00:00",
+  "generated_at": "2026-07-24T14:30:42.046552+00:00",
   "reports": [
+    {
+      "date": "2026-07-24",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-24T14:28:57.082825+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-24-premarket.json",
+      "dynamic_headline": "Oil above $100 and surging yields set a defensive tone ahead of the cash open.",
+      "dynamic_headline_zh": "油价突破100美元与收益率飙升，为美股现金开盘奠定防御基调。",
+      "market_summary": "US equity futures are pointing to a lower open as a surge in oil prices above $100 per barrel reignites inflation fears and pushes Treasury yields to multi-year highs. The dominant tension is between a resilient earnings season and a macro backdrop that is rapidly deteriorating due to geopolitical risk and a hawkish repricing of Fed policy. Investors are positioning for a defensive rotation, with energy and select value sectors likely to outperform while growth and duration-sensitive assets face headwinds.",
+      "market_summary_zh": "美国股指期货指向低开，因油价飙升至每桶100美元上方，重燃通胀担忧，并将美国国债收益率推至多年高位。当前市场的主导矛盾在于，一方面是企业财报季表现坚韧，另一方面是地缘政治风险和美联储政策鹰派重估导致宏观背景迅速恶化。投资者正为防御性轮动布局，能源和部分价值型板块可能跑赢，而成长股和久期敏感型资产则面临逆风。",
+      "event_count": 10,
+      "avg_impact": 72.5
+    },
     {
       "date": "2026-07-23",
       "report_type": "close",

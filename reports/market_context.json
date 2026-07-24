@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities suffered a broad and deep selloff on Thursday, July 23, as a confluence of macro and micro shocks shattered the market's recent calm. Brent crude oil surged past $100 per barrel for the first time since 2022 following attacks on tankers in the Red Sea, reigniting inflation fears and sending the 10-year Treasury yield to its highest level since January 2025. Simultaneously, investors punished mega-cap tech leaders Alphabet and Tesla for signaling massive increases in AI-related capital expenditures, raising doubts about the near-term return on that spending. The result was a high-volume, low-breadth rout that saw the Nasdaq Composite fall over 2%, the S&P 500 drop nearly 1%, and the Dow Jones Industrial Average decline by a similar magnitude, with only the Energy sector managing a gain.",
-  "macro_summary": "Risk-Off Regime Triggered by Supply Shock The market is now in a risk-off regime driven by a geopolitical energy shock that is reigniting inflation fears and challenging the Fed's credibility, while simultaneously exposing the fragility of the high-growth AI narrative. Today's market action represents a decisive shift from a 'Goldilocks' regime to a 'Stagflationary Shock' regime. The primary catalyst is an exogenous supply-side shock from the energy market, which is now compounding an existing anxiety about the sustainability of AI-led growth. The market is repricing for higher inflation, higher rates, and lower growth simultaneously, a toxic mix for risk assets. The macro outlook has darkened considerably in a single session. The break of $100 oil injects a significant supply-side shock into an economy already grappling with sticky services inflation. This development has effectively ended the 'Goldilocks' narrative of cooling inflation and a soft landing, replacing it with a 'stagflationary' concern. The market is now pricing in a higher probability of a Fed rate hike in September, a stark reversal from the rate-cut expectations that prevailed just weeks ago. The key question is whether this oil spike is transient or the start of a sustained conflict-driven rally that could derail the economic expansion.",
-  "risk_summary": "Risk sentiment collapsed today, with the Cboe Volatility Index (VIX) spiking sharply, reflecting a panic move into protection. Market breadth was overwhelmingly negative, with decliners outpacing advancers by a wide margin on both the NYSE and Nasdaq. The put/call ratio surged, indicating a rush to hedge against further downside. The selloff was characterized by a lack of dip-buying, a sign that investor conviction has been shaken. The primary risk is that the tech selloff becomes self-reinforcing, as forced selling from systematic strategies and margin calls could exacerbate the decline. The market is now in a 'risk-off' posture, favoring cash, energy, and short-duration Treasuries over growth equities.",
+  "market_summary": "US equity futures are pointing to a lower open as a surge in oil prices above $100 per barrel reignites inflation fears and pushes Treasury yields to multi-year highs. The dominant tension is between a resilient earnings season and a macro backdrop that is rapidly deteriorating due to geopolitical risk and a hawkish repricing of Fed policy. Investors are positioning for a defensive rotation, with energy and select value sectors likely to outperform while growth and duration-sensitive assets face headwinds.",
+  "macro_summary": "Stagflationary Shock The market is caught between strong micro fundamentals and a macro environment that is turning hostile due to geopolitical risk and a hawkish Fed. The path of least resistance is lower until oil and yields stabilize. The market is repricing a stagflationary scenario where oil above $100 and rising yields are overwhelming positive earnings news. The dominant tension is between a resilient corporate sector and a rapidly deteriorating macro backdrop, leading to a defensive rotation. The macro outlook has darkened considerably overnight. The combination of oil above $100, a hawkish Fed repricing, and escalating geopolitical tensions points to a stagflationary environment. Growth expectations are being revised down while inflation expectations are moving up, creating a challenging backdrop for risk assets. The dollar is strengthening on a flight to quality, adding further pressure on emerging markets and commodities.",
+  "risk_summary": "Risk appetite is clearly negative this morning. The VIX is likely to open higher, and we are seeing a classic flight to safety with bids on the dollar, gold, and Treasuries (though yields are rising on inflation fears). Breadth is expected to be poor, with more stocks declining than advancing. The key risk is that the sell-off accelerates if oil continues to spike or if the 10-year yield breaks above key resistance levels. Positioning is likely crowded on the long side after the recent rally, which could exacerbate any downside move.",
   "top_events": [
     {
-      "title": "Brent crude crosses $100 after tankers struck off Saudi Arabia",
-      "summary": "Brent crude oil prices surged past $100 per barrel for the first time since 2022 following Houthi attacks on Saudi oil tankers in the Red Sea and President Trump's threat to bomb Iranian infrastructure.",
-      "impact_score": 87.7,
-      "sentiment_score": -0.9
-    },
-    {
-      "title": "10-year Treasury yield hits highest since January 2025",
-      "summary": "The 10-year US Treasury yield surged to its highest level since January 2025, driven by the oil price spike and a lower-than-expected jobless claims print, which together reignited inflation fears and hawkish Fed bets.",
-      "impact_score": 85.5,
+      "title": "Oil surges above $100 on Iran conflict escalation",
+      "summary": "Oil prices crossed the $100 per barrel threshold as the US-Iran conflict escalated and peace talks failed. This is a stagflationary shock that is repricing risk across all asset classes.",
+      "impact_score": 89.7,
       "sentiment_score": -0.8
     },
     {
-      "title": "Tesla and Alphabet plunge on AI spending concerns",
-      "summary": "Shares of Tesla and Alphabet lost hundreds of billions in market value after their earnings reports signaled massive, open-ended increases in AI-related capital expenditures, raising doubts about near-term profitability and return on investment.",
-      "impact_score": 84.5,
-      "sentiment_score": -0.95
-    },
-    {
-      "title": "Odds of Federal Reserve rate hike surge as oil prices rip higher",
-      "summary": "Market-implied odds of a Federal Reserve interest rate hike at the September meeting surged dramatically following the break of oil above $100 per barrel.",
-      "impact_score": 84.2,
+      "title": "10-year Treasury yield hits highest since January 2025",
+      "summary": "The 10-year Treasury yield rose to its highest level since January 2025, driven by the oil-induced inflation scare and a hawkish repricing of Fed policy.",
+      "impact_score": 86.4,
       "sentiment_score": -0.7
     },
     {
-      "title": "Trump to slap 'sweeping' new tariffs on 60 trade partners",
-      "summary": "The Trump administration announced a new wave of sweeping tariffs on 60 trade partners, escalating global trade tensions as previous duties expired.",
-      "impact_score": 77.7,
+      "title": "Odds of Fed rate hike surge on oil spike",
+      "summary": "The probability of a Fed rate hike in September has surged as oil prices spike, reigniting inflation fears. The market is now pricing in a more aggressive Fed response.",
+      "impact_score": 86.2,
       "sentiment_score": -0.6
     },
     {
-      "title": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late, SpaceX Starship Launch Due",
-      "summary": "Dow Jones Futures: Market Sells Off On Oil Prices, Google, Tesla; Intel Jumps Late, SpaceX Starship Launch Due Investor's Business Daily",
-      "impact_score": 76.5,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "Fed may hike rates twice in 2026, 36% chance per Polymarket",
-      "summary": "Fed may hike rates twice in 2026, 36% chance per Polymarket Crypto Briefing",
-      "impact_score": 75.6,
+      "title": "Treasury yields retreat, 10-year hovers around January 2025 highs",
+      "summary": "U.S. Treasury yields retreated on Friday after briefly hitting the highest level since January 2025 the day before.",
+      "impact_score": 83.9,
       "sentiment_score": 0.03
     },
     {
-      "title": "Tension in the Middle East raise oil prices to more than $100 a barrel in mid-July 2026",
-      "summary": "Tension in the Middle East raise oil prices to more than $100 a barrel in mid-July 2026 KTVB",
-      "impact_score": 75.2,
-      "sentiment_score": 0.03
+      "title": "Trump considers 'massive attack' on Iran",
+      "summary": "President Trump told Axios he is considering a 'massive attack' on Iran, escalating the conflict further. This has contributed to the surge in oil prices and risk aversion.",
+      "impact_score": 83.8,
+      "sentiment_score": -0.9
+    },
+    {
+      "title": "Why Investors are Bullish on Solaris Energy Infrastructure (SEI)?",
+      "summary": "",
+      "impact_score": 81.2,
+      "sentiment_score": 0.16
+    },
+    {
+      "title": "Stocks waver while crude oil prices fall for the first time in a week",
+      "summary": "Stocks waver while crude oil prices fall for the first time in a week The News-Item",
+      "impact_score": 81.2,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
+      "summary": "After staying flat as the U.S.-Iran war heated up again, equities tumbled on Thursday after oil prices crossed $100 per barrel.",
+      "impact_score": 80.1,
+      "sentiment_score": 0.16
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE): The only major sector to close higher, benefiting directly from the surge in crude oil prices. Integrated oil and exploration & production companies rallied., Defensive Sectors (Utilities, Consumer Staples): While not strongly positive, these sectors outperformed the broader market as investors rotated out of growth and into safety and yield.; Negative sectors/themes: Technology (XLK): The hardest-hit sector, driven by the mega-cap selloff and rising rates. Software and internet companies were particularly weak., Consumer Discretionary (XLY): Crushed by Tesla's plunge and concerns about consumer spending being squeezed by higher oil prices. Retail and auto stocks were under pressure., Communication Services (XLC): Alphabet's decline weighed heavily on the sector, along with broader concerns about ad spending in a slowing economy.; Themes to watch: AI Infrastructure vs. AI Application: The market is beginning to differentiate between companies that provide the 'picks and shovels' for AI (e.g., Intel, AMD) and those that are spending heavily on AI without clear monetization (e.g., Tesla, Alphabet)., Stagflation Trade: The simultaneous rise in oil (inflation) and fall in equities (growth) is the classic stagflation signal. Investors should watch for a rotation into commodities, TIPS, and short-duration bonds., Geopolitical Risk Premium: The market can no longer ignore the Iran conflict. A sustained geopolitical risk premium is being priced into oil, defense stocks, and safe-haven currencies."
+  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Gold Miners (GDX), US Dollar (DXY); Negative sectors/themes: Technology (XLK), Consumer Discretionary (XLY), Real Estate (XLRE), Airlines (JETS); Themes to watch: Stagflation Trade, Defensive Rotation, Value vs. Growth, Commodity Supercycle"
 }
