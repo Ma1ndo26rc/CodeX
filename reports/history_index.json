@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-23T23:10:19.595504+00:00",
+  "generated_at": "2026-07-24T14:26:44.386614+00:00",
   "reports": [
+    {
+      "date": "2026-07-24",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-24T14:25:03.747975+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-24-premarket.json",
+      "dynamic_headline": "Geopolitical risk and surging oil prices dominate the pre-market narrative, with Treasury yields retreating from multi-month highs as investors brace for a potential Fed rate hike and digest a mixed bag of earnings.",
+      "dynamic_headline_zh": "地缘政治风险与油价飙升主导盘前叙事，国债收益率自多月高位回落，投资者为美联储潜在加息做准备，并消化喜忧参半的财报。",
+      "market_summary": "US equity futures are pointing to a lower open as the market grapples with a confluence of headwinds: oil prices holding above $100/bbl following the collapse of Iran peace talks, renewed inflation fears, and a hawkish repricing of Fed rate expectations.  The 10-year Treasury yield, after hitting its highest level since January 2025, is retreating slightly.  Overnight, Intel's blockbuster earnings (25% revenue growth) provided a bright spot for the semiconductor sector, but this is being offset by weakness in consumer-facing names like American Express and Albertsons, and continued pressure on mega-cap tech from earlier in the week.  The key pre-market question is whether the dip in yields can stabilize equity futures before the cash open, or if the 'higher-for-longer' rate narrative and geopolitical uncertainty will trigger a broader risk-off move.",
+      "market_summary_zh": "美国股指期货指向低开，市场正应对多重阻力：伊朗和谈破裂后油价持稳于每桶100美元上方、通胀担忧重燃以及美联储加息预期的鹰派重估。10年期国债收益率在触及2025年1月以来最高水平后小幅回落。隔夜，英特尔（Intel）强劲财报（营收增长25%）为半导体板块带来亮点，但这一利好被美国运通（American Express）和艾伯森（Albertsons）等消费类股的疲软，以及本周早些时候大型科技股持续承压所抵消。盘前关键问题在于，收益率回落能否在现金开盘前稳定股指期货，还是“更高更久”的利率叙事和地缘政治不确定性将引发更广泛的避险情绪。",
+      "event_count": 10,
+      "avg_impact": 74.5
+    },
     {
       "date": "2026-07-23",
       "report_type": "close",
