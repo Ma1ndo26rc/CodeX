@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a lower open as a surge in oil prices above $100 per barrel reignites inflation fears and pushes Treasury yields to multi-year highs. The dominant tension is between a resilient earnings season and a macro backdrop that is rapidly deteriorating due to geopolitical risk and a hawkish repricing of Fed policy. Investors are positioning for a defensive rotation, with energy and select value sectors likely to outperform while growth and duration-sensitive assets face headwinds.",
-  "macro_summary": "Stagflationary Shock The market is caught between strong micro fundamentals and a macro environment that is turning hostile due to geopolitical risk and a hawkish Fed. The path of least resistance is lower until oil and yields stabilize. The market is repricing a stagflationary scenario where oil above $100 and rising yields are overwhelming positive earnings news. The dominant tension is between a resilient corporate sector and a rapidly deteriorating macro backdrop, leading to a defensive rotation. The macro outlook has darkened considerably overnight. The combination of oil above $100, a hawkish Fed repricing, and escalating geopolitical tensions points to a stagflationary environment. Growth expectations are being revised down while inflation expectations are moving up, creating a challenging backdrop for risk assets. The dollar is strengthening on a flight to quality, adding further pressure on emerging markets and commodities.",
-  "risk_summary": "Risk appetite is clearly negative this morning. The VIX is likely to open higher, and we are seeing a classic flight to safety with bids on the dollar, gold, and Treasuries (though yields are rising on inflation fears). Breadth is expected to be poor, with more stocks declining than advancing. The key risk is that the sell-off accelerates if oil continues to spike or if the 10-year yield breaks above key resistance levels. Positioning is likely crowded on the long side after the recent rally, which could exacerbate any downside move.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1838 articles from Yahoo Finance, MarketBeat, simplywall.st, GuruFocus, TradingView. The dominant theme is macro, with 763 macro items, 571 company items, 462 industry items, and 42 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (209), oil/energy (184), inflation (132), tariffs/policy (42). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 275 positive, 237 negative, and 1326 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Oil surges above $100 on Iran conflict escalation",
-      "summary": "Oil prices crossed the $100 per barrel threshold as the US-Iran conflict escalated and peace talks failed. This is a stagflationary shock that is repricing risk across all asset classes.",
-      "impact_score": 89.7,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "10-year Treasury yield hits highest since January 2025",
-      "summary": "The 10-year Treasury yield rose to its highest level since January 2025, driven by the oil-induced inflation scare and a hawkish repricing of Fed policy.",
-      "impact_score": 86.4,
-      "sentiment_score": -0.7
-    },
-    {
-      "title": "Odds of Fed rate hike surge on oil spike",
-      "summary": "The probability of a Fed rate hike in September has surged as oil prices spike, reigniting inflation fears. The market is now pricing in a more aggressive Fed response.",
-      "impact_score": 86.2,
-      "sentiment_score": -0.6
-    },
-    {
-      "title": "Treasury yields retreat, 10-year hovers around January 2025 highs",
-      "summary": "U.S. Treasury yields retreated on Friday after briefly hitting the highest level since January 2025 the day before.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Trump considers 'massive attack' on Iran",
-      "summary": "President Trump told Axios he is considering a 'massive attack' on Iran, escalating the conflict further. This has contributed to the surge in oil prices and risk aversion.",
-      "impact_score": 83.8,
-      "sentiment_score": -0.9
-    },
-    {
-      "title": "Why Investors are Bullish on Solaris Energy Infrastructure (SEI)?",
-      "summary": "",
+      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
+      "summary": "U.S. Treasury yields slid on Friday as oil prices dropped following a report that Pakistan is ​exploring a way to restart peace talks between the U.S. and Iran.",
       "impact_score": 81.2,
-      "sentiment_score": 0.16
+      "sentiment_score": -0.35
     },
     {
-      "title": "Stocks waver while crude oil prices fall for the first time in a week",
-      "summary": "Stocks waver while crude oil prices fall for the first time in a week The News-Item",
-      "impact_score": 81.2,
-      "sentiment_score": -0.16
+      "title": "Investors fret that spiking oil prices and rising yields could threaten stock rally - Reuters",
+      "summary": "Investors fret that spiking oil prices and rising yields could threaten stock rally Reuters",
+      "impact_score": 80.5,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities",
+      "summary": "The update comes as Ukrainian President Volodymyr Zelenskyy welcomed strikes on a key missile components facility in the Russian city of Kirov.",
+      "impact_score": 80.2,
+      "sentiment_score": -0.35
     },
     {
       "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
       "summary": "After staying flat as the U.S.-Iran war heated up again, equities tumbled on Thursday after oil prices crossed $100 per barrel.",
-      "impact_score": 80.1,
-      "sentiment_score": 0.16
+      "impact_score": 79.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again - MarketWatch",
+      "summary": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again MarketWatch",
+      "impact_score": 79.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks - CNBC",
+      "summary": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks CNBC",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "European Central Bank Officials Downplay Rate Hike Expectations",
+      "summary": "European Central Bank Officials Downplay Rate Hike Expectations GuruFocus",
+      "impact_score": 79.0,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Dollar rides yield surge as Middle East and trade wars raise inflation stakes - CNBC",
+      "summary": "Dollar rides yield surge as Middle East and trade wars raise inflation stakes CNBC",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Energy (XLE), Defense (ITA), Gold Miners (GDX), US Dollar (DXY); Negative sectors/themes: Technology (XLK), Consumer Discretionary (XLY), Real Estate (XLRE), Airlines (JETS); Themes to watch: Stagflation Trade, Defensive Rotation, Value vs. Growth, Commodity Supercycle"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }

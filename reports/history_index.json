@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-24T14:30:42.046552+00:00",
+  "generated_at": "2026-07-24T23:15:52.035057+00:00",
   "reports": [
+    {
+      "date": "2026-07-24",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-24T23:15:49.978453+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-24-close.json",
+      "dynamic_headline": "oil/energy leads a mixed and wait-and-see completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1838 articles from Yahoo Finance, MarketBeat, simplywall.st, GuruFocus, TradingView. The dominant theme is macro, with 763 macro items, 571 company items, 462 industry items, and 42 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 72.8
+    },
     {
       "date": "2026-07-24",
       "report_type": "premarket",
