@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-24T23:15:52.035057+00:00",
+  "generated_at": "2026-07-27T15:36:37.064906+00:00",
   "reports": [
+    {
+      "date": "2026-07-27",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-27T15:34:46.249532+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-27-premarket.json",
+      "dynamic_headline": "Geopolitical détente and falling oil prices lift futures, but a tech sector rotation and China chip competition cap gains.",
+      "dynamic_headline_zh": "地缘政治缓和与油价下跌提振期货，但科技板块轮动及中国芯片竞争限制涨幅。",
+      "market_summary": "US equity futures are pointing to a mixed open, with the Dow Jones Industrial Average poised for gains while the Nasdaq faces headwinds from a sharp sell-off in semiconductor stocks. The dominant narrative is a geopolitical risk-off unwind following a US-Iran truce, which is driving a sharp decline in oil prices and a rotation out of energy into rate-sensitive and consumer discretionary sectors. However, this positive catalyst is being offset by renewed concerns over China's competitive threat to the memory chip market, triggered by CXMT's massive IPO, and a cautious tone ahead of a pivotal week for Big Tech earnings and the Fed's policy decision.",
+      "market_summary_zh": "美国股指期货指向涨跌互现的开盘，道琼斯工业平均指数有望上涨，而纳斯达克指数则因半导体股大幅抛售面临压力。主导叙事是美伊停火带来的地缘政治风险偏好回升，这导致油价急剧下跌，资金从能源板块轮动至利率敏感型和非必需消费板块。然而，这一积极催化剂被对中国在存储芯片市场竞争威胁的新担忧所抵消，该担忧由长鑫存储（CXMT）的巨额IPO引发，同时市场在大型科技公司财报和美联储政策决定的关键一周前持谨慎态度。",
+      "event_count": 10,
+      "avg_impact": 62.0
+    },
     {
       "date": "2026-07-24",
       "report_type": "close",

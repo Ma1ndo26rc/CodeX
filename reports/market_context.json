@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1838 articles from Yahoo Finance, MarketBeat, simplywall.st, GuruFocus, TradingView. The dominant theme is macro, with 763 macro items, 571 company items, 462 industry items, and 42 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (209), oil/energy (184), inflation (132), tariffs/policy (42). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 275 positive, 237 negative, and 1326 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "US equity futures are pointing to a mixed open, with the Dow Jones Industrial Average poised for gains while the Nasdaq faces headwinds from a sharp sell-off in semiconductor stocks. The dominant narrative is a geopolitical risk-off unwind following a US-Iran truce, which is driving a sharp decline in oil prices and a rotation out of energy into rate-sensitive and consumer discretionary sectors. However, this positive catalyst is being offset by renewed concerns over China's competitive threat to the memory chip market, triggered by CXMT's massive IPO, and a cautious tone ahead of a pivotal week for Big Tech earnings and the Fed's policy decision.",
+  "macro_summary": "Geopolitical Détente with a Tech Twist The market is in a 'good news/bad news' regime: good news on geopolitics and inflation, bad news on tech sector competition. The dominant focus is on the rotation out of semiconductors and into value, with the Fed and Big Tech earnings as the next major catalysts. Today's market is characterized by a powerful macro-driven risk-on move from the US-Iran truce, which is lowering oil prices and boosting cyclical sectors. However, this is being met by a severe sector-specific risk-off event in semiconductors, triggered by a new competitive threat from China. The result is a highly divergent market where the Dow is rallying while the Nasdaq struggles, reflecting a rotation away from the crowded AI trade. The macro outlook is dominated by a sudden de-escalation in the US-Iran conflict, which has removed a significant geopolitical risk premium from oil prices and boosted risk appetite. This is occurring against a backdrop of a resilient but slowing US economy, with the market now squarely focused on the Fed's next policy move. The sharp drop in oil is a net positive for the consumer and for inflation expectations, potentially giving the Fed more room to hold rates steady. However, the emergence of a new competitive threat from China's memory chip industry introduces a new headwind for the tech sector, complicating the growth narrative.",
+  "risk_summary": "Risk sentiment has improved markedly on the geopolitical front, as evidenced by the rally in the Dow and the decline in the VIX from recent highs. However, this is not a broad-based risk-on move. The tech sector, particularly semiconductors, is experiencing a significant risk-off event, with bearish chart patterns and a major competitive threat from China. This divergence is creating a two-tiered market. Breadth is expected to be positive in value and cyclical sectors but negative in growth and tech. The key risk is that the chip sell-off spills over into the broader market, especially if the opening rotation shows a lack of buying interest in the Nasdaq.",
   "top_events": [
     {
-      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks",
-      "summary": "U.S. Treasury yields slid on Friday as oil prices dropped following a report that Pakistan is ​exploring a way to restart peace talks between the U.S. and Iran.",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
+      "title": "US-Iran Agree to Pause Retaliatory Strikes",
+      "summary": "The US and Iran have agreed to a pause in retaliatory military strikes over the weekend, leading to a sharp decline in oil prices and a rally in risk assets. The truce removes a significant near-term geopolitical risk premium from the market.",
+      "impact_score": 89.7,
+      "sentiment_score": 0.8
     },
     {
-      "title": "Investors fret that spiking oil prices and rising yields could threaten stock rally - Reuters",
-      "summary": "Investors fret that spiking oil prices and rising yields could threaten stock rally Reuters",
-      "impact_score": 80.5,
-      "sentiment_score": 0.35
+      "title": "China's CXMT Surges 466% in Record-Breaking IPO",
+      "summary": "Chinese memory chip maker CXMT debuted on the Shanghai stock exchange with a 466% surge, making it the most valuable company in China. The IPO raised $8.6 billion and signals a major new competitor in the global memory chip market.",
+      "impact_score": 84.0,
+      "sentiment_score": -0.7
     },
     {
-      "title": "Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities",
-      "summary": "The update comes as Ukrainian President Volodymyr Zelenskyy welcomed strikes on a key missile components facility in the Russian city of Kirov.",
-      "impact_score": 80.2,
-      "sentiment_score": -0.35
+      "title": "Apple Overtakes Nvidia as Most Valuable Company",
+      "summary": "Apple's stock hit a record high, surpassing Nvidia to become the world's most valuable company. The move reflects investor preference for Apple's more predictable earnings and capital allocation strategy over Nvidia's high-capex AI model.",
+      "impact_score": 79.5,
+      "sentiment_score": 0.6
     },
     {
-      "title": "Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'",
-      "summary": "After staying flat as the U.S.-Iran war heated up again, equities tumbled on Thursday after oil prices crossed $100 per barrel.",
-      "impact_score": 79.3,
-      "sentiment_score": 0.35
+      "title": "Trump Launches New Round of Tariffs on 60 Trading Partners",
+      "summary": "President Trump announced a fresh round of tariffs targeting 60 trading partners, including the EU, China, and the UK. This escalates global trade tensions and adds a new layer of uncertainty for multinational corporations.",
+      "impact_score": 77.4,
+      "sentiment_score": -0.4
     },
     {
-      "title": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again - MarketWatch",
-      "summary": "U.S. economy had begun to speed up — until Iran peace talks failed and oil prices surged again MarketWatch",
-      "impact_score": 79.3,
-      "sentiment_score": 0.35
+      "title": "AI spending in focus ahead of Mag 7 earnings",
+      "summary": "Investor attention is turning to AI capital expenditure levels as the 'Magnificent 7' tech companies prepare to report quarterly earnings. The market will scrutinize spending plans for signs of a slowdown or acceleration.",
+      "impact_score": 76.9,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks - CNBC",
-      "summary": "Treasury yields slide as oil prices fall amid hopes for new U.S.-Iran peace talks CNBC",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
+      "title": "Apple Is on Track to Dethrone Nvidia",
+      "summary": "Apple is reportedly on track to surpass Nvidia in market capitalization, driven by strong iPhone sales and services growth.",
+      "impact_score": 76.2,
+      "sentiment_score": 0.03
     },
     {
-      "title": "European Central Bank Officials Downplay Rate Hike Expectations",
-      "summary": "European Central Bank Officials Downplay Rate Hike Expectations GuruFocus",
-      "impact_score": 79.0,
-      "sentiment_score": -0.55
+      "title": "Is The Market Mispricing The Energy Cost Of Sound Money? (Commodity:CL1:COM)",
+      "summary": "Seeking Alpha analysis questions whether markets are correctly pricing the energy costs associated with sound money policies.",
+      "impact_score": 76.0,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Dollar rides yield surge as Middle East and trade wars raise inflation stakes - CNBC",
-      "summary": "Dollar rides yield surge as Middle East and trade wars raise inflation stakes CNBC",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
+      "title": "SanDisk Sinks 12%, Micron Drops 5%, SK Hynix Falls 8% as China’s CXMT IPO Rattles Memory Stocks",
+      "summary": "Memory chip stocks plunged after China's CXMT announced a massive IPO, raising fears of oversupply and increased competition.",
+      "impact_score": 75.7,
+      "sentiment_score": -0.2
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Airlines & Cruises (AAL, DAL, UAL, RCL, CCL), Consumer Discretionary (AMZN, TSLA, HD), Software & Cloud (MSFT, CRM, ADBE), Financials (JPM, GS, BAC); Negative sectors/themes: Semiconductors (MU, WDC, NVDA, AMD, INTC), Energy (XOM, CVX, OXY), Memory & Storage (WDC, MU, STX); Themes to watch: Geopolitical Risk Premium Unwind: The sustainability of the oil price decline and its impact on inflation expectations., Tech Sector Rotation: The shift from AI/hardware to software and quality mega-cap names like Apple., China Competition Threat: The long-term implications of CXMT's success for the global memory chip market., Pre-Fed Positioning: How the market is positioning for a hawkish hold from the Fed."
 }
