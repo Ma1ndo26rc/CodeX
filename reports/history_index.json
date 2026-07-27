@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-27T15:36:37.064906+00:00",
+  "generated_at": "2026-07-27T23:25:00.165891+00:00",
   "reports": [
+    {
+      "date": "2026-07-27",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-27T23:23:13.746968+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-27-close.json",
+      "dynamic_headline": "Geopolitical détente and AI sector rotation drive a mixed close as oil plunges and tech diverges.",
+      "dynamic_headline_zh": "地缘政治缓和与AI板块轮动导致市场涨跌互现，原油暴跌，科技股分化。",
+      "market_summary": "US equities closed mixed on Monday as a pause in US-Iran hostilities sent oil prices sharply lower, providing a tailwind for the Dow and broader cyclicals, while the Nasdaq struggled under renewed AI sector skepticism. The Dow Jones Industrial Average rallied over 600 points, driven by energy cost relief and a rotation out of mega-cap tech, while the S&P 500 eked out a modest gain and the Nasdaq Composite slipped as chip and AI infrastructure names sold off. The market is now squarely focused on a pivotal week of Big Tech earnings, the Federal Reserve's policy decision, and the durability of the geopolitical ceasefire.",
+      "market_summary_zh": "美国股市周一收盘涨跌互现，美伊敌对行动暂停导致油价大幅下跌，为道琼斯指数和更广泛的周期性板块提供了利好，而纳斯达克指数则因对人工智能领域的新一轮怀疑情绪而承压。道琼斯工业平均指数飙升逾600点，受能源成本缓解和资金从大型科技股轮出的推动；标普500指数小幅上涨；纳斯达克综合指数因芯片和人工智能基础设施个股遭抛售而下跌。市场目前正密切关注本周大型科技股的财报、美联储的政策决定以及地缘政治停火的持久性。",
+      "event_count": 10,
+      "avg_impact": 64.3
+    },
     {
       "date": "2026-07-27",
       "report_type": "premarket",
