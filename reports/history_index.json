@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-27T15:31:09.028292+00:00",
+  "generated_at": "2026-07-27T23:18:08.041742+00:00",
   "reports": [
+    {
+      "date": "2026-07-27",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-27T23:16:28.659308+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-27-close.json",
+      "dynamic_headline": "Wall Street closes mixed as a pause in U.S.-Iran hostilities sends oil and yields sharply lower, while AI-related selling and a rotation into crypto and value names cap the Nasdaq.",
+      "dynamic_headline_zh": "华尔街收盘涨跌互现，美伊冲突暂停导致油价和收益率大幅下跌，而人工智能相关抛售以及向加密货币和价值股的轮动则拖累纳斯达克指数。",
+      "market_summary": "U.S. equity markets ended Monday's session mixed, with the Dow Jones Industrial Average rising 0.51% and the S&P 500 and Nasdaq Composite edging lower. The primary catalyst was a temporary halt in retaliatory strikes between the U.S. and Iran, which drove a sharp decline in crude oil prices (Brent below $90) and a drop in Treasury yields. The energy sector sold off heavily, while consumer discretionary and financials found support. Tech and AI infrastructure names remained under pressure amid reports that Nvidia is in talks to backstop up to $250 billion in OpenAI data center debt, reviving dot-com era circular financing concerns. Apple reclaimed the title of the world's most valuable company, surpassing Nvidia. Crypto-related stocks rallied on rotation out of AI, while SpaceX shares hit a new low despite a successful Starship flight. The VIX remained elevated, reflecting persistent uncertainty.",
+      "market_summary_zh": "美国股市周一收盘涨跌互现，道琼斯工业平均指数上涨0.51%，而标普500指数和纳斯达克综合指数小幅走低。主要催化剂是美国与伊朗之间的报复性打击暂时停止，这导致原油价格（布伦特原油跌破90美元）和美国国债收益率大幅下跌。能源板块遭到大幅抛售，而非必需消费品和金融板块获得支撑。科技和人工智能基础设施股仍面临压力，有报道称英伟达正洽谈为OpenAI高达2500亿美元的数据中心债务提供担保，这重新引发了市场对类似互联网泡沫时期的循环融资的担忧。苹果公司重新夺回全球最有价值公司的宝座，超越了英伟达。加密货币相关股票因资金从人工智能板块轮出而上涨，而SpaceX股价尽管星舰飞行成功，但仍创下新低。VIX指数仍处于高位，反映出持续的不确定性。",
+      "event_count": 10,
+      "avg_impact": 64.3
+    },
     {
       "date": "2026-07-27",
       "report_type": "premarket",
