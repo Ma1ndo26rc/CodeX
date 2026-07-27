@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-24T23:10:10.789335+00:00",
+  "generated_at": "2026-07-27T15:31:09.028292+00:00",
   "reports": [
+    {
+      "date": "2026-07-27",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-27T15:29:30.992464+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-27-premarket.json",
+      "dynamic_headline": "Futures point to a mixed open as a US-Iran truce sends oil prices tumbling and lifts cyclicals, while a China memory-chip IPO rattles the semiconductor sector ahead of a pivotal Big Tech earnings week.",
+      "dynamic_headline_zh": "期货市场指向涨跌互现的开盘，美伊停火导致油价暴跌并提振周期股，而中国存储芯片IPO在大型科技股关键财报周前夕冲击半导体板块。",
+      "market_summary": "US equity futures are pointing to a mixed open on Tuesday, July 28, following a volatile session on Monday. The dominant overnight themes are a sharp drop in crude oil prices after the US and Iran agreed to pause hostilities, which is boosting transportation and consumer discretionary stocks, and a significant sell-off in semiconductor stocks triggered by the massive IPO of China's CXMT, which threatens the memory chip market. The market is also bracing for a heavy week of earnings from mega-cap tech companies including Microsoft, Meta, and Apple, which will be a critical test for the AI trade. Treasury yields are lower on the oil-driven inflation relief, while the dollar is steady.",
+      "market_summary_zh": "美国股指期货周二（7月28日）指向涨跌互现的开盘，此前周一市场波动剧烈。隔夜主导主题是美伊同意暂停敌对行动后原油价格大幅下跌，这提振了交通运输和非必需消费品板块；同时，中国CXMT的巨额IPO引发半导体板块大幅抛售，该IPO威胁到存储芯片市场。市场也在为微软、Meta和苹果等超大型科技股密集的财报周做准备，这将对人工智能交易构成关键考验。受油价驱动的通胀缓解影响，国债收益率走低，美元则保持稳定。",
+      "event_count": 9,
+      "avg_impact": 71.67
+    },
     {
       "date": "2026-07-24",
       "report_type": "close",
