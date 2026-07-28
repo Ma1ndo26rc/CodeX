@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-27T23:18:08.041742+00:00",
+  "generated_at": "2026-07-28T15:05:50.549667+00:00",
   "reports": [
+    {
+      "date": "2026-07-28",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-28T15:04:12.988453+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-28-premarket.json",
+      "dynamic_headline": "Semiconductor rout deepens ahead of Fed decision, with Dow futures flat as rotation out of tech and into value continues.",
+      "dynamic_headline_zh": "半导体板块抛售加剧，市场静待美联储决议；道指期货持平，资金持续从科技股轮动至价值股。",
+      "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq set to extend losses as the sell-off in semiconductor and AI-related stocks deepens. The Dow is attempting to hold its ground, supported by gains in defensive and value-oriented sectors. The market is in a holding pattern ahead of the Federal Reserve's interest rate decision and press conference later today. Overnight, the chip rout intensified on renewed US-China tech tensions and concerns over AI capex sustainability, while a slew of earnings reports from major companies like PayPal, Coca-Cola, and UPS provided some counterbalance.",
+      "market_summary_zh": "美国股指期货开盘涨跌互现，纳斯达克指数预计延续跌势，因半导体和人工智能相关股票的抛售加剧。道琼斯指数试图企稳，受防御性和价值导向型板块的上涨支撑。市场在今日晚些时候美联储利率决议和新闻发布会前处于观望模式。隔夜，由于美中科技紧张局势再度升级以及对人工智能资本支出可持续性的担忧，芯片股抛售加剧，而PayPal、可口可乐和UPS等主要公司的财报季表现则提供了一些平衡。",
+      "event_count": 10,
+      "avg_impact": 70.5
+    },
     {
       "date": "2026-07-27",
       "report_type": "close",
