@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equities closed mixed on Monday as a pause in US-Iran hostilities sent oil prices sharply lower, providing a tailwind for the Dow and broader cyclicals, while the Nasdaq struggled under renewed AI sector skepticism. The Dow Jones Industrial Average rallied over 600 points, driven by energy cost relief and a rotation out of mega-cap tech, while the S&P 500 eked out a modest gain and the Nasdaq Composite slipped as chip and AI infrastructure names sold off. The market is now squarely focused on a pivotal week of Big Tech earnings, the Federal Reserve's policy decision, and the durability of the geopolitical ceasefire.",
-  "macro_summary": "Geopolitical Détente and AI Rotation The market is rotating from AI leadership to a broader cyclical recovery trade, but the sustainability of this move hinges on the Fed's policy stance and the upcoming earnings reports from Big Tech. Today's market reflects a regime shift driven by a sudden de-escalation of a major geopolitical conflict, which has lowered the inflation premium embedded in oil prices and boosted cyclical assets. However, this is occurring alongside a growing skepticism about the AI investment cycle, creating a two-speed market where the Dow rallies while the Nasdaq struggles. The market is now in a 'wait-and-see' mode ahead of the Fed and mega-cap earnings, with the VIX declining but still above pre-conflict levels. The macro outlook is dominated by a sharp decline in oil prices following the US-Iran pause, which is providing a significant tailwind for the economy by reducing input costs and inflation pressure. However, the AI sector is facing a credibility check, with concerns about circular financing and valuation excess. The Fed is expected to hold rates steady this week, but the focus will be on Chairman Warsh's commentary regarding the supply shock and the path for future policy. The market is pricing in a higher probability of a soft landing, but the sustainability of the rotation away from tech leadership remains a key question.",
-  "risk_summary": "Risk sentiment improved markedly on the geopolitical front, with the VIX declining and credit spreads tightening as oil prices fell. However, the improvement was uneven, with the AI sector experiencing a notable de-risking event. Market breadth was positive in the Dow and S&P 500, but negative in the Nasdaq, indicating a rotation rather than a broad-based risk-on move. The CBOE Volatility Index (VIX) fell below 18, reflecting reduced fear of a tail-risk event, but remains elevated relative to pre-conflict levels. Positioning data suggests hedge funds are reducing long exposure to AI infrastructure and adding to value and cyclical positions.",
+  "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq under pressure from a deepening sell-off in semiconductor stocks, while the Dow is supported by defensive and industrial names. The market is in a holding pattern ahead of the Federal Reserve's interest rate decision and press conference, with the added complexity of ongoing geopolitical risks related to Iran and trade policy. Overnight, the semiconductor rout extended, with Micron and AMD leading declines, while PayPal and UPS provided some positive earnings surprises. The dollar is holding near recent highs, and gold is steady below $4,100 as investors await the Fed's verdict.",
+  "macro_summary": "Cautious Consolidation with a Defensive Tilt The market is in a 'show me' phase, demanding concrete evidence of sustained earnings growth and manageable inflation before re-risking. The Fed's ability to navigate the current supply shock without derailing the economy is the central focus. Today's market is characterized by a defensive rotation out of high-growth tech and into value and low-volatility sectors, driven by a confluence of factors: a severe semiconductor sell-off, pre-Fed positioning, and persistent geopolitical risks. The market is not in a panic, but risk appetite is clearly constrained, and investors are demanding a higher premium for holding cyclical and growth-oriented assets. The macro outlook is dominated by the upcoming Fed decision and the ongoing geopolitical landscape. The market is pricing in a rate hold, but the focus is on the Fed's assessment of the economic impact of the Iran conflict and the recent supply shock. The dollar remains strong, and bond yields are steady, reflecting a wait-and-see approach. The risk of a hawkish surprise or a dovish pivot is creating a binary event for risk assets.",
+  "risk_summary": "Risk sentiment is fragile, with the VIX likely elevated due to the semiconductor rout and pre-Fed anxiety. Breadth is poor, driven by the tech sell-off, but is being offset by strength in value and defensive sectors. Positioning data suggests hedge funds are reducing exposure to high-beta tech names, while institutional flows are rotating into low-volatility and dividend-paying stocks. The key risk is a further breakdown in tech leadership, which could spill over into the broader market.",
   "top_events": [
     {
-      "title": "US and Iran Pause Hostilities, Oil Prices Plunge",
-      "summary": "A temporary halt to the US-Iran conflict appeared to hold on Monday, with Iran reportedly suspending attacks as long as the US pause remains. This led to a sharp decline in oil prices, with Brent crude falling below $90 per barrel.",
-      "impact_score": 89.7,
-      "sentiment_score": 0.6
+      "title": "Federal Reserve Expected to Hold Rates Steady Amid Iran Tensions",
+      "summary": "The Federal Reserve is widely expected to hold interest rates steady at its July meeting. However, the decision is complicated by the ongoing US-Iran war, which has introduced a new supply-side shock. The market is focused on Chair Warsh's press conference for clues on the future rate path and the Fed's assessment of the geopolitical impact on the economy.",
+      "impact_score": 86.4,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Nvidia in Talks for $250B Backstop for OpenAI",
-      "summary": "Nvidia is in talks to provide up to $250 billion in credit support for OpenAI's data center campus in Ohio, allowing OpenAI to raise debt on the strength of Nvidia's credit. This has raised concerns about circular financing in the AI industry.",
-      "impact_score": 81.1,
-      "sentiment_score": -0.5
+      "title": "Deepening Semiconductor Sell-Off: Micron, AMD, Nvidia Lead Losses",
+      "summary": "Semiconductor stocks are experiencing a severe and accelerating sell-off, with Micron heading for its worst monthly drop in 11 years. The rout is driven by fears of a China-led supply glut, escalating capital expenditure scrutiny after Alphabet's earnings, and broad profit-taking in the AI trade.",
+      "impact_score": 86.2,
+      "sentiment_score": -0.9
     },
     {
-      "title": "Jim Cramer warns AI's circular financing frenzy echoes the dot-com bubble",
-      "summary": "CNBC's Jim Cramer said reports of Nvidia backing OpenAI's data center expansion revived memories of the financing arrangements that preceded the dot-com crash.",
-      "impact_score": 79.8,
-      "sentiment_score": -0.05
+      "title": "Analysis: Three reasons why Warsh won't raise Fed's interest rates this week",
+      "summary": "Warsh will reveal how he weighs energy shocks, AI-driven price pressure, the Fed's task forces and pressure from Trump.",
+      "impact_score": 83.9,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Apple Ends Day as World's Most Valuable Company",
-      "summary": "Apple surpassed Nvidia in market capitalization to reclaim the title of the world's most valuable company. Nvidia had held the top spot since June 2025.",
-      "impact_score": 77.2,
-      "sentiment_score": 0.3
+      "title": "Why Bloom Energy Shares Are Tanking Ahead of Earnings",
+      "summary": "",
+      "impact_score": 81.2,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Oil Prices Settle at Lowest in Over a Week, as US Pauses Attacks on Iran",
-      "summary": "Oil Prices Settle at Lowest in Over a Week, as US Pauses Attacks on Iran EnergyNow.com",
-      "impact_score": 76.6,
-      "sentiment_score": -0.07
-    },
-    {
-      "title": "US stocks mixed, oil and Treasury yields drop",
-      "summary": "US stocks mixed, oil and Treasury yields drop RTHK News",
-      "impact_score": 75.5,
+      "title": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping",
+      "summary": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping reflector.com",
+      "impact_score": 81.2,
       "sentiment_score": -0.16
     },
     {
-      "title": "Trump urges Fed rate cuts as Gulf War ends, seen lowering prices",
-      "summary": "Trump urges Fed rate cuts as Gulf War ends, seen lowering prices FXStreet",
-      "impact_score": 75.5,
-      "sentiment_score": 0.35
+      "title": "Trump and Zelenskyy Meet as Ukraine and Iran Wars Collide",
+      "summary": "President Trump met with Ukrainian President Zelenskyy as the US war against Iran and Russia's full-scale invasion of Ukraine threaten to overlap. The meeting is focused on coordinating strategy and preventing further escalation.",
+      "impact_score": 80.9,
+      "sentiment_score": 0.2
     },
     {
-      "title": "Oil prices take sudden dive as the U.S. and Iran hold a ceasefire",
-      "summary": "Oil prices take sudden dive as the U.S. and Iran hold a ceasefire thv11.com",
-      "impact_score": 75.3,
-      "sentiment_score": -0.45
+      "title": "Treasury Yield Nears 5% as Fed Shifts Course",
+      "summary": "Treasury Yield Nears 5% as Fed Shifts Course ETF Database",
+      "impact_score": 80.5,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide",
+      "summary": "Trump and Zelenskyy meet as the U.S war against Iran and Russia's full-scale invasion of Ukraine have threatened to overlap in recent days.",
+      "impact_score": 80.2,
+      "sentiment_score": 0.16
     }
   ],
-  "sector_summary": "Positive sectors/themes: Consumer Discretionary: Benefited from lower oil prices and easing inflation fears, boosting spending power., Financials: Higher on a steepening yield curve and improved risk appetite., Crypto-Related Stocks: Capital rotated out of AI infrastructure into crypto names like Coinbase and MicroStrategy., Small Caps (Russell 2000): Outperformed as the rotation into value and domestic-focused names accelerated.; Negative sectors/themes: Semiconductors & AI Infrastructure: Hit hard by the Nvidia-OpenAI backstop news and bubble comparisons., Energy: Oil producers fell sharply as crude prices plunged on the Iran ceasefire., Utilities: Underperformed as rates stabilized and risk appetite improved, reducing the defensive bid.; Themes to watch: AI Circular Financing: The Nvidia-OpenAI deal structure is raising red flags about the sustainability of AI capex., Geopolitical Risk Premium: The Iran pause is fragile; any breakdown could reverse the oil and equity moves., Earnings Season Divergence: Mega-cap tech earnings will determine if the AI trade can regain leadership or if the rotation deepens., Fed Policy Path: The market is pricing in a hold, but Warsh's commentary on the supply shock and inflation will be key."
+  "sector_summary": "Positive sectors/themes: Consumer Staples (KO, PEP), Utilities (XLU), Healthcare (XLV), Defensive Low Volatility; Negative sectors/themes: Semiconductors (SMH), Technology Hardware & Equipment, AI & Data Center Infrastructure, Consumer Discretionary (TSLA); Themes to watch: Rotation from Growth to Value, Defensive Positioning Ahead of Fed, Capex Scrutiny on Hyperscalers, Geopolitical Risk Premium in Energy"
 }

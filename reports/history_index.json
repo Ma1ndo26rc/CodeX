@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-27T23:25:00.165891+00:00",
+  "generated_at": "2026-07-28T15:10:21.810794+00:00",
   "reports": [
+    {
+      "date": "2026-07-28",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-07-28T15:08:39.950223+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-28-premarket.json",
+      "dynamic_headline": "Chip rout deepens, Fed decision looms, and geopolitical tensions set a cautious tone for today's open.",
+      "dynamic_headline_zh": "芯片股跌势加剧，美联储决议临近，地缘政治紧张局势为今日开盘定下谨慎基调。",
+      "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq under pressure from a deepening sell-off in semiconductor stocks, while the Dow is supported by defensive and industrial names. The market is in a holding pattern ahead of the Federal Reserve's interest rate decision and press conference, with the added complexity of ongoing geopolitical risks related to Iran and trade policy. Overnight, the semiconductor rout extended, with Micron and AMD leading declines, while PayPal and UPS provided some positive earnings surprises. The dollar is holding near recent highs, and gold is steady below $4,100 as investors await the Fed's verdict.",
+      "market_summary_zh": "美国股指期货指向涨跌互现的开盘，纳斯达克因半导体股抛售加深而承压，而道琼斯指数则受到防御性和工业股的支撑。市场在美联储利率决议和新闻发布会前处于观望模式，同时伊朗相关的地缘政治风险和贸易政策增加了复杂性。隔夜，半导体跌势延续，美光科技和AMD领跌，而PayPal和UPS则带来了一些积极的盈利惊喜。美元维持在近期高点附近，金价在4100美元下方持稳，投资者正等待美联储的裁决。",
+      "event_count": 10,
+      "avg_impact": 72.0
+    },
     {
       "date": "2026-07-27",
       "report_type": "close",
