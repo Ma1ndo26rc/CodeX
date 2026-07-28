@@ -1,56 +1,56 @@
 {
-  "market_summary": "US equity futures are pointing to a mixed open, with the Nasdaq under pressure from a deepening sell-off in semiconductor stocks, while the Dow is supported by defensive and industrial names. The market is in a holding pattern ahead of the Federal Reserve's interest rate decision and press conference, with the added complexity of ongoing geopolitical risks related to Iran and trade policy. Overnight, the semiconductor rout extended, with Micron and AMD leading declines, while PayPal and UPS provided some positive earnings surprises. The dollar is holding near recent highs, and gold is steady below $4,100 as investors await the Fed's verdict.",
-  "macro_summary": "Cautious Consolidation with a Defensive Tilt The market is in a 'show me' phase, demanding concrete evidence of sustained earnings growth and manageable inflation before re-risking. The Fed's ability to navigate the current supply shock without derailing the economy is the central focus. Today's market is characterized by a defensive rotation out of high-growth tech and into value and low-volatility sectors, driven by a confluence of factors: a severe semiconductor sell-off, pre-Fed positioning, and persistent geopolitical risks. The market is not in a panic, but risk appetite is clearly constrained, and investors are demanding a higher premium for holding cyclical and growth-oriented assets. The macro outlook is dominated by the upcoming Fed decision and the ongoing geopolitical landscape. The market is pricing in a rate hold, but the focus is on the Fed's assessment of the economic impact of the Iran conflict and the recent supply shock. The dollar remains strong, and bond yields are steady, reflecting a wait-and-see approach. The risk of a hawkish surprise or a dovish pivot is creating a binary event for risk assets.",
-  "risk_summary": "Risk sentiment is fragile, with the VIX likely elevated due to the semiconductor rout and pre-Fed anxiety. Breadth is poor, driven by the tech sell-off, but is being offset by strength in value and defensive sectors. Positioning data suggests hedge funds are reducing exposure to high-beta tech names, while institutional flows are rotating into low-volatility and dividend-paying stocks. The key risk is a further breakdown in tech leadership, which could spill over into the broader market.",
+  "market_summary": "US equities closed mixed on Tuesday, with the Dow Jones Industrial Average surging over 500 points (+1.3%) as investors rotated out of mega-cap technology and into cyclical and value names, while the Nasdaq Composite fell more than 1% and the Nasdaq-100 entered correction territory. The divergence was driven by a deepening selloff in semiconductor and AI-related stocks, triggered by escalating China chip fears and growing scrutiny of Big Tech's massive AI capital spending ahead of key earnings from Microsoft, Meta, and Amazon. Falling oil prices on hopes of de-escalation in the Middle East provided a tailwind for consumer and industrial stocks, while the broader market awaits the Fed's July policy decision and a critical wave of tech earnings.",
+  "macro_summary": "Rotational Correction Within a Broader Bull Market The market is in a rotational correction phase where AI/tech leadership is being challenged, but the broader economy and earnings remain supportive. The key question is whether the rotation is a healthy broadening or a precursor to a deeper drawdown if mega-cap earnings disappoint. Today's market reflects a violent but orderly rotation out of the most crowded, high-valuation AI and tech trades into value, cyclical, and defensive sectors. This is not a broad market collapse but a repricing of risk premiums within tech, driven by rising skepticism about AI capex returns and China supply chain risks. The macro backdrop of falling oil, stable rates, and decent non-tech earnings supports the rotation narrative. The macro backdrop is defined by a tug-of-war between easing inflation and geopolitical risks on one hand, and rising uncertainty about AI investment returns and China tech decoupling on the other. Falling oil prices and declining bond yields suggest the market is pricing in a less hawkish Fed, but the violent rotation out of tech indicates that investors are demanding higher risk premiums for AI-exposed names. The Fed's July decision and the BOJ's policy move this week will be critical in determining whether the rotation has legs or is a temporary repositioning ahead of earnings.",
+  "risk_summary": "Risk appetite is highly polarized. The CBOE Volatility Index (VIX) remained elevated around 22, reflecting ongoing anxiety, but the VIX term structure is in contango, suggesting the market sees the current volatility as event-driven rather than systemic. Breadth was positive on the NYSE but deeply negative on the Nasdaq, confirming the narrowness of the selloff. Bond inflows have surged as investors seek safety, but credit spreads remain relatively stable, indicating no broad stress. Sentiment is cautious but not panicked, with the focus squarely on mega-cap earnings and the Fed.",
   "top_events": [
     {
-      "title": "Federal Reserve Expected to Hold Rates Steady Amid Iran Tensions",
-      "summary": "The Federal Reserve is widely expected to hold interest rates steady at its July meeting. However, the decision is complicated by the ongoing US-Iran war, which has introduced a new supply-side shock. The market is focused on Chair Warsh's press conference for clues on the future rate path and the Fed's assessment of the geopolitical impact on the economy.",
-      "impact_score": 86.4,
+      "title": "Dow surges 500+ points on value rotation, falling oil",
+      "summary": "The Dow Jones Industrial Average surged over 500 points (+1.3%) as investors rotated out of mega-cap tech and into value and cyclical stocks. Falling oil prices on hopes of US-Iran de-escalation provided a tailwind for consumer, industrial, and transportation stocks.",
+      "impact_score": 87.4,
+      "sentiment_score": 0.7
+    },
+    {
+      "title": "Oil prices plunge on US-Iran de-escalation hopes",
+      "summary": "Crude oil prices fell over 4% on hopes of a de-escalation between the US and Iran, with reports of 'good talks' regarding the Strait of Hormuz. The drop in oil provided a major tailwind for consumer and industrial stocks.",
+      "impact_score": 85.2,
+      "sentiment_score": 0.6
+    },
+    {
+      "title": "Nasdaq-100 enters correction territory as semiconductor stocks plunge",
+      "summary": "The Nasdaq-100 fell over 1% and officially entered correction territory, down more than 10% from its recent high, as the Philadelphia Semiconductor Index plunged over 4%. The selloff was driven by escalating China chip fears and growing investor skepticism about AI spending returns.",
+      "impact_score": 84.0,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Asian Stocks Eye Gains as Oil Offsets Chip Selloff: Markets Wrap",
+      "summary": "Asian equity markets are poised for a positive open as a sharp decline in oil prices counterbalances ongoing weakness in semiconductor stocks, suggesting a rotation trade is taking hold.",
+      "impact_score": 84.0,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "SK Hynix profit surges 557% but misses estimates, chip selloff deepens",
+      "summary": "SK Hynix reported a 557% surge in second-quarter profit to a new high, but the results missed analyst estimates. The miss, combined with broader China chip fears, deepened the selloff in memory and semiconductor stocks globally.",
+      "impact_score": 77.5,
+      "sentiment_score": -0.5
+    },
+    {
+      "title": "Apple Overtakes Nvidia—Which Will Be Bigger by End of July?",
+      "summary": "Apple has surpassed Nvidia in market capitalization, sparking debate over which mega-cap tech stock will lead by month-end amid shifting AI narratives.",
+      "impact_score": 75.5,
       "sentiment_score": 0.03
     },
     {
-      "title": "Deepening Semiconductor Sell-Off: Micron, AMD, Nvidia Lead Losses",
-      "summary": "Semiconductor stocks are experiencing a severe and accelerating sell-off, with Micron heading for its worst monthly drop in 11 years. The rout is driven by fears of a China-led supply glut, escalating capital expenditure scrutiny after Alphabet's earnings, and broad profit-taking in the AI trade.",
-      "impact_score": 86.2,
-      "sentiment_score": -0.9
+      "title": "New York Gold, Bonds, and Dollar: 'Oil Price Drop vs. Tightening Concerns'... Dollar, Interest Rates, and Gold Prices Decline Together",
+      "summary": "A simultaneous decline in the dollar, Treasury yields, and gold prices suggests the market is pricing in both deflationary oil shocks and potential central bank tightening.",
+      "impact_score": 75.5,
+      "sentiment_score": -0.2
     },
     {
-      "title": "Analysis: Three reasons why Warsh won't raise Fed's interest rates this week",
-      "summary": "Warsh will reveal how he weighs energy shocks, AI-driven price pressure, the Fed's task forces and pressure from Trump.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Why Bloom Energy Shares Are Tanking Ahead of Earnings",
-      "summary": "",
-      "impact_score": 81.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping",
-      "summary": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping reflector.com",
-      "impact_score": 81.2,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Trump and Zelenskyy Meet as Ukraine and Iran Wars Collide",
-      "summary": "President Trump met with Ukrainian President Zelenskyy as the US war against Iran and Russia's full-scale invasion of Ukraine threaten to overlap. The meeting is focused on coordinating strategy and preventing further escalation.",
-      "impact_score": 80.9,
-      "sentiment_score": 0.2
-    },
-    {
-      "title": "Treasury Yield Nears 5% as Fed Shifts Course",
-      "summary": "Treasury Yield Nears 5% as Fed Shifts Course ETF Database",
-      "impact_score": 80.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Blurred front lines: Trump meets Zelenskyy as Ukraine, Iran wars collide",
-      "summary": "Trump and Zelenskyy meet as the U.S war against Iran and Russia's full-scale invasion of Ukraine have threatened to overlap in recent days.",
-      "impact_score": 80.2,
-      "sentiment_score": 0.16
+      "title": "S&P 500 rises as oil drop outweighs chip selloff",
+      "summary": "The S&P 500 managed to close higher as a steep decline in oil prices offset a significant selloff in semiconductor stocks.",
+      "impact_score": 73.8,
+      "sentiment_score": -0.55
     }
   ],
-  "sector_summary": "Positive sectors/themes: Consumer Staples (KO, PEP), Utilities (XLU), Healthcare (XLV), Defensive Low Volatility; Negative sectors/themes: Semiconductors (SMH), Technology Hardware & Equipment, AI & Data Center Infrastructure, Consumer Discretionary (TSLA); Themes to watch: Rotation from Growth to Value, Defensive Positioning Ahead of Fed, Capex Scrutiny on Hyperscalers, Geopolitical Risk Premium in Energy"
+  "sector_summary": "Positive sectors/themes: Consumer Staples (Coca-Cola beat, defensive rotation), Industrials (falling oil, Ford guidance, value rotation), Transportation (lower fuel costs, UPS beat), Healthcare (defensive bid, rate sensitivity); Negative sectors/themes: Semiconductors (China fears, AI capex scrutiny, correction), Mega-cap Tech & AI (rotation out, capex concerns), Space & Defense (SpaceX losses, peak defense spending fears), Energy (falling oil prices on geopolitical hopes); Themes to watch: Value vs. Growth Rotation: Is this a tactical shift or the start of a sustained regime change?, AI Monetization Reality Check: Can Microsoft, Meta, and Amazon justify their capex with revenue growth?, China Decoupling & Chip Supply Chain: How far will export controls go and what is the impact on global tech?, Geopolitical Detente & Commodity Prices: Will US-Iran talks lead to a sustained drop in oil and a broader risk-on move?"
 }

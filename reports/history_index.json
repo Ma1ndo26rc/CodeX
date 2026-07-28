@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-28T15:10:21.810794+00:00",
+  "generated_at": "2026-07-28T23:17:20.316149+00:00",
   "reports": [
+    {
+      "date": "2026-07-28",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-28T23:17:16.590931+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-28-close.json",
+      "dynamic_headline": "Dow surges on value rotation as AI-led tech selloff deepens into correction",
+      "dynamic_headline_zh": "",
+      "market_summary": "US equities closed mixed on Tuesday, with the Dow Jones Industrial Average surging over 500 points (+1.3%) as investors rotated out of mega-cap technology and into cyclical and value names, while the Nasdaq Composite fell more than 1% and the Nasdaq-100 entered correction territory. The divergence was driven by a deepening selloff in semiconductor and AI-related stocks, triggered by escalating China chip fears and growing scrutiny of Big Tech's massive AI capital spending ahead of key earnings from Microsoft, Meta, and Amazon. Falling oil prices on hopes of de-escalation in the Middle East provided a tailwind for consumer and industrial stocks, while the broader market awaits the Fed's July policy decision and a critical wave of tech earnings.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 70.0
+    },
     {
       "date": "2026-07-28",
       "report_type": "premarket",
