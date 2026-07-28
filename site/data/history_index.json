@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-07-28T15:05:50.549667+00:00",
+  "generated_at": "2026-07-28T23:15:05.626488+00:00",
   "reports": [
+    {
+      "date": "2026-07-28",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-07-28T23:13:29.930637+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-07-28-close.json",
+      "dynamic_headline": "A massive rotation out of AI and semiconductor stocks drove a sharp divergence between the Dow and Nasdaq, as falling oil prices and strong consumer earnings fueled a shift into value and defensive sectors.",
+      "dynamic_headline_zh": "大规模资金从人工智能和半导体股票撤出，导致道琼斯指数与纳斯达克指数出现显著分化，油价下跌及强劲的消费类企业盈利推动资金转向价值型和防御型板块。",
+      "market_summary": "US equity markets closed mixed on Tuesday, July 28, with the Dow Jones Industrial Average surging over 500 points (+1.3%) while the Nasdaq Composite fell more than 1%, dragged down by a deepening sell-off in semiconductor and AI-related stocks. The S&P 500 managed a modest gain of 0.2%, supported by strength in consumer staples, healthcare, and energy. The Philadelphia Semiconductor Index (SOX) plunged over 4%, with Micron, Nvidia, and AMD leading the decline amid escalating fears over China's domestic chip production and a global memory glut. Crude oil prices continued to slide on hopes of a US-Iran peace deal, falling below $70/barrel, which weighed on energy stocks but provided a tailwind for consumer discretionary and transportation names. The 10-year Treasury yield fell 8 basis points to 4.12%, reflecting a flight to safety and expectations of a dovish Fed. The VIX spiked above 22 intraday before settling near 20, signaling elevated anxiety. In corporate news, Coca-Cola raised its full-year forecast, Ford beat Q2 estimates and raised guidance, and UPS also topped expectations. After the bell, Seagate reported strong results, providing a glimmer of hope for the beaten-down AI trade. The market is now squarely focused on Wednesday's Fed decision and a wave of mega-cap tech earnings from Microsoft, Meta, and Amazon.",
+      "market_summary_zh": "美国股市周二（7月28日）收盘涨跌互现，道琼斯工业平均指数飙升逾500点（+1.3%），而纳斯达克综合指数因半导体和人工智能相关股票抛售加剧而下跌逾1%。标普500指数微涨0.2%，受必需消费品、医疗保健和能源板块走强支撑。费城半导体指数（SOX）暴跌逾4%，美光科技、英伟达和超威半导体领跌，市场对中国本土芯片产能及全球内存供应过剩的担忧加剧。原油价格因美伊和平协议预期持续下滑，跌破70美元/桶，拖累能源板块，但为非必需消费品和运输类股提供了支撑。10年期美国国债收益率下跌8个基点至4.12%，反映出避险情绪和对美联储鸽派立场的预期。芝加哥期权交易所波动率指数（VIX）盘中一度飙升至22以上，随后回落至20附近，显示市场焦虑情绪加剧。公司新闻方面，可口可乐上调了全年业绩预期，福特汽车第二季度业绩超预期并上调指引，联合包裹服务公司业绩也超出预期。盘后，希捷科技公布了强劲业绩，为遭受重创的人工智能交易带来一丝希望。市场目前正密切关注周三的美联储决议以及微软、Meta和亚马逊等科技巨头的财报。",
+      "event_count": 10,
+      "avg_impact": 74.5
+    },
     {
       "date": "2026-07-28",
       "report_type": "premarket",
