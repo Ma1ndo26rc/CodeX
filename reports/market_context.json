@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1785 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, Investing.com. The dominant theme is macro, with 719 macro items, 661 company items, 353 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (263), oil/energy (158), inflation (147), growth/jobs (33). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 386 positive, 197 negative, and 1202 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1794 articles from Yahoo Finance, TradingView, MarketBeat, simplywall.st, 24/7 Wall St.. The dominant theme is macro, with 774 macro items, 639 company items, 319 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (320), oil/energy (177), inflation (174), growth/jobs (43). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 358 positive, 230 negative, and 1206 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Oil prices jump following fighting with Iran, while sinking AI stocks drag Wall Street lower",
-      "summary": "Oil prices jump following fighting with Iran, while sinking AI stocks drag Wall Street lower AP News",
-      "impact_score": 88.8,
-      "sentiment_score": 0.06
+      "title": "Wall Street closes down sharply after Fed holds rates unchanged",
+      "summary": "Wall Street closes down sharply after Fed holds rates unchanged Reuters",
+      "impact_score": 86.1,
+      "sentiment_score": -0.16
     },
     {
-      "title": "Gold edges down as dollar, yields rise ahead of Fed rate decision, Warsh remarks - Reuters",
-      "summary": "Gold edges down as dollar, yields rise ahead of Fed rate decision, Warsh remarks Reuters",
+      "title": "Here are the five big takeaways from this week's Fed meeting",
+      "summary": "The Federal Reserve on Wednesday followed through on expectations for no interest rate change.",
+      "impact_score": 83.8,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Wall Street closes down sharply after Fed holds rates unchanged - Reuters",
+      "summary": "Wall Street closes down sharply after Fed holds rates unchanged Reuters",
       "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Crude oil prices jump again and U.S. stocks slip ahead a decision from the Fed on interest rates - BNN Bloomberg",
-      "summary": "Crude oil prices jump again and U.S. stocks slip ahead a decision from the Fed on interest rates BNN Bloomberg",
-      "impact_score": 81.8,
-      "sentiment_score": 0.35
+      "title": "Trump stands by his 'brilliant' Fed pick despite no rate cuts - Reuters",
+      "summary": "Trump stands by his 'brilliant' Fed pick despite no rate cuts Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Exxon Mobil (XOM): President Trump’s Top Energy Stock Pick?",
-      "summary": "",
-      "impact_score": 81.2,
+      "title": "Asian Stocks to Fall as Fed Keeps Rates on Hold: Markets Wrap - bloomberg.com",
+      "summary": "Asian Stocks to Fall as Fed Keeps Rates on Hold: Markets Wrap bloomberg.com",
+      "impact_score": 82.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Bank of England to keep rates steady while oil prices gyrate",
+      "summary": "Bank of England to keep rates steady while oil prices gyrate Reuters",
+      "impact_score": 81.0,
       "sentiment_score": 0.03
     },
     {
-      "title": "Wall St falls before Fed verdict; chip stocks wobble - Reuters",
-      "summary": "Wall St falls before Fed verdict; chip stocks wobble Reuters",
-      "impact_score": 81.0,
+      "title": "Nasdaq 100 Enters Correction, S&P 500 Falls After Fed Decision - bloomberg.com",
+      "summary": "Nasdaq 100 Enters Correction, S&P 500 Falls After Fed Decision bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices jump more than 7% after Trump says U.S. will hit Iran hard",
-      "summary": "Oil rose sharply amid renewed tensions in the Middle East after Iran launched an attack on U.S. forces using ballistic missiles.",
-      "impact_score": 80.1,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.",
-      "summary": "Climate disruption could prolong inflation. Look to refiners, tanker operators and agricultural stocks.",
-      "impact_score": 79.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Better Artificial Intelligence (AI) Memory Buy: Micron Technology vs. Sandisk After the July 2026 Sell-off",
-      "summary": "",
-      "impact_score": 79.3,
-      "sentiment_score": -0.55
+      "title": "Federal Reserve holds interest rates steady amid inflation concerns",
+      "summary": "Federal Reserve holds interest rates steady amid inflation concerns koco.com",
+      "impact_score": 80.4,
+      "sentiment_score": -0.25
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"

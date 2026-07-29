@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T14:57:37.539774",
+  "updated_at": "2026-07-29T23:13:05.928822",
   "series": {
     "SPY": [
       {
@@ -259,6 +259,12 @@
         "symbol": "SPY",
         "price": 734.38,
         "change_pct": -0.637
+      },
+      {
+        "time": "2026-07-29T23:13:05.557756",
+        "symbol": "SPY",
+        "price": 729.46,
+        "change_pct": -1.303
       }
     ],
     "QQQ": [
@@ -519,6 +525,12 @@
         "symbol": "QQQ",
         "price": 666.975,
         "change_pct": -2.22
+      },
+      {
+        "time": "2026-07-29T23:13:05.557756",
+        "symbol": "QQQ",
+        "price": 661.73,
+        "change_pct": -2.989
       }
     ],
     "VIX": [
@@ -779,6 +791,12 @@
         "symbol": "^VIX",
         "price": 20.04,
         "change_pct": 10.049
+      },
+      {
+        "time": "2026-07-29T23:13:05.557756",
+        "symbol": "^VIX",
+        "price": 20.66,
+        "change_pct": 13.454
       }
     ],
     "10Y Yield": [
@@ -1041,6 +1059,12 @@
         "symbol": "DIA",
         "price": 518.44,
         "change_pct": -0.541
+      },
+      {
+        "time": "2026-07-29T23:13:05.557756",
+        "symbol": "DIA",
+        "price": 515.41,
+        "change_pct": -1.122
       }
     ]
   }
