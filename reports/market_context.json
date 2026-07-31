@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1836 articles from Yahoo Finance, MarketBeat, TradingView, 24/7 Wall St., simplywall.st. The dominant theme is macro, with 699 macro items, 680 company items, 417 industry items, and 40 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (252), inflation (173), oil/energy (105), growth/jobs (31). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 400 positive, 195 negative, and 1241 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1892 articles from MarketBeat, Yahoo Finance, TradingView, simplywall.st, Moomoo. The dominant theme is company, with 685 macro items, 709 company items, 452 industry items, and 46 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (177), inflation (145), oil/energy (118), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 484 positive, 159 negative, and 1249 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Fed’s Preferred Inflation Index Cooled but Remained Elevated in June - WSJ",
-      "summary": "Fed’s Preferred Inflation Index Cooled but Remained Elevated in June WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation",
+      "summary": "Kashkari and Hammack joined Dallas Fed President Lorie Logan in dissenting against holding the Fed's key overnight borrowing rate steady.",
+      "impact_score": 83.8,
+      "sentiment_score": -0.25
     },
     {
-      "title": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak - Reuters",
-      "summary": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak Reuters",
-      "impact_score": 82.1,
+      "title": "Fed officials who voted to hike rates say action is needed now against inflation - CNBC",
+      "summary": "Fed officials who voted to hike rates say action is needed now against inflation CNBC",
+      "impact_score": 80.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Amazon lifts capex plan after strong cloud sales; shares jump",
-      "summary": "Amazon lifts capex plan after strong cloud sales; shares jump Reuters",
-      "impact_score": 80.6,
-      "sentiment_score": 0.16
+      "title": "US Treasury yield curve 'twist' reflects view Fed may not hike again - reuters.com",
+      "summary": "US Treasury yield curve 'twist' reflects view Fed may not hike again reuters.com",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Microsoft leads a rally on Wall Street, while worries about inflation remain in the bond market - bnnbloomberg.ca",
-      "summary": "Microsoft leads a rally on Wall Street, while worries about inflation remain in the bond market bnnbloomberg.ca",
+      "title": "Federal Reserve Unveils Plan Aiming to Boost Mutual Bank Growth - Bloomberg.com",
+      "summary": "Federal Reserve Unveils Plan Aiming to Boost Mutual Bank Growth Bloomberg.com",
       "impact_score": 79.8,
       "sentiment_score": 0.35
     },
     {
-      "title": "The oil majors are about to report booming profits. These smaller stocks may be better buys",
-      "summary": "Several renewable and AI-linked stocks that may be better buys than the majors right now, according to Wall Street.",
-      "impact_score": 78.7,
+      "title": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+      "summary": "Commonwealth Bank of Australia said in a note on Friday that stronger oil flows through the Strait of Hormuz had eased market concerns after U.S.-Iran strikes earlier this week.",
+      "impact_score": 79.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Wall Street ends sharply higher, lifted by soaring Microsoft",
-      "summary": "Wall Street ends sharply higher, lifted by soaring Microsoft Reuters",
+      "title": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak - Yahoo Finance",
+      "summary": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak Yahoo Finance",
       "impact_score": 78.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Trump says sanctions bill should include tariffs on Iran, despite 'trivial' trade with U.S.",
-      "summary": "Trump said he'd \"like to see tariffs on Iran\" added to a bill that would impose economic sanctions on Russia and those supporting its war against Ukraine.",
-      "impact_score": 77.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak",
-      "summary": "Microsoft rally lifts stocks, 30-year Treasury yield hits 19-year peak Honolulu Star-Advertiser",
-      "impact_score": 75.5,
-      "sentiment_score": 0.4
+      "title": "Oil prices seen gaining as Middle East supply disruptions persist: Reuters poll - reuters.com",
+      "summary": "Oil prices seen gaining as Middle East supply disruptions persist: Reuters poll reuters.com",
+      "impact_score": 78.5,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Microsoft leads a rally on Wall Street, while worries about inflation remain in the bond market - BNN Bloomberg",
+      "summary": "Microsoft leads a rally on Wall Street, while worries about inflation remain in the bond market BNN Bloomberg",
+      "impact_score": 77.8,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
