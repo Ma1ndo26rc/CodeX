@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1944 articles from Yahoo Finance, MarketBeat, FC Bayern, simplywall.st, Stocktwits. The dominant theme is macro, with 774 macro items, 728 company items, 387 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (196), oil/energy (155), inflation (151), growth/jobs (33). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 500 positive, 164 negative, and 1280 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1892 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, Stocktwits. The dominant theme is macro, with 731 macro items, 683 company items, 413 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (185), oil/energy (164), inflation (158), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 505 positive, 196 negative, and 1191 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers",
-      "summary": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers bloomberg.com",
-      "impact_score": 85.8,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
-      "summary": "The commentary pointed to a highly volatile environment in which purchasing managers were struggling to stay ahead",
-      "impact_score": 83.8,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers - bloomberg.com",
-      "summary": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers bloomberg.com",
+      "title": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers - Bloomberg.com",
+      "summary": "Treasuries Rise as Falling Oil Prices Trim Fed Rate-Hike Wagers Bloomberg.com",
       "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices drop 4% after Qatar, Bessent raise hopes of a US-Iran deal - Reuters",
-      "summary": "Oil prices drop 4% after Qatar, Bessent raise hopes of a US-Iran deal Reuters",
-      "impact_score": 82.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US stocks head toward a record as profits keep piling up and oil prices ease",
-      "summary": "US stocks head toward a record as profits keep piling up and oil prices ease reflector.com",
-      "impact_score": 81.2,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Apple is working on letting you copy and paste between your iPhone and Windows PCs",
-      "summary": "Apple is working on letting you copy and paste between your iPhone and Windows PCs Yahoo Tech",
-      "impact_score": 80.0,
-      "sentiment_score": -0.08
+      "title": "SpaceX teams up with Nvidia: Musk says Vera Rubin is 'the best AI computer'",
+      "summary": "SpaceX teams up with Nvidia: Musk says Vera Rubin is 'the best AI computer' Yahoo Finance UK",
+      "impact_score": 81.5,
+      "sentiment_score": 0.13
     },
     {
       "title": "Treasury yields slide as oil falls on Bessent comments - CNBC",
       "summary": "Treasury yields slide as oil falls on Bessent comments CNBC",
-      "impact_score": 79.2,
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
       "title": "Why Bessent Is Leaning on the Fed to Help Prop Up Japan’s Currency - WSJ",
       "summary": "Why Bessent Is Leaning on the Fed to Help Prop Up Japan’s Currency WSJ",
-      "impact_score": 78.6,
+      "impact_score": 80.6,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Apple shares downgraded due to memory chip inflation - CNBC",
+      "summary": "Apple shares downgraded due to memory chip inflation CNBC",
+      "impact_score": 77.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US Stock Market Today: S&P 500 Futures Rise On Steady Growth And Calmer Yields - Yahoo Finance",
+      "summary": "US Stock Market Today: S&P 500 Futures Rise On Steady Growth And Calmer Yields Yahoo Finance",
+      "impact_score": 76.5,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Michael Burry bets against rally: 'We are near a major top, and possible a 1987-type fall' - CNBC",
+      "summary": "Michael Burry bets against rally: 'We are near a major top, and possible a 1987-type fall' CNBC",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "US stocks hit records as profits keep piling up for Palantir, others, while oil prices ease",
+      "summary": "US stocks hit records as profits keep piling up for Palantir, others, while oil prices ease journalgazette.net",
+      "impact_score": 75.2,
+      "sentiment_score": 0.16
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
