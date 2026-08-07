@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-07T13:57:58.336965+00:00",
+  "generated_at": "2026-08-07T22:54:31.957798+00:00",
   "reports": [
+    {
+      "date": "2026-08-07",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-08-07T22:54:28.399893+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-08-07-close.json",
+      "dynamic_headline": "Fed/rates leads a constructive but selective completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is constructive but selective, based on 1853 articles from Stocktwits, Yahoo Finance, simplywall.st, MarketBeat, Yahoo! Finance Canada. The dominant theme is macro, with 776 macro items, 628 company items, 401 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 74.2
+    },
     {
       "date": "2026-08-07",
       "report_type": "premarket",
@@ -16,22 +32,6 @@
       "market_summary_zh": "",
       "event_count": 10,
       "avg_impact": 73.8
-    },
-    {
-      "date": "2026-08-07",
-      "report_type": "close",
-      "report_label": "Market Close Brief",
-      "generated_at": "2026-08-07T01:34:28.936202+00:00",
-      "market_session": "US Market Close",
-      "source_window": "Previous 24 hours through the market close cutoff",
-      "data_freshness_warning": false,
-      "file": "history/2026-08-07-close.json",
-      "dynamic_headline": "oil/energy leads a constructive but selective completed US equity session.",
-      "dynamic_headline_zh": "",
-      "market_summary": "The completed US equity session is constructive but selective, based on 1849 articles from Yahoo Finance, simplywall.st, AOL.com, StockStory, Investing.com. The dominant theme is macro, with 698 macro items, 630 company items, 460 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-      "market_summary_zh": "",
-      "event_count": 10,
-      "avg_impact": 72.4
     },
     {
       "date": "2026-08-06",

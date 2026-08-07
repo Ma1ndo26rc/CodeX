@@ -1,48 +1,24 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1855 articles from Stocktwits, simplywall.st, Yahoo Finance, AOL.com, Yahoo! Finance Canada. The dominant theme is macro, with 744 macro items, 640 company items, 415 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (204), oil/energy (129), inflation (117), growth/jobs (95). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 294 positive, 219 negative, and 1342 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1853 articles from Stocktwits, Yahoo Finance, simplywall.st, MarketBeat, Yahoo! Finance Canada. The dominant theme is macro, with 776 macro items, 628 company items, 401 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (235), growth/jobs (151), oil/energy (100), inflation (98). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 321 positive, 205 negative, and 1327 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears",
-      "summary": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears reuters.com",
-      "impact_score": 85.2,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "US rate futures cut chances of September rate hike after jobs data - reuters.com",
-      "summary": "US rate futures cut chances of September rate hike after jobs data reuters.com",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street",
-      "summary": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance UK",
-      "impact_score": 81.6,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Treasury yields down slightly ahead of key nonfarm payrolls data - CNBC",
-      "summary": "Treasury yields down slightly ahead of key nonfarm payrolls data CNBC",
+      "title": "Treasury yields drop after surprise jobs loss in July - CNBC",
+      "summary": "Treasury yields drop after surprise jobs loss in July CNBC",
       "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears - reuters.com",
-      "summary": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears reuters.com",
+      "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening - reuters.com",
+      "summary": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening reuters.com",
       "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Trump Says Rates Should Drop But It’s Not Entirely Up to Warsh - Bloomberg.com",
-      "summary": "Trump Says Rates Should Drop But It’s Not Entirely Up to Warsh Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
-      "summary": "The nonpartisan watchdog found Elon Musk's DOGE didn't cut as much federal spending as it claimed and that it fell far short of its promised $2 trillion.",
-      "impact_score": 79.2,
+      "title": "Federal Reserve's Lisa Cook tells Anchorage business crowd she's committed to bringing down inflation - Yahoo Finance",
+      "summary": "Federal Reserve's Lisa Cook tells Anchorage business crowd she's committed to bringing down inflation Yahoo Finance",
+      "impact_score": 80.9,
       "sentiment_score": -0.35
     },
     {
@@ -50,7 +26,31 @@
       "summary": "Odds the Fed will hike in September tumble following big July jobs miss CNBC",
       "impact_score": 79.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
+      "summary": "U.S. stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait Pittsburgh Post-Gazette",
+      "impact_score": 79.0,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "U.S. Stocks Rise as Rate-Hike Odds Fall on Weak Jobs Report - WSJ",
+      "summary": "U.S. Stocks Rise as Rate-Hike Odds Fall on Weak Jobs Report WSJ",
+      "impact_score": 78.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+      "summary": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance UK",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Poised for Higher Open as Weak Jobs Report Boosts Rate Cut Hopes: Dow Jones, S&P, Nasdaq, Wall Street Futures - Yahoo Finance",
+      "summary": "U.S. Stocks Poised for Higher Open as Weak Jobs Report Boosts Rate Cut Hopes: Dow Jones, S&P, Nasdaq, Wall Street Futures Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, growth/jobs, inflation"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, growth/jobs, oil/energy, inflation"
 }
