@@ -1,19 +1,43 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1849 articles from Yahoo Finance, simplywall.st, AOL.com, StockStory, Investing.com. The dominant theme is macro, with 698 macro items, 630 company items, 460 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (182), inflation (111), oil/energy (103), growth/jobs (34). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 340 positive, 212 negative, and 1297 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1855 articles from Stocktwits, simplywall.st, Yahoo Finance, AOL.com, Yahoo! Finance Canada. The dominant theme is macro, with 744 macro items, 640 company items, 415 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (204), oil/energy (129), inflation (117), growth/jobs (95). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 294 positive, 219 negative, and 1342 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Oil rises amid supply disruption fears following Iran's restrictive draft plan for the Strait of Hormuz",
-      "summary": "News of Iran's restrictive draft plan for the Strait of Hormuz sent oil prices higher, renewing concerns over supply disruptions.",
-      "impact_score": 85.0,
-      "sentiment_score": -0.45
+      "title": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears",
+      "summary": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears reuters.com",
+      "impact_score": 85.2,
+      "sentiment_score": -0.16
     },
     {
-      "title": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz - Reuters",
-      "summary": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz Reuters",
-      "impact_score": 81.1,
-      "sentiment_score": 0.35
+      "title": "US rate futures cut chances of September rate hike after jobs data - reuters.com",
+      "summary": "US rate futures cut chances of September rate hike after jobs data reuters.com",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street",
+      "summary": "U.S. Futures Climb After Weak Payrolls Data Reduces Fed Rate Fears: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance UK",
+      "impact_score": 81.6,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Treasury yields down slightly ahead of key nonfarm payrolls data - CNBC",
+      "summary": "Treasury yields down slightly ahead of key nonfarm payrolls data CNBC",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears - reuters.com",
+      "summary": "SNAPSHOT S&P, Nasdaq open higher as surprise payrolls fall quells rate-hike fears reuters.com",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Trump Says Rates Should Drop But It’s Not Entirely Up to Warsh - Bloomberg.com",
+      "summary": "Trump Says Rates Should Drop But It’s Not Entirely Up to Warsh Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
     },
     {
       "title": "GAO finds Elon Musk's DOGE inflated claims of $110 billion in savings for federal government",
@@ -22,35 +46,11 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold prices are breaking higher after a tough stretch. Could fresh records be within reach?",
-      "summary": "Gold miners’ stocks can offer a high-quality play for investors worried about inflation and the Fed.",
-      "impact_score": 78.9,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "The July jobs numbers are due out Friday. Here's what to expect",
-      "summary": "Nonfarm payrolls are expected to post a gain of just 83,000 with an unchanged unemployment rate at 4.2%.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Peloton posts first-ever annual net profit, but shares drop as outlook disappoints",
-      "summary": "Peloton delivered its first-ever annual profit in fiscal 2026 but it's still working to generate sales growth as consumers pull back on big ticket purchases.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Meta Must Pay Additional $567 Million in New Mexico Safety Trial",
-      "summary": "Meta Must Pay Additional $567 Million in New Mexico Safety Trial Bloomberg Law News",
-      "impact_score": 78.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Dow Jones falls over 450 points, snaps five-day winning run as oil prices, yield add pressure - CNBC TV18",
-      "summary": "Dow Jones falls over 450 points, snaps five-day winning run as oil prices, yield add pressure CNBC TV18",
-      "impact_score": 77.6,
+      "title": "Odds the Fed will hike in September tumble following big July jobs miss - CNBC",
+      "summary": "Odds the Fed will hike in September tumble following big July jobs miss CNBC",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, growth/jobs, inflation"
 }
