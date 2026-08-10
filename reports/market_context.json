@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1860 articles from MarketBeat, Yahoo Finance, simplywall.st, Moomoo, AOL.com. The dominant theme is macro, with 813 macro items, 565 company items, 447 industry items, and 35 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (170), oil/energy (121), growth/jobs (66). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 400 positive, 171 negative, and 1289 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1870 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, Investing.com. The dominant theme is macro, with 840 macro items, 526 company items, 464 industry items, and 40 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (228), inflation (199), oil/energy (161), growth/jobs (48). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 351 positive, 187 negative, and 1332 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Microsoft plans Maia 300 chip launch as early as next month - The Information (MSFT:NASDAQ)",
-      "summary": "Microsoft plans Maia 300 chip launch as early as next month - The Information (MSFT:NASDAQ) Seeking Alpha",
-      "impact_score": 83.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "US stocks drift near their records as oil prices rise | National News | 2news.com",
-      "summary": "US stocks drift near their records as oil prices rise | National News | 2news.com KTVN",
+      "title": "Stock Market Limps On Dimming Optimism For U.S.-Iran Deal; Nvidia Sinks",
+      "summary": "Stock Market Limps On Dimming Optimism For U.S.-Iran Deal; Nvidia Sinks Investor's Business Daily",
       "impact_score": 82.9,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Wall St opens flat as markets monitor Hormuz situation",
-      "summary": "Wall St opens flat as markets monitor Hormuz situation Reuters",
-      "impact_score": 82.8,
       "sentiment_score": 0.03
     },
     {
-      "title": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation - bloomberg.com",
-      "summary": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation bloomberg.com",
+      "title": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation - Bloomberg.com",
+      "summary": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation Bloomberg.com",
       "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap - bloomberg.com",
-      "summary": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap bloomberg.com",
-      "impact_score": 80.2,
+      "title": "Trump Is Back to Pressuring the Fed. What Leverage Does He Have? - Bloomberg.com",
+      "summary": "Trump Is Back to Pressuring the Fed. What Leverage Does He Have? Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus - Reuters",
+      "summary": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus Reuters",
+      "impact_score": 80.5,
       "sentiment_score": 0.35
     },
     {
-      "title": "World shares are mixed after Wall Street gains, while oil prices bounce higher - BNN Bloomberg",
-      "summary": "World shares are mixed after Wall Street gains, while oil prices bounce higher BNN Bloomberg",
-      "impact_score": 80.2,
-      "sentiment_score": 0.35
+      "title": "Oil Holds Gains, Asian Stocks Set for Muted Open: Markets Wrap",
+      "summary": "Oil Holds Gains, Asian Stocks Set for Muted Open: Markets Wrap Bloomberg.com",
+      "impact_score": 80.5,
+      "sentiment_score": 0.16
     },
     {
-      "title": "Emerging-Market Stocks, Currencies Gain After Soft US Jobs Data - bloomberg.com",
-      "summary": "Emerging-Market Stocks, Currencies Gain After Soft US Jobs Data bloomberg.com",
-      "impact_score": 79.8,
-      "sentiment_score": 0.35
+      "title": "Wall Street Giants Join Nvidia in Big AI Deal",
+      "summary": "Wall Street Giants Join Nvidia in Big AI Deal Bloomberg.com",
+      "impact_score": 79.9,
+      "sentiment_score": -0.03
     },
     {
-      "title": "Homeowner looking to beat rate hikes weighs $296 PPA against Tesla's $198-a-month lease - Yahoo Finance",
-      "summary": "Homeowner looking to beat rate hikes weighs $296 PPA against Tesla's $198-a-month lease Yahoo Finance",
-      "impact_score": 78.5,
-      "sentiment_score": 0.35
+      "title": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+      "summary": "U.S. presidents have increasingly ordered massive releases from the SPR in recent years.",
+      "impact_score": 79.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Need to see 10x more ships through the Strait to normalize oil prices: BofA’s Francisco Blanch - CNBC",
+      "summary": "Need to see 10x more ships through the Strait to normalize oil prices: BofA’s Francisco Blanch CNBC",
+      "impact_score": 79.6,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
