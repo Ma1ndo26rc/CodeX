@@ -1,14 +1,8 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1870 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, Investing.com. The dominant theme is macro, with 840 macro items, 526 company items, 464 industry items, and 40 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (228), inflation (199), oil/energy (161), growth/jobs (48). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 351 positive, 187 negative, and 1332 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1906 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, Investing.com. The dominant theme is macro, with 821 macro items, 582 company items, 459 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (211), inflation (200), oil/energy (196), growth/jobs (34). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 360 positive, 197 negative, and 1349 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
-    {
-      "title": "Stock Market Limps On Dimming Optimism For U.S.-Iran Deal; Nvidia Sinks",
-      "summary": "Stock Market Limps On Dimming Optimism For U.S.-Iran Deal; Nvidia Sinks Investor's Business Daily",
-      "impact_score": 82.9,
-      "sentiment_score": 0.03
-    },
     {
       "title": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation - Bloomberg.com",
       "summary": "US Futures Drop as Focus Turns on Chipmaker Earnings, Inflation Bloomberg.com",
@@ -22,22 +16,16 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus - Reuters",
-      "summary": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus Reuters",
-      "impact_score": 80.5,
-      "sentiment_score": 0.35
+      "title": "Pakistan signals progress on U.S.-Iran deal as Washington and Tehran trade reparation demands",
+      "summary": "The dueling positions Washington and Tehran staked out showed how far apart the two sides remain even as both talked of winding down regional hostilities.",
+      "impact_score": 80.1,
+      "sentiment_score": -0.16
     },
     {
-      "title": "Oil Holds Gains, Asian Stocks Set for Muted Open: Markets Wrap",
-      "summary": "Oil Holds Gains, Asian Stocks Set for Muted Open: Markets Wrap Bloomberg.com",
-      "impact_score": 80.5,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Wall Street Giants Join Nvidia in Big AI Deal",
-      "summary": "Wall Street Giants Join Nvidia in Big AI Deal Bloomberg.com",
-      "impact_score": 79.9,
-      "sentiment_score": -0.03
+      "title": "S&P 500, Nasdaq open higher as investors weigh report of fresh U.S.-Iran peace deal By Reuters",
+      "summary": "S&P 500, Nasdaq open higher as investors weigh report of fresh U.S.-Iran peace deal By Reuters Investing.com",
+      "impact_score": 80.1,
+      "sentiment_score": 0.03
     },
     {
       "title": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
@@ -46,10 +34,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Need to see 10x more ships through the Strait to normalize oil prices: BofA’s Francisco Blanch - CNBC",
-      "summary": "Need to see 10x more ships through the Strait to normalize oil prices: BofA’s Francisco Blanch CNBC",
-      "impact_score": 79.6,
+      "title": "Cleveland Fed's Hammack: It will take more than one interest rate hike to bring down inflation - Yahoo Finance",
+      "summary": "Cleveland Fed's Hammack: It will take more than one interest rate hike to bring down inflation Yahoo Finance",
+      "impact_score": 79.4,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. judge ends graft case against Indian billionaire Gautam Adani",
+      "summary": "A U.S. federal judge has approved the Department of Justice's decision to dismiss the criminal probe against Indian billionaire Gautam Adani on graft charges.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Wall Street drifts near its all-time high as oil prices keep swinging",
+      "summary": "Wall Street drifts near its all-time high as oil prices keep swinging Oskaloosa Herald",
+      "impact_score": 78.6,
+      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
