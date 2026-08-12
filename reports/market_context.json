@@ -1,31 +1,37 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1841 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, 24/7 Wall St.. The dominant theme is macro, with 801 macro items, 543 company items, 445 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (205), inflation (203), oil/energy (162), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 318 positive, 187 negative, and 1336 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1912 articles from MarketBeat, simplywall.st, finance.yahoo.com, Yahoo Finance, TradingView. The dominant theme is macro, with 816 macro items, 585 company items, 442 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (251), Fed/rates (185), oil/energy (133), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 409 positive, 180 negative, and 1323 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Asian Stocks to Slip With US CPI, Iran in Focus: Markets Wrap",
-      "summary": "Asian Stocks to Slip With US CPI, Iran in Focus: Markets Wrap Bloomberg.com",
-      "impact_score": 82.0,
-      "sentiment_score": 0.03
+      "title": "JPMorgan Sees Fed on Hold as ‘Teflon Inflation’ Eases Concerns",
+      "summary": "JPMorgan Sees Fed on Hold as ‘Teflon Inflation’ Eases Concerns Bloomberg.com",
+      "impact_score": 85.8,
+      "sentiment_score": -0.25
     },
     {
-      "title": "US Stock Futures Rise as Oil Erases Gains on Iran Optimism - Bloomberg.com",
-      "summary": "US Stock Futures Rise as Oil Erases Gains on Iran Optimism Bloomberg.com",
-      "impact_score": 80.8,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "U.S. judge ends graft case against Indian billionaire Gautam Adani",
-      "summary": "A U.S. federal judge has approved the Department of Justice's decision to dismiss the criminal probe against Indian billionaire Gautam Adani on graft charges.",
-      "impact_score": 79.2,
+      "title": "Hormuz closure squeezes global economy as oil demand destruction intensifies, IEA says",
+      "summary": "The IEA expects oil demand to fall by 1.6 million barrels a day in 2026 as high fuel prices and Strait of Hormuz disruptions weigh on consumption.",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Democrats clash again in Minnesota and Wisconsin primaries as big midterm races take shape",
-      "summary": "In Minnesota, progressive Lt. Gov. Peggy Flanagan and moderate Democratic Rep. Angie Craig are competing for the nomination to succeed the retiring Sen. Tina Smith.",
-      "impact_score": 78.3,
+      "title": "Shares are mixed in Europe and Asia ahead of U.S. inflation report, while oil prices gain - BNN Bloomberg",
+      "summary": "Shares are mixed in Europe and Asia ahead of U.S. inflation report, while oil prices gain BNN Bloomberg",
+      "impact_score": 80.2,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "Higher oil, fall in Tata stocks drag Indian shares lower; inflation data in focus - Reuters",
+      "summary": "Higher oil, fall in Tata stocks drag Indian shares lower; inflation data in focus Reuters",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Down as Oil Rises Ahead of Inflation Data - WSJ",
+      "summary": "U.S. Stocks Down as Oil Rises Ahead of Inflation Data WSJ",
+      "impact_score": 79.0,
+      "sentiment_score": -0.35
     },
     {
       "title": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
@@ -34,23 +40,17 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Hotel giant says ‘growing middle class’ boosted hotel demand despite Middle East hit",
-      "summary": "IHG reported higher first-half profit as U.S. demand accelerated and Middle East disruption weighed on travel.",
-      "impact_score": 78.3,
+      "title": "Wall St gains as AI earnings lift tech, inflation data supports rate-hold bets - Reuters",
+      "summary": "Wall St gains as AI earnings lift tech, inflation data supports rate-hold bets Reuters",
+      "impact_score": 78.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Nvidia Just Recruited Wall Street to Help Fund $500 Billion in AI Infrastructure. Here’s the Catch.",
-      "summary": "Nvidia Just Recruited Wall Street to Help Fund $500 Billion in AI Infrastructure. Here’s the Catch. Yahoo Finance",
-      "impact_score": 75.7,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Daily Spotlight: Sovereign Debt Yields",
-      "summary": "Yahoo Finance reported: \"Daily Spotlight: Sovereign Debt Yields\". The item is classified as macro news with neutral sentiment, making it relevant for near-term positioning and sector watchlists.",
-      "impact_score": 75.6,
-      "sentiment_score": 0.03
+      "title": "FTSE 100 subdued ahead of US inflation data, Balfour Beatty jumps to record high - Reuters",
+      "summary": "FTSE 100 subdued ahead of US inflation data, Balfour Beatty jumps to record high Reuters",
+      "impact_score": 78.1,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, oil/energy, Fed/rates, growth/jobs"
 }
