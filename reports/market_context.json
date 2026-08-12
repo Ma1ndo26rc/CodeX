@@ -1,56 +1,56 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1912 articles from MarketBeat, simplywall.st, finance.yahoo.com, Yahoo Finance, TradingView. The dominant theme is macro, with 816 macro items, 585 company items, 442 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (251), Fed/rates (185), oil/energy (133), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 409 positive, 180 negative, and 1323 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1881 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, Investing.com. The dominant theme is macro, with 833 macro items, 572 company items, 405 industry items, and 71 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (281), Fed/rates (214), oil/energy (104), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 362 positive, 176 negative, and 1343 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "JPMorgan Sees Fed on Hold as ‘Teflon Inflation’ Eases Concerns",
-      "summary": "JPMorgan Sees Fed on Hold as ‘Teflon Inflation’ Eases Concerns Bloomberg.com",
-      "impact_score": 85.8,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Hormuz closure squeezes global economy as oil demand destruction intensifies, IEA says",
-      "summary": "The IEA expects oil demand to fall by 1.6 million barrels a day in 2026 as high fuel prices and Strait of Hormuz disruptions weigh on consumption.",
-      "impact_score": 80.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Shares are mixed in Europe and Asia ahead of U.S. inflation report, while oil prices gain - BNN Bloomberg",
-      "summary": "Shares are mixed in Europe and Asia ahead of U.S. inflation report, while oil prices gain BNN Bloomberg",
-      "impact_score": 80.2,
+      "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction",
+      "summary": "Gold prices have been volatile in 2026, but a recent rally shows renewed investor interest amid tamer inflation data and changing Fed rate expectations.",
+      "impact_score": 82.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Higher oil, fall in Tata stocks drag Indian shares lower; inflation data in focus - Reuters",
-      "summary": "Higher oil, fall in Tata stocks drag Indian shares lower; inflation data in focus Reuters",
-      "impact_score": 79.4,
+      "title": "AI’s costly build-out complicates the Fed’s inflation fight",
+      "summary": "Tech leaders say AI will drive down costs. But slow corporate adoption and the data center build-out create inflation pressures that complicate the Fed’s job.",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Down as Oil Rises Ahead of Inflation Data - WSJ",
-      "summary": "U.S. Stocks Down as Oil Rises Ahead of Inflation Data WSJ",
-      "impact_score": 79.0,
+      "title": "Apple App Store Rate Proceeding Halted by Supreme Court for Now - Bloomberg.com",
+      "summary": "Apple App Store Rate Proceeding Halted by Supreme Court for Now Bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
-      "summary": "The CEO of the nation's largest single-family rental landlord said the new law banning large-scale investors from the market will lower prices in the long term.",
-      "impact_score": 78.3,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Wall St gains as AI earnings lift tech, inflation data supports rate-hold bets - Reuters",
-      "summary": "Wall St gains as AI earnings lift tech, inflation data supports rate-hold bets Reuters",
-      "impact_score": 78.1,
+      "title": "Oil dips on demand forecasts, global equities gain - Reuters",
+      "summary": "Oil dips on demand forecasts, global equities gain Reuters",
+      "impact_score": 80.5,
       "sentiment_score": 0.35
     },
     {
-      "title": "FTSE 100 subdued ahead of US inflation data, Balfour Beatty jumps to record high - Reuters",
-      "summary": "FTSE 100 subdued ahead of US inflation data, Balfour Beatty jumps to record high Reuters",
-      "impact_score": 78.1,
+      "title": "Wall Street flirts with a record after AI stocks jump and worries about inflation ease a bit - BNN Bloomberg",
+      "summary": "Wall Street flirts with a record after AI stocks jump and worries about inflation ease a bit BNN Bloomberg",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "New York City Council announces probe into prediction market platforms’ marketing strategies",
+      "summary": "In letters to four prediction market platforms, City Council Speaker Julie Menin said the council was also actively considering legislation to address concerns.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Exclusive | Apple in Talks to Pay Publishers to Improve AI-Powered Siri",
+      "summary": "Exclusive | Apple in Talks to Pay Publishers to Improve AI-Powered Siri WSJ",
+      "impact_score": 79.2,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap - Bloomberg.com",
+      "summary": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap Bloomberg.com",
+      "impact_score": 77.8,
       "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, oil/energy, Fed/rates, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, growth/jobs"
 }
