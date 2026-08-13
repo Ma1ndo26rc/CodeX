@@ -1,54 +1,54 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1888 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, Investing.com. The dominant theme is macro, with 817 macro items, 588 company items, 410 industry items, and 73 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (252), Fed/rates (203), oil/energy (127), growth/jobs (19). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 359 positive, 184 negative, and 1345 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1815 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, Seeking Alpha. The dominant theme is macro, with 803 macro items, 519 company items, 425 industry items, and 68 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (245), Fed/rates (201), oil/energy (158), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 352 positive, 194 negative, and 1269 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "US stocks tick toward records as oil prices drop and inflation gets less bad",
-      "summary": "US stocks tick toward records as oil prices drop and inflation gets less bad Oskaloosa Herald",
-      "impact_score": 81.2,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Global shares mostly rise after buying of AI-related shares and oil prices fall - BNN Bloomberg",
-      "summary": "Global shares mostly rise after buying of AI-related shares and oil prices fall BNN Bloomberg",
-      "impact_score": 81.1,
+      "title": "Stocks rise as traders reduce rate hike bets, oil prices drop - Reuters",
+      "summary": "Stocks rise as traders reduce rate hike bets, oil prices drop Reuters",
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap - Bloomberg.com",
-      "summary": "Asian Stocks Poised to Gain on Benign US Inflation: Markets Wrap Bloomberg.com",
-      "impact_score": 79.8,
-      "sentiment_score": 0.35
+      "title": "Traders Pare Bets on Fed Rate Hike This Year as Oil Prices Fall - Bloomberg.com",
+      "summary": "Traders Pare Bets on Fed Rate Hike This Year as Oil Prices Fall Bloomberg.com",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Wall Street edges near its record as AI stocks rise and worries about inflation ease a bit - BNN Bloomberg",
-      "summary": "Wall Street edges near its record as AI stocks rise and worries about inflation ease a bit BNN Bloomberg",
-      "impact_score": 79.8,
-      "sentiment_score": 0.35
+      "title": "Apple App Store Commission-Rate Proceedings Can Move Forward - Bloomberg.com",
+      "summary": "Apple App Store Commission-Rate Proceedings Can Move Forward Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices drop as investors weigh falling demand against Middle East tensions",
+      "title": "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day",
       "summary": "Oil futures retreated early Wednesday morning after prices rose overnight.",
-      "impact_score": 79.6,
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices drop as investors weigh falling demand against Middle East tensions - CNBC",
-      "summary": "Oil prices drop as investors weigh falling demand against Middle East tensions CNBC",
-      "impact_score": 79.6,
+      "title": "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day - CNBC",
+      "summary": "Oil prices fall after U.S. says crude exports through Strait of Hormuz near 9 million barrels per day CNBC",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Shipping giants warn ports and trucks could hold up deliveries and push up prices",
-      "summary": "Global shipping demand remains strong despite geopolitical turmoil, but port and trucking bottlenecks are increasing congestion and putting upward pressure on freight rates.",
-      "impact_score": 79.3,
-      "sentiment_score": 0.35
     },
     {
       "title": "Easing inflation pressures, Cerebras earnings, falling Hormuz traffic and more in Morning Squawk",
       "summary": "Here are five key things investors need to know to start the trading day.",
       "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Overnight | Probability of Fed Rate Hike in September Drops Below 40%; S&P 500 Hits Record High; SanDisk (SNDK.US) Surges Over 13%",
+      "summary": "U.S. Stocks Overnight | Probability of Fed Rate Hike in September Drops Below 40%; S&P 500 Hits Record High; SanDisk (SNDK.US) Surges Over 13% moomoo.com",
+      "impact_score": 79.2,
+      "sentiment_score": -0.15
+    },
+    {
+      "title": "US Equity Markets End Higher Amid Weak Producer Inflation Print, Drop in Crude Oil Prices - Yahoo Finance",
+      "summary": "US Equity Markets End Higher Amid Weak Producer Inflation Print, Drop in Crude Oil Prices Yahoo Finance",
+      "impact_score": 77.8,
       "sentiment_score": -0.35
     }
   ],
