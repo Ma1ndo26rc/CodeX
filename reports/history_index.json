@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-14T14:01:24.408219+00:00",
+  "generated_at": "2026-08-14T22:38:34.104543+00:00",
   "reports": [
+    {
+      "date": "2026-08-14",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-08-14T22:38:30.217738+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-08-14-close.json",
+      "dynamic_headline": "Fed/rates leads a constructive but selective completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is constructive but selective, based on 1910 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, AOL.com. The dominant theme is macro, with 792 macro items, 566 company items, 493 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 72.6
+    },
     {
       "date": "2026-08-14",
       "report_type": "premarket",
