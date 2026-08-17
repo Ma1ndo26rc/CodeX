@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-14T22:31:36.608748",
+  "as_of": "2026-08-17T13:22:33.255357",
   "items": [
     {
       "name": "SPY",
@@ -20,18 +20,18 @@
     {
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 14.25,
-      "change": -0.38,
-      "change_pct": -2.597,
-      "market_time": 1786738501
+      "price": 15.06,
+      "change": 0.81,
+      "change_pct": 5.684,
+      "market_time": 1786972051
     },
     {
       "name": "10Y Yield",
       "symbol": "^TNX",
-      "price": 4.696,
-      "change": 0.005,
-      "change_pct": 1.185,
-      "market_time": 1786733993
+      "price": 4.71,
+      "change": 0.001,
+      "change_pct": 0.298,
+      "market_time": 1786972042
     }
   ]
 }
