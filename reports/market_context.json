@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1910 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, AOL.com. The dominant theme is macro, with 792 macro items, 566 company items, 493 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (206), inflation (143), oil/energy (93), growth/jobs (34). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 367 positive, 232 negative, and 1311 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1839 articles from Yahoo Finance, marketbeat.com, simplywall.st, TradingView, Investing.com. The dominant theme is macro, with 776 macro items, 561 company items, 429 industry items, and 73 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (117), oil/energy (88), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 345 positive, 167 negative, and 1327 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia discloses $21bn stake in SpaceX",
-      "summary": "Nvidia discloses $21bn stake in SpaceX Financial Times",
-      "impact_score": 85.4,
+      "title": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal",
+      "summary": "Nvidia to invest $1.5 billion in SB Energy under OpenAI data center deal Reuters",
+      "impact_score": 91.8,
       "sentiment_score": 0.03
     },
     {
-      "title": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric",
-      "summary": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric Reuters",
-      "impact_score": 82.2,
+      "title": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation",
+      "summary": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation Reuters",
+      "impact_score": 89.7,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Oil prices rise as Iran rules out interim deal extension, threatens to escalate conflict",
+      "summary": "The U.S.-Iran deal was supposed to open the Strait of Hormuz while they negotiated a final deal on Tehran's nuclear program within 60 days.",
+      "impact_score": 85.0,
       "sentiment_score": 0.03
     },
     {
-      "title": "Oil prices rally, US data dents chances of Fed rate hike - Reuters",
-      "summary": "Oil prices rally, US data dents chances of Fed rate hike Reuters",
-      "impact_score": 82.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "EXCLUSIVE: Jane Street took $15 billion hit in July tied to Situational Awareness, AI selloff, sources say",
-      "summary": "EXCLUSIVE: Jane Street took $15 billion hit in July tied to Situational Awareness, AI selloff, sources say Reuters",
-      "impact_score": 81.5,
-      "sentiment_score": -0.36
-    },
-    {
-      "title": "10-year Treasury yield inches higher as traders digest soft retail sales, monitor the Middle East",
-      "summary": "The moves come after the latest retail sales figures missed expectations and the U.S. said its naval blockade of Iranian ports could continue \"indefinitely.\"",
-      "impact_score": 81.2,
+      "title": "Dollar Falls Sharply as Prospects Dim for Fed Rate Rise - WSJ",
+      "summary": "Dollar Falls Sharply as Prospects Dim for Fed Rate Rise WSJ",
+      "impact_score": 82.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains - Reuters",
-      "summary": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains Reuters",
+      "title": "Oil rises on Iran war stalemate; near-term potential for further gains seen limited - Reuters",
+      "summary": "Oil rises on Iran war stalemate; near-term potential for further gains seen limited Reuters",
       "impact_score": 81.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO",
-      "summary": "Luigi Mangione, who is accused of killing a UnitedHealthcare executive, pled guilty to federal stalking charges ahead of a high-profile state murder trial in New York set to begin next month.",
-      "impact_score": 80.1,
+      "title": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation - Reuters",
+      "summary": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation Reuters",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "S&P 500 notches record-high close as rate-hike worries ease - Reuters",
-      "summary": "S&P 500 notches record-high close as rate-hike worries ease Reuters",
-      "impact_score": 80.1,
-      "sentiment_score": 0.35
+      "title": "US 30-year Treasury yields, highest since 2007",
+      "summary": "US 30-year Treasury yields, highest since 2007 Crypto Briefing",
+      "impact_score": 80.5,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "'Don't get too comfortable': Wall Street’s ‘fear gauge’ hits 2026 low — here's why it's unlikely to last",
+      "summary": "A falling VIX points to growing investor complacency ahead of a traditionally turbulent time for markets, strategists warn.",
+      "impact_score": 79.5,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
