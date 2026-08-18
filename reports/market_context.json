@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1975 articles from Yahoo Finance, MarketBeat, simplywall.st, Stocktwits, tradingview.com. The dominant theme is macro, with 847 macro items, 612 company items, 452 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (303), oil/energy (158), inflation (144), growth/jobs (40). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 380 positive, 181 negative, and 1414 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1873 articles from Yahoo Finance, TradingView, Stocktwits, simplywall.st, MarketBeat. The dominant theme is macro, with 847 macro items, 560 company items, 401 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (284), oil/energy (130), inflation (118), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 276 positive, 195 negative, and 1402 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Stocks keep shrugging off rising Treasury yields. Here’s the level that could finally trigger a selloff.",
-      "summary": "The yield on the 10-year Treasury yield continues to climb, but our call of the day from Strategas says that ascent will be much higher before stocks start to hurt.",
-      "impact_score": 87.1,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "30-year Treasury yield tops 5.33%, new 19-year high on inflation, spending concerns",
-      "summary": "Tuesday saw yields on U.S. 30-year Treasury yields add over 1 basis point to trade at around 5.322%, hovering just below its highest level since 2002.",
-      "impact_score": 83.8,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation - Reuters",
-      "summary": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation Reuters",
+      "title": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation - reuters.com",
+      "summary": "Rate hikes may be a blunt tool, but they're all the Fed has to cool inflation reuters.com",
       "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock-Index Futures Drop as Bond Yields and Oil Prices Rise - Bloomberg.com",
-      "summary": "US Stock-Index Futures Drop as Bond Yields and Oil Prices Rise Bloomberg.com",
+      "title": "Meta rejects claims it sought to hook children to Facebook, Instagram as landmark trial begins",
+      "summary": "Meta rejects claims it sought to hook children to Facebook, Instagram as landmark trial begins reuters.com",
+      "impact_score": 82.5,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "US Stock-Index Futures Drop as Bond Yields, Oil Prices Rise - Bloomberg",
+      "summary": "US Stock-Index Futures Drop as Bond Yields, Oil Prices Rise Bloomberg",
       "impact_score": 81.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures extend losses amid US-Iran tensions as Treasury yields creep higher",
-      "summary": "Yahoo Finance reported: \"Stock market today: Dow, S&P 500, Nasdaq futures extend losses amid US-Iran tensions as Treasury yields creep higher\". The item is classified as macro news with negative sentiment, making it relevant for near-term positioning and sector watchlists.",
+      "title": "Tech selloff weighs down Wall Street as bond yields climb - reuters.com",
+      "summary": "Tech selloff weighs down Wall Street as bond yields climb reuters.com",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US stock market today: Nasdaq leads Wall Street lower as treasury yields surge - CNBC TV18",
+      "summary": "US stock market today: Nasdaq leads Wall Street lower as treasury yields surge CNBC TV18",
       "impact_score": 80.3,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Microsoft-Tied ‘Project Odyssey’ Bond Lures Buyers at Junk Yield - Bloomberg.com",
-      "summary": "Microsoft-Tied ‘Project Odyssey’ Bond Lures Buyers at Junk Yield Bloomberg.com",
-      "impact_score": 78.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Supreme Court again rejects Trump bid to overturn E. Jean Carroll verdict",
-      "summary": "President Trump was held civilly liable in the case by a New York federal jury for defaming and sexually abusing the writer E. Jean Carroll.",
-      "impact_score": 78.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Gold extends gains on easing rate-hike fears, markets await Fed minutes - CNBC",
-      "summary": "Gold extends gains on easing rate-hike fears, markets await Fed minutes CNBC",
-      "impact_score": 78.3,
+      "title": "AI, Electronics Firms Lead Stock Market Sell-Off; Is It Time To Deploy Cash Into Energy Firms?",
+      "summary": "AI, Electronics Firms Lead Stock Market Sell-Off; Is It Time To Deploy Cash Into Energy Firms? Investor's Business Daily",
+      "impact_score": 80.3,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Gold retreats as bond yields surge to highest levels in decades - CNBC",
+      "summary": "Gold retreats as bond yields surge to highest levels in decades CNBC",
+      "impact_score": 80.1,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "AI chip stocks were riding high. Here’s why Micron and others are now pulling back.",
+      "summary": "Analysts note high expectations, concerns about elevated Treasury yields and a potential letdown surrounding Anthropic’s financial progress,",
+      "impact_score": 79.8,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
