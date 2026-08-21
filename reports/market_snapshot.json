@@ -1,37 +1,37 @@
 {
-  "as_of": "2026-08-21T13:27:23.633150",
+  "as_of": "2026-08-21T22:32:56.111909",
   "items": [
     {
       "name": "SPY",
       "symbol": "SPY",
-      "price": 762.6,
-      "change": -4.85,
-      "change_pct": -0.632,
-      "market_time": 1787256000
+      "price": 765.72,
+      "change": -3.34,
+      "change_pct": -0.434,
+      "market_time": 1787342400
     },
     {
       "name": "QQQ",
       "symbol": "QQQ",
-      "price": 710.93,
-      "change": -6.58,
-      "change_pct": -0.917,
-      "market_time": 1787256000
+      "price": 713.44,
+      "change": -2.64,
+      "change_pct": -0.369,
+      "market_time": 1787342400
     },
     {
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 15.47,
-      "change": -0.54,
-      "change_pct": -3.373,
-      "market_time": 1787317936
+      "price": 15.13,
+      "change": -0.88,
+      "change_pct": -5.497,
+      "market_time": 1787343301
     },
     {
       "name": "10Y Yield",
       "symbol": "^TNX",
-      "price": 4.708,
-      "change": 0.001,
-      "change_pct": 0.256,
-      "market_time": 1787317934
+      "price": 4.738,
+      "change": 0.004,
+      "change_pct": 0.894,
+      "market_time": 1787338794
     }
   ]
 }
