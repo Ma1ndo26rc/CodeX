@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1908 articles from Yahoo Finance, MarketBeat, simplywall.st, Investing.com, TradingView. The dominant theme is macro, with 843 macro items, 567 company items, 439 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (311), oil/energy (119), inflation (108), growth/jobs (34). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 307 positive, 238 negative, and 1363 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1971 articles from MarketBeat, Yahoo Finance, simplywall.st, Stocktwits, AOL.com. The dominant theme is macro, with 895 macro items, 586 company items, 414 industry items, and 76 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (317), oil/energy (135), inflation (107), growth/jobs (42). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 402 positive, 228 negative, and 1341 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
-      "summary": "Bessent’s effort to tamp down long-term Treasury yields could force Warsh to clarify how far the Fed should go in coordinating on bonds and the balance sheet.",
-      "impact_score": 83.7,
+      "title": "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
+      "summary": "Gold is rebounding as investors weigh U.S. debt concerns, a weaker dollar and stubbornly high Treasury yields.",
+      "impact_score": 83.9,
       "sentiment_score": -0.16
     },
     {
-      "title": "Investors cut bets on US and UK interest rate rises - Financial Times",
-      "summary": "Investors cut bets on US and UK interest rate rises Financial Times",
-      "impact_score": 82.1,
+      "title": "Warsh faces Fed independence test as Bessent moves in on central bank's turf",
+      "summary": "Bessent’s effort to tamp down long-term Treasury yields could force Warsh to clarify how far the Fed should go in coordinating on bonds and the balance sheet.",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stock Market Suffers As Trump's 'Economic D-Day' Threat To Iran Pushes Oil Prices, Treasury Yields Higher",
-      "summary": "Stock Market Suffers As Trump's 'Economic D-Day' Threat To Iran Pushes Oil Prices, Treasury Yields Higher Investor's Business Daily",
-      "impact_score": 81.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps - Bloomberg",
-      "summary": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps Bloomberg",
+      "title": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps - Bloomberg.com",
+      "summary": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps Bloomberg.com",
       "impact_score": 81.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stock Market Today: Futures Little Changed After Major Indexes Snap 3-Day Skids; Oil Prices, Treasury Yields, Bitcoin Rise; Walmart Stock Drops - Yahoo Finance",
-      "summary": "Stock Market Today: Futures Little Changed After Major Indexes Snap 3-Day Skids; Oil Prices, Treasury Yields, Bitcoin Rise; Walmart Stock Drops Yahoo Finance",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Bond relief ebbs, stocks fall as investors question Treasury's rescue efforts - Reuters",
-      "summary": "Bond relief ebbs, stocks fall as investors question Treasury's rescue efforts Reuters",
-      "impact_score": 79.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "If rising rates were enough to end a bull market, we’d have entered a bear market long ago",
-      "summary": "The “Fed Model” has turned bearish — how much should you care?",
-      "impact_score": 77.8,
-      "sentiment_score": -0.35
+      "title": "Longer-dated Treasury yields hold steady after Bessent's bond buyback rally fizzles out - CNBC",
+      "summary": "Longer-dated Treasury yields hold steady after Bessent's bond buyback rally fizzles out CNBC",
+      "impact_score": 80.3,
+      "sentiment_score": 0.35
     },
     {
       "title": "Dow drops 350 points as Treasury yields rise, Walmart stock falls - Yahoo Finance",
       "summary": "Dow drops 350 points as Treasury yields rise, Walmart stock falls Yahoo Finance",
-      "impact_score": 77.4,
+      "impact_score": 79.4,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Japan headline inflation rate hits highest this year as energy prices bite",
+      "summary": "Core inflation — which strips out prices of fresh food but includes energy — was in line with expectations, coming in at 1.8%.",
+      "impact_score": 78.7,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "Nvidia is in talks to invest in clean-energy data center power developer Cloverleaf Infrastructure",
+      "summary": "Nvidia is in talks to invest in clean-energy data center power developer Cloverleaf Infrastructure qz.com",
+      "impact_score": 78.6,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Stocks and Bonds Rise as Oil Halts Run of Gains: Markets Wrap - Bloomberg.com",
+      "summary": "Stocks and Bonds Rise as Oil Halts Run of Gains: Markets Wrap Bloomberg.com",
+      "impact_score": 78.2,
+      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
