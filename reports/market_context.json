@@ -1,18 +1,12 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1885 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, AOL.com. The dominant theme is macro, with 767 macro items, 598 company items, 453 industry items, and 67 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (240), inflation (123), oil/energy (98), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 261 positive, 253 negative, and 1371 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1901 articles from Yahoo Finance, Stocktwits, MarketBeat, TradingView, simplywall.st. The dominant theme is macro, with 710 macro items, 662 company items, 465 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (193), inflation (127), oil/energy (120), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 323 positive, 206 negative, and 1372 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves",
-      "summary": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves Yahoo Finance",
-      "impact_score": 86.2,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Shares dip with pressure from technology, yields and oil fall - Reuters",
-      "summary": "Shares dip with pressure from technology, yields and oil fall Reuters",
-      "impact_score": 81.4,
+      "title": "The debt-fueled AI build-out may already be too big to fail",
+      "summary": "The Federal Reserve’s pandemic corporate credit facilities have capped downside risks and remain part of its tool kit, says BofA Global",
+      "impact_score": 81.8,
       "sentiment_score": -0.35
     },
     {
@@ -28,16 +22,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Shares dip on pressure from technology; yields and oil fall - Yahoo Finance",
-      "summary": "Shares dip on pressure from technology; yields and oil fall Yahoo Finance",
-      "impact_score": 79.4,
+      "title": "Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war - CNBC",
+      "summary": "Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war CNBC",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Trump’s oil and gas stocks gained up to $15.5 million amid Iran war, congressional Democrats say",
-      "summary": "Trump’s stock trading could face heightened congressional scrutiny if Democrats retake either chamber in the midterms.",
-      "impact_score": 79.3,
-      "sentiment_score": 0.35
+      "title": "Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war",
+      "summary": "Investors shrugged off the latest developments in the U.S.-Iran war.",
+      "impact_score": 80.2,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Oil stocks in US Strategic Petroleum Reserve fall by 3.7 million barrels to lowest level since 1982 - Reuters",
+      "summary": "Oil stocks in US Strategic Petroleum Reserve fall by 3.7 million barrels to lowest level since 1982 Reuters",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
     },
     {
       "title": "Mark Walter's TWG Global hires Goldman veteran Markowitz as top lawyer amid probe of insurers",
@@ -46,11 +46,11 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Santoli: Why all the fuss about bond yields is happening now",
-      "summary": "The textbooks say the cycle high in real yields should act as a restraint on economic growth and equity valuations.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
+      "title": "Treasury yields fall as traders await more economic data - CNBC",
+      "summary": "Treasury yields fall as traders await more economic data CNBC",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
