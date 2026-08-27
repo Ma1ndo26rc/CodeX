@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1889 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, 24/7 Wall St.. The dominant theme is macro, with 920 macro items, 546 company items, 366 industry items, and 57 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (266), inflation (197), oil/energy (128), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 309 positive, 220 negative, and 1360 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1874 articles from Yahoo Finance, MarketBeat, Stocktwits, simplywall.st, 24/7 Wall St.. The dominant theme is macro, with 820 macro items, 603 company items, 395 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (240), inflation (122), oil/energy (94), tariffs/policy (42). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 349 positive, 162 negative, and 1363 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Asian stocks rise for third day as Nvidia beats",
-      "summary": "Asian stocks rise for third day as Nvidia beats Reuters",
-      "impact_score": 87.8,
-      "sentiment_score": 0.09
+      "title": "Stock Market Today, Aug. 27: Tech Strength Powers Nasdaq Higher as Nvidia Leads Rally",
+      "summary": "Stock Market Today, Aug. 27: Tech Strength Powers Nasdaq Higher as Nvidia Leads Rally Yahoo Finance",
+      "impact_score": 84.4,
+      "sentiment_score": 0.22
     },
     {
-      "title": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
-      "summary": "The Bank of Korea hiked rates by 25 basis points to 3%, its highest since January 2025 and in line with expectations.",
-      "impact_score": 87.4,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Nvidia Just Doubled Its Sales, but Who Sold Over $400 Million of Its Stock the Month Before?",
-      "summary": "Nvidia Just Doubled Its Sales, but Who Sold Over $400 Million of Its Stock the Month Before? Yahoo Finance",
-      "impact_score": 83.2,
-      "sentiment_score": 0.09
-    },
-    {
-      "title": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening - WSJ",
-      "summary": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening WSJ",
-      "impact_score": 81.6,
+      "title": "What Warsh will say and how the market will react, according to prediction markets",
+      "summary": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Lawyer for Fed's Cook, targeted by Trump, says there are no grounds for dismissal - Reuters",
-      "summary": "Lawyer for Fed's Cook, targeted by Trump, says there are no grounds for dismissal Reuters",
-      "impact_score": 81.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "U.S. Stocks Tick Down as Traders Weigh Inflation Data - WSJ",
-      "summary": "U.S. Stocks Tick Down as Traders Weigh Inflation Data WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed Gov Lisa Cook’s lawyer fires back at Trump's renewed threat to oust her",
-      "summary": "The Supreme Court in late June blocked Trump from firing Cook from the Federal Reserve, but left the president with a path to try again to remove her.",
-      "impact_score": 78.8,
+      "title": "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
+      "summary": "OPEC+ loses oil market sway in Iran war as China gains influence Reuters",
+      "impact_score": 81.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz - Yahoo Finance",
-      "summary": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz Yahoo Finance",
-      "impact_score": 78.4,
-      "sentiment_score": -0.35
+      "title": "Stock indexes gain as Nvidia boost offsets caution on Middle East, Fed events - Reuters",
+      "summary": "Stock indexes gain as Nvidia boost offsets caution on Middle East, Fed events Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Dow Jones Futures: Market Rallies Into Fed Chief Warsh; Nvidia Jumps, But This Sector Is On Fire",
+      "summary": "Dow Jones Futures: Market Rallies Into Fed Chief Warsh; Nvidia Jumps, But This Sector Is On Fire Investor's Business Daily",
+      "impact_score": 79.5,
+      "sentiment_score": 0.21
+    },
+    {
+      "title": "Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives",
+      "summary": "CNBC’s Jim Cramer said strong earnings from Nvidia and Salesforce shattered two major bear cases that had weighed on the tech stocks.",
+      "impact_score": 78.0,
+      "sentiment_score": 0.27
+    },
+    {
+      "title": "Nvidia beats forecasts with US$96.2 billion revenue as AI demand accelerates - Yahoo Finance Australia",
+      "summary": "Nvidia beats forecasts with US$96.2 billion revenue as AI demand accelerates Yahoo Finance Australia",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Triviarate's Adam Parker talks the rally in semiconductors - CNBC",
+      "summary": "Triviarate's Adam Parker talks the rally in semiconductors CNBC",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
