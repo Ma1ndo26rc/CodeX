@@ -1,56 +1,56 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1902 articles from Yahoo Finance, MarketBeat, Stocktwits, AOL.com, TradingView. The dominant theme is macro, with 795 macro items, 604 company items, 451 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (231), inflation (182), oil/energy (146), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 323 positive, 222 negative, and 1357 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1889 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, 24/7 Wall St.. The dominant theme is macro, with 920 macro items, 546 company items, 366 industry items, and 57 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (266), inflation (197), oil/energy (128), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 309 positive, 220 negative, and 1360 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says - Yahoo Finance",
-      "summary": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says Yahoo Finance",
-      "impact_score": 82.7,
+      "title": "Asian stocks rise for third day as Nvidia beats",
+      "summary": "Asian stocks rise for third day as Nvidia beats Reuters",
+      "impact_score": 87.8,
+      "sentiment_score": 0.09
+    },
+    {
+      "title": "Bank of Korea delivers back-to-back rate hikes as core inflation stays elevated",
+      "summary": "The Bank of Korea hiked rates by 25 basis points to 3%, its highest since January 2025 and in line with expectations.",
+      "impact_score": 87.4,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Nvidia Just Doubled Its Sales, but Who Sold Over $400 Million of Its Stock the Month Before?",
+      "summary": "Nvidia Just Doubled Its Sales, but Who Sold Over $400 Million of Its Stock the Month Before? Yahoo Finance",
+      "impact_score": 83.2,
+      "sentiment_score": 0.09
+    },
+    {
+      "title": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening - WSJ",
+      "summary": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening WSJ",
+      "impact_score": 81.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.",
-      "summary": "The main inflation gauge used by the Federal Reserve to set U.S. interest rates rose at an elevated rate in July, potentially pushing the Federal Reserve closer to a vote to raise interest rates next month.",
-      "impact_score": 80.9,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Stocks Fall and Bond Yields Rise on Inflation Data: Markets Wrap - Bloomberg.com",
-      "summary": "Stocks Fall and Bond Yields Rise on Inflation Data: Markets Wrap Bloomberg.com",
-      "impact_score": 80.7,
+      "title": "Lawyer for Fed's Cook, targeted by Trump, says there are no grounds for dismissal - Reuters",
+      "summary": "Lawyer for Fed's Cook, targeted by Trump, says there are no grounds for dismissal Reuters",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Abercrombie & Fitch Q2 2026 earnings beat on tariff refunds",
-      "summary": "Yahoo Finance reported: \"Abercrombie & Fitch Q2 2026 earnings beat on tariff refunds\". The item is classified as macro news with positive sentiment, making it relevant for near-term positioning and sector watchlists.",
-      "impact_score": 79.5,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Mortgage rates hit highest level in 3 weeks, weakening demand further",
-      "summary": "Mortgage rates rose again last week causing demand for both refinances and purchase loans to drop. Rates climbed to their highest level in three weeks.",
-      "impact_score": 79.2,
+      "title": "U.S. Stocks Tick Down as Traders Weigh Inflation Data - WSJ",
+      "summary": "U.S. Stocks Tick Down as Traders Weigh Inflation Data WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "There’s so much betting against long-term bonds that a turnaround could catch investors off guard, says Citadel Securities",
-      "summary": "Citadel Securities’ strategist Frank Flight says a bet that appears to be one-sided against long-term bonds could be setting up for a painful unwind.",
-      "impact_score": 79.2,
+      "title": "Fed Gov Lisa Cook’s lawyer fires back at Trump's renewed threat to oust her",
+      "summary": "The Supreme Court in late June blocked Trump from firing Cook from the Federal Reserve, but left the president with a path to try again to remove her.",
+      "impact_score": 78.8,
       "sentiment_score": 0.35
     },
     {
-      "title": "Meta, States Agree to Settle Teen Social Media Harm Case",
-      "summary": "Meta, States Agree to Settle Teen Social Media Harm Case Bloomberg.com",
-      "impact_score": 78.2,
-      "sentiment_score": -0.04
-    },
-    {
-      "title": "Equities rise with tech boost and yields fall with oil prices - Yahoo Finance",
-      "summary": "Equities rise with tech boost and yields fall with oil prices Yahoo Finance",
-      "impact_score": 77.8,
+      "title": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz - Yahoo Finance",
+      "summary": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz Yahoo Finance",
+      "impact_score": 78.4,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
