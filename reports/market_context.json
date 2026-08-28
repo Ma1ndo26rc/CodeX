@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1856 articles from Yahoo Finance, simplywall.st, Moomoo, MarketBeat, Stocktwits. The dominant theme is macro, with 809 macro items, 589 company items, 402 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (235), inflation (102), oil/energy (89), tariffs/policy (34). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 318 positive, 169 negative, and 1369 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1844 articles from Yahoo Finance, MarketBeat, simplywall.st, Stocktwits, 24/7 Wall St.. The dominant theme is macro, with 832 macro items, 551 company items, 379 industry items, and 82 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (255), inflation (155), oil/energy (82), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 320 positive, 198 negative, and 1326 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Ex-RBI Chief Rajan Says Fed Should Raise Rates to Curb Inflation",
-      "summary": "Ex-RBI Chief Rajan Says Fed Should Raise Rates to Curb Inflation Bloomberg.com",
-      "impact_score": 85.5,
+      "title": "Warsh’s Inflation Warning Sets Up September Showdown for the Fed",
+      "summary": "Warsh’s Inflation Warning Sets Up September Showdown for the Fed Bloomberg.com",
+      "impact_score": 85.6,
       "sentiment_score": -0.25
     },
     {
-      "title": "Trump’s Greenland fixation puts security at the heart of Iceland’s knife-edge EU vote",
-      "summary": "Trump’s push to acquire Greenland and growing uncertainty over U.S. security commitments have added a geopolitical dimension to Iceland’s EU debate.",
-      "impact_score": 80.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Six months into the Iran war: Markets become accustomed to stalemate with no end in sight",
-      "summary": "The war has far exceeded the four to six weeks the Trump administration estimated it would take to meet its objectives in Iran.",
-      "impact_score": 79.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "What Warsh will say and how the market will react, according to prediction markets",
-      "summary": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
-      "impact_score": 79.2,
+      "title": "Warsh’s Inflation Warning Sets Up September Showdown for the Fed - Bloomberg.com",
+      "summary": "Warsh’s Inflation Warning Sets Up September Showdown for the Fed Bloomberg.com",
+      "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold slips as Fed chief Warsh's Jackson Hole speech looms - CNBC",
-      "summary": "Gold slips as Fed chief Warsh's Jackson Hole speech looms CNBC",
-      "impact_score": 79.2,
+      "title": "Hawkish Kevin Warsh hints Fed will raise rates if inflation does not fall soon - Financial Times",
+      "summary": "Hawkish Kevin Warsh hints Fed will raise rates if inflation does not fall soon Financial Times",
+      "impact_score": 82.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "OPEC+ loses oil market sway in Iran war as China gains influence - Reuters",
-      "summary": "OPEC+ loses oil market sway in Iran war as China gains influence Reuters",
-      "impact_score": 79.1,
+      "title": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields - WSJ",
+      "summary": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Trump to Discuss High Fuel Prices With Oil Refiners Next Week",
+      "summary": "Trump to Discuss High Fuel Prices With Oil Refiners Next Week Bloomberg.com",
+      "impact_score": 80.6,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "US corporate profits surge to record as worker payouts wilt - Financial Times",
+      "summary": "US corporate profits surge to record as worker payouts wilt Financial Times",
+      "impact_score": 79.2,
       "sentiment_score": 0.35
     },
     {
-      "title": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges - WSJ",
-      "summary": "U.S. Stocks Up as Treasury Buybacks Calm Bond Yields; Moderna Surges WSJ",
-      "impact_score": 77.7,
-      "sentiment_score": 0.35
+      "title": "U.S. Stock Market Close | Waller’s hawkish remarks fuel rate hike expectations, weighing on the three major indices which closed lower; chip stocks retreated, with NVIDIA falling over 4%; two-year U.S. Treasury yields surged sharply, while gold plunged 3%",
+      "summary": "U.S. Stock Market Close | Waller’s hawkish remarks fuel rate hike expectations, weighing on the three major indices which closed lower; chip stocks retreated, with NVIDIA falling over 4%; two-year U.S. Treasury yields surged sharply, while gold plunged 3% 富途牛牛",
+      "impact_score": 79.2,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Oil prices began to fall despite tensions in U.S.-Iran relations",
-      "summary": "Oil prices began to fall despite tensions in U.S.-Iran relations UA.NEWS",
-      "impact_score": 76.7,
-      "sentiment_score": -0.16
+      "title": "Indian shares post weekly loss as Fed jitters, closing auction weigh - Reuters",
+      "summary": "Indian shares post weekly loss as Fed jitters, closing auction weigh Reuters",
+      "impact_score": 79.0,
+      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
