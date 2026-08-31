@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 42 articles from CNBC Markets, MarketWatch, Yahoo Finance, CNBC Business. The dominant theme is macro, with 18 macro items, 7 company items, 13 industry items, and 4 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (6), inflation (4), oil/energy (2), tariffs/policy (1). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 9 positive, 3 negative, and 30 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1872 articles from MarketBeat, Yahoo Finance, 24/7 Wall St., Stocktwits, TradingView. The dominant theme is macro, with 853 macro items, 554 company items, 393 industry items, and 72 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (255), oil/energy (179), inflation (168), growth/jobs (48). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 354 positive, 233 negative, and 1285 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Analysis: Kevin Warsh sharpens inflation warning at Jackson Hole, signaling possible rate hike",
-      "summary": "After confusing markets at his July news conference, Fed Chairman Kevin Warsh used Jackson Hole to give a clearer view of the case for higher interest rates.",
-      "impact_score": 85.0,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
-      "summary": "Investors assessed Federal Reserve Chair Kevin Warsh's hawkish message in his keynote address at Jackson Hole.",
-      "impact_score": 82.0,
-      "sentiment_score": -0.15
-    },
-    {
-      "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
-      "summary": "Kevin Warsh passed another big test as a new Federal Reserve chairman on Friday: He said the central bank still has work to do on inflation, and the bond market took him at his word.",
-      "impact_score": 81.7,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
-      "summary": "He used the speech to outline his philosophy on policymaking while carefully sidestepping any signals",
-      "impact_score": 81.0,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Treasury moves to sanction UAE branch of Egyptian bank over Iran ties",
-      "summary": "Banque Misr UAE processed about $1.8 billion over two years for some 100 companies that are potentially part of Iran's shadow banking network, Treasury said.",
-      "impact_score": 77.8,
-      "sentiment_score": -0.4
-    },
-    {
-      "title": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
-      "summary": "The U.S. struck a deal with Venezuela to get majority control of more than 65 billion barrels of oil reserves, Trump said in a social media post.",
-      "impact_score": 77.7,
+      "title": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
+      "summary": "President Donald Trump announced Friday that the U.S. secured majority control over 65 billion barrels of Venezuela's proven oil reserves.",
+      "impact_score": 83.6,
       "sentiment_score": 0.03
     },
     {
-      "title": "Bessent attacks Warren over yen intervention query, offers ‘Foreign Exchange for Dummies’ lesson",
-      "summary": "Treasury has not disclosed how much yen it bought, the execution rate or the current value of the position, despite Warren’s requests for details.",
-      "impact_score": 77.2,
+      "title": "Amazon Stock Dinged by Report FTC Plans to Sue Over Advertising Prices",
+      "summary": "Amazon Stock Dinged by Report FTC Plans to Sue Over Advertising Prices Barron's",
+      "impact_score": 82.3,
+      "sentiment_score": -0.17
+    },
+    {
+      "title": "Mapping the Market: US 10-year Treasury yields eye further gains - Reuters",
+      "summary": "Mapping the Market: US 10-year Treasury yields eye further gains Reuters",
+      "impact_score": 82.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz - bnnbloomberg.ca",
+      "summary": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz bnnbloomberg.ca",
+      "impact_score": 81.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Iran calls for global pushback against U.S. sanctions, says diplomacy 'isn't impossible'",
-      "summary": "Iran said the conflict in the Gaza Strip has to end, Israel has to withdraw from Lebanon and also halt its attacks on Syria.",
-      "impact_score": 76.4,
-      "sentiment_score": -0.4
+      "title": "The 10-year Treasury yield is breaking out and 5% could be just the beginning. Here’s why that matters.",
+      "summary": "There’s a lot more to the rising trend in interest rates than just the Federal Reserve’s fight against stubborn inflation.",
+      "impact_score": 80.9,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz",
+      "summary": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz AP News",
+      "impact_score": 80.7,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Fed's Warsh says past global savings glut is turning into investment surge - Reuters",
+      "summary": "Fed's Warsh says past global savings glut is turning into investment surge Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Meta Beats Claims It Stole Startup’s Plan for Tag-Based Shopping - Bloomberg Law News",
+      "summary": "Meta Beats Claims It Stole Startup’s Plan for Tag-Based Shopping Bloomberg Law News",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, tariffs/policy"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
