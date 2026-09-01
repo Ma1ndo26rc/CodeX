@@ -1,19 +1,19 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1872 articles from MarketBeat, Yahoo Finance, 24/7 Wall St., Stocktwits, TradingView. The dominant theme is macro, with 853 macro items, 554 company items, 393 industry items, and 72 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (255), oil/energy (179), inflation (168), growth/jobs (48). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 354 positive, 233 negative, and 1285 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1865 articles from Yahoo Finance, MarketBeat, 24/7 Wall St., Investing.com, Seeking Alpha. The dominant theme is macro, with 826 macro items, 550 company items, 405 industry items, and 84 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (256), oil/energy (187), inflation (167), growth/jobs (37). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 324 positive, 249 negative, and 1292 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Trump announced a massive oil deal with Venezuela. Why it won't lower gas prices anytime soon",
-      "summary": "President Donald Trump announced Friday that the U.S. secured majority control over 65 billion barrels of Venezuela's proven oil reserves.",
-      "impact_score": 83.6,
+      "title": "MediaTek Shares Soar 10% After Blockbuster Nvidia Investment",
+      "summary": "MediaTek Shares Soar 10% After Blockbuster Nvidia Investment Bloomberg.com",
+      "impact_score": 87.6,
       "sentiment_score": 0.03
     },
     {
-      "title": "Amazon Stock Dinged by Report FTC Plans to Sue Over Advertising Prices",
-      "summary": "Amazon Stock Dinged by Report FTC Plans to Sue Over Advertising Prices Barron's",
-      "impact_score": 82.3,
-      "sentiment_score": -0.17
+      "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
+      "summary": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks Reuters",
+      "impact_score": 85.7,
+      "sentiment_score": -0.45
     },
     {
       "title": "Mapping the Market: US 10-year Treasury yields eye further gains - Reuters",
@@ -22,35 +22,35 @@
       "sentiment_score": 0.35
     },
     {
-      "title": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz - bnnbloomberg.ca",
-      "summary": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz bnnbloomberg.ca",
+      "title": "Asian Stocks to Fall as Iran Flare-Up Boosts Oil: Markets Wrap",
+      "summary": "Asian Stocks to Fall as Iran Flare-Up Boosts Oil: Markets Wrap Bloomberg.com",
+      "impact_score": 82.0,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz - BNN Bloomberg",
+      "summary": "Oil prices rise and stocks fall after U.S. hits Iranian sites in the Strait of Hormuz BNN Bloomberg",
       "impact_score": 81.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "The 10-year Treasury yield is breaking out and 5% could be just the beginning. Here’s why that matters.",
-      "summary": "There’s a lot more to the rising trend in interest rates than just the Federal Reserve’s fight against stubborn inflation.",
-      "impact_score": 80.9,
+      "title": "U.S. Stocks Fall as Iran War Inflation Heats Up - WSJ",
+      "summary": "U.S. Stocks Fall as Iran War Inflation Heats Up WSJ",
+      "impact_score": 81.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Yields rise, stocks ease, with oil gaining as US and Iran resume military attacks - Reuters",
+      "summary": "Yields rise, stocks ease, with oil gaining as US and Iran resume military attacks Reuters",
+      "impact_score": 81.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz",
-      "summary": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz AP News",
-      "impact_score": 80.7,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Fed's Warsh says past global savings glut is turning into investment surge - Reuters",
-      "summary": "Fed's Warsh says past global savings glut is turning into investment surge Reuters",
-      "impact_score": 80.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Meta Beats Claims It Stole Startup’s Plan for Tag-Based Shopping - Bloomberg Law News",
-      "summary": "Meta Beats Claims It Stole Startup’s Plan for Tag-Based Shopping Bloomberg Law News",
-      "impact_score": 80.1,
+      "title": "Wall Street closes lower as oil prices jump, indexes notch monthly gains - Reuters",
+      "summary": "Wall Street closes lower as oil prices jump, indexes notch monthly gains Reuters",
+      "impact_score": 80.5,
       "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
