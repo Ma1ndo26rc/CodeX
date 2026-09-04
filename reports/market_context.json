@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1845 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, fool.com. The dominant theme is macro, with 830 macro items, 511 company items, 448 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (293), inflation (149), oil/energy (96), growth/jobs (39). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 313 positive, 153 negative, and 1379 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1909 articles from Yahoo Finance, simplywall.st, MarketBeat, TradingView, Moomoo. The dominant theme is macro, with 923 macro items, 483 company items, 425 industry items, and 78 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (324), growth/jobs (146), inflation (114), oil/energy (75). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 335 positive, 211 negative, and 1363 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury yields fall after top Fed official signals support for rate hold - Financial Times",
-      "summary": "Treasury yields fall after top Fed official signals support for rate hold Financial Times",
-      "impact_score": 82.1,
+      "title": "Trump tells Fed to slash rates or he'll end trade with countries with U.S. surpluses",
+      "summary": "President Donald Trump demanded that the Fed slash interest rates or else he will cut off trade with countries with which the U.S. maintains trade deficits.",
+      "impact_score": 88.7,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Trump says if the Fed doesn't cut rates, he'll stop trading with some nations - reuters.com",
+      "summary": "Trump says if the Fed doesn't cut rates, he'll stop trading with some nations reuters.com",
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury yields fall after Fed's Waller signals support for no rate hike - CNBC",
-      "summary": "Treasury yields fall after Fed's Waller signals support for no rate hike CNBC",
-      "impact_score": 82.1,
+      "title": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+      "summary": "Long-term Treasury yields are being held up by Trump-era policy risk, heavy government borrowing and AI-driven corporate debt.",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Bond yields ease, stocks rally following Fed governor Waller comments - Reuters",
-      "summary": "Bond yields ease, stocks rally following Fed governor Waller comments Reuters",
-      "impact_score": 82.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Stocks, Bonds Rally After Dovish Fed Comments - WSJ",
-      "summary": "Stocks, Bonds Rally After Dovish Fed Comments WSJ",
-      "impact_score": 82.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Tesla Has a Cybercab Event. The Stock Needs More Than Demo Rides.",
-      "summary": "Tesla Has a Cybercab Event. The Stock Needs More Than Demo Rides. Barron's",
-      "impact_score": 81.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening - WSJ",
-      "summary": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening WSJ",
-      "impact_score": 79.6,
+      "title": "World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings",
+      "summary": "Norway's $2.3 trillion investment fund says it can diversify into new areas with greater risk and returns.",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices little changed after Iran fires missiles at Kuwait - CNBC",
-      "summary": "Oil prices little changed after Iran fires missiles at Kuwait CNBC",
-      "impact_score": 78.2,
+      "title": "Norway's $2 trillion sovereign fund proposes deep cuts to US Treasury holdings - reuters.com",
+      "summary": "Norway's $2 trillion sovereign fund proposes deep cuts to US Treasury holdings reuters.com",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Watch What's Behind the Big Surge in US Government Bond Yields - Bloomberg.com",
-      "summary": "Watch What's Behind the Big Surge in US Government Bond Yields Bloomberg.com",
-      "impact_score": 77.8,
-      "sentiment_score": 0.35
+      "title": "US opens probe into Tesla Cybercab compliance with federal safety rules - reuters.com",
+      "summary": "US opens probe into Tesla Cybercab compliance with federal safety rules reuters.com",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap - Bloomberg.com",
+      "summary": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields - WSJ",
+      "summary": "U.S. Stocks Fall After Warsh Speech Boosts Bond Yields WSJ",
+      "impact_score": 79.0,
+      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, growth/jobs, oil/energy, inflation"
 }

@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-09-04T00:07:33.651691+00:00",
+  "generated_at": "2026-09-04T16:36:14.665187+00:00",
   "reports": [
+    {
+      "date": "2026-09-04",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-09-04T16:36:10.586855+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-09-04-premarket.json",
+      "dynamic_headline": "Fed/rates leads a constructive but selective pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is constructive but selective, based on 1909 articles from Yahoo Finance, simplywall.st, MarketBeat, TradingView, Moomoo. The dominant theme is macro, with 923 macro items, 483 company items, 425 industry items, and 78 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 74.2
+    },
     {
       "date": "2026-09-04",
       "report_type": "close",
