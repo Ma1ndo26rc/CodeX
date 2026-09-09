@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-09-08T16:51:02.425522+00:00",
+  "generated_at": "2026-09-09T00:11:48.542839+00:00",
   "reports": [
+    {
+      "date": "2026-09-09",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-09-09T00:11:44.837956+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-09-09-close.json",
+      "dynamic_headline": "oil/energy leads a constructive but selective completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is constructive but selective, based on 1816 articles from finance.yahoo.com, MarketBeat, simplywall.st, TradingView, Moomoo. The dominant theme is macro, with 797 macro items, 528 company items, 423 industry items, and 68 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.4
+    },
     {
       "date": "2026-09-08",
       "report_type": "premarket",
