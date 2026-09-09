@@ -1,13 +1,13 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1816 articles from finance.yahoo.com, MarketBeat, simplywall.st, TradingView, Moomoo. The dominant theme is macro, with 797 macro items, 528 company items, 423 industry items, and 68 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (202), oil/energy (173), inflation (165), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 297 positive, 221 negative, and 1298 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1874 articles from Yahoo Finance, simplywall.st, MarketBeat, TradingView, Moomoo. The dominant theme is macro, with 811 macro items, 553 company items, 441 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (237), oil/energy (193), inflation (152), growth/jobs (22). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 285 positive, 226 negative, and 1363 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "U.S. Stocks Fall as Iran War Inflation Heats Up - WSJ",
-      "summary": "U.S. Stocks Fall as Iran War Inflation Heats Up WSJ",
-      "impact_score": 81.6,
-      "sentiment_score": -0.35
+      "title": "Oil Just Broke $100 a Barrel. Is a Fed Rate Hike Now Guaranteed Next Week?",
+      "summary": "",
+      "impact_score": 85.2,
+      "sentiment_score": -0.55
     },
     {
       "title": "Why the Fed's interest rate call could come down to a few hundredths of a percentage point - CNBC",
@@ -16,40 +16,40 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "10-year Treasury yield briefly ticks back above 4.8% as oil prices rise - CNBC",
-      "summary": "10-year Treasury yield briefly ticks back above 4.8% as oil prices rise CNBC",
+      "title": "Meta's New AI Agent Just Gave Wall Street Something It Wanted",
+      "summary": "Meta's New AI Agent Just Gave Wall Street Something It Wanted Yahoo Finance",
       "impact_score": 81.2,
+      "sentiment_score": 0.17
+    },
+    {
+      "title": "Treasuries Weaken as Rising Oil Prices Boost Rate-Hike Bets - Bloomberg.com",
+      "summary": "Treasuries Weaken as Rising Oil Prices Boost Rate-Hike Bets Bloomberg.com",
+      "impact_score": 81.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
-      "summary": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
-      "impact_score": 80.1,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Wall Street down, oil up as inflation, Middle East worries persist - Reuters",
-      "summary": "Wall Street down, oil up as inflation, Middle East worries persist Reuters",
-      "impact_score": 79.4,
+      "title": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 - WSJ",
+      "summary": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 WSJ",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "RBC says this fast casual stock down 50% from its highs is set to rise - CNBC",
-      "summary": "RBC says this fast casual stock down 50% from its highs is set to rise CNBC",
-      "impact_score": 79.2,
+      "title": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 - Yahoo Finance",
+      "summary": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 Yahoo Finance",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stocks Slip as Oil Pares Gains - WSJ",
-      "summary": "Stocks Slip as Oil Pares Gains WSJ",
-      "impact_score": 78.0,
+      "title": "Demand for riskier mortgages rises again, along with interest rates",
+      "summary": "Mortgage rates continue to climb, so more borrowers are turning to adjustable rate mortgages, which offer lower interest rates comparatively.",
+      "impact_score": 80.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Oil prices add to two-month highs after U.S. destroys five Iranian oil tankers (USO:NYSEARCA)",
-      "summary": "Oil prices add to two-month highs after U.S. destroys five Iranian oil tankers (USO:NYSEARCA) Seeking Alpha",
-      "impact_score": 77.6,
-      "sentiment_score": 0.03
+      "title": "Dow Jones sheds 300 points as oil surge revives inflation, Fed hike bets climb - CNBC TV18",
+      "summary": "Dow Jones sheds 300 points as oil surge revives inflation, Fed hike bets climb CNBC TV18",
+      "impact_score": 80.3,
+      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
