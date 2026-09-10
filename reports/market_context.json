@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1847 articles from finance.yahoo.com, simplywall.st, TradingView, MarketBeat, The Motley Fool. The dominant theme is macro, with 839 macro items, 521 company items, 420 industry items, and 67 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (239), oil/energy (214), inflation (145), growth/jobs (14). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 254 positive, 292 negative, and 1301 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1904 articles from Yahoo Finance, simplywall.st, TradingView, MarketBeat, Investing.com. The dominant theme is macro, with 898 macro items, 479 company items, 467 industry items, and 60 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (272), inflation (200), oil/energy (187), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 299 positive, 243 negative, and 1362 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Trump says oil prices that spiked because of Iran war likely won't come down until after midterms",
-      "summary": "Trump says oil prices that spiked because of Iran war likely won't come down until after midterms AP News",
-      "impact_score": 88.8,
-      "sentiment_score": -0.11
+      "title": "UK's FTSE 100 falls for fifth straight day as rate hike, inflation fears bite",
+      "summary": "UK's FTSE 100 falls for fifth straight day as rate hike, inflation fears bite Reuters",
+      "impact_score": 89.7,
+      "sentiment_score": -1.0
     },
     {
-      "title": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 - WSJ",
-      "summary": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100 WSJ",
-      "impact_score": 81.0,
+      "title": "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
+      "summary": "Treasury yields moved higher on Thursday as U.S. oil prices hit $100 per barrel.",
+      "impact_score": 83.9,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up",
+      "summary": "Oil prices were at their highest levels since late May, while rising wholesale inflation data sent benchmark 10-year yields closer to the key 5% level.",
+      "impact_score": 83.5,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "Stock Market Today: Dow Slides As Oil Hits $100; Nvidia Drops Amid News Of Palantir Partnership (Live Coverage)",
+      "summary": "",
+      "impact_score": 81.3,
+      "sentiment_score": -0.09
+    },
+    {
+      "title": "Gold falls over 1% as U.S. inflation data boosts Fed hike bets - CNBC",
+      "summary": "Gold falls over 1% as U.S. inflation data boosts Fed hike bets CNBC",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Demand for riskier mortgages rises again, along with interest rates",
-      "summary": "Mortgage rates continue to climb, so more borrowers are turning to adjustable rate mortgages, which offer lower interest rates comparatively.",
-      "impact_score": 80.3,
-      "sentiment_score": 0.35
+      "title": "Global Bond Yields Hit Multiyear Highs, Oil Fuels Inflation Fears",
+      "summary": "Global Bond Yields Hit Multiyear Highs, Oil Fuels Inflation Fears WSJ",
+      "impact_score": 80.4,
+      "sentiment_score": -0.25
     },
     {
-      "title": "U.S. Stocks Fall as Oil, Bond Yields Spike, U.S.-Iran War Heats Up - WSJ",
-      "summary": "U.S. Stocks Fall as Oil, Bond Yields Spike, U.S.-Iran War Heats Up WSJ",
-      "impact_score": 79.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Trump pressures the Federal Reserve to cut interest rates to rescue the economy, yet markets are pricing in a 60% probability of a rate hike in September.",
-      "summary": "Trump pressures the Federal Reserve to cut interest rates to rescue the economy, yet markets are pricing in a 60% probability of a rate hike in September. 富途牛牛",
+      "title": "30-year fixed mortgage rate tops 7% for the first time in over a year",
+      "summary": "The average rate on the 30-year fixed mortgage crossed over 7% for the first time in more than a year, as home prices continue to rise and sales drop.",
       "impact_score": 79.2,
-      "sentiment_score": -0.55
+      "sentiment_score": -0.35
     },
     {
-      "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-      "summary": "A prolonged oil shock could keep consumer prices elevated and complicate the path for central banks already navigating a difficult policy environment.",
-      "impact_score": 78.9,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "A pilot of the Amazon cargo plane that careened off Miami runway warned it was coming in too fast",
-      "summary": "A pilot of the Amazon cargo plane that careened off Miami runway warned it was coming in too fast AP News",
-      "impact_score": 78.9,
-      "sentiment_score": -0.08
-    },
-    {
-      "title": "Dow Jones falls 1,300 points in three sessions as bond markets, oil prices add to pressure",
-      "summary": "Dow Jones falls 1,300 points in three sessions as bond markets, oil prices add to pressure CNBC TV18",
-      "impact_score": 78.6,
-      "sentiment_score": -0.2
+      "title": "Bitcoin falls below $77K as US Treasury yields hit 5.353%, oil prices surge above $100, and Fed rate hike odds rise.",
+      "summary": "Bitcoin falls below $77K as US Treasury yields hit 5.353%, oil prices surge above $100, and Fed rate hike odds rise. Pluang",
+      "impact_score": 79.2,
+      "sentiment_score": -0.75
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
