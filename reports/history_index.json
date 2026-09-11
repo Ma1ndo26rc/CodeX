@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-09-10T16:36:59.281316+00:00",
+  "generated_at": "2026-09-11T00:01:19.933209+00:00",
   "reports": [
+    {
+      "date": "2026-09-11",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-09-11T00:01:16.363820+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-09-11-close.json",
+      "dynamic_headline": "inflation leads a constructive but selective completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is constructive but selective, based on 46 articles from CNBC Markets, MarketWatch, Yahoo Finance, CNBC Business. The dominant theme is macro, with 22 macro items, 11 company items, 13 industry items, and 0 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 71.4
+    },
     {
       "date": "2026-09-10",
       "report_type": "premarket",
