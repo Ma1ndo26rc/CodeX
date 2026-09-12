@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1891 articles from Yahoo Finance, simplywall.st, MarketBeat, TradingView, Moomoo. The dominant theme is macro, with 947 macro items, 460 company items, 422 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (303), inflation (276), oil/energy (189), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 295 positive, 176 negative, and 1420 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1873 articles from Yahoo Finance, MarketBeat, simplywall.st, TradingView, Moomoo. The dominant theme is macro, with 921 macro items, 532 company items, 370 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (297), inflation (265), oil/energy (164), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 339 positive, 172 negative, and 1362 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers",
-      "summary": "August CPI data leaves Kevin Warsh to choose between acting on his inflation warnings or risking new doubts about his control of the central bank.",
-      "impact_score": 87.4,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Bonds are going on tilt. How to play them, says Mike Khouw",
-      "summary": "Warren Buffett once said interest rates are to asset prices what gravity is to matter. If the options market is correct, things could get heavy, says Mike Khouw.",
-      "impact_score": 83.8,
+      "title": "The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.",
+      "summary": "Economists note that the Fed historically has not been content to raise rates only once.",
+      "impact_score": 88.4,
       "sentiment_score": 0.03
     },
     {
-      "title": "The inside story on the historic U.S.-Venezuela oil deal and how it will work",
-      "summary": "CNBC was one of just a handful of news organizations allowed to travel to Caracas with the U.S. secretary of energy.",
-      "impact_score": 83.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation - reuters.com",
-      "summary": "S&P 500 ends down as Treasury yields rise and traders fret about inflation reuters.com",
+      "title": "Dollar Wavers as Inflation Aids Fed Hike Bets While Oil Falls - Bloomberg.com",
+      "summary": "Dollar Wavers as Inflation Aids Fed Hike Bets While Oil Falls Bloomberg.com",
       "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Bond yields near multi-year peaks after accelerating U.S. inflation, traders add to Fed hike bets - reuters.com",
-      "summary": "Bond yields near multi-year peaks after accelerating U.S. inflation, traders add to Fed hike bets reuters.com",
-      "impact_score": 83.0,
+      "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say",
+      "summary": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
+      "summary": "CNBC’s Jim Cramer said falling oil prices helped fuel Friday’s rebound, but warned next week’s Federal Reserve meeting will be the next test for stocks.",
+      "impact_score": 79.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Fall as Oil Tops $100, Yields Hit Multiyear Highs - WSJ",
-      "summary": "U.S. Stocks Fall as Oil Tops $100, Yields Hit Multiyear Highs WSJ",
-      "impact_score": 81.0,
+      "title": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test - CNBC",
+      "summary": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test CNBC",
+      "impact_score": 79.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Bessent says 'a large bank' will be sanctioned on Monday as part of Iran strategy",
-      "summary": "U.S. Treasury Secretary Scott Bessent said a large bank would be sanctioned next week.",
-      "impact_score": 80.2,
-      "sentiment_score": -0.4
-    },
-    {
-      "title": "Trump's proposal to tie trade policy to Federal Reserve rate cuts could face long-term economic challenges - Yahoo Finance",
-      "summary": "Trump's proposal to tie trade policy to Federal Reserve rate cuts could face long-term economic challenges Yahoo Finance",
+      "title": "Wall Street jumps, oil lower ahead of Fed vote next week - Reuters",
+      "summary": "Wall Street jumps, oil lower ahead of Fed vote next week Reuters",
       "impact_score": 79.4,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now.",
+      "summary": "Apple, Microsoft, and Nvidia Top the List of Largest Companies by Market Cap. Here's the One I'm Buying Now. Yahoo Finance",
+      "impact_score": 79.0,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Wall Street surges as US interest rate hike looks certain",
+      "summary": "Wall Street surges as US interest rate hike looks certain The Nightly",
+      "impact_score": 79.0,
+      "sentiment_score": -0.15
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
