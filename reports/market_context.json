@@ -1,19 +1,19 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1812 articles from Yahoo Finance, TradingView, MarketBeat, simplywall.st, Investing.com. The dominant theme is macro, with 863 macro items, 471 company items, 414 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (322), oil/energy (166), inflation (118), growth/jobs (29). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 204 positive, 247 negative, and 1361 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1843 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, The Motley Fool. The dominant theme is macro, with 885 macro items, 442 company items, 454 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (364), oil/energy (169), inflation (145), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 252 positive, 215 negative, and 1376 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia CEO to attend Trump dinner for Xi, source says",
-      "summary": "Nvidia CEO to attend Trump dinner for Xi, source says Reuters",
-      "impact_score": 86.3,
-      "sentiment_score": 0.03
+      "title": "What does a Fed rate hike mean for bitcoin prices?",
+      "summary": "What does a Fed rate hike mean for bitcoin prices? Yahoo Finance UK",
+      "impact_score": 85.2,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Dow Jones falls another 300 points ahead of Fed decision as oil, yields remain higher",
-      "summary": "Dow Jones falls another 300 points ahead of Fed decision as oil, yields remain higher CNBC TV18",
-      "impact_score": 83.7,
-      "sentiment_score": -0.2
+      "title": "Federal Reserve weighs interest rate hike as inflation and energy costs rise",
+      "summary": "Federal Reserve weighs interest rate hike as inflation and energy costs rise 41NBC News",
+      "impact_score": 84.1,
+      "sentiment_score": -0.39
     },
     {
       "title": "US Stock Futures Drop as 10-Year Treasury Yield Passes 5% - Bloomberg.com",
@@ -22,34 +22,34 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "US stock market today: Dow falls over 250 points as 10-year Treasury yield hits 19-year high - CNBC TV18",
-      "summary": "US stock market today: Dow falls over 250 points as 10-year Treasury yield hits 19-year high CNBC TV18",
-      "impact_score": 81.2,
+      "title": "Data Center Play Bloom Energy Jumps. It Has A 'Meaningful' Catalyst.",
+      "summary": "Data Center Play Bloom Energy Jumps. It Has A 'Meaningful' Catalyst. Investor's Business Daily",
+      "impact_score": 81.5,
+      "sentiment_score": 0.4
+    },
+    {
+      "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision - Reuters",
+      "summary": "Stocks rise as oil falls, bonds steady ahead of Fed decision Reuters",
+      "impact_score": 81.4,
       "sentiment_score": -0.35
     },
     {
-      "title": "Dow Jones falls another 300 points ahead of Fed decision as oil, yields remain higher - CNBC TV18",
-      "summary": "Dow Jones falls another 300 points ahead of Fed decision as oil, yields remain higher CNBC TV18",
-      "impact_score": 81.2,
+      "title": "Treasury Yields Stay Elevated as Stocks Fall Before Fed - Bloomberg.com",
+      "summary": "Treasury Yields Stay Elevated as Stocks Fall Before Fed Bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Down as Oil, Yield Shock Continues - WSJ",
-      "summary": "U.S. Stocks Down as Oil, Yield Shock Continues WSJ",
-      "impact_score": 81.0,
+      "title": "More home builders cut prices as buyers get spooked",
+      "summary": "A rising share of builders are slashing prices on newly built homes despite increasing construction costs, as buyers get spooked by high mortgage rates.",
+      "impact_score": 80.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Medicare is using AI to approve claims. The result has been ‘alarmingly high denial rates.’",
-      "summary": "A pilot program using artificial intelligence to approve care for Medicare beneficiaries has resulted in high levels of denials and delayed decisions and prompted warnings from a vendor about a lack of readiness, according to a lawsuit seeking information about the program.",
-      "impact_score": 79.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Gold edges down as oil-driven inflation fears lift rate-hike bets - Reuters",
-      "summary": "Gold edges down as oil-driven inflation fears lift rate-hike bets Reuters",
-      "impact_score": 79.4,
-      "sentiment_score": -0.35
+      "title": "Oil prices fall after U.S. says damaged Saudi pipeline will restart operations in days",
+      "summary": "The pipeline has allowed the Saudis to shift oil exports to the Red Sea while the U.S. and Iran battle for control over Hormuz.",
+      "impact_score": 80.1,
+      "sentiment_score": -0.16
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
