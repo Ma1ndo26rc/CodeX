@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1843 articles from Yahoo Finance, MarketBeat, TradingView, simplywall.st, The Motley Fool. The dominant theme is macro, with 885 macro items, 442 company items, 454 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (364), oil/energy (169), inflation (145), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 252 positive, 215 negative, and 1376 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1790 articles from Yahoo Finance, TradingView, MarketBeat, simplywall.st, The Motley Fool. The dominant theme is macro, with 870 macro items, 448 company items, 412 industry items, and 60 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (394), inflation (134), oil/energy (122), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 230 positive, 225 negative, and 1335 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "What does a Fed rate hike mean for bitcoin prices?",
-      "summary": "What does a Fed rate hike mean for bitcoin prices? Yahoo Finance UK",
-      "impact_score": 85.2,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "Federal Reserve weighs interest rate hike as inflation and energy costs rise",
-      "summary": "Federal Reserve weighs interest rate hike as inflation and energy costs rise 41NBC News",
-      "impact_score": 84.1,
-      "sentiment_score": -0.39
-    },
-    {
-      "title": "US Stock Futures Drop as 10-Year Treasury Yield Passes 5% - Bloomberg.com",
-      "summary": "US Stock Futures Drop as 10-Year Treasury Yield Passes 5% Bloomberg.com",
-      "impact_score": 82.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Data Center Play Bloom Energy Jumps. It Has A 'Meaningful' Catalyst.",
-      "summary": "Data Center Play Bloom Energy Jumps. It Has A 'Meaningful' Catalyst. Investor's Business Daily",
-      "impact_score": 81.5,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision - Reuters",
-      "summary": "Stocks rise as oil falls, bonds steady ahead of Fed decision Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Treasury Yields Stay Elevated as Stocks Fall Before Fed - Bloomberg.com",
-      "summary": "Treasury Yields Stay Elevated as Stocks Fall Before Fed Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "More home builders cut prices as buyers get spooked",
-      "summary": "A rising share of builders are slashing prices on newly built homes despite increasing construction costs, as buyers get spooked by high mortgage rates.",
-      "impact_score": 80.1,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Oil prices fall after U.S. says damaged Saudi pipeline will restart operations in days",
-      "summary": "The pipeline has allowed the Saudis to shift oil exports to the Red Sea while the U.S. and Iran battle for control over Hormuz.",
-      "impact_score": 80.1,
+      "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+      "summary": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut AP News",
+      "impact_score": 89.1,
       "sentiment_score": -0.16
+    },
+    {
+      "title": "Federal Reserve raises rates for first time years, what that means for you",
+      "summary": "Federal Reserve raises rates for first time years, what that means for you kare11.com",
+      "impact_score": 86.4,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+      "summary": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses Reuters",
+      "impact_score": 86.2,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
+      "summary": "President Donald Trump previously threatened to cut off trade with countries that have trade surpluses with the U.S. if the Fed doesn't cut interest rates.",
+      "impact_score": 83.7,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "U.S. Stocks Fall After Fed Rate Increase - WSJ",
+      "summary": "U.S. Stocks Fall After Fed Rate Increase WSJ",
+      "impact_score": 82.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate - WSJ",
+      "summary": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate WSJ",
+      "impact_score": 82.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Dow Jones falls over 700 points after Fed rate hike: What triggered the sharp sell-off - CNBC TV18",
+      "summary": "Dow Jones falls over 700 points after Fed rate hike: What triggered the sharp sell-off CNBC TV18",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.",
+      "summary": "Fed Chair Kevin Warsh has sent investors a message: When it comes to tamping down inflation, he means business.",
+      "impact_score": 79.8,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
