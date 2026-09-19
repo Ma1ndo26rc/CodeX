@@ -1,30 +1,18 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1872 articles from Yahoo Finance, simplywall.st, TradingView, The Motley Fool, MarketBeat. The dominant theme is macro, with 823 macro items, 529 company items, 467 industry items, and 53 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (326), inflation (171), oil/energy (164), growth/jobs (24). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 295 positive, 191 negative, and 1386 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1855 articles from finance.yahoo.com, simplywall.st, TradingView, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 844 macro items, 535 company items, 428 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (328), inflation (158), oil/energy (143), growth/jobs (22). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 252 positive, 206 negative, and 1397 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
-      "summary": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next",
-      "impact_score": 87.5,
-      "sentiment_score": -0.55
+      "title": "Stocks end wild week in uneasy calm as Treasury yields top 5%",
+      "summary": "Stocks end wild week in uneasy calm as Treasury yields top 5% Reuters",
+      "impact_score": 86.0,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all",
-      "summary": "Even when rates are higher, stocks should still beat bonds",
-      "impact_score": 87.2,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "Update: US Equity Indexes Fall as Benchmark Treasury Yield Jumps Back Above 5%",
-      "summary": "Update: US Equity Indexes Fall as Benchmark Treasury Yield Jumps Back Above 5% Yahoo Finance",
-      "impact_score": 86.4,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "Two-Year U.S. Treasury Yield Reaches New Multi-Year High",
-      "summary": "Two-Year U.S. Treasury Yield Reaches New Multi-Year High wsj.com",
-      "impact_score": 85.6,
+      "title": "Nvidia CEO Says There’s ‘0% Chance’ That World Will End in 2030",
+      "summary": "Nvidia CEO Says There’s ‘0% Chance’ That World Will End in 2030 Bloomberg.com",
+      "impact_score": 85.9,
       "sentiment_score": 0.03
     },
     {
@@ -34,21 +22,33 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "COMMENTARY: Trump may not see another rate cut as president - Reuters",
-      "summary": "COMMENTARY: Trump may not see another rate cut as president Reuters",
-      "impact_score": 83.0,
+      "title": "Gold Holds Gain as Lower Oil and Fed Hike Temper Inflation Fears - Bloomberg.com",
+      "summary": "Gold Holds Gain as Lower Oil and Fed Hike Temper Inflation Fears Bloomberg.com",
+      "impact_score": 81.8,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Global shares edge higher as central banks double down on inflation fight - Reuters",
+      "summary": "Global shares edge higher as central banks double down on inflation fight Reuters",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Wall Street drifts lower as bond yields rise and oil prices swing | National News | 2news.com",
-      "summary": "Wall Street drifts lower as bond yields rise and oil prices swing | National News | 2news.com KTVN",
-      "impact_score": 82.9,
-      "sentiment_score": 0.03
+      "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices - Reuters",
+      "summary": "Gold rises to one-week high, heads for weekly gain on easing oil prices Reuters",
+      "impact_score": 80.5,
+      "sentiment_score": 0.35
     },
     {
-      "title": "S&P 500 Falls as Treasury Yields Resume Advance: Markets Wrap - Bloomberg.com",
-      "summary": "S&P 500 Falls as Treasury Yields Resume Advance: Markets Wrap Bloomberg.com",
-      "impact_score": 82.7,
+      "title": "Short-Term Treasury Borrowing Costs Jump in Repo as Yields Surge - Bloomberg.com",
+      "summary": "Short-Term Treasury Borrowing Costs Jump in Repo as Yields Surge Bloomberg.com",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Fed staff should have known Silicon Valley Bank was vulnerable, new report finds",
+      "summary": "Fed Vice Chair for Supervision Michelle Bowman said a new report indicates the central bank's staff missed signs ahead of Silicon Valley Bank's 2023 failure.",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     }
   ],
