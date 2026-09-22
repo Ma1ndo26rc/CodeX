@@ -1,31 +1,25 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1805 articles from finance.yahoo.com, TradingView, simplywall.st, Investing.com, Benzinga. The dominant theme is macro, with 848 macro items, 490 company items, 411 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (278), oil/energy (189), inflation (184), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 289 positive, 183 negative, and 1333 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1782 articles from Yahoo Finance, TradingView, simplywall.st, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 809 macro items, 518 company items, 405 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (260), inflation (180), oil/energy (175), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 303 positive, 165 negative, and 1314 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury yields ease as global borrowing costs tumble",
-      "summary": "Treasury yields were lower on Monday following last week's interest rate bonanza.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.03
+      "title": "Korean Chip Stocks Gain as Meta’s Muse AI Agent Spurs Enthusiasm",
+      "summary": "Korean Chip Stocks Gain as Meta’s Muse AI Agent Spurs Enthusiasm Bloomberg.com",
+      "impact_score": 83.2,
+      "sentiment_score": 0.1
+    },
+    {
+      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat - Reuters",
+      "summary": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat Reuters",
+      "impact_score": 82.1,
+      "sentiment_score": 0.35
     },
     {
       "title": "Goolsbee rejects idea of Fed cutting rates to help US finance its debt - Reuters",
       "summary": "Goolsbee rejects idea of Fed cutting rates to help US finance its debt Reuters",
-      "impact_score": 83.0,
+      "impact_score": 81.0,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Wall St rises on AI gains as oil slides, Treasury yields retreat - Reuters",
-      "summary": "Wall St rises on AI gains as oil slides, Treasury yields retreat Reuters",
-      "impact_score": 82.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Fed's Goolsbee says strong demand may be adding to US inflation - Reuters",
-      "summary": "Fed's Goolsbee says strong demand may be adding to US inflation Reuters",
-      "impact_score": 82.1,
-      "sentiment_score": 0.35
     },
     {
       "title": "Fed, BoE probe banks' exposure to trading firms after Jane Street loss, FT reports - Reuters",
@@ -34,22 +28,28 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Wall Street pulls within 1% of its record after oil prices and bond yields ease - bnnbloomberg.ca",
-      "summary": "Wall Street pulls within 1% of its record after oil prices and bond yields ease bnnbloomberg.ca",
-      "impact_score": 80.2,
+      "title": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves - WSJ",
+      "summary": "Government Bond Yields Fall as Risk Sentiment Tentatively Improves WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "NASCAR CEO Steve O’Donnell talks growth opportunities, possible international expansion",
+      "summary": "CEO Steve O’Donnell said NASCAR's media strategy and the upcoming film \"Days of Thunder 2\" will help raise brand awareness and broaden its fan base.",
+      "impact_score": 78.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "Nasdaq leads a strong market rally despite Fed's rate hike warning, driven by tech and trade optimism.",
-      "summary": "Nasdaq leads a strong market rally despite Fed's rate hike warning, driven by tech and trade optimism. pluang.com",
-      "impact_score": 79.2,
-      "sentiment_score": -0.15
+      "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy",
+      "summary": "The drugmaker, best known for developing weight-loss and diabetes drugs, failed to excite investors hoping for a turnaround.",
+      "impact_score": 78.1,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Wall Street pulls within 1% of its record after oil prices and bond yields ease",
-      "summary": "Wall Street pulls within 1% of its record after oil prices and bond yields ease AP News",
-      "impact_score": 79.1,
-      "sentiment_score": 0.16
+      "title": "Nasdaq, Dow and S&P 500 Forecast: Bulls Return as Yields Fall - Yahoo Finance",
+      "summary": "Nasdaq, Dow and S&P 500 Forecast: Bulls Return as Yields Fall Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
