@@ -1,11 +1,35 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1808 articles from Yahoo Finance, TradingView, simplywall.st, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 819 macro items, 515 company items, 406 industry items, and 68 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (241), oil/energy (178), inflation (151), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 287 positive, 189 negative, and 1332 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1859 articles from Yahoo Finance, simplywall.st, TradingView, The Motley Fool, moomoo.com. The dominant theme is macro, with 840 macro items, 562 company items, 405 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (276), oil/energy (169), inflation (152), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 282 positive, 189 negative, and 1388 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate - WSJ",
-      "summary": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate WSJ",
+      "title": "Bond yields surge as Wall Street fears more potential Federal Reserve rate hikes",
+      "summary": "Stocks fall, with the Nasdaq and S&P 500 retreating from record territory as bond yields suddenly jump.",
+      "impact_score": 87.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+      "summary": "S&P Global said its overall inflation measure hit its highest level since October 2022.",
+      "impact_score": 83.8,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
+      "summary": "US stocks fall as 10-year Treasury yield hits highest since 2007 Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Fall as Treasury Yields Jump - WSJ",
+      "summary": "U.S. Stocks Fall as Treasury Yields Jump WSJ",
+      "impact_score": 82.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation - WSJ",
+      "summary": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation WSJ",
       "impact_score": 82.6,
       "sentiment_score": -0.35
     },
@@ -16,41 +40,17 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - bloomberg.com",
-      "summary": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip bloomberg.com",
-      "impact_score": 80.2,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "September surge or October offload? Jobs experts weigh in on this fall’s hiring trends",
-      "summary": "The \"September surge\" might boost hiring this fall, but the Fed rate hike could slow down the job market. Here's what experts say to do.",
+      "title": "Fed Governor Barr Says More Rate Hikes Are 'Likely' Needed. Treasury Yields Reach New 19-Year Highs.",
+      "summary": "Fed Governor Barr Says More Rate Hikes Are 'Likely' Needed. Treasury Yields Reach New 19-Year Highs. International Business Times",
       "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Scott Bessent sends signal on Kevin Warsh Fed rate hike",
-      "summary": "Scott Bessent sends signal on Kevin Warsh Fed rate hike Belleville News-Democrat",
-      "impact_score": 79.0,
       "sentiment_score": -0.55
     },
     {
-      "title": "U.S. Stocks Fall on Fears AI Companies, Fed Will Slam the Brakes - WSJ",
-      "summary": "U.S. Stocks Fall on Fears AI Companies, Fed Will Slam the Brakes WSJ",
-      "impact_score": 78.6,
+      "title": "Opinion: Financial stocks are falling as rates rise. Why that’s a problem for the broader market. - MarketWatch",
+      "summary": "Opinion: Financial stocks are falling as rates rise. Why that’s a problem for the broader market. MarketWatch",
+      "impact_score": 78.9,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Nasdaq ends at another record high, Dow underperforms even as oil prices, yields cool",
-      "summary": "Nasdaq ends at another record high, Dow underperforms even as oil prices, yields cool CNBC TV18",
-      "impact_score": 78.5,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
-      "summary": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous trucks.",
-      "impact_score": 76.3,
-      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
