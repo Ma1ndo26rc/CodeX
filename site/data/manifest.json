@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-23T17:23:54.105Z",
+  "generated_at": "2026-09-24T00:23:16.709Z",
   "reports": {
-    "markdown": "../reports/US_STOCK_PREMARKET_20260923_172347.md",
-    "pdf": "../reports/US_STOCK_PREMARKET_20260923_172347.pdf",
-    "json": "../reports/US_STOCK_PREMARKET_20260923_172347.json",
+    "markdown": "../reports/US_STOCK_CLOSE_20260924_002312.md",
+    "pdf": "../reports/US_STOCK_CLOSE_20260924_002312.pdf",
+    "json": "../reports/US_STOCK_CLOSE_20260924_002312.json",
     "latest_json": "../reports/latest.json",
     "premarket_json": "../reports/premarket.json",
     "close_json": "../reports/close.json",
     "standard_json": "../reports/market_analysis.json",
-    "history_count": 118
+    "history_count": 119
   },
   "assets": {
     "market_event_overview": "data/assets/market_event_overview.png"
