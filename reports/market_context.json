@@ -1,19 +1,19 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1859 articles from Yahoo Finance, simplywall.st, TradingView, The Motley Fool, moomoo.com. The dominant theme is macro, with 840 macro items, 562 company items, 405 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (276), oil/energy (169), inflation (152), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 282 positive, 189 negative, and 1388 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1833 articles from Yahoo Finance, simplywall.st, TradingView, The Motley Fool, Moomoo. The dominant theme is macro, with 866 macro items, 513 company items, 398 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (296), inflation (135), oil/energy (130), growth/jobs (33). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 256 positive, 189 negative, and 1388 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Bond yields surge as Wall Street fears more potential Federal Reserve rate hikes",
-      "summary": "Stocks fall, with the Nasdaq and S&P 500 retreating from record territory as bond yields suddenly jump.",
-      "impact_score": 87.2,
+      "title": "The timely tax strategy that can help bond investors make the best of runaway yields and big losses",
+      "summary": "Runaway treasury yields and the bond market selloff create sizable tax-loss harvesting trades for investors to offset big gains from stocks.",
+      "impact_score": 87.3,
       "sentiment_score": -0.55
     },
     {
-      "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
-      "summary": "S&P Global said its overall inflation measure hit its highest level since October 2022.",
-      "impact_score": 83.8,
-      "sentiment_score": -0.25
+      "title": "Wall Street ends down as oil prices, Treasury yields rise - Reuters",
+      "summary": "Wall Street ends down as oil prices, Treasury yields rise Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
     },
     {
       "title": "US stocks fall as 10-year Treasury yield hits highest since 2007 - Reuters",
@@ -22,34 +22,34 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Fall as Treasury Yields Jump - WSJ",
-      "summary": "U.S. Stocks Fall as Treasury Yields Jump WSJ",
-      "impact_score": 82.6,
+      "title": "Wall Street ends down as oil prices, Treasury yields rise - Yahoo Finance",
+      "summary": "Wall Street ends down as oil prices, Treasury yields rise Yahoo Finance",
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation - WSJ",
-      "summary": "Fed’s Barkin Says One Rate Hike May Not Be Enough to Tame Inflation WSJ",
-      "impact_score": 82.6,
+      "title": "Inflation could cost Republicans the Senate — this chart shows how",
+      "summary": "Fallout from these decisions pushed prices higher and pressured worker pay",
+      "impact_score": 80.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Financial stocks fall with AI and flattening yield curve in focus - Reuters",
-      "summary": "Financial stocks fall with AI and flattening yield curve in focus Reuters",
-      "impact_score": 81.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed Governor Barr Says More Rate Hikes Are 'Likely' Needed. Treasury Yields Reach New 19-Year Highs.",
-      "summary": "Fed Governor Barr Says More Rate Hikes Are 'Likely' Needed. Treasury Yields Reach New 19-Year Highs. International Business Times",
+      "title": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
+      "summary": "A group that advocates for Epstein victims applauded the news that Richard Kahn and Darren Indyke are facing an investigation. No charges have been been filed.",
       "impact_score": 79.2,
-      "sentiment_score": -0.55
+      "sentiment_score": -0.35
     },
     {
-      "title": "Opinion: Financial stocks are falling as rates rise. Why that’s a problem for the broader market. - MarketWatch",
-      "summary": "Opinion: Financial stocks are falling as rates rise. Why that’s a problem for the broader market. MarketWatch",
-      "impact_score": 78.9,
+      "title": "The timely tax strategy that can help bond investors make the best of runaway yields and big losses - CNBC",
+      "summary": "The timely tax strategy that can help bond investors make the best of runaway yields and big losses CNBC",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "AMD Is Up 187% This Year and Nvidia Is Up 22%. Prediction: Nvidia Wins the Next 12 Months.",
+      "summary": "AMD Is Up 187% This Year and Nvidia Is Up 22%. Prediction: Nvidia Wins the Next 12 Months. Yahoo Finance",
+      "impact_score": 79.2,
+      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
