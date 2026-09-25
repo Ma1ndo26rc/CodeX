@@ -1,18 +1,12 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1866 articles from Yahoo Finance, simplywall.st, tradingview.com, Stocktwits, The Motley Fool. The dominant theme is macro, with 882 macro items, 530 company items, 406 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (328), inflation (166), oil/energy (151), growth/jobs (44). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 259 positive, 197 negative, and 1410 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1854 articles from Yahoo Finance, Stocktwits, simplywall.st, TradingView, MarketBeat. The dominant theme is macro, with 863 macro items, 560 company items, 392 industry items, and 39 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (326), oil/energy (163), inflation (147), growth/jobs (30). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 264 positive, 168 negative, and 1422 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Fed Rate Hike Concerns Push 30-Year U.S. Treasury Yield to Highest in 22 Years",
-      "summary": "Fed Rate Hike Concerns Push 30-Year U.S. Treasury Yield to Highest in 22 Years 아시아경제",
-      "impact_score": 87.5,
-      "sentiment_score": -0.36
-    },
-    {
-      "title": "U.S. markets point to more losses as Treasury yields hover near two-decade highs, energy prices rise - BNN Bloomberg",
-      "summary": "U.S. markets point to more losses as Treasury yields hover near two-decade highs, energy prices rise BNN Bloomberg",
-      "impact_score": 82.7,
+      "title": "Mounting rate hike bets keep weekly loss in sight for gold - Reuters",
+      "summary": "Mounting rate hike bets keep weekly loss in sight for gold Reuters",
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
@@ -22,34 +16,40 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus",
-      "summary": "S&P 500, Dow, Nasdaq Futures Ease As Treasury Yields Continue To Spike — ORCL, META, AKAM, GOOGL, MGM In Focus Stocktwits",
-      "impact_score": 80.4,
-      "sentiment_score": 0.03
+      "title": "Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Stabilize - WSJ",
+      "summary": "Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Stabilize WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Bond liquidation wrecks small caps. Here's how bad some traders see it getting",
-      "summary": "While the S&P 500 powers through rising bond yields and higher crude oil prices, one section of the U.S. stock market is falling behind.",
+      "title": "Oil Prices Fall as U.S.-Iran Diplomacy and Regional Tensions Remain in Focus - WSJ",
+      "summary": "Oil Prices Fall as U.S.-Iran Diplomacy and Regional Tensions Remain in Focus WSJ",
       "impact_score": 79.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market",
-      "summary": "Back-to-back weak auctions for Treasury notes show that government repurchases haven’t spurred demand for bonds.",
-      "impact_score": 77.8,
+      "title": "NIH funding cuts delayed a promising childhood brain cancer trial. Patients lost time they didn't have",
+      "summary": "A delayed clinical trial underscores the stakes of federal research funding cuts for children with DIPG, a deadly brain tumor with few treatment options.",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "US stocks swing with bond yields and oil prices before recovering much of their losses - Yahoo Finance",
-      "summary": "US stocks swing with bond yields and oil prices before recovering much of their losses Yahoo Finance",
-      "impact_score": 77.8,
+      "title": "Oil prices fall on talks to reopen the Strait of Hormuz - CNBC",
+      "summary": "Oil prices fall on talks to reopen the Strait of Hormuz CNBC",
+      "impact_score": 78.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stock Futures Fall as Treasury Yields and Oil Prices Rise: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "summary": "U.S. Stock Futures Fall as Treasury Yields and Oil Prices Rise: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance",
-      "impact_score": 77.4,
+      "title": "Oil Prices Fall as Markets Assess Reported US-Iran Talks on Strait of Hormuz - Yahoo Finance",
+      "summary": "Oil Prices Fall as Markets Assess Reported US-Iran Talks on Strait of Hormuz Yahoo Finance",
+      "impact_score": 78.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges",
+      "summary": "With the 10-year Treasury up sharply and the outlook for the U.S. economy looking unclear, some say 8% mortgage rates are back on the table.",
+      "impact_score": 77.2,
+      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
