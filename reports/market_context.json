@@ -1,7 +1,7 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1854 articles from Yahoo Finance, Stocktwits, simplywall.st, TradingView, MarketBeat. The dominant theme is macro, with 863 macro items, 560 company items, 392 industry items, and 39 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (326), oil/energy (163), inflation (147), growth/jobs (30). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 264 positive, 168 negative, and 1422 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1842 articles from Yahoo Finance, simplywall.st, TradingView, Stocktwits, Seeking Alpha. The dominant theme is macro, with 816 macro items, 551 company items, 419 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (297), inflation (146), oil/energy (144), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 259 positive, 160 negative, and 1423 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
       "title": "Mounting rate hike bets keep weekly loss in sight for gold - Reuters",
@@ -10,21 +10,27 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Futures Drop as Yields Climb Further, Oil Rises - Bloomberg.com",
-      "summary": "US Stock Futures Drop as Yields Climb Further, Oil Rises Bloomberg.com",
-      "impact_score": 81.1,
+      "title": "U.S. crude oil falls nearly 8% for the week after Tehran and Washington hold talks at the U.N.",
+      "summary": "Iran has asked the U.S. to meet the same conditions laid out in the June 17 memorandum of understanding, Iran's foreign minister said.",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Stabilize - WSJ",
-      "summary": "Eurozone Bond Yields Fall as Oil Prices Decline; U.S. Treasury Yields Stabilize WSJ",
-      "impact_score": 80.6,
+      "title": "Oil prices fall on talks to reopen the Strait of Hormuz - CNBC",
+      "summary": "Oil prices fall on talks to reopen the Strait of Hormuz CNBC",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Prices Fall as U.S.-Iran Diplomacy and Regional Tensions Remain in Focus - WSJ",
-      "summary": "Oil Prices Fall as U.S.-Iran Diplomacy and Regional Tensions Remain in Focus WSJ",
+      "title": "Oil Prices Fall as U.S.-Iran Diplomacy, Regional Tensions Remain in Focus - WSJ",
+      "summary": "Oil Prices Fall as U.S.-Iran Diplomacy, Regional Tensions Remain in Focus WSJ",
       "impact_score": 79.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus - Yahoo Finance UK",
+      "summary": "Gold Set for Weekly Loss as Treasury Yields and Fed Policy Outlook Remain in Focus Yahoo Finance UK",
+      "impact_score": 79.4,
       "sentiment_score": -0.35
     },
     {
@@ -34,22 +40,16 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices fall on talks to reopen the Strait of Hormuz - CNBC",
-      "summary": "Oil prices fall on talks to reopen the Strait of Hormuz CNBC",
-      "impact_score": 78.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Oil Prices Fall as Markets Assess Reported US-Iran Talks on Strait of Hormuz - Yahoo Finance",
-      "summary": "Oil Prices Fall as Markets Assess Reported US-Iran Talks on Strait of Hormuz Yahoo Finance",
-      "impact_score": 78.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges",
-      "summary": "With the 10-year Treasury up sharply and the outlook for the U.S. economy looking unclear, some say 8% mortgage rates are back on the table.",
-      "impact_score": 77.2,
+      "title": "A 10% risk-free yield? For some, yes.",
+      "summary": "This could be a bargain, especially for very high earners and those in high-tax locations.",
+      "impact_score": 79.2,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion",
+      "summary": "Nvidia Would Have to Add Almost a Whole Broadcom to Reach $7 Trillion Yahoo Finance",
+      "impact_score": 79.0,
+      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
