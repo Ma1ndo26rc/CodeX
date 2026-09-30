@@ -1,24 +1,18 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1830 articles from Yahoo Finance, TradingView, simplywall.st, MarketBeat, Seeking Alpha. The dominant theme is macro, with 804 macro items, 541 company items, 418 industry items, and 67 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (314), oil/energy (139), inflation (134), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 265 positive, 190 negative, and 1375 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1869 articles from Yahoo Finance, TradingView, simplywall.st, MarketBeat, The Motley Fool. The dominant theme is macro, with 913 macro items, 517 company items, 398 industry items, and 41 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (326), inflation (203), oil/energy (119), growth/jobs (31). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 250 positive, 202 negative, and 1417 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Why Amazon Is Shunning Other AI Shopping Agents",
-      "summary": "Why Amazon Is Shunning Other AI Shopping Agents Bloomberg.com",
-      "impact_score": 81.4,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets - Reuters",
-      "summary": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets Reuters",
-      "impact_score": 81.0,
+      "title": "Weak PCE inflation eases pressure for Fed rate increases - Financial Times",
+      "summary": "Weak PCE inflation eases pressure for Fed rate increases Financial Times",
+      "impact_score": 82.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Pare Losses After Comments From Fed’s Williams - WSJ",
-      "summary": "U.S. Stocks Pare Losses After Comments From Fed’s Williams WSJ",
-      "impact_score": 81.0,
+      "title": "Global Bond Yields Fall on Mild U.S. Inflation - WSJ",
+      "summary": "Global Bond Yields Fall on Mild U.S. Inflation WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
@@ -28,29 +22,35 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Prices Mixed, But Production Recovery May Weigh",
-      "summary": "Oil Prices Mixed, But Production Recovery May Weigh WSJ",
-      "impact_score": 80.3,
+      "title": "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
+      "summary": "The Trump administration announced on Wednesday that it was launching a \"Default Loans Support Center\" for student loan borrowers who've fallen behind.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Stocks Pare Losses After Comments From Fed’s Williams - WSJ",
+      "summary": "U.S. Stocks Pare Losses After Comments From Fed’s Williams WSJ",
+      "impact_score": 79.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets - Reuters",
+      "summary": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets Reuters",
+      "impact_score": 77.5,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "October Prime Day 2026: The Amazon deals we're shopping from Hanes, Carhartt, Apple and more ahead of Prime Big Deal Days",
+      "summary": "October Prime Day 2026: The Amazon deals we're shopping from Hanes, Carhartt, Apple and more ahead of Prime Big Deal Days Yahoo",
+      "impact_score": 77.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "Watchdog warns about Fed’s ‘deficiencies’ - Financial Times",
-      "summary": "Watchdog warns about Fed’s ‘deficiencies’ Financial Times",
-      "impact_score": 80.1,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US Federal Reserve’s Williams sees one more interest rate hike in late 2026",
-      "summary": "US Federal Reserve’s Williams sees one more interest rate hike in late 2026 The Straits Times",
-      "impact_score": 79.2,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "A Simple Way to Take Advantage of Higher Yields - WSJ",
-      "summary": "A Simple Way to Take Advantage of Higher Yields WSJ",
-      "impact_score": 78.6,
-      "sentiment_score": -0.35
+      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
+      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
+      "impact_score": 76.9,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
