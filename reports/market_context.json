@@ -1,24 +1,18 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1842 articles from Yahoo Finance, simplywall.st, TradingView, MarketBeat, The Motley Fool. The dominant theme is macro, with 852 macro items, 553 company items, 385 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (297), inflation (192), oil/energy (112), growth/jobs (40). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 253 positive, 193 negative, and 1396 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1878 articles from finance.yahoo.com, Simply Wall Street, TradingView, MarketBeat, benzinga.com. The dominant theme is macro, with 872 macro items, 527 company items, 411 industry items, and 68 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (313), inflation (120), oil/energy (97), growth/jobs (42). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 266 positive, 195 negative, and 1417 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
-      "summary": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise Investor's Business Daily",
-      "impact_score": 86.7,
-      "sentiment_score": 0.08
+      "title": "Global Bond Rout Continues Even as 10-Year Treasury Yield Eases",
+      "summary": "Global Bond Rout Continues Even as 10-Year Treasury Yield Eases Barron's",
+      "impact_score": 84.2,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
-      "summary": "One of the pilots on a FlyDubai flight headed for Israel stabbed the second pilot, according to Israeli Prime Minister Benjamin Netanyahu.",
-      "impact_score": 83.8,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports",
-      "summary": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports Reuters",
-      "impact_score": 82.5,
+      "title": "Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data",
+      "summary": "Update: US Equity Indexes Rise as Treasury Yields Slide, Fed Rate-Increase Bets Fade Following Manufacturing, Labor Market Data finance.yahoo.com",
+      "impact_score": 81.6,
       "sentiment_score": 0.03
     },
     {
@@ -28,29 +22,35 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Mapping the Market: S&P 500 remains on the road to rally, but indecision runs high - Reuters",
-      "summary": "Mapping the Market: S&P 500 remains on the road to rally, but indecision runs high Reuters",
-      "impact_score": 80.1,
+      "title": "U.S. manufacturers say inflation is bad and not getting any better",
+      "summary": "American manufacturers are expanding and have plenty of new orders, but high energy prices and new Trump tariffs appear to be blocking even faster growth.",
+      "impact_score": 81.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
-      "summary": "The Trump administration announced on Wednesday that it was launching a \"Default Loans Support Center\" for student loan borrowers who've fallen behind.",
-      "impact_score": 79.2,
+      "title": "UK’s FTSE 100 Drops as Oil, Bond Yields Hit European Stocks - Bloomberg.com",
+      "summary": "UK’s FTSE 100 Drops as Oil, Bond Yields Hit European Stocks Bloomberg.com",
+      "impact_score": 81.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Dow Jones falls over 570 points from highs despite softer inflation print; Here's why - CNBC TV18",
-      "summary": "Dow Jones falls over 570 points from highs despite softer inflation print; Here's why CNBC TV18",
-      "impact_score": 79.2,
+      "title": "Trump Says Powell Should Be Forced to Resign From Fed Board - Bloomberg.com",
+      "summary": "Trump Says Powell Should Be Forced to Resign From Fed Board Bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Paramount’s mega debt sale reveals how higher bond yields are squeezing corporate America",
-      "summary": "‘Over the near term, we expect supply to fall off, unless someone has to borrow,’ says Invesco’s Matt Brill",
-      "impact_score": 77.8,
+      "title": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
+      "summary": "One of the pilots on a FlyDubai flight headed for Israel stabbed the second pilot, according to Israeli Prime Minister Benjamin Netanyahu.",
+      "impact_score": 80.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Wall Street dips as rising Treasury yields outweigh software gains - Reuters",
+      "summary": "Wall Street dips as rising Treasury yields outweigh software gains Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
