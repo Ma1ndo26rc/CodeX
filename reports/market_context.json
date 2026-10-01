@@ -1,25 +1,37 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1869 articles from Yahoo Finance, TradingView, simplywall.st, MarketBeat, The Motley Fool. The dominant theme is macro, with 913 macro items, 517 company items, 398 industry items, and 41 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (326), inflation (203), oil/energy (119), growth/jobs (31). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 250 positive, 202 negative, and 1417 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1842 articles from Yahoo Finance, simplywall.st, TradingView, MarketBeat, The Motley Fool. The dominant theme is macro, with 852 macro items, 553 company items, 385 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (297), inflation (192), oil/energy (112), growth/jobs (40). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 253 positive, 193 negative, and 1396 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Weak PCE inflation eases pressure for Fed rate increases - Financial Times",
-      "summary": "Weak PCE inflation eases pressure for Fed rate increases Financial Times",
-      "impact_score": 82.1,
+      "title": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise",
+      "summary": "Dow Jones Futures: Micron Earnings Crush Views, S&P 500 At Critical Level As Treasury Yields Rise Investor's Business Daily",
+      "impact_score": 86.7,
+      "sentiment_score": 0.08
+    },
+    {
+      "title": "Passengers and crew foil co-pilot's apparent attempt to crash FlyDubai flight to Israel",
+      "summary": "One of the pilots on a FlyDubai flight headed for Israel stabbed the second pilot, according to Israeli Prime Minister Benjamin Netanyahu.",
+      "impact_score": 83.8,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports",
+      "summary": "Oil prices barely changed as investors assess US-Iran peace talks and Gulf exports Reuters",
+      "impact_score": 82.5,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+      "summary": "Kashkari sat down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Global Bond Yields Fall on Mild U.S. Inflation - WSJ",
-      "summary": "Global Bond Yields Fall on Mild U.S. Inflation WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Bond Yields Keep Rising Despite Drop in Oil Price, Dovish Fed Speech - WSJ",
-      "summary": "Bond Yields Keep Rising Despite Drop in Oil Price, Dovish Fed Speech WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
+      "title": "Mapping the Market: S&P 500 remains on the road to rally, but indecision runs high - Reuters",
+      "summary": "Mapping the Market: S&P 500 remains on the road to rally, but indecision runs high Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
     },
     {
       "title": "Treasury launches student loan support center as new data show 9.3 million borrowers in default",
@@ -28,28 +40,16 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. Stocks Pare Losses After Comments From Fed’s Williams - WSJ",
-      "summary": "U.S. Stocks Pare Losses After Comments From Fed’s Williams WSJ",
-      "impact_score": 79.0,
+      "title": "Dow Jones falls over 570 points from highs despite softer inflation print; Here's why - CNBC TV18",
+      "summary": "Dow Jones falls over 570 points from highs despite softer inflation print; Here's why CNBC TV18",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets - Reuters",
-      "summary": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets Reuters",
-      "impact_score": 77.5,
+      "title": "Paramount’s mega debt sale reveals how higher bond yields are squeezing corporate America",
+      "summary": "‘Over the near term, we expect supply to fall off, unless someone has to borrow,’ says Invesco’s Matt Brill",
+      "impact_score": 77.8,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "October Prime Day 2026: The Amazon deals we're shopping from Hanes, Carhartt, Apple and more ahead of Prime Big Deal Days",
-      "summary": "October Prime Day 2026: The Amazon deals we're shopping from Hanes, Carhartt, Apple and more ahead of Prime Big Deal Days Yahoo",
-      "impact_score": 77.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-      "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
-      "impact_score": 76.9,
-      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
