@@ -1,25 +1,19 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1809 articles from Yahoo Finance, Simply Wall Street, MarketBeat, TradingView, Stocktwits. The dominant theme is macro, with 892 macro items, 524 company items, 346 industry items, and 47 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (286), growth/jobs (147), oil/energy (123), inflation (120). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 284 positive, 205 negative, and 1320 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1799 articles from Yahoo Finance, TradingView, MarketBeat, Simply Wall Street, Yahoo! Finance Canada. The dominant theme is macro, with 869 macro items, 545 company items, 337 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (272), growth/jobs (159), inflation (127), oil/energy (114). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 274 positive, 199 negative, and 1326 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "US Dollar Nears 18-Month Peak Against The Loonie as Treasury Yields Stay High",
-      "summary": "US Dollar Nears 18-Month Peak Against The Loonie as Treasury Yields Stay High Yahoo Finance",
-      "impact_score": 86.4,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "IEA's Birol says oil prices starting to fall after reserve release decision",
-      "summary": "IEA's Birol says oil prices starting to fall after reserve release decision Reuters",
-      "impact_score": 85.7,
-      "sentiment_score": -0.16
+      "title": "TSX pares weekly decline as investors reduce Fed rate hike bets - Reuters",
+      "summary": "TSX pares weekly decline as investors reduce Fed rate hike bets Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
     },
     {
       "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
       "summary": "U.S. Treasury yields rose despite a September jobs report came in much weaker than expected.",
-      "impact_score": 83.9,
-      "sentiment_score": -0.16
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
     },
     {
       "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
@@ -40,16 +34,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "More Amazon Prime settlement payments are on the way. Who qualifies?",
-      "summary": "More Amazon Prime settlement payments are on the way. Who qualifies? Yahoo Finance",
-      "impact_score": 80.5,
+      "title": "Brent Crude Is Now Trading Above $100. What Does That Mean For the Crypto Market?",
+      "summary": "Brent Crude Is Now Trading Above $100. What Does That Mean For the Crypto Market? Yahoo Finance",
+      "impact_score": 81.1,
       "sentiment_score": 0.03
     },
     {
-      "title": "Nvidia Shares Jump to Record High After Strong AI Growth",
-      "summary": "Nvidia Shares Jump to Record High After Strong AI Growth Yahoo Finance",
-      "impact_score": 79.2,
-      "sentiment_score": 0.5
+      "title": "Oil prices drop as G7 nations pledge to release diesel stocks; Saudis said planning attack on Houthis",
+      "summary": "Oil prices drop as G7 nations pledge to release diesel stocks; Saudis said planning attack on Houthis Seeking Alpha",
+      "impact_score": 80.7,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "US justice department will not reopen criminal probe of Fed’s Jay Powell - Financial Times",
+      "summary": "US justice department will not reopen criminal probe of Fed’s Jay Powell Financial Times",
+      "impact_score": 80.1,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, growth/jobs, inflation"
