@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1799 articles from Yahoo Finance, TradingView, MarketBeat, Simply Wall Street, Yahoo! Finance Canada. The dominant theme is macro, with 869 macro items, 545 company items, 337 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (272), growth/jobs (159), inflation (127), oil/energy (114). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 274 positive, 199 negative, and 1326 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1827 articles from Yahoo Finance, TradingView, MarketBeat, Investing.com, Simply Wall Street. The dominant theme is macro, with 800 macro items, 541 company items, 438 industry items, and 48 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (259), inflation (120), oil/energy (112), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 383 positive, 190 negative, and 1254 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "TSX pares weekly decline as investors reduce Fed rate hike bets - Reuters",
-      "summary": "TSX pares weekly decline as investors reduce Fed rate hike bets Reuters",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
+      "title": "Oil prices slip as traders weigh strong Mideast exports against Gulf tensions",
+      "summary": "Oil prices slip as traders weigh strong Mideast exports against Gulf tensions reuters.com",
+      "impact_score": 85.6,
+      "sentiment_score": 0.12
     },
     {
-      "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
-      "summary": "U.S. Treasury yields rose despite a September jobs report came in much weaker than expected.",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
-      "summary": "Odds tumbled after a jobs report showed a soft labor market, leading more traders to lower the the chances of a fed funds rate increase this month.",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report - CNBC",
-      "summary": "Traders now see little chance of a Fed rate hike in October after weak jobs report CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report - CNBC",
-      "summary": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Brent Crude Is Now Trading Above $100. What Does That Mean For the Crypto Market?",
-      "summary": "Brent Crude Is Now Trading Above $100. What Does That Mean For the Crypto Market? Yahoo Finance",
-      "impact_score": 81.1,
+      "title": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations",
+      "summary": "Gold holds near $4,140 as dollar, yields offset lower Fed hike expectations Yahoo Finance Singapore",
+      "impact_score": 81.5,
       "sentiment_score": 0.03
     },
     {
-      "title": "Oil prices drop as G7 nations pledge to release diesel stocks; Saudis said planning attack on Houthis",
-      "summary": "Oil prices drop as G7 nations pledge to release diesel stocks; Saudis said planning attack on Houthis Seeking Alpha",
-      "impact_score": 80.7,
-      "sentiment_score": -0.16
+      "title": "World shares advance and oil prices fall as worries over inflation ease - BNN Bloomberg",
+      "summary": "World shares advance and oil prices fall as worries over inflation ease BNN Bloomberg",
+      "impact_score": 81.1,
+      "sentiment_score": -0.35
     },
     {
-      "title": "US justice department will not reopen criminal probe of Fed’s Jay Powell - Financial Times",
-      "summary": "US justice department will not reopen criminal probe of Fed’s Jay Powell Financial Times",
+      "title": "Stocks are hitting records despite surging yields. Cramer explains why",
+      "summary": "CNBC’s Jim Cramer said Nvidia, Microsoft and Meta are helping push stocks to records even as surging Treasury yields pressure much of the broader market.",
+      "impact_score": 80.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Gold steady as stronger dollar and high yields offset waning Fed hike expectations - CNBC",
+      "summary": "Gold steady as stronger dollar and high yields offset waning Fed hike expectations CNBC",
+      "impact_score": 80.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
+      "summary": "WHO said it was in contact with Russian authorities, and has offered support if needed, while assessing the risk to the general public as low based on available information.",
       "impact_score": 80.1,
-      "sentiment_score": -0.35
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Nasdaq Hits New Record as Bond Yields March Higher - WSJ",
+      "summary": "Nasdaq Hits New Record as Bond Yields March Higher WSJ",
+      "impact_score": 79.7,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease - Yahoo Finance",
+      "summary": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease Yahoo Finance",
+      "impact_score": 78.5,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, growth/jobs, inflation"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
