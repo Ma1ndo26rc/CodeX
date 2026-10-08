@@ -1,55 +1,55 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1844 articles from Yahoo Finance, Simply Wall Street, TradingView, MarketBeat, Benzinga. The dominant theme is macro, with 862 macro items, 525 company items, 402 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (337), oil/energy (145), inflation (115), growth/jobs (30). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 319 positive, 209 negative, and 1316 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1837 articles from Yahoo Finance, Simply Wall Street, TradingView, MarketBeat, The Motley Fool. The dominant theme is macro, with 893 macro items, 537 company items, 364 industry items, and 43 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (339), oil/energy (122), inflation (120), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 290 positive, 198 negative, and 1349 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Most Fed Officials See Another Rate Hike This Year but Leave Timing Open",
-      "summary": "Most Fed Officials See Another Rate Hike This Year but Leave Timing Open Barron's",
-      "impact_score": 95.9,
-      "sentiment_score": -0.32
+      "title": "Fed Sees Higher Rates Ahead Even as Borrowing Costs Climb",
+      "summary": "Fed Sees Higher Rates Ahead Even as Borrowing Costs Climb Bloomberg.com",
+      "impact_score": 85.6,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Microsoft Says New Laptop With Nvidia Chip Outperforms MacBooks",
-      "summary": "Microsoft Says New Laptop With Nvidia Chip Outperforms MacBooks Bloomberg.com",
-      "impact_score": 87.7,
-      "sentiment_score": 0.03
+      "title": "Oil gains as Middle East hostilities stoke supply worries",
+      "summary": "President Donald Trump and his national security team have talked about possibly restarting large-scale U.S. military operations in Iran in the coming weeks, NBC News reported.",
+      "impact_score": 85.0,
+      "sentiment_score": 0.16
     },
     {
-      "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
-      "summary": "U.S. Treasury yields came off their highs after a solid sale of 10-year notes.",
-      "impact_score": 83.8,
-      "sentiment_score": 0.03
+      "title": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs - WSJ",
+      "summary": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
     },
     {
       "title": "Oil prices fall as IEA members agree to prioritize release of diesel stocks",
       "summary": "Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has also led to renewed worries over oil supplies among traders.",
-      "impact_score": 82.0,
+      "impact_score": 80.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Yields Fall From 2002 High as Oil Dips, Bessent Vows On Debt - Bloomberg.com",
-      "summary": "US Yields Fall From 2002 High as Oil Dips, Bessent Vows On Debt Bloomberg.com",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
+      "title": "U.S. loaning $4.2 billion to energy firm with crashing stock",
+      "summary": "U.S. loaning $4.2 billion to energy firm with crashing stock Yahoo Finance",
+      "impact_score": 79.9,
+      "sentiment_score": -0.16
     },
     {
-      "title": "Oil prices fall as IEA agrees to accelerate oil stock release - Reuters",
-      "summary": "Oil prices fall as IEA agrees to accelerate oil stock release Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
+      "title": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds From Session Lows As Treasury Yields Drop",
+      "summary": "NASDAQ Index, SP500, Dow Jones Forecasts – NASDAQ Rebounds From Session Lows As Treasury Yields Drop FXEmpire",
+      "impact_score": 79.3,
+      "sentiment_score": -0.16
     },
     {
-      "title": "10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears - CNBC",
-      "summary": "10-year Treasury yield falls from 24-year high after solid bond auction eases demand fears CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
+      "title": "Today’s Market Recap: 10-Year Treasury Yield Hits Highest Since 2002，U.S. Stocks Fall as Brent Barely Holds $100",
+      "summary": "Today’s Market Recap: 10-Year Treasury Yield Hits Highest Since 2002，U.S. Stocks Fall as Brent Barely Holds $100 TradingKey",
+      "impact_score": 78.3,
+      "sentiment_score": -0.16
     },
     {
-      "title": "FTSE 100 Falls as US Treasury Yields Rise and Mining Stocks Decline - Yahoo Finance UK",
-      "summary": "FTSE 100 Falls as US Treasury Yields Rise and Mining Stocks Decline Yahoo Finance UK",
-      "impact_score": 79.4,
-      "sentiment_score": -0.35
+      "title": "Samsung forecasts record third-quarter profit of $80 billion as AI boom fuels chip demand",
+      "summary": "Samsung Electronics reported preliminary third-quarter earnings on Thursday, with operating profit forecast to top 100 trillion won for the first time.",
+      "impact_score": 77.8,
+      "sentiment_score": 0.16
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
