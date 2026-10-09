@@ -1,18 +1,18 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1867 articles from Yahoo Finance, Simply Wall Street, MarketBeat, TradingView, Stocktwits. The dominant theme is macro, with 875 macro items, 563 company items, 376 industry items, and 53 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (314), oil/energy (179), inflation (169), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 303 positive, 233 negative, and 1331 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1875 articles from Yahoo Finance, Simply Wall Street, MarketBeat, TradingView, Stocktwits. The dominant theme is macro, with 852 macro items, 588 company items, 369 industry items, and 66 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (294), oil/energy (185), inflation (176), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 274 positive, 254 negative, and 1347 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs - WSJ",
-      "summary": "U.S. Stocks Fall as Treasury Yields Test Multidecade Highs WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
+      "title": "Nvidia-backed Aussie AI firm Firmus withdraws historic IPO, citing market volatility",
+      "summary": "Nvidia-backed Australian AI data center operator Firmus has withdrawn its planned IPO amid market volatility.",
+      "impact_score": 81.3,
+      "sentiment_score": 0.03
     },
     {
-      "title": "AI Bubble Risks Worst S&P 500 Crash Since 2008, Strategist Says - Bloomberg.com",
-      "summary": "AI Bubble Risks Worst S&P 500 Crash Since 2008, Strategist Says Bloomberg.com",
-      "impact_score": 80.7,
+      "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled - BNN Bloomberg",
+      "summary": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled BNN Bloomberg",
+      "impact_score": 81.1,
       "sentiment_score": -0.35
     },
     {
@@ -22,33 +22,33 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. suspends Microsoft, Adobe from green card labor program in foreign worker crackdown",
-      "summary": "Labor Secretary Keith Sonderling cited \"multiple active federal investigations\" around the two companies' involvement in the program Thursday.",
-      "impact_score": 79.2,
+      "title": "AI Bubble Risks Worst S&P 500 Crash Since 2008, Strategist Says - Bloomberg.com",
+      "summary": "AI Bubble Risks Worst S&P 500 Crash Since 2008, Strategist Says Bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "US stock market today | Dow, S&P 500, Nasdaq futures fall as inflation worries weigh on sentiment - CNBC TV18",
-      "summary": "US stock market today | Dow, S&P 500, Nasdaq futures fall as inflation worries weigh on sentiment CNBC TV18",
-      "impact_score": 79.2,
+      "title": "Treasury Yields Fall After 30-Year Bond Sale",
+      "summary": "Treasury Yields Fall After 30-Year Bond Sale Oz Arab Media",
+      "impact_score": 80.4,
+      "sentiment_score": 0.12
+    },
+    {
+      "title": "Oil Edges Lower; Prices Likely to Remain High in Short Term",
+      "summary": "Oil Edges Lower; Prices Likely to Remain High in Short Term WSJ",
+      "impact_score": 80.4,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Stock Market Today (Oct. 8, 2025): Nasdaq falls on surging oil prices, Treasury yields - Yahoo Finance Singapore",
+      "summary": "Stock Market Today (Oct. 8, 2025): Nasdaq falls on surging oil prices, Treasury yields Yahoo Finance Singapore",
+      "impact_score": 79.4,
       "sentiment_score": -0.35
     },
     {
-      "title": "Fed's Musalem says lowering inflation will require more rate hikes",
-      "summary": "Fed's Musalem says lowering inflation will require more rate hikes MSN",
+      "title": "Treasury yields are 'really, really high' but can come down soon, Bessent's new advisor says",
+      "summary": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
       "impact_score": 79.2,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Trump says U.S. will not attack Iran before midterm election",
-      "summary": "Trump said talks with Tehran were “productive” as the Iran war pushes oil and gas prices higher and support for the conflict falls.",
-      "impact_score": 78.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US Stock Futures Fall as AI Debt Financing, Rising Bond Yields and Oil Prices Weigh on Markets: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "summary": "US Stock Futures Fall as AI Debt Financing, Rising Bond Yields and Oil Prices Weigh on Markets: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance",
-      "impact_score": 77.8,
       "sentiment_score": -0.35
     }
   ],
