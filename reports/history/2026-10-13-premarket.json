@@ -1,0 +1,4913 @@
+{
+  "report_type": "premarket",
+  "report_label": "Pre-Market Brief",
+  "generated_at": "2026-10-13T19:34:56.822372+00:00",
+  "market_session": "US Pre-Market",
+  "source_window": "Previous 24 hours through the pre-market cutoff",
+  "data_freshness_warning": false,
+  "dynamic_headline": "inflation leads a constructive but selective pre-market setup.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 40 articles from CNBC Markets, MarketWatch. The dominant theme is macro, with 16 macro items, 10 company items, 10 industry items, and 4 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "market_narrative": {
+    "headline": "inflation keeps risk appetite constructive but selective as investors await confirmation",
+    "summary": "US equities are carrying a constructive but selective bias as inflation, Fed/rates, tariffs/policy shape positioning. Investors are balancing selective leadership against the risk that policy, rates or growth data broadens the pressure.",
+    "key_forces": [
+      {
+        "label": "Positive driver",
+        "text": "Selective support from inflation"
+      },
+      {
+        "label": "Negative driver",
+        "text": "Headline and policy uncertainty keep the risk premium elevated"
+      },
+      {
+        "label": "Main theme",
+        "text": "Positioning is waiting for confirmation from futures, Treasury yields and opening breadth"
+      }
+    ],
+    "watch_next": [
+      "futures, Treasury yields and opening breadth",
+      "Upcoming macro data",
+      "Fed communication and policy headlines",
+      "Earnings and sector guidance"
+    ]
+  },
+  "index_performance_summary": "Nasdaq and growth indexes should be the most sensitive part of the tape when AI, semiconductor, mega-cap tech, or guidance stories dominate. S&P 500 direction is likely to remain tied to Treasury yields, Fed expectations, inflation data, and broad risk appetite. Dow and equal-weight exposure may react more to policy, regulation, tariff, and industrial-cycle headlines.",
+  "macro_outlook": "Macro coverage is concentrated around inflation (4), oil/energy (2), Fed/rates (2), tariffs/policy (1). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_and_sentiment": "Sentiment is constructive but selective: 5 positive, 2 negative, and 33 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "key_drivers": [
+    {
+      "name": "inflation",
+      "importance_score": 90,
+      "explanation": "inflation is prominent in the latest market coverage and may influence positioning.",
+      "affected_assets": [
+        "US equities"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "Fed/rates",
+      "importance_score": 80,
+      "explanation": "Fed/rates is prominent in the latest market coverage and may influence positioning.",
+      "affected_assets": [
+        "US equities"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "tariffs/policy",
+      "importance_score": 70,
+      "explanation": "tariffs/policy is prominent in the latest market coverage and may influence positioning.",
+      "affected_assets": [
+        "US equities"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "oil/energy",
+      "importance_score": 60,
+      "explanation": "oil/energy is prominent in the latest market coverage and may influence positioning.",
+      "affected_assets": [
+        "US equities"
+      ],
+      "translations": {}
+    }
+  ],
+  "sector_theme_impact": {
+    "winners": [
+      "Defensive and cash-generative sectors if risk appetite weakens"
+    ],
+    "losers": [
+      "High-duration growth exposure if yields rise"
+    ],
+    "themes_to_watch": [
+      "inflation",
+      "Fed/rates",
+      "tariffs/policy",
+      "oil/energy"
+    ]
+  },
+  "macro_analysis": {
+    "market_regime": {
+      "title": "Late Cycle",
+      "title_zh": "",
+      "summary": "The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk.",
+      "summary_zh": "",
+      "key_takeaway": "Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent.",
+      "key_takeaway_zh": "",
+      "stance": "Cautious / Mixed",
+      "stance_zh": "",
+      "confidence": "55"
+    },
+    "themes": [
+      {
+        "title": "Fed Policy & Rate Path",
+        "title_zh": "",
+        "current_view": "Fed policy is still restrictive, but investors are watching whether softer data pulls rate-cut expectations forward.",
+        "current_view_zh": "",
+        "what_changed": "The rate path is becoming the main valuation channel for long-duration equity exposure.",
+        "what_changed_zh": "",
+        "why_it_matters": "Rate cuts support multiples, but cuts driven by weaker growth can also pressure earnings expectations.",
+        "why_it_matters_zh": "",
+        "market_impact": {
+          "equities": "Neutral for indexes, supportive for duration if growth holds.",
+          "rates": "Bullish if data softens.",
+          "sectors": [
+            "Positive: Technology and rate-sensitive growth",
+            "Negative: Banks if yield curves flatten"
+          ]
+        },
+        "market_impact_zh": {
+          "equities": "",
+          "rates": "",
+          "sectors": []
+        },
+        "watch_next": [
+          "CPI",
+          "FOMC",
+          "Fed speakers"
+        ],
+        "watch_next_zh": []
+      },
+      {
+        "title": "Growth & Labor Market",
+        "title_zh": "",
+        "current_view": "Growth risk is the key constraint on equity upside.",
+        "current_view_zh": "",
+        "what_changed": "Investors need to separate healthy cooling from recession risk.",
+        "what_changed_zh": "",
+        "why_it_matters": "Labor and demand data affect both forward earnings and the policy reaction function.",
+        "why_it_matters_zh": "",
+        "market_impact": {
+          "equities": "Cautious until breadth confirms resilience.",
+          "rates": "Lower yields if growth slows.",
+          "sectors": [
+            "Positive: Defensives",
+            "Negative: Cyclicals and small caps"
+          ]
+        },
+        "market_impact_zh": {
+          "equities": "",
+          "rates": "",
+          "sectors": []
+        },
+        "watch_next": [
+          "Payrolls",
+          "Jobless claims",
+          "ISM"
+        ],
+        "watch_next_zh": []
+      },
+      {
+        "title": "AI & Technology Leadership",
+        "title_zh": "",
+        "current_view": "AI leadership remains the strongest equity-specific macro channel.",
+        "current_view_zh": "",
+        "what_changed": "Mega-cap technology and semiconductor narratives continue to carry index leadership.",
+        "what_changed_zh": "",
+        "why_it_matters": "Concentrated leadership can support indexes while also raising valuation and crowding risk.",
+        "why_it_matters_zh": "",
+        "market_impact": {
+          "equities": "Supportive for Nasdaq if yields remain contained.",
+          "rates": "Sensitive to discount-rate repricing.",
+          "sectors": [
+            "Positive: Semiconductors and cloud infrastructure",
+            "Negative: Unprofitable long-duration growth"
+          ]
+        },
+        "market_impact_zh": {
+          "equities": "",
+          "rates": "",
+          "sectors": []
+        },
+        "watch_next": [
+          "AI capex updates",
+          "Semiconductor guidance",
+          "Mega-cap earnings"
+        ],
+        "watch_next_zh": []
+      },
+      {
+        "title": "Earnings & Valuation",
+        "title_zh": "",
+        "current_view": "The equity market needs earnings delivery to justify elevated multiples.",
+        "current_view_zh": "",
+        "what_changed": "Macro sensitivity is shifting from inflation-only toward margins, guidance and demand durability.",
+        "what_changed_zh": "",
+        "why_it_matters": "Valuation leaves less room for disappointment when growth signals weaken.",
+        "why_it_matters_zh": "",
+        "market_impact": {
+          "equities": "Neutral / cautious until guidance broadens.",
+          "rates": "Lower yields can help multiples but not earnings.",
+          "sectors": [
+            "Positive: Quality compounders",
+            "Negative: Margin-sensitive cyclicals"
+          ]
+        },
+        "market_impact_zh": {
+          "equities": "",
+          "rates": "",
+          "sectors": []
+        },
+        "watch_next": [
+          "Earnings season",
+          "Margin guidance",
+          "Buyback commentary"
+        ],
+        "watch_next_zh": []
+      }
+    ],
+    "asset_view": {
+      "equities": {
+        "view": "Neutral / Cautious",
+        "reason": "Policy support is partly offset by growth and earnings uncertainty."
+      },
+      "equities_zh": "",
+      "rates": {
+        "view": "Bullish / data-dependent",
+        "reason": "Softer data would support lower yields, but inflation surprises remain a risk."
+      },
+      "rates_zh": "",
+      "growth_stocks": {
+        "view": "Supported but crowded",
+        "reason": "Duration exposure benefits from lower yields, while valuation leaves limited margin for error."
+      },
+      "growth_stocks_zh": "",
+      "financials": {
+        "view": "Mixed",
+        "reason": "Lower yields can pressure net interest margins while a softer economy raises credit sensitivity."
+      },
+      "financials_zh": "",
+      "sectors": [
+        {
+          "positive": [
+            "Technology",
+            "Defensives"
+          ],
+          "negative": [
+            "Cyclicals",
+            "Small caps"
+          ]
+        }
+      ],
+      "sectors_zh": []
+    },
+    "watch_next": {
+      "macro_data": [
+        "CPI",
+        "Payrolls",
+        "ISM"
+      ],
+      "macro_data_zh": [],
+      "policy": [
+        "FOMC",
+        "Fed speakers",
+        "Treasury auctions"
+      ],
+      "policy_zh": [],
+      "company_events": [
+        "Earnings season",
+        "AI capex updates",
+        "Semiconductor guidance"
+      ],
+      "company_events_zh": []
+    }
+  },
+  "what_to_watch_tomorrow": [
+    {
+      "item": "Futures, Treasury yields and opening breadth",
+      "type": "today's watchlist",
+      "why_it_matters": "They will show whether overnight headlines are translating into a confirmed cash-session move.",
+      "translations": {}
+    }
+  ],
+  "market_data": {
+    "as_of": "2026-10-13T19:34:52.001391",
+    "items": [
+      {
+        "name": "SPY",
+        "symbol": "SPY",
+        "price": 778.57,
+        "change": 0.0,
+        "change_pct": 0.0,
+        "market_time": 1791920089
+      },
+      {
+        "name": "QQQ",
+        "symbol": "QQQ",
+        "price": 743.638,
+        "change": -7.632,
+        "change_pct": -1.016,
+        "market_time": 1791920090
+      },
+      {
+        "name": "DOW",
+        "symbol": "DIA",
+        "price": 516.775,
+        "change": 0.665,
+        "change_pct": 0.129,
+        "market_time": 1791920080
+      },
+      {
+        "name": "VIX",
+        "symbol": "^VIX",
+        "price": 15.44,
+        "change": 0.23,
+        "change_pct": 1.512,
+        "market_time": 1791919186
+      }
+    ]
+  },
+  "key_events": [
+    {
+      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+      "entities": [
+        "Thousands"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Adjustable-rate mortgages with low introductory interest rates are facing their first adjustment at a time when rates are much higher, according to new data.",
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "topics": [
+        "Fed / Rates",
+        "Macro"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+        "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-31295352",
+        "https://images.mktw.net/im-94248093"
+      ],
+      "image_paths": [
+        "/home/runner/work/CodeX/CodeX/reports/assets/images/event_01_01.jpg"
+      ],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 100,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 76.5,
+      "translations": {}
+    },
+    {
+      "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
+      "entities": [
+        "Elon Musk",
+        "Republican"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.",
+      "market_impact_score": 72,
+      "sentiment_score": 0.35,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "topics": [
+        "Company News",
+        "Macro"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "CNBC Markets",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+        "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
+        "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-67299659"
+      ],
+      "image_paths": [
+        "/home/runner/work/CodeX/CodeX/reports/assets/images/event_02_01.jpg"
+      ],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 90,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 76.3,
+      "translations": {}
+    },
+    {
+      "title": "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Anticipation is building for Anthropic’s investor day as Wall Street grows less patient with heavy AI spending.",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "topics": [
+        "AI",
+        "Semiconductor",
+        "Macro",
+        "Company News"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "MarketWatch",
+        "MarketWatch",
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+        "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-19968872",
+        "https://images.mktw.net/im-60506026"
+      ],
+      "image_paths": [
+        "/home/runner/work/CodeX/CodeX/reports/assets/images/event_03_01.jpg"
+      ],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 90,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 75.4,
+      "translations": {}
+    },
+    {
+      "title": "More Republicans come out against Trump's diesel deal with Putin",
+      "entities": [
+        "More Republicans",
+        "Trump",
+        "Putin"
+      ],
+      "sector": "industry",
+      "event_type": "sector_trend",
+      "summary": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
+      "market_impact_score": 66,
+      "sentiment_score": 0.35,
+      "time_horizon": "short-term",
+      "why_it_matters": "Industry stories matter when they change expectations for sector leadership, pricing power, or capex cycles. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "topics": [
+        "Geopolitics"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch",
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+        "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+        "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-73320971"
+      ],
+      "image_paths": [
+        "/home/runner/work/CodeX/CodeX/reports/assets/images/event_04_01.jpg"
+      ],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 95,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 74.6,
+      "translations": {}
+    },
+    {
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "entities": [],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+      "market_impact_score": 68,
+      "sentiment_score": -0.25,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch",
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+        "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+        "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-60506026"
+      ],
+      "image_paths": [
+        "/home/runner/work/CodeX/CodeX/reports/assets/images/event_05_01.jpg"
+      ],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 90,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 74.5,
+      "translations": {}
+    },
+    {
+      "title": "Kimberly Guilfoyle resigns as ambassador to Greece at White House's request",
+      "entities": [
+        "Kimberly Guilfoyle",
+        "Greece",
+        "White House"
+      ],
+      "sector": "policy",
+      "event_type": "regulation_policy",
+      "summary": "Guilfoyle's announcement came after new White House press secretary Katie Zacharia said in her debut briefing that the ambassador had been asked to resign.",
+      "market_impact_score": 66,
+      "sentiment_score": 0.03,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Policy stories can change regulatory risk, cost structures, and investor appetite for exposed sectors. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html",
+        "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-31295352"
+      ],
+      "image_paths": [],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 90,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 73.6,
+      "translations": {}
+    },
+    {
+      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "entities": [
+        "Italy"
+      ],
+      "sector": "macro",
+      "event_type": "monetary_policy",
+      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "market_impact_score": 70,
+      "sentiment_score": -0.25,
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Macro stories can reset discount rates, earnings multiples, and broad risk appetite. For this item, the relevant market lens is US equities, S&P 500, US Treasuries. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "S&P 500",
+        "US Treasuries"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "MarketWatch",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-67299659",
+        "https://images.mktw.net/im-73320971",
+        "https://images.mktw.net/im-86790018"
+      ],
+      "image_paths": [],
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 90,
+      "freshness_score": 72,
+      "confidence_score": 56.3,
+      "final_score": 71.6,
+      "translations": {}
+    },
+    {
+      "title": "The AI trade is cracking. Here's how to profit",
+      "entities": [
+        "Here"
+      ],
+      "sector": "industry",
+      "event_type": "earnings",
+      "summary": "Despite the Magnificent Seven making record highs, the The AI trade is showing signs of cracks. But there may be an opportunity for traders.",
+      "market_impact_score": 66,
+      "sentiment_score": 0.35,
+      "time_horizon": "short-term",
+      "why_it_matters": "Industry stories matter when they change expectations for sector leadership, pricing power, or capex cycles. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "topics": [
+        "AI",
+        "Earnings"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+        "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-60506026",
+        "https://images.mktw.net/im-73320971"
+      ],
+      "image_paths": [],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 76,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 70.8,
+      "translations": {}
+    },
+    {
+      "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+      "entities": [
+        "JPMorgan Chase",
+        "Muse",
+        "Instinct"
+      ],
+      "sector": "company",
+      "event_type": "sector_trend",
+      "summary": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
+      "market_impact_score": 64,
+      "sentiment_score": 0.03,
+      "time_horizon": "short-term",
+      "why_it_matters": "Company-specific stories can spill over into peers when they involve guidance, demand, margins, or capital allocation. For this item, the relevant market lens is US equities, Nasdaq, Financials. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq",
+        "Financials"
+      ],
+      "topics": [
+        "AI",
+        "Company News"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "MarketWatch",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+        "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+        "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-31295352",
+        "https://images.mktw.net/im-94711045"
+      ],
+      "image_paths": [],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 76,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 69.9,
+      "translations": {}
+    },
+    {
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "entities": [
+        "UnitedHealth Group"
+      ],
+      "sector": "company",
+      "event_type": "earnings",
+      "summary": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+      "market_impact_score": 68,
+      "sentiment_score": 0.35,
+      "time_horizon": "short-term",
+      "why_it_matters": "Company-specific stories can spill over into peers when they involve guidance, demand, margins, or capital allocation. For this item, the relevant market lens is US equities, Nasdaq. My practical read is to watch whether the headline creates follow-through in related ETFs, peers, or index breadth.",
+      "affected_markets": [
+        "US equities",
+        "Nasdaq"
+      ],
+      "topics": [
+        "Earnings",
+        "Company News"
+      ],
+      "related_tickers": [],
+      "priority_level": "High",
+      "source_names": [
+        "CNBC Markets",
+        "CNBC Markets",
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+        "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+        "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories"
+      ],
+      "image_urls": [
+        "https://images.mktw.net/im-31295352"
+      ],
+      "image_paths": [],
+      "source_quality_score": 88,
+      "source_count": 2,
+      "cross_source_frequency": 55,
+      "macro_weight": 58,
+      "freshness_score": 72,
+      "confidence_score": 73.2,
+      "final_score": 68.1,
+      "translations": {}
+    }
+  ],
+  "todays_themes": [
+    {
+      "name": "Geopolitics",
+      "importance_score": 87.9,
+      "affected_sectors": [
+        "Macro",
+        "industry"
+      ],
+      "related_tickers": [
+        "More Republicans",
+        "Trump",
+        "Putin"
+      ],
+      "explanation": "Geopolitics is a leading market theme today, led by Airport attacks put aviation in crosshairs of geopolitical conflicts.",
+      "related_events": [
+        "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+        "More Republicans come out against Trump's diesel deal with Putin",
+        "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "Macro",
+      "importance_score": 84.5,
+      "affected_sectors": [
+        "macro",
+        "policy"
+      ],
+      "related_tickers": [
+        "Thousands",
+        "Elon Musk",
+        "Republican",
+        "Kimberly Guilfoyle",
+        "Greece",
+        "White House",
+        "Italy"
+      ],
+      "explanation": "Macro is a leading market theme today, led by Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments.",
+      "related_events": [
+        "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+        "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
+        "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "Fed / Rates",
+      "importance_score": 84.4,
+      "affected_sectors": [
+        "Macro"
+      ],
+      "related_tickers": [
+        "Thousands"
+      ],
+      "explanation": "Fed / Rates is a leading market theme today, led by Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments.",
+      "related_events": [
+        "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+        "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "AI",
+      "importance_score": 83.4,
+      "affected_sectors": [
+        "macro",
+        "Technology",
+        "industry",
+        "company"
+      ],
+      "related_tickers": [
+        "Here",
+        "META",
+        "JPMorgan Chase",
+        "Muse",
+        "Instinct"
+      ],
+      "explanation": "AI is a leading market theme today, led by AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months.",
+      "related_events": [
+        "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+        "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+        "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "Semiconductor",
+      "importance_score": 81.4,
+      "affected_sectors": [
+        "macro",
+        "Technology"
+      ],
+      "related_tickers": [
+        "MU"
+      ],
+      "explanation": "Semiconductor is a leading market theme today, led by AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months.",
+      "related_events": [
+        "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+        "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+        "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months"
+      ],
+      "translations": {}
+    },
+    {
+      "name": "Oil / Energy",
+      "importance_score": 81.3,
+      "affected_sectors": [
+        "Macro"
+      ],
+      "related_tickers": [],
+      "explanation": "Oil / Energy is a leading market theme today, led by Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict.",
+      "related_events": [
+        "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+        "French supermarket fridges get hacked, heating to 122°F and sparking fires"
+      ],
+      "translations": {}
+    }
+  ],
+  "news_items": [
+    {
+      "title": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
+      "summary": "The iPhone maker also announced the new Apple TV 4K and HomePod Mini.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 38,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+      "image_url": "",
+      "published_at": "2026-10-13T19:23:39+00:00",
+      "tickers": [
+        "AAPL"
+      ],
+      "keywords": [
+        "Apple",
+        "AI",
+        "TV"
+      ],
+      "topics": [
+        "AI",
+        "Big Tech",
+        "Low Priority"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 15,
+      "freshness_score": 100,
+      "priority_level": "Low",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "summary": "The billionaire investor said that corporate buybacks, along with mergers and acquisitions, that have been a tail wind for the bull market are about to turn.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 53,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+      "image_url": "",
+      "published_at": "2026-10-13T19:21:27+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 35,
+      "freshness_score": 99,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Michael Dell says AI needs safeguards and controls, and government has a role to play",
+      "summary": "Dell CEO Michael Dell says AI models need safeguards and controls, with companies and government both playing a role in safety.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+      "image_url": "",
+      "published_at": "2026-10-13T19:08:28+00:00",
+      "tickers": [],
+      "keywords": [
+        "AI",
+        "CEO"
+      ],
+      "topics": [
+        "AI",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 99,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Meta shares rise for a second straight day as new AI model family impresses",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:55:33+00:00",
+      "tickers": [
+        "META"
+      ],
+      "keywords": [
+        "Meta",
+        "SEC",
+        "AI"
+      ],
+      "topics": [
+        "AI",
+        "Big Tech",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 98,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Social Security cost-of-living adjustment for 2027 may be above average. Some say it's not enough",
+      "summary": "The Social Security Administration is expected to announce the cost-of-living adjustment for 2027. Projections point to a higher-than-average increase.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/social-security-cola-2027.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:51:08+00:00",
+      "tickers": [],
+      "keywords": [
+        "SEC"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 98,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+      "summary": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.22,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:48:59+00:00",
+      "tickers": [],
+      "keywords": [
+        "GLP"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 98,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+      "summary": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:46:27+00:00",
+      "tickers": [],
+      "keywords": [
+        "AI",
+        "CEO"
+      ],
+      "topics": [
+        "AI",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 98,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+      "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-60506026",
+      "published_at": "2026-10-13T18:44:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 98,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+      "summary": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 80,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:33:42+00:00",
+      "tickers": [],
+      "keywords": [
+        "SEC"
+      ],
+      "topics": [
+        "Geopolitics"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 95,
+      "freshness_score": 97,
+      "priority_level": "Critical",
+      "time_horizon": "near-term",
+      "translations": {}
+    },
+    {
+      "title": "More Republicans come out against Trump's diesel deal with Putin",
+      "summary": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
+      "category": "industry",
+      "sentiment": "positive",
+      "market_impact_score": 80,
+      "sentiment_score": 0.16,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:19:42+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Geopolitics"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 95,
+      "freshness_score": 97,
+      "priority_level": "Critical",
+      "time_horizon": "near-term",
+      "translations": {}
+    },
+    {
+      "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
+      "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-31295352",
+      "published_at": "2026-10-13T18:11:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 97,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Kimberly Guilfoyle resigns as ambassador to Greece at White House's request",
+      "summary": "Guilfoyle's announcement came after new White House press secretary Katie Zacharia said in her debut briefing that the ambassador had been asked to resign.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:07:07+00:00",
+      "tickers": [],
+      "keywords": [
+        "SEC"
+      ],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 96,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "summary": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": -0.25,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+      "image_url": "",
+      "published_at": "2026-10-13T18:05:57+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 96,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+      "summary": "New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-94711045",
+      "published_at": "2026-10-13T17:54:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "SEC"
+      ],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 35,
+      "freshness_score": 96,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "summary": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-86790018",
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "UAE"
+      ],
+      "topics": [
+        "AI",
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 95,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": -0.25,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-67299659",
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 95,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "How to read your body’s warning signs years before you get sick",
+      "summary": "Most of us don’t just want to live longer lives. We want to live longer and healthier lives.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-80410179",
+      "published_at": "2026-10-13T17:22:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 94,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
+      "summary": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 48,
+      "sentiment_score": -0.2,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-94248093",
+      "published_at": "2026-10-13T17:18:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "SpaceX",
+        "AST"
+      ],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 35,
+      "freshness_score": 94,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Who should pay for my birthday dinner — me, or my guests?",
+      "summary": "“I just end up paying for other people’s birthday dinners a lot, as well as my own, which is an imbalance.”",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-45030136",
+      "published_at": "2026-10-13T17:14:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 94,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "I keep comparing myself to my more financially successful friends. How can I stop?",
+      "summary": "“It’s become clear that some of the people I grew up with are going to have very different lives from me”",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-73320971",
+      "published_at": "2026-10-13T17:05:00+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 94,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+      "summary": "Anticipation is building for Anthropic’s investor day as Wall Street grows less patient with heavy AI spending.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 72,
+      "sentiment_score": 0.03,
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+      "image_url": "https://images.mktw.net/im-19968872",
+      "published_at": "2026-10-13T16:52:00+00:00",
+      "tickers": [],
+      "keywords": [
+        "AI"
+      ],
+      "topics": [
+        "AI",
+        "Semiconductor",
+        "Macro",
+        "Company News"
+      ],
+      "source_quality_score": 86,
+      "macro_weight": 90,
+      "freshness_score": 93,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "The AI trade is cracking. Here's how to profit",
+      "summary": "Despite the Magnificent Seven making record highs, the The AI trade is showing signs of cracks. But there may be an opportunity for traders.",
+      "category": "industry",
+      "sentiment": "positive",
+      "market_impact_score": 68,
+      "sentiment_score": 0.4,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+      "image_url": "",
+      "published_at": "2026-10-13T16:44:21+00:00",
+      "tickers": [],
+      "keywords": [
+        "AI"
+      ],
+      "topics": [
+        "AI",
+        "Earnings"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 93,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Why this little known Chinese chipmaker has caused a global stock rout",
+      "summary": "China's leading memory chipmaker CXMT has reportedly made progress on new designs.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 72,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+      "image_url": "",
+      "published_at": "2026-10-13T16:28:25+00:00",
+      "tickers": [],
+      "keywords": [
+        "CXMT"
+      ],
+      "topics": [
+        "Semiconductor",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 78,
+      "freshness_score": 92,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+      "summary": "A Saudi-led coalition fighting the Houthis – a Yemeni militant group backed by Tehran – said it had intercepted another attack on Riyadh.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 80,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
+      "image_url": "",
+      "published_at": "2026-10-13T15:57:46+00:00",
+      "tickers": [],
+      "keywords": [
+        "Iran"
+      ],
+      "topics": [
+        "Geopolitics"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 95,
+      "freshness_score": 91,
+      "priority_level": "Critical",
+      "time_horizon": "near-term",
+      "translations": {}
+    },
+    {
+      "title": "In charts: How one of the world's biggest economies got trapped by debt",
+      "summary": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+      "image_url": "",
+      "published_at": "2026-10-13T15:52:24+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 91,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+      "summary": "",
+      "category": "macro",
+      "sentiment": "positive",
+      "market_impact_score": 80,
+      "sentiment_score": 0.4,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-oil-iran.html",
+      "image_url": "",
+      "published_at": "2026-10-13T15:52:09+00:00",
+      "tickers": [],
+      "keywords": [
+        "Iran"
+      ],
+      "topics": [
+        "Geopolitics",
+        "Oil / Energy",
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 95,
+      "freshness_score": 91,
+      "priority_level": "Critical",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim",
+      "summary": "Shkreli was banned from the pharmaceutical industry after a trial found that he organized an illegal scheme to perpetuate a monopoly for the drug Daraprim.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html",
+      "image_url": "",
+      "published_at": "2026-10-13T15:42:45+00:00",
+      "tickers": [],
+      "keywords": [
+        "FTC"
+      ],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 35,
+      "freshness_score": 90,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "summary": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+      "category": "company",
+      "sentiment": "positive",
+      "market_impact_score": 62,
+      "sentiment_score": 0.16,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+      "image_url": "",
+      "published_at": "2026-10-13T15:04:35+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Earnings",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 58,
+      "freshness_score": 89,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+      "summary": "Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "image_url": "",
+      "published_at": "2026-10-13T14:55:51+00:00",
+      "tickers": [],
+      "keywords": [
+        "AI"
+      ],
+      "topics": [
+        "AI",
+        "Earnings"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 88,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Six Flags shares decline following deadly roller coaster incident",
+      "summary": "One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 48,
+      "sentiment_score": -0.2,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+      "image_url": "",
+      "published_at": "2026-10-13T14:49:32+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 35,
+      "freshness_score": 88,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+      "summary": "Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 80,
+      "sentiment_score": -0.55,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+      "image_url": "",
+      "published_at": "2026-10-13T13:51:11+00:00",
+      "tickers": [
+        "MU"
+      ],
+      "keywords": [
+        "Micron"
+      ],
+      "topics": [
+        "Semiconductor",
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 78,
+      "freshness_score": 86,
+      "priority_level": "Critical",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+      "summary": "Adjustable-rate mortgages with low introductory interest rates are facing their first adjustment at a time when rates are much higher, according to new data.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 86,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+      "image_url": "",
+      "published_at": "2026-10-13T13:35:01+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Fed / Rates",
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 100,
+      "freshness_score": 85,
+      "priority_level": "Critical",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+      "summary": "Hackers targeted hundreds of French supermarkets in a large-scale cyberattack, causing refrigerators to overheat, spoiling food, and sparking fires.",
+      "category": "macro",
+      "sentiment": "neutral",
+      "market_impact_score": 78,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+      "image_url": "",
+      "published_at": "2026-10-13T12:22:59+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Oil / Energy",
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 92,
+      "freshness_score": 82,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "As 'Cockroach' protests grow over alleged voter fraud, Modi defends India as ‘mother of democracy’",
+      "summary": "Protests in India demanding the removal of the chief election commissioner for alleged voter fraud have intensified.",
+      "category": "macro",
+      "sentiment": "negative",
+      "market_impact_score": 70,
+      "sentiment_score": -0.16,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html",
+      "image_url": "",
+      "published_at": "2026-10-13T12:19:37+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 82,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "BlackRock and Baillie Gifford bet big on Icon 3D printed homes",
+      "summary": "Icon, one of the biggest players in 3D printed real estate, is announcing its $200 million Series D financing co-led by Baillie Gifford and funds managed by BlackRock, among others.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
+      "image_url": "",
+      "published_at": "2026-10-13T12:18:44+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 35,
+      "freshness_score": 82,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+      "summary": "There's an extraordinary split between the headline S&P 500 pinned just under a record high and the median stock in the index struggling in a 16% drawdown.",
+      "category": "company",
+      "sentiment": "neutral",
+      "market_impact_score": 48,
+      "sentiment_score": 0.4,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+      "image_url": "",
+      "published_at": "2026-10-13T10:59:35+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Company News"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 35,
+      "freshness_score": 79,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
+      "summary": "The Trump administration's proposal to exclude some noncitizens from the 2030 census prompts alarm for voting rights groups.",
+      "category": "macro",
+      "sentiment": "negative",
+      "market_impact_score": 70,
+      "sentiment_score": -0.16,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
+      "image_url": "",
+      "published_at": "2026-10-13T10:00:01+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 76,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
+      "summary": "SpaceX has agreed to testify before the New York City Council as part of an investigation into AI safety risks.",
+      "category": "industry",
+      "sentiment": "neutral",
+      "market_impact_score": 68,
+      "sentiment_score": -0.4,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+      "image_url": "",
+      "published_at": "2026-10-13T09:00:01+00:00",
+      "tickers": [],
+      "keywords": [
+        "SpaceX",
+        "NYC",
+        "AI"
+      ],
+      "topics": [
+        "AI"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 76,
+      "freshness_score": 74,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "translations": {}
+    },
+    {
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+      "summary": "The incremental approval comes as the U.S. and Chinese presidents are due to meet for a third time this year next month.",
+      "category": "policy",
+      "sentiment": "neutral",
+      "market_impact_score": 70,
+      "sentiment_score": 0.22,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+      "image_url": "",
+      "published_at": "2026-10-13T06:20:55+00:00",
+      "tickers": [],
+      "keywords": [],
+      "topics": [
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 67,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    },
+    {
+      "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
+      "summary": "Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.",
+      "category": "macro",
+      "sentiment": "positive",
+      "market_impact_score": 70,
+      "sentiment_score": 0.16,
+      "source_name": "CNBC Markets",
+      "source_url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+      "image_url": "",
+      "published_at": "2026-10-12T21:17:58+00:00",
+      "tickers": [
+        "TSLA"
+      ],
+      "keywords": [
+        "Tesla",
+        "SpaceX",
+        "CEO"
+      ],
+      "topics": [
+        "Company News",
+        "Macro"
+      ],
+      "source_quality_score": 88,
+      "macro_weight": 90,
+      "freshness_score": 44,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "translations": {}
+    }
+  ],
+  "news_events": [
+    {
+      "event_id": "0308ad6a8672",
+      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+      "summary": "Adjustable-rate mortgages with low introductory interest rates are facing their first adjustment at a time when rates are much higher, according to new data.",
+      "sector": "Macro",
+      "event_type": "Fed / Rates",
+      "topics": [
+        "Fed / Rates"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 86,
+      "sentiment_score": 0.03,
+      "priority_level": "Critical",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "This can reprice Treasury yields, equity discount rates and growth-stock multiples.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 100,
+      "freshness_score": 85,
+      "confidence_score": 57.4,
+      "final_score": 82.4,
+      "published_at": "2026-10-13T13:35:01+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T13:35:01+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T13:35:01+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html"
+      ],
+      "articles": [
+        {
+          "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
+          "summary": "Adjustable-rate mortgages with low introductory interest rates are facing their first adjustment at a time when rates are much higher, according to new data.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 86,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/arm-mortgage-borrowers-rate-adjustment.html",
+          "image_url": "",
+          "published_at": "2026-10-13T13:35:01+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Fed / Rates",
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 100,
+          "freshness_score": 85,
+          "priority_level": "Critical",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "081c0a5a9b7b",
+      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+      "summary": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+      "sector": "Macro",
+      "event_type": "Geopolitics",
+      "topics": [
+        "Geopolitics"
+      ],
+      "keywords": [
+        "SEC"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 80,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "near-term",
+      "why_it_matters": "This adds a geopolitical risk premium that can move energy, inflation expectations and broad risk appetite.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 95,
+      "freshness_score": 97,
+      "confidence_score": 57.4,
+      "final_score": 79.9,
+      "published_at": "2026-10-13T18:33:42+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:33:42+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:33:42+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html"
+      ],
+      "articles": [
+        {
+          "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
+          "summary": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 80,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/riyadh-airport-attacks-aviation.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:33:42+00:00",
+          "tickers": [],
+          "keywords": [
+            "SEC"
+          ],
+          "topics": [
+            "Geopolitics"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 95,
+          "freshness_score": 97,
+          "priority_level": "Critical",
+          "time_horizon": "near-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "af16cc530ce1",
+      "title": "More Republicans come out against Trump's diesel deal with Putin",
+      "summary": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
+      "sector": "Macro",
+      "event_type": "Geopolitics",
+      "topics": [
+        "Geopolitics"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 80,
+      "sentiment_score": 0.16,
+      "priority_level": "High",
+      "time_horizon": "near-term",
+      "why_it_matters": "This adds a geopolitical risk premium that can move energy, inflation expectations and broad risk appetite.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 95,
+      "freshness_score": 97,
+      "confidence_score": 57.4,
+      "final_score": 79.9,
+      "published_at": "2026-10-13T18:19:42+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:19:42+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:19:42+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html"
+      ],
+      "articles": [
+        {
+          "title": "More Republicans come out against Trump's diesel deal with Putin",
+          "summary": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
+          "category": "industry",
+          "sentiment": "positive",
+          "market_impact_score": 80,
+          "sentiment_score": 0.16,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/trump-russia-diesel-republicans.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:19:42+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Geopolitics"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 95,
+          "freshness_score": 97,
+          "priority_level": "Critical",
+          "time_horizon": "near-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "51e0d8cbc6dd",
+      "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+      "summary": "A Saudi-led coalition fighting the Houthis – a Yemeni militant group backed by Tehran – said it had intercepted another attack on Riyadh.",
+      "sector": "Macro",
+      "event_type": "Geopolitics",
+      "topics": [
+        "Geopolitics"
+      ],
+      "keywords": [
+        "Iran"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 80,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "near-term",
+      "why_it_matters": "This adds a geopolitical risk premium that can move energy, inflation expectations and broad risk appetite.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 95,
+      "freshness_score": 91,
+      "confidence_score": 57.4,
+      "final_score": 79.3,
+      "published_at": "2026-10-13T15:57:46+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T15:57:46+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T15:57:46+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html"
+      ],
+      "articles": [
+        {
+          "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
+          "summary": "A Saudi-led coalition fighting the Houthis – a Yemeni militant group backed by Tehran – said it had intercepted another attack on Riyadh.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 80,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/iran-us-war-houthis-saudi-arabia-airport.html",
+          "image_url": "",
+          "published_at": "2026-10-13T15:57:46+00:00",
+          "tickers": [],
+          "keywords": [
+            "Iran"
+          ],
+          "topics": [
+            "Geopolitics"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 95,
+          "freshness_score": 91,
+          "priority_level": "Critical",
+          "time_horizon": "near-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "5f4fb7d578c7",
+      "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+      "summary": "",
+      "sector": "Macro",
+      "event_type": "Geopolitics",
+      "topics": [
+        "Geopolitics",
+        "Oil / Energy"
+      ],
+      "keywords": [
+        "Iran"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 80,
+      "sentiment_score": 0.4,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "This adds a geopolitical risk premium that can move energy, inflation expectations and broad risk appetite.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 95,
+      "freshness_score": 91,
+      "confidence_score": 57.4,
+      "final_score": 79.3,
+      "published_at": "2026-10-13T15:52:09+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-oil-iran.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T15:52:09+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-oil-iran.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T15:52:09+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/paul-tudor-jones-oil-iran.html"
+      ],
+      "articles": [
+        {
+          "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
+          "summary": "",
+          "category": "macro",
+          "sentiment": "positive",
+          "market_impact_score": 80,
+          "sentiment_score": 0.4,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-oil-iran.html",
+          "image_url": "",
+          "published_at": "2026-10-13T15:52:09+00:00",
+          "tickers": [],
+          "keywords": [
+            "Iran"
+          ],
+          "topics": [
+            "Geopolitics",
+            "Oil / Energy",
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 95,
+          "freshness_score": 91,
+          "priority_level": "Critical",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "965c32239a21",
+      "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+      "summary": "Hackers targeted hundreds of French supermarkets in a large-scale cyberattack, causing refrigerators to overheat, spoiling food, and sparking fires.",
+      "sector": "Macro",
+      "event_type": "Oil / Energy",
+      "topics": [
+        "Oil / Energy"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 78,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "Oil moves feed directly into inflation expectations, margins and sector rotation.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 92,
+      "freshness_score": 82,
+      "confidence_score": 57.4,
+      "final_score": 76.9,
+      "published_at": "2026-10-13T12:22:59+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T12:22:59+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T12:22:59+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html"
+      ],
+      "articles": [
+        {
+          "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
+          "summary": "Hackers targeted hundreds of French supermarkets in a large-scale cyberattack, causing refrigerators to overheat, spoiling food, and sparking fires.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 78,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/france-supermarket-hack-cyberattack-fridges-fires.html",
+          "image_url": "",
+          "published_at": "2026-10-13T12:22:59+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Oil / Energy",
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 92,
+          "freshness_score": 82,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "19f5ba30cdf3",
+      "title": "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+      "summary": "Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.",
+      "sector": "Technology",
+      "event_type": "Semiconductor",
+      "topics": [
+        "Semiconductor",
+        "Company News"
+      ],
+      "keywords": [
+        "Micron"
+      ],
+      "related_tickers": [
+        "MU"
+      ],
+      "market_impact_score": 80,
+      "sentiment_score": -0.55,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "Semiconductor demand and guidance often transmit quickly across the Nasdaq and the broader AI trade. Watch MU for confirmation.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 78,
+      "freshness_score": 86,
+      "confidence_score": 57.4,
+      "final_score": 75.4,
+      "published_at": "2026-10-13T13:51:11+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T13:51:11+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T13:51:11+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html"
+      ],
+      "articles": [
+        {
+          "title": "Micron, Seagate, Western Digital sink as chip sell-off deepens",
+          "summary": "Technology stocks tumbled Tuesday as a sell-off in U.S. semiconductor shares spilled into Asian and European markets.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 80,
+          "sentiment_score": -0.55,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+          "image_url": "",
+          "published_at": "2026-10-13T13:51:11+00:00",
+          "tickers": [
+            "MU"
+          ],
+          "keywords": [
+            "Micron"
+          ],
+          "topics": [
+            "Semiconductor",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 78,
+          "freshness_score": 86,
+          "priority_level": "Critical",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "dda96a7ec0ad",
+      "title": "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+      "summary": "Anticipation is building for Anthropic’s investor day as Wall Street grows less patient with heavy AI spending.",
+      "sector": "Macro",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Semiconductor",
+        "Macro",
+        "Company News"
+      ],
+      "keywords": [
+        "AI"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 72,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 90,
+      "freshness_score": 93,
+      "confidence_score": 56.3,
+      "final_score": 74.6,
+      "published_at": "2026-10-13T16:52:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T16:52:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T16:52:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
+          "summary": "Anticipation is building for Anthropic’s investor day as Wall Street grows less patient with heavy AI spending.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 72,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-19968872",
+          "published_at": "2026-10-13T16:52:00+00:00",
+          "tickers": [],
+          "keywords": [
+            "AI"
+          ],
+          "topics": [
+            "AI",
+            "Semiconductor",
+            "Macro",
+            "Company News"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 93,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "6544129a73f1",
+      "title": "The latest inflation data is expected to show price increases are accelerating",
+      "summary": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Macro"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": -0.25,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 90,
+      "freshness_score": 96,
+      "confidence_score": 57.4,
+      "final_score": 74.3,
+      "published_at": "2026-10-13T18:05:57+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:05:57+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:05:57+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html"
+      ],
+      "articles": [
+        {
+          "title": "The latest inflation data is expected to show price increases are accelerating",
+          "summary": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": -0.25,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:05:57+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 96,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "e789f45e6b2a",
+      "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+      "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Macro"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 90,
+      "freshness_score": 98,
+      "confidence_score": 56.3,
+      "final_score": 74.2,
+      "published_at": "2026-10-13T18:44:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T18:44:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T18:44:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties",
+          "summary": "Fintech companies are catching on to how Americans are altering their financial habits, and they’ve created new products to try to meet the moment.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-60506026",
+          "published_at": "2026-10-13T18:44:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 98,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "b00af2d483f8",
+      "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Macro"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": -0.25,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 90,
+      "freshness_score": 95,
+      "confidence_score": 56.3,
+      "final_score": 73.9,
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:30:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:30:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+          "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": -0.25,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-67299659",
+          "published_at": "2026-10-13T17:30:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 95,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "25cc0db306cc",
+      "title": "Why this little known Chinese chipmaker has caused a global stock rout",
+      "summary": "China's leading memory chipmaker CXMT has reportedly made progress on new designs.",
+      "sector": "Technology",
+      "event_type": "Semiconductor",
+      "topics": [
+        "Semiconductor",
+        "Company News"
+      ],
+      "keywords": [
+        "CXMT"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 72,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "Semiconductor demand and guidance often transmit quickly across the Nasdaq and the broader AI trade.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 78,
+      "freshness_score": 92,
+      "confidence_score": 57.4,
+      "final_score": 72.4,
+      "published_at": "2026-10-13T16:28:25+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T16:28:25+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T16:28:25+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html"
+      ],
+      "articles": [
+        {
+          "title": "Why this little known Chinese chipmaker has caused a global stock rout",
+          "summary": "China's leading memory chipmaker CXMT has reportedly made progress on new designs.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 72,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/cxmt-memory-chip-stock-rout.html",
+          "image_url": "",
+          "published_at": "2026-10-13T16:28:25+00:00",
+          "tickers": [],
+          "keywords": [
+            "CXMT"
+          ],
+          "topics": [
+            "Semiconductor",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 78,
+          "freshness_score": 92,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "85e9f13779ce",
+      "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+      "summary": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+      "sector": "Macro",
+      "event_type": "AI",
+      "topics": [
+        "AI"
+      ],
+      "keywords": [
+        "UAE"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 95,
+      "confidence_score": 56.3,
+      "final_score": 71.1,
+      "published_at": "2026-10-13T17:30:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:30:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:30:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "‘I am a pretty cautious person’: My financial adviser wants me to invest $350,000 in a UAE data center. Is this risky?",
+          "summary": "“I like my life, but I also like the idea of a big return after years of putting money into my 401(k).”",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-86790018",
+          "published_at": "2026-10-13T17:30:00+00:00",
+          "tickers": [],
+          "keywords": [
+            "UAE"
+          ],
+          "topics": [
+            "AI",
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 95,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "fe762359c1ee",
+      "title": "Michael Dell says AI needs safeguards and controls, and government has a role to play",
+      "summary": "Dell CEO Michael Dell says AI models need safeguards and controls, with companies and government both playing a role in safety.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Company News"
+      ],
+      "keywords": [
+        "AI",
+        "CEO"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 99,
+      "confidence_score": 57.4,
+      "final_score": 70.9,
+      "published_at": "2026-10-13T19:08:28+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T19:08:28+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T19:08:28+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html"
+      ],
+      "articles": [
+        {
+          "title": "Michael Dell says AI needs safeguards and controls, and government has a role to play",
+          "summary": "Dell CEO Michael Dell says AI models need safeguards and controls, with companies and government both playing a role in safety.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 68,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/michael-dell-ai-safeguards-government.html",
+          "image_url": "",
+          "published_at": "2026-10-13T19:08:28+00:00",
+          "tickers": [],
+          "keywords": [
+            "AI",
+            "CEO"
+          ],
+          "topics": [
+            "AI",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 99,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "b674f77bf784",
+      "title": "Meta shares rise for a second straight day as new AI model family impresses",
+      "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Big Tech",
+        "Company News"
+      ],
+      "keywords": [
+        "Meta",
+        "SEC",
+        "AI"
+      ],
+      "related_tickers": [
+        "META"
+      ],
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations. Watch META for confirmation.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 98,
+      "confidence_score": 57.4,
+      "final_score": 70.8,
+      "published_at": "2026-10-13T18:55:33+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:55:33+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:55:33+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html"
+      ],
+      "articles": [
+        {
+          "title": "Meta shares rise for a second straight day as new AI model family impresses",
+          "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 68,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/investingclub/2026/10/13/meta-shares-rise-for-a-second-straight-day-as-new-ai-model-family-impresses.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:55:33+00:00",
+          "tickers": [
+            "META"
+          ],
+          "keywords": [
+            "Meta",
+            "SEC",
+            "AI"
+          ],
+          "topics": [
+            "AI",
+            "Big Tech",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 98,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "d1f928d29ee9",
+      "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+      "summary": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Company News"
+      ],
+      "keywords": [
+        "AI",
+        "CEO"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 98,
+      "confidence_score": 57.4,
+      "final_score": 70.8,
+      "published_at": "2026-10-13T18:46:27+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:46:27+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:46:27+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html"
+      ],
+      "articles": [
+        {
+          "title": "JPMorgan Chase blocks outside AI agents like Muse, Instinct from directly accessing accounts",
+          "summary": "JPMorgan Chase CEO Jamie Dimon warned of rogue agents operating at scale and said the bank is building defensive tools.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 68,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:46:27+00:00",
+          "tickers": [],
+          "keywords": [
+            "AI",
+            "CEO"
+          ],
+          "topics": [
+            "AI",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 98,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "954689ea93cd",
+      "title": "The AI trade is cracking. Here's how to profit",
+      "summary": "Despite the Magnificent Seven making record highs, the The AI trade is showing signs of cracks. But there may be an opportunity for traders.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Earnings"
+      ],
+      "keywords": [
+        "AI"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 68,
+      "sentiment_score": 0.4,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 93,
+      "confidence_score": 57.4,
+      "final_score": 70.3,
+      "published_at": "2026-10-13T16:44:21+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T16:44:21+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T16:44:21+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html"
+      ],
+      "articles": [
+        {
+          "title": "The AI trade is cracking. Here's how to profit",
+          "summary": "Despite the Magnificent Seven making record highs, the The AI trade is showing signs of cracks. But there may be an opportunity for traders.",
+          "category": "industry",
+          "sentiment": "positive",
+          "market_impact_score": 68,
+          "sentiment_score": 0.4,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html",
+          "image_url": "",
+          "published_at": "2026-10-13T16:44:21+00:00",
+          "tickers": [],
+          "keywords": [
+            "AI"
+          ],
+          "topics": [
+            "AI",
+            "Earnings"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 93,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "b76956223abd",
+      "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+      "summary": "Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Earnings"
+      ],
+      "keywords": [
+        "AI"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 68,
+      "sentiment_score": 0.03,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 88,
+      "confidence_score": 57.4,
+      "final_score": 69.8,
+      "published_at": "2026-10-13T14:55:51+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T14:55:51+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T14:55:51+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
+      ],
+      "articles": [
+        {
+          "title": "Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+          "summary": "Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 68,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+          "image_url": "",
+          "published_at": "2026-10-13T14:55:51+00:00",
+          "tickers": [],
+          "keywords": [
+            "AI"
+          ],
+          "topics": [
+            "AI",
+            "Earnings"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 88,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "87144fc574de",
+      "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
+      "summary": "SpaceX has agreed to testify before the New York City Council as part of an investigation into AI safety risks.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI"
+      ],
+      "keywords": [
+        "SpaceX",
+        "NYC",
+        "AI"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 68,
+      "sentiment_score": -0.4,
+      "priority_level": "High",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 76,
+      "freshness_score": 74,
+      "confidence_score": 57.4,
+      "final_score": 68.4,
+      "published_at": "2026-10-13T09:00:01+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T09:00:01+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T09:00:01+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html"
+      ],
+      "articles": [
+        {
+          "title": "SpaceX agrees to testify to NYC Council about AI safety after receiving subpoena",
+          "summary": "SpaceX has agreed to testify before the New York City Council as part of an investigation into AI safety risks.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 68,
+          "sentiment_score": -0.4,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/spacex-agrees-to-testify-to-nyc-council-about-ai-safety-.html",
+          "image_url": "",
+          "published_at": "2026-10-13T09:00:01+00:00",
+          "tickers": [],
+          "keywords": [
+            "SpaceX",
+            "NYC",
+            "AI"
+          ],
+          "topics": [
+            "AI"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 76,
+          "freshness_score": 74,
+          "priority_level": "High",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "35ccc9bfeb62",
+      "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+      "summary": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+      "sector": "Company",
+      "event_type": "Earnings",
+      "topics": [
+        "Earnings"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 62,
+      "sentiment_score": 0.16,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The key market signal is whether results change forward guidance, margins or peer expectations.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 58,
+      "freshness_score": 89,
+      "confidence_score": 57.4,
+      "final_score": 63.6,
+      "published_at": "2026-10-13T15:04:35+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T15:04:35+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T15:04:35+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html"
+      ],
+      "articles": [
+        {
+          "title": "UnitedHealth Group tops estimates, hikes profit outlook as insurer manages high medical costs",
+          "summary": "UnitedHealth Group said it expects 2026 adjusted earnings of at least $20.50 per share, up from a previous outlook of $19.50 to $20.00 per share.",
+          "category": "company",
+          "sentiment": "positive",
+          "market_impact_score": 62,
+          "sentiment_score": 0.16,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/unitedhealth-group-unh-earnings-q3-2026.html",
+          "image_url": "",
+          "published_at": "2026-10-13T15:04:35+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Earnings",
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 58,
+          "freshness_score": 89,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "763601705073",
+      "title": "Social Security cost-of-living adjustment for 2027 may be above average. Some say it's not enough",
+      "summary": "The Social Security Administration is expected to announce the cost-of-living adjustment for 2027. Projections point to a higher-than-average increase.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "SEC"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 98,
+      "confidence_score": 57.4,
+      "final_score": 63.5,
+      "published_at": "2026-10-13T18:51:08+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/social-security-cola-2027.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:51:08+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/social-security-cola-2027.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:51:08+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/social-security-cola-2027.html"
+      ],
+      "articles": [
+        {
+          "title": "Social Security cost-of-living adjustment for 2027 may be above average. Some say it's not enough",
+          "summary": "The Social Security Administration is expected to announce the cost-of-living adjustment for 2027. Projections point to a higher-than-average increase.",
+          "category": "policy",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/social-security-cola-2027.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:51:08+00:00",
+          "tickers": [],
+          "keywords": [
+            "SEC"
+          ],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 98,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "7bc26cd5ff87",
+      "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+      "summary": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "GLP"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.22,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 98,
+      "confidence_score": 57.4,
+      "final_score": 63.5,
+      "published_at": "2026-10-13T18:48:59+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:48:59+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:48:59+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html"
+      ],
+      "articles": [
+        {
+          "title": "Walmart to cover some GLP-1s, inhalers and insulin for employees at no cost as it expands benefits",
+          "summary": "Walmart will offer Novo's Ozempic and Lilly's Mounjaro without charge for people with Type 2 diabetes after a new prior authorization.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.22,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/walmart-glp-1s-inhalers-insulin-employee-benefits.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:48:59+00:00",
+          "tickers": [],
+          "keywords": [
+            "GLP"
+          ],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 98,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "f7a164a7493c",
+      "title": "Kimberly Guilfoyle resigns as ambassador to Greece at White House's request",
+      "summary": "Guilfoyle's announcement came after new White House press secretary Katie Zacharia said in her debut briefing that the ambassador had been asked to resign.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "SEC"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 96,
+      "confidence_score": 57.4,
+      "final_score": 63.3,
+      "published_at": "2026-10-13T18:07:07+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T18:07:07+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T18:07:07+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html"
+      ],
+      "articles": [
+        {
+          "title": "Kimberly Guilfoyle resigns as ambassador to Greece at White House's request",
+          "summary": "Guilfoyle's announcement came after new White House press secretary Katie Zacharia said in her debut briefing that the ambassador had been asked to resign.",
+          "category": "policy",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/kimberly-guilfoyle-resign-trump-ambassador.html",
+          "image_url": "",
+          "published_at": "2026-10-13T18:07:07+00:00",
+          "tickers": [],
+          "keywords": [
+            "SEC"
+          ],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 96,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "4f65edf8afcc",
+      "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
+      "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 97,
+      "confidence_score": 56.3,
+      "final_score": 63.1,
+      "published_at": "2026-10-13T18:11:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T18:11:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T18:11:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "Gen Z renters are the only group more likely to feel successful by investing than buying a house",
+          "summary": "“Instead of focusing on homeownership, many are prioritizing financial freedom and debt-free living.”",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-31295352",
+          "published_at": "2026-10-13T18:11:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 97,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "1e91aa13621e",
+      "title": "In charts: How one of the world's biggest economies got trapped by debt",
+      "summary": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 91,
+      "confidence_score": 57.4,
+      "final_score": 62.8,
+      "published_at": "2026-10-13T15:52:24+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T15:52:24+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T15:52:24+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html"
+      ],
+      "articles": [
+        {
+          "title": "In charts: How one of the world's biggest economies got trapped by debt",
+          "summary": "France opens debate on its 2027 budget as high deficits, rising debt and student protests intensify pressure on lawmakers.",
+          "category": "policy",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/france-2027-budget-debt.html",
+          "image_url": "",
+          "published_at": "2026-10-13T15:52:24+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 91,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "c3ef7a40229d",
+      "title": "How to read your body’s warning signs years before you get sick",
+      "summary": "Most of us don’t just want to live longer lives. We want to live longer and healthier lives.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 94,
+      "confidence_score": 56.3,
+      "final_score": 62.8,
+      "published_at": "2026-10-13T17:22:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:22:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:22:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "How to read your body’s warning signs years before you get sick",
+          "summary": "Most of us don’t just want to live longer lives. We want to live longer and healthier lives.",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/how-to-read-your-bodys-warning-signs-years-before-you-get-sick-3fb8c82d?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-80410179",
+          "published_at": "2026-10-13T17:22:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 94,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "d79b421ab567",
+      "title": "Who should pay for my birthday dinner — me, or my guests?",
+      "summary": "“I just end up paying for other people’s birthday dinners a lot, as well as my own, which is an imbalance.”",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 94,
+      "confidence_score": 56.3,
+      "final_score": 62.8,
+      "published_at": "2026-10-13T17:14:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:14:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:14:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "Who should pay for my birthday dinner — me, or my guests?",
+          "summary": "“I just end up paying for other people’s birthday dinners a lot, as well as my own, which is an imbalance.”",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/who-should-pay-for-a-birthday-dinner-i-always-treat-my-guests-5bbd1880?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-45030136",
+          "published_at": "2026-10-13T17:14:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 94,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "9516a5ba2245",
+      "title": "I keep comparing myself to my more financially successful friends. How can I stop?",
+      "summary": "“It’s become clear that some of the people I grew up with are going to have very different lives from me”",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 94,
+      "confidence_score": 56.3,
+      "final_score": 62.8,
+      "published_at": "2026-10-13T17:05:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:05:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:05:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "I keep comparing myself to my more financially successful friends. How can I stop?",
+          "summary": "“It’s become clear that some of the people I grew up with are going to have very different lives from me”",
+          "category": "macro",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/i-keep-comparing-myself-to-my-more-financially-successful-friends-how-can-i-stop-716a2009?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-73320971",
+          "published_at": "2026-10-13T17:05:00+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 90,
+          "freshness_score": 94,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "44c231f9b9f2",
+      "title": "As 'Cockroach' protests grow over alleged voter fraud, Modi defends India as ‘mother of democracy’",
+      "summary": "Protests in India demanding the removal of the chief election commissioner for alleged voter fraud have intensified.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": -0.16,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 82,
+      "confidence_score": 57.4,
+      "final_score": 61.9,
+      "published_at": "2026-10-13T12:19:37+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T12:19:37+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T12:19:37+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html"
+      ],
+      "articles": [
+        {
+          "title": "As 'Cockroach' protests grow over alleged voter fraud, Modi defends India as ‘mother of democracy’",
+          "summary": "Protests in India demanding the removal of the chief election commissioner for alleged voter fraud have intensified.",
+          "category": "macro",
+          "sentiment": "negative",
+          "market_impact_score": 70,
+          "sentiment_score": -0.16,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/cockroach-fraud-india-protest-modi.html",
+          "image_url": "",
+          "published_at": "2026-10-13T12:19:37+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 82,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "5872b728f2ab",
+      "title": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
+      "summary": "The Trump administration's proposal to exclude some noncitizens from the 2030 census prompts alarm for voting rights groups.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": -0.16,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 76,
+      "confidence_score": 57.4,
+      "final_score": 61.3,
+      "published_at": "2026-10-13T10:00:01+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T10:00:01+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T10:00:01+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html"
+      ],
+      "articles": [
+        {
+          "title": "Trump census plan to cut noncitizens from 2030 count spurs critics toward legal fight",
+          "summary": "The Trump administration's proposal to exclude some noncitizens from the 2030 census prompts alarm for voting rights groups.",
+          "category": "macro",
+          "sentiment": "negative",
+          "market_impact_score": 70,
+          "sentiment_score": -0.16,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/trump-census-rule-noncitizens.html",
+          "image_url": "",
+          "published_at": "2026-10-13T10:00:01+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 76,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "20ebbd856843",
+      "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+      "summary": "The incremental approval comes as the U.S. and Chinese presidents are due to meet for a third time this year next month.",
+      "sector": "Macro",
+      "event_type": "Macro",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 70,
+      "sentiment_score": 0.22,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 67,
+      "confidence_score": 57.4,
+      "final_score": 60.4,
+      "published_at": "2026-10-13T06:20:55+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T06:20:55+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T06:20:55+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html"
+      ],
+      "articles": [
+        {
+          "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+          "summary": "The incremental approval comes as the U.S. and Chinese presidents are due to meet for a third time this year next month.",
+          "category": "policy",
+          "sentiment": "neutral",
+          "market_impact_score": 70,
+          "sentiment_score": 0.22,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
+          "image_url": "",
+          "published_at": "2026-10-13T06:20:55+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 67,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "22a900b358fd",
+      "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
+      "summary": "Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.",
+      "sector": "Macro",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "Tesla",
+        "SpaceX",
+        "CEO"
+      ],
+      "related_tickers": [
+        "TSLA"
+      ],
+      "market_impact_score": 70,
+      "sentiment_score": 0.16,
+      "priority_level": "Medium",
+      "time_horizon": "short-to-medium term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership. Watch TSLA for confirmation.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 44,
+      "confidence_score": 57.4,
+      "final_score": 58.1,
+      "published_at": "2026-10-12T21:17:58+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+        "quality_score": 88,
+        "published_at": "2026-10-12T21:17:58+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+          "quality_score": 88,
+          "published_at": "2026-10-12T21:17:58+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html"
+      ],
+      "articles": [
+        {
+          "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
+          "summary": "Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.",
+          "category": "macro",
+          "sentiment": "positive",
+          "market_impact_score": 70,
+          "sentiment_score": 0.16,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/12/elon-musk-republican-donations-2026-midterm-election.html",
+          "image_url": "",
+          "published_at": "2026-10-12T21:17:58+00:00",
+          "tickers": [
+            "TSLA"
+          ],
+          "keywords": [
+            "Tesla",
+            "SpaceX",
+            "CEO"
+          ],
+          "topics": [
+            "Company News",
+            "Macro"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 90,
+          "freshness_score": 44,
+          "priority_level": "High",
+          "time_horizon": "short-to-medium term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "e6c196fa14f7",
+      "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+      "summary": "The billionaire investor said that corporate buybacks, along with mergers and acquisitions, that have been a tail wind for the bull market are about to turn.",
+      "sector": "Company",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 53,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 99,
+      "confidence_score": 57.4,
+      "final_score": 55.9,
+      "published_at": "2026-10-13T19:21:27+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T19:21:27+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T19:21:27+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html"
+      ],
+      "articles": [
+        {
+          "title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+          "summary": "The billionaire investor said that corporate buybacks, along with mergers and acquisitions, that have been a tail wind for the bull market are about to turn.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 53,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+          "image_url": "",
+          "published_at": "2026-10-13T19:21:27+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 35,
+          "freshness_score": 99,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "7a5c3385335b",
+      "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+      "summary": "New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.",
+      "sector": "Industry",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "SEC"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 96,
+      "confidence_score": 56.3,
+      "final_score": 55.8,
+      "published_at": "2026-10-13T17:54:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:54:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:54:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
+          "summary": "New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 54,
+          "sentiment_score": 0.03,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-94711045",
+          "published_at": "2026-10-13T17:54:00+00:00",
+          "tickers": [],
+          "keywords": [
+            "SEC"
+          ],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 35,
+          "freshness_score": 96,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "ccd70b478ff1",
+      "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim",
+      "summary": "Shkreli was banned from the pharmaceutical industry after a trial found that he organized an illegal scheme to perpetuate a monopoly for the drug Daraprim.",
+      "sector": "Industry",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "FTC"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 90,
+      "confidence_score": 57.4,
+      "final_score": 55.5,
+      "published_at": "2026-10-13T15:42:45+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T15:42:45+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T15:42:45+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html"
+      ],
+      "articles": [
+        {
+          "title": "Martin Shkreli violated lifetime pharma industry ban, FTC and states say in contempt claim",
+          "summary": "Shkreli was banned from the pharmaceutical industry after a trial found that he organized an illegal scheme to perpetuate a monopoly for the drug Daraprim.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 54,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/martin-shkreli-ftc-pharma-contempt.html",
+          "image_url": "",
+          "published_at": "2026-10-13T15:42:45+00:00",
+          "tickers": [],
+          "keywords": [
+            "FTC"
+          ],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 35,
+          "freshness_score": 90,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "23328dea3874",
+      "title": "BlackRock and Baillie Gifford bet big on Icon 3D printed homes",
+      "summary": "Icon, one of the biggest players in 3D printed real estate, is announcing its $200 million Series D financing co-led by Baillie Gifford and funds managed by BlackRock, among others.",
+      "sector": "Industry",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 54,
+      "sentiment_score": 0.03,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 82,
+      "confidence_score": 57.4,
+      "final_score": 54.7,
+      "published_at": "2026-10-13T12:18:44+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T12:18:44+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T12:18:44+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html"
+      ],
+      "articles": [
+        {
+          "title": "BlackRock and Baillie Gifford bet big on Icon 3D printed homes",
+          "summary": "Icon, one of the biggest players in 3D printed real estate, is announcing its $200 million Series D financing co-led by Baillie Gifford and funds managed by BlackRock, among others.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 54,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/blackrock-baillie-gifford-bet-big-on-icon-3d-printed-homes.html",
+          "image_url": "",
+          "published_at": "2026-10-13T12:18:44+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 35,
+          "freshness_score": 82,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "461d9fe48e65",
+      "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
+      "summary": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
+      "sector": "Company",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [
+        "SpaceX",
+        "AST"
+      ],
+      "related_tickers": [],
+      "market_impact_score": 48,
+      "sentiment_score": -0.2,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 86,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 94,
+      "confidence_score": 56.3,
+      "final_score": 52.9,
+      "published_at": "2026-10-13T17:18:00+00:00",
+      "primary_source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+        "quality_score": 86,
+        "published_at": "2026-10-13T17:18:00+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+          "quality_score": 86,
+          "published_at": "2026-10-13T17:18:00+00:00"
+        }
+      ],
+      "source_names": [
+        "MarketWatch"
+      ],
+      "source_urls": [
+        "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories"
+      ],
+      "articles": [
+        {
+          "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
+          "summary": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 48,
+          "sentiment_score": -0.2,
+          "source_name": "MarketWatch",
+          "source_url": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
+          "image_url": "https://images.mktw.net/im-94248093",
+          "published_at": "2026-10-13T17:18:00+00:00",
+          "tickers": [],
+          "keywords": [
+            "SpaceX",
+            "AST"
+          ],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 86,
+          "macro_weight": 35,
+          "freshness_score": 94,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "be56215c9e9d",
+      "title": "Six Flags shares decline following deadly roller coaster incident",
+      "summary": "One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.",
+      "sector": "Company",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 48,
+      "sentiment_score": -0.2,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 88,
+      "confidence_score": 57.4,
+      "final_score": 52.6,
+      "published_at": "2026-10-13T14:49:32+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T14:49:32+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T14:49:32+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html"
+      ],
+      "articles": [
+        {
+          "title": "Six Flags shares decline following deadly roller coaster incident",
+          "summary": "One person died and several others were injured in an incident involving the Goliath roller coaster at Six Flags Over Georgia, according to reports.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 48,
+          "sentiment_score": -0.2,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/six-flags-shares-plunge-after-hours-deadly-roller-coaster-incident-goliath-georgia.html",
+          "image_url": "",
+          "published_at": "2026-10-13T14:49:32+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 35,
+          "freshness_score": 88,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "9bf4d4162b59",
+      "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+      "summary": "There's an extraordinary split between the headline S&P 500 pinned just under a record high and the median stock in the index struggling in a 16% drawdown.",
+      "sector": "Company",
+      "event_type": "Company News",
+      "topics": [
+        "Company News"
+      ],
+      "keywords": [],
+      "related_tickers": [],
+      "market_impact_score": 48,
+      "sentiment_score": 0.4,
+      "priority_level": "Medium",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event may affect positioning if it changes earnings expectations, valuation or sector leadership.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 35,
+      "freshness_score": 79,
+      "confidence_score": 57.4,
+      "final_score": 51.7,
+      "published_at": "2026-10-13T10:59:35+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T10:59:35+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T10:59:35+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html"
+      ],
+      "articles": [
+        {
+          "title": "The stock market is at a critical juncture. Wall Street is convinced it will resolve in the bulls' favor",
+          "summary": "There's an extraordinary split between the headline S&P 500 pinned just under a record high and the median stock in the index struggling in a 16% drawdown.",
+          "category": "company",
+          "sentiment": "neutral",
+          "market_impact_score": 48,
+          "sentiment_score": 0.4,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/santoli-the-stock-market-is-at-a-critical-juncture.html",
+          "image_url": "",
+          "published_at": "2026-10-13T10:59:35+00:00",
+          "tickers": [],
+          "keywords": [],
+          "topics": [
+            "Company News"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 35,
+          "freshness_score": 79,
+          "priority_level": "Medium",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    },
+    {
+      "event_id": "3987fd126009",
+      "title": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
+      "summary": "The iPhone maker also announced the new Apple TV 4K and HomePod Mini.",
+      "sector": "Technology",
+      "event_type": "AI",
+      "topics": [
+        "AI",
+        "Big Tech",
+        "Low Priority"
+      ],
+      "keywords": [
+        "Apple",
+        "AI",
+        "TV"
+      ],
+      "related_tickers": [
+        "AAPL"
+      ],
+      "market_impact_score": 38,
+      "sentiment_score": 0.03,
+      "priority_level": "Low",
+      "time_horizon": "short-term",
+      "why_it_matters": "The event can reset expectations for AI demand, capital spending and high-multiple technology valuations. Watch AAPL for confirmation.",
+      "source_quality_score": 88,
+      "source_count": 1,
+      "cross_source_frequency": 20,
+      "macro_weight": 15,
+      "freshness_score": 100,
+      "confidence_score": 57.4,
+      "final_score": 45.3,
+      "published_at": "2026-10-13T19:23:39+00:00",
+      "primary_source": {
+        "name": "CNBC Markets",
+        "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+        "quality_score": 88,
+        "published_at": "2026-10-13T19:23:39+00:00"
+      },
+      "related_sources": [
+        {
+          "name": "CNBC Markets",
+          "url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+          "quality_score": 88,
+          "published_at": "2026-10-13T19:23:39+00:00"
+        }
+      ],
+      "source_names": [
+        "CNBC Markets"
+      ],
+      "source_urls": [
+        "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html"
+      ],
+      "articles": [
+        {
+          "title": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
+          "summary": "The iPhone maker also announced the new Apple TV 4K and HomePod Mini.",
+          "category": "industry",
+          "sentiment": "neutral",
+          "market_impact_score": 38,
+          "sentiment_score": 0.03,
+          "source_name": "CNBC Markets",
+          "source_url": "https://www.cnbc.com/2026/10/13/apple-homeview-smart-home-siri-ai.html",
+          "image_url": "",
+          "published_at": "2026-10-13T19:23:39+00:00",
+          "tickers": [
+            "AAPL"
+          ],
+          "keywords": [
+            "Apple",
+            "AI",
+            "TV"
+          ],
+          "topics": [
+            "AI",
+            "Big Tech",
+            "Low Priority"
+          ],
+          "source_quality_score": 88,
+          "macro_weight": 15,
+          "freshness_score": 100,
+          "priority_level": "Low",
+          "time_horizon": "short-term",
+          "translations": {}
+        }
+      ],
+      "translations": {}
+    }
+  ],
+  "translations": {}
+}

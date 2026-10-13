@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-13T03:02:36.274672+00:00",
+  "generated_at": "2026-10-13T19:35:00.092811+00:00",
   "reports": [
+    {
+      "date": "2026-10-13",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-10-13T19:34:56.822372+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-10-13-premarket.json",
+      "dynamic_headline": "inflation leads a constructive but selective pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is constructive but selective, based on 40 articles from CNBC Markets, MarketWatch. The dominant theme is macro, with 16 macro items, 10 company items, 10 industry items, and 4 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 67.8
+    },
     {
       "date": "2026-10-13",
       "report_type": "close",
