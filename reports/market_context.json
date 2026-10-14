@@ -1,56 +1,56 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 40 articles from CNBC Markets, MarketWatch. The dominant theme is macro, with 16 macro items, 10 company items, 10 industry items, and 4 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (4), oil/energy (2), Fed/rates (2), tariffs/policy (1). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 5 positive, 2 negative, and 33 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1844 articles from Yahoo Finance, MarketBeat, TradingView, Stocktwits, Seeking Alpha. The dominant theme is macro, with 723 macro items, 654 company items, 405 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (220), inflation (119), oil/energy (90), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 261 positive, 201 negative, and 1382 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Thousands of homeowners face adjustable-rate mortgage resets — and much higher payments",
-      "summary": "Adjustable-rate mortgages with low introductory interest rates are facing their first adjustment at a time when rates are much higher, according to new data.",
-      "impact_score": 82.4,
+      "title": "Dollar retreats from 18-month high as oil prices fall, inflation data in focus - Reuters",
+      "summary": "Dollar retreats from 18-month high as oil prices fall, inflation data in focus Reuters",
+      "impact_score": 81.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "10-year Treasury yield falls as energy prices stabilize - CNBC",
+      "summary": "10-year Treasury yield falls as energy prices stabilize CNBC",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "JGBs Edge Lower Amid Higher Oil Prices",
+      "summary": "JGBs Edge Lower Amid Higher Oil Prices WSJ",
+      "impact_score": 80.4,
       "sentiment_score": 0.03
     },
     {
-      "title": "Airport attacks put aviation in crosshairs of geopolitical conflicts",
-      "summary": "Deadly attacks at Riyadh’s main airport are disrupting airlines, closing airspace and raising new security questions for commercial aviation.",
-      "impact_score": 79.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "More Republicans come out against Trump's diesel deal with Putin",
-      "summary": "Senators told Trump, the deal with Russian President Vladimir Putin \"will not achieve just ends, nor will it benefit Americans.\"",
-      "impact_score": 79.9,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Iran reportedly fortifies nuclear sites as it prepares for possible U.S. strikes after midterms",
-      "summary": "A Saudi-led coalition fighting the Houthis – a Yemeni militant group backed by Tehran – said it had intercepted another attack on Riyadh.",
-      "impact_score": 79.3,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Paul Tudor Jones is bullish on oil, says it could rally another $20-$25 because of Iran conflict",
-      "summary": "",
-      "impact_score": 79.3,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "French supermarket fridges get hacked, heating to 122°F and sparking fires",
-      "summary": "Hackers targeted hundreds of French supermarkets in a large-scale cyberattack, causing refrigerators to overheat, spoiling food, and sparking fires.",
-      "impact_score": 76.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Elon Musk gives $276 million to Republican groups, becomes biggest known 2026 midterm donor",
-      "summary": "Musk’s record midterm election spending comes as the Tesla and SpaceX CEO rebuilds his relationship with Trump and has business ties to the federal government.",
-      "impact_score": 76.3,
+      "title": "BlackRock takes profits on stocks as it turns to Treasurys after six years - CNBC",
+      "summary": "BlackRock takes profits on stocks as it turns to Treasurys after six years CNBC",
+      "impact_score": 80.1,
       "sentiment_score": 0.35
     },
     {
-      "title": "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months",
-      "summary": "Anticipation is building for Anthropic’s investor day as Wall Street grows less patient with heavy AI spending.",
-      "impact_score": 75.4,
-      "sentiment_score": 0.03
+      "title": "Asia Stocks to Gain on Signal for Fewer Fed Hikes: Markets Wrap - Bloomberg.com",
+      "summary": "Asia Stocks to Gain on Signal for Fewer Fed Hikes: Markets Wrap Bloomberg.com",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Goldman says investors are looking for 'profitable' Chinese business growth overseas",
+      "summary": "Sluggish consumer demand in China has pushed many companies, such as electric car brands, to accelerate plans for entering other countries.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "These 3 International Dividend ETFs Outyield SCHD and Are Beating the S&P 500 Over the Past Year - Yahoo Finance",
+      "summary": "These 3 International Dividend ETFs Outyield SCHD and Are Beating the S&P 500 Over the Past Year Yahoo Finance",
+      "impact_score": 74.5,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Exclusive Interview with Cycurion (Nasdaq: CYCU) CEO L. Kevin Kelly Discussing the Company's Largest Contract Award and Expansion of Its Diversified Cybersecurity Growth Strategy - Yahoo Finance UK",
+      "summary": "Exclusive Interview with Cycurion (Nasdaq: CYCU) CEO L. Kevin Kelly Discussing the Company's Largest Contract Award and Expansion of Its Diversified Cybersecurity Growth Strategy Yahoo Finance UK",
+      "impact_score": 74.5,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, tariffs/policy, oil/energy"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
