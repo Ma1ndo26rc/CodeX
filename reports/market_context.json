@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1864 articles from Yahoo Finance, TradingView, Stocktwits, MarketBeat, Simply Wall Street. The dominant theme is macro, with 913 macro items, 500 company items, 382 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (311), Fed/rates (260), oil/energy (101), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 209 positive, 248 negative, and 1407 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1859 articles from Yahoo Finance, Stocktwits, TradingView, MarketBeat, Simply Wall Street. The dominant theme is macro, with 824 macro items, 518 company items, 459 industry items, and 58 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (239), Fed/rates (237), oil/energy (103), growth/jobs (29). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 245 positive, 253 negative, and 1361 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Gold drops over 1% as hot U.S. inflation data boosts Fed hike bets - CNBC",
-      "summary": "Gold drops over 1% as hot U.S. inflation data boosts Fed hike bets CNBC",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Gold drops over 1% as hot US inflation data boosts Fed hike bets - Reuters",
-      "summary": "Gold drops over 1% as hot US inflation data boosts Fed hike bets Reuters",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "CPI Pressures Markets And Fed Reserve’s Move On Interest Rates",
-      "summary": "CPI Pressures Markets And Fed Reserve’s Move On Interest Rates Seeking Alpha",
-      "impact_score": 81.2,
+      "title": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs",
+      "summary": "Meta and Apple, Longtime Foes, Team Up to Put Open-Weight AI on Macs WSJ",
+      "impact_score": 85.3,
       "sentiment_score": 0.03
+    },
+    {
+      "title": "Dollar eases from 18-month high as Treasury yields fall; Fed hike bets ease - Reuters",
+      "summary": "Dollar eases from 18-month high as Treasury yields fall; Fed hike bets ease Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US 10-year Treasury yield levels not unprecedented, BNY CEO says - Reuters",
+      "summary": "US 10-year Treasury yield levels not unprecedented, BNY CEO says Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease - CNBC",
+      "summary": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease CNBC",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+      "summary": "The exchange comes as U.S. debt exceeds $40 trillion and 10-year Treasury yields remain above 5%, intensifying scrutiny of the fiscal outlook.",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold rebounds on weaker dollar, yields; October Fed hike bets subdued - CNBC",
+      "summary": "Gold rebounds on weaker dollar, yields; October Fed hike bets subdued CNBC",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
     },
     {
       "title": "U.S. Stocks Fall on Hot Inflation Report, AI Sell-Off - WSJ",
       "summary": "U.S. Stocks Fall on Hot Inflation Report, AI Sell-Off WSJ",
-      "impact_score": 80.6,
+      "impact_score": 78.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "BlackRock Cuts US Stock Exposure, Says Rate Hike Expectations Are 'Overdone' - Yahoo Finance",
-      "summary": "BlackRock Cuts US Stock Exposure, Says Rate Hike Expectations Are 'Overdone' Yahoo Finance",
-      "impact_score": 79.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Three Federal Reserve officials have successively stated that while inflation remains disappointing, there is no need to rush into an interest rate hike in October.",
-      "summary": "Three Federal Reserve officials have successively stated that while inflation remains disappointing, there is no need to rush into an interest rate hike in October. 富途牛牛",
-      "impact_score": 79.2,
+      "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+      "summary": "The continued selloff in the AI trade is forcing investors to ditch highflying tech for relative safety of government bonds, even as hot inflation threatens to make that trade complicated.",
+      "impact_score": 77.9,
       "sentiment_score": -0.8
-    },
-    {
-      "title": "Chip Stocks Deepen Losses as Concerns Mount Over Rates, AI Debt - Bloomberg.com",
-      "summary": "Chip Stocks Deepen Losses as Concerns Mount Over Rates, AI Debt Bloomberg.com",
-      "impact_score": 78.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Update: US Equity Indexes Fall After Core Inflation Rate Rises, Odds for Fed Rate Increases Jump - Yahoo Finance",
-      "summary": "Update: US Equity Indexes Fall After Core Inflation Rate Rises, Odds for Fed Rate Increases Jump Yahoo Finance",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, growth/jobs"
