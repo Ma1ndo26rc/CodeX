@@ -1,14 +1,8 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1878 articles from Yahoo Finance, TradingView, Stocktwits, MarketBeat, Simply Wall Street. The dominant theme is macro, with 888 macro items, 536 company items, 395 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (286), Fed/rates (272), oil/energy (100), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 264 positive, 207 negative, and 1407 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1864 articles from Yahoo Finance, TradingView, Stocktwits, MarketBeat, Simply Wall Street. The dominant theme is macro, with 913 macro items, 500 company items, 382 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (311), Fed/rates (260), oil/energy (101), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 209 positive, 248 negative, and 1407 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
-    {
-      "title": "How high inflation became a 'fact of life' in the U.S.",
-      "summary": "U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.",
-      "impact_score": 83.8,
-      "sentiment_score": -0.25
-    },
     {
       "title": "Gold drops over 1% as hot U.S. inflation data boosts Fed hike bets - CNBC",
       "summary": "Gold drops over 1% as hot U.S. inflation data boosts Fed hike bets CNBC",
@@ -22,34 +16,40 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil prices steady after gains on Iran's new tactics to target tankers - Reuters",
-      "summary": "Oil prices steady after gains on Iran's new tactics to target tankers Reuters",
-      "impact_score": 81.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap - Bloomberg.com",
-      "summary": "Stocks, Bonds Fall as CPI Data Fuel Fed-Hike Bets: Markets Wrap Bloomberg.com",
-      "impact_score": 81.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Iran says it’s ‘counting the moments’ until it can strike U.S. warships; Saudi Aramco facilities attacked",
-      "summary": "Meanwhile, Saudi Arabia's Aramco reportedly came under fresh attack overnight.",
-      "impact_score": 80.1,
+      "title": "CPI Pressures Markets And Fed Reserve’s Move On Interest Rates",
+      "summary": "CPI Pressures Markets And Fed Reserve’s Move On Interest Rates Seeking Alpha",
+      "impact_score": 81.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "US stocks sink as inflation gets worse",
-      "summary": "US stocks sink as inflation gets worse AP News",
-      "impact_score": 79.9,
-      "sentiment_score": -0.25
+      "title": "U.S. Stocks Fall on Hot Inflation Report, AI Sell-Off - WSJ",
+      "summary": "U.S. Stocks Fall on Hot Inflation Report, AI Sell-Off WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get",
-      "summary": "Consumer inflation just came in hot. Thursday will provide more clues on the impact of record diesel prices ahead of the midterm elections.",
-      "impact_score": 78.9,
-      "sentiment_score": 0.35
+      "title": "BlackRock Cuts US Stock Exposure, Says Rate Hike Expectations Are 'Overdone' - Yahoo Finance",
+      "summary": "BlackRock Cuts US Stock Exposure, Says Rate Hike Expectations Are 'Overdone' Yahoo Finance",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Three Federal Reserve officials have successively stated that while inflation remains disappointing, there is no need to rush into an interest rate hike in October.",
+      "summary": "Three Federal Reserve officials have successively stated that while inflation remains disappointing, there is no need to rush into an interest rate hike in October. 富途牛牛",
+      "impact_score": 79.2,
+      "sentiment_score": -0.8
+    },
+    {
+      "title": "Chip Stocks Deepen Losses as Concerns Mount Over Rates, AI Debt - Bloomberg.com",
+      "summary": "Chip Stocks Deepen Losses as Concerns Mount Over Rates, AI Debt Bloomberg.com",
+      "impact_score": 78.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Update: US Equity Indexes Fall After Core Inflation Rate Rises, Odds for Fed Rate Increases Jump - Yahoo Finance",
+      "summary": "Update: US Equity Indexes Fall After Core Inflation Rate Rises, Odds for Fed Rate Increases Jump Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, growth/jobs"
