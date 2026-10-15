@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-14T17:30:03.812289+00:00",
+  "generated_at": "2026-10-15T00:25:15.866803+00:00",
   "reports": [
+    {
+      "date": "2026-10-15",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-10-15T00:25:12.049355+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-10-15-close.json",
+      "dynamic_headline": "inflation leads a mixed and wait-and-see completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1856 articles from Yahoo Finance, TradingView, Stocktwits, MarketBeat, Simply Wall Street. The dominant theme is macro, with 904 macro items, 497 company items, 386 industry items, and 69 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.8
+    },
     {
       "date": "2026-10-14",
       "report_type": "premarket",
