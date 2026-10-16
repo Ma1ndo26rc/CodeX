@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1848 articles from Yahoo Finance, MarketBeat, TradingView, Stocktwits, Simply Wall Street. The dominant theme is macro, with 795 macro items, 510 company items, 483 industry items, and 60 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (236), inflation (212), oil/energy (96), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 244 positive, 206 negative, and 1398 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1869 articles from Yahoo Finance, MarketBeat, TradingView, Simply Wall Street, Reuters. The dominant theme is macro, with 803 macro items, 528 company items, 478 industry items, and 60 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (274), inflation (142), oil/energy (92), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 275 positive, 186 negative, and 1408 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease - CNBC",
-      "summary": "Dollar pulls back from 18-month high as Treasury yields fall; Fed hike bets ease CNBC",
-      "impact_score": 81.2,
+      "title": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates - Bloomberg.com",
+      "summary": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates Bloomberg.com",
+      "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold rebounds on weaker dollar, yields; October Fed hike bets subdued - CNBC",
-      "summary": "Gold rebounds on weaker dollar, yields; October Fed hike bets subdued CNBC",
+      "title": "European stocks rise, dollar set for weekly loss after yields drop - Reuters",
+      "summary": "European stocks rise, dollar set for weekly loss after yields drop Reuters",
       "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold Holds Loss as Hot Inflation Lifts October Rate-Hike Bets - Bloomberg.com",
-      "summary": "Gold Holds Loss as Hot Inflation Lifts October Rate-Hike Bets Bloomberg.com",
-      "impact_score": 80.7,
+      "title": "Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns - Yahoo Finance UK",
+      "summary": "Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns Yahoo Finance UK",
+      "impact_score": 79.4,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting",
-      "summary": "Oil Prices, Fed on Bank Indonesia’s Radar Ahead of Next Meeting WSJ",
-      "impact_score": 80.4,
+      "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals - Yahoo Finance",
+      "summary": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals Yahoo Finance",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US Equity Markets End Higher After Government Bond Yields Fall - Yahoo Finance",
+      "summary": "US Equity Markets End Higher After Government Bond Yields Fall Yahoo Finance",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Tesla Has Built a Flying Car. It Will Blow Your Mind.",
+      "summary": "Tesla Has Built a Flying Car. It Will Blow Your Mind. Barron's",
+      "impact_score": 76.5,
       "sentiment_score": 0.03
     },
     {
-      "title": "The PPI Was Much Higher Than Expected. Odds of a Fed Rate Hike Edged Down Anyway. - Yahoo Finance",
-      "summary": "The PPI Was Much Higher Than Expected. Odds of a Fed Rate Hike Edged Down Anyway. Yahoo Finance",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
+      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
+      "impact_score": 74.7,
+      "sentiment_score": 0.16
     },
     {
-      "title": "U.S. Treasury yields plunge after hot CPI print as investors await more economic data - CNBC",
-      "summary": "U.S. Treasury yields plunge after hot CPI print as investors await more economic data CNBC",
-      "impact_score": 79.2,
+      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+      "summary": "Wealthy investors are flocking to tax-aware long short strategies, adding billions into these super-powered versions of tax-loss harvesting accounts.",
+      "impact_score": 73.7,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "AI could drive a Tesla-SpaceX tie-up as soon as this fall, analysts say - Yahoo Finance",
-      "summary": "AI could drive a Tesla-SpaceX tie-up as soon as this fall, analysts say Yahoo Finance",
-      "impact_score": 78.9,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Dow Jones jumps 550 points, Nasdaq recovers as AI sell-off halts despite high inflation",
-      "summary": "Dow Jones jumps 550 points, Nasdaq recovers as AI sell-off halts despite high inflation CNBC TV18",
-      "impact_score": 78.1,
-      "sentiment_score": -0.4
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
