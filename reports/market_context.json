@@ -1,18 +1,18 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1869 articles from Yahoo Finance, MarketBeat, TradingView, Simply Wall Street, Reuters. The dominant theme is macro, with 803 macro items, 528 company items, 478 industry items, and 60 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (274), inflation (142), oil/energy (92), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 275 positive, 186 negative, and 1408 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1846 articles from Yahoo Finance, TradingView, Simply Wall Street, MarketBeat, Yahoo! Finance Canada. The dominant theme is macro, with 804 macro items, 501 company items, 477 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (246), inflation (121), oil/energy (107), growth/jobs (24). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 245 positive, 194 negative, and 1407 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
+    {
+      "title": "Wall Street ends down; worries about AI trade and high oil prices weigh",
+      "summary": "Wall Street ends down; worries about AI trade and high oil prices weigh Reuters",
+      "impact_score": 85.7,
+      "sentiment_score": -0.16
+    },
     {
       "title": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates - Bloomberg.com",
       "summary": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates Bloomberg.com",
       "impact_score": 82.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "European stocks rise, dollar set for weekly loss after yields drop - Reuters",
-      "summary": "European stocks rise, dollar set for weekly loss after yields drop Reuters",
-      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
@@ -28,27 +28,27 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "US Equity Markets End Higher After Government Bond Yields Fall - Yahoo Finance",
-      "summary": "US Equity Markets End Higher After Government Bond Yields Fall Yahoo Finance",
+      "title": "Gold set for a weekly drop as traders assess Fed signals - CNBC",
+      "summary": "Gold set for a weekly drop as traders assess Fed signals CNBC",
       "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Tesla Has Built a Flying Car. It Will Blow Your Mind.",
-      "summary": "Tesla Has Built a Flying Car. It Will Blow Your Mind. Barron's",
-      "impact_score": 76.5,
-      "sentiment_score": 0.03
+      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries - CNBC",
+      "summary": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries CNBC",
+      "impact_score": 78.2,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
-      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
-      "impact_score": 74.7,
-      "sentiment_score": 0.16
+      "title": "Google Just Cut a Major Quantum Computing Error Rate by 40 Times - Yahoo Finance",
+      "summary": "Google Just Cut a Major Quantum Computing Error Rate by 40 Times Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
-      "summary": "Wealthy investors are flocking to tax-aware long short strategies, adding billions into these super-powered versions of tax-loss harvesting accounts.",
-      "impact_score": 73.7,
+      "title": "10-Year Yield Falls and Bitcoin Bounces Back: Correlation or Coincidence? - Yahoo Finance",
+      "summary": "10-Year Yield Falls and Bitcoin Bounces Back: Correlation or Coincidence? Yahoo Finance",
+      "impact_score": 77.4,
       "sentiment_score": -0.35
     }
   ],
