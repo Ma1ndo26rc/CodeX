@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1846 articles from Yahoo Finance, TradingView, Simply Wall Street, MarketBeat, Yahoo! Finance Canada. The dominant theme is macro, with 804 macro items, 501 company items, 477 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (246), inflation (121), oil/energy (107), growth/jobs (24). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 245 positive, 194 negative, and 1407 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1706 articles from Yahoo Finance, TradingView, MarketBeat, Simply Wall Street, Stocktwits. The dominant theme is macro, with 691 macro items, 567 company items, 402 industry items, and 46 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (158), inflation (119), oil/energy (105), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 192 positive, 206 negative, and 1308 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Wall Street ends down; worries about AI trade and high oil prices weigh",
-      "summary": "Wall Street ends down; worries about AI trade and high oil prices weigh Reuters",
-      "impact_score": 85.7,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates - Bloomberg.com",
-      "summary": "Warsh’s Missing Words Fuel Bets Fed Will Hold Rates Bloomberg.com",
-      "impact_score": 82.7,
+      "title": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall - WSJ",
+      "summary": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall WSJ",
+      "impact_score": 82.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns - Yahoo Finance UK",
-      "summary": "Gold Advances as Treasury Yield Decline and Dollar Weakness Offset Interest Rate Concerns Yahoo Finance UK",
+      "title": "Oil Prices Fall as Traders Weigh Russia Sanctions Waiver, Middle East Risks - WSJ",
+      "summary": "Oil Prices Fall as Traders Weigh Russia Sanctions Waiver, Middle East Risks WSJ",
+      "impact_score": 81.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold steady ahead of Fed meeting, lower oil prices limit downside - Reuters",
+      "summary": "Gold steady ahead of Fed meeting, lower oil prices limit downside Reuters",
+      "impact_score": 81.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
+      "summary": "The prime minister denied that her policies were responsible for the yen’s weakness or rising JGB yields.",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop - CNBC",
+      "summary": "Treasury yields move higher as investors assess U.S. inflation backdrop CNBC",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "See What 71 Economists Told Us About Where Growth and Yields Are Headed - WSJ",
+      "summary": "See What 71 Economists Told Us About Where Growth and Yields Are Headed WSJ",
+      "impact_score": 79.7,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "South African business confidence eases slightly in September on oil price uncertainty - Reuters",
+      "summary": "South African business confidence eases slightly in September on oil price uncertainty Reuters",
       "impact_score": 79.4,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals - Yahoo Finance",
-      "summary": "Gold Prices Rise as Lower US Treasury Yields and Weaker Dollar Support Precious Metals Yahoo Finance",
-      "impact_score": 79.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Gold set for a weekly drop as traders assess Fed signals - CNBC",
-      "summary": "Gold set for a weekly drop as traders assess Fed signals CNBC",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries - CNBC",
-      "summary": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries CNBC",
-      "impact_score": 78.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Google Just Cut a Major Quantum Computing Error Rate by 40 Times - Yahoo Finance",
-      "summary": "Google Just Cut a Major Quantum Computing Error Rate by 40 Times Yahoo Finance",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "10-Year Yield Falls and Bitcoin Bounces Back: Correlation or Coincidence? - Yahoo Finance",
-      "summary": "10-Year Yield Falls and Bitcoin Bounces Back: Correlation or Coincidence? Yahoo Finance",
+      "title": "US Stock Market Today: S&P 500 Futures Drop On Sticky Trade Inflation Concerns - Yahoo Finance",
+      "summary": "US Stock Market Today: S&P 500 Futures Drop On Sticky Trade Inflation Concerns Yahoo Finance",
       "impact_score": 77.4,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
