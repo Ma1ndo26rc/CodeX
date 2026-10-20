@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1711 articles from Yahoo Finance, TradingView, MarketBeat, Simply Wall Street, Investing.com. The dominant theme is macro, with 661 macro items, 571 company items, 428 industry items, and 51 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (178), inflation (112), oil/energy (102), growth/jobs (20). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 225 positive, 211 negative, and 1275 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1806 articles from Yahoo Finance, TradingView, MarketBeat, Simply Wall Street, Seeking Alpha. The dominant theme is macro, with 758 macro items, 611 company items, 392 industry items, and 45 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (201), oil/energy (157), inflation (145), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 262 positive, 204 negative, and 1340 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury yields move higher as investors assess U.S. inflation backdrop - CNBC",
-      "summary": "Treasury yields move higher as investors assess U.S. inflation backdrop CNBC",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982 - Reuters",
-      "summary": "Oil stocks in US strategic petroleum reserve fall to lowest level since 1982 Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "South African business confidence eases slightly in September on oil price uncertainty - Reuters",
-      "summary": "South African business confidence eases slightly in September on oil price uncertainty Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates",
-      "summary": "The prime minister denied that her policies were responsible for the yen’s weakness or rising JGB yields.",
+      "title": "10-year Treasury yield moves lower after weak housing data - CNBC",
+      "summary": "10-year Treasury yield moves lower after weak housing data CNBC",
       "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall - Yahoo Finance",
-      "summary": "French Government-Bond Yields Rise on Protests, Budget Concerns; Treasury Yields Fall Yahoo Finance",
+      "title": "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance",
+      "summary": "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates Yahoo Finance",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "French Government-Bond Yields Turn Higher; Treasury Yields Fall - WSJ",
+      "summary": "French Government-Bond Yields Turn Higher; Treasury Yields Fall WSJ",
       "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Futures Edge Higher After Chipmaker Rally: Markets Wrap - Bloomberg.com",
-      "summary": "US Stock Futures Edge Higher After Chipmaker Rally: Markets Wrap Bloomberg.com",
-      "impact_score": 79.8,
-      "sentiment_score": 0.35
+      "title": "Oil prices fall as traders hope for diplomatic progress in Middle East",
+      "summary": "Developments in the Middle East remain in focus, with attacks on commercial ships transiting the Strait of Hormuz escalating in recent weeks.",
+      "impact_score": 80.2,
+      "sentiment_score": -0.35
     },
     {
-      "title": "See What 71 Economists Told Us About Where Growth and Yields Are Headed - WSJ",
-      "summary": "See What 71 Economists Told Us About Where Growth and Yields Are Headed WSJ",
-      "impact_score": 79.7,
-      "sentiment_score": 0.35
+      "title": "Gold inches up on softer dollar as investors assess Fed rate outlook - Yahoo Finance",
+      "summary": "Gold inches up on softer dollar as investors assess Fed rate outlook Yahoo Finance",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Market Today: S&P 500 Futures Drop On Sticky Trade Inflation Concerns - Yahoo Finance",
-      "summary": "US Stock Market Today: S&P 500 Futures Drop On Sticky Trade Inflation Concerns Yahoo Finance",
+      "title": "Spanish bank index falls 9% since yield jump; Jefferies shifts ratings - Yahoo Finance Singapore",
+      "summary": "Spanish bank index falls 9% since yield jump; Jefferies shifts ratings Yahoo Finance Singapore",
       "impact_score": 77.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
+      "summary": "Copper is up 15.8% in 2026 as investors point to AI, grid and national security demand, tight supply and tariff-driven U.S. stockpiles.",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Foreign Investors Poured $1 Trillion Into U.S. Stocks — but a 59% Drop in Treasury Buying Could Make Your Next Home or Car Loan More Expensive - Yahoo Finance",
+      "summary": "Foreign Investors Poured $1 Trillion Into U.S. Stocks — but a 59% Drop in Treasury Buying Could Make Your Next Home or Car Loan More Expensive Yahoo Finance",
+      "impact_score": 75.4,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
