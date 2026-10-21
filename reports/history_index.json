@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-21T00:36:50.048431+00:00",
+  "generated_at": "2026-10-21T17:38:48.889231+00:00",
   "reports": [
+    {
+      "date": "2026-10-21",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-10-21T17:38:44.536993+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-10-21-premarket.json",
+      "dynamic_headline": "oil/energy leads a constructive but selective pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is constructive but selective, based on 1802 articles from Yahoo Finance, MarketBeat, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 687 macro items, 686 company items, 385 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.2
+    },
     {
       "date": "2026-10-21",
       "report_type": "close",
