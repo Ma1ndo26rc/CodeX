@@ -1,31 +1,31 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1802 articles from Yahoo Finance, MarketBeat, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 687 macro items, 686 company items, 385 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (187), oil/energy (127), inflation (98), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 333 positive, 147 negative, and 1322 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1791 articles from Yahoo Finance, TradingView, MarketBeat, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 671 macro items, 669 company items, 402 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (166), oil/energy (120), inflation (105), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 348 positive, 162 negative, and 1281 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury Yields Fall on String of Weak Housing Data - WSJ",
-      "summary": "Treasury Yields Fall on String of Weak Housing Data WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
+      "title": "Tesla’s Third-Quarter Earnings Beat Wall Street Estimates",
+      "summary": "Tesla’s Third-Quarter Earnings Beat Wall Street Estimates Bloomberg.com",
+      "impact_score": 80.3,
+      "sentiment_score": -0.02
     },
     {
-      "title": "Stocks Gain as Treasury Yields Give Back Some Recent Gains - WSJ",
-      "summary": "Stocks Gain as Treasury Yields Give Back Some Recent Gains WSJ",
-      "impact_score": 81.7,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "How Ukraine’s drone strikes on Russia crippled the world’s second-largest diesel supplier",
-      "summary": "President Donald Trump has blamed Ukraine for surging diesel prices that are hurting Republicans' election chances with the midterms just two weeks away.",
+      "title": "Treasuries Slide After Middle East Strife Report Spurs Oil Gains - Yahoo Finance UK",
+      "summary": "Treasuries Slide After Middle East Strife Report Spurs Oil Gains Yahoo Finance UK",
       "impact_score": 80.2,
-      "sentiment_score": 0.03
+      "sentiment_score": 0.35
     },
     {
-      "title": "Dollar mixed as traders wait on Fed, Aussie gains - Reuters",
-      "summary": "Dollar mixed as traders wait on Fed, Aussie gains Reuters",
-      "impact_score": 80.1,
+      "title": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks - WSJ",
+      "summary": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks WSJ",
+      "impact_score": 80.0,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "Mortgage rates drop for the first time in 2 months, but demand still falls further",
+      "summary": "Mortgage rates finally came down a little, but borrowers are still having trouble getting into the housing market.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
     },
     {
       "title": "Nvidia announces plug and play Vera Rubin racks that can be shipped on a truck",
@@ -34,22 +34,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy",
-      "summary": "Meta ordered to pay $25 billion to New Mexico after jury finds company misled consumers about data privacy Reuters",
-      "impact_score": 78.5,
-      "sentiment_score": 0.03
+      "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+      "summary": "The president’s statement comes as a voter backlash against the facilities intensifies ahead of the midterm elections.",
+      "impact_score": 79.2,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Diesel Crisis Worsens As Russia Promises Tankers, U.S. Turns To Emergency Stockpile",
-      "summary": "Diesel Crisis Worsens As Russia Promises Tankers, U.S. Turns To Emergency Stockpile Investor's Business Daily",
-      "impact_score": 78.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Asia's macro backdrop remains 'brittle' as oil and El Niño add to inflation risks: HSBC - CNBC",
-      "summary": "Asia's macro backdrop remains 'brittle' as oil and El Niño add to inflation risks: HSBC CNBC",
-      "impact_score": 77.6,
+      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+      "summary": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
+      "impact_score": 79.1,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Meta Will Split Stock, Create New Class to Fund AI Spending",
+      "summary": "Meta Will Split Stock, Create New Class to Fund AI Spending WSJ",
+      "impact_score": 77.7,
+      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
