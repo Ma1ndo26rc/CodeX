@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1716 articles from Yahoo Finance, The Motley Fool, Seeking Alpha, TradingView, CNBC Markets. The dominant theme is macro, with 743 macro items, 481 company items, 449 industry items, and 43 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (172), oil/energy (166), inflation (137), growth/jobs (22). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 187 positive, 268 negative, and 1261 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1767 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, Investing.com. The dominant theme is macro, with 733 macro items, 493 company items, 498 industry items, and 43 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (170), oil/energy (163), inflation (124), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 213 positive, 243 negative, and 1311 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Stocks drop as Meta dampens AI optimism; Treasury yields fall - Reuters",
-      "summary": "Stocks drop as Meta dampens AI optimism; Treasury yields fall Reuters",
+      "title": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets - Reuters",
+      "summary": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets Reuters",
       "impact_score": 83.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+      "summary": "The 10-year Treasury yield stayed below 5% Friday after AI-driven tech selling sent investors into government bonds.",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries - CNBC",
+      "summary": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries CNBC",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "World shares are mixed after Wall Street's AI-related losses, while oil prices jump - BNN Bloomberg",
+      "summary": "World shares are mixed after Wall Street's AI-related losses, while oil prices jump BNN Bloomberg",
+      "impact_score": 81.1,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on. - MarketWatch",
+      "summary": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on. MarketWatch",
+      "impact_score": 80.9,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "The Fed Faces Its Most Confusing Economy Yet - Bloomberg.com",
+      "summary": "The Fed Faces Its Most Confusing Economy Yet Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall, Focus Stays on France - WSJ",
+      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall, Focus Stays on France WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
       "title": "U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety - WSJ",
       "summary": "U.S. 10-Year Treasury Yield Falls Under 5% as French Turmoil Fuels Flight for Safety WSJ",
-      "impact_score": 82.6,
+      "impact_score": 80.6,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "S&P 500, Nasdaq end lower as revived AI doubts spark tech selloff",
-      "summary": "S&P 500, Nasdaq end lower as revived AI doubts spark tech selloff Reuters",
-      "impact_score": 81.5,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "US 10-year yield falls below 5% as investors flock to havens - CNBC TV18",
-      "summary": "US 10-year yield falls below 5% as investors flock to havens CNBC TV18",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Silver Futures Fall to Lowest This Year as Oil Prices Fuel Inflation Risks - WSJ",
-      "summary": "Silver Futures Fall to Lowest This Year as Oil Prices Fuel Inflation Risks WSJ",
-      "impact_score": 79.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "10-Year U.S. Treasury Yield Plunges Nearly 20 Basis Points in One Day as Tech Selloff Sparks Flight to Safety",
-      "summary": "10-Year U.S. Treasury Yield Plunges Nearly 20 Basis Points in One Day as Tech Selloff Sparks Flight to Safety BigGo Finance",
-      "impact_score": 79.0,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "Apple bets iPhone Duo can remake foldable market as sales begin",
-      "summary": "Apple bets iPhone Duo can remake foldable market as sales begin Reuters",
-      "impact_score": 78.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Japan core inflation in September surges to its highest this year at 2.1%",
-      "summary": "Core inflation, which strips out prices of fresh food, was in line with than the 2.1% forecast by economists polled by Reuters.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"

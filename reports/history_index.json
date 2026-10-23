@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-23T00:39:10.785712+00:00",
+  "generated_at": "2026-10-23T17:26:31.984698+00:00",
   "reports": [
+    {
+      "date": "2026-10-23",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-10-23T17:26:27.835115+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-10-23-premarket.json",
+      "dynamic_headline": "oil/energy leads a mixed and wait-and-see pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1767 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, Investing.com. The dominant theme is macro, with 733 macro items, 493 company items, 498 industry items, and 43 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 74.0
+    },
     {
       "date": "2026-10-23",
       "report_type": "close",
