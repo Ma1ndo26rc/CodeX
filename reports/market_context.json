@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1771 articles from Yahoo Finance, TradingView, Seeking Alpha, CNBC Markets, Investing.com. The dominant theme is macro, with 761 macro items, 507 company items, 459 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (176), oil/energy (175), inflation (137), growth/jobs (35). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 207 positive, 288 negative, and 1276 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1684 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, 24/7 Wall St.. The dominant theme is macro, with 729 macro items, 536 company items, 375 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (227), inflation (129), oil/energy (121), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 219 positive, 160 negative, and 1305 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets - CNBC",
-      "summary": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets CNBC",
+      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "summary": "The Federal Reserve is expected to keep its overnight rate unchanged at the conclusion of its October meeting this week.",
+      "impact_score": 83.9,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+      "summary": "Apple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.",
       "impact_score": 83.0,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts - Financial Times",
+      "summary": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts Financial Times",
+      "impact_score": 82.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets - Reuters",
-      "summary": "Gold set for steep weekly loss as rising oil prices bolster Fed rate hike bets Reuters",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
+      "title": "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
+      "summary": "Investors are worried about the vulnerability of Saudi energy infrastructure and the risk of another disruption to production, refining or export facilities.",
+      "impact_score": 80.2,
+      "sentiment_score": 0.03
     },
     {
-      "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
-      "summary": "The 10-year Treasury yield was just below 5% Friday after AI-driven tech selling sent investors into the safety of government bonds.",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "The Fed Faces Its Most Confusing Economy Yet - Bloomberg",
-      "summary": "The Fed Faces Its Most Confusing Economy Yet Bloomberg",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns - WSJ",
-      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
-      "summary": "Sen. Susan Collins announced Canada was dropping Canadian tariffs, but the White House later said it was \"replacing\" the ones removed from the list.",
+      "title": "Bank of America still forecasts Fed rate hike this week, but with low confidence",
+      "summary": "Bank of America still forecasts Fed rate hike this week, but with low confidence The Business Journals",
       "impact_score": 79.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting - Bloomberg.com",
+      "summary": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting Bloomberg.com",
+      "impact_score": 78.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stocks fall across the board but AI stocks stabilize",
-      "summary": "Stocks fall across the board but AI stocks stabilize Reuters",
-      "impact_score": 77.9,
-      "sentiment_score": -0.16
+      "title": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks - WSJ",
+      "summary": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks WSJ",
+      "impact_score": 78.0,
+      "sentiment_score": 0.35
     },
     {
-      "title": "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week — AAPL, AXP, CART, UBER In Focus - Yahoo Finance",
-      "summary": "S&P 500, Dow Drop As Elevated Oil Prices Stoke Inflation Fears Ahead Of Fed Meeting Next Week — AAPL, AXP, CART, UBER In Focus Yahoo Finance",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
+      "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+      "summary": "Meta is looking to raise a total of $95 billion through stock-related deals that stretch into early next year.",
+      "impact_score": 77.7,
+      "sentiment_score": 0.07
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
