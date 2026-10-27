@@ -1,19 +1,19 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1684 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, 24/7 Wall St.. The dominant theme is macro, with 729 macro items, 536 company items, 375 industry items, and 44 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (227), inflation (129), oil/energy (121), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 219 positive, 160 negative, and 1305 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1669 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, Investing.com. The dominant theme is macro, with 702 macro items, 571 company items, 346 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (200), inflation (103), oil/energy (95), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 197 positive, 157 negative, and 1315 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
-      "summary": "The Federal Reserve is expected to keep its overnight rate unchanged at the conclusion of its October meeting this week.",
-      "impact_score": 83.9,
-      "sentiment_score": 0.03
+      "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+      "summary": "All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
+      "impact_score": 87.2,
+      "sentiment_score": -0.8
     },
     {
-      "title": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
-      "summary": "Apple on Monday said it was aware of the issue and that it would replace the devices under its AppleCare warranty.",
-      "impact_score": 83.0,
-      "sentiment_score": 0.03
+      "title": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut",
+      "summary": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut Bloomberg.com",
+      "impact_score": 86.4,
+      "sentiment_score": -0.03
     },
     {
       "title": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts - Financial Times",
@@ -22,16 +22,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
-      "summary": "Investors are worried about the vulnerability of Saudi energy infrastructure and the risk of another disruption to production, refining or export facilities.",
+      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
       "impact_score": 80.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "Bank of America still forecasts Fed rate hike this week, but with low confidence",
-      "summary": "Bank of America still forecasts Fed rate hike this week, but with low confidence The Business Journals",
-      "impact_score": 79.2,
-      "sentiment_score": -0.55
+      "title": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting - Bloomberg.com",
+      "summary": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting Bloomberg.com",
+      "impact_score": 78.7,
+      "sentiment_score": -0.35
     },
     {
       "title": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting - Bloomberg.com",
@@ -40,16 +46,10 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks - WSJ",
-      "summary": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks WSJ",
-      "impact_score": 78.0,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
-      "summary": "Meta is looking to raise a total of $95 billion through stock-related deals that stretch into early next year.",
-      "impact_score": 77.7,
-      "sentiment_score": 0.07
+      "title": "Oil extends losses as Iran mediation efforts ease escalation fears",
+      "summary": "Oil extends losses as Iran mediation efforts ease escalation fears Yahoo Finance",
+      "impact_score": 77.9,
+      "sentiment_score": -0.16
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
