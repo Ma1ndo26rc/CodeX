@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1669 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, Investing.com. The dominant theme is macro, with 702 macro items, 571 company items, 346 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (200), inflation (103), oil/energy (95), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 197 positive, 157 negative, and 1315 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1595 articles from Yahoo Finance, Investing.com, TradingView, The Motley Fool, 24/7 Wall St.. The dominant theme is macro, with 654 macro items, 529 company items, 366 industry items, and 46 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (189), oil/energy (105), inflation (91), growth/jobs (22). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 230 positive, 143 negative, and 1222 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
-      "summary": "All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
-      "impact_score": 87.2,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut",
-      "summary": "Microsoft to Offer Buyouts to 60,000 Workers in New Cost Cut Bloomberg.com",
-      "impact_score": 86.4,
-      "sentiment_score": -0.03
-    },
-    {
-      "title": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts - Financial Times",
-      "summary": "Fed to stick with quarterly rate rises as it removes 2025 insurance cuts Financial Times",
-      "impact_score": 82.1,
+      "title": "Kevin Warsh Wanted the Fed to Be Quiet. Instead, It’s as Noisy as Ever. - WSJ",
+      "summary": "Kevin Warsh Wanted the Fed to Be Quiet. Instead, It’s as Noisy as Ever. WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
-      "summary": "With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
+      "title": "Gold gains on softer oil prices ahead of Fed meeting - Reuters",
+      "summary": "Gold gains on softer oil prices ahead of Fed meeting Reuters",
+      "impact_score": 80.5,
+      "sentiment_score": 0.35
     },
     {
-      "title": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
-      "summary": "China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
-      "impact_score": 80.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting - Bloomberg.com",
-      "summary": "Gold Steadies After Weekly Drop as Focus Shifts to Fed Meeting Bloomberg.com",
-      "impact_score": 78.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting - Bloomberg.com",
-      "summary": "Copper Extends Drop as AI Stocks Weigh Ahead of Fed Meeting Bloomberg.com",
-      "impact_score": 78.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Oil extends losses as Iran mediation efforts ease escalation fears",
-      "summary": "Oil extends losses as Iran mediation efforts ease escalation fears Yahoo Finance",
-      "impact_score": 77.9,
+      "title": "Sorry, Trump. More Russian Oil Won’t Take Down Energy Prices. Here’s What Will.",
+      "summary": "Sorry, Trump. More Russian Oil Won’t Take Down Energy Prices. Here’s What Will. Barron's",
+      "impact_score": 80.5,
       "sentiment_score": -0.16
+    },
+    {
+      "title": "Early third-quarter earnings show a 'resilient' U.S. consumer, with signs of strain",
+      "summary": "Companies from Royal Caribbean to Coca-Cola and UPS say they are seeing steady consumer spending despite high inflation.",
+      "impact_score": 79.5,
+      "sentiment_score": -0.11
+    },
+    {
+      "title": "How to use I-bonds to create guaranteed, inflation-proof income in retirement",
+      "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "impact_score": 79.4,
+      "sentiment_score": -0.25
+    },
+    {
+      "title": "Insurers bullish on private markets even as government bond yields rise - Financial Times",
+      "summary": "Insurers bullish on private markets even as government bond yields rise Financial Times",
+      "impact_score": 79.2,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Gold Falls Below $4,000 as Investors Await Federal Reserve Rate Decision - Yahoo Finance",
+      "summary": "Gold Falls Below $4,000 as Investors Await Federal Reserve Rate Decision Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "2 energy stocks with exciting potential and 1 we question",
+      "summary": "2 energy stocks with exciting potential and 1 we question Yahoo Finance",
+      "impact_score": 76.4,
+      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
