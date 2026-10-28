@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1754 articles from Yahoo Finance, TradingView, The Motley Fool, Seeking Alpha, Investing.com. The dominant theme is macro, with 696 macro items, 612 company items, 400 industry items, and 46 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (235), inflation (104), oil/energy (101), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 268 positive, 182 negative, and 1304 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1686 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, 24/7 Wall St.. The dominant theme is macro, with 782 macro items, 510 company items, 361 industry items, and 33 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (280), inflation (113), oil/energy (99), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 233 positive, 196 negative, and 1257 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed",
-      "summary": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed Bloomberg.com",
-      "impact_score": 85.8,
-      "sentiment_score": -0.55
+      "title": "Fed holds rates steady despite concerns over inflation",
+      "summary": "Two of the 12 Federal Open Market Committee voters dissented from the decision. Both wanted to raise rates by a quarter percentage point.",
+      "impact_score": 92.1,
+      "sentiment_score": -0.15
     },
     {
-      "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
-      "summary": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them WSJ",
-      "impact_score": 85.7,
+      "title": "Federal Reserve skips rate hike despite elevated inflation",
+      "summary": "Federal Reserve skips rate hike despite elevated inflation Spectrum News",
+      "impact_score": 91.3,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Federal Reserve Holds Interest Rates Steady Ahead Of Elections",
+      "summary": "Federal Reserve Holds Interest Rates Steady Ahead Of Elections KNRS",
+      "impact_score": 88.2,
+      "sentiment_score": -0.09
+    },
+    {
+      "title": "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments",
+      "summary": "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments Yahoo Finance",
+      "impact_score": 81.6,
       "sentiment_score": 0.03
     },
     {
-      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns",
-      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns WSJ",
-      "impact_score": 85.5,
-      "sentiment_score": -0.16
+      "title": "U.S. stocks are mixed after Fed keeps interest rates unchanged (COMP:IND:)",
+      "summary": "U.S. stocks are mixed after Fed keeps interest rates unchanged (COMP:IND:) Seeking Alpha",
+      "impact_score": 81.3,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed - Bloomberg.com",
-      "summary": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed Bloomberg.com",
-      "impact_score": 81.8,
-      "sentiment_score": 0.35
+      "title": "Fed is ‘modestly hawkish,’ will hike interest rates in December – RSM US’s Brusuelas",
+      "summary": "Fed is ‘modestly hawkish,’ will hike interest rates in December – RSM US’s Brusuelas Seeking Alpha",
+      "impact_score": 81.3,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Kevin Warsh Wanted the Fed to Be Quiet. Instead, It’s as Noisy as Ever. - WSJ",
-      "summary": "Kevin Warsh Wanted the Fed to Be Quiet. Instead, It’s as Noisy as Ever. WSJ",
-      "impact_score": 80.6,
+      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision - CNBC",
+      "summary": "Treasury yields tick higher ahead of Federal Reserve interest rate decision CNBC",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns - WSJ",
-      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns WSJ",
-      "impact_score": 80.6,
+      "title": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap - Bloomberg.com",
+      "summary": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap Bloomberg.com",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Treasury Yields Fall on String of Weak Housing Data - WSJ",
-      "summary": "Treasury Yields Fall on String of Weak Housing Data WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Dollar holds gains ahead of Fed policy signal, RBNZ decision - Reuters",
-      "summary": "Dollar holds gains ahead of Fed policy signal, RBNZ decision Reuters",
-      "impact_score": 80.1,
-      "sentiment_score": 0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
