@@ -1,54 +1,54 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1761 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, CNBC. The dominant theme is macro, with 777 macro items, 618 company items, 330 industry items, and 36 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (316), inflation (119), oil/energy (100), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 283 positive, 230 negative, and 1248 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1776 articles from Yahoo Finance, TradingView, Seeking Alpha, 24/7 Wall St., The Motley Fool. The dominant theme is macro, with 739 macro items, 608 company items, 382 industry items, and 47 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (242), inflation (132), oil/energy (90), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 253 positive, 276 negative, and 1247 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "U.S. stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates - BNN Bloomberg",
-      "summary": "U.S. stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates BNN Bloomberg",
-      "impact_score": 82.7,
-      "sentiment_score": -0.35
+      "title": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot",
+      "summary": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot Yahoo Finance",
+      "impact_score": 83.5,
+      "sentiment_score": 0.02
     },
     {
-      "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap",
-      "summary": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap Bloomberg",
-      "impact_score": 82.2,
-      "sentiment_score": -0.16
+      "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
+      "summary": "Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.",
+      "impact_score": 83.5,
+      "sentiment_score": 0.16
     },
     {
-      "title": "10-year Treasury yield creeps higher even as Fed keeps rates the same - CNBC",
-      "summary": "10-year Treasury yield creeps higher even as Fed keeps rates the same CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap - Bloomberg",
-      "summary": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap Bloomberg",
+      "title": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock - Bloomberg.com",
+      "summary": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock Bloomberg.com",
       "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "2 Warren Buffett Artificial Intelligence (AI) Stocks That Could Soar Even if the Stock Market Crashes in 2027",
-      "summary": "2 Warren Buffett Artificial Intelligence (AI) Stocks That Could Soar Even if the Stock Market Crashes in 2027 Yahoo Finance",
-      "impact_score": 80.5,
-      "sentiment_score": -0.16
+      "title": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold - WSJ",
+      "summary": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Oil Is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel?",
-      "summary": "Oil Is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel? WSJ",
-      "impact_score": 80.3,
-      "sentiment_score": 0.03
+      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns - WSJ",
+      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
     },
     {
-      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
-      "summary": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
+      "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
+      "summary": "Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.",
+      "impact_score": 80.2,
+      "sentiment_score": -0.35
     },
     {
-      "title": "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook",
-      "summary": "Even with an uptick in multimillion-dollar AI deals, ServiceNow’s earnings results weren’t enough to win over software skeptics.",
-      "impact_score": 78.0,
+      "title": "Steve Eisman gets more conservative with portfolio as AI trade nears 'tipping point'",
+      "summary": "The noted investor, famous from \"The Big Short,\" says it would be \"impossible\" for an AI crash not to hurt the broader market",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Cruise companies aim to keep fuel costs down. Their strategies for doing so differ",
+      "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     }
   ],
