@@ -1,54 +1,54 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1686 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, 24/7 Wall St.. The dominant theme is macro, with 782 macro items, 510 company items, 361 industry items, and 33 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (280), inflation (113), oil/energy (99), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 233 positive, 196 negative, and 1257 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1761 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, CNBC. The dominant theme is macro, with 777 macro items, 618 company items, 330 industry items, and 36 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (316), inflation (119), oil/energy (100), growth/jobs (27). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 283 positive, 230 negative, and 1248 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Fed holds rates steady despite concerns over inflation",
-      "summary": "Two of the 12 Federal Open Market Committee voters dissented from the decision. Both wanted to raise rates by a quarter percentage point.",
-      "impact_score": 92.1,
-      "sentiment_score": -0.15
-    },
-    {
-      "title": "Federal Reserve skips rate hike despite elevated inflation",
-      "summary": "Federal Reserve skips rate hike despite elevated inflation Spectrum News",
-      "impact_score": 91.3,
+      "title": "U.S. stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates - BNN Bloomberg",
+      "summary": "U.S. stocks hold steady as the countdown ticks to a Federal Reserve decision on interest rates BNN Bloomberg",
+      "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Federal Reserve Holds Interest Rates Steady Ahead Of Elections",
-      "summary": "Federal Reserve Holds Interest Rates Steady Ahead Of Elections KNRS",
-      "impact_score": 88.2,
-      "sentiment_score": -0.09
+      "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap",
+      "summary": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap Bloomberg",
+      "impact_score": 82.2,
+      "sentiment_score": -0.16
     },
     {
-      "title": "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments",
-      "summary": "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments Yahoo Finance",
-      "impact_score": 81.6,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "U.S. stocks are mixed after Fed keeps interest rates unchanged (COMP:IND:)",
-      "summary": "U.S. stocks are mixed after Fed keeps interest rates unchanged (COMP:IND:) Seeking Alpha",
-      "impact_score": 81.3,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Fed is ‘modestly hawkish,’ will hike interest rates in December – RSM US’s Brusuelas",
-      "summary": "Fed is ‘modestly hawkish,’ will hike interest rates in December – RSM US’s Brusuelas Seeking Alpha",
-      "impact_score": 81.3,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision - CNBC",
-      "summary": "Treasury yields tick higher ahead of Federal Reserve interest rate decision CNBC",
+      "title": "10-year Treasury yield creeps higher even as Fed keeps rates the same - CNBC",
+      "summary": "10-year Treasury yield creeps higher even as Fed keeps rates the same CNBC",
       "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap - Bloomberg.com",
-      "summary": "S&P 500 Churns in Countdown to Fed, Tech Earnings: Markets Wrap Bloomberg.com",
+      "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap - Bloomberg",
+      "summary": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap Bloomberg",
       "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "2 Warren Buffett Artificial Intelligence (AI) Stocks That Could Soar Even if the Stock Market Crashes in 2027",
+      "summary": "2 Warren Buffett Artificial Intelligence (AI) Stocks That Could Soar Even if the Stock Market Crashes in 2027 Yahoo Finance",
+      "impact_score": 80.5,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Oil Is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel?",
+      "summary": "Oil Is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel? WSJ",
+      "impact_score": 80.3,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
+      "summary": "FedEx on Wednesday beat Wall Street expectations on the top and bottom lines for the third quarter of its newly aligned fiscal year.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook",
+      "summary": "Even with an uptick in multimillion-dollar AI deals, ServiceNow’s earnings results weren’t enough to win over software skeptics.",
+      "impact_score": 78.0,
       "sentiment_score": -0.35
     }
   ],
