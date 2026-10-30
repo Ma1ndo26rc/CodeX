@@ -1,42 +1,24 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1776 articles from Yahoo Finance, TradingView, Seeking Alpha, 24/7 Wall St., The Motley Fool. The dominant theme is macro, with 739 macro items, 608 company items, 382 industry items, and 47 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (242), inflation (132), oil/energy (90), growth/jobs (36). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 253 positive, 276 negative, and 1247 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1831 articles from Yahoo Finance, TradingView, Seeking Alpha, 24/7 Wall St., Simply Wall St. The dominant theme is macro, with 736 macro items, 659 company items, 396 industry items, and 40 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (197), inflation (135), oil/energy (100), growth/jobs (43). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 263 positive, 307 negative, and 1261 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot",
-      "summary": "Nvidia's relationship with China just got even more complicated as report says Jensen Huang was target of spy plot Yahoo Finance",
-      "impact_score": 83.5,
-      "sentiment_score": 0.02
-    },
-    {
-      "title": "Big Oil earnings are set to surge. Why investors may want to be cautious",
-      "summary": "Big Oil earnings are coming. Why guidance could matter most and why the the charts suggest investors should be cautious.",
-      "impact_score": 83.5,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock - Bloomberg.com",
-      "summary": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold - WSJ",
-      "summary": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns - WSJ",
-      "summary": "Treasury Yields Rise, Eurozone Bond Yields Fall Amid French Concerns WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
+      "title": "Indian AI Firm Seeks $3 Billion Financing for Nvidia Chips Order",
+      "summary": "Indian AI Firm Seeks $3 Billion Financing for Nvidia Chips Order Bloomberg.com",
+      "impact_score": 85.9,
+      "sentiment_score": 0.03
     },
     {
       "title": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks",
       "summary": "Lieutenant General Brett Sylvia was removed as head of strategy, plans and policy on the Joint Chiefs of Staff.",
       "impact_score": 80.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Why Intel’s stock is sinking toward its worst drop in two years",
+      "summary": "Intel’s PC business is under pressure as memory-chip prices dent demand and as corporate IT teams have less budget for laptops.",
+      "impact_score": 79.8,
       "sentiment_score": -0.35
     },
     {
@@ -50,6 +32,24 @@
       "summary": "Carnival is cutting fuel use, while Royal Caribbean and Norwegian rely on \"hedging\" to keep fuel costs down amid conflict in the Middle East.",
       "impact_score": 79.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock - Bloomberg.com",
+      "summary": "Fed’s Path to a Repo-Based Framework Faces a Familiar Roadblock Bloomberg.com",
+      "impact_score": 78.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "S&P cuts Navient outlook to negative on corporate restructuring plan - Yahoo Finance UK",
+      "summary": "S&P cuts Navient outlook to negative on corporate restructuring plan Yahoo Finance UK",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Nvidia discusses credit guarantees for Nscale’s deal with Anthropic — Channel NewsAsia",
+      "summary": "Nvidia discusses credit guarantees for Nscale’s deal with Anthropic — Channel NewsAsia UA.NEWS",
+      "impact_score": 75.7,
+      "sentiment_score": -0.02
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
