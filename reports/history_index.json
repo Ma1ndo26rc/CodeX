@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-30T01:56:24.826940+00:00",
+  "generated_at": "2026-10-30T18:12:47.996334+00:00",
   "reports": [
+    {
+      "date": "2026-10-30",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-10-30T18:12:43.701218+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-10-30-premarket.json",
+      "dynamic_headline": "oil/energy leads a cautious to risk-off pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is cautious to risk-off, based on 1669 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, Bloomberg.com. The dominant theme is macro, with 663 macro items, 550 company items, 420 industry items, and 36 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.2
+    },
     {
       "date": "2026-10-30",
       "report_type": "close",
