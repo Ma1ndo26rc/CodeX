@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1704 articles from Yahoo Finance, TradingView, Investing.com, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 708 macro items, 593 company items, 366 industry items, and 37 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around oil/energy (159), Fed/rates (136), inflation (129), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 220 positive, 250 negative, and 1234 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1524 articles from Yahoo Finance, TradingView, Seeking Alpha, Investing.com, CNBC Markets. The dominant theme is macro, with 649 macro items, 478 company items, 343 industry items, and 54 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around oil/energy (120), Fed/rates (111), inflation (108), growth/jobs (29). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 201 positive, 185 negative, and 1138 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Mapping the Market: Risk of rise in key US interest rate remains even after recent fall - Reuters",
-      "summary": "Mapping the Market: Risk of rise in key US interest rate remains even after recent fall Reuters",
-      "impact_score": 83.0,
+      "title": "Treasury Yields Extend Past Month’s Slide as Oil Prices Drop - Bloomberg.com",
+      "summary": "Treasury Yields Extend Past Month’s Slide as Oil Prices Drop Bloomberg.com",
+      "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap",
-      "summary": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap Bloomberg.com",
+      "title": "Stocks wobble, oil prices fall as Trump says Israel aid will stop - Reuters",
+      "summary": "Stocks wobble, oil prices fall as Trump says Israel aid will stop Reuters",
       "impact_score": 82.0,
-      "sentiment_score": -0.2
-    },
-    {
-      "title": "Asian stocks retreat ahead of US midterms, oil steadies",
-      "summary": "Asian stocks retreat ahead of US midterms, oil steadies Yahoo Finance",
-      "impact_score": 81.1,
-      "sentiment_score": -0.04
-    },
-    {
-      "title": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ",
-      "summary": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop WSJ",
-      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Treasury auction changes loom in 2027; dealers eye long-end cuts - Reuters",
-      "summary": "US Treasury auction changes loom in 2027; dealers eye long-end cuts Reuters",
-      "impact_score": 81.0,
+      "title": "Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results - WSJ",
+      "summary": "Treasury, European Government Bond Yields Rise as Markets Await U.S. Midterm Election Results WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
-      "summary": "U.S. military carried out attacks on Iran's Qeshm Island on Monday, even as the Trump administration has been underplaying war risks.",
-      "impact_score": 80.0,
+      "title": "A Top Oil Bull Says Take Profits as Crude Prices Slide",
+      "summary": "A Top Oil Bull Says Take Profits as Crude Prices Slide Barron's",
+      "impact_score": 79.0,
+      "sentiment_score": 0.16
+    },
+    {
+      "title": "Oil Edges Lower As U.S. Bombs Iran Before Election Day",
+      "summary": "Oil Edges Lower As U.S. Bombs Iran Before Election Day Investor's Business Daily",
+      "impact_score": 78.2,
       "sentiment_score": 0.03
     },
     {
-      "title": "Dominion Energy: 3 Key Takeaways for Long-Term Investors",
-      "summary": "Dominion Energy: 3 Key Takeaways for Long-Term Investors Yahoo Finance",
-      "impact_score": 76.4,
-      "sentiment_score": 0.03
+      "title": "‘Big Short’ Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction — ‘...Could Go Into a Recession Immediately’ - Yahoo Finance",
+      "summary": "‘Big Short’ Investor Steve Eisman Warns AI Price Cuts and Slowing Usage Could Trigger a Massive Stock Market Correction — ‘...Could Go Into a Recession Immediately’ Yahoo Finance",
+      "impact_score": 77.2,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Stocks mostly down as AI concerns top plunge in oil prices",
+      "title": "AI-generated 'slopaganda' in political ads puts internet platforms on alert",
+      "summary": "Tuesday's midterm elections follow record spending on AI-generated political ads.",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Stocks mostly down as AI concerns top plunge in oil prices - Yahoo Finance",
       "summary": "Stocks mostly down as AI concerns top plunge in oil prices Yahoo Finance",
-      "impact_score": 76.4,
-      "sentiment_score": -0.16
+      "impact_score": 75.8,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
