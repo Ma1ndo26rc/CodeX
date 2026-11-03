@@ -1,7 +1,7 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1678 articles from Yahoo Finance, TradingView, Investing.com, Seeking Alpha, Benzinga. The dominant theme is macro, with 718 macro items, 555 company items, 369 industry items, and 36 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around oil/energy (166), Fed/rates (147), inflation (141), growth/jobs (28). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 224 positive, 263 negative, and 1191 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1704 articles from Yahoo Finance, TradingView, Investing.com, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 708 macro items, 593 company items, 366 industry items, and 37 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around oil/energy (159), Fed/rates (136), inflation (129), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 220 positive, 250 negative, and 1234 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
       "title": "Mapping the Market: Risk of rise in key US interest rate remains even after recent fall - Reuters",
@@ -10,10 +10,16 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Futures Rise as Oil Prices Drop Easing AI-Led Selloff - Bloomberg.com",
-      "summary": "US Stock Futures Rise as Oil Prices Drop Easing AI-Led Selloff Bloomberg.com",
+      "title": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap",
+      "summary": "Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap Bloomberg.com",
+      "impact_score": 82.0,
+      "sentiment_score": -0.2
+    },
+    {
+      "title": "Asian stocks retreat ahead of US midterms, oil steadies",
+      "summary": "Asian stocks retreat ahead of US midterms, oil steadies Yahoo Finance",
       "impact_score": 81.1,
-      "sentiment_score": -0.35
+      "sentiment_score": -0.04
     },
     {
       "title": "U.S. Treasury, European Bond Yields Fall as Oil Prices Drop - WSJ",
@@ -28,29 +34,23 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Apple results beat Wall Street expectations on strong iPhone sales",
-      "summary": "Apple results beat Wall Street expectations on strong iPhone sales Reuters",
-      "impact_score": 78.5,
-      "sentiment_score": 0.12
+      "title": "U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran",
+      "summary": "U.S. military carried out attacks on Iran's Qeshm Island on Monday, even as the Trump administration has been underplaying war risks.",
+      "impact_score": 80.0,
+      "sentiment_score": 0.03
     },
     {
-      "title": "US stocks open higher as AI trade steadies, oil falls - Yahoo Finance",
-      "summary": "US stocks open higher as AI trade steadies, oil falls Yahoo Finance",
-      "impact_score": 77.8,
-      "sentiment_score": -0.35
+      "title": "Dominion Energy: 3 Key Takeaways for Long-Term Investors",
+      "summary": "Dominion Energy: 3 Key Takeaways for Long-Term Investors Yahoo Finance",
+      "impact_score": 76.4,
+      "sentiment_score": 0.03
     },
     {
-      "title": "The bond-market rally is defying the typical investing playbook. Here’s why.",
-      "summary": "The U.S. economy expanded at its fastest clip in over five years during the third quarter, according to the Commerce Department’s initial reading on GDP. Yet despite a barrage of robust data, Treasury bonds staged a surprise rally in October.",
-      "impact_score": 77.2,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Dow Jones Futures: AI Trade Dives As Apple Slides On Earnings; Midterm Elections Next",
-      "summary": "Dow Jones Futures: AI Trade Dives As Apple Slides On Earnings; Midterm Elections Next Investor's Business Daily",
-      "impact_score": 77.2,
-      "sentiment_score": 0.05
+      "title": "Stocks mostly down as AI concerns top plunge in oil prices",
+      "summary": "Stocks mostly down as AI concerns top plunge in oil prices Yahoo Finance",
+      "impact_score": 76.4,
+      "sentiment_score": -0.16
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
 }
