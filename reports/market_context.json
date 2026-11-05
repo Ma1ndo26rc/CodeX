@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1568 articles from Yahoo Finance, TradingView, Investing.com, Seeking Alpha, CNBC Markets. The dominant theme is macro, with 630 macro items, 498 company items, 385 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around oil/energy (114), inflation (109), Fed/rates (108), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 271 positive, 209 negative, and 1088 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1591 articles from Yahoo Finance, TradingView, Investing.com, 24/7 Wall St., Reuters. The dominant theme is macro, with 689 macro items, 469 company items, 379 industry items, and 54 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (169), oil/energy (135), inflation (115), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 216 positive, 250 negative, and 1125 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms - WSJ",
-      "summary": "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Rupee to rally after US midterm fallout sinks oil on Iran war-exit hopes",
-      "summary": "Rupee to rally after US midterm fallout sinks oil on Iran war-exit hopes Reuters",
-      "impact_score": 82.5,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop - CNBC",
-      "summary": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop CNBC",
-      "impact_score": 81.2,
+      "title": "FTSE slips as bank, defence stocks fall; BoE delivers first rate hike in 3 years - Reuters",
+      "summary": "FTSE slips as bank, defence stocks fall; BoE delivers first rate hike in 3 years Reuters",
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
       "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
       "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
-      "impact_score": 80.6,
+      "impact_score": 82.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap",
-      "summary": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap Bloomberg.com",
-      "impact_score": 80.5,
-      "sentiment_score": 0.03
+      "title": "U.S. crude oil rises back above $90 as investors weigh uncertainties around Iran war - CNBC",
+      "summary": "U.S. crude oil rises back above $90 as investors weigh uncertainties around Iran war CNBC",
+      "impact_score": 82.0,
+      "sentiment_score": -0.35
     },
     {
-      "title": "European shares jump over 1% after Democrats sweep US Congress, Novo Nordisk surges - Reuters",
-      "summary": "European shares jump over 1% after Democrats sweep US Congress, Novo Nordisk surges Reuters",
-      "impact_score": 80.1,
-      "sentiment_score": 0.35
+      "title": "10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data - CNBC",
+      "summary": "10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data CNBC",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold at over two-week high as dollar, yields weaken; US payrolls data awaited - Reuters",
+      "summary": "Gold at over two-week high as dollar, yields weaken; US payrolls data awaited Reuters",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold hits 2-week high as dollar, oil, yields fall after U.S. midterms - CNBC",
+      "summary": "Gold hits 2-week high as dollar, oil, yields fall after U.S. midterms CNBC",
+      "impact_score": 79.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Gold Prices Rise as Weaker Dollar and Treasury Yields Follow US Midterm Elections - Yahoo Finance",
+      "summary": "Gold Prices Rise as Weaker Dollar and Treasury Yields Follow US Midterm Elections Yahoo Finance",
+      "impact_score": 79.4,
+      "sentiment_score": -0.35
     },
     {
       "title": "Election stiffens the Fed's guardrails, but independence risks remain - Reuters",
       "summary": "Election stiffens the Fed's guardrails, but independence risks remain Reuters",
       "impact_score": 79.0,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Long-Term JGB Yields Fall After Oil Price Drops - WSJ",
-      "summary": "Long-Term JGB Yields Fall After Oil Price Drops WSJ",
-      "impact_score": 79.0,
-      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
