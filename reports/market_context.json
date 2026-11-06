@@ -1,54 +1,54 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1554 articles from Yahoo Finance, Investing.com, TradingView, Reuters, Bloomberg.com. The dominant theme is macro, with 616 macro items, 500 company items, 368 industry items, and 70 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (132), inflation (112), oil/energy (111), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 176 positive, 260 negative, and 1118 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is cautious to risk-off, based on 1518 articles from Yahoo Finance, Investing.com, Seeking Alpha, Reuters, TradingView. The dominant theme is macro, with 658 macro items, 440 company items, 370 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (141), inflation (100), oil/energy (95), growth/jobs (73). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 169 positive, 242 negative, and 1107 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "As high oil prices curb demand, fresh signs of glut appear",
-      "summary": "As high oil prices curb demand, fresh signs of glut appear Reuters",
-      "impact_score": 89.1,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "FTSE slips as bank, defence stocks fall; BoE delivers first rate hike in 3 years - Reuters",
-      "summary": "FTSE slips as bank, defence stocks fall; BoE delivers first rate hike in 3 years Reuters",
-      "impact_score": 83.0,
+      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
+      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
+      "impact_score": 82.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data - CNBC",
-      "summary": "10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Gold at over two-week high as dollar, yields weaken; US payrolls data awaited - Reuters",
-      "summary": "Gold at over two-week high as dollar, yields weaken; US payrolls data awaited Reuters",
+      "title": "Alphabet takes $548 million stake in partner Qualcomm in data center push - Reuters",
+      "summary": "Alphabet takes $548 million stake in partner Qualcomm in data center push Reuters",
       "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold at more than two-week high as dollar, yields weaken; U.S. payrolls data awaited - CNBC",
-      "summary": "Gold at more than two-week high as dollar, yields weaken; U.S. payrolls data awaited CNBC",
-      "impact_score": 81.0,
+      "title": "Democratic sweep gives markets a reason to rethink path of interest rates",
+      "summary": "Rate hikes could be curbed by an Iran war resolution, slower U.S. growth and fresh fiscal policy — but none are set in stone.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "NVIDIA and AMD Sell-Off: Which AI Stock Is the Better Buy on the Dip?",
+      "summary": "NVIDIA and AMD Sell-Off: Which AI Stock Is the Better Buy on the Dip? Zacks Investment Research",
+      "impact_score": 78.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+      "summary": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who like him is Black.",
+      "impact_score": 77.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Heads for Steep Weekly Loss as Mideast Peace Prospects Rise",
-      "summary": "Oil Heads for Steep Weekly Loss as Mideast Peace Prospects Rise Bloomberg.com",
-      "impact_score": 80.4,
-      "sentiment_score": -0.16
+      "title": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports - Yahoo Finance",
+      "summary": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports Yahoo Finance",
+      "impact_score": 77.6,
+      "sentiment_score": -0.35
     },
     {
-      "title": "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - Yahoo Finance",
-      "summary": "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street Yahoo Finance",
+      "title": "Elon Musk’s Net Worth Drops Nearly $80 Billion In A Day As Tesla And SpaceX Stock Crater During Tech Wipe-Out - Yahoo Finance",
+      "summary": "Elon Musk’s Net Worth Drops Nearly $80 Billion In A Day As Tesla And SpaceX Stock Crater During Tech Wipe-Out Yahoo Finance",
       "impact_score": 77.4,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold Prices Rise as Weaker Dollar and Treasury Yields Follow US Midterm Elections - Yahoo Finance",
-      "summary": "Gold Prices Rise as Weaker Dollar and Treasury Yields Follow US Midterm Elections Yahoo Finance",
-      "impact_score": 77.4,
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "summary": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+      "impact_score": 77.2,
       "sentiment_score": -0.35
     }
   ],
