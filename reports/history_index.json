@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-05T20:12:43.541170+00:00",
+  "generated_at": "2026-11-06T02:12:14.766034+00:00",
   "reports": [
+    {
+      "date": "2026-11-06",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-11-06T02:12:11.050823+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-06-close.json",
+      "dynamic_headline": "oil/energy leads a cautious to risk-off completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is cautious to risk-off, based on 1560 articles from Yahoo Finance, Investing.com, TradingView, Reuters, Bloomberg.com. The dominant theme is macro, with 617 macro items, 502 company items, 369 industry items, and 72 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 74.0
+    },
     {
       "date": "2026-11-05",
       "report_type": "premarket",
