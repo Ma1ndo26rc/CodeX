@@ -1,7 +1,7 @@
 {
-  "market_summary": "The pre-market setup is cautious to risk-off, based on 1518 articles from Yahoo Finance, Investing.com, Seeking Alpha, Reuters, TradingView. The dominant theme is macro, with 658 macro items, 440 company items, 370 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (141), inflation (100), oil/energy (95), growth/jobs (73). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 169 positive, 242 negative, and 1107 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1496 articles from Yahoo Finance, Seeking Alpha, TradingView, Investing.com, Reuters. The dominant theme is macro, with 655 macro items, 418 company items, 373 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (146), inflation (95), oil/energy (88), growth/jobs (67). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 187 positive, 230 negative, and 1079 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
       "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
@@ -16,41 +16,41 @@
       "sentiment_score": -0.35
     },
     {
+      "title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% - Reuters",
+      "summary": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1% Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
+      "summary": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
       "title": "Democratic sweep gives markets a reason to rethink path of interest rates",
       "summary": "Rate hikes could be curbed by an Iran war resolution, slower U.S. growth and fresh fiscal policy — but none are set in stone.",
       "impact_score": 78.3,
       "sentiment_score": 0.35
     },
     {
-      "title": "NVIDIA and AMD Sell-Off: Which AI Stock Is the Better Buy on the Dip?",
-      "summary": "NVIDIA and AMD Sell-Off: Which AI Stock Is the Better Buy on the Dip? Zacks Investment Research",
-      "impact_score": 78.2,
-      "sentiment_score": -0.55
-    },
-    {
       "title": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
-      "summary": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who like him is Black.",
+      "summary": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who, like him, is Black.",
       "impact_score": 77.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports - Yahoo Finance",
-      "summary": "Oil set for sharp weekly drop after US midterms raise hopes of more Mideast crude exports Yahoo Finance",
-      "impact_score": 77.6,
-      "sentiment_score": -0.35
+      "title": "US Stock Futures Mixed After Wall Street Sell-Off as Strong Jobs Data Fails to Ease AI Concerns: Dow Jones, S&P, Nasdaq - Yahoo Finance",
+      "summary": "US Stock Futures Mixed After Wall Street Sell-Off as Strong Jobs Data Fails to Ease AI Concerns: Dow Jones, S&P, Nasdaq Yahoo Finance",
+      "impact_score": 76.5,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Elon Musk’s Net Worth Drops Nearly $80 Billion In A Day As Tesla And SpaceX Stock Crater During Tech Wipe-Out - Yahoo Finance",
-      "summary": "Elon Musk’s Net Worth Drops Nearly $80 Billion In A Day As Tesla And SpaceX Stock Crater During Tech Wipe-Out Yahoo Finance",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%",
-      "summary": "Coreweave's steep yields reflect stress in the AI debt markets as investors worry about a data center slowdown. What comes next.",
-      "impact_score": 77.2,
-      "sentiment_score": -0.35
+      "title": "Gas Could Drop to $3.65/Gallon, Says Top Oil Analyst, Citing ‘Very High’ Political Pressure Following Republican Midterm Setbacks",
+      "summary": "Gas Could Drop to $3.65/Gallon, Says Top Oil Analyst, Citing ‘Very High’ Political Pressure Following Republican Midterm Setbacks Yahoo Finance",
+      "impact_score": 76.1,
+      "sentiment_score": -0.16
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }

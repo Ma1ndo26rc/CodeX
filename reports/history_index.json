@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-06T19:41:16.000893+00:00",
+  "generated_at": "2026-11-07T01:54:30.761183+00:00",
   "reports": [
+    {
+      "date": "2026-11-07",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-11-07T01:54:26.334335+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-07-close.json",
+      "dynamic_headline": "Fed/rates leads a cautious to risk-off completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is cautious to risk-off, based on 1496 articles from Yahoo Finance, Seeking Alpha, TradingView, Investing.com, Reuters. The dominant theme is macro, with 655 macro items, 418 company items, 373 industry items, and 50 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.2
+    },
     {
       "date": "2026-11-06",
       "report_type": "premarket",
