@@ -1,19 +1,37 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1474 articles from Yahoo Finance, Seeking Alpha, TradingView, CNBC Markets, Investing.com. The dominant theme is macro, with 666 macro items, 439 company items, 338 industry items, and 31 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (144), oil/energy (124), Fed/rates (111), growth/jobs (19). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 181 positive, 208 negative, and 1085 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is cautious to risk-off, based on 1543 articles from Yahoo Finance, The Motley Fool, TradingView, 24/7 Wall St., Investing.com. The dominant theme is macro, with 714 macro items, 434 company items, 340 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (201), Fed/rates (181), oil/energy (83), growth/jobs (19). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 175 positive, 231 negative, and 1137 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
-      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
+      "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+      "summary": "Treasury yields moved higher after a hotter-than-expected CPI report.",
+      "impact_score": 87.5,
+      "sentiment_score": -0.8
     },
     {
-      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
-      "summary": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
-      "impact_score": 82.3,
-      "sentiment_score": -0.75
+      "title": "An overzealous Fed is quickly becoming the biggest risk to stocks in 2027",
+      "summary": "The Fed remains too sanguine on inflation, and markets too complacent, economist Neil Dutta warns.",
+      "impact_score": 83.6,
+      "sentiment_score": -0.11
+    },
+    {
+      "title": "Nvidia CEO Huang Gets More Bad News. Cathie Wood Keeps the Faith.",
+      "summary": "Nvidia CEO Huang Gets More Bad News. Cathie Wood Keeps the Faith. Barron's",
+      "impact_score": 81.6,
+      "sentiment_score": -0.03
+    },
+    {
+      "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+      "summary": "On Sunday, Huang admitted to having an affair with a woman who has been connected to Chinese intelligence by reports in The New York Times and Financial Times.",
+      "impact_score": 81.4,
+      "sentiment_score": -0.18
+    },
+    {
+      "title": "Falling Oil Prices and Bond Yields Offer Investors Some Relief - Bloomberg.com",
+      "summary": "Falling Oil Prices and Bond Yields Offer Investors Some Relief Bloomberg.com",
+      "impact_score": 81.1,
+      "sentiment_score": -0.35
     },
     {
       "title": "S&P 500 Futures Rise as Oil Falls; Nvidia Sinks on Huang Affair - Bloomberg.com",
@@ -22,35 +40,17 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Inflation Data to Test Limits of Treasury Rally After Haven Bid - Bloomberg.com",
-      "summary": "Inflation Data to Test Limits of Treasury Rally After Haven Bid Bloomberg.com",
-      "impact_score": 79.8,
-      "sentiment_score": 0.35
+      "title": "US yields rise, stocks fall as inflation data boosts odds of larger December rate hike - Reuters",
+      "summary": "US yields rise, stocks fall as inflation data boosts odds of larger December rate hike Reuters",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
     },
     {
-      "title": "AI Investment Boom Weighs on Economic Trajectory as Fed Officials Carefully Assess Rate Hike Pace",
-      "summary": "AI Investment Boom Weighs on Economic Trajectory as Fed Officials Carefully Assess Rate Hike Pace NAI500",
-      "impact_score": 79.0,
-      "sentiment_score": -0.55
-    },
-    {
-      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-      "summary": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
-      "impact_score": 78.9,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade - Bloomberg.com",
-      "summary": "Treasury Rally Gets New Boost as Election Hammers the AI Trade Bloomberg.com",
-      "impact_score": 77.8,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks - Yahoo Finance",
-      "summary": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks Yahoo Finance",
-      "impact_score": 76.4,
+      "title": "Wall St falls as hot inflation data fuels rate-hike jitters - Reuters",
+      "summary": "Wall St falls as hot inflation data fuels rate-hike jitters Reuters",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, growth/jobs"
 }
