@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-09T22:42:10.410346+00:00",
+  "generated_at": "2026-11-10T04:05:54.677160+00:00",
   "reports": [
+    {
+      "date": "2026-11-10",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-11-10T04:05:50.724128+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-10-close.json",
+      "dynamic_headline": "oil/energy leads a mixed and wait-and-see completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1474 articles from Yahoo Finance, Seeking Alpha, TradingView, CNBC Markets, Investing.com. The dominant theme is macro, with 666 macro items, 439 company items, 338 industry items, and 31 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.4
+    },
     {
       "date": "2026-11-09",
       "report_type": "premarket",

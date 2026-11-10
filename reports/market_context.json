@@ -1,13 +1,19 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1474 articles from Yahoo Finance, Seeking Alpha, Benzinga, TradingView, CNBC Markets. The dominant theme is macro, with 633 macro items, 448 company items, 361 industry items, and 32 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (143), oil/energy (119), Fed/rates (109), growth/jobs (18). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 173 positive, 199 negative, and 1102 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1474 articles from Yahoo Finance, Seeking Alpha, TradingView, CNBC Markets, Investing.com. The dominant theme is macro, with 666 macro items, 439 company items, 338 industry items, and 31 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (144), oil/energy (124), Fed/rates (111), growth/jobs (19). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 181 positive, 208 negative, and 1085 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Trump says FBI is looking at Nvidia CEO Jensen Huang’s affair with Chinese agent",
-      "summary": "Trump says FBI is looking at Nvidia CEO Jensen Huang’s affair with Chinese agent AP News",
-      "impact_score": 84.5,
-      "sentiment_score": 0.03
+      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
+      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
+      "impact_score": 82.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
+      "summary": "A sharp decline in oil prices lifted sentiment while renewed buying in semiconductor names overnight spilled over into Asia, following last week's bruising sell-off.",
+      "impact_score": 82.3,
+      "sentiment_score": -0.75
     },
     {
       "title": "S&P 500 Futures Rise as Oil Falls; Nvidia Sinks on Huang Affair - Bloomberg.com",
@@ -16,40 +22,34 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap",
-      "summary": "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap Bloomberg.com",
-      "impact_score": 80.6,
-      "sentiment_score": 0.4
+      "title": "Inflation Data to Test Limits of Treasury Rally After Haven Bid - Bloomberg.com",
+      "summary": "Inflation Data to Test Limits of Treasury Rally After Haven Bid Bloomberg.com",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Private Credit’s Rapid Growth Draws Regional Fed Banks’ Scrutiny - Bloomberg.com",
-      "summary": "Private Credit’s Rapid Growth Draws Regional Fed Banks’ Scrutiny Bloomberg.com",
+      "title": "AI Investment Boom Weighs on Economic Trajectory as Fed Officials Carefully Assess Rate Hike Pace",
+      "summary": "AI Investment Boom Weighs on Economic Trajectory as Fed Officials Carefully Assess Rate Hike Pace NAI500",
+      "impact_score": 79.0,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "summary": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+      "impact_score": 78.9,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade - Bloomberg.com",
+      "summary": "Treasury Rally Gets New Boost as Election Hammers the AI Trade Bloomberg.com",
       "impact_score": 77.8,
       "sentiment_score": 0.35
     },
     {
-      "title": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
-      "summary": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle.",
-      "impact_score": 77.2,
+      "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks - Yahoo Finance",
+      "summary": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks Yahoo Finance",
+      "impact_score": 76.4,
       "sentiment_score": -0.35
-    },
-    {
-      "title": "Constellation Energy jumps 10% after earnings beat, guidance hike (CEG:NASDAQ)",
-      "summary": "Constellation Energy jumps 10% after earnings beat, guidance hike (CEG:NASDAQ) Seeking Alpha",
-      "impact_score": 76.0,
-      "sentiment_score": 0.4
-    },
-    {
-      "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq - Yahoo Finance",
-      "summary": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq Yahoo Finance",
-      "impact_score": 75.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "The Fed Held Rates. Here’s What That Means for the Yield on Your T-Bill ETF",
-      "summary": "The Fed Held Rates. Here’s What That Means for the Yield on Your T-Bill ETF 24/7 Wall St.",
-      "impact_score": 75.7,
-      "sentiment_score": 0.03
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
