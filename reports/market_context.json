@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1586 articles from Yahoo Finance, Benzinga, The Motley Fool, Simply Wall St, CNBC Markets. The dominant theme is macro, with 755 macro items, 441 company items, 329 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (230), Fed/rates (221), oil/energy (80), growth/jobs (18). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 158 positive, 238 negative, and 1190 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1575 articles from Yahoo Finance, Benzinga, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 682 macro items, 445 company items, 383 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (170), oil/energy (93), growth/jobs (15). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 206 positive, 171 negative, and 1198 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "US yields climb, stocks fall as inflation data boosts chances for larger Fed rate hike - Reuters",
-      "summary": "US yields climb, stocks fall as inflation data boosts chances for larger Fed rate hike Reuters",
+      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
+      "summary": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
+      "impact_score": 87.1,
+      "sentiment_score": -0.04
+    },
+    {
+      "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks - Bloomberg.com",
+      "summary": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks Bloomberg.com",
       "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-      "summary": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "impact_score": 79.8,
+      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
+      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "U.S. inflation data ahead; Huang scandal fallout - what’s moving markets - Yahoo Finance",
-      "summary": "U.S. inflation data ahead; Huang scandal fallout - what’s moving markets Yahoo Finance",
+      "title": "Global Bond Yields Fall Sharply in October Amid Flight to Safety - WSJ",
+      "summary": "Global Bond Yields Fall Sharply in October Amid Flight to Safety WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Mississippi Senate: Scott Colom leads Hyde-Smith by more than 3,000 votes",
+      "summary": "Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.",
       "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Fed’s Paulson: Further ‘gradual’ rate hikes appropriate given high inflation | FXStreet",
-      "summary": "Fed’s Paulson: Further ‘gradual’ rate hikes appropriate given high inflation | FXStreet شبكة تواصل الإخبارية",
+      "title": "Economists say Fed could go overboard on rate hikes after hot October inflation report",
+      "summary": "Economists say Fed could go overboard on rate hikes after hot October inflation report Business Insider",
       "impact_score": 79.2,
       "sentiment_score": -0.8
     },
     {
-      "title": "S&P 500 futures fall sharply after October inflation data - Yahoo Finance",
-      "summary": "S&P 500 futures fall sharply after October inflation data Yahoo Finance",
-      "impact_score": 77.4,
+      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark - Yahoo Finance",
+      "summary": "Stocks fall as the 10-year Treasury yield nears 5% mark Yahoo Finance",
+      "impact_score": 78.9,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stock Market Today (Nov. 10, 2026): Nasdaq falls after key inflation report - Yahoo Finance Singapore",
-      "summary": "Stock Market Today (Nov. 10, 2026): Nasdaq falls after key inflation report Yahoo Finance Singapore",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "summary": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance",
-      "impact_score": 75.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-      "summary": "Dollar gains traction as Fed speakers warn of risks from inflation KSLM Radio",
-      "impact_score": 75.6,
-      "sentiment_score": -0.25
+      "title": "Stocks climb as CoreWeave results ease AI spending concerns",
+      "summary": "Stocks climb as CoreWeave results ease AI spending concerns Reuters",
+      "impact_score": 78.1,
+      "sentiment_score": 0.03
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
