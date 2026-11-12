@@ -1,56 +1,56 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1575 articles from Yahoo Finance, Benzinga, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 682 macro items, 445 company items, 383 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (170), oil/energy (93), growth/jobs (15). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 206 positive, 171 negative, and 1198 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1520 articles from Yahoo Finance, The Motley Fool, Simply Wall St, TradingView, Benzinga. The dominant theme is macro, with 634 macro items, 476 company items, 364 industry items, and 46 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (140), inflation (130), oil/energy (94), growth/jobs (15). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 202 positive, 165 negative, and 1153 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Analysis: Is Nvidia too big to fail? Its AI financing web raises the stakes",
-      "summary": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-      "impact_score": 87.1,
-      "sentiment_score": -0.04
+      "title": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate",
+      "summary": "Asian stocks fragile, Nvidia plummets as board to decide CEO's fate Reuters",
+      "impact_score": 88.0,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Dovish BOJ policymaker Asada pushes back against early rate hike",
+      "summary": "Dovish BOJ policymaker Asada pushes back against early rate hike Yahoo Finance",
+      "impact_score": 85.2,
+      "sentiment_score": -0.55
     },
     {
       "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks - Bloomberg.com",
       "summary": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks Bloomberg.com",
-      "impact_score": 83.0,
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
-      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
-      "impact_score": 80.6,
+      "title": "Nvidia CEO Huang had relationship with executive who reported to him, NYT reports - Reuters",
+      "summary": "Nvidia CEO Huang had relationship with executive who reported to him, NYT reports Reuters",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Global Bond Yields Fall Sharply in October Amid Flight to Safety - WSJ",
-      "summary": "Global Bond Yields Fall Sharply in October Amid Flight to Safety WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
+      "title": "Watch AI Stocks Rally After Coreweave's Results; Treasury Market Closed - Bloomberg",
+      "summary": "Watch AI Stocks Rally After Coreweave's Results; Treasury Market Closed Bloomberg",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
     },
     {
-      "title": "Mississippi Senate: Scott Colom leads Hyde-Smith by more than 3,000 votes",
-      "summary": "Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Economists say Fed could go overboard on rate hikes after hot October inflation report",
-      "summary": "Economists say Fed could go overboard on rate hikes after hot October inflation report Business Insider",
-      "impact_score": 79.2,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark - Yahoo Finance",
-      "summary": "Stocks fall as the 10-year Treasury yield nears 5% mark Yahoo Finance",
-      "impact_score": 78.9,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Stocks climb as CoreWeave results ease AI spending concerns",
-      "summary": "Stocks climb as CoreWeave results ease AI spending concerns Reuters",
-      "impact_score": 78.1,
+      "title": "Nvidia Fallout Puts Trade Truce to the Test as Xi Welcomes Trump",
+      "summary": "Nvidia Fallout Puts Trade Truce to the Test as Xi Welcomes Trump Bloomberg.com",
+      "impact_score": 79.8,
       "sentiment_score": 0.03
+    },
+    {
+      "title": "Gold falls as hot inflation figures, higher dollar weigh - CNBC",
+      "summary": "Gold falls as hot inflation figures, higher dollar weigh CNBC",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
+      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
