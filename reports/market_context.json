@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1549 articles from Yahoo Finance, Investing.com, CNBC Markets, Reuters, Seeking Alpha. The dominant theme is macro, with 692 macro items, 484 company items, 312 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (177), inflation (131), oil/energy (112), growth/jobs (16). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 149 positive, 238 negative, and 1162 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1560 articles from Yahoo Finance, TradingView, Reuters, CNBC Markets, Seeking Alpha. The dominant theme is macro, with 745 macro items, 426 company items, 330 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (180), inflation (135), oil/energy (107), growth/jobs (21). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 180 positive, 195 negative, and 1185 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting",
-      "summary": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting WSJ",
-      "impact_score": 85.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
-      "summary": "Stocks recover from Nvidia whiplash, dollar climbs with US yields Reuters",
-      "impact_score": 82.6,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "TSX futures inch down as Nvidia turmoil dents AI sentiment; oil, gold decline - Reuters",
-      "summary": "TSX futures inch down as Nvidia turmoil dents AI sentiment; oil, gold decline Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Asian Stocks Set for Cautious Open on Nvidia, Oil: Markets Wrap",
-      "summary": "Asian Stocks Set for Cautious Open on Nvidia, Oil: Markets Wrap Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
-      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
-      "summary": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO Reuters",
-      "impact_score": 80.2,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "US home sales fall to lowest level since 2010 as mortgage rates soar - Financial Times",
-      "summary": "US home sales fall to lowest level since 2010 as mortgage rates soar Financial Times",
-      "impact_score": 80.1,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Treasury Yields Rise on Strong Jobs Data - WSJ",
-      "summary": "Treasury Yields Rise on Strong Jobs Data WSJ",
-      "impact_score": 79.7,
+      "title": "European stocks near record highs, dollar gains on rate hike bets - Yahoo Finance",
+      "summary": "European stocks near record highs, dollar gains on rate hike bets Yahoo Finance",
+      "impact_score": 82.1,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Reuters",
+      "summary": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports Reuters",
+      "impact_score": 81.0,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
+      "summary": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
+      "impact_score": 80.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "European stocks set for weekly gain, dollar near 19-month high on rate hike bets - Reuters",
+      "summary": "European stocks set for weekly gain, dollar near 19-month high on rate hike bets Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth - Reuters",
+      "summary": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth Reuters",
+      "impact_score": 80.1,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Nvidia’s turmoil is prompting a rotation across chip stocks. Here's what we know",
+      "summary": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+      "impact_score": 79.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight - CNBC",
+      "summary": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight CNBC",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Why Bessent is pushing back against a possible Fed rate hike",
+      "summary": "Why Bessent is pushing back against a possible Fed rate hike Latest news from Azerbaijan",
+      "impact_score": 79.2,
+      "sentiment_score": -0.55
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"

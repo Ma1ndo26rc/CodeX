@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-13T02:37:03.349754+00:00",
+  "generated_at": "2026-11-13T20:01:08.336439+00:00",
   "reports": [
+    {
+      "date": "2026-11-13",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-11-13T20:01:04.430536+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-13-premarket.json",
+      "dynamic_headline": "Fed/rates leads a mixed and wait-and-see pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1560 articles from Yahoo Finance, TradingView, Reuters, CNBC Markets, Seeking Alpha. The dominant theme is macro, with 745 macro items, 426 company items, 330 industry items, and 59 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.0
+    },
     {
       "date": "2026-11-13",
       "report_type": "close",
