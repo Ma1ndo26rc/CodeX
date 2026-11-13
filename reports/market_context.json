@@ -1,25 +1,19 @@
 {
-  "market_summary": "The pre-market setup is cautious to risk-off, based on 1508 articles from Yahoo Finance, Benzinga, TradingView, The Motley Fool, CNBC Markets. The dominant theme is macro, with 678 macro items, 469 company items, 310 industry items, and 51 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (156), inflation (133), oil/energy (118), growth/jobs (16). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 156 positive, 230 negative, and 1122 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1549 articles from Yahoo Finance, Investing.com, CNBC Markets, Reuters, Seeking Alpha. The dominant theme is macro, with 692 macro items, 484 company items, 312 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (177), inflation (131), oil/energy (112), growth/jobs (16). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 149 positive, 238 negative, and 1162 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster",
-      "summary": "Nvidia CEO Jensen Huang resigns in blow to AI boom he helped foster Reuters",
-      "impact_score": 88.0,
+      "title": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting",
+      "summary": "Federal Reserve to Forgo Rate Decision at October 2027 Meeting WSJ",
+      "impact_score": 85.5,
       "sentiment_score": 0.03
     },
     {
-      "title": "Wall Street shakes following swings for Nvidia and oil prices but recovers most of its early losses",
-      "summary": "Wall Street shakes following swings for Nvidia and oil prices but recovers most of its early losses AP News",
-      "impact_score": 84.0,
-      "sentiment_score": -0.16
-    },
-    {
-      "title": "Microsoft Outlook email services down across the country",
-      "summary": "Microsoft Outlook email services down across the country Oil City News",
-      "impact_score": 83.0,
-      "sentiment_score": -0.03
+      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
+      "summary": "Stocks recover from Nvidia whiplash, dollar climbs with US yields Reuters",
+      "impact_score": 82.6,
+      "sentiment_score": 0.03
     },
     {
       "title": "TSX futures inch down as Nvidia turmoil dents AI sentiment; oil, gold decline - Reuters",
@@ -28,29 +22,35 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected - CNBC",
-      "summary": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected CNBC",
-      "impact_score": 80.3,
-      "sentiment_score": 0.35
+      "title": "Asian Stocks Set for Cautious Open on Nvidia, Oil: Markets Wrap",
+      "summary": "Asian Stocks Set for Cautious Open on Nvidia, Oil: Markets Wrap Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": 0.03
     },
     {
-      "title": "The bond market now has an even bigger fear than AI fallout",
-      "summary": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
+      "title": "Treasury Yields Down Following Democrats Midterm Win - WSJ",
+      "summary": "Treasury Yields Down Following Democrats Midterm Win WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO",
+      "summary": "Colette Kress, the CFO who challenged Huang's bets, is Nvidia's interim CEO Reuters",
+      "impact_score": 80.2,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "US home sales fall to lowest level since 2010 as mortgage rates soar - Financial Times",
+      "summary": "US home sales fall to lowest level since 2010 as mortgage rates soar Financial Times",
       "impact_score": 80.1,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Rise, European Bond Yields Fall - Yahoo Finance",
-      "summary": "Treasury Yields Rise, European Bond Yields Fall Yahoo Finance",
-      "impact_score": 78.9,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "summary": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
-      "impact_score": 78.3,
+      "title": "Treasury Yields Rise on Strong Jobs Data - WSJ",
+      "summary": "Treasury Yields Rise on Strong Jobs Data WSJ",
+      "impact_score": 79.7,
       "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
