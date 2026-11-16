@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1557 articles from Yahoo Finance, TradingView, CNBC Markets, The Motley Fool, Reuters. The dominant theme is macro, with 745 macro items, 428 company items, 341 industry items, and 43 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (192), inflation (129), oil/energy (104), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 184 positive, 208 negative, and 1165 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is cautious to risk-off, based on 802 articles from Yahoo Finance, CNBC Markets, Investing.com, TradingView, The Motley Fool. The dominant theme is macro, with 362 macro items, 208 company items, 213 industry items, and 19 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (82), oil/energy (67), Fed/rates (34), growth/jobs (11). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 52 positive, 174 negative, and 576 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia CEO’s Ouster Puts Singapore’s Business Reputation Under the Spotlight",
-      "summary": "Nvidia CEO’s Ouster Puts Singapore’s Business Reputation Under the Spotlight Bloomberg.com",
-      "impact_score": 83.3,
-      "sentiment_score": 0.03
+      "title": "S&P500: Nvidia Sell-Off Drags Index Toward 200-Day Moving Average",
+      "summary": "S&P500: Nvidia Sell-Off Drags Index Toward 200-Day Moving Average FXEmpire",
+      "impact_score": 83.0,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus - Reuters",
-      "summary": "Oil prices set for second straight weekly drop on signs of growing supply surplus Reuters",
-      "impact_score": 81.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports - Reuters",
-      "summary": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports Reuters",
-      "impact_score": 81.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Gold Holds Drop to Near One-Year Low as Rate-Hike Bets Increase - Bloomberg",
-      "summary": "Gold Holds Drop to Near One-Year Low as Rate-Hike Bets Increase Bloomberg",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-      "summary": "Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
-      "impact_score": 80.3,
+      "title": "Supertanker rates plunge more than 60% from record highs - Reuters",
+      "summary": "Supertanker rates plunge more than 60% from record highs Reuters",
+      "impact_score": 80.5,
       "sentiment_score": 0.35
     },
     {
-      "title": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth - Reuters",
-      "summary": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth Reuters",
-      "impact_score": 80.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "The Stock Market’s Bargain Bin Is Secretly Stuffed With AI Stocks - WSJ",
-      "summary": "The Stock Market’s Bargain Bin Is Secretly Stuffed With AI Stocks WSJ",
-      "impact_score": 79.7,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "A trading strategy to ride out the Nvidia uncertainty and generate income in the process",
-      "summary": "By deploying a persistent covered call strategy, investors can leverage the exact fear driving the stock down to generate robust, risk-reducing income.",
+      "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
+      "summary": "Transportation executives said they're seeing retailers be cautious on their holiday inventory strategy.",
       "impact_score": 79.2,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+      "summary": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
+      "impact_score": 78.7,
+      "sentiment_score": -0.2
+    },
+    {
+      "title": "U.S. Stocks Fall as Nvidia Drama Continues - WSJ",
+      "summary": "U.S. Stocks Fall as Nvidia Drama Continues WSJ",
+      "impact_score": 78.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
+      "summary": "The rule was written by the Treasury Department and the National Security Council after criticism of Commerce Secretary Howard Lutnick.",
+      "impact_score": 78.0,
+      "sentiment_score": -0.16
+    },
+    {
+      "title": "Stocks Fall Before Nvidia Earnings, Anthropic IPO: Markets Wrap - Bloomberg.com",
+      "summary": "Stocks Fall Before Nvidia Earnings, Anthropic IPO: Markets Wrap Bloomberg.com",
+      "impact_score": 76.8,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+      "summary": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
+      "impact_score": 76.3,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, inflation, Fed/rates, growth/jobs"
 }
