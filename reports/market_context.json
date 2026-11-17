@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1506 articles from Yahoo Finance, The Motley Fool, TradingView, Seeking Alpha, BigGo Finance. The dominant theme is macro, with 698 macro items, 420 company items, 336 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (171), inflation (99), oil/energy (83), growth/jobs (25). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 99 positive, 258 negative, and 1149 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is cautious to risk-off, based on 1573 articles from Yahoo Finance, TradingView, The Motley Fool, CNBC Markets, Benzinga. The dominant theme is macro, with 629 macro items, 514 company items, 381 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (138), inflation (90), oil/energy (82), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 124 positive, 200 negative, and 1249 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Treasury Yields Fall, German Bunds’ Tick Higher - WSJ",
-      "summary": "Treasury Yields Fall, German Bunds’ Tick Higher WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
+      "title": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut",
+      "summary": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut Reuters",
+      "impact_score": 88.0,
+      "sentiment_score": 0.02
     },
     {
-      "title": "SPCX Stock Dethrones Intel As Nvidia’s Biggest Holding — Druckenmiller Buys In And Tepper Ups His Stake Over 1,600%",
-      "summary": "SPCX Stock Dethrones Intel As Nvidia’s Biggest Holding — Druckenmiller Buys In And Tepper Ups His Stake Over 1,600% Yahoo Finance",
-      "impact_score": 81.7,
+      "title": "VAI | Valor Energy Inc. Stock Overview (U.S.: Nasdaq)",
+      "summary": "VAI | Valor Energy Inc. Stock Overview (U.S.: Nasdaq) Barron's",
+      "impact_score": 78.9,
       "sentiment_score": 0.03
-    },
-    {
-      "title": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook",
-      "summary": "3 US Bank Stocks in Focus as AI Enters the Fed Rate Outlook Yahoo Finance",
-      "impact_score": 81.4,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Big-ticket holiday items may be harder to find as shipping costs rise",
-      "summary": "Transportation executives said they're seeing retailers be cautious on their holiday inventory strategy.",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed chair Kevin Warsh says AI boom could help sustain ‘substantially higher’ US growth - Financial Times",
-      "summary": "Fed chair Kevin Warsh says AI boom could help sustain ‘substantially higher’ US growth Financial Times",
-      "impact_score": 79.2,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "The President of the Federal Reserve Bank of Cleveland advocates for gradual interest rate hikes, warning that rising inflation expectations could force the central bank to intensify its tightening measures.",
-      "summary": "The President of the Federal Reserve Bank of Cleveland advocates for gradual interest rate hikes, warning that rising inflation expectations could force the central bank to intensify its tightening measures. Moomoo",
-      "impact_score": 79.0,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "U.S. Stocks Fall as Nvidia Drama Continues - WSJ",
-      "summary": "U.S. Stocks Fall as Nvidia Drama Continues WSJ",
-      "impact_score": 78.6,
-      "sentiment_score": -0.35
     },
     {
       "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
       "summary": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
       "impact_score": 78.3,
       "sentiment_score": 0.35
+    },
+    {
+      "title": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
+      "summary": "Homebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials. That caused more builder price cuts.",
+      "impact_score": 77.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+      "summary": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
+      "impact_score": 76.8,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "European shares fall, Nasdaq futures inch up ahead of Nvidia earnings - Reuters",
+      "summary": "European shares fall, Nasdaq futures inch up ahead of Nvidia earnings Reuters",
+      "impact_score": 76.8,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "‘Can I pick your brain?’ and other terrible things to say in a networking email",
+      "summary": "Hiring for white-collar jobs usually dips in November and December, so try sending “cold emails” to your network instead.",
+      "impact_score": 75.1,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap - Bloomberg.com",
+      "summary": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap Bloomberg.com",
+      "impact_score": 74.5,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"

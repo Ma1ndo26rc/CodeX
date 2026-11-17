@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-17T04:28:09.942854+00:00",
+  "generated_at": "2026-11-17T21:19:35.549959+00:00",
   "reports": [
+    {
+      "date": "2026-11-17",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-11-17T21:19:31.211066+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-17-premarket.json",
+      "dynamic_headline": "Fed/rates leads a cautious to risk-off pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is cautious to risk-off, based on 1573 articles from Yahoo Finance, TradingView, The Motley Fool, CNBC Markets, Benzinga. The dominant theme is macro, with 629 macro items, 514 company items, 381 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 70.8
+    },
     {
       "date": "2026-11-17",
       "report_type": "close",
