@@ -1,18 +1,30 @@
 {
-  "market_summary": "The pre-market setup is cautious to risk-off, based on 1573 articles from Yahoo Finance, TradingView, The Motley Fool, CNBC Markets, Benzinga. The dominant theme is macro, with 629 macro items, 514 company items, 381 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (138), inflation (90), oil/energy (82), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 124 positive, 200 negative, and 1249 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1569 articles from Yahoo Finance, TradingView, The Motley Fool, CNBC Markets, BigGo Finance. The dominant theme is macro, with 624 macro items, 480 company items, 416 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (149), inflation (91), oil/energy (79), growth/jobs (15). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 150 positive, 204 negative, and 1215 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut",
-      "summary": "Wall Street ends lower ahead of Nvidia earnings, Anthropic debut Reuters",
-      "impact_score": 88.0,
-      "sentiment_score": 0.02
+      "title": "Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return",
+      "summary": "Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return Bloomberg.com",
+      "impact_score": 87.6,
+      "sentiment_score": 0.14
     },
     {
-      "title": "VAI | Valor Energy Inc. Stock Overview (U.S.: Nasdaq)",
-      "summary": "VAI | Valor Energy Inc. Stock Overview (U.S.: Nasdaq) Barron's",
-      "impact_score": 78.9,
+      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "summary": "Don’t rule out a half-point interest-rate hike in December, BofA Global’s rates team said.",
+      "impact_score": 83.0,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.",
+      "impact_score": 80.1,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Zelenskyy says Starshield speed curbs still in place over 'occupied territories' of Ukraine",
+      "summary": "Ukraine's charge d'affaires to the U.S., Denys Sienik, said that Starshield had been speed-limited for seven days already in Ukraine.",
+      "impact_score": 80.0,
       "sentiment_score": 0.03
     },
     {
@@ -22,34 +34,22 @@
       "sentiment_score": 0.35
     },
     {
+      "title": "Nvidia’s Interim CEO Has a Tough Challenge: Keep the Growth, Leave the Baggage - WSJ",
+      "summary": "Nvidia’s Interim CEO Has a Tough Challenge: Keep the Growth, Leave the Baggage WSJ",
+      "impact_score": 77.7,
+      "sentiment_score": 0.35
+    },
+    {
       "title": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
       "summary": "Homebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials. That caused more builder price cuts.",
       "impact_score": 77.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
-      "summary": "Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
-      "impact_score": 76.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "European shares fall, Nasdaq futures inch up ahead of Nvidia earnings - Reuters",
-      "summary": "European shares fall, Nasdaq futures inch up ahead of Nvidia earnings Reuters",
-      "impact_score": 76.8,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "‘Can I pick your brain?’ and other terrible things to say in a networking email",
-      "summary": "Hiring for white-collar jobs usually dips in November and December, so try sending “cold emails” to your network instead.",
-      "impact_score": 75.1,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap - Bloomberg.com",
-      "summary": "Stocks Fall in Countdown to Nvidia’s Earnings Test: Markets Wrap Bloomberg.com",
-      "impact_score": 74.5,
-      "sentiment_score": -0.35
+      "title": "Japan marks a trade deficit in October as oil prices keep imports high",
+      "summary": "Japan marks a trade deficit in October as oil prices keep imports high Yahoo Finance",
+      "impact_score": 76.2,
+      "sentiment_score": -0.25
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
