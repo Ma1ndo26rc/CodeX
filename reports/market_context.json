@@ -1,55 +1,55 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1569 articles from Yahoo Finance, TradingView, The Motley Fool, CNBC Markets, BigGo Finance. The dominant theme is macro, with 624 macro items, 480 company items, 416 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (149), inflation (91), oil/energy (79), growth/jobs (15). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 150 positive, 204 negative, and 1215 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1543 articles from Yahoo Finance, Benzinga, TradingView, Seeking Alpha, Investing.com. The dominant theme is macro, with 649 macro items, 437 company items, 401 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (178), inflation (115), oil/energy (85), growth/jobs (13). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 188 positive, 183 negative, and 1172 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return",
-      "summary": "Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return Bloomberg.com",
-      "impact_score": 87.6,
-      "sentiment_score": 0.14
+      "title": "Fed minutes show growing unease about the outlook for inflation",
+      "summary": "The minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.",
+      "impact_score": 83.6,
+      "sentiment_score": -0.25
     },
     {
-      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
-      "summary": "Don’t rule out a half-point interest-rate hike in December, BofA Global’s rates team said.",
+      "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - Reuters",
+      "summary": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric Reuters",
       "impact_score": 83.0,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Three things to watch as Trump, Xi and Putin meet in China",
-      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.",
-      "impact_score": 80.1,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Zelenskyy says Starshield speed curbs still in place over 'occupied territories' of Ukraine",
-      "summary": "Ukraine's charge d'affaires to the U.S., Denys Sienik, said that Starshield had been speed-limited for seven days already in Ukraine.",
-      "impact_score": 80.0,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-      "summary": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Nvidia’s Interim CEO Has a Tough Challenge: Keep the Growth, Leave the Baggage - WSJ",
-      "summary": "Nvidia’s Interim CEO Has a Tough Challenge: Keep the Growth, Leave the Baggage WSJ",
-      "impact_score": 77.7,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
-      "summary": "Homebuilder sentiment fell to a 14-year low amid high mortgage rates and higher prices for energy, labor and materials. That caused more builder price cuts.",
-      "impact_score": 77.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Japan marks a trade deficit in October as oil prices keep imports high",
-      "summary": "Japan marks a trade deficit in October as oil prices keep imports high Yahoo Finance",
-      "impact_score": 76.2,
-      "sentiment_score": -0.25
+      "title": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach - Bloomberg.com",
+      "summary": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach Bloomberg.com",
+      "impact_score": 82.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Treasury Yields Fall, German Bunds’ Tick Higher - WSJ",
+      "summary": "Treasury Yields Fall, German Bunds’ Tick Higher WSJ",
+      "impact_score": 82.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance",
+      "summary": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance Reuters",
+      "impact_score": 81.4,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals - Yahoo Finance",
+      "summary": "Gold Falls Below $3,800 as Federal Reserve Rate Hike Expectations Pressure Precious Metals Yahoo Finance",
+      "impact_score": 81.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
+      "summary": "Mortgage rates moved sharply higher last week, causing demand for both mortgage refinances and home purchase loans to drop. Rates hit the highest in 3 weeks.",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed's Waller doubles down on a jumbo rate hike in December, sees more hikes to come - Yahoo Finance",
+      "summary": "Fed's Waller doubles down on a jumbo rate hike in December, sees more hikes to come Yahoo Finance",
+      "impact_score": 79.2,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
