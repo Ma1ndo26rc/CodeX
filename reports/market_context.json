@@ -1,36 +1,18 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1543 articles from Yahoo Finance, Benzinga, TradingView, Seeking Alpha, Investing.com. The dominant theme is macro, with 649 macro items, 437 company items, 401 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (178), inflation (115), oil/energy (85), growth/jobs (13). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 188 positive, 183 negative, and 1172 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1516 articles from Yahoo Finance, The Motley Fool, CNBC, CNBC Markets, BigGo Finance. The dominant theme is macro, with 626 macro items, 457 company items, 376 industry items, and 57 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (152), inflation (110), oil/energy (84), growth/jobs (18). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 177 positive, 205 negative, and 1134 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Fed minutes show growing unease about the outlook for inflation",
-      "summary": "The minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.",
-      "impact_score": 83.6,
-      "sentiment_score": -0.25
-    },
-    {
-      "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - Reuters",
-      "summary": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric Reuters",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach - Bloomberg.com",
-      "summary": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach Bloomberg.com",
+      "title": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric - CNBC",
+      "summary": "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric CNBC",
       "impact_score": 82.7,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Fall, German Bunds’ Tick Higher - WSJ",
-      "summary": "Treasury Yields Fall, German Bunds’ Tick Higher WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance",
-      "summary": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance Reuters",
-      "impact_score": 81.4,
+      "title": "Muse AI agent burrowed into Meta employee’s encrypted Signal messages",
+      "summary": "Muse AI agent burrowed into Meta employee’s encrypted Signal messages Reuters",
+      "impact_score": 81.5,
       "sentiment_score": 0.03
     },
     {
@@ -40,17 +22,35 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Mortgage demand turns lower, as interest rates shoot back up to the highest level in three weeks",
-      "summary": "Mortgage rates moved sharply higher last week, causing demand for both mortgage refinances and home purchase loans to drop. Rates hit the highest in 3 weeks.",
-      "impact_score": 79.2,
+      "title": "Longer-dated Treasury yields fall as traders weigh Waller comments, Fed minutes - CNBC",
+      "summary": "Longer-dated Treasury yields fall as traders weigh Waller comments, Fed minutes CNBC",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "Fed's Waller doubles down on a jumbo rate hike in December, sees more hikes to come - Yahoo Finance",
-      "summary": "Fed's Waller doubles down on a jumbo rate hike in December, sees more hikes to come Yahoo Finance",
-      "impact_score": 79.2,
+      "title": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach - Bloomberg",
+      "summary": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach Bloomberg",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "US Stock Futures Rally as Nvidia Results Ease AI Trade Worries - Bloomberg",
+      "summary": "US Stock Futures Rally as Nvidia Results Ease AI Trade Worries Bloomberg",
+      "impact_score": 79.8,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Federal Reserve October 2026 Minutes Highlight Rate Hike Expectations",
+      "summary": "Federal Reserve October 2026 Minutes Highlight Rate Hike Expectations Blockchain News",
+      "impact_score": 79.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Two new housing reports point to bleak winter ahead, with record low sales",
+      "summary": "Two new reports on the state of the housing market show things are just getting worse, as high mortgage rates and inflation plague builders and buyers.",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
