@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-18T20:49:37.342839+00:00",
+  "generated_at": "2026-11-19T03:08:28.294132+00:00",
   "reports": [
+    {
+      "date": "2026-11-19",
+      "report_type": "close",
+      "report_label": "Market Close Brief",
+      "generated_at": "2026-11-19T03:08:24.109610+00:00",
+      "market_session": "US Market Close",
+      "source_window": "Previous 24 hours through the market close cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-19-close.json",
+      "dynamic_headline": "Fed/rates leads a mixed and wait-and-see completed US equity session.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1558 articles from Yahoo Finance, The Motley Fool, CNBC, CNBC Markets, BigGo Finance. The dominant theme is macro, with 665 macro items, 464 company items, 371 industry items, and 58 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 73.6
+    },
     {
       "date": "2026-11-18",
       "report_type": "premarket",
