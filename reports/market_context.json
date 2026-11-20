@@ -1,54 +1,54 @@
 {
-  "market_summary": "The completed US equity session is mixed and wait-and-see, based on 1614 articles from Yahoo Finance, Bloomberg.com, Seeking Alpha, The Motley Fool, 24/7 Wall St.. The dominant theme is macro, with 629 macro items, 541 company items, 395 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (146), inflation (101), oil/energy (78), growth/jobs (20). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 222 positive, 225 negative, and 1167 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is cautious to risk-off, based on 1620 articles from Yahoo Finance, Seeking Alpha, TradingView, Investing.com, Bloomberg.com. The dominant theme is macro, with 652 macro items, 476 company items, 430 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (103), oil/energy (89), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 184 positive, 316 negative, and 1120 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
-      "summary": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns The Lufkin Daily News",
-      "impact_score": 81.0,
-      "sentiment_score": 0.03
+      "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge - Reuters",
+      "summary": "Tech stocks tumble, Treasury yields fall as traders seek refuge Reuters",
+      "impact_score": 83.0,
+      "sentiment_score": -0.35
     },
     {
       "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite - WSJ",
       "summary": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite WSJ",
-      "impact_score": 80.6,
+      "impact_score": 83.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Fall, German Bunds’ Tick Higher - WSJ",
-      "summary": "Treasury Yields Fall, German Bunds’ Tick Higher WSJ",
-      "impact_score": 80.6,
+      "title": "AI tech rout prompts US investors to rush into value stocks",
+      "summary": "AI tech rout prompts US investors to rush into value stocks Reuters",
+      "impact_score": 81.5,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates - BNN Bloomberg",
+      "summary": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates BNN Bloomberg",
+      "impact_score": 80.7,
       "sentiment_score": -0.35
     },
     {
       "title": "Fed Cuts Pay Raises for Regional-Bank Staff - WSJ",
       "summary": "Fed Cuts Pay Raises for Regional-Bank Staff WSJ",
-      "impact_score": 78.7,
+      "impact_score": 80.6,
       "sentiment_score": -0.35
     },
     {
-      "title": "Gold's bad year is getting worse. Why its price keeps falling",
-      "summary": "Gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the precious metal.",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Goolsbee says the Fed's job right now is to keep AI surge from overheating the economy - Reuters",
-      "summary": "Goolsbee says the Fed's job right now is to keep AI surge from overheating the economy Reuters",
-      "impact_score": 78.1,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "What Ron Johnson's 'Ponzi scheme' label gets wrong about Social Security, experts say",
-      "summary": "Social Security's trust funds face a looming shortfall. But AARP says Sen. Ron Johnson's description of the program as a \"legal Ponzi scheme\" is inaccurate.",
-      "impact_score": 77.5,
+      "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns",
+      "summary": "The S&P 500 is nearing a level worth buying if the U.S. avoids a recession, but one strategist warns Wall Street is underpricing the hard-landing risk as he said investors should wait before buying risky assets.",
+      "impact_score": 77.8,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-      "summary": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance",
-      "impact_score": 76.5,
+      "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns - MarketWatch",
+      "summary": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns MarketWatch",
+      "impact_score": 76.9,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
+      "summary": "Bitcoin’s sell-off is tracking risk assets again as experts weigh rates, ETF flows, politics and whether the crypto can function as a market hedge.",
+      "impact_score": 76.3,
       "sentiment_score": 0.35
     }
   ],
