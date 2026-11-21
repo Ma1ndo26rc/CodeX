@@ -1,47 +1,47 @@
 {
-  "market_summary": "The pre-market setup is cautious to risk-off, based on 1620 articles from Yahoo Finance, Seeking Alpha, TradingView, Investing.com, Bloomberg.com. The dominant theme is macro, with 652 macro items, 476 company items, 430 industry items, and 62 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (194), inflation (103), oil/energy (89), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 184 positive, 316 negative, and 1120 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1654 articles from Yahoo Finance, TradingView, Seeking Alpha, Bloomberg.com, Investing.com. The dominant theme is macro, with 688 macro items, 465 company items, 452 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (197), inflation (101), oil/energy (79), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 174 positive, 310 negative, and 1170 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge - Reuters",
-      "summary": "Tech stocks tumble, Treasury yields fall as traders seek refuge Reuters",
-      "impact_score": 83.0,
+      "title": "Oil Futures Fall for Third Straight Week on Supply Outlook - WSJ",
+      "summary": "Oil Futures Fall for Third Straight Week on Supply Outlook WSJ",
+      "impact_score": 81.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite - WSJ",
-      "summary": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite WSJ",
-      "impact_score": 83.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "AI tech rout prompts US investors to rush into value stocks",
-      "summary": "AI tech rout prompts US investors to rush into value stocks Reuters",
-      "impact_score": 81.5,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates - BNN Bloomberg",
-      "summary": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates BNN Bloomberg",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed Cuts Pay Raises for Regional-Bank Staff - WSJ",
-      "summary": "Fed Cuts Pay Raises for Regional-Bank Staff WSJ",
-      "impact_score": 80.6,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns",
-      "summary": "The S&P 500 is nearing a level worth buying if the U.S. avoids a recession, but one strategist warns Wall Street is underpricing the hard-landing risk as he said investors should wait before buying risky assets.",
-      "impact_score": 77.8,
+      "title": "Stock Market Today: Nasdaq Wipes Out 2026 Gains, S&P 500 Sinks for 7th Straight Day as AI Meltdown Accelerates; Anthropic Drops to Near IPO Price - Yahoo Finance",
+      "summary": "Stock Market Today: Nasdaq Wipes Out 2026 Gains, S&P 500 Sinks for 7th Straight Day as AI Meltdown Accelerates; Anthropic Drops to Near IPO Price Yahoo Finance",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
       "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns - MarketWatch",
       "summary": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns MarketWatch",
+      "impact_score": 78.9,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Dollar set for fourth weekly gain, supported by Fed tightening expectations, AI-driven haven bid - Yahoo Finance",
+      "summary": "Dollar set for fourth weekly gain, supported by Fed tightening expectations, AI-driven haven bid Yahoo Finance",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid - CNBC",
+      "summary": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid CNBC",
+      "impact_score": 78.3,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Tech leads global stocks rout, Treasury yields fall - Yahoo Finance",
+      "summary": "Tech leads global stocks rout, Treasury yields fall Yahoo Finance",
+      "impact_score": 77.4,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65% - Yahoo Finance",
+      "summary": "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65% Yahoo Finance",
       "impact_score": 76.9,
       "sentiment_score": -0.35
     },
