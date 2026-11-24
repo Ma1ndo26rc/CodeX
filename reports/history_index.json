@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-24T05:52:49.842783+00:00",
+  "generated_at": "2026-11-24T22:41:42.742737+00:00",
   "reports": [
+    {
+      "date": "2026-11-24",
+      "report_type": "premarket",
+      "report_label": "Pre-Market Brief",
+      "generated_at": "2026-11-24T22:41:39.189969+00:00",
+      "market_session": "US Pre-Market",
+      "source_window": "Previous 24 hours through the pre-market cutoff",
+      "data_freshness_warning": false,
+      "file": "history/2026-11-24-premarket.json",
+      "dynamic_headline": "oil/energy leads a mixed and wait-and-see pre-market setup.",
+      "dynamic_headline_zh": "",
+      "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1674 articles from Yahoo Finance, TradingView, The Motley Fool, Yahoo! Finance Canada, Benzinga. The dominant theme is macro, with 672 macro items, 541 company items, 400 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+      "market_summary_zh": "",
+      "event_count": 10,
+      "avg_impact": 72.4
+    },
     {
       "date": "2026-11-24",
       "report_type": "close",
@@ -16,22 +32,6 @@
       "market_summary_zh": "",
       "event_count": 10,
       "avg_impact": 74.0
-    },
-    {
-      "date": "2026-11-24",
-      "report_type": "premarket",
-      "report_label": "Pre-Market Brief",
-      "generated_at": "2026-11-24T00:12:36.245631+00:00",
-      "market_session": "US Pre-Market",
-      "source_window": "Previous 24 hours through the pre-market cutoff",
-      "data_freshness_warning": false,
-      "file": "history/2026-11-24-premarket.json",
-      "dynamic_headline": "Fed/rates leads a constructive but selective pre-market setup.",
-      "dynamic_headline_zh": "",
-      "market_summary": "The pre-market setup is constructive but selective, based on 1667 articles from Yahoo Finance, kalkine.ca, TradingView, Seeking Alpha, The Motley Fool. The dominant theme is macro, with 657 macro items, 562 company items, 384 industry items, and 64 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-      "market_summary_zh": "",
-      "event_count": 10,
-      "avg_impact": 73.4
     },
     {
       "date": "2026-11-21",
