@@ -1,56 +1,56 @@
 {
-  "market_summary": "The completed US equity session is cautious to risk-off, based on 1654 articles from Yahoo Finance, TradingView, Seeking Alpha, Bloomberg.com, Investing.com. The dominant theme is macro, with 688 macro items, 465 company items, 452 industry items, and 49 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (197), inflation (101), oil/energy (79), growth/jobs (23). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 174 positive, 310 negative, and 1170 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is constructive but selective, based on 1614 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, CNBC Markets. The dominant theme is macro, with 609 macro items, 560 company items, 380 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (164), inflation (110), oil/energy (66), growth/jobs (17). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 253 positive, 209 negative, and 1152 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
+    {
+      "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
+      "summary": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return AP News",
+      "impact_score": 86.2,
+      "sentiment_score": 0.05
+    },
+    {
+      "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
+      "summary": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand - Bloomberg.com",
+      "summary": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules - Bloomberg.com",
+      "summary": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules Bloomberg.com",
+      "impact_score": 80.7,
+      "sentiment_score": -0.35
+    },
     {
       "title": "Oil Futures Fall for Third Straight Week on Supply Outlook - WSJ",
       "summary": "Oil Futures Fall for Third Straight Week on Supply Outlook WSJ",
-      "impact_score": 81.0,
+      "impact_score": 79.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Stock Market Today: Nasdaq Wipes Out 2026 Gains, S&P 500 Sinks for 7th Straight Day as AI Meltdown Accelerates; Anthropic Drops to Near IPO Price - Yahoo Finance",
-      "summary": "Stock Market Today: Nasdaq Wipes Out 2026 Gains, S&P 500 Sinks for 7th Straight Day as AI Meltdown Accelerates; Anthropic Drops to Near IPO Price Yahoo Finance",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
+      "title": "Fed's Williams says inflation still too high, signals more rate hikes possible",
+      "summary": "Fed's Williams says inflation still too high, signals more rate hikes possible The Lufkin Daily News",
+      "impact_score": 79.0,
+      "sentiment_score": -0.8
     },
     {
-      "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns - MarketWatch",
-      "summary": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns MarketWatch",
-      "impact_score": 78.9,
-      "sentiment_score": -0.35
+      "title": "Fed’s Williams signals potential consecutive rate hikes if inflation persists",
+      "summary": "Fed’s Williams signals potential consecutive rate hikes if inflation persists Crypto Briefing",
+      "impact_score": 79.0,
+      "sentiment_score": -0.8
     },
     {
-      "title": "Dollar set for fourth weekly gain, supported by Fed tightening expectations, AI-driven haven bid - Yahoo Finance",
-      "summary": "Dollar set for fourth weekly gain, supported by Fed tightening expectations, AI-driven haven bid Yahoo Finance",
+      "title": "Futures rally after Wall Street's nightmare week - CNBC",
+      "summary": "Futures rally after Wall Street's nightmare week CNBC",
       "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid - CNBC",
-      "summary": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid CNBC",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
-    },
-    {
-      "title": "Tech leads global stocks rout, Treasury yields fall - Yahoo Finance",
-      "summary": "Tech leads global stocks rout, Treasury yields fall Yahoo Finance",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65% - Yahoo Finance",
-      "summary": "Medical Properties Trust Yields 22%, but Its Stock Has Crashed 65% Yahoo Finance",
-      "impact_score": 76.9,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-      "summary": "Bitcoin’s sell-off is tracking risk assets again as experts weigh rates, ETF flows, politics and whether the crypto can function as a market hedge.",
-      "impact_score": 76.3,
       "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
