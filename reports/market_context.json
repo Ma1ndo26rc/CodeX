@@ -1,30 +1,24 @@
 {
-  "market_summary": "The completed US equity session is constructive but selective, based on 1814 articles from Yahoo Finance, kalkine.ca, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 721 macro items, 613 company items, 406 industry items, and 74 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (187), inflation (133), oil/energy (83), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 322 positive, 212 negative, and 1280 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1534 articles from Yahoo Finance, TradingView, The Motley Fool, BigGo Finance, CNBC Markets. The dominant theme is macro, with 679 macro items, 418 company items, 382 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (147), inflation (132), oil/energy (74), growth/jobs (18). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is mixed and wait-and-see: 179 positive, 205 negative, and 1150 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
-      "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
-      "impact_score": 85.7,
-      "sentiment_score": 0.06
+      "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
+      "summary": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due Investor's Business Daily",
+      "impact_score": 90.1,
+      "sentiment_score": -0.21
     },
     {
-      "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand - Bloomberg.com",
-      "summary": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
+      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
+      "summary": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington Reuters",
+      "impact_score": 87.9,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules - Bloomberg.com",
-      "summary": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Fed Cuts Pay Raises for Regional-Bank Staff - WSJ",
-      "summary": "Fed Cuts Pay Raises for Regional-Bank Staff WSJ",
-      "impact_score": 80.6,
+      "title": "Gold falls 2% on hawkish Fed bets, U.S. inflation data in focus - CNBC",
+      "summary": "Gold falls 2% on hawkish Fed bets, U.S. inflation data in focus CNBC",
+      "impact_score": 81.2,
       "sentiment_score": -0.35
     },
     {
@@ -34,23 +28,29 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Futures Fall for Third Straight Week on Supply Outlook - WSJ",
-      "summary": "Oil Futures Fall for Third Straight Week on Supply Outlook WSJ",
-      "impact_score": 79.0,
+      "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
+      "summary": "Commercial real estate activity dropped 14% in October from September, according to an index from LightBox, a commercial real estate data platform.",
+      "impact_score": 79.2,
       "sentiment_score": -0.35
     },
     {
-      "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
-      "summary": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh Bloomberg.com",
-      "impact_score": 78.7,
-      "sentiment_score": -0.35
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "summary": "“My wife stopped working outside the home in 1970.”",
+      "impact_score": 77.4,
+      "sentiment_score": 0.03
     },
     {
-      "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
-      "summary": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
-      "impact_score": 78.2,
+      "title": "S&P500 and Nasdaq Index: AI Stocks Slide as Nvidia and Anthropic Retreat",
+      "summary": "S&P500 and Nasdaq Index: AI Stocks Slide as Nvidia and Anthropic Retreat FXEmpire",
+      "impact_score": 76.7,
+      "sentiment_score": -0.2
+    },
+    {
+      "title": "Oil Prices Fall to Three-Month Lows as Rising Supply Offsets Strait of Hormuz Risks - Yahoo Finance",
+      "summary": "Oil Prices Fall to Three-Month Lows as Rising Supply Offsets Strait of Hormuz Risks Yahoo Finance",
+      "impact_score": 76.4,
       "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
 }
