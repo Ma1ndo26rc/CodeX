@@ -1,19 +1,13 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1614 articles from Yahoo Finance, TradingView, Seeking Alpha, The Motley Fool, CNBC Markets. The dominant theme is macro, with 609 macro items, 560 company items, 380 industry items, and 65 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (164), inflation (110), oil/energy (66), growth/jobs (17). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 253 positive, 209 negative, and 1152 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1814 articles from Yahoo Finance, kalkine.ca, TradingView, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 721 macro items, 613 company items, 406 industry items, and 74 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (187), inflation (133), oil/energy (83), growth/jobs (32). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 322 positive, 212 negative, and 1280 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return",
-      "summary": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return AP News",
-      "impact_score": 86.2,
-      "sentiment_score": 0.05
-    },
-    {
-      "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
-      "summary": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh Bloomberg.com",
-      "impact_score": 80.7,
-      "sentiment_score": -0.35
+      "title": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+      "summary": "Jensen Huang’s return has underscored Nvidia’s deep reliance on its founder, putting the company's board oversight and corporate governance under scrutiny.",
+      "impact_score": 85.7,
+      "sentiment_score": 0.06
     },
     {
       "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand - Bloomberg.com",
@@ -28,29 +22,35 @@
       "sentiment_score": -0.35
     },
     {
+      "title": "Fed Cuts Pay Raises for Regional-Bank Staff - WSJ",
+      "summary": "Fed Cuts Pay Raises for Regional-Bank Staff WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Top Fed official probed over whether she breached ‘blackout period’ - Financial Times",
+      "summary": "Top Fed official probed over whether she breached ‘blackout period’ Financial Times",
+      "impact_score": 80.1,
+      "sentiment_score": -0.35
+    },
+    {
       "title": "Oil Futures Fall for Third Straight Week on Supply Outlook - WSJ",
       "summary": "Oil Futures Fall for Third Straight Week on Supply Outlook WSJ",
       "impact_score": 79.0,
       "sentiment_score": -0.35
     },
     {
-      "title": "Fed's Williams says inflation still too high, signals more rate hikes possible",
-      "summary": "Fed's Williams says inflation still too high, signals more rate hikes possible The Lufkin Daily News",
-      "impact_score": 79.0,
-      "sentiment_score": -0.8
+      "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh - Bloomberg.com",
+      "summary": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh Bloomberg.com",
+      "impact_score": 78.7,
+      "sentiment_score": -0.35
     },
     {
-      "title": "Fed’s Williams signals potential consecutive rate hikes if inflation persists",
-      "summary": "Fed’s Williams signals potential consecutive rate hikes if inflation persists Crypto Briefing",
-      "impact_score": 79.0,
-      "sentiment_score": -0.8
-    },
-    {
-      "title": "Futures rally after Wall Street's nightmare week - CNBC",
-      "summary": "Futures rally after Wall Street's nightmare week CNBC",
-      "impact_score": 78.3,
-      "sentiment_score": 0.35
+      "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+      "summary": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
+      "impact_score": 78.2,
+      "sentiment_score": -0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
