@@ -1,56 +1,56 @@
 {
-  "market_summary": "The pre-market setup is mixed and wait-and-see, based on 1534 articles from Yahoo Finance, TradingView, The Motley Fool, BigGo Finance, CNBC Markets. The dominant theme is macro, with 679 macro items, 418 company items, 382 industry items, and 55 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (147), inflation (132), oil/energy (74), growth/jobs (18). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is mixed and wait-and-see: 179 positive, 205 negative, and 1150 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1648 articles from Yahoo Finance, TradingView, The Motley Fool, BigGo Finance, 24/7 Wall St.. The dominant theme is macro, with 710 macro items, 500 company items, 382 industry items, and 56 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (152), inflation (120), oil/energy (77), tariffs/policy (20). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 200 positive, 249 negative, and 1199 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-      "summary": "Dow Jones Futures: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due Investor's Business Daily",
-      "impact_score": 90.1,
-      "sentiment_score": -0.21
+      "title": "Treasury Yields Hold Steady Ahead of Inflation Data",
+      "summary": "Treasury Yields Hold Steady Ahead of Inflation Data Demokratis.co.id",
+      "impact_score": 88.1,
+      "sentiment_score": -0.25
     },
     {
-      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
-      "summary": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington Reuters",
-      "impact_score": 87.9,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "Gold falls 2% on hawkish Fed bets, U.S. inflation data in focus - CNBC",
-      "summary": "Gold falls 2% on hawkish Fed bets, U.S. inflation data in focus CNBC",
-      "impact_score": 81.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Top Fed official probed over whether she breached ‘blackout period’ - Financial Times",
-      "summary": "Top Fed official probed over whether she breached ‘blackout period’ Financial Times",
-      "impact_score": 80.1,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Commercial real estate activity falls 14% in October, as interest rates rise",
-      "summary": "Commercial real estate activity dropped 14% in October from September, according to an index from LightBox, a commercial real estate data platform.",
-      "impact_score": 79.2,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "summary": "“My wife stopped working outside the home in 1970.”",
-      "impact_score": 77.4,
-      "sentiment_score": 0.03
-    },
-    {
-      "title": "S&P500 and Nasdaq Index: AI Stocks Slide as Nvidia and Anthropic Retreat",
-      "summary": "S&P500 and Nasdaq Index: AI Stocks Slide as Nvidia and Anthropic Retreat FXEmpire",
-      "impact_score": 76.7,
+      "title": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street",
+      "summary": "Asian stocks mostly decline as AI shares fall following a retreat on Wall Street Yahoo Finance",
+      "impact_score": 81.0,
       "sentiment_score": -0.2
     },
     {
-      "title": "Oil Prices Fall to Three-Month Lows as Rising Supply Offsets Strait of Hormuz Risks - Yahoo Finance",
-      "summary": "Oil Prices Fall to Three-Month Lows as Rising Supply Offsets Strait of Hormuz Risks Yahoo Finance",
-      "impact_score": 76.4,
+      "title": "Fed Cuts Pay Raises for Regional-Bank Staff - WSJ",
+      "summary": "Fed Cuts Pay Raises for Regional-Bank Staff WSJ",
+      "impact_score": 80.6,
       "sentiment_score": -0.35
+    },
+    {
+      "title": "Anthropic closes below IPO price as tech rally fades - Financial Times",
+      "summary": "Anthropic closes below IPO price as tech rally fades Financial Times",
+      "impact_score": 79.2,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "summary": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
+      "impact_score": 78.9,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "US Stock Futures Mixed After Nvidia-Led Rally as Investors Assess Federal Reserve Rate Outlook: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+      "summary": "US Stock Futures Mixed After Nvidia-Led Rally as Investors Assess Federal Reserve Rate Outlook: Dow Jones, S&P, Nasdaq, Wall Street Yahoo Finance",
+      "impact_score": 76.5,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+      "summary": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+      "impact_score": 76.5,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Chevron Corporation (CVX) Is Benefiting From Rising Oil Prices: Could Geopolitical Tensions Fuel Further Gains? - Yahoo Finance",
+      "summary": "Chevron Corporation (CVX) Is Benefiting From Rising Oil Prices: Could Geopolitical Tensions Fuel Further Gains? Yahoo Finance",
+      "impact_score": 75.5,
+      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, inflation, oil/energy, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
 }
