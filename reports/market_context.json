@@ -1,14 +1,8 @@
 {
-  "market_summary": "The pre-market setup is cautious to risk-off, based on 1682 articles from Yahoo Finance, TradingView, The Motley Fool, Traders Union, Seeking Alpha. The dominant theme is macro, with 772 macro items, 450 company items, 394 industry items, and 66 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around inflation (197), Fed/rates (187), oil/energy (90), tariffs/policy (60). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is cautious to risk-off: 160 positive, 296 negative, and 1226 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is cautious to risk-off, based on 1610 articles from Yahoo Finance, TradingView, BigGo Finance, The Motley Fool, Traders Union. The dominant theme is macro, with 711 macro items, 457 company items, 384 industry items, and 58 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Slowdown Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from inflation, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (184), inflation (179), oil/energy (90), tariffs/policy (63). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is cautious to risk-off: 183 positive, 297 negative, and 1130 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
-    {
-      "title": "Treasury Yields Extend Fall After U.S. Data Flurry - WSJ",
-      "summary": "Treasury Yields Extend Fall After U.S. Data Flurry WSJ",
-      "impact_score": 82.6,
-      "sentiment_score": -0.35
-    },
     {
       "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures - Bloomberg",
       "summary": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures Bloomberg",
@@ -16,8 +10,14 @@
       "sentiment_score": 0.35
     },
     {
-      "title": "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
-      "summary": "Fed survey shows continued growth and sticky inflation in recent weeks Reuters",
+      "title": "Treasury Yields Extend Fall After U.S. Data Flurry - WSJ",
+      "summary": "Treasury Yields Extend Fall After U.S. Data Flurry WSJ",
+      "impact_score": 80.6,
+      "sentiment_score": -0.35
+    },
+    {
+      "title": "Fed survey shows continued economic growth, sticky inflation in recent weeks - Reuters",
+      "summary": "Fed survey shows continued economic growth, sticky inflation in recent weeks Reuters",
       "impact_score": 80.1,
       "sentiment_score": 0.35
     },
@@ -34,22 +34,22 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Oil Futures Fall for Third Straight Week on Supply Outlook - WSJ",
-      "summary": "Oil Futures Fall for Third Straight Week on Supply Outlook WSJ",
-      "impact_score": 79.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market",
-      "summary": "Anthropic, Nvidia, Micron, HP Inc., Dell, Deere, and More Stocks That Explain Today’s Market Barron's",
+      "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+      "summary": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
       "impact_score": 78.3,
-      "sentiment_score": 0.21
+      "sentiment_score": 0.35
     },
     {
-      "title": "Nasdaq 100 Futures Drop 3.2% as AI Spending Concerns and Fed Rate Hike Expectations Pressure Wall Street: Dow Jones, S&P - Yahoo Finance UK",
-      "summary": "Nasdaq 100 Futures Drop 3.2% as AI Spending Concerns and Fed Rate Hike Expectations Pressure Wall Street: Dow Jones, S&P Yahoo Finance UK",
-      "impact_score": 77.4,
-      "sentiment_score": -0.35
+      "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+      "summary": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
+      "impact_score": 78.0,
+      "sentiment_score": 0.03
+    },
+    {
+      "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+      "summary": "S&P Global Ratings said Nvidia's credit rating could be cut by one notch as it flagged \"rising\" management and governance risk at the chipmaker.",
+      "impact_score": 77.8,
+      "sentiment_score": -0.16
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: inflation, Fed/rates, oil/energy, tariffs/policy"
