@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-26T04:08:21.058515",
+  "as_of": "2026-11-26T21:55:07.718199",
   "items": [
     {
       "name": "SPY",
@@ -28,10 +28,10 @@
     {
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 28.29,
-      "change": 1.93,
-      "change_pct": 7.322,
-      "market_time": 1795641301
+      "price": 26.8,
+      "change": -1.49,
+      "change_pct": -5.267,
+      "market_time": 1795710600
     }
   ]
 }
