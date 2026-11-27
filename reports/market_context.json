@@ -1,37 +1,37 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1642 articles from Yahoo Finance, TradingView, BigGo Finance, Seeking Alpha, Simply Wall St. The dominant theme is macro, with 741 macro items, 426 company items, 414 industry items, and 61 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (169), inflation (147), oil/energy (100), growth/jobs (43). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 230 positive, 187 negative, and 1225 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1716 articles from Yahoo Finance, TradingView, kalkine.co.uk, BigGo Finance, Seeking Alpha. The dominant theme is macro, with 747 macro items, 512 company items, 404 industry items, and 53 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (163), inflation (113), oil/energy (100), growth/jobs (29). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 244 positive, 172 negative, and 1300 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-      "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+      "title": "Trump: 'Market feels very good' about Huang's return as Nvidia CEO",
+      "summary": "Trump: 'Market feels very good' about Huang's return as Nvidia CEO Reuters",
       "impact_score": 83.7,
       "sentiment_score": 0.03
     },
     {
-      "title": "Australian bank ANZ dropped from NY Fed's foreign exchange counterparty list - Reuters",
-      "summary": "Australian bank ANZ dropped from NY Fed's foreign exchange counterparty list Reuters",
-      "impact_score": 81.0,
-      "sentiment_score": -0.35
-    },
-    {
-      "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
-      "summary": "Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
-      "impact_score": 79.7,
+      "title": "Oil Set for Weekly Gain as Mideast Attacks Keep Market on Edge - Bloomberg.com",
+      "summary": "Oil Set for Weekly Gain as Mideast Attacks Keep Market on Edge Bloomberg.com",
+      "impact_score": 80.2,
       "sentiment_score": 0.35
     },
     {
-      "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains' - CNBC",
-      "summary": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains' CNBC",
-      "impact_score": 79.7,
-      "sentiment_score": 0.35
+      "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+      "summary": "Iran's foreign minister Abbas Araghchi said \"The incident is suspicious and looks like a precooked recipe for war.\"",
+      "impact_score": 80.0,
+      "sentiment_score": -0.45
     },
     {
-      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
-      "summary": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
-      "impact_score": 78.9,
-      "sentiment_score": -0.35
+      "title": "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehensive Collapse",
+      "summary": "The Federal Reserve May Be Forced to Abandon Rate Hikes in December! Former Goldman Sachs Strategist Issues Major Warning: Risk Assets Could Face a Comprehensive Collapse Moomoo",
+      "impact_score": 79.2,
+      "sentiment_score": -0.55
+    },
+    {
+      "title": "Bill Ackman Warns Fed Rate Hike Could Trigger Global Recession as Inflation Reaches 3.8%",
+      "summary": "Bill Ackman Warns Fed Rate Hike Could Trigger Global Recession as Inflation Reaches 3.8% Hokanews",
+      "impact_score": 79.2,
+      "sentiment_score": -0.8
     },
     {
       "title": "Switzerland’s biggest bank set for showdown with lawmakers as capital fight intensifies amid crisis planning",
@@ -40,16 +40,16 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Nate Silver predicts Trump ‘absolutely’ could be impeached over Nvidia’s China chip sales",
-      "summary": "Nate Silver predicts Trump ‘absolutely’ could be impeached over Nvidia’s China chip sales The Independent",
-      "impact_score": 77.5,
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "summary": "“My wife stopped working outside the home in 1970.”",
+      "impact_score": 77.1,
       "sentiment_score": 0.03
     },
     {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "summary": "“My wife stopped working outside the home in 1970.”",
-      "impact_score": 77.4,
-      "sentiment_score": 0.03
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "summary": "“He explained that he wasn’t trying to hide the payment, but his former wife lost her job in a medical billing company.”",
+      "impact_score": 76.9,
+      "sentiment_score": -0.35
     }
   ],
   "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
