@@ -1,12 +1,24 @@
 {
-  "market_summary": "The pre-market setup is constructive but selective, based on 1622 articles from Yahoo Finance, TradingView, Benzinga, The Motley Fool, Seeking Alpha. The dominant theme is macro, with 665 macro items, 522 company items, 383 industry items, and 52 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
-  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from Fed/rates, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (151), inflation (120), oil/energy (85), growth/jobs (29). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
-  "risk_summary": "Sentiment is constructive but selective: 264 positive, 133 negative, and 1225 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
+  "market_summary": "The completed US equity session is constructive but selective, based on 1522 articles from Yahoo Finance, TradingView, The Motley Fool, Seeking Alpha, BigGo Finance. The dominant theme is macro, with 608 macro items, 491 company items, 369 industry items, and 54 policy items. The tape looks more useful for identifying near-term rotation and risk appetite than for making a single directional index call.",
+  "macro_summary": "Late Cycle Markets are balancing easier policy expectations against growth and earnings risk, keeping leadership narrow and confirmation dependent. The market is taking its direction from oil/energy, with investors testing whether policy support can offset slower growth and earnings risk. Macro coverage is concentrated around Fed/rates (124), inflation (103), oil/energy (87), growth/jobs (26). The practical implication is that equity rallies may need confirmation from rates and inflation expectations; if yields rise while growth headlines weaken, risk appetite can fade quickly.",
+  "risk_summary": "Sentiment is constructive but selective: 261 positive, 124 negative, and 1137 neutral articles. My read is to avoid treating headline volume as conviction by itself; the more important signal is whether macro-sensitive and technology-sensitive stories are pointing in the same direction.",
   "top_events": [
     {
-      "title": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
-      "summary": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask Yahoo News New Zealand",
-      "impact_score": 81.8,
+      "title": "Traders Trim Fed Rate Hike Bets for 2027",
+      "summary": "Traders Trim Fed Rate Hike Bets for 2027 Wisevoter",
+      "impact_score": 84.0,
+      "sentiment_score": -0.26
+    },
+    {
+      "title": "Oil prices are again rising - here’s why - BNN Bloomberg",
+      "summary": "Oil prices are again rising - here’s why BNN Bloomberg",
+      "impact_score": 80.2,
+      "sentiment_score": 0.35
+    },
+    {
+      "title": "Oil Futures Pick Up as Middle East Tensions Persist",
+      "summary": "Oil Futures Pick Up as Middle East Tensions Persist WSJ",
+      "impact_score": 80.2,
       "sentiment_score": 0.03
     },
     {
@@ -16,15 +28,15 @@
       "sentiment_score": -0.35
     },
     {
-      "title": "Brent oil on track for weekly gain on Middle East supply fears - CNBC",
-      "summary": "Brent oil on track for weekly gain on Middle East supply fears CNBC",
-      "impact_score": 78.7,
-      "sentiment_score": 0.35
+      "title": "Ringgit Expected To Trade Around 4.13 As Fed Rate Hike Looms",
+      "summary": "Ringgit Expected To Trade Around 4.13 As Fed Rate Hike Looms BusinessToday Malaysia",
+      "impact_score": 79.2,
+      "sentiment_score": -0.55
     },
     {
-      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-      "summary": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive. However, they don’t seem to be generating revenues from it at the same rate.",
-      "impact_score": 77.4,
+      "title": "Viper Energy: Acquisitions Boost Oil Production To Over 70,000 Barrels Per Day",
+      "summary": "Viper Energy: Acquisitions Boost Oil Production To Over 70,000 Barrels Per Day Seeking Alpha",
+      "impact_score": 78.2,
       "sentiment_score": 0.03
     },
     {
@@ -34,23 +46,11 @@
       "sentiment_score": 0.35
     },
     {
-      "title": "Federal Reserve Beige Book Highlights Resilient U.S. Economic Growth And Sticky Inflation",
-      "summary": "Federal Reserve Beige Book Highlights Resilient U.S. Economic Growth And Sticky Inflation Crowdfund Insider",
+      "title": "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense.",
+      "summary": "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense. Yahoo Finance",
       "impact_score": 75.6,
-      "sentiment_score": 0.16
-    },
-    {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "summary": "“My wife stopped working outside the home in 1970.”",
-      "impact_score": 75.1,
       "sentiment_score": 0.03
-    },
-    {
-      "title": "Singapore Shares Close Higher on Bank Gains Despite US Tariff Threats - Yahoo Finance Singapore",
-      "summary": "Singapore Shares Close Higher on Bank Gains Despite US Tariff Threats Yahoo Finance Singapore",
-      "impact_score": 74.5,
-      "sentiment_score": 0.35
     }
   ],
-  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: Fed/rates, oil/energy, inflation, growth/jobs"
+  "sector_summary": "Positive sectors/themes: Defensive and cash-generative sectors if risk appetite weakens; Negative sectors/themes: High-duration growth exposure if yields rise; Themes to watch: oil/energy, Fed/rates, inflation, growth/jobs"
 }
